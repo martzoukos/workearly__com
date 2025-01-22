@@ -1,8 +1,8 @@
 import {
   Page as PageType,
   PAGE_SLUGS_QUERY,
-  getContentfulClient,
   getPageBySlug,
+  getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 
@@ -11,7 +11,7 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <div>
-      <h1>This is page</h1>
+      <h1>This is page {page.slug}</h1>
     </div>
   );
 }
@@ -19,7 +19,7 @@ export default function Page({
 export async function getStaticProps(
   context: GetStaticPropsContext<{ pageSlugs: string[] }>
 ) {
-  const [client] = getContentfulClient();
+  const [client] = getServerClient();
   const pageSlug = !context.params?.pageSlugs
     ? "home"
     : (context.params?.pageSlugs.join("/") as string);
@@ -46,7 +46,7 @@ export async function getStaticProps(
 }
 
 export async function getStaticPaths() {
-  const [client] = getContentfulClient();
+  const [client] = getServerClient();
 
   const { data } = await client.query(PAGE_SLUGS_QUERY, {}).toPromise();
 

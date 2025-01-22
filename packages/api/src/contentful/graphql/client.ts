@@ -13,18 +13,7 @@ export function getServerClient(): [Client, SSRExchange] {
   const client = initUrqlClient(
     getContentfulClientOptions({
       exchanges: [ssrCache],
-    }),
-    false
-  );
-
-  return [client, ssrCache] as const;
-}
-
-export function getContentfulClient(): [Client, SSRExchange] {
-  const ssrCache = ssrExchange({ isClient: false });
-  const client = initUrqlClient(
-    getContentfulClientOptions({
-      exchanges: [ssrCache],
+      url: process.env.CONTENTFUL_GRAPHQL_URL,
     }),
     false
   );

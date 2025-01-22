@@ -7,6 +7,9 @@ const config: CodegenConfig = {
   generates: {
     "./src/contentful/graphql/__generated__/gql/": {
       preset: "client",
+      presetConfig: {
+        fragmentMasking: false,
+      },
     },
   },
 };
