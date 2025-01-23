@@ -1,0 +1,84 @@
+@use "sass:math";
+@use "sass:meta";
+@use "sass:map";
+@use "sass:list";
+@use "sass:string";
+@use "./colors" as *;
+@use "./settings" as *;
+
+// Get CSS Var
+@function v($name, $fallback: null) {
+  @if ($fallback) {
+    @return var(--#{$name}, #{$fallback});
+  } @else {
+    @return var(--#{$name});
+  }
+}
+
+// Unit Stripe
+@function strip($value) {
+  @if meta.type-of($value) != "number" {
+    @error "Invalid `#{meta.type-of($value)}` type. Choose a number type instead.";
+  } @else if meta.type-of($value) == "number" and not math.is-unitless($value) {
+    @return math.div($value, ($value * 0 + 1));
+  }
+
+  @return $value;
+}
+
+@function pxToRem($value, $remValue) {
+  @return math.div($value, $remValue);
+}
+
+@function fluid-rem(
+  $min: 1rem,
+  $max: 3rem,
+  $breakpoints: 375 $container,
+  $remValue: 16
+) {
+  $minSizeStriped: strip($min);
+  $maxSizeStriped: strip($max);
+  $minWidthRem: pxToRem(list.nth($breakpoints, 1), $remValue);
+  $maxWidthRem: pxToRem(list.nth($breakpoints, 2), $remValue);
+  $viewportValue: 100;
+
+  $sizeDif: $maxSizeStriped - $minSizeStriped;
+  $widthDif: $maxWidthRem - $minWidthRem;
+
+  $slope: math.div($sizeDif, $widthDif);
+
+  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStriped;
+
+  @return clamp(
+    #{$min},
+    #{$yAxisIntersection}rem + #{$slope * $viewportValue}vw,
+    #{$max}
+  );
+}
+
+@function fluid-px(
+  $min: 16px,
+  $max: 32px,
+  $breakpoints: 375 $container,
+  $remValue: 16
+) {
+  $stripedMin: strip($min);
+  $stripedMax: strip($max);
+  $minBreakPoint: list.nth($breakpoints, 1);
+  $maxBreakPoint: list.nth($breakpoints, 2);
+
+  $sizeDif: $stripedMax - $stripedMin;
+  $widthDif: $maxWidthRem - $minWidthRem;
+
+  $slope: math.div($sizeDif, $widthDif);
+  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStriped;
+
+  $prefered: "#{pxToRem(strip($min), $remValue)}rem + (#{strip($max)} - #{strip($min)}) * ((100vw - #{list.nth($breakpoints, 1)}px) / (#{list.nth($breakpoints, 2)} - #{list.nth($breakpoints, 1)}))";
+
+  @return clamp(#{$min}, #{$prefered}, #{$max});
+}
+
+@function switch($min: 0rem, $max: 2rem, $breakpoint: 100%) {
+  $switch: "(100vw - #{$breakpoint}) * 9999";
+  @return clamp(#{$min}, #{$switch}, #{$max});
+}

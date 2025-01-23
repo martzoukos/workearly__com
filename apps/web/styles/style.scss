@@ -1,0 +1,10 @@
+@forward "./reset";
+@forward "./variables";
+
+body {
+  color: hsl(var(--brand-natural-cool));
+  background-color: hsl(var(--brand-natural));
+  font:
+    400 1rem / 1.25 "aktiv-grotesk",
+    sans-serif;
+}

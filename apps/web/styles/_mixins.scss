@@ -1,0 +1,6 @@
+@use "sass:map";
+
+@mixin size($w: 1rem, $h: $w) {
+  width: $w;
+  height: $h;
+}

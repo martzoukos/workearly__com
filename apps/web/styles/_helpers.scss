@@ -1,0 +1,158 @@
+@use "./functions" as *;
+@use "./settings" as *;
+
+%container {
+  width: min(90rem, 100%);
+  margin-inline: auto;
+}
+
+%componentContainer {
+  width: min(90rem, 100%);
+  margin-inline: auto;
+  overflow: hidden;
+  padding-inline: 0.75rem;
+
+  @media (min-width: 500px) and (max-width: 768px) {
+    padding-inline: 1.5rem;
+  }
+
+  @media (min-width: 768px) and (max-width: 1440px) {
+    padding-inline: 2rem;
+  }
+}
+
+%spacings {
+  &[data-top="1"] {
+    margin-top: 1rem;
+  }
+  &[data-top="2"] {
+    margin-top: 2rem;
+  }
+  &[data-top="3"] {
+    margin-top: 3rem;
+  }
+  &[data-top="4"] {
+    margin-top: 4rem;
+  }
+  &[data-top="5"] {
+    margin-top: 5rem;
+  }
+  &[data-top="6"] {
+    margin-top: 6rem;
+  }
+
+  &[data-bottom="1"] {
+    margin-bottom: 1rem;
+  }
+  &[data-bottom="2"] {
+    margin-bottom: 2rem;
+  }
+  &[data-bottom="3"] {
+    margin-bottom: 3rem;
+  }
+  &[data-bottom="4"] {
+    margin-bottom: 4rem;
+  }
+  &[data-bottom="5"] {
+    margin-bottom: 5rem;
+  }
+  &[data-bottom="6"] {
+    margin-bottom: 6rem;
+  }
+}
+
+%brand-border {
+  &[data-color="Red"] {
+    border-color: hsl(var(--brand-red));
+  }
+  &[data-color="Yellow"] {
+    border-color: hsl(var(--brand-yellow));
+  }
+  &[data-color="Violet"] {
+    border-color: hsl(var(--brand-violet));
+  }
+  &[data-color="Magenta"] {
+    border-color: hsl(var(--brand-magenta));
+  }
+  &[data-color="Green"] {
+    border-color: hsl(var(--brand-green));
+  }
+  &[data-color="Blue"] {
+    border-color: hsl(var(--blue-050));
+  }
+  &[data-color="Light Blue"] {
+    border-color: hsl(var(--brand-blue));
+  }
+  &[data-color="Natural Alt"] {
+    border-color: hsl(var(--brand-natural-alt));
+  }
+}
+
+%brand-colors {
+  &[data-color="Red"] {
+    color: hsl(var(--brand-red));
+  }
+  &[data-color="Yellow"] {
+    color: hsl(var(--brand-yellow));
+  }
+  &[data-color="Violet"] {
+    color: hsl(var(--brand-violet));
+  }
+  &[data-color="Magenta"] {
+    color: hsl(var(--brand-magenta));
+  }
+  &[data-color="Green"] {
+    color: hsl(var(--brand-green));
+  }
+  &[data-color="Blue"] {
+    color: hsl(var(--blue-050));
+  }
+  &[data-color="Light Blue"] {
+    color: hsl(var(--brand-blue));
+  }
+  &[data-color="White"] {
+    color: hsl(var(--brand-natural));
+  }
+  &[data-color="Black"] {
+    color: hsl(var(--brand-natural-cool));
+  }
+  &[data-color="Natural Alt"] {
+    color: hsl(var(--brand-natural-alt));
+  }
+  &[data-color="Natural"] {
+    color: hsl(var(--brand-natural));
+  }
+}
+
+%brand-background {
+  &[data-color="Red"] {
+    background-color: hsl(var(--brand-red));
+  }
+  &[data-color="Yellow"] {
+    background-color: hsl(var(--brand-yellow));
+  }
+  &[data-color="Violet"] {
+    background-color: hsl(var(--brand-violet));
+  }
+  &[data-color="Magenta"] {
+    background-color: hsl(var(--brand-magenta));
+  }
+  &[data-color="Green"] {
+    background-color: hsl(var(--brand-green));
+  }
+  &[data-color="Blue"] {
+    background-color: hsl(var(--blue-050));
+  }
+  &[data-color="Light Blue"] {
+    background-color: hsl(var(--brand-blue));
+  }
+  &[data-color="Natural Cool"] {
+    background-color: hsl(var(--brand-natural-cool));
+  }
+  &[data-color="Natural"] {
+    background-color: hsl(var(--brand-natural));
+  }
+  &[data-color="Natural Alt"] {
+    background-color: hsl(var(--brand-natural-alt));
+  }
+}

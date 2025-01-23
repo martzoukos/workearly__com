@@ -5,14 +5,19 @@ import {
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import { LayoutProvider } from "../stores/LayoutStore";
+import Layout from "../layouts/Layout";
+import TestFont from "../components/TestFont";
 
 export default function Page({
   page,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <div>
-      <h1>This is page {page.slug}</h1>
-    </div>
+    <LayoutProvider page={page}>
+      <Layout>
+        <TestFont />
+      </Layout>
+    </LayoutProvider>
   );
 }
 

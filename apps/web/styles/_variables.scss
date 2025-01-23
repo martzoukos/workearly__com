@@ -1,0 +1,11 @@
+@use "./colors" as *;
+@use "./settings" as *;
+
+:root {
+  @each $name, $color in $colors {
+    --#{$name}: #{$color};
+  }
+
+  // Containers
+  --container: #{$container}px;
+}
