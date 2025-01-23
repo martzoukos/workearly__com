@@ -5,8 +5,9 @@ const nextConfig = {
   transpilePackages: [],
   sassOptions: {
     includePaths: [path.join(process.cwd(), "styles")],
-    additionalData: `@import "./styles/variables.scss";`,
-    prependData: `@import "./styles/mixins.scss";`,
+    stylePreprocessorOptions: {
+      includePaths: ["./node_modules"],
+    },
   },
 };
 

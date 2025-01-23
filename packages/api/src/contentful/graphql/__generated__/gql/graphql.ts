@@ -384,6 +384,7 @@ export type AssetFilter = {
 export type AssetLinkingCollections = {
   __typename?: 'AssetLinkingCollections';
   actionCollection?: Maybe<ActionCollection>;
+  cardCollection?: Maybe<CardCollection>;
   entryCollection?: Maybe<EntryCollection>;
   imagesGroupCollection?: Maybe<ImagesGroupCollection>;
   pageCollection?: Maybe<PageCollection>;
@@ -391,6 +392,14 @@ export type AssetLinkingCollections = {
 
 
 export type AssetLinkingCollectionsActionCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+export type AssetLinkingCollectionsCardCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
@@ -448,6 +457,7 @@ export enum AssetOrder {
 export type Card = Entry & _Node & {
   __typename?: 'Card';
   _id: Scalars['ID']['output'];
+  asset?: Maybe<Asset>;
   cardType?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
@@ -455,6 +465,13 @@ export type Card = Entry & _Node & {
   sys: Sys;
   text?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
+export type CardAssetArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
 };
 
 
@@ -498,6 +515,7 @@ export type CardCollection = {
 export type CardFilter = {
   AND?: InputMaybe<Array<InputMaybe<CardFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<CardFilter>>>;
+  asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
   cardType?: InputMaybe<Scalars['String']['input']>;
   cardType_contains?: InputMaybe<Scalars['String']['input']>;
   cardType_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -1682,6 +1700,7 @@ export type Section = Entry & _Node & {
   __typename?: 'Section';
   _id: Scalars['ID']['output'];
   alignment?: Maybe<Scalars['String']['output']>;
+  cardsPerRow?: Maybe<Scalars['Int']['output']>;
   contentCollection?: Maybe<SectionContentCollection>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
@@ -1697,6 +1716,12 @@ export type Section = Entry & _Node & {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
 export type SectionAlignmentArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
+export type SectionCardsPerRowArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -1784,6 +1809,15 @@ export type SectionFilter = {
   alignment_not?: InputMaybe<Scalars['String']['input']>;
   alignment_not_contains?: InputMaybe<Scalars['String']['input']>;
   alignment_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  cardsPerRow?: InputMaybe<Scalars['Int']['input']>;
+  cardsPerRow_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  cardsPerRow_gt?: InputMaybe<Scalars['Int']['input']>;
+  cardsPerRow_gte?: InputMaybe<Scalars['Int']['input']>;
+  cardsPerRow_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
+  cardsPerRow_lt?: InputMaybe<Scalars['Int']['input']>;
+  cardsPerRow_lte?: InputMaybe<Scalars['Int']['input']>;
+  cardsPerRow_not?: InputMaybe<Scalars['Int']['input']>;
+  cardsPerRow_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
   contentCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
@@ -1842,6 +1876,8 @@ export enum SectionOrder {
   VariantDesc = 'Variant_DESC',
   AlignmentAsc = 'alignment_ASC',
   AlignmentDesc = 'alignment_DESC',
+  CardsPerRowAsc = 'cardsPerRow_ASC',
+  CardsPerRowDesc = 'cardsPerRow_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
   SubtitleAsc = 'subtitle_ASC',
