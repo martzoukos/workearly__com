@@ -7,7 +7,9 @@ import {
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { LayoutProvider } from "../stores/LayoutStore";
 import Layout from "../layouts/Layout";
-import TestFont from "../components/TestFont";
+import { CustomLink } from "@/components/Button/Button";
+import icon from "../Public/x.svg";
+import Image from "next/image";
 
 export default function Page({
   page,
@@ -15,7 +17,15 @@ export default function Page({
   return (
     <LayoutProvider page={page}>
       <Layout>
-        <TestFont />
+        <CustomLink
+          href={"https://www.youtube.com/"}
+          icon={<Image src={icon} alt="" />}
+          size="normal"
+          color="Green"
+          variant="Underlined"
+        >
+          Button
+        </CustomLink>
       </Layout>
     </LayoutProvider>
   );

@@ -40,10 +40,11 @@ export type AccordionCard = Entry & _Node & {
   column2Text?: Maybe<Scalars['String']['output']>;
   column2Title?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
+  contentfulName?: Maybe<Scalars['String']['output']>;
   linkedFrom?: Maybe<AccordionCardLinkingCollections>;
   skipNumber?: Maybe<Scalars['Boolean']['output']>;
   sys: Sys;
-  text?: Maybe<Scalars['String']['output']>;
+  text?: Maybe<AccordionCardText>;
   title?: Maybe<Scalars['String']['output']>;
   topNotes?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
 };
@@ -69,6 +70,12 @@ export type AccordionCardColumn2TextArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/accordionCard) */
 export type AccordionCardColumn2TitleArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/accordionCard) */
+export type AccordionCardContentfulNameArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -142,17 +149,20 @@ export type AccordionCardFilter = {
   column2Title_not_contains?: InputMaybe<Scalars['String']['input']>;
   column2Title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
+  contentfulName?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  contentfulName_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  contentfulName_not?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   skipNumber?: InputMaybe<Scalars['Boolean']['input']>;
   skipNumber_exists?: InputMaybe<Scalars['Boolean']['input']>;
   skipNumber_not?: InputMaybe<Scalars['Boolean']['input']>;
   sys?: InputMaybe<SysFilter>;
-  text?: InputMaybe<Scalars['String']['input']>;
   text_contains?: InputMaybe<Scalars['String']['input']>;
   text_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  text_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  text_not?: InputMaybe<Scalars['String']['input']>;
   text_not_contains?: InputMaybe<Scalars['String']['input']>;
-  text_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   title?: InputMaybe<Scalars['String']['input']>;
   title_contains?: InputMaybe<Scalars['String']['input']>;
   title_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -184,6 +194,8 @@ export enum AccordionCardOrder {
   Column1TitleDesc = 'column1Title_DESC',
   Column2TitleAsc = 'column2Title_ASC',
   Column2TitleDesc = 'column2Title_DESC',
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
   SkipNumberAsc = 'skipNumber_ASC',
   SkipNumberDesc = 'skipNumber_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
@@ -194,11 +206,57 @@ export enum AccordionCardOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
-  TextAsc = 'text_ASC',
-  TextDesc = 'text_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC'
 }
+
+export type AccordionCardText = {
+  __typename?: 'AccordionCardText';
+  json: Scalars['JSON']['output'];
+  links: AccordionCardTextLinks;
+};
+
+export type AccordionCardTextAssets = {
+  __typename?: 'AccordionCardTextAssets';
+  block: Array<Maybe<Asset>>;
+  hyperlink: Array<Maybe<Asset>>;
+};
+
+export type AccordionCardTextEntries = {
+  __typename?: 'AccordionCardTextEntries';
+  block: Array<Maybe<Entry>>;
+  hyperlink: Array<Maybe<Entry>>;
+  inline: Array<Maybe<Entry>>;
+};
+
+export type AccordionCardTextLinks = {
+  __typename?: 'AccordionCardTextLinks';
+  assets: AccordionCardTextAssets;
+  entries: AccordionCardTextEntries;
+  resources: AccordionCardTextResources;
+};
+
+export type AccordionCardTextResources = {
+  __typename?: 'AccordionCardTextResources';
+  block: Array<AccordionCardTextResourcesBlock>;
+  hyperlink: Array<AccordionCardTextResourcesHyperlink>;
+  inline: Array<AccordionCardTextResourcesInline>;
+};
+
+export type AccordionCardTextResourcesBlock = ResourceLink & {
+  __typename?: 'AccordionCardTextResourcesBlock';
+  sys: ResourceSys;
+};
+
+export type AccordionCardTextResourcesHyperlink = ResourceLink & {
+  __typename?: 'AccordionCardTextResourcesHyperlink';
+  sys: ResourceSys;
+};
+
+export type AccordionCardTextResourcesInline = ResourceLink & {
+  __typename?: 'AccordionCardTextResourcesInline';
+  sys: ResourceSys;
+};
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/action) */
 export type Action = Entry & _Node & {
@@ -386,10 +444,12 @@ export type ActionLinkingCollectionsSectionCollectionArgs = {
 };
 
 export enum ActionLinkingCollectionsSectionCollectionOrder {
-  VariantAsc = 'Variant_ASC',
-  VariantDesc = 'Variant_DESC',
   AlignmentAsc = 'alignment_ASC',
   AlignmentDesc = 'alignment_DESC',
+  BehaviourAsc = 'behaviour_ASC',
+  BehaviourDesc = 'behaviour_DESC',
+  CardVariantAsc = 'cardVariant_ASC',
+  CardVariantDesc = 'cardVariant_DESC',
   CardsPerRowAsc = 'cardsPerRow_ASC',
   CardsPerRowDesc = 'cardsPerRow_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
@@ -404,6 +464,8 @@ export enum ActionLinkingCollectionsSectionCollectionOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  ThemeAsc = 'theme_ASC',
+  ThemeDesc = 'theme_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC'
 }
@@ -588,7 +650,6 @@ export type AssetLinkingCollections = {
   actionCollection?: Maybe<ActionCollection>;
   cardCollection?: Maybe<CardCollection>;
   entryCollection?: Maybe<EntryCollection>;
-  imagesGroupCollection?: Maybe<ImagesGroupCollection>;
   pageCollection?: Maybe<PageCollection>;
   sectionCollection?: Maybe<SectionCollection>;
 };
@@ -611,14 +672,6 @@ export type AssetLinkingCollectionsCardCollectionArgs = {
 
 
 export type AssetLinkingCollectionsEntryCollectionArgs = {
-  limit?: InputMaybe<Scalars['Int']['input']>;
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-  skip?: InputMaybe<Scalars['Int']['input']>;
-};
-
-
-export type AssetLinkingCollectionsImagesGroupCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
@@ -669,7 +722,7 @@ export type Card = Entry & _Node & {
   __typename?: 'Card';
   _id: Scalars['ID']['output'];
   asset?: Maybe<Asset>;
-  cardType?: Maybe<Scalars['String']['output']>;
+  cardVariant?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   linkedFrom?: Maybe<CardLinkingCollections>;
@@ -687,7 +740,7 @@ export type CardAssetArgs = {
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
-export type CardCardTypeArgs = {
+export type CardCardVariantArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -727,13 +780,13 @@ export type CardFilter = {
   AND?: InputMaybe<Array<InputMaybe<CardFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<CardFilter>>>;
   asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  cardType?: InputMaybe<Scalars['String']['input']>;
-  cardType_contains?: InputMaybe<Scalars['String']['input']>;
-  cardType_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  cardType_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  cardType_not?: InputMaybe<Scalars['String']['input']>;
-  cardType_not_contains?: InputMaybe<Scalars['String']['input']>;
-  cardType_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  cardVariant?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_contains?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  cardVariant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  cardVariant_not?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_not_contains?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
   contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
@@ -773,8 +826,8 @@ export type CardLinkingCollectionsEntryCollectionArgs = {
 };
 
 export enum CardOrder {
-  CardTypeAsc = 'cardType_ASC',
-  CardTypeDesc = 'cardType_DESC',
+  CardVariantAsc = 'cardVariant_ASC',
+  CardVariantDesc = 'cardVariant_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
@@ -973,217 +1026,6 @@ export type ContentfulTag = {
   __typename?: 'ContentfulTag';
   id?: Maybe<Scalars['String']['output']>;
   name?: Maybe<Scalars['String']['output']>;
-};
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCard = Entry & _Node & {
-  __typename?: 'CourseCard';
-  _id: Scalars['ID']['output'];
-  column1Text?: Maybe<Scalars['String']['output']>;
-  column1Title?: Maybe<Scalars['String']['output']>;
-  column2Text?: Maybe<Scalars['String']['output']>;
-  column2Title?: Maybe<Scalars['String']['output']>;
-  contentfulMetadata: ContentfulMetadata;
-  linkedFrom?: Maybe<CourseCardLinkingCollections>;
-  skipNumber?: Maybe<Scalars['Boolean']['output']>;
-  sys: Sys;
-  text?: Maybe<CourseCardText>;
-  title?: Maybe<Scalars['String']['output']>;
-  topNotes?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardColumn1TextArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardColumn1TitleArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardColumn2TextArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardColumn2TitleArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardLinkedFromArgs = {
-  allowedLocales?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardSkipNumberArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardTextArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardTitleArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseCard) */
-export type CourseCardTopNotesArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-export type CourseCardCollection = {
-  __typename?: 'CourseCardCollection';
-  items: Array<Maybe<CourseCard>>;
-  limit: Scalars['Int']['output'];
-  skip: Scalars['Int']['output'];
-  total: Scalars['Int']['output'];
-};
-
-export type CourseCardFilter = {
-  AND?: InputMaybe<Array<InputMaybe<CourseCardFilter>>>;
-  OR?: InputMaybe<Array<InputMaybe<CourseCardFilter>>>;
-  column1Text?: InputMaybe<Scalars['String']['input']>;
-  column1Text_contains?: InputMaybe<Scalars['String']['input']>;
-  column1Text_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  column1Text_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column1Text_not?: InputMaybe<Scalars['String']['input']>;
-  column1Text_not_contains?: InputMaybe<Scalars['String']['input']>;
-  column1Text_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column1Title?: InputMaybe<Scalars['String']['input']>;
-  column1Title_contains?: InputMaybe<Scalars['String']['input']>;
-  column1Title_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  column1Title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column1Title_not?: InputMaybe<Scalars['String']['input']>;
-  column1Title_not_contains?: InputMaybe<Scalars['String']['input']>;
-  column1Title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column2Text?: InputMaybe<Scalars['String']['input']>;
-  column2Text_contains?: InputMaybe<Scalars['String']['input']>;
-  column2Text_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  column2Text_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column2Text_not?: InputMaybe<Scalars['String']['input']>;
-  column2Text_not_contains?: InputMaybe<Scalars['String']['input']>;
-  column2Text_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column2Title?: InputMaybe<Scalars['String']['input']>;
-  column2Title_contains?: InputMaybe<Scalars['String']['input']>;
-  column2Title_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  column2Title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  column2Title_not?: InputMaybe<Scalars['String']['input']>;
-  column2Title_not_contains?: InputMaybe<Scalars['String']['input']>;
-  column2Title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
-  skipNumber?: InputMaybe<Scalars['Boolean']['input']>;
-  skipNumber_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  skipNumber_not?: InputMaybe<Scalars['Boolean']['input']>;
-  sys?: InputMaybe<SysFilter>;
-  text_contains?: InputMaybe<Scalars['String']['input']>;
-  text_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  text_not_contains?: InputMaybe<Scalars['String']['input']>;
-  title?: InputMaybe<Scalars['String']['input']>;
-  title_contains?: InputMaybe<Scalars['String']['input']>;
-  title_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  title_not?: InputMaybe<Scalars['String']['input']>;
-  title_not_contains?: InputMaybe<Scalars['String']['input']>;
-  title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  topNotes_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  topNotes_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  topNotes_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  topNotes_exists?: InputMaybe<Scalars['Boolean']['input']>;
-};
-
-export type CourseCardLinkingCollections = {
-  __typename?: 'CourseCardLinkingCollections';
-  entryCollection?: Maybe<EntryCollection>;
-};
-
-
-export type CourseCardLinkingCollectionsEntryCollectionArgs = {
-  limit?: InputMaybe<Scalars['Int']['input']>;
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-  skip?: InputMaybe<Scalars['Int']['input']>;
-};
-
-export enum CourseCardOrder {
-  Column1TitleAsc = 'column1Title_ASC',
-  Column1TitleDesc = 'column1Title_DESC',
-  Column2TitleAsc = 'column2Title_ASC',
-  Column2TitleDesc = 'column2Title_DESC',
-  SkipNumberAsc = 'skipNumber_ASC',
-  SkipNumberDesc = 'skipNumber_DESC',
-  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
-  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
-  SysIdAsc = 'sys_id_ASC',
-  SysIdDesc = 'sys_id_DESC',
-  SysPublishedAtAsc = 'sys_publishedAt_ASC',
-  SysPublishedAtDesc = 'sys_publishedAt_DESC',
-  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
-  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
-  TitleAsc = 'title_ASC',
-  TitleDesc = 'title_DESC'
-}
-
-export type CourseCardText = {
-  __typename?: 'CourseCardText';
-  json: Scalars['JSON']['output'];
-  links: CourseCardTextLinks;
-};
-
-export type CourseCardTextAssets = {
-  __typename?: 'CourseCardTextAssets';
-  block: Array<Maybe<Asset>>;
-  hyperlink: Array<Maybe<Asset>>;
-};
-
-export type CourseCardTextEntries = {
-  __typename?: 'CourseCardTextEntries';
-  block: Array<Maybe<Entry>>;
-  hyperlink: Array<Maybe<Entry>>;
-  inline: Array<Maybe<Entry>>;
-};
-
-export type CourseCardTextLinks = {
-  __typename?: 'CourseCardTextLinks';
-  assets: CourseCardTextAssets;
-  entries: CourseCardTextEntries;
-  resources: CourseCardTextResources;
-};
-
-export type CourseCardTextResources = {
-  __typename?: 'CourseCardTextResources';
-  block: Array<CourseCardTextResourcesBlock>;
-  hyperlink: Array<CourseCardTextResourcesHyperlink>;
-  inline: Array<CourseCardTextResourcesInline>;
-};
-
-export type CourseCardTextResourcesBlock = ResourceLink & {
-  __typename?: 'CourseCardTextResourcesBlock';
-  sys: ResourceSys;
-};
-
-export type CourseCardTextResourcesHyperlink = ResourceLink & {
-  __typename?: 'CourseCardTextResourcesHyperlink';
-  sys: ResourceSys;
-};
-
-export type CourseCardTextResourcesInline = ResourceLink & {
-  __typename?: 'CourseCardTextResourcesInline';
-  sys: ResourceSys;
 };
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
@@ -1613,87 +1455,6 @@ export type ImageTransformOptions = {
   width?: InputMaybe<Scalars['Dimension']['input']>;
 };
 
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/imagesGroup) */
-export type ImagesGroup = Entry & _Node & {
-  __typename?: 'ImagesGroup';
-  _id: Scalars['ID']['output'];
-  assetsCollection?: Maybe<AssetCollection>;
-  contentfulMetadata: ContentfulMetadata;
-  contentfulName?: Maybe<Scalars['String']['output']>;
-  linkedFrom?: Maybe<ImagesGroupLinkingCollections>;
-  sys: Sys;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/imagesGroup) */
-export type ImagesGroupAssetsCollectionArgs = {
-  limit?: InputMaybe<Scalars['Int']['input']>;
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-  skip?: InputMaybe<Scalars['Int']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/imagesGroup) */
-export type ImagesGroupContentfulNameArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/imagesGroup) */
-export type ImagesGroupLinkedFromArgs = {
-  allowedLocales?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-};
-
-export type ImagesGroupCollection = {
-  __typename?: 'ImagesGroupCollection';
-  items: Array<Maybe<ImagesGroup>>;
-  limit: Scalars['Int']['output'];
-  skip: Scalars['Int']['output'];
-  total: Scalars['Int']['output'];
-};
-
-export type ImagesGroupFilter = {
-  AND?: InputMaybe<Array<InputMaybe<ImagesGroupFilter>>>;
-  OR?: InputMaybe<Array<InputMaybe<ImagesGroupFilter>>>;
-  assetsCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
-  contentfulName?: InputMaybe<Scalars['String']['input']>;
-  contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
-  contentfulName_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  contentfulName_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  contentfulName_not?: InputMaybe<Scalars['String']['input']>;
-  contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
-  contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  sys?: InputMaybe<SysFilter>;
-};
-
-export type ImagesGroupLinkingCollections = {
-  __typename?: 'ImagesGroupLinkingCollections';
-  entryCollection?: Maybe<EntryCollection>;
-};
-
-
-export type ImagesGroupLinkingCollectionsEntryCollectionArgs = {
-  limit?: InputMaybe<Scalars['Int']['input']>;
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-  skip?: InputMaybe<Scalars['Int']['input']>;
-};
-
-export enum ImagesGroupOrder {
-  ContentfulNameAsc = 'contentfulName_ASC',
-  ContentfulNameDesc = 'contentfulName_DESC',
-  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
-  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
-  SysIdAsc = 'sys_id_ASC',
-  SysIdDesc = 'sys_id_DESC',
-  SysPublishedAtAsc = 'sys_publishedAt_ASC',
-  SysPublishedAtDesc = 'sys_publishedAt_DESC',
-  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
-  SysPublishedVersionDesc = 'sys_publishedVersion_DESC'
-}
-
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/page) */
 export type Page = Entry & _Node & {
   __typename?: 'Page';
@@ -1710,6 +1471,7 @@ export type Page = Entry & _Node & {
   slug?: Maybe<Scalars['String']['output']>;
   sys: Sys;
   tags?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+  theme?: Maybe<Scalars['String']['output']>;
   type?: Maybe<Scalars['String']['output']>;
 };
 
@@ -1775,6 +1537,12 @@ export type PageSlugArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/page) */
 export type PageTagsArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/page) */
+export type PageThemeArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -1847,6 +1615,13 @@ export type PageFilter = {
   tags_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   tags_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   tags_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  theme?: InputMaybe<Scalars['String']['input']>;
+  theme_contains?: InputMaybe<Scalars['String']['input']>;
+  theme_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  theme_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  theme_not?: InputMaybe<Scalars['String']['input']>;
+  theme_not_contains?: InputMaybe<Scalars['String']['input']>;
+  theme_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   type?: InputMaybe<Scalars['String']['input']>;
   type_contains?: InputMaybe<Scalars['String']['input']>;
   type_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -1925,6 +1700,8 @@ export enum PageOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  ThemeAsc = 'theme_ASC',
+  ThemeDesc = 'theme_DESC',
   TypeAsc = 'type_ASC',
   TypeDesc = 'type_DESC'
 }
@@ -1942,13 +1719,9 @@ export type Query = {
   cardCollection?: Maybe<CardCollection>;
   contentTypeRichText?: Maybe<ContentTypeRichText>;
   contentTypeRichTextCollection?: Maybe<ContentTypeRichTextCollection>;
-  courseCard?: Maybe<CourseCard>;
-  courseCardCollection?: Maybe<CourseCardCollection>;
   courseDetails?: Maybe<CourseDetails>;
   courseDetailsCollection?: Maybe<CourseDetailsCollection>;
   entryCollection?: Maybe<EntryCollection>;
-  imagesGroup?: Maybe<ImagesGroup>;
-  imagesGroupCollection?: Maybe<ImagesGroupCollection>;
   page?: Maybe<Page>;
   pageCollection?: Maybe<PageCollection>;
   section?: Maybe<Section>;
@@ -2050,23 +1823,6 @@ export type QueryContentTypeRichTextCollectionArgs = {
 };
 
 
-export type QueryCourseCardArgs = {
-  id: Scalars['String']['input'];
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-};
-
-
-export type QueryCourseCardCollectionArgs = {
-  limit?: InputMaybe<Scalars['Int']['input']>;
-  locale?: InputMaybe<Scalars['String']['input']>;
-  order?: InputMaybe<Array<InputMaybe<CourseCardOrder>>>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-  skip?: InputMaybe<Scalars['Int']['input']>;
-  where?: InputMaybe<CourseCardFilter>;
-};
-
-
 export type QueryCourseDetailsArgs = {
   id: Scalars['String']['input'];
   locale?: InputMaybe<Scalars['String']['input']>;
@@ -2091,23 +1847,6 @@ export type QueryEntryCollectionArgs = {
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
   where?: InputMaybe<EntryFilter>;
-};
-
-
-export type QueryImagesGroupArgs = {
-  id: Scalars['String']['input'];
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-};
-
-
-export type QueryImagesGroupCollectionArgs = {
-  limit?: InputMaybe<Scalars['Int']['input']>;
-  locale?: InputMaybe<Scalars['String']['input']>;
-  order?: InputMaybe<Array<InputMaybe<ImagesGroupOrder>>>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-  skip?: InputMaybe<Scalars['Int']['input']>;
-  where?: InputMaybe<ImagesGroupFilter>;
 };
 
 
@@ -2178,6 +1917,8 @@ export type Section = Entry & _Node & {
   actionsCollection?: Maybe<SectionActionsCollection>;
   alignment?: Maybe<Scalars['String']['output']>;
   assetsCollection?: Maybe<AssetCollection>;
+  behaviour?: Maybe<Scalars['String']['output']>;
+  cardVariant?: Maybe<Scalars['String']['output']>;
   cardsPerRow?: Maybe<Scalars['Int']['output']>;
   contentCollection?: Maybe<SectionContentCollection>;
   contentfulMetadata: ContentfulMetadata;
@@ -2186,8 +1927,8 @@ export type Section = Entry & _Node & {
   supertitle?: Maybe<Scalars['String']['output']>;
   sys: Sys;
   text?: Maybe<Scalars['String']['output']>;
+  theme?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
-  variant?: Maybe<Scalars['String']['output']>;
 };
 
 
@@ -2214,6 +1955,18 @@ export type SectionAssetsCollectionArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
+export type SectionBehaviourArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
+export type SectionCardVariantArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
 };
 
 
@@ -2257,13 +2010,13 @@ export type SectionTextArgs = {
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
-export type SectionTitleArgs = {
+export type SectionThemeArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
-export type SectionVariantArgs = {
+export type SectionTitleArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2321,13 +2074,6 @@ export type SectionContentCollection = {
 export type SectionFilter = {
   AND?: InputMaybe<Array<InputMaybe<SectionFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<SectionFilter>>>;
-  Variant?: InputMaybe<Scalars['String']['input']>;
-  Variant_contains?: InputMaybe<Scalars['String']['input']>;
-  Variant_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  Variant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  Variant_not?: InputMaybe<Scalars['String']['input']>;
-  Variant_not_contains?: InputMaybe<Scalars['String']['input']>;
-  Variant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   actions?: InputMaybe<CfActionNestedFilter>;
   actionsCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   alignment?: InputMaybe<Scalars['String']['input']>;
@@ -2338,6 +2084,20 @@ export type SectionFilter = {
   alignment_not_contains?: InputMaybe<Scalars['String']['input']>;
   alignment_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   assetsCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  behaviour?: InputMaybe<Scalars['String']['input']>;
+  behaviour_contains?: InputMaybe<Scalars['String']['input']>;
+  behaviour_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  behaviour_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  behaviour_not?: InputMaybe<Scalars['String']['input']>;
+  behaviour_not_contains?: InputMaybe<Scalars['String']['input']>;
+  behaviour_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  cardVariant?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_contains?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  cardVariant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  cardVariant_not?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_not_contains?: InputMaybe<Scalars['String']['input']>;
+  cardVariant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   cardsPerRow?: InputMaybe<Scalars['Int']['input']>;
   cardsPerRow_exists?: InputMaybe<Scalars['Boolean']['input']>;
   cardsPerRow_gt?: InputMaybe<Scalars['Int']['input']>;
@@ -2371,6 +2131,13 @@ export type SectionFilter = {
   text_not?: InputMaybe<Scalars['String']['input']>;
   text_not_contains?: InputMaybe<Scalars['String']['input']>;
   text_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  theme?: InputMaybe<Scalars['String']['input']>;
+  theme_contains?: InputMaybe<Scalars['String']['input']>;
+  theme_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  theme_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  theme_not?: InputMaybe<Scalars['String']['input']>;
+  theme_not_contains?: InputMaybe<Scalars['String']['input']>;
+  theme_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   title?: InputMaybe<Scalars['String']['input']>;
   title_contains?: InputMaybe<Scalars['String']['input']>;
   title_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -2394,10 +2161,12 @@ export type SectionLinkingCollectionsEntryCollectionArgs = {
 };
 
 export enum SectionOrder {
-  VariantAsc = 'Variant_ASC',
-  VariantDesc = 'Variant_DESC',
   AlignmentAsc = 'alignment_ASC',
   AlignmentDesc = 'alignment_DESC',
+  BehaviourAsc = 'behaviour_ASC',
+  BehaviourDesc = 'behaviour_DESC',
+  CardVariantAsc = 'cardVariant_ASC',
+  CardVariantDesc = 'cardVariant_DESC',
   CardsPerRowAsc = 'cardsPerRow_ASC',
   CardsPerRowDesc = 'cardsPerRow_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
@@ -2412,6 +2181,8 @@ export enum SectionOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  ThemeAsc = 'theme_ASC',
+  ThemeDesc = 'theme_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC'
 }
@@ -2676,6 +2447,13 @@ export type CfPageNestedFilter = {
   tags_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   tags_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   tags_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  theme?: InputMaybe<Scalars['String']['input']>;
+  theme_contains?: InputMaybe<Scalars['String']['input']>;
+  theme_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  theme_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  theme_not?: InputMaybe<Scalars['String']['input']>;
+  theme_not_contains?: InputMaybe<Scalars['String']['input']>;
+  theme_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   type?: InputMaybe<Scalars['String']['input']>;
   type_contains?: InputMaybe<Scalars['String']['input']>;
   type_exists?: InputMaybe<Scalars['Boolean']['input']>;

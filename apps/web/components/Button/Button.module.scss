@@ -1,0 +1,141 @@
+@use "@/styles/index" as *;
+
+.base {
+  --bg-color: transparent;
+  --text-color: hsl(var(--black-500));
+  background: none;
+  background-color: v(bg-color);
+  color: v(text-color);
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 14px;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  padding: 0.7em 0.85em;
+
+  &[data-color="Green"] {
+    --bg-color: hsl(var(--green-500));
+
+    &:hover {
+      --bg-color: hsl(var(--green-400));
+    }
+
+    &:active {
+      border: 1px solid hsl(var(--green-200));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  &[data-color="White"] {
+    --bg-color: hsl(var(--neutral-500));
+
+    &:hover {
+      --bg-color: hsl(var(--neutral-400));
+    }
+
+    &:active {
+      border: 1px solid hsl(var(--black-500));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  &[data-color="Black"] {
+    --bg-color: hsl(var(--black-500));
+    --text-color: hsl(var(--neutral-500));
+
+    &:hover {
+      --bg-color: hsl(var(--black-450));
+      --text-color: hsl(var(--neutral-500));
+    }
+
+    &:active {
+      border: 1px solid hsl(var(--neutral-300));
+      --text-color: hsl(var(--neutral-500));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  &[data-iconplacement="Left"] {
+    flex-direction: row-reverse;
+  }
+
+  &[data-size="medium"] {
+    font-size: 16px;
+  }
+
+  &[data-size="large"] {
+    font-size: 20px;
+  }
+
+  &[data-variant="Outlined"] {
+    --bg-color: transparent;
+    --text-color: hsl(var(--black-500));
+    border: 1px solid hsl(var(--black-500));
+
+    &:hover {
+      border-color: hsl(var(--black-450));
+      --bg-color: transparent;
+    }
+
+    &:active {
+      border: 2px solid hsl(var(--black-450));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  &[data-variant="Ghost"] {
+    border: none;
+    --bg-color: transparent;
+    --text-color: hsl(var(--black-500));
+
+    &:hover {
+      --bg-color: transparent;
+      --text-color: hsl(var(--black-450));
+    }
+
+    &:active {
+      --bg-color: hsl(var(--neutral-300));
+      --text-color: hsl(var(--black-450));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+
+  &[data-variant="Underlined"] {
+    border: none;
+    padding: 0rem;
+    border-radius: unset;
+    --bg-color: transparent;
+    border-bottom: 1px solid hsl(var(--black-500));
+
+    &:hover {
+      --bg-color: transparent;
+      --text-color: hsl(var(--black-450));
+      border-bottom-color: hsl(var(--black-450));
+    }
+
+    &:active {
+      --bg-color: transparent;
+      border-bottom: 2px solid hsl(var(--black-500));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+}
