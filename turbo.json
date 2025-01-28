@@ -1,7 +1,11 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "ui": "tui",
-  "globalEnv": ["CONTENTFUL_GRAPHQL_URL"],
+  "globalEnv": [
+    "CONTENTFUL_GRAPHQL_URL",
+    "CONTENTFUL_PREVIEW_GRAPHQL_URL",
+    "AIRTABLE_API_KEY"
+  ],
   "globalDependencies": ["**/.env.*local", ".env"],
   "tasks": {
     "build": {

@@ -1,5 +1,8 @@
 import { ClassValue } from "clsx";
 import { ReactNode } from "react";
+import { LOCALES } from "./constants";
+import TRANSLATIONS from "./airtable/__generated__/translations.json";
+import { TranslationTextType } from "./airtable";
 
 export type NextLinkPropsType = {
   className?: ClassValue;
@@ -16,4 +19,11 @@ export type NextLinkPropsType = {
   icon?: ReactNode;
   iconPlacement?: "Left" | "Right";
   href: string;
+};
+
+export type LocaleType = (typeof LOCALES)[number];
+export type TranslationType = (typeof TRANSLATIONS)[number];
+export type TranslateOptionsType = {
+  fallbackCode?: TranslationTextType;
+  allowMissing?: boolean;
 };
