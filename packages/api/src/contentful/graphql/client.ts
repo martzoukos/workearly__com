@@ -7,13 +7,27 @@ import {
   fetchExchange,
   ssrExchange,
 } from "@urql/core";
+import contentfulExchange, {
+  ContentfulExchangePropsType,
+} from "./contentful-exchange";
 
-export function getServerClient(): [Client, SSRExchange] {
+type OptionsType = {
+  contentful: ContentfulExchangePropsType;
+};
+
+export function getServerClient(options?: OptionsType): [Client, SSRExchange] {
   const ssrCache = ssrExchange({ isClient: false });
   const client = initUrqlClient(
-    getContentfulClientOptions({
-      exchanges: [ssrCache],
-      url: process.env.CONTENTFUL_GRAPHQL_URL,
+    getClientOptions({
+      exchanges: [
+        contentfulExchange({
+          isPreview: Boolean(options?.contentful?.isPreview),
+        }),
+        ssrCache,
+      ],
+      url: options?.contentful?.isPreview
+        ? process.env.CONTENTFUL_PREVIEW_GRAPHQL_URL
+        : process.env.CONTENTFUL_GRAPHQL_URL,
     }),
     false
   );
@@ -21,7 +35,7 @@ export function getServerClient(): [Client, SSRExchange] {
   return [client, ssrCache] as const;
 }
 
-export function getContentfulClientOptions({
+export function getClientOptions({
   exchanges = [],
   url = process.env.CONTENTFUL_GRAPHQL_URL,
   cookie,

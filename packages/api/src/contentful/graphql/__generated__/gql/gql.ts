@@ -15,7 +15,7 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
  */
 const documents = {
     "\n  fragment PageFields on Page {\n    __typename\n    sys {\n      id\n    }\n    name\n    slug\n    seoTitle\n    seoDescription\n    seoImage {\n      url\n      width\n      height\n      description\n    }\n  }\n": types.PageFieldsFragmentDoc,
-    "\n  query PageSlugs {\n    pageCollection(limit: 100, where: { slug_not_in: [\"404\"] }) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PageSlugsDocument,
+    "\n  query PageSlugs {\n    pageCollection(where: { slug_not_in: [\"404\"] }, limit: 100) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PageSlugsDocument,
     "\n  query Page($slug: String!) {\n    pageCollection(where: { slug: $slug }, limit: 1) {\n      __typename\n      items {\n        ...PageFields\n      }\n    }\n  }\n": types.PageDocument,
 };
 
@@ -40,7 +40,7 @@ export function graphql(source: "\n  fragment PageFields on Page {\n    __typena
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function graphql(source: "\n  query PageSlugs {\n    pageCollection(limit: 100, where: { slug_not_in: [\"404\"] }) {\n      items {\n        slug\n      }\n    }\n  }\n"): (typeof documents)["\n  query PageSlugs {\n    pageCollection(limit: 100, where: { slug_not_in: [\"404\"] }) {\n      items {\n        slug\n      }\n    }\n  }\n"];
+export function graphql(source: "\n  query PageSlugs {\n    pageCollection(where: { slug_not_in: [\"404\"] }, limit: 100) {\n      items {\n        slug\n      }\n    }\n  }\n"): (typeof documents)["\n  query PageSlugs {\n    pageCollection(where: { slug_not_in: [\"404\"] }, limit: 100) {\n      items {\n        slug\n      }\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

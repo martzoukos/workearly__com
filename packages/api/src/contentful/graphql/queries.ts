@@ -2,7 +2,7 @@ import { graphql } from "./__generated__/gql";
 
 export const PAGE_SLUGS_QUERY = graphql(`
   query PageSlugs {
-    pageCollection(limit: 100, where: { slug_not_in: ["404"] }) {
+    pageCollection(where: { slug_not_in: ["404"] }, limit: 100) {
       items {
         slug
       }
