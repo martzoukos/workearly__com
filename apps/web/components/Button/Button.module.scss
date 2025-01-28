@@ -3,8 +3,10 @@
 .base {
   --bg-color: transparent;
   --text-color: hsl(var(--black-500));
+  --box-shadow-color: transparent;
   background: none;
   background-color: v(bg-color);
+  box-shadow: 0rem 0rem 0rem v(box-shadow-color);
   color: v(text-color);
   cursor: pointer;
   display: inline-flex;
@@ -17,6 +19,7 @@
 
   &[data-color="Green"] {
     --bg-color: hsl(var(--green-500));
+    --box-shadow-color: hsl(var(--neutral-500));
 
     &:hover {
       --bg-color: hsl(var(--green-400));
@@ -33,6 +36,7 @@
 
   &[data-color="White"] {
     --bg-color: hsl(var(--neutral-500));
+    --box-shadow-color: hsl(var(--neutral-500));
 
     &:hover {
       --bg-color: hsl(var(--neutral-400));
@@ -50,6 +54,7 @@
   &[data-color="Black"] {
     --bg-color: hsl(var(--black-500));
     --text-color: hsl(var(--neutral-500));
+    --box-shadow-color: white;
 
     &:hover {
       --bg-color: hsl(var(--black-450));
@@ -132,6 +137,47 @@
     &:active {
       --bg-color: transparent;
       border-bottom: 2px solid hsl(var(--black-500));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  &[data-variant="Decorative"] {
+    --bg-color: hsl(var(--green-500));
+    --text-color: hsl(var(--black-500));
+    border: 1px solid hsl(var(--black-500));
+    border-radius: 1rem;
+    box-shadow: 0 0 0 0.5rem v(box-shadow-color);
+
+    &:hover {
+      --bg-color: hsl(var(--green-500));
+      --text-color: hsl(var(--black-500));
+    }
+
+    &:active {
+      --bg-color: hsl(var(--green-500));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  &[data-variant="Chip"] {
+    --bg-color: hsl(var(--black-500));
+    --text-color: hsl(var(--neutral-500));
+    border: none;
+    padding: 0.9em 1.7em;
+    border-radius: 1.5rem;
+
+    &:hover {
+      --bg-color: hsl(var(--black-450));
+      --text-color: hsl(var(--neutral-500));
+    }
+
+    &:active {
+      --bg-color: hsl(var(--black-500));
+      --text-color: hsl(var(--neutral-500));
     }
 
     &:disabled {

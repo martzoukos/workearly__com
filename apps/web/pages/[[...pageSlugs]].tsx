@@ -22,7 +22,7 @@ export default function Page({
           icon={<Image src={icon} alt="" />}
           size="normal"
           color="Green"
-          variant="Underlined"
+          variant="Decorative"
         >
           Button
         </CustomLink>

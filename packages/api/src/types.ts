@@ -4,7 +4,13 @@ import { ReactNode } from "react";
 export type NextLinkPropsType = {
   className?: ClassValue;
   color?: "Green" | "White" | "Black";
-  variant?: "Filled" | "Outlined" | "Ghost" | "Underlined";
+  variant?:
+    | "Filled"
+    | "Outlined"
+    | "Ghost"
+    | "Underlined"
+    | "Decorative"
+    | "Chip";
   behaviour?: "Flex" | "Wrap";
   size?: "normal" | "medium" | "large";
   icon?: ReactNode;
