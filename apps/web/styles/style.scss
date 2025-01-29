@@ -2,9 +2,18 @@
 @forward "./variables";
 
 body {
-  color: hsl(var(--brand-natural-cool));
-  background-color: hsl(var(--brand-natural));
+  color: hsl(var(--neutral-500));
+  background-color: hsl(var(--black-500));
   font:
     400 1rem / 1.25 "aktiv-grotesk",
     sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: box-shadow var(--transition-duration);
+
+  &:hover {
+    box-shadow: inset 0 -0.05rem 0 hsl(var(--neutral-500));
+  }
 }

@@ -1,33 +1,77 @@
 import {
-  Page as PageType,
   PAGE_SLUGS_QUERY,
-  getPageBySlug,
+  fetchPageBySlug,
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import { LayoutProvider } from "../stores/LayoutStore";
-import Layout from "../layouts/Layout";
-import { CustomLink } from "@/components/Button/Button";
-import icon from "../Public/x.svg";
-import Image from "next/image";
+import { ContentfulProvider } from "../stores/ContentfulStore";
+import Section from "../components/Section/Section";
+import PageRenderer from "../components/PageRenderer/PageRenderer";
+import RichText from "../components/RichText/RichText";
+import UniqueComponent from "../components/UniqueComponent/UniqueComponent";
 
 export default function Page({
   page,
+  relationships,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <LayoutProvider page={page}>
-      <Layout>
-        <CustomLink
-          href={"https://www.youtube.com/"}
-          icon={<Image src={icon} alt="" />}
-          size="normal"
-          color="Green"
-          variant="Decorative"
-        >
-          Button
-        </CustomLink>
-      </Layout>
-    </LayoutProvider>
+    <ContentfulProvider page={page} relationships={relationships}>
+      <PageRenderer>
+        {(className) => {
+          return page.contentCollection?.items.map((item) => {
+            if (item?.__typename === "Section") {
+              const section = relationships.sections.find(
+                (section) => section.sys.id === item.sys.id
+              );
+
+              if (!section) {
+                return null;
+              }
+
+              return (
+                <Section
+                  key={item.sys.id}
+                  section={section}
+                  className={className}
+                />
+              );
+            } else if (item?.__typename === "ContentTypeRichText") {
+              const richText = relationships.contentTypeRichTexts.find(
+                (section) => section.sys.id === item.sys.id
+              );
+
+              if (!richText) {
+                return null;
+              }
+
+              return (
+                <RichText
+                  key={item.sys.id}
+                  richText={richText}
+                  className={className}
+                />
+              );
+            } else if (item?.__typename === "UniqueComponent") {
+              const uniqueComponent = relationships.uniqueComponents.find(
+                (section) => section.sys.id === item.sys.id
+              );
+
+              if (!uniqueComponent) {
+                return null;
+              }
+
+              return (
+                <UniqueComponent
+                  key={item.sys.id}
+                  uniqueComponent={uniqueComponent}
+                  className={className}
+                />
+              );
+            }
+          });
+        }}
+      </PageRenderer>
+    </ContentfulProvider>
   );
 }
 
@@ -40,20 +84,17 @@ export async function getStaticProps(
     : (context.params?.pageSlugs.join("/") as string);
 
   try {
-    const pageContent = await getPageBySlug(client, pageSlug);
-
-    if (!pageContent) {
-      return {
-        notFound: true,
-      };
-    }
+    const { page, relationships } = await fetchPageBySlug(client, pageSlug);
 
     return {
       props: {
-        page: pageContent,
+        page,
+        relationships,
       },
     };
   } catch (error) {
+    console.error(error);
+
     return {
       notFound: true,
     };

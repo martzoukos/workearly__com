@@ -6,6 +6,7 @@
     --#{$name}: #{$color};
   }
 
-  // Containers
   --container: #{$container}px;
+  --transition-duration: 200ms;
+  --border-color: hsl(var(--neutral-500) / 0.3);
 }

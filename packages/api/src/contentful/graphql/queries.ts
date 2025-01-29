@@ -2,7 +2,7 @@ import { graphql } from "./__generated__/gql";
 
 export const PAGE_SLUGS_QUERY = graphql(`
   query PageSlugs {
-    pageCollection(limit: 100, where: { slug_not_in: ["404"] }) {
+    pageCollection(where: { slug_not_in: ["404"] }, limit: 100) {
       items {
         slug
       }
@@ -13,9 +13,91 @@ export const PAGE_SLUGS_QUERY = graphql(`
 export const PAGE_QUERY = graphql(`
   query Page($slug: String!) {
     pageCollection(where: { slug: $slug }, limit: 1) {
-      __typename
       items {
         ...PageFields
+      }
+    }
+  }
+`);
+
+export const COURSE_DETAILS_COLLECTION_QUERY = graphql(`
+  query CourseDetailsCollection($where: CourseDetailsFilter, $limit: Int) {
+    courseDetailsCollection(where: $where, limit: $limit) {
+      items {
+        ...CourseDetailsFields
+      }
+    }
+  }
+`);
+
+export const CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY = graphql(`
+  query ContentTypeRichTextCollection(
+    $where: ContentTypeRichTextFilter
+    $limit: Int
+  ) {
+    contentTypeRichTextCollection(where: $where, limit: $limit) {
+      items {
+        ...ContentTypeRichTextFields
+      }
+    }
+  }
+`);
+
+export const UNIQUE_COMPONENT_COLLECTION_QUERY = graphql(`
+  query UniqueComponentCollection($where: UniqueComponentFilter, $limit: Int) {
+    uniqueComponentCollection(where: $where, limit: $limit) {
+      items {
+        ...UniqueComponentFields
+      }
+    }
+  }
+`);
+
+export const ACCORDION_CARD_COLLECTION_QUERY = graphql(`
+  query AccordionCardCollection($where: AccordionCardFilter, $limit: Int) {
+    accordionCardCollection(where: $where, limit: $limit) {
+      items {
+        ...AccordionCardFields
+      }
+    }
+  }
+`);
+
+export const CARD_COLLECTION_QUERY = graphql(`
+  query CardCollection($where: CardFilter, $limit: Int) {
+    cardCollection(where: $where, limit: $limit) {
+      items {
+        ...CardFields
+      }
+    }
+  }
+`);
+
+export const SECTION_COLLECTION_QUERY = graphql(`
+  query SectionCollection($where: SectionFilter, $limit: Int) {
+    sectionCollection(where: $where, limit: $limit) {
+      items {
+        ...SectionFields
+      }
+    }
+  }
+`);
+
+export const ASSET_COLLECTION_QUERY = graphql(`
+  query AssetCollection($where: AssetFilter, $limit: Int) {
+    assetCollection(where: $where, limit: $limit) {
+      items {
+        ...AssetFields
+      }
+    }
+  }
+`);
+
+export const ACTION_COLLECTION_QUERY = graphql(`
+  query ActionCollection($where: ActionFilter, $limit: Int) {
+    actionCollection(where: $where, limit: $limit) {
+      items {
+        ...ActionFields
       }
     }
   }
