@@ -10,8 +10,9 @@
     "lint": "eslint . --max-warnings 0"
   },
   "dependencies": {
-    "@contentful/rich-text-react-renderer": "^15.19.6",
-    "@contentful/rich-text-types": "^16.3.5",
+    "@contentful/rich-text-plain-text-renderer": "^17.0.0",
+    "@contentful/rich-text-react-renderer": "^15.22.11",
+    "@contentful/rich-text-types": "^16.8.5",
     "@repo/eslint-config": "workspace:*",
     "@repo/typescript-config": "workspace:*",
     "@types/node": "^20.10.6",
@@ -25,9 +26,13 @@
     "postcss-functions": "^4.0.2",
     "postcss-logical": "^7.0.0",
     "postcss-media-minmax": "^5.0.0",
+    "radix-ui": "^1.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sass": "^1.69.5",
     "typescript": "5.5.4"
+  },
+  "devDependencies": {
+    "typescript-plugin-css-modules": "^5.1.0"
   }
 }

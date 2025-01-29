@@ -12,15 +12,15 @@ import UniqueComponent from "../components/UniqueComponent/UniqueComponent";
 
 export default function Page({
   page,
-  relationships,
+  relationshipMap,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <ContentfulProvider page={page} relationships={relationships}>
+    <ContentfulProvider page={page} relationshipMap={relationshipMap}>
       <PageRenderer>
         {(className) => {
           return page.contentCollection?.items.map((item) => {
             if (item?.__typename === "Section") {
-              const section = relationships.sections.find(
+              const section = relationshipMap.sectionCollection.find(
                 (section) => section.sys.id === item.sys.id
               );
 
@@ -36,9 +36,10 @@ export default function Page({
                 />
               );
             } else if (item?.__typename === "ContentTypeRichText") {
-              const richText = relationships.contentTypeRichTexts.find(
-                (section) => section.sys.id === item.sys.id
-              );
+              const richText =
+                relationshipMap.contentTypeRichTextCollection.find(
+                  (section) => section.sys.id === item.sys.id
+                );
 
               if (!richText) {
                 return null;
@@ -52,9 +53,10 @@ export default function Page({
                 />
               );
             } else if (item?.__typename === "UniqueComponent") {
-              const uniqueComponent = relationships.uniqueComponents.find(
-                (section) => section.sys.id === item.sys.id
-              );
+              const uniqueComponent =
+                relationshipMap.uniqueComponentCollection.find(
+                  (section) => section.sys.id === item.sys.id
+                );
 
               if (!uniqueComponent) {
                 return null;
@@ -84,12 +86,12 @@ export async function getStaticProps(
     : (context.params?.pageSlugs.join("/") as string);
 
   try {
-    const { page, relationships } = await fetchPageBySlug(client, pageSlug);
+    const { page, relationshipMap } = await fetchPageBySlug(client, pageSlug);
 
     return {
       props: {
         page,
-        relationships,
+        relationshipMap,
       },
     };
   } catch (error) {

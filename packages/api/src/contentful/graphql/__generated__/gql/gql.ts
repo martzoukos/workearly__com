@@ -14,7 +14,7 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
  * Learn more about it here: https://the-guild.dev/graphql/codegen/plugins/presets/preset-client#reducing-bundle-size
  */
 const documents = {
-    "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n  }\n": types.AssetFieldsFragmentDoc,
+    "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n    contentType\n  }\n": types.AssetFieldsFragmentDoc,
     "\n  fragment AccordionCardFields on AccordionCard {\n    sys {\n      id\n    }\n    title\n    text {\n      json\n    }\n    column1Title\n    column1Text\n    column2Title\n    column2Text\n    topNotes\n    skipNumber\n  }\n": types.AccordionCardFieldsFragmentDoc,
     "\n  fragment ActionFields on Action {\n    sys {\n      id\n    }\n    name\n    internal {\n      slug\n    }\n    external\n    externalType\n    icon {\n      ...AssetFields\n    }\n    iconPlacement\n    color\n    variant\n    behaviour\n  }\n": types.ActionFieldsFragmentDoc,
     "\n  fragment CardFields on Card {\n    sys {\n      id\n    }\n    title\n    text\n    variant\n    asset {\n      ...AssetFields\n    }\n  }\n": types.CardFieldsFragmentDoc,
@@ -52,7 +52,7 @@ export function graphql(source: string): unknown;
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function graphql(source: "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n  }\n"): (typeof documents)["\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n  }\n"];
+export function graphql(source: "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n    contentType\n  }\n"): (typeof documents)["\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n    contentType\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

@@ -9,6 +9,7 @@ export const ASSET_FIELDS = graphql(`
     width
     height
     description
+    contentType
   }
 `);
 

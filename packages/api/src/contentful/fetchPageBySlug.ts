@@ -29,7 +29,7 @@ import {
 
 type ReturnType = {
   page: PageQueryItem;
-  relationships: RelationshipMapType;
+  relationshipMap: RelationshipMapType;
 };
 
 export default async function fetchPageBySlug(
@@ -45,11 +45,11 @@ export default async function fetchPageBySlug(
   }
 
   const page = data?.pageCollection?.items[0] as PageQueryItem;
-  const relationships = await getPageRelationships(client, page);
+  const relationshipMap = await getPageRelationships(client, page);
 
   return {
     page,
-    relationships,
+    relationshipMap,
   };
 }
 
@@ -149,7 +149,7 @@ async function getPageRelationships(
     mapItems: (data) => (data?.pageCollection?.items || []) as PageQueryItem[],
   });
 
-  const relationships: RelationshipMapType = {
+  const relationshipMap: RelationshipMapType = {
     courseDetailsCollection,
     sectionCollection,
     contentTypeRichTextCollection,
@@ -161,7 +161,7 @@ async function getPageRelationships(
     pageCollection,
   };
 
-  return relationships;
+  return relationshipMap;
 }
 
 function extractRecursiveChildIds(

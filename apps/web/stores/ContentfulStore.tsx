@@ -14,13 +14,13 @@ type PropsType = PropsWithChildren<ContextType>;
 export const ContentfulProvider = ({
   children,
   page,
-  relationships,
+  relationshipMap,
 }: PropsType): ReactElement => {
   return (
     <Context.Provider
       value={{
         page,
-        relationships,
+        relationshipMap,
       }}
     >
       {children}

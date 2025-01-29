@@ -1,4 +1,13 @@
-@use "@/styles/index" as *;
-
 .root {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  &[data-variant="Icon and Text"] {
+    .content {
+      display: grid;
+      grid-template-columns: repeat(var(--cards-count, 1), 1fr);
+      gap: 0.5rem;
+    }
+  }
 }
