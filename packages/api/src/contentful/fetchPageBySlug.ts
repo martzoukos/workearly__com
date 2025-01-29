@@ -31,6 +31,7 @@ import {
 type ReturnType = {
   page: PageQueryItem;
   relationships: PageRelationshipsType;
+  sections: SectionQueryItem[];
 };
 
 export default async function fetchPageBySlug(
@@ -44,18 +45,19 @@ export default async function fetchPageBySlug(
   }
 
   const page = data?.pageCollection?.items[0] as PageQueryItem;
-  const relationships = await getPageRelationships(client, page);
+  const [relationships, sections] = await getPageRelationships(client, page);
 
   return {
     page,
     relationships,
+    sections,
   };
 }
 
 async function getPageRelationships(
   client: Client,
   page: PageQueryItem
-): Promise<PageRelationshipsType> {
+): Promise<[PageRelationshipsType, SectionQueryItem[]]> {
   const detailsCollection = await fetchCollectionByIds(client, {
     ids: page?.details?.sys.id ? [page.details.sys.id] : [],
     query: COURSE_DETAILS_COLLECTION_QUERY,
@@ -163,7 +165,7 @@ async function getPageRelationships(
     })),
   };
 
-  return relationships;
+  return [relationships, sections];
 }
 
 function extractPageChildIds(

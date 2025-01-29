@@ -24,7 +24,10 @@ export async function fetchCollectionByIds<TItem, TData>(
 
   for (const group of chunk(options.ids, options.limit || 10)) {
     const { data } = await client
-      .query(options.query, { where: { sys: { id_in: group } } })
+      .query(options.query, {
+        where: { sys: { id_in: group } },
+        limit: group.length,
+      })
       .toPromise();
 
     if (data) {
