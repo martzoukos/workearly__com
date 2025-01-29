@@ -1,14 +1,13 @@
 import {
-  Page as PageType,
   PAGE_SLUGS_QUERY,
-  getPageBySlug,
+  fetchPageBySlug,
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { LayoutProvider } from "../stores/LayoutStore";
 import Layout from "../layouts/Layout";
 import { CustomLink } from "@/components/Button/Button";
-import icon from "../Public/x.svg";
+import icon from "../public/x.svg";
 import Image from "next/image";
 
 export default function Page({
@@ -40,9 +39,9 @@ export async function getStaticProps(
     : (context.params?.pageSlugs.join("/") as string);
 
   try {
-    const pageContent = await getPageBySlug(client, pageSlug);
+    const page = await fetchPageBySlug(client, pageSlug);
 
-    if (!pageContent) {
+    if (!page) {
       return {
         notFound: true,
       };
@@ -50,10 +49,12 @@ export async function getStaticProps(
 
     return {
       props: {
-        page: pageContent,
+        page,
       },
     };
   } catch (error) {
+    console.error(error);
+
     return {
       notFound: true,
     };

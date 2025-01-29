@@ -1,5 +1,5 @@
 import fs from "fs/promises";
-import getTranslations from "./getTranslations";
+import fetchTranslations from "./fetchTranslations";
 import path from "path";
 
 const OUTPUT_DIR = "./src/airtable/__generated__";
@@ -28,7 +28,7 @@ async function generateTypeDefinition(translations: any[]) {
 async function generateTranslations() {
   try {
     console.log("Fetching translations...");
-    const translations = await getTranslations();
+    const translations = await fetchTranslations();
 
     const outputDir = path.resolve(OUTPUT_DIR);
     const jsonFile = path.join(outputDir, "translations.json");

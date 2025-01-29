@@ -1,5 +1,4 @@
 import path from "path";
-import { DEFAULT_LOCALE, LOCALES } from "@workearly/api";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -9,10 +8,6 @@ const nextConfig = {
     stylePreprocessorOptions: {
       includePaths: ["./node_modules"],
     },
-  },
-  i18n: {
-    locales: [...LOCALES],
-    defaultLocale: DEFAULT_LOCALE,
   },
 };
 

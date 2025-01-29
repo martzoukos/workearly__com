@@ -7,12 +7,11 @@ import {
   fetchExchange,
   ssrExchange,
 } from "@urql/core";
-import contentfulExchange, {
-  ContentfulExchangePropsType,
-} from "./contentful-exchange";
+import contentfulExchange from "./contentful-exchange";
+import { ContentfulExchangeOptionsType } from "../../types";
 
 type OptionsType = {
-  contentful: ContentfulExchangePropsType;
+  contentful: ContentfulExchangeOptionsType;
 };
 
 export function getServerClient(options?: OptionsType): [Client, SSRExchange] {
