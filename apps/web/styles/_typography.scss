@@ -1,55 +1,55 @@
 @use "./functions" as *;
 
-%d-1 {
+%d1 {
   font-size: fluid-rem(3.75rem, 6rem);
   font-weight: 800;
   line-height: fluid-rem(3.125rem, 6.25rem);
   letter-spacing: -3%;
 }
 
-%d-2 {
+%d2 {
   font-size: fluid-rem(3rem, 4.5rem);
   font-weight: 800;
   line-height: fluid-rem(2.75rem, 4.5rem);
   letter-spacing: -3%;
 }
 
-%h-1 {
+%h1 {
   font-size: fluid-rem(2.5rem, 3.75rem);
   font-weight: 700;
   line-height: fluid-rem(2.5rem, 3.75rem);
   letter-spacing: -3%;
 }
 
-%h-2 {
+%h2 {
   font-size: fluid-rem(1.875rem, 3rem);
   font-weight: 500;
   line-height: fluid-rem(1.875rem, 3rem);
   letter-spacing: -3%;
 }
 
-%h-3 {
+%h3 {
   font-size: fluid-rem(1.5rem, 2.5rem);
   font-weight: 500;
   line-height: fluid-rem(1.875rem, 2.5rem);
   letter-spacing: -3%;
 }
 
-%h-4 {
+%h4 {
   font-size: fluid-rem(1.25rem, 1.875rem);
   font-weight: 500;
   line-height: fluid-rem(1.5rem, 2.25rem);
   letter-spacing: -1%;
 }
 
-%h-5 {
+%h5 {
   font-size: fluid-rem(1.125rem, 1.5rem);
   font-weight: 400;
   line-height: fluid-rem(1.25rem, 1.875rem);
   letter-spacing: 0%;
 }
 
-%h-6 {
+%h6 {
   font-size: fluid-rem(1rem, 1.25rem);
   font-weight: 400;
   line-height: fluid-rem(1.25rem, 2rem);

@@ -71,6 +71,10 @@
     }
   }
 
+  &[data-behaviour="Flex"] {
+    width: 100%;
+  }
+
   &[data-iconplacement="Left"] {
     flex-direction: row-reverse;
   }
@@ -91,6 +95,7 @@
     &:hover {
       border-color: hsl(var(--black-450));
       --bg-color: transparent;
+      --text-color: hsl(var(--black-450));
     }
 
     &:active {
@@ -178,6 +183,27 @@
     &:active {
       --bg-color: hsl(var(--black-500));
       --text-color: hsl(var(--neutral-500));
+    }
+
+    &:disabled {
+      opacity: 0.5;
+    }
+  }
+  &[data-variant="Tab"] {
+    --bg-color: transparent;
+    --text-color: hsl(var(--black-500));
+    border: 1px solid hsl(var(--black-500));
+    padding: 0.5em 0.8em;
+    border-radius: 0.3rem;
+
+    &:hover {
+      --bg-color: hsl(var(--green-500));
+      --text-color: hsl(var(--black-500));
+    }
+
+    &:active {
+      --bg-color: hsl(var(--green-500));
+      --text-color: hsl(var(--black-500));
     }
 
     &:disabled {
