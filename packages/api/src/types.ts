@@ -26,7 +26,8 @@ export type NextLinkPropsType = {
     | "Ghost"
     | "Underlined"
     | "Decorative"
-    | "Chip";
+    | "Chip"
+    | "Tab";
   behaviour?: "Flex" | "Wrap";
   size?: "normal" | "medium" | "large";
   icon?: ReactNode;
