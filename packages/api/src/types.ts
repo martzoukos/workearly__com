@@ -99,7 +99,7 @@ export type SectionRelationshipsType = {
 
 export type PageRelationshipsType = {
   id: string;
-  details: CourseDetailsQueryItem | undefined;
+  details: CourseDetailsQueryItem | null;
   contentTypeRichTexts: ContentTypeRichTextQueryItem[];
   uniqueComponents: UniqueComponentQueryItem[];
   sections: SectionRelationshipsType[];

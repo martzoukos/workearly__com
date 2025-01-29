@@ -138,7 +138,7 @@ async function getPageRelationships(
 
   const relationships: PageRelationshipsType = {
     id: page.sys.id,
-    details: detailsCollection.at(0),
+    details: detailsCollection.at(0) ?? null,
     contentTypeRichTexts: contentTypeRichTexts.filter((item) =>
       contentTypeRichTextIds.includes(item.sys.id)
     ),
