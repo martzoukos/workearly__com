@@ -1,10 +1,13 @@
-import { PropsWithChildren } from "react";
+import { useContentful } from "../../stores/ContentfulStore";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
-import { useContentful } from "../../stores/ContentfulStore";
 import CoursePage from "./CoursePage";
 
-export default function PageRenderer({ children }: PropsWithChildren) {
+type PropsType = {
+  children: (className?: string) => React.ReactNode;
+};
+
+export default function PageRenderer({ children }: PropsType) {
   const { page } = useContentful();
 
   return (
