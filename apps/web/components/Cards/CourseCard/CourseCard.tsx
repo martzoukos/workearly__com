@@ -5,7 +5,7 @@ type PropsType = {};
 
 const CourseCard = () => {
   return (
-    <div className={styles.card} data-color="Green">
+    <div className={styles.card} data-color="Dark" data-size={"normal"}>
       <Image
         src="/course-card.png"
         alt=""
