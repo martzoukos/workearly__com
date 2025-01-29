@@ -153,6 +153,21 @@ export const SECTION_FIELDS = graphql(`
             id
           }
         }
+        ... on Page {
+          sys {
+            id
+          }
+        }
+        ... on Section {
+          sys {
+            id
+          }
+        }
+        ... on UniqueComponent {
+          sys {
+            id
+          }
+        }
       }
     }
   }
