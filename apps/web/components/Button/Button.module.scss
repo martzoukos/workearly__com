@@ -17,6 +17,8 @@
   border-radius: 0.3125rem;
   padding: 0.7em 0.85em;
 
+  // COLORS //
+
   &[data-color="Green"] {
     --bg-color: hsl(var(--green-500));
     --box-shadow-color: hsl(var(--neutral-500));
@@ -71,21 +73,7 @@
     }
   }
 
-  &[data-behaviour="Flex"] {
-    width: 100%;
-  }
-
-  &[data-iconplacement="Left"] {
-    flex-direction: row-reverse;
-  }
-
-  &[data-size="medium"] {
-    font-size: 16px;
-  }
-
-  &[data-size="large"] {
-    font-size: 20px;
-  }
+  // VARIANTS
 
   &[data-variant="Outlined"] {
     --bg-color: transparent;
@@ -209,5 +197,26 @@
     &:disabled {
       opacity: 0.5;
     }
+  }
+
+  // SIZES
+
+  &[data-size="medium"] {
+    font-size: 16px;
+  }
+
+  &[data-size="large"] {
+    font-size: 20px;
+  }
+
+  // BEHAVIOUR
+
+  &[data-behaviour="Flex"] {
+    width: 100%;
+  }
+
+  // ICON PLACEMENT
+  &[data-iconplacement="Left"] {
+    flex-direction: row-reverse;
   }
 }
