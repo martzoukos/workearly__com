@@ -5,7 +5,10 @@ import {
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { ContentfulProvider } from "../stores/ContentfulStore";
-import Layout from "../components/Layout/Layout";
+import Section from "../components/Section/Section";
+import PageRenderer from "../components/PageRenderer/PageRenderer";
+import RichText from "../components/RichText/RichText";
+import UniqueComponent from "../components/UniqueComponent/UniqueComponent";
 
 export default function Page({
   page,
@@ -13,7 +16,61 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <ContentfulProvider page={page} relationships={relationships}>
-      <Layout></Layout>
+      <PageRenderer>
+        {(className) => {
+          return page.contentCollection?.items.map((item) => {
+            if (item?.__typename === "Section") {
+              const section = relationships.sections.find(
+                (section) => section.sys.id === item.sys.id
+              );
+
+              if (!section) {
+                return null;
+              }
+
+              return (
+                <Section
+                  key={item.sys.id}
+                  section={section}
+                  className={className}
+                />
+              );
+            } else if (item?.__typename === "ContentTypeRichText") {
+              const richText = relationships.contentTypeRichTexts.find(
+                (section) => section.sys.id === item.sys.id
+              );
+
+              if (!richText) {
+                return null;
+              }
+
+              return (
+                <RichText
+                  key={item.sys.id}
+                  richText={richText}
+                  className={className}
+                />
+              );
+            } else if (item?.__typename === "UniqueComponent") {
+              const uniqueComponent = relationships.uniqueComponents.find(
+                (section) => section.sys.id === item.sys.id
+              );
+
+              if (!uniqueComponent) {
+                return null;
+              }
+
+              return (
+                <UniqueComponent
+                  key={item.sys.id}
+                  uniqueComponent={uniqueComponent}
+                  className={className}
+                />
+              );
+            }
+          });
+        }}
+      </PageRenderer>
     </ContentfulProvider>
   );
 }

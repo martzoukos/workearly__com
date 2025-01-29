@@ -88,19 +88,18 @@ export type CardQueryItem = NonNullable<
   NonNullable<CardCollectionQuery["cardCollection"]>["items"][number]
 >;
 
-export type SectionRelationshipsType = {
+export type RelationshipsType = {
   id: string;
+  details: CourseDetailsQueryItem | null;
+  sections: SectionQueryItem[];
+  contentTypeRichTexts: ContentTypeRichTextQueryItem[];
+  uniqueComponents: UniqueComponentQueryItem[];
   actions: ActionQueryItem[];
   assets: AssetQueryItem[];
   accordionCards: AccordionCardQueryItem[];
   cards: CardQueryItem[];
-  contentTypeRichTextIds: ContentTypeRichTextQueryItem[];
 };
 
-export type PageRelationshipsType = {
-  id: string;
-  details: CourseDetailsQueryItem | null;
-  contentTypeRichTexts: ContentTypeRichTextQueryItem[];
-  uniqueComponents: UniqueComponentQueryItem[];
-  sections: SectionRelationshipsType[];
-};
+export type RelationshipsContentTypeName =
+  | PageContentItem["__typename"]
+  | SectionContentItem["__typename"];

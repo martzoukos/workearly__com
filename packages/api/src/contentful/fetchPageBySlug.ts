@@ -7,7 +7,7 @@ import {
   ContentTypeRichTextQueryItem,
   CourseDetailsQueryItem,
   PageQueryItem,
-  PageRelationshipsType,
+  RelationshipsType,
   SectionQueryItem,
   UniqueComponentQueryItem,
 } from "../types";
@@ -30,7 +30,7 @@ import {
 
 type ReturnType = {
   page: PageQueryItem;
-  relationships: PageRelationshipsType;
+  relationships: RelationshipsType;
 };
 
 export default async function fetchPageBySlug(
@@ -55,7 +55,7 @@ export default async function fetchPageBySlug(
 async function getPageRelationships(
   client: Client,
   page: PageQueryItem
-): Promise<PageRelationshipsType> {
+): Promise<RelationshipsType> {
   const detailsCollection = await fetchCollectionByIds(client, {
     ids: page?.details?.sys.id ? [page.details.sys.id] : [],
     query: COURSE_DETAILS_COLLECTION_QUERY,
@@ -136,31 +136,16 @@ async function getPageRelationships(
     mapItems: (data) => (data?.cardCollection?.items || []) as CardQueryItem[],
   });
 
-  const relationships: PageRelationshipsType = {
+  const relationships: RelationshipsType = {
     id: page.sys.id,
     details: detailsCollection.at(0) ?? null,
-    contentTypeRichTexts: contentTypeRichTexts.filter((item) =>
-      contentTypeRichTextIds.includes(item.sys.id)
-    ),
-    uniqueComponents: uniqueComponents.filter((item) =>
-      uniqueComponentIds.includes(item.sys.id)
-    ),
-    sections: sections.map((section) => ({
-      id: section.sys.id,
-      actions: actions.filter((action) => actionIds.includes(action.sys.id)),
-      assets: assets.filter((asset) => assetIds.includes(asset.sys.id)),
-      accordionCards: accordionCards.filter((card) =>
-        accordionCardIds.includes(card.sys.id)
-      ),
-      contentTypeRichTextIds: contentTypeRichTexts.filter((item) =>
-        extractSectionChildIds(section, "ContentTypeRichText").includes(
-          item.sys.id
-        )
-      ),
-      cards: cards.filter((item) =>
-        extractSectionChildIds(section, "Card").includes(item.sys.id)
-      ),
-    })),
+    sections,
+    contentTypeRichTexts,
+    uniqueComponents,
+    accordionCards,
+    actions,
+    assets,
+    cards,
   };
 
   return relationships;
