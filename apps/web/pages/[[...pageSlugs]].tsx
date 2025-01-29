@@ -4,29 +4,17 @@ import {
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import { LayoutProvider } from "../stores/LayoutStore";
-import Layout from "../layouts/Layout";
-import { CustomLink } from "@/components/Button/Button";
-import icon from "../public/x.svg";
-import Image from "next/image";
+import { ContentfulProvider } from "../stores/ContentfulStore";
+import Layout from "../components/Layout/Layout";
 
 export default function Page({
   page,
+  relationships,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <LayoutProvider page={page}>
-      <Layout>
-        <CustomLink
-          href={"https://www.youtube.com/"}
-          icon={<Image src={icon} alt="" />}
-          size="normal"
-          color="Green"
-          variant="Decorative"
-        >
-          Button
-        </CustomLink>
-      </Layout>
-    </LayoutProvider>
+    <ContentfulProvider page={page} relationships={relationships}>
+      <Layout></Layout>
+    </ContentfulProvider>
   );
 }
 
@@ -39,17 +27,12 @@ export async function getStaticProps(
     : (context.params?.pageSlugs.join("/") as string);
 
   try {
-    const page = await fetchPageBySlug(client, pageSlug);
-
-    if (!page) {
-      return {
-        notFound: true,
-      };
-    }
+    const { page, relationships } = await fetchPageBySlug(client, pageSlug);
 
     return {
       props: {
         page,
+        relationships,
       },
     };
   } catch (error) {
