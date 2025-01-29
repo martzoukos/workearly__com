@@ -1,15 +1,17 @@
 import fs from "fs/promises";
 import fetchTranslations from "./fetchTranslations";
 import path from "path";
+import { TranslationType } from "../types";
 
 const OUTPUT_DIR = "./src/airtable/__generated__";
 
-async function generateTypeDefinition(translations: any[]) {
+async function generateTypeDefinition(translations: TranslationType[]) {
   const allTexts = new Set<string>();
 
-  translations.forEach(({ el, en }) => {
-    if (el) allTexts.add(el);
-    if (en) allTexts.add(en);
+  translations.forEach(({ code }) => {
+    if (code) {
+      allTexts.add(code);
+    }
   });
 
   const typeStrings = Array.from(allTexts)
