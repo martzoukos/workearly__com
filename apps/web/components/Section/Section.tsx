@@ -2,10 +2,10 @@ import { CardVariantType, SectionQueryItem } from "@workearly/api";
 import styles from "./Section.module.scss";
 import clsx from "clsx";
 import Text from "@/components/Text/Text";
-import { useContentful } from "@/stores/ContentfulStore";
 import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
 import CardGrid from "@/components/Cards/CardGrid";
+import useSectionResolver from "../../hooks/useSectionResolver";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -13,17 +13,19 @@ type PropsType = {
 };
 
 export default function Section({ section, className }: PropsType) {
-  const { resolver } = useContentful();
+  const {
+    cardItems,
+    cardsCount,
+    alignment,
+    accordionItems,
+    actions,
+    hasContentItems,
+  } = useSectionResolver(section);
 
   const style = {
-    "--cards-count": resolver.section.cardsCount(section),
-    "--flex-alignment": resolver.section.alignment(section),
+    "--cards-count": cardsCount,
+    "--flex-alignment": alignment,
   } as React.CSSProperties;
-
-  const cardItems = resolver.section.cardItems(section);
-  const accordionItems = resolver.section.accordionItems(section);
-  const actions = resolver.section.actions(section);
-  const hasContentItems = resolver.section.hasContentItems(section);
 
   return (
     <section className={clsx(styles.root, className)} style={style}>
