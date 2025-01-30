@@ -5,6 +5,11 @@
   align-items: var(--flex-alignment);
 }
 
+.content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .header {
   display: flex;
   flex-direction: column;

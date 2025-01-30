@@ -10,7 +10,7 @@ const DATA_MAP = {
 
 export default function useSectionResolver(section: SectionQueryItem) {
   const { relationshipMap } = useContentful();
-  const alignment =
+  const flexAlignment =
     DATA_MAP.alignment[section.alignment as keyof typeof DATA_MAP.alignment] ??
     DATA_MAP.alignment.Left;
   const cardsCount = section.cardsCount ?? 1;
@@ -39,7 +39,7 @@ export default function useSectionResolver(section: SectionQueryItem) {
     | "Tabs";
 
   return {
-    alignment,
+    flexAlignment,
     cardsCount,
     cardItems,
     accordionItems,

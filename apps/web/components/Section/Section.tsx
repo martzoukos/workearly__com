@@ -16,7 +16,7 @@ export default function Section({ section, className }: PropsType) {
   const {
     cardItems,
     cardsCount,
-    alignment,
+    flexAlignment,
     accordionItems,
     actions,
     hasContentItems,
@@ -25,7 +25,7 @@ export default function Section({ section, className }: PropsType) {
 
   const style = {
     "--cards-count": cardsCount,
-    "--flex-alignment": alignment,
+    "--flex-alignment": flexAlignment,
   } as React.CSSProperties;
 
   return (
@@ -35,7 +35,7 @@ export default function Section({ section, className }: PropsType) {
         {section.text && <Text>{section.text}</Text>}
       </header>
       {hasContentItems && (
-        <div>
+        <div className={styles.content}>
           {variant === "Default" && cardItems.length > 0 && (
             <CardGrid
               cards={cardItems}

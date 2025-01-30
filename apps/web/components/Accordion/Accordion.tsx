@@ -1,8 +1,9 @@
+import Text from "@/components/Text/Text";
+import { AccordionCardQueryItem } from "@workearly/api";
+import clsx from "clsx";
+import { Accordion as RadixAccordion } from "radix-ui";
 import { forwardRef } from "react";
 import styles from "./Accordion.module.scss";
-import { Accordion as RadixAccordion } from "radix-ui";
-import clsx from "clsx";
-import { AccordionCardQueryItem } from "@workearly/api";
 
 type PropsType = {
   accordionCards: AccordionCardQueryItem[];
@@ -16,10 +17,12 @@ export default function Accordion({ accordionCards }: PropsType) {
       defaultValue={accordionCards[0]?.sys.id}
       collapsible
     >
-      {accordionCards.map((accordionCard) => (
+      {accordionCards.map((accordionCard, index) => (
         <AccordionCard
           key={accordionCard.sys.id}
           accordionCard={accordionCard}
+          count={accordionCard.skipNumber ? undefined : index + 1}
+          className={styles.item}
         />
       ))}
     </RadixAccordion.Root>
@@ -29,17 +32,43 @@ export default function Accordion({ accordionCards }: PropsType) {
 function AccordionCard({
   accordionCard,
   className,
+  count,
 }: {
   accordionCard: AccordionCardQueryItem;
   className?: string;
+  count?: number;
 }) {
   return (
-    <RadixAccordion.Item
-      value={accordionCard.sys.id}
-      className={clsx(styles.item, className)}
-    >
-      <AccordionTrigger>{accordionCard.title}</AccordionTrigger>
-      <AccordionContent>{accordionCard.topNotes}</AccordionContent>
+    <RadixAccordion.Item value={accordionCard.sys.id} className={className}>
+      <AccordionTrigger className={styles.trigger}>
+        {count && (
+          <Text size="caption" className={styles.icon}>
+            {count}
+          </Text>
+        )}
+        {accordionCard.title}
+        {accordionCard.topNotes && (
+          <Text size="small" className={styles.topNotes}>
+            {accordionCard.topNotes.join(",")}
+          </Text>
+        )}
+      </AccordionTrigger>
+      <AccordionContent className={clsx(styles.content)}>
+        <div className={styles.grid}>
+          <div>
+            <Text as="h6" size="small" className={styles.columnTitle}>
+              {accordionCard.column1Title}
+            </Text>
+            <Text size="small">{accordionCard.column1Text}</Text>
+          </div>
+          <div>
+            <Text size="small" className={styles.columnTitle}>
+              {accordionCard.column2Title}
+            </Text>
+            <Text size="small">{accordionCard.column2Text}</Text>
+          </div>
+        </div>
+      </AccordionContent>
     </RadixAccordion.Item>
   );
 }
@@ -54,17 +83,21 @@ interface AccordionTriggerProps
 
 const AccordionTrigger = forwardRef<HTMLButtonElement, AccordionTriggerProps>(
   ({ children, className, ...props }, forwardedRef) => (
-    <RadixAccordion.Header className={styles.header}>
-      <RadixAccordion.Trigger
-        className={clsx(styles.trigger, className)}
-        {...props}
-        ref={forwardedRef}
-      >
-        {children}
-      </RadixAccordion.Trigger>
+    <RadixAccordion.Header asChild>
+      <Text as="h3" size="h6">
+        <RadixAccordion.Trigger
+          className={className}
+          {...props}
+          ref={forwardedRef}
+        >
+          {children}
+        </RadixAccordion.Trigger>
+      </Text>
     </RadixAccordion.Header>
   )
 );
+
+AccordionTrigger.displayName = "AccordionTrigger";
 
 interface AccordionContentProps
   extends React.ComponentProps<typeof RadixAccordion.Content> {
@@ -74,12 +107,10 @@ interface AccordionContentProps
 
 const AccordionContent = forwardRef<HTMLDivElement, AccordionContentProps>(
   ({ children, className, ...props }, forwardedRef) => (
-    <RadixAccordion.Content
-      className={clsx(styles.content, className)}
-      {...props}
-      ref={forwardedRef}
-    >
+    <RadixAccordion.Content className={className} {...props} ref={forwardedRef}>
       {children}
     </RadixAccordion.Content>
   )
 );
+
+AccordionContent.displayName = "AccordionContent";
