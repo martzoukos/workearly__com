@@ -107,4 +107,4 @@ export type SectionChildContentType =
       NonNullable<SectionQueryItem["assetsCollection"]>["items"][number]
     >["__typename"];
 
-export type CardVariantType = "Icon and Text" | "Course Outline";
+export type CardVariantType = "Icon and Text";

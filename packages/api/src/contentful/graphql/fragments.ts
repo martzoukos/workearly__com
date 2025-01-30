@@ -120,6 +120,7 @@ export const SECTION_FIELDS = graphql(`
     supertitle
     text
     cardVariant
+    variant
     cardsCount
     behaviour
     theme

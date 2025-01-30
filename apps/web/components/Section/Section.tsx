@@ -1,10 +1,11 @@
 import { CardVariantType, SectionQueryItem } from "@workearly/api";
 import styles from "./Section.module.scss";
 import clsx from "clsx";
-import Text from "../Text/Text";
-import { useContentful } from "../../stores/ContentfulStore";
-import Card from "../Card/Card";
-import Button from "../Button/Button";
+import Text from "@/components/Text/Text";
+import { useContentful } from "@/stores/ContentfulStore";
+import Button from "@/components/Button/Button";
+import Accordion from "@/components/Accordion/Accordion";
+import Cards from "@/components/Cards/Cards";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -19,7 +20,8 @@ export default function Section({ section, className }: PropsType) {
     "--flex-alignment": resolver.section.alignment(section),
   } as React.CSSProperties;
 
-  const contentItems = resolver.section.contentItems(section);
+  const cardItems = resolver.section.cardItems(section);
+  const accordionItems = resolver.section.accordionItems(section);
   const actions = resolver.section.actions(section);
 
   return (
@@ -32,22 +34,18 @@ export default function Section({ section, className }: PropsType) {
         <Text as="h4">{section.title}</Text>
         {section.text && <Text>{section.text}</Text>}
       </header>
+      <div className={clsx(styles.content)}>
+        {section.variant === "Default" && cardItems.length > 0 && (
+          <Cards
+            cards={cardItems}
+            variant={section.cardVariant as CardVariantType}
+          />
+        )}
 
-      {contentItems.length > 0 && (
-        <div className={styles.content}>
-          {contentItems.map((item) => {
-            if (item?.__typename === "Card") {
-              return (
-                <Card
-                  key={item.sys.id}
-                  card={item}
-                  fallbackVariant={section.cardVariant as CardVariantType}
-                />
-              );
-            }
-          })}
-        </div>
-      )}
+        {section.variant === "Accordion" && accordionItems.length > 0 && (
+          <Accordion accordionCards={accordionItems} />
+        )}
+      </div>
 
       {actions.length > 0 && (
         <footer className={styles.footer}>

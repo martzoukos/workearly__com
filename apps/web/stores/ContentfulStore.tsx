@@ -1,5 +1,7 @@
 import {
+  AccordionCardQueryItem,
   ActionQueryItem,
+  CardQueryItem,
   fetchPageBySlug,
   SectionQueryItem,
 } from "@workearly/api";
@@ -24,9 +26,8 @@ type ContextType = Awaited<ReturnType<typeof fetchPageBySlug>> & {
     section: {
       alignment: (section: SectionQueryItem) => string;
       cardsCount: (section: SectionQueryItem) => number;
-      contentItems: (
-        section: SectionQueryItem
-      ) => NonNullable<SectionQueryItem["contentCollection"]>["items"];
+      cardItems: (section: SectionQueryItem) => CardQueryItem[];
+      accordionItems: (section: SectionQueryItem) => AccordionCardQueryItem[];
       actions: (section: SectionQueryItem) => ActionQueryItem[];
     };
   };
@@ -52,29 +53,21 @@ export const ContentfulProvider = ({
       cardsCount: (section) => {
         return section.cardsCount ?? 1;
       },
-      contentItems: (section) => {
-        if (section.cardVariant === "Icon and Text") {
-          const cards = relationshipMap.cardCollection.filter((item) =>
-            section.contentCollection?.items
-              .filter((item) => item?.__typename === "Card")
-              .map((item) => item?.sys.id)
-              .includes(item.sys.id)
-          );
-
-          return cards;
-        } else if (section.cardVariant === "Course Outline") {
-          const accordionCards = relationshipMap.accordionCardCollection.filter(
-            (item) =>
-              section.contentCollection?.items
-                .filter((item) => item?.__typename === "AccordionCard")
-                .map((item) => item?.sys.id)
-                .includes(item.sys.id)
-          );
-
-          return accordionCards;
-        }
-
-        return [];
+      cardItems: (section) => {
+        return relationshipMap.cardCollection.filter((item) =>
+          section.contentCollection?.items
+            .filter((item) => item?.__typename === "Card")
+            .map((item) => item?.sys.id)
+            .includes(item.sys.id)
+        );
+      },
+      accordionItems: (section) => {
+        return relationshipMap.accordionCardCollection.filter((item) =>
+          section.contentCollection?.items
+            .filter((item) => item?.__typename === "AccordionCard")
+            .map((item) => item?.sys.id)
+            .includes(item.sys.id)
+        );
       },
       actions: (section) => {
         return relationshipMap.actionCollection.filter((item) =>
