@@ -6,8 +6,8 @@ type PropsType = {
   fallbackVariant: CardVariantType;
 };
 
-export default function Card({ card, fallbackVariant }: PropsType) {
-  const variant = card.variant || fallbackVariant;
+export default function Cards({ card, fallbackVariant }: PropsType) {
+  const variant = (card.variant || fallbackVariant) as CardVariantType;
 
   if (variant === "Icon and Text") {
     return <IconTextCard card={card} />;

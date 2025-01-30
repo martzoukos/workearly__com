@@ -12,33 +12,15 @@ type PropsType = {
 };
 
 export default function Section({ section, className }: PropsType) {
-  const { relationshipMap, resolveMetadataMap } = useContentful();
+  const { resolver } = useContentful();
 
   const style = {
-    "--cards-count": resolveMetadataMap.sectionCardsCount(section.cardsCount),
-    "--flex-alignment": resolveMetadataMap.sectionAlignment(section.alignment),
+    "--cards-count": resolver.section.cardsCount(section),
+    "--flex-alignment": resolver.section.alignment(section),
   } as React.CSSProperties;
 
-  const contentItems: NonNullable<
-    SectionQueryItem["contentCollection"]
-  >["items"] = [];
-
-  if (section.cardVariant === "Icon and Text") {
-    const cards = relationshipMap.cardCollection.filter((item) =>
-      section.contentCollection?.items
-        .filter((item) => item?.__typename === "Card")
-        .map((item) => item?.sys.id)
-        .includes(item.sys.id)
-    );
-
-    contentItems.push(...cards);
-  }
-
-  const actions = relationshipMap.actionCollection.filter((item) =>
-    section.actionsCollection?.items
-      .map((item) => item?.sys.id)
-      .includes(item.sys.id)
-  );
+  const contentItems = resolver.section.contentItems(section);
+  const actions = resolver.section.actions(section);
 
   return (
     <section

@@ -1,4 +1,8 @@
-import { fetchPageBySlug } from "@workearly/api";
+import {
+  ActionQueryItem,
+  fetchPageBySlug,
+  SectionQueryItem,
+} from "@workearly/api";
 import {
   PropsWithChildren,
   ReactElement,
@@ -6,19 +10,26 @@ import {
   useContext,
 } from "react";
 
-const METADATA_MAP = {
-  sectionAlignmentMap: {
-    Left: "flex-start",
-    Centered: "center",
+const DATA_MAP = {
+  section: {
+    alignment: {
+      Left: "flex-start",
+      Centered: "center",
+    },
   },
 };
 
 type ContextType = Awaited<ReturnType<typeof fetchPageBySlug>> & {
-  resolveMetadataMap: {
-    sectionAlignment: (value: string | null | undefined) => string;
-    sectionCardsCount: (value: number | null | undefined) => number;
+  resolver: {
+    section: {
+      alignment: (section: SectionQueryItem) => string;
+      cardsCount: (section: SectionQueryItem) => number;
+      contentItems: (
+        section: SectionQueryItem
+      ) => NonNullable<SectionQueryItem["contentCollection"]>["items"];
+      actions: (section: SectionQueryItem) => ActionQueryItem[];
+    };
   };
-  metadataMap: typeof METADATA_MAP;
 };
 const Context = createContext<ContextType | undefined>(undefined);
 
@@ -29,16 +40,49 @@ export const ContentfulProvider = ({
   page,
   relationshipMap,
 }: PropsType): ReactElement => {
-  const resolveMetadataMap: ContextType["resolveMetadataMap"] = {
-    sectionAlignment: (value) => {
-      return (
-        METADATA_MAP.sectionAlignmentMap[
-          value as keyof typeof METADATA_MAP.sectionAlignmentMap
-        ] ?? METADATA_MAP.sectionAlignmentMap.Left
-      );
-    },
-    sectionCardsCount: (value) => {
-      return value ?? 1;
+  const resolver: ContextType["resolver"] = {
+    section: {
+      alignment: (section) => {
+        return (
+          DATA_MAP.section.alignment[
+            section.alignment as keyof typeof DATA_MAP.section.alignment
+          ] ?? DATA_MAP.section.alignment.Left
+        );
+      },
+      cardsCount: (section) => {
+        return section.cardsCount ?? 1;
+      },
+      contentItems: (section) => {
+        if (section.cardVariant === "Icon and Text") {
+          const cards = relationshipMap.cardCollection.filter((item) =>
+            section.contentCollection?.items
+              .filter((item) => item?.__typename === "Card")
+              .map((item) => item?.sys.id)
+              .includes(item.sys.id)
+          );
+
+          return cards;
+        } else if (section.cardVariant === "Course Outline") {
+          const accordionCards = relationshipMap.accordionCardCollection.filter(
+            (item) =>
+              section.contentCollection?.items
+                .filter((item) => item?.__typename === "AccordionCard")
+                .map((item) => item?.sys.id)
+                .includes(item.sys.id)
+          );
+
+          return accordionCards;
+        }
+
+        return [];
+      },
+      actions: (section) => {
+        return relationshipMap.actionCollection.filter((item) =>
+          section.actionsCollection?.items
+            .map((item) => item?.sys.id)
+            .includes(item.sys.id)
+        );
+      },
     },
   };
 
@@ -47,8 +91,7 @@ export const ContentfulProvider = ({
       value={{
         page,
         relationshipMap,
-        resolveMetadataMap,
-        metadataMap: METADATA_MAP,
+        resolver,
       }}
     >
       {children}

@@ -19,12 +19,12 @@ const Demo = () => {
       }}
     >
       {/* <IconTextCard /> */}
-      <Button variant="Solid">Demo</Button>
+      {/* <Button variant="Solid">Demo</Button>
       <Button variant="Outlined">Demo</Button>
       <Button variant="Chip">Demo</Button>
       <Button variant="Decorative">Demo</Button>
       <Button variant="Ghost">Demo</Button>
-      <Button variant="Underlined">Demo</Button>
+      <Button variant="Underlined">Demo</Button> */}
       <LogoCard />
       <CertificateCard />
       <CourseDetailsCard />
