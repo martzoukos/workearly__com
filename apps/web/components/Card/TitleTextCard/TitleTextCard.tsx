@@ -1,15 +1,14 @@
+import Text from "@/components/Text/Text";
 import styles from "./TitleTextCard.module.scss";
-
-type PropsType = {};
 
 const TitleTextCard = () => {
   return (
     <div className={styles.card}>
-      <p className={styles.title}>87.7 Million Jobs</p>
-      <p className={styles.text}>
+      <Text size="h6">87.7 Million Jobs</Text>
+      <Text size="small">
         By 2027, there will be a global demand for 87.7 million project
         management professionals.
-      </p>
+      </Text>
     </div>
   );
 };

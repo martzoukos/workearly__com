@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./PeopleCard.module.scss";
+import Text from "@/components/Text/Text";
 
 type PropsType = {};
 
@@ -15,7 +16,7 @@ const PeopleCard = () => {
       />
 
       <div className={styles.label}>
-        <p className={styles.name}>Jamie Lee</p>
+        <Text size="caption">Jamie Lee</Text>
         <p className={styles.job}>Director of Services, Vortex</p>
       </div>
     </div>

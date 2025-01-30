@@ -4,6 +4,7 @@ import clsx from "clsx";
 import Text from "../Text/Text";
 import { useContentful } from "../../stores/ContentfulStore";
 import Card from "../Card/Card";
+import Button from "../Button/Button";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -68,7 +69,7 @@ export default function Section({ section, className }: PropsType) {
       {actions.length > 0 && (
         <footer className={styles.footer}>
           {actions.map((action) => (
-            <button key={action.sys.id}>{action.name}</button>
+            <Button key={action.sys.id}>{action.name}</Button>
           ))}
         </footer>
       )}

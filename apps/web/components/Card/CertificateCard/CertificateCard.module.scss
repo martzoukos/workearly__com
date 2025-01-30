@@ -29,11 +29,3 @@
     justify-content: space-between;
   }
 }
-
-.title {
-  @extend %h6;
-}
-
-.description {
-  @extend %small;
-}

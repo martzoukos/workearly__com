@@ -1,222 +1,227 @@
 @use "@/styles/index" as *;
 
 .base {
-  --bg-color: transparent;
-  --text-color: hsl(var(--color-black-500));
-  --box-shadow-color: transparent;
+  --color-bg: transparent;
+  --color-text: hsl(var(--color-black-500));
+  --color-box-shadow: transparent;
+  --color-border: transparent;
+
   background: none;
-  background-color: v(bg-color);
-  box-shadow: 0rem 0rem 0rem v(box-shadow-color);
-  color: v(text-color);
+  background-color: var(--color-bg);
+  box-shadow: 0rem 0rem 0rem var(--color-box-shadow);
+  color: var(--color-text);
   cursor: pointer;
   display: inline-flex;
-  font-size: 14px;
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
   border-radius: 0.3125rem;
   padding: 0.7em 0.85em;
+  border: 1px solid var(--color-border);
 
-  // COLORS //
+  &:disabled {
+    opacity: 0.5;
+  }
+}
 
-  &[data-color="Green"] {
+.colorSchemeGreen {
+  --color-bg: hsl(var(--color-green-500));
+  --color-box-shadow: hsl(var(--color-neutral-500));
+
+  &:hover {
+    --color-bg: hsl(var(--color-green-400));
+  }
+
+  &:active {
+    --color-border: hsl(var(--color-green-200));
+  }
+}
+
+.colorSchemeWhite {
+  --color-bg: hsl(var(--color-neutral-500));
+  --color-box-shadow: hsl(var(--color-neutral-500));
+
+  &:hover {
+    --color-bg: hsl(var(--color-neutral-400));
+  }
+
+  &:active {
+    --color-border: hsl(var(--color-black-500));
+  }
+}
+
+.colorSchemeBlack {
+  --color-bg: hsl(var(--color-black-500));
+  --color-text: hsl(var(--color-neutral-500));
+  --color-box-shadow: hsl(var(--color-white));
+
+  &:hover {
+    --color-bg: hsl(var(--color-black-450));
+    --color-text: hsl(var(--color-neutral-500));
+  }
+
+  &:active {
+    --color-border: hsl(var(--color-neutral-300));
+    --color-text: hsl(var(--color-neutral-500));
+  }
+}
+
+.variantSolid {
+  --color-bg: transparent;
+  --color-text: hsl(var(--color-black-500));
+  --color-box-shadow: transparent;
+  --color-border: transparent;
+
+  background: none;
+  background-color: var(--color-bg);
+  box-shadow: 0rem 0rem 0rem var(--color-box-shadow);
+  color: var(--color-text);
+  cursor: pointer;
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.3125rem;
+  padding: 0.7em 0.85em;
+  border: 1px solid var(--color-border);
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.variantOutlined {
+  --color-bg: transparent;
+  --color-text: hsl(var(--color-black-500));
+  --color-border: hsl(var(--color-black-500));
+
+  &:hover {
+    --color-border: hsl(var(--color-black-450));
+    --color-bg: transparent;
+    --color-text: hsl(var(--color-black-450));
+  }
+
+  &:active {
+    border: 2px solid hsl(var(--color-black-450));
+  }
+}
+
+.variantGhost {
+  border: none;
+  --color-bg: transparent;
+  --color-text: hsl(var(--color-black-500));
+
+  &:hover {
+    --color-bg: transparent;
+    --color-text: hsl(var(--color-black-450));
+  }
+
+  &:active {
+    --color-bg: hsl(var(--color-neutral-300));
+    --color-text: hsl(var(--color-black-450));
+  }
+}
+
+.variantUnderlined {
+  border: none;
+  padding: 0rem;
+  border-radius: unset;
+  --color-bg: transparent;
+  border-bottom: 1px solid hsl(var(--color-black-500));
+
+  &:hover {
+    --color-bg: transparent;
+    --color-text: hsl(var(--color-black-450));
+    border-bottom-color: hsl(var(--color-black-450));
+  }
+
+  &:active {
+    --color-bg: transparent;
+    border-bottom: 2px solid hsl(var(--color-black-500));
+  }
+}
+
+.variantDecorative {
+  --bg-color: hsl(var(--color-green-500));
+  --text-color: hsl(var(--color-black-500));
+  border: 1px solid hsl(var(--color-black-500));
+  border-radius: 1rem;
+  box-shadow: 0 0 0 0.5rem v(box-shadow-color);
+
+  &:hover {
     --bg-color: hsl(var(--color-green-500));
-    --box-shadow-color: hsl(var(--color-neutral-500));
-
-    &:hover {
-      --bg-color: hsl(var(--color-green-400));
-    }
-
-    &:active {
-      border: 1px solid hsl(var(--color-green-200));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
+    --text-color: hsl(var(--color-black-500));
   }
 
-  &[data-color="White"] {
-    --bg-color: hsl(var(--color-neutral-500));
-    --box-shadow-color: hsl(var(--color-neutral-500));
-
-    &:hover {
-      --bg-color: hsl(var(--color-neutral-400));
-    }
-
-    &:active {
-      border: 1px solid hsl(var(--color-black-500));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
+  &:active {
+    --bg-color: hsl(var(--color-green-500));
   }
 
-  &[data-color="Black"] {
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.variantChip {
+  --bg-color: hsl(var(--color-black-500));
+  --text-color: hsl(var(--color-neutral-500));
+  border: none;
+  padding: 0.9em 1.7em;
+  border-radius: 1.5rem;
+
+  &:hover {
+    --bg-color: hsl(var(--color-black-450));
+    --text-color: hsl(var(--color-neutral-500));
+  }
+
+  &:active {
     --bg-color: hsl(var(--color-black-500));
     --text-color: hsl(var(--color-neutral-500));
-    --box-shadow-color: white;
-
-    &:hover {
-      --bg-color: hsl(var(--color-black-450));
-      --text-color: hsl(var(--color-neutral-500));
-    }
-
-    &:active {
-      border: 1px solid hsl(var(--color-neutral-300));
-      --text-color: hsl(var(--color-neutral-500));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
   }
 
-  // VARIANTS
-
-  &[data-variant="Outlined"] {
-    --bg-color: transparent;
-    --text-color: hsl(var(--color-black-500));
-    border: 1px solid hsl(var(--color-black-500));
-
-    &:hover {
-      border-color: hsl(var(--color-black-450));
-      --bg-color: transparent;
-      --text-color: hsl(var(--color-black-450));
-    }
-
-    &:active {
-      border: 2px solid hsl(var(--color-black-450));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
+  &:disabled {
+    opacity: 0.5;
   }
-  &[data-variant="Ghost"] {
-    border: none;
-    --bg-color: transparent;
-    --text-color: hsl(var(--color-black-500));
+}
 
-    &:hover {
-      --bg-color: transparent;
-      --text-color: hsl(var(--color-black-450));
-    }
+.variantTab {
+  --bg-color: transparent;
+  --text-color: hsl(var(--color-black-500));
+  border: 1px solid hsl(var(--color-black-500));
+  padding: 0.5em 0.8em;
+  border-radius: 0.3rem;
 
-    &:active {
-      --bg-color: hsl(var(--color-neutral-300));
-      --text-color: hsl(var(--color-black-450));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
-  }
-
-  &[data-variant="Underlined"] {
-    border: none;
-    padding: 0rem;
-    border-radius: unset;
-    --bg-color: transparent;
-    border-bottom: 1px solid hsl(var(--color-black-500));
-
-    &:hover {
-      --bg-color: transparent;
-      --text-color: hsl(var(--color-black-450));
-      border-bottom-color: hsl(var(--color-black-450));
-    }
-
-    &:active {
-      --bg-color: transparent;
-      border-bottom: 2px solid hsl(var(--color-black-500));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
-  }
-  &[data-variant="Decorative"] {
+  &:hover {
     --bg-color: hsl(var(--color-green-500));
     --text-color: hsl(var(--color-black-500));
-    border: 1px solid hsl(var(--color-black-500));
-    border-radius: 1rem;
-    box-shadow: 0 0 0 0.5rem v(box-shadow-color);
-
-    &:hover {
-      --bg-color: hsl(var(--color-green-500));
-      --text-color: hsl(var(--color-black-500));
-    }
-
-    &:active {
-      --bg-color: hsl(var(--color-green-500));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
   }
-  &[data-variant="Chip"] {
-    --bg-color: hsl(var(--color-black-500));
-    --text-color: hsl(var(--color-neutral-500));
-    border: none;
-    padding: 0.9em 1.7em;
-    border-radius: 1.5rem;
 
-    &:hover {
-      --bg-color: hsl(var(--color-black-450));
-      --text-color: hsl(var(--color-neutral-500));
-    }
-
-    &:active {
-      --bg-color: hsl(var(--color-black-500));
-      --text-color: hsl(var(--color-neutral-500));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
-  }
-  &[data-variant="Tab"] {
-    --bg-color: transparent;
+  &:active {
+    --bg-color: hsl(var(--color-green-500));
     --text-color: hsl(var(--color-black-500));
-    border: 1px solid hsl(var(--color-black-500));
-    padding: 0.5em 0.8em;
-    border-radius: 0.3rem;
-
-    &:hover {
-      --bg-color: hsl(var(--color-green-500));
-      --text-color: hsl(var(--color-black-500));
-    }
-
-    &:active {
-      --bg-color: hsl(var(--color-green-500));
-      --text-color: hsl(var(--color-black-500));
-    }
-
-    &:disabled {
-      opacity: 0.5;
-    }
   }
 
-  // SIZES
-
-  &[data-size="medium"] {
-    font-size: 16px;
+  &:disabled {
+    opacity: 0.5;
   }
+}
 
-  &[data-size="large"] {
-    font-size: 20px;
-  }
+.sizeSmall {
+  font-size: 0.875rem;
+}
 
-  // BEHAVIOUR
+.sizeMedium {
+  font-size: 1rem;
+}
 
-  &[data-behaviour="Flex"] {
-    width: 100%;
-  }
+.sizeLarge {
+  font-size: 1.25rem;
+}
 
-  // ICON PLACEMENT
-  &[data-iconplacement="Left"] {
-    flex-direction: row-reverse;
-  }
+.behaviourFlex {
+  width: 100%;
+}
+
+.iconPlacementLeft {
+  flex-direction: row-reverse;
 }

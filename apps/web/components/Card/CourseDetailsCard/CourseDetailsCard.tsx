@@ -1,3 +1,4 @@
+import Text from "@/components/Text/Text";
 import styles from "./CourseDetailsCard.module.scss";
 
 type PropsType = {};
@@ -5,8 +6,8 @@ type PropsType = {};
 const CourseDetailsCard = () => {
   return (
     <div className={styles.card}>
-      <p className={styles.title}>DURATION</p>
-      <p className={styles.value}>4-6 MONTHS</p>
+      <Text size="h6">DURATION</Text>
+      <Text>4-6 MONTHS</Text>
     </div>
   );
 };

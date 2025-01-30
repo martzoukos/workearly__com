@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./CourseCard.module.scss";
+import Text from "@/components/Text/Text";
 
 type PropsType = {};
 
@@ -15,19 +16,23 @@ const CourseCard = () => {
       />
 
       <div className={styles.content}>
-        <p className={styles.title}>Healthcare Analytics Bootcamp</p>
+        <Text size="h6" className={styles.title}>
+          Healthcare Analytics Bootcamp
+        </Text>
 
-        <p className={styles.description}>
+        <Text size="small" className={styles.description}>
           Master data-driven insights to improve healthcare systems, patient
           outcomes, and decision-making in the medical field.
-        </p>
+        </Text>
 
         <div className={styles.details}>
-          <p className={styles.duration}>4-6 Months</p>
-          <p className={styles.students}>563 Students</p>
+          <Text size="caption">4-6 Months</Text>
+          <Text size="caption">563 Students</Text>
         </div>
 
-        <p className={styles.price}>€9.99</p>
+        <Text size="h6" className={styles.price}>
+          €9.99
+        </Text>
       </div>
     </div>
   );

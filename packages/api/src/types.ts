@@ -1,5 +1,3 @@
-import { ClassValue } from "clsx";
-import { ReactNode } from "react";
 import { TranslationTextType } from "./airtable";
 import TRANSLATIONS from "./airtable/__generated__/translations.json";
 import { LOCALES } from "./constants";
@@ -16,24 +14,6 @@ import {
   SectionContentItem,
   UniqueComponentCollectionQuery,
 } from "./contentful/graphql/__generated__/gql/graphql";
-
-export type NextLinkPropsType = {
-  className?: ClassValue;
-  color?: "Green" | "White" | "Black";
-  variant?:
-    | "Filled"
-    | "Outlined"
-    | "Ghost"
-    | "Underlined"
-    | "Decorative"
-    | "Chip"
-    | "Tab";
-  behaviour?: "Flex" | "Wrap";
-  size?: "normal" | "medium" | "large";
-  icon?: ReactNode;
-  iconPlacement?: "Left" | "Right";
-  href: string;
-};
 
 export type LocaleType = (typeof LOCALES)[number];
 export type TranslationType = (typeof TRANSLATIONS)[number];

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import styles from "./StickyCourseCard.module.scss";
-import { CustomLink } from "@/components/Button/Button";
+import Text from "@/components/Text/Text";
+import Button from "@/components/Button/Button";
+import NextLink from "next/link";
 
 type PropsType = {};
 
@@ -17,54 +19,58 @@ const StickyCourseCard = () => {
 
       <div className={styles.content}>
         <div className={styles.buttons}>
-          <CustomLink
-            href="/project-management-bootcamp"
-            variant="Tab"
-            className={styles.button}
-          >
-            Personal
-          </CustomLink>
-          <CustomLink
-            href="/project-management-bootcamp"
-            variant="Tab"
-            className={styles.button}
-          >
-            Team
-          </CustomLink>
+          <Button asChild variant="Tab" className={styles.button}>
+            <NextLink href="/project-management-bootcamp">Personal</NextLink>
+          </Button>
+          <Button asChild variant="Tab" className={styles.button}>
+            <NextLink href="/project-management-bootcamp">Team</NextLink>
+          </Button>
         </div>
 
-        <p className={styles.description}>
+        <Text size="small" className={styles.description}>
           Workearly Bootcamps use AI to personalize learning for each
           participant, offering tailored material, real-time support, and
           connections with Hiring Partners and like-minded peers.
-        </p>
+        </Text>
 
         <div className={styles.timeLeft}>
           <Image src="/clock.svg" alt="" width={12} height={12} />
-          <p className={styles.time}>9 hours left at this price!</p>
+          <Text size="caption">9 hours left at this price!</Text>
         </div>
 
-        <p className={styles.price}>€9.99</p>
+        <Text size="h6" className={styles.price}>
+          €9.99
+        </Text>
       </div>
 
       <div className={styles.courseActions}>
-        <CustomLink href="https://www.holy.gd/" color="Black" behaviour="Flex">
-          Purchase course
-        </CustomLink>
-        <CustomLink
-          href="https://www.holy.gd/"
-          color="Black"
-          variant="Outlined"
+        <Button
+          asChild
+          variant="Tab"
+          colorScheme="Black"
+          behaviour="Flex"
+          className={styles.button}
         >
-          Share
-        </CustomLink>
-        <CustomLink
-          href="https://www.holy.gd/"
-          color="Black"
+          <NextLink href="https://www.holy.gd/">Purchase course</NextLink>
+        </Button>
+
+        <Button
+          asChild
           variant="Outlined"
+          colorScheme="Black"
+          className={styles.button}
         >
-          Gift this Course
-        </CustomLink>
+          <NextLink href="https://www.holy.gd/">Share</NextLink>
+        </Button>
+
+        <Button
+          asChild
+          variant="Outlined"
+          colorScheme="Black"
+          className={styles.button}
+        >
+          <NextLink href="https://www.holy.gd/"> Gift this Course</NextLink>
+        </Button>
       </div>
     </div>
   );
