@@ -21,9 +21,9 @@ const List = forwardRef<ListElement, PropsType>((props, forwardedRef) => {
     ...rest
   } = props;
 
-  const style: React.CSSProperties = columnCount
-    ? ({ "--column-count": columnCount } as React.CSSProperties)
-    : {};
+  const style = {
+    "--column-count": columnCount ?? 1,
+  } as React.CSSProperties;
 
   return (
     <Slot.Root

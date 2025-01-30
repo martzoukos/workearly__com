@@ -12,11 +12,12 @@ type PropsType = {
 };
 
 export default function Section({ section, className }: PropsType) {
-  const { relationshipMap } = useContentful();
+  const { relationshipMap, resolveMetadataMap } = useContentful();
 
-  const style: React.CSSProperties = section.cardsCount
-    ? ({ "--cards-count": section.cardsCount } as React.CSSProperties)
-    : {};
+  const style = {
+    "--cards-count": resolveMetadataMap.sectionCardsCount(section.cardsCount),
+    "--flex-alignment": resolveMetadataMap.sectionAlignment(section.alignment),
+  } as React.CSSProperties;
 
   const contentItems: NonNullable<
     SectionQueryItem["contentCollection"]
@@ -69,7 +70,9 @@ export default function Section({ section, className }: PropsType) {
       {actions.length > 0 && (
         <footer className={styles.footer}>
           {actions.map((action) => (
-            <Button key={action.sys.id}>{action.name}</Button>
+            <Button key={action.sys.id} variant="Chip" colorScheme="White">
+              {action.name}
+            </Button>
           ))}
         </footer>
       )}

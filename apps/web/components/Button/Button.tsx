@@ -18,7 +18,6 @@ const buttonVariants = cva(styles.base, {
       Underlined: styles.variantUnderlined,
       Decorative: styles.variantDecorative,
       Chip: styles.variantChip,
-      Tab: styles.variantTab,
     },
     size: {
       small: styles.sizeSmall,

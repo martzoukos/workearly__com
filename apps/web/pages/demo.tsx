@@ -24,7 +24,6 @@ const Demo = () => {
       <Button variant="Chip">Demo</Button>
       <Button variant="Decorative">Demo</Button>
       <Button variant="Ghost">Demo</Button>
-      <Button variant="Tab">Demo</Button>
       <Button variant="Underlined">Demo</Button>
       <LogoCard />
       <CertificateCard />
