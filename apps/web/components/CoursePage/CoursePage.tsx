@@ -2,6 +2,8 @@ import Link from "next/link";
 import styles from "./CoursePage.module.scss";
 import { useContentful } from "../../stores/ContentfulStore";
 import clsx from "clsx";
+import CourseDetails from "./CourseDetails";
+import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
 
 type PropsType = {
   children: (className?: string) => React.ReactNode;
@@ -25,9 +27,12 @@ export default function CoursePage({ children, className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
+        <CourseDetails />
         {children(styles.contentItem)}
       </div>
-      <div className={styles.sidebar}></div>
+      <div className={styles.sidebar}>
+        <PurchaseCourse />
+      </div>
     </main>
   );
 }

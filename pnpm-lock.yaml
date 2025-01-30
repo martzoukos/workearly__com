@@ -23,6 +23,9 @@ importers:
 
   apps/web:
     dependencies:
+      '@carbon/icons-react':
+        specifier: ^11.54.0
+        version: 11.54.0(react@18.3.1)
       '@contentful/rich-text-plain-text-renderer':
         specifier: ^17.0.0
         version: 17.0.0
@@ -485,6 +488,14 @@ packages:
     resolution: {integrity: sha512-vN5p+1kl59GVKMvTHt55NzzmYVxprfJD+ql7U9NFIfKCBkYE55LYtS+WtPlaYOyzydrKI8Nezd+aZextrd+FMA==}
     engines: {node: '>=6.9.0'}
 
+  '@carbon/icon-helpers@10.54.0':
+    resolution: {integrity: sha512-IJ6uzwRA/6yvSG6tTCQoKIcGehwZYYqjvLHylILmEwyfB8kWV9VmJu957hfrfbS2rmuCXwmN6kCAnb4WS8FnFw==}
+
+  '@carbon/icons-react@11.54.0':
+    resolution: {integrity: sha512-XFqxboPpWMaGrLSE/b98ZMCf7m9AprIO0Uu3va2Q0jTxvZbY4ZVyT3VaKFjM3/mrDHyKRcofd1quzGX6syNgiQ==}
+    peerDependencies:
+      react: '>=16'
+
   '@contentful/rich-text-plain-text-renderer@17.0.0':
     resolution: {integrity: sha512-UFMx4hCewCr//7mNGqQlgMmItSsosY3DldM++bqYJ0F5aHoFFxPyUoFnQaBSYmWFvFulbGm5MyTxAFrjIZmwbA==}
     engines: {node: '>=6.0.0'}
@@ -817,6 +828,10 @@ packages:
   '@humanwhocodes/retry@0.4.1':
     resolution: {integrity: sha512-c7hNEllBlenFTHBky65mhq8WD2kbN9Q6gk0bTk8lSBvc554jpXSkST1iePudpt7+A/AQvuHs9EMqjHDXMY1lrA==}
     engines: {node: '>=18.18'}
+
+  '@ibm/telemetry-js@1.9.1':
+    resolution: {integrity: sha512-qq8RPafUJHUQieXVCte1kbJEx6JctWzbA/YkXzopbfzIDRT2+hbR9QmgH+KH7bDDNRcDbdHWvHfwJKzThlMtPg==}
+    hasBin: true
 
   '@jridgewell/gen-mapping@0.3.8':
     resolution: {integrity: sha512-imAbBGkb+ebQyxKgzv5Hu2nmROxoDOXHh80evxdoXNOrvAnVx7zimzc1Oo5h9RlfV4vPXaE2iM5pOFbvOCClWA==}
@@ -4218,6 +4233,17 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
+  '@carbon/icon-helpers@10.54.0':
+    dependencies:
+      '@ibm/telemetry-js': 1.9.1
+
+  '@carbon/icons-react@11.54.0(react@18.3.1)':
+    dependencies:
+      '@carbon/icon-helpers': 10.54.0
+      '@ibm/telemetry-js': 1.9.1
+      prop-types: 15.8.1
+      react: 18.3.1
+
   '@contentful/rich-text-plain-text-renderer@17.0.0':
     dependencies:
       '@contentful/rich-text-types': 17.0.0
@@ -4757,6 +4783,8 @@ snapshots:
   '@humanwhocodes/retry@0.3.1': {}
 
   '@humanwhocodes/retry@0.4.1': {}
+
+  '@ibm/telemetry-js@1.9.1': {}
 
   '@jridgewell/gen-mapping@0.3.8':
     dependencies:

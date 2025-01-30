@@ -2,7 +2,6 @@ import CertificateCard from "@/components/Cards/CertificateCard/CertificateCard"
 import CourseCard from "@/components/Cards/CourseCard/CourseCard";
 import CourseDetailsCard from "@/components/Cards/CourseDetailsCard/CourseDetailsCard";
 import PeopleCard from "@/components/Cards/PeopleCard/PeopleCard";
-import StickyCourseCard from "@/components/Cards/StickyCourseCard/StickyCourseCard";
 import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
 import React from "react";
 import KeyMetricsCard from "@/components/Cards/KeyMetricsCard/KeyMetricsCard";
@@ -29,7 +28,6 @@ const Demo = () => {
       <TitleTextCard />
       <PeopleCard />
       <CourseCard />
-      <StickyCourseCard />
       <KeyMetricsCard />
     </section>
   );

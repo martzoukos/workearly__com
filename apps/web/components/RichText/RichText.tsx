@@ -25,47 +25,32 @@ function getOptions(resolver: ReturnType<typeof getRichTextResolver>) {
     renderNode: {
       [BLOCKS.HEADING_1]: (node, children) => <Text as="h1">{children}</Text>,
       [BLOCKS.HEADING_2]: (node, children) => (
-        <Text
-          as="h2"
-          className={clsx({ [styles.h2]: !hasBulletTranformation })}
-        >
+        <Text as="h2" className={clsx(!hasBulletTranformation && styles.h2)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_3]: (node, children) => (
-        <Text
-          as="h3"
-          className={clsx({ [styles.h3]: !hasBulletTranformation })}
-        >
+        <Text as="h3" className={clsx(!hasBulletTranformation && styles.h3)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_4]: (node, children) => (
-        <Text
-          as="h4"
-          className={clsx({ [styles.h4]: !hasBulletTranformation })}
-        >
+        <Text as="h4" className={clsx(!hasBulletTranformation && styles.h4)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_5]: (node, children) => (
-        <Text
-          as="h5"
-          className={clsx({ [styles.h5]: !hasBulletTranformation })}
-        >
+        <Text as="h5" className={clsx(!hasBulletTranformation && styles.h5)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_6]: (node, children) => (
-        <Text
-          as="h6"
-          className={clsx({ [styles.h6]: !hasBulletTranformation })}
-        >
+        <Text as="h6" className={clsx(!hasBulletTranformation && styles.h6)}>
           {children}
         </Text>
       ),
       [BLOCKS.PARAGRAPH]: (node, children) => (
-        <Text as="p" className={clsx({ [styles.p]: !hasBulletTranformation })}>
+        <Text as="p" className={clsx(!hasBulletTranformation && styles.p)}>
           {children}
         </Text>
       ),
@@ -73,7 +58,7 @@ function getOptions(resolver: ReturnType<typeof getRichTextResolver>) {
         return (
           <List
             columnCount={columnCount}
-            className={clsx({ [styles.chips]: renderListAsChips })}
+            className={clsx(renderListAsChips && styles.chips)}
           >
             {children}
           </List>
@@ -89,7 +74,7 @@ function getOptions(resolver: ReturnType<typeof getRichTextResolver>) {
         return (
           <ListItem
             icon={IconComponent ? <IconComponent /> : null}
-            className={clsx({ [styles.li]: !hasBulletTranformation })}
+            className={clsx(!hasBulletTranformation && styles.li)}
           >
             {children}
           </ListItem>

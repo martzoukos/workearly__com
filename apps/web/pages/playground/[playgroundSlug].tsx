@@ -9,6 +9,7 @@ import {
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import getRichTextResolver from "../../utils/getRichTextResolver";
 
 export default function Page({
   page,
@@ -48,8 +49,9 @@ export default function Page({
               return (
                 <RichText
                   key={item.sys.id}
-                  richText={richText}
+                  json={richText.body?.json}
                   className={className}
+                  resolver={getRichTextResolver(richText)}
                 />
               );
             } else if (item?.__typename === "UniqueComponent") {

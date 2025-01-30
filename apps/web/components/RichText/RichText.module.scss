@@ -1,15 +1,15 @@
 .root {
-  & > .h2,
-  & > .h3,
-  & > .h4 {
+  .h2,
+  .h3,
+  .h4 {
     &:not(:first-child) {
       margin-block-start: 4rem;
     }
   }
 
-  & > .h5,
-  & > .h6,
-  & > .p {
+  .h5,
+  .h6,
+  .p {
     &:not(:first-child) {
       margin-block-start: 1.5rem;
     }
