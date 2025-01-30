@@ -3,14 +3,6 @@
   flex-direction: column;
   gap: 1.5rem;
   align-items: var(--flex-alignment);
-
-  &[data-card-variant="Icon and Text"] {
-    .content {
-      display: grid;
-      grid-template-columns: repeat(var(--cards-count), 1fr);
-      gap: 0.5rem;
-    }
-  }
 }
 
 .header {

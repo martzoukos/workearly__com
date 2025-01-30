@@ -5,7 +5,7 @@ import Text from "@/components/Text/Text";
 import { useContentful } from "@/stores/ContentfulStore";
 import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
-import Cards from "@/components/Cards/Cards";
+import CardGrid from "@/components/Cards/CardGrid";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -23,29 +23,28 @@ export default function Section({ section, className }: PropsType) {
   const cardItems = resolver.section.cardItems(section);
   const accordionItems = resolver.section.accordionItems(section);
   const actions = resolver.section.actions(section);
+  const hasContentItems = resolver.section.hasContentItems(section);
 
   return (
-    <section
-      className={clsx(styles.root, className)}
-      data-card-variant={section.cardVariant}
-      style={style}
-    >
+    <section className={clsx(styles.root, className)} style={style}>
       <header className={styles.header}>
         <Text as="h4">{section.title}</Text>
         {section.text && <Text>{section.text}</Text>}
       </header>
-      <div className={clsx(styles.content)}>
-        {section.variant === "Default" && cardItems.length > 0 && (
-          <Cards
-            cards={cardItems}
-            variant={section.cardVariant as CardVariantType}
-          />
-        )}
+      {hasContentItems && (
+        <div>
+          {section.variant === "Default" && cardItems.length > 0 && (
+            <CardGrid
+              cards={cardItems}
+              variant={section.cardVariant as CardVariantType}
+            />
+          )}
 
-        {section.variant === "Accordion" && accordionItems.length > 0 && (
-          <Accordion accordionCards={accordionItems} />
-        )}
-      </div>
+          {section.variant === "Accordion" && accordionItems.length > 0 && (
+            <Accordion accordionCards={accordionItems} />
+          )}
+        </div>
+      )}
 
       {actions.length > 0 && (
         <footer className={styles.footer}>

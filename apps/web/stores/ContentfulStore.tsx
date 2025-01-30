@@ -29,6 +29,7 @@ type ContextType = Awaited<ReturnType<typeof fetchPageBySlug>> & {
       cardItems: (section: SectionQueryItem) => CardQueryItem[];
       accordionItems: (section: SectionQueryItem) => AccordionCardQueryItem[];
       actions: (section: SectionQueryItem) => ActionQueryItem[];
+      hasContentItems: (section: SectionQueryItem) => boolean;
     };
   };
 };
@@ -75,6 +76,9 @@ export const ContentfulProvider = ({
             .map((item) => item?.sys.id)
             .includes(item.sys.id)
         );
+      },
+      hasContentItems: (section) => {
+        return Boolean(section.contentCollection?.items.length);
       },
     },
   };
