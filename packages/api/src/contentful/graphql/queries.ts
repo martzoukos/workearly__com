@@ -10,9 +10,9 @@ export const PAGE_SLUGS_QUERY = graphql(`
   }
 `);
 
-export const PAGE_QUERY = graphql(`
-  query Page($slug: String!) {
-    pageCollection(where: { slug: $slug }, limit: 1) {
+export const PAGE_COLLECTION_QUERY = graphql(`
+  query PageCollection($where: PageFilter, $limit: Int) {
+    pageCollection(where: $where, limit: $limit) {
       items {
         ...PageFields
       }

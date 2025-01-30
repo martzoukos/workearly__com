@@ -10,8 +10,8 @@ import {
   CardCollectionQuery,
   ContentTypeRichTextCollectionQuery,
   CourseDetailsCollectionQuery,
+  PageCollectionQuery,
   PageContentItem,
-  PageQuery,
   SectionCollectionQuery,
   SectionContentItem,
   UniqueComponentCollectionQuery,
@@ -46,7 +46,7 @@ export type ContentfulExchangeOptionsType = {
 };
 
 export type PageQueryItem = NonNullable<
-  NonNullable<PageQuery["pageCollection"]>["items"][number]
+  NonNullable<PageCollectionQuery["pageCollection"]>["items"][number]
 >;
 
 export type SectionQueryItem = NonNullable<
@@ -89,18 +89,40 @@ export type CardQueryItem = NonNullable<
   NonNullable<CardCollectionQuery["cardCollection"]>["items"][number]
 >;
 
-export type RelationshipsType = {
-  id: string;
-  details: CourseDetailsQueryItem | null;
-  sections: SectionQueryItem[];
-  contentTypeRichTexts: ContentTypeRichTextQueryItem[];
-  uniqueComponents: UniqueComponentQueryItem[];
-  actions: ActionQueryItem[];
-  assets: AssetQueryItem[];
-  accordionCards: AccordionCardQueryItem[];
-  cards: CardQueryItem[];
+type QueryItemMap = {
+  CourseDetails: CourseDetailsQueryItem;
+  ContentTypeRichText: ContentTypeRichTextQueryItem;
+  Section: SectionQueryItem;
+  UniqueComponent: UniqueComponentQueryItem;
+  AccordionCard: AccordionCardQueryItem;
+  Card: CardQueryItem;
+  Page: PageQueryItem;
+  Action: ActionQueryItem;
+  Asset: AssetQueryItem;
 };
 
-export type RelationshipsContentTypeName =
+export type RelationshipMapType = {
+  [K in Exclude<
+    RelationshipMapContentType,
+    undefined
+  > as `${Uncapitalize<K>}Collection`]: K extends keyof QueryItemMap
+    ? QueryItemMap[K][]
+    : never;
+};
+
+export type RelationshipMapContentType =
+  | Exclude<PageChildContentType, undefined>
+  | Exclude<SectionChildContentType, undefined>;
+
+export type PageChildContentType =
   | PageContentItem["__typename"]
-  | SectionContentItem["__typename"];
+  | NonNullable<PageQueryItem["details"]>["__typename"];
+
+export type SectionChildContentType =
+  | SectionContentItem["__typename"]
+  | NonNullable<
+      NonNullable<SectionQueryItem["actionsCollection"]>["items"][number]
+    >["__typename"]
+  | NonNullable<
+      NonNullable<SectionQueryItem["assetsCollection"]>["items"][number]
+    >["__typename"];

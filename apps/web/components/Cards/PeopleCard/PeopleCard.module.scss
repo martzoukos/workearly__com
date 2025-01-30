@@ -7,8 +7,8 @@
   position: relative;
   overflow: hidden;
   border-radius: 0.6rem;
-  border: 3.5px solid hsl(var(--neutral-500));
-  outline: 1px solid hsl(var(--black-500));
+  border: 3.5px solid hsl(var(--color-neutral-500));
+  outline: 1px solid hsl(var(--color-black-500));
 }
 
 .media {
@@ -23,14 +23,14 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: hsl(var(--neutral-500));
+  background-color: hsl(var(--color-neutral-500));
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);
   bottom: 0;
   width: 90%;
   gap: 0.2rem;
-  border: 1px solid hsl(var(--black-500));
+  border: 1px solid hsl(var(--color-black-500));
   padding: 0.3rem;
 }
 

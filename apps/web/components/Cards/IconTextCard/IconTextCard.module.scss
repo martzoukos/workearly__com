@@ -1,7 +1,7 @@
 @use "@/styles/index" as *;
 
-.card {
-  background-color: hsl(var(--black-450));
+.root {
+  background-color: hsl(var(--color-black-450));
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -9,7 +9,8 @@
   gap: 0.5rem;
 }
 
-.title {
-  @extend %h6;
-  color: hsl(var(--neutral-500));
+.svgWrapper {
+  & > svg > path {
+    fill: hsl(var(--color-green-500));
+  }
 }

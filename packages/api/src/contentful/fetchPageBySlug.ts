@@ -6,16 +6,15 @@ import {
   CardQueryItem,
   ContentTypeRichTextQueryItem,
   CourseDetailsQueryItem,
+  PageChildContentType,
   PageQueryItem,
-  RelationshipsType,
+  RelationshipMapContentType,
+  RelationshipMapType,
+  SectionChildContentType,
   SectionQueryItem,
   UniqueComponentQueryItem,
 } from "../types";
 import { fetchCollectionByIds } from "./fetchCollectionByIds";
-import {
-  PageContentItem,
-  SectionContentItem,
-} from "./graphql/__generated__/gql/graphql";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
   ACTION_COLLECTION_QUERY,
@@ -23,60 +22,63 @@ import {
   CARD_COLLECTION_QUERY,
   CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
   COURSE_DETAILS_COLLECTION_QUERY,
-  PAGE_QUERY,
+  PAGE_COLLECTION_QUERY,
   SECTION_COLLECTION_QUERY,
   UNIQUE_COMPONENT_COLLECTION_QUERY,
 } from "./graphql/queries";
 
 type ReturnType = {
   page: PageQueryItem;
-  relationships: RelationshipsType;
+  relationshipMap: RelationshipMapType;
 };
 
 export default async function fetchPageBySlug(
   client: Client,
   slug: string
 ): Promise<ReturnType> {
-  const { data } = await client.query(PAGE_QUERY, { slug }).toPromise();
+  const { data } = await client
+    .query(PAGE_COLLECTION_QUERY, { where: { slug }, limit: 1 })
+    .toPromise();
 
   if (!data?.pageCollection?.items.at(0)) {
     throw new Error(`Page with slug ${slug} not found`);
   }
 
   const page = data?.pageCollection?.items[0] as PageQueryItem;
-  const relationships = await getPageRelationships(client, page);
+  const relationshipMap = await getPageRelationships(client, page);
 
   return {
     page,
-    relationships,
+    relationshipMap,
   };
 }
 
 async function getPageRelationships(
   client: Client,
   page: PageQueryItem
-): Promise<RelationshipsType> {
-  const detailsCollection = await fetchCollectionByIds(client, {
-    ids: page?.details?.sys.id ? [page.details.sys.id] : [],
+): Promise<RelationshipMapType> {
+  const courseDetailsIds = extractPageChildIds(page, "CourseDetails");
+  const courseDetailsCollection = await fetchCollectionByIds(client, {
+    ids: courseDetailsIds,
     query: COURSE_DETAILS_COLLECTION_QUERY,
     mapItems: (data) =>
       (data?.courseDetailsCollection?.items || []) as CourseDetailsQueryItem[],
   });
 
-  const sectionIds = extractPageChildIds(page, [], "Section");
-  const sections = await fetchCollectionByIds(client, {
+  const sectionIds = extractRecursiveChildIds(page, [], "Section");
+  const sectionCollection = await fetchCollectionByIds(client, {
     ids: sectionIds,
     query: SECTION_COLLECTION_QUERY,
     mapItems: (data) =>
       (data?.sectionCollection?.items || []) as SectionQueryItem[],
   });
 
-  const contentTypeRichTextIds = extractPageChildIds(
+  const contentTypeRichTextIds = extractRecursiveChildIds(
     page,
-    sections,
+    sectionCollection,
     "ContentTypeRichText"
   );
-  const contentTypeRichTexts = await fetchCollectionByIds(client, {
+  const contentTypeRichTextCollection = await fetchCollectionByIds(client, {
     ids: contentTypeRichTextIds,
     query: CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
     mapItems: (data) =>
@@ -84,12 +86,12 @@ async function getPageRelationships(
         []) as ContentTypeRichTextQueryItem[],
   });
 
-  const uniqueComponentIds = extractPageChildIds(
+  const uniqueComponentIds = extractRecursiveChildIds(
     page,
-    sections,
+    sectionCollection,
     "UniqueComponent"
   );
-  const uniqueComponents = await fetchCollectionByIds(client, {
+  const uniqueComponentCollection = await fetchCollectionByIds(client, {
     ids: uniqueComponentIds,
     query: UNIQUE_COMPONENT_COLLECTION_QUERY,
     mapItems: (data) =>
@@ -97,86 +99,119 @@ async function getPageRelationships(
         []) as UniqueComponentQueryItem[],
   });
 
-  const actionIds = sections.flatMap(
+  const actionIds = sectionCollection.flatMap(
     (section) =>
       section.actionsCollection?.items.map((item) => item?.sys.id as string) ||
       []
   );
-  const actions = await fetchCollectionByIds(client, {
+  const actionCollection = await fetchCollectionByIds(client, {
     ids: actionIds,
     query: ACTION_COLLECTION_QUERY,
     mapItems: (data) =>
       (data?.actionCollection?.items || []) as ActionQueryItem[],
   });
 
-  const assetIds = sections.flatMap(
+  const assetIds = sectionCollection.flatMap(
     (section) =>
       section.assetsCollection?.items.map((item) => item?.sys.id as string) ||
       []
   );
-  const assets = await fetchCollectionByIds(client, {
+  const assetCollection = await fetchCollectionByIds(client, {
     ids: assetIds,
     query: ASSET_COLLECTION_QUERY,
     mapItems: (data) =>
       (data?.assetCollection?.items || []) as AssetQueryItem[],
   });
 
-  const accordionCardIds = extractPageChildIds(page, sections, "AccordionCard");
-  const accordionCards = await fetchCollectionByIds(client, {
+  const accordionCardIds = extractRecursiveChildIds(
+    page,
+    sectionCollection,
+    "AccordionCard"
+  );
+  const accordionCardCollection = await fetchCollectionByIds(client, {
     ids: accordionCardIds,
     query: ACCORDION_CARD_COLLECTION_QUERY,
     mapItems: (data) =>
       (data?.accordionCardCollection?.items || []) as AccordionCardQueryItem[],
   });
 
-  const cardIds = extractPageChildIds(page, sections, "Card");
-  const cards = await fetchCollectionByIds(client, {
+  const cardIds = extractRecursiveChildIds(page, sectionCollection, "Card");
+  const cardCollection = await fetchCollectionByIds(client, {
     ids: cardIds,
     query: CARD_COLLECTION_QUERY,
     mapItems: (data) => (data?.cardCollection?.items || []) as CardQueryItem[],
   });
 
-  const relationships: RelationshipsType = {
-    id: page.sys.id,
-    details: detailsCollection.at(0) ?? null,
-    sections,
-    contentTypeRichTexts,
-    uniqueComponents,
-    accordionCards,
-    actions,
-    assets,
-    cards,
+  const pageIds = extractRecursiveChildIds(page, sectionCollection, "Page");
+  const pageCollection = await fetchCollectionByIds(client, {
+    ids: pageIds,
+    query: PAGE_COLLECTION_QUERY,
+    mapItems: (data) => (data?.pageCollection?.items || []) as PageQueryItem[],
+  });
+
+  const relationshipMap: RelationshipMapType = {
+    courseDetailsCollection,
+    sectionCollection,
+    contentTypeRichTextCollection,
+    uniqueComponentCollection,
+    accordionCardCollection,
+    actionCollection,
+    assetCollection,
+    cardCollection,
+    pageCollection,
   };
 
-  return relationships;
+  return relationshipMap;
+}
+
+function extractRecursiveChildIds(
+  page: PageQueryItem,
+  sections: SectionQueryItem[],
+  contentTypeName: RelationshipMapContentType
+) {
+  const pageChildIds = extractPageChildIds(
+    page,
+    contentTypeName as PageChildContentType
+  );
+
+  const sectionChildIds = sections.flatMap((section) =>
+    extractSectionChildIds(section, contentTypeName as SectionChildContentType)
+  );
+
+  return [...pageChildIds, ...sectionChildIds];
 }
 
 function extractPageChildIds(
   page: PageQueryItem,
-  sections: SectionQueryItem[],
-  contentTypeName:
-    | PageContentItem["__typename"]
-    | SectionContentItem["__typename"]
+  contentTypeName: PageChildContentType
 ) {
-  const childIds =
+  if (contentTypeName === "CourseDetails") {
+    return page?.details?.sys.id ? [page.details.sys.id] : [];
+  }
+
+  return (
     page?.contentCollection?.items
       .filter((item) => item?.__typename === contentTypeName)
-      .map((item) => item?.sys.id as string) || [];
-
-  const sectionChildIds = sections.flatMap((section) =>
-    extractSectionChildIds(
-      section,
-      contentTypeName as SectionContentItem["__typename"]
-    )
+      .map((item) => item?.sys.id as string) || []
   );
-
-  return [...childIds, ...sectionChildIds];
 }
 
 function extractSectionChildIds(
   section: SectionQueryItem,
-  contentTypeName: SectionContentItem["__typename"]
+  contentTypeName: SectionChildContentType
 ) {
+  if (contentTypeName === "Action") {
+    return (
+      section.actionsCollection?.items.map((item) => item?.sys.id as string) ||
+      []
+    );
+  } else if (contentTypeName === "Asset") {
+    return (
+      section.assetsCollection?.items.map((item) => item?.sys.id as string) ||
+      []
+    );
+  }
+
   return (
     section?.contentCollection?.items
       .filter((item) => item?.__typename === contentTypeName)

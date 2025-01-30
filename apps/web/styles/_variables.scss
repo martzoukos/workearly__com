@@ -3,10 +3,10 @@
 
 :root {
   @each $name, $color in $colors {
-    --#{$name}: #{$color};
+    --color-#{$name}: #{$color};
   }
 
   --container: #{$container}px;
   --transition-duration: 200ms;
-  --border-color: hsl(var(--neutral-500) / 0.3);
+  --border-color: hsl(var(--color-neutral-500) / 0.3);
 }

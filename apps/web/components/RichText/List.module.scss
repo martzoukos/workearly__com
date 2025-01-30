@@ -1,0 +1,8 @@
+.root {
+  list-style-type: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+  display: grid;
+  grid-template-columns: repeat(var(--column-count, 1), 1fr);
+  gap: 0.8rem;
+}

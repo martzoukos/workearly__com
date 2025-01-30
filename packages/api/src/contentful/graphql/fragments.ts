@@ -9,6 +9,7 @@ export const ASSET_FIELDS = graphql(`
     width
     height
     description
+    contentType
   }
 `);
 
@@ -149,6 +150,21 @@ export const SECTION_FIELDS = graphql(`
           }
         }
         ... on ContentTypeRichText {
+          sys {
+            id
+          }
+        }
+        ... on Page {
+          sys {
+            id
+          }
+        }
+        ... on Section {
+          sys {
+            id
+          }
+        }
+        ... on UniqueComponent {
           sys {
             id
           }
