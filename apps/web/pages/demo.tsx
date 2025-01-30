@@ -6,7 +6,7 @@ import PeopleCard from "@/components/Cards/PeopleCard/PeopleCard";
 import StickyCourseCard from "@/components/Cards/StickyCourseCard/StickyCourseCard";
 import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
 import React from "react";
-import Button from "@/components/Button/Button";
+import KeyMetricsCard from "@/components/Cards/KeyMetricsCard/KeyMetricsCard";
 
 const Demo = () => {
   return (
@@ -32,6 +32,7 @@ const Demo = () => {
       <PeopleCard />
       <CourseCard />
       <StickyCourseCard />
+      <KeyMetricsCard />
     </section>
   );
 };

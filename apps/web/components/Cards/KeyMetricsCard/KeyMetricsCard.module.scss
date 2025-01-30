@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-inline: 2rem;
+  padding-bottom: 1.75rem;
+  padding-top: 1.35rem;
+  border-radius: 1rem;
+  border: 1px solid hsl(var(--color-black-400));
+}
+
+.title {
+  font-weight: 400;
+}
+
+.subtitle {
+  color: hsl(var(--color-green-500));
+}
