@@ -20,6 +20,7 @@ export default function Section({ section, className }: PropsType) {
     accordionItems,
     actions,
     hasContentItems,
+    variant,
   } = useSectionResolver(section);
 
   const style = {
@@ -35,14 +36,14 @@ export default function Section({ section, className }: PropsType) {
       </header>
       {hasContentItems && (
         <div>
-          {section.variant === "Default" && cardItems.length > 0 && (
+          {variant === "Default" && cardItems.length > 0 && (
             <CardGrid
               cards={cardItems}
               variant={section.cardVariant as CardVariantType}
             />
           )}
 
-          {section.variant === "Accordion" && accordionItems.length > 0 && (
+          {variant === "Accordion" && accordionItems.length > 0 && (
             <Accordion accordionCards={accordionItems} />
           )}
         </div>

@@ -33,6 +33,10 @@ export default function useSectionResolver(section: SectionQueryItem) {
       .includes(item.sys.id)
   );
   const hasContentItems = Boolean(section.contentCollection?.items.length);
+  const variant = (section.variant ?? "Default") as
+    | "Default"
+    | "Accordion"
+    | "Tabs";
 
   return {
     alignment,
@@ -41,5 +45,6 @@ export default function useSectionResolver(section: SectionQueryItem) {
     accordionItems,
     actions,
     hasContentItems,
+    variant,
   };
 }
