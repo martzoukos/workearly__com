@@ -9,6 +9,7 @@ import Section from "../components/Section/Section";
 import PageRenderer from "../components/PageRenderer/PageRenderer";
 import RichText from "../components/RichText/RichText";
 import UniqueComponent from "../components/UniqueComponent/UniqueComponent";
+import getRichTextResolver from "../utils/getRichTextResolver";
 
 export default function Page({
   page,
@@ -48,8 +49,9 @@ export default function Page({
               return (
                 <RichText
                   key={item.sys.id}
-                  richText={richText}
+                  json={richText.body?.json}
                   className={className}
+                  resolver={getRichTextResolver(richText)}
                 />
               );
             } else if (item?.__typename === "UniqueComponent") {

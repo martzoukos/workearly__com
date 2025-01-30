@@ -3,7 +3,10 @@ import { AccordionCardQueryItem } from "@workearly/api";
 import clsx from "clsx";
 import { Accordion as RadixAccordion } from "radix-ui";
 import { forwardRef } from "react";
+import { ArrowUpIcon, CircleIcon } from "../Icons";
 import styles from "./Accordion.module.scss";
+import RichText from "../RichText/RichText";
+import getRichTextResolver from "../../utils/getRichTextResolver";
 
 type PropsType = {
   accordionCards: AccordionCardQueryItem[];
@@ -41,11 +44,16 @@ function AccordionCard({
   return (
     <RadixAccordion.Item value={accordionCard.sys.id} className={className}>
       <AccordionTrigger className={styles.trigger}>
-        {count && (
-          <Text size="caption" className={styles.icon}>
-            {count}
-          </Text>
-        )}
+        <div className={styles.icon}>
+          {count ? (
+            <div className={styles.circle}>
+              <Text size="caption">{count}</Text>
+              <CircleIcon />
+            </div>
+          ) : (
+            <ArrowUpIcon className={styles.arrow} />
+          )}
+        </div>
         {accordionCard.title}
         {accordionCard.topNotes && (
           <Text size="small" className={styles.topNotes}>
@@ -53,20 +61,31 @@ function AccordionCard({
           </Text>
         )}
       </AccordionTrigger>
-      <AccordionContent className={clsx(styles.content)}>
+      <AccordionContent className={styles.content}>
         <div className={styles.grid}>
-          <div>
-            <Text as="h6" size="small" className={styles.columnTitle}>
-              {accordionCard.column1Title}
-            </Text>
-            <Text size="small">{accordionCard.column1Text}</Text>
-          </div>
-          <div>
-            <Text size="small" className={styles.columnTitle}>
-              {accordionCard.column2Title}
-            </Text>
-            <Text size="small">{accordionCard.column2Text}</Text>
-          </div>
+          {accordionCard.column1Title && (
+            <div>
+              <Text as="h6" size="small" className={styles.columnTitle}>
+                {accordionCard.column1Title}
+              </Text>
+              <Text size="small">{accordionCard.column1Text}</Text>
+            </div>
+          )}
+          {accordionCard.column2Title && (
+            <div>
+              <Text size="small" className={styles.columnTitle}>
+                {accordionCard.column2Title}
+              </Text>
+              <Text size="small">{accordionCard.column2Text}</Text>
+            </div>
+          )}
+          {accordionCard.text?.json && (
+            <RichText
+              json={accordionCard.text.json}
+              resolver={getRichTextResolver()}
+              className={styles.contentText}
+            />
+          )}
         </div>
       </AccordionContent>
     </RadixAccordion.Item>

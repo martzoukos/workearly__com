@@ -1,6 +1,10 @@
-@use "@/styles/index" as *;
+.root {
+  display: grid;
+  grid-template-columns: repeat(var(--cards-count), 1fr);
+  gap: 0.5rem;
+}
 
-.card {
+.wrapper {
   background-color: hsl(var(--color-black-450));
   display: flex;
   justify-content: center;
@@ -9,7 +13,7 @@
   border-radius: 0.5rem;
 }
 
-.media {
+.image {
   max-width: 100%;
   height: auto;
   object-fit: contain;

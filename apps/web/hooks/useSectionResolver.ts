@@ -27,23 +27,33 @@ export default function useSectionResolver(section: SectionQueryItem) {
         .map((item) => item?.sys.id)
         .includes(item.sys.id)
   );
-  const actions = relationshipMap.actionCollection.filter((item) =>
+  const actionItems = relationshipMap.actionCollection.filter((item) =>
     section.actionsCollection?.items
       .map((item) => item?.sys.id)
       .includes(item.sys.id)
   );
-  const hasContentItems = Boolean(section.contentCollection?.items.length);
+  const assetItems = relationshipMap.assetCollection.filter((item) =>
+    section.assetsCollection?.items
+      .map((item) => item?.sys.id)
+      .includes(item.sys.id)
+  );
+  const hasContentItems =
+    Boolean(section.contentCollection?.items.length) ||
+    Boolean(assetItems.length);
   const variant = (section.variant ?? "Default") as
     | "Default"
     | "Accordion"
-    | "Tabs";
+    | "Tabs"
+    | "Logo Showcase"
+    | "Card Showcase";
 
   return {
     flexAlignment,
     cardsCount,
     cardItems,
     accordionItems,
-    actions,
+    actionItems,
+    assetItems,
     hasContentItems,
     variant,
   };

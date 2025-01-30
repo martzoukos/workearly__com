@@ -4,8 +4,9 @@ import clsx from "clsx";
 import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
-import CardGrid from "@/components/Cards/CardGrid";
 import useSectionResolver from "../../hooks/useSectionResolver";
+import CardGrid from "../Cards/CardGrid";
+import AssetGrid from "../AssetGrid/AssetGrid";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -18,7 +19,8 @@ export default function Section({ section, className }: PropsType) {
     cardsCount,
     flexAlignment,
     accordionItems,
-    actions,
+    actionItems,
+    assetItems,
     hasContentItems,
     variant,
   } = useSectionResolver(section);
@@ -40,18 +42,23 @@ export default function Section({ section, className }: PropsType) {
             <CardGrid
               cards={cardItems}
               fallbackVariant={section.cardVariant as CardVariantType}
+              cardsCount={cardsCount}
             />
           )}
 
           {variant === "Accordion" && accordionItems.length > 0 && (
             <Accordion accordionCards={accordionItems} />
           )}
+
+          {variant === "Logo Showcase" && assetItems.length > 0 && (
+            <AssetGrid assets={assetItems} cardsCount={cardsCount} />
+          )}
         </div>
       )}
 
-      {actions.length > 0 && (
+      {actionItems.length > 0 && (
         <footer className={styles.footer}>
-          {actions.map((action) => (
+          {actionItems.map((action) => (
             <Button key={action.sys.id} variant="Chip" colorScheme="White">
               {action.name}
             </Button>

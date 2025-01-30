@@ -7,6 +7,7 @@ import TitleTextCard from "./TitleTextCard/TitleTextCard";
 type PropsType = {
   cards: CardQueryItem[];
   fallbackVariant: CardVariantType;
+  cardsCount: number;
   className?: string;
 };
 
@@ -14,9 +15,14 @@ export default function CardGrid({
   cards,
   fallbackVariant,
   className,
+  cardsCount,
 }: PropsType) {
+  const style = {
+    "--cards-count": cardsCount,
+  } as React.CSSProperties;
+
   return (
-    <div className={clsx(styles.root, className)}>
+    <div className={clsx(styles.root, className)} style={style}>
       {cards.map((card) => (
         <Card key={card.sys.id} card={card} fallbackVariant={fallbackVariant} />
       ))}

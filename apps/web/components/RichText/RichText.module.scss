@@ -1,0 +1,31 @@
+.root {
+  & > .h2,
+  & > .h3,
+  & > .h4 {
+    &:not(:first-child) {
+      margin-block-start: 4rem;
+    }
+  }
+
+  & > .h5,
+  & > .h6,
+  & > .p {
+    &:not(:first-child) {
+      margin-block-start: 1.5rem;
+    }
+  }
+
+  .li,
+  .small,
+  .caption {
+    &:not(:first-child) {
+      margin-block-start: 0.875rem;
+    }
+  }
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}

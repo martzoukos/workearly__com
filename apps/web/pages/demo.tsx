@@ -1,7 +1,6 @@
 import CertificateCard from "@/components/Cards/CertificateCard/CertificateCard";
 import CourseCard from "@/components/Cards/CourseCard/CourseCard";
 import CourseDetailsCard from "@/components/Cards/CourseDetailsCard/CourseDetailsCard";
-import LogoCard from "@/components/Cards/LogoCard/LogoCard";
 import PeopleCard from "@/components/Cards/PeopleCard/PeopleCard";
 import StickyCourseCard from "@/components/Cards/StickyCourseCard/StickyCourseCard";
 import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
@@ -25,7 +24,6 @@ const Demo = () => {
       <Button variant="Decorative">Demo</Button>
       <Button variant="Ghost">Demo</Button>
       <Button variant="Underlined">Demo</Button> */}
-      <LogoCard />
       <CertificateCard />
       <CourseDetailsCard />
       <TitleTextCard />
