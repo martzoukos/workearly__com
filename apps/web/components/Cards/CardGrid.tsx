@@ -2,35 +2,39 @@ import { CardQueryItem, CardVariantType } from "@workearly/api";
 import IconTextCard from "./IconTextCard/IconTextCard";
 import styles from "./CardGrid.module.scss";
 import clsx from "clsx";
+import TitleTextCard from "./TitleTextCard/TitleTextCard";
 
 type PropsType = {
   cards: CardQueryItem[];
-  variant: CardVariantType;
+  fallbackVariant: CardVariantType;
   className?: string;
 };
 
-export default function CardGrid({ cards, variant, className }: PropsType) {
+export default function CardGrid({
+  cards,
+  fallbackVariant,
+  className,
+}: PropsType) {
   return (
     <div className={clsx(styles.root, className)}>
-      {cards
-        .filter((card) => card.variant === variant)
-        .map((card) => (
-          <Card key={card.sys.id} card={card} />
-        ))}
+      {cards.map((card) => (
+        <Card key={card.sys.id} card={card} fallbackVariant={fallbackVariant} />
+      ))}
     </div>
   );
 }
 
 type CardPropsType = {
   card: CardQueryItem;
+  fallbackVariant?: CardVariantType;
 };
 
-function Card({ card }: CardPropsType) {
-  const variant = card.variant as CardVariantType;
+function Card({ card, fallbackVariant }: CardPropsType) {
+  const variant = (card.variant || fallbackVariant) as CardVariantType;
 
   if (variant === "Icon and Text") {
     return <IconTextCard card={card} />;
+  } else if (variant === "Title and Text") {
+    return <TitleTextCard title={card.title} text={card.text} />;
   }
-
-  return null;
 }

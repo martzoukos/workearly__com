@@ -39,7 +39,7 @@ export default function Section({ section, className }: PropsType) {
           {variant === "Default" && cardItems.length > 0 && (
             <CardGrid
               cards={cardItems}
-              variant={section.cardVariant as CardVariantType}
+              fallbackVariant={section.cardVariant as CardVariantType}
             />
           )}
 

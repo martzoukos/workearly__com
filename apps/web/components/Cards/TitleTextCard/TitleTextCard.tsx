@@ -1,14 +1,18 @@
 import Text from "@/components/Text/Text";
 import styles from "./TitleTextCard.module.scss";
+import { PropsWithChildren, ReactNode } from "react";
 
-const TitleTextCard = () => {
+type PropsType = PropsWithChildren<{
+  title?: ReactNode;
+  text?: ReactNode;
+}>;
+
+const TitleTextCard = ({ title, text, children }: PropsType) => {
   return (
     <div className={styles.card}>
-      <Text size="h6">87.7 Million Jobs</Text>
-      <Text size="small">
-        By 2027, there will be a global demand for 87.7 million project
-        management professionals.
-      </Text>
+      {title && <Text size="h6">{title}</Text>}
+      {text && <Text size="small">{text}</Text>}
+      {children}
     </div>
   );
 };

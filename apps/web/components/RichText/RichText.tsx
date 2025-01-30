@@ -9,20 +9,11 @@ import { BLOCKS } from "@contentful/rich-text-types";
 import Text from "../Text/Text";
 import List from "./List";
 import ListItem from "./ListItem";
-import { RoundedCheckIcon } from "../Icons";
+import useRichTextResolver from "@/hooks/useRichTextResolver";
+import TitleTextCard from "../Cards/TitleTextCard/TitleTextCard";
 
-function getOptions(richText: ContentTypeRichTextQueryItem) {
-  const hasBulletTranformation = richText.bulletTranformation !== "None";
-  let columnCount = 1;
-  let icon = null;
-
-  if (richText.bulletTranformation?.includes("Double")) {
-    columnCount = 2;
-  }
-
-  if (richText.bulletTranformation?.includes("Checkmark")) {
-    icon = <RoundedCheckIcon />;
-  }
+function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
+  const { columnCount, IconComponent, renderListItemAsCard } = resolver;
 
   const options: Options = {
     renderNode: {
@@ -36,9 +27,17 @@ function getOptions(richText: ContentTypeRichTextQueryItem) {
       [BLOCKS.UL_LIST]: (node, children) => (
         <List columnCount={columnCount}>{children}</List>
       ),
-      [BLOCKS.LIST_ITEM]: (node, children) => (
-        <ListItem icon={icon}>{children}</ListItem>
-      ),
+      [BLOCKS.LIST_ITEM]: (node, children) => {
+        if (renderListItemAsCard) {
+          return <TitleTextCard>{children}</TitleTextCard>;
+        }
+
+        return (
+          <ListItem icon={IconComponent ? <IconComponent /> : null}>
+            {children}
+          </ListItem>
+        );
+      },
     },
   };
 
@@ -51,9 +50,11 @@ type PropsType = {
 };
 
 export default function RichText({ richText, className }: PropsType) {
+  const resolver = useRichTextResolver(richText);
+
   return (
     <section className={clsx(className)}>
-      {documentToReactComponents(richText.body?.json, getOptions(richText))}
+      {documentToReactComponents(richText.body?.json, getOptions(resolver))}
     </section>
   );
 }
