@@ -1,9 +1,9 @@
-import { SectionQueryItem } from "@workearly/api";
+import { CardVariantType, SectionQueryItem } from "@workearly/api";
 import styles from "./Section.module.scss";
 import clsx from "clsx";
 import Text from "../Text/Text";
 import { useContentful } from "../../stores/ContentfulStore";
-import IconTextCard from "../Cards/IconTextCard/IconTextCard";
+import Card from "../Card/Card";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -13,7 +13,13 @@ type PropsType = {
 export default function Section({ section, className }: PropsType) {
   const { relationshipMap } = useContentful();
 
-  let children = null;
+  const style: React.CSSProperties = section.cardsCount
+    ? ({ "--cards-count": section.cardsCount } as React.CSSProperties)
+    : {};
+
+  const contentItems: NonNullable<
+    SectionQueryItem["contentCollection"]
+  >["items"] = [];
 
   if (section.cardVariant === "Icon and Text") {
     const cards = relationshipMap.cardCollection.filter((item) =>
@@ -23,23 +29,49 @@ export default function Section({ section, className }: PropsType) {
         .includes(item.sys.id)
     );
 
-    children = cards.map((card) => (
-      <IconTextCard key={card.sys.id} card={card} />
-    ));
+    contentItems.push(...cards);
   }
 
-  const style: React.CSSProperties = section.cardsCount
-    ? ({ "--cards-count": section.cardsCount } as React.CSSProperties)
-    : {};
+  const actions = relationshipMap.actionCollection.filter((item) =>
+    section.actionsCollection?.items
+      .map((item) => item?.sys.id)
+      .includes(item.sys.id)
+  );
 
   return (
     <section
       className={clsx(styles.root, className)}
-      data-variant={section.cardVariant}
+      data-card-variant={section.cardVariant}
       style={style}
     >
-      <Text as="h4">{section.title}</Text>
-      <div className={styles.content}>{children}</div>
+      <header className={styles.header}>
+        <Text as="h4">{section.title}</Text>
+        {section.text && <Text>{section.text}</Text>}
+      </header>
+
+      {contentItems.length > 0 && (
+        <div className={styles.content}>
+          {contentItems.map((item) => {
+            if (item?.__typename === "Card") {
+              return (
+                <Card
+                  key={item.sys.id}
+                  card={item}
+                  fallbackVariant={section.cardVariant as CardVariantType}
+                />
+              );
+            }
+          })}
+        </div>
+      )}
+
+      {actions.length > 0 && (
+        <footer className={styles.footer}>
+          {actions.map((action) => (
+            <button key={action.sys.id}>{action.name}</button>
+          ))}
+        </footer>
+      )}
     </section>
   );
 }

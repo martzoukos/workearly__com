@@ -1,11 +1,11 @@
-import CertificateCard from "@/components/Cards/CertificateCard/CertificateCard";
-import CourseCard from "@/components/Cards/CourseCard/CourseCard";
-import CourseDetailsCard from "@/components/Cards/CourseDetailsCard/CourseDetailsCard";
-import IconTextCard from "@/components/Cards/IconTextCard/IconTextCard";
-import LogoCard from "@/components/Cards/LogoCard/LogoCard";
-import PeopleCard from "@/components/Cards/PeopleCard/PeopleCard";
-import StickyCourseCard from "@/components/Cards/StickyCourseCard/StickyCourseCard";
-import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
+import CertificateCard from "@/components/Card/CertificateCard/CertificateCard";
+import CourseCard from "@/components/Card/CourseCard/CourseCard";
+import CourseDetailsCard from "@/components/Card/CourseDetailsCard/CourseDetailsCard";
+import IconTextCard from "@/components/Card/IconTextCard/IconTextCard";
+import LogoCard from "@/components/Card/LogoCard/LogoCard";
+import PeopleCard from "@/components/Card/PeopleCard/PeopleCard";
+import StickyCourseCard from "@/components/Card/StickyCourseCard/StickyCourseCard";
+import TitleTextCard from "@/components/Card/TitleTextCard/TitleTextCard";
 import React from "react";
 
 const Demo = () => {
