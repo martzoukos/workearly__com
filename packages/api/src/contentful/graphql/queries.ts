@@ -1,8 +1,24 @@
 import { graphql } from "./__generated__/gql";
 
+export const PLAYGROUND_PAGE_SLUGS_QUERY = graphql(`
+  query PlaygroundPageSlugs {
+    pageCollection(
+      where: { slug_not_in: ["404"], type_in: ["Playground"] }
+      limit: 100
+    ) {
+      items {
+        slug
+      }
+    }
+  }
+`);
+
 export const PAGE_SLUGS_QUERY = graphql(`
   query PageSlugs {
-    pageCollection(where: { slug_not_in: ["404"] }, limit: 100) {
+    pageCollection(
+      where: { slug_not_in: ["404"], type_not_in: ["Playground"] }
+      limit: 100
+    ) {
       items {
         slug
       }

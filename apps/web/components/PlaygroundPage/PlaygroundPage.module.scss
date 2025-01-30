@@ -1,0 +1,48 @@
+@use "@/styles/functions" as *;
+
+.root {
+  --border-color: hsl(var(--color-neutral-500) / 0.6);
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+}
+
+.content {
+  border: 1px solid var(--border-color);
+  padding: fluid-rem(0.88rem, 0.88rem);
+}
+
+.breadcrumbs {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border-color);
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    li:not(:last-child) {
+      opacity: 0.5;
+      transition: color var(--transition-duration);
+
+      &:after {
+        content: ">";
+        margin: 0 0.5rem;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.contentItem {
+  padding: 2.12rem 1.88rem;
+
+  &:not(:first-child) {
+    border-top: 1px solid var(--border-color);
+    margin-block-start: 0.75rem;
+  }
+}
