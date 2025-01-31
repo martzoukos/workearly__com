@@ -1,7 +1,7 @@
 import { useContentful } from "../../stores/ContentfulStore";
 import styles from "./CourseDetails.module.scss";
 import Text from "@/components/Text/Text";
-import { StarIcon, UserIcon } from "../Icons";
+import { StarIcon, UserIcon } from "@workearly/icons";
 import useCoursePageResolver from "@/hooks/useCoursePageResolver";
 
 export default function CourseDetails() {

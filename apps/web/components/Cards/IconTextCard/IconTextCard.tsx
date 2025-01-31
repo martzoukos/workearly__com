@@ -1,8 +1,8 @@
 import styles from "./IconTextCard.module.scss";
-import SvgRenderer from "@/components/SvgRenderer";
 import { CardQueryItem } from "@workearly/api";
 import Text from "@/components/Text/Text";
 import Image from "next/image";
+import { SvgRenderer } from "@workearly/icons";
 
 type PropsType = {
   card: CardQueryItem;

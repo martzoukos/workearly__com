@@ -5,7 +5,7 @@ import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
 import useSectionResolver from "../../hooks/useSectionResolver";
-import CardGrid from "../Cards/CardGrid";
+import CardGrid from "@/components/CardGrid/CardGrid";
 import AssetGrid from "../AssetGrid/AssetGrid";
 
 type PropsType = {

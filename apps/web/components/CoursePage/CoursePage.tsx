@@ -2,7 +2,7 @@ import Link from "next/link";
 import styles from "./CoursePage.module.scss";
 import { useContentful } from "../../stores/ContentfulStore";
 import clsx from "clsx";
-import CourseDetails from "./CourseDetails";
+import CourseDetails from "../CourseDetails/CourseDetails";
 import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
 import PageItem from "../PageItem/PageItem";
 import useCoursePageResolver from "../../hooks/useCoursePageResolver";

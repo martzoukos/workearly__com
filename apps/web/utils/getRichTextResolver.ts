@@ -1,5 +1,5 @@
 import { ContentTypeRichTextQueryItem } from "@workearly/api";
-import { RoundedCheckIcon } from "../components/Icons";
+import { RoundedCheckIcon } from "@workearly/icons";
 
 export default function getRichTextResolver(
   richText?: ContentTypeRichTextQueryItem
