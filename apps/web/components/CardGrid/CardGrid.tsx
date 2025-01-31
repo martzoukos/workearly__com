@@ -1,8 +1,9 @@
-import { CardQueryItem, CardVariantType } from "@workearly/api";
+import { CardQueryItem } from "@workearly/api";
 import IconTextCard from "@/components/Cards/IconTextCard/IconTextCard";
 import styles from "./CardGrid.module.scss";
 import clsx from "clsx";
 import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
+import { CardVariantType } from "@/hooks/useCardResolver";
 
 type PropsType = {
   cards: CardQueryItem[];

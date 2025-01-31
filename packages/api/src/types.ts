@@ -25,61 +25,53 @@ export type ContentfulExchangeOptionsType = {
   isPreview?: boolean;
 };
 
-export type PageQueryItem = NonNullable<
-  NonNullable<PageCollectionQuery["pageCollection"]>["items"][number]
->;
-
-export type SectionQueryItem = NonNullable<
-  NonNullable<SectionCollectionQuery["sectionCollection"]>["items"][number]
->;
-
-export type CourseDetailsQueryItem = NonNullable<
-  NonNullable<
-    CourseDetailsCollectionQuery["courseDetailsCollection"]
-  >["items"][number]
->;
-
-export type ContentTypeRichTextQueryItem = NonNullable<
-  NonNullable<
-    ContentTypeRichTextCollectionQuery["contentTypeRichTextCollection"]
-  >["items"][number]
->;
-
-export type UniqueComponentQueryItem = NonNullable<
-  NonNullable<
-    UniqueComponentCollectionQuery["uniqueComponentCollection"]
-  >["items"][number]
->;
-
-export type ActionQueryItem = NonNullable<
-  NonNullable<ActionCollectionQuery["actionCollection"]>["items"][number]
->;
-
-export type AssetQueryItem = NonNullable<
-  NonNullable<AssetCollectionQuery["assetCollection"]>["items"][number]
->;
-
-export type AccordionCardQueryItem = NonNullable<
-  NonNullable<
-    AccordionCardCollectionQuery["accordionCardCollection"]
-  >["items"][number]
->;
-
-export type CardQueryItem = NonNullable<
-  NonNullable<CardCollectionQuery["cardCollection"]>["items"][number]
->;
-
 type QueryItemMap = {
-  CourseDetails: CourseDetailsQueryItem;
-  ContentTypeRichText: ContentTypeRichTextQueryItem;
-  Section: SectionQueryItem;
-  UniqueComponent: UniqueComponentQueryItem;
-  AccordionCard: AccordionCardQueryItem;
-  Card: CardQueryItem;
-  Page: PageQueryItem;
-  Action: ActionQueryItem;
-  Asset: AssetQueryItem;
+  CourseDetails: NonNullable<
+    NonNullable<
+      CourseDetailsCollectionQuery["courseDetailsCollection"]
+    >["items"][number]
+  >;
+  ContentTypeRichText: NonNullable<
+    NonNullable<
+      ContentTypeRichTextCollectionQuery["contentTypeRichTextCollection"]
+    >["items"][number]
+  >;
+  Section: NonNullable<
+    NonNullable<SectionCollectionQuery["sectionCollection"]>["items"][number]
+  >;
+  UniqueComponent: NonNullable<
+    NonNullable<
+      UniqueComponentCollectionQuery["uniqueComponentCollection"]
+    >["items"][number]
+  >;
+  AccordionCard: NonNullable<
+    NonNullable<
+      AccordionCardCollectionQuery["accordionCardCollection"]
+    >["items"][number]
+  >;
+  Card: NonNullable<
+    NonNullable<CardCollectionQuery["cardCollection"]>["items"][number]
+  >;
+  Page: NonNullable<
+    NonNullable<PageCollectionQuery["pageCollection"]>["items"][number]
+  >;
+  Action: NonNullable<
+    NonNullable<ActionCollectionQuery["actionCollection"]>["items"][number]
+  >;
+  Asset: NonNullable<
+    NonNullable<AssetCollectionQuery["assetCollection"]>["items"][number]
+  >;
 };
+
+export type PageQueryItem = QueryItemMap["Page"];
+export type SectionQueryItem = QueryItemMap["Section"];
+export type CourseDetailsQueryItem = QueryItemMap["CourseDetails"];
+export type ContentTypeRichTextQueryItem = QueryItemMap["ContentTypeRichText"];
+export type UniqueComponentQueryItem = QueryItemMap["UniqueComponent"];
+export type ActionQueryItem = QueryItemMap["Action"];
+export type AssetQueryItem = QueryItemMap["Asset"];
+export type AccordionCardQueryItem = QueryItemMap["AccordionCard"];
+export type CardQueryItem = QueryItemMap["Card"];
 
 export type RelationshipMapType = {
   [K in Exclude<
@@ -106,5 +98,3 @@ export type SectionChildContentType =
   | NonNullable<
       NonNullable<SectionQueryItem["assetsCollection"]>["items"][number]
     >["__typename"];
-
-export type CardVariantType = "Icon and Text" | "Title and Text";

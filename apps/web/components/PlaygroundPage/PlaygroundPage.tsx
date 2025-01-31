@@ -11,7 +11,14 @@ type PropsType = {
 
 export default function PlaygroundPage({ className }: PropsType) {
   const { page } = useContentful();
-  const { mainItems } = useCoursePageResolver();
+  const { items } = useCoursePageResolver();
+
+  // console.log(
+  //   items.filter((item) => item?.__typename === "Section"),
+  //   relationshipMap.sectionCollection.find(
+  //     (item) => item.sys.id === "7806hsWKKyTfL1aGFulMKd"
+  //   )
+  // );
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -27,7 +34,7 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
-        {mainItems.map((item) => (
+        {items.map((item) => (
           <PageItem
             key={item?.sys.id}
             item={item}

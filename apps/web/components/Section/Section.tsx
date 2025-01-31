@@ -1,13 +1,14 @@
-import { CardVariantType, SectionQueryItem } from "@workearly/api";
+import { SectionQueryItem } from "@workearly/api";
 import styles from "./Section.module.scss";
 import clsx from "clsx";
 import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
-import useSectionResolver from "../../hooks/useSectionResolver";
+import useSectionResolver from "@/hooks/useSectionResolver";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
-import CardShowcase from "../CardShowcase/CardShowcase";
+import CardShowcase from "@/components/CardShowcase/CardShowcase";
+import { CardVariantType } from "@/hooks/useCardResolver";
 
 type PropsType = {
   section: SectionQueryItem;

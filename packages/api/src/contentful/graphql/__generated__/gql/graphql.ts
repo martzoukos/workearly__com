@@ -927,9 +927,11 @@ export type ContentTypeRichText = Entry & _Node & {
   __typename?: 'ContentTypeRichText';
   _id: Scalars['ID']['output'];
   body?: Maybe<ContentTypeRichTextBody>;
+  columnCount?: Maybe<Scalars['Int']['output']>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   linkedFrom?: Maybe<ContentTypeRichTextLinkingCollections>;
+  listItemType?: Maybe<Scalars['String']['output']>;
   sys: Sys;
   variant?: Maybe<Scalars['String']['output']>;
 };
@@ -937,6 +939,12 @@ export type ContentTypeRichText = Entry & _Node & {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/richText) */
 export type ContentTypeRichTextBodyArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/richText) */
+export type ContentTypeRichTextColumnCountArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -950,6 +958,12 @@ export type ContentTypeRichTextContentfulNameArgs = {
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/richText) */
 export type ContentTypeRichTextLinkedFromArgs = {
   allowedLocales?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/richText) */
+export type ContentTypeRichTextListItemTypeArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
 };
 
 
@@ -1020,6 +1034,15 @@ export type ContentTypeRichTextFilter = {
   body_contains?: InputMaybe<Scalars['String']['input']>;
   body_exists?: InputMaybe<Scalars['Boolean']['input']>;
   body_not_contains?: InputMaybe<Scalars['String']['input']>;
+  columnCount?: InputMaybe<Scalars['Int']['input']>;
+  columnCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  columnCount_gt?: InputMaybe<Scalars['Int']['input']>;
+  columnCount_gte?: InputMaybe<Scalars['Int']['input']>;
+  columnCount_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
+  columnCount_lt?: InputMaybe<Scalars['Int']['input']>;
+  columnCount_lte?: InputMaybe<Scalars['Int']['input']>;
+  columnCount_not?: InputMaybe<Scalars['Int']['input']>;
+  columnCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
   contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
@@ -1028,6 +1051,13 @@ export type ContentTypeRichTextFilter = {
   contentfulName_not?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  listItemType?: InputMaybe<Scalars['String']['input']>;
+  listItemType_contains?: InputMaybe<Scalars['String']['input']>;
+  listItemType_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  listItemType_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  listItemType_not?: InputMaybe<Scalars['String']['input']>;
+  listItemType_not_contains?: InputMaybe<Scalars['String']['input']>;
+  listItemType_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   sys?: InputMaybe<SysFilter>;
   variant?: InputMaybe<Scalars['String']['input']>;
   variant_contains?: InputMaybe<Scalars['String']['input']>;
@@ -1126,8 +1156,12 @@ export enum ContentTypeRichTextLinkingCollectionsSectionCollectionOrder {
 }
 
 export enum ContentTypeRichTextOrder {
+  ColumnCountAsc = 'columnCount_ASC',
+  ColumnCountDesc = 'columnCount_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
+  ListItemTypeAsc = 'listItemType_ASC',
+  ListItemTypeDesc = 'listItemType_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
   SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
   SysIdAsc = 'sys_id_ASC',
