@@ -1,5 +1,7 @@
 @use "@/styles/index" as *;
 
+/* TODO: Apply justify amd text-alignment depending on icon presence */
+
 .base {
   --color-bg: transparent;
   --color-text: hsl(var(--color-black-500));

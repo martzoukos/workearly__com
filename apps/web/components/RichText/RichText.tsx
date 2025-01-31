@@ -19,39 +19,39 @@ function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
     IconComponent,
     renderListAsCards,
     renderListAsChips,
-    hasBulletTranformation,
+    variant,
   } = resolver;
 
   const options: Options = {
     renderNode: {
       [BLOCKS.HEADING_1]: (node, children) => <Text as="h1">{children}</Text>,
       [BLOCKS.HEADING_2]: (node, children) => (
-        <Text as="h2" className={clsx(!hasBulletTranformation && styles.h2)}>
+        <Text as="h2" className={clsx(variant === "Default" && styles.h2)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_3]: (node, children) => (
-        <Text as="h3" className={clsx(!hasBulletTranformation && styles.h3)}>
+        <Text as="h3" className={clsx(variant === "Default" && styles.h3)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_4]: (node, children) => (
-        <Text as="h4" className={clsx(!hasBulletTranformation && styles.h4)}>
+        <Text as="h4" className={clsx(variant === "Default" && styles.h4)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_5]: (node, children) => (
-        <Text as="h5" className={clsx(!hasBulletTranformation && styles.h5)}>
+        <Text as="h5" className={clsx(variant === "Default" && styles.h5)}>
           {children}
         </Text>
       ),
       [BLOCKS.HEADING_6]: (node, children) => (
-        <Text as="h6" className={clsx(!hasBulletTranformation && styles.h6)}>
+        <Text as="h6" className={clsx(variant === "Default" && styles.h6)}>
           {children}
         </Text>
       ),
       [BLOCKS.PARAGRAPH]: (node, children) => (
-        <Text as="p" className={clsx(!hasBulletTranformation && styles.p)}>
+        <Text as="p" className={clsx(variant === "Default" && styles.p)}>
           {children}
         </Text>
       ),
@@ -75,7 +75,7 @@ function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
         return (
           <ListItem
             icon={IconComponent ? <IconComponent /> : null}
-            className={clsx(!hasBulletTranformation && styles.li)}
+            className={clsx(variant === "Default" && styles.li)}
           >
             {children}
           </ListItem>

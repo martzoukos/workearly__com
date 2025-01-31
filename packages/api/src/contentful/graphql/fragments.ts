@@ -97,7 +97,7 @@ export const CONTENT_TYPE_RICH_TEXT_FIELDS = graphql(`
     body {
       json
     }
-    bulletTranformation
+    variant
   }
 `);
 

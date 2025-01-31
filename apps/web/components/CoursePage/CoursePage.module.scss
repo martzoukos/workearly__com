@@ -2,6 +2,7 @@
 
 .root {
   --border-color: hsl(var(--color-neutral-500) / 0.3);
+  --gap-sidebar: 3rem;
   display: grid;
   grid-template-columns: 1fr;
   gap: 8rem;
@@ -36,7 +37,7 @@
 .contentWrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 3rem;
+  gap: var(--gap-sidebar);
 }
 
 .content {
@@ -53,4 +54,9 @@
       border-top: 1px solid var(--border-color);
     }
   }
+}
+
+.sidebar {
+  position: sticky;
+  top: var(--gap-sidebar);
 }

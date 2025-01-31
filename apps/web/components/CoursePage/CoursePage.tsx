@@ -39,9 +39,7 @@ export default function CoursePage({ className }: PropsType) {
             />
           ))}
         </div>
-        <div>
-          <PurchaseCourse />
-        </div>
+        <PurchaseCourse className={styles.sidebar} />
       </div>
     </main>
   );

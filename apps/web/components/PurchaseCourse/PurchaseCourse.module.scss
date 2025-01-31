@@ -8,6 +8,7 @@
   color: hsl(var(--color-black-500));
   padding: 1rem 1rem 2rem 1rem;
   border-radius: 0.5rem;
+  height: fit-content;
 }
 
 .media {
@@ -23,8 +24,11 @@
   }
 }
 
-.content {
+.contentWrapper {
   padding-inline: 1rem;
+}
+
+.content {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -47,7 +51,7 @@
 .prices {
   display: flex;
   gap: 0.5rem;
-  margin-block: 2rem;
+  margin-block: fluid-rem(0.5rem, 2rem);
 
   .price {
     &::before {
@@ -66,7 +70,6 @@
 }
 
 .footer {
-  padding-inline: 1rem;
   & > *:first-child {
     grid-column: 1 / -1;
   }
