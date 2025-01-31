@@ -6,6 +6,7 @@ import PageItem from "../PageItem/PageItem";
 import useCoursePageResolver from "../../hooks/useCoursePageResolver";
 import PeopleCard from "../Cards/PeopleCard/PeopleCard";
 import ArticleSideCard from "../Cards/ArticleSideCard/ArticleSideCard";
+import ArticleCard from "../Cards/ArticleCard/ArticleCard";
 
 type PropsType = {
   className?: string;
@@ -36,6 +37,7 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
+        <ArticleCard />
         <ArticleSideCard />
         <PeopleCard />
         {items.map((item) => (
