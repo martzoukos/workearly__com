@@ -776,6 +776,7 @@ export type Card = Entry & _Node & {
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   linkedFrom?: Maybe<CardLinkingCollections>;
+  rating?: Maybe<Scalars['Int']['output']>;
   sys: Sys;
   text?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
@@ -808,6 +809,12 @@ export type CardContentfulNameArgs = {
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
 export type CardLinkedFromArgs = {
   allowedLocales?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
+export type CardRatingArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
 };
 
 
@@ -857,6 +864,15 @@ export type CardFilter = {
   contentfulName_not?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  rating?: InputMaybe<Scalars['Int']['input']>;
+  rating_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  rating_gt?: InputMaybe<Scalars['Int']['input']>;
+  rating_gte?: InputMaybe<Scalars['Int']['input']>;
+  rating_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
+  rating_lt?: InputMaybe<Scalars['Int']['input']>;
+  rating_lte?: InputMaybe<Scalars['Int']['input']>;
+  rating_not?: InputMaybe<Scalars['Int']['input']>;
+  rating_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
   sys?: InputMaybe<SysFilter>;
   text?: InputMaybe<Scalars['String']['input']>;
   text_contains?: InputMaybe<Scalars['String']['input']>;
@@ -936,6 +952,8 @@ export enum CardLinkingCollectionsSectionCollectionOrder {
 export enum CardOrder {
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
+  RatingAsc = 'rating_ASC',
+  RatingDesc = 'rating_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
   SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
   SysIdAsc = 'sys_id_ASC',

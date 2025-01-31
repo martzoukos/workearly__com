@@ -12,7 +12,7 @@ export default function ArticleCard() {
         width={100}
         height={100}
         className={styles.media}
-        data-variant={"normal"}
+        data-variant={variant}
       />
 
       <div className={styles.content} data-variant={variant}>
