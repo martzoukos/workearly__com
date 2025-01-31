@@ -2,14 +2,16 @@ import Link from "next/link";
 import styles from "./PlaygroundPage.module.scss";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
+import PageItem from "../PageItem/PageItem";
+import useCoursePageResolver from "../../hooks/useCoursePageResolver";
 
 type PropsType = {
-  children: (className?: string) => React.ReactNode;
   className?: string;
 };
 
-export default function PlaygroundPage({ children, className }: PropsType) {
+export default function PlaygroundPage({ className }: PropsType) {
   const { page } = useContentful();
+  const { mainItems } = useCoursePageResolver();
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -25,7 +27,13 @@ export default function PlaygroundPage({ children, className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
-        {children(styles.contentItem)}
+        {mainItems.map((item) => (
+          <PageItem
+            key={item?.sys.id}
+            item={item}
+            className={styles.contentItem}
+          />
+        ))}
       </div>
     </main>
   );

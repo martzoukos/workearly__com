@@ -1,7 +1,4 @@
 import PageRenderer from "@/components/PageRenderer/PageRenderer";
-import RichText from "@/components/RichText/RichText";
-import Section from "@/components/Section/Section";
-import UniqueComponent from "@/components/UniqueComponent/UniqueComponent";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   PLAYGROUND_PAGE_SLUGS_QUERY,
@@ -9,7 +6,6 @@ import {
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import getRichTextResolver from "../../utils/getRichTextResolver";
 
 export default function Page({
   page,
@@ -17,64 +13,7 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <ContentfulProvider page={page} relationshipMap={relationshipMap}>
-      <PageRenderer>
-        {(className) => {
-          return page.contentCollection?.items.map((item) => {
-            if (item?.__typename === "Section") {
-              const section = relationshipMap.sectionCollection.find(
-                (section) => section.sys.id === item.sys.id
-              );
-
-              if (!section) {
-                return null;
-              }
-
-              return (
-                <Section
-                  key={item.sys.id}
-                  section={section}
-                  className={className}
-                />
-              );
-            } else if (item?.__typename === "ContentTypeRichText") {
-              const richText =
-                relationshipMap.contentTypeRichTextCollection.find(
-                  (section) => section.sys.id === item.sys.id
-                );
-
-              if (!richText) {
-                return null;
-              }
-
-              return (
-                <RichText
-                  key={item.sys.id}
-                  json={richText.body?.json}
-                  className={className}
-                  resolver={getRichTextResolver(richText)}
-                />
-              );
-            } else if (item?.__typename === "UniqueComponent") {
-              const uniqueComponent =
-                relationshipMap.uniqueComponentCollection.find(
-                  (section) => section.sys.id === item.sys.id
-                );
-
-              if (!uniqueComponent) {
-                return null;
-              }
-
-              return (
-                <UniqueComponent
-                  key={item.sys.id}
-                  uniqueComponent={uniqueComponent}
-                  className={className}
-                />
-              );
-            }
-          });
-        }}
-      </PageRenderer>
+      <PageRenderer />
     </ContentfulProvider>
   );
 }

@@ -4,14 +4,16 @@ import { useContentful } from "../../stores/ContentfulStore";
 import clsx from "clsx";
 import CourseDetails from "./CourseDetails";
 import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
+import PageItem from "../PageItem/PageItem";
+import useCoursePageResolver from "../../hooks/useCoursePageResolver";
 
 type PropsType = {
-  children: (className?: string) => React.ReactNode;
   className?: string;
 };
 
-export default function CoursePage({ children, className }: PropsType) {
+export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
+  const { mainItems } = useCoursePageResolver();
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -28,9 +30,15 @@ export default function CoursePage({ children, className }: PropsType) {
           </ul>
         </nav>
         <CourseDetails />
-        {children(styles.contentItem)}
+        {mainItems.map((item) => (
+          <PageItem
+            key={item?.sys.id}
+            item={item}
+            className={styles.contentItem}
+          />
+        ))}
       </div>
-      <div className={styles.sidebar}>
+      <div>
         <PurchaseCourse />
       </div>
     </main>

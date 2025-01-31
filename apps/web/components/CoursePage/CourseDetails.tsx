@@ -2,11 +2,11 @@ import { useContentful } from "../../stores/ContentfulStore";
 import styles from "./CourseDetails.module.scss";
 import Text from "@/components/Text/Text";
 import { StarIcon, UserIcon } from "../Icons";
-import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
+import useCoursePageResolver from "@/hooks/useCoursePageResolver";
 
 export default function CourseDetails() {
   const { page } = useContentful();
-  const { courseDetails, hasStatLabels } = useCourseDetailsResolver();
+  const { courseDetails, hasStatLabels } = useCoursePageResolver();
 
   return (
     <section className={styles.root}>

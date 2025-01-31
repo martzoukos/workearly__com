@@ -4,12 +4,12 @@ import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import NextLink from "next/link";
 import { useContentful } from "@/stores/ContentfulStore";
-import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
+import useCoursePageResolver from "@/hooks/useCoursePageResolver";
 import clsx from "clsx";
 
 const PurchaseCourse = () => {
   const { page } = useContentful();
-  const { courseDetails } = useCourseDetailsResolver();
+  const { courseDetails } = useCoursePageResolver();
 
   return (
     <div className={styles.root} data-color="Green">
