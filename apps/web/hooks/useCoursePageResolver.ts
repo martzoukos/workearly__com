@@ -5,7 +5,7 @@ export default function useCoursePageResolver() {
   const courseDetails = relationshipMap.courseDetailsCollection.find(
     (item) => item.sys.id === page.details?.sys.id
   );
-  const mainItems =
+  const items =
     page.contentCollection?.items
       .map((item) => {
         if (item?.__typename === "ContentTypeRichText") {
@@ -16,6 +16,10 @@ export default function useCoursePageResolver() {
           return relationshipMap.sectionCollection.find(
             (section) => section.sys.id === item.sys.id
           );
+        } else if (item?.__typename === "UniqueComponent") {
+          return relationshipMap.uniqueComponentCollection.find(
+            (section) => section.sys.id === item.sys.id
+          );
         }
       })
       .filter(Boolean) || [];
@@ -23,5 +27,9 @@ export default function useCoursePageResolver() {
   const hasStatLabels =
     courseDetails?.studentsCount || courseDetails?.userReviews;
 
-  return { courseDetails, hasStatLabels, mainItems };
+  return {
+    courseDetails,
+    hasStatLabels,
+    items,
+  };
 }

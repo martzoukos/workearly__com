@@ -7,6 +7,7 @@ import Accordion from "@/components/Accordion/Accordion";
 import useSectionResolver from "../../hooks/useSectionResolver";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
+import CardShowcase from "../CardShowcase/CardShowcase";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -52,6 +53,8 @@ export default function Section({ section, className }: PropsType) {
           {variant === "Logo Showcase" && assetItems.length > 0 && (
             <LogoShowcase assets={assetItems} columnCount={cardsCount} />
           )}
+
+          {variant === "Card Showcase" && <CardShowcase section={section} />}
         </div>
       )}
 

@@ -2,8 +2,20 @@ import fs from "fs/promises";
 import fetchTranslations from "./fetchTranslations";
 import path from "path";
 import { TranslationType } from "../types";
+import { exec } from "child_process";
+import { promisify } from "util";
 
+const execAsync = promisify(exec);
 const OUTPUT_DIR = "./src/airtable/__generated__";
+
+async function formatWithPrettier(filePath: string) {
+  try {
+    await execAsync(`npx prettier --write ${filePath}`);
+    console.log(`✅ Prettier formatted: ${filePath}`);
+  } catch (error) {
+    console.error(`❌ Failed to format ${filePath} with Prettier:`, error);
+  }
+}
 
 async function generateTypeDefinition(translations: TranslationType[]) {
   const allTexts = new Set<string>();
@@ -25,6 +37,8 @@ async function generateTypeDefinition(translations: TranslationType[]) {
   console.log(
     "✅ TypeScript type definition successfully written to translations.d.ts"
   );
+
+  await formatWithPrettier(outputFile);
 }
 
 async function generateTranslations() {
@@ -43,6 +57,8 @@ async function generateTranslations() {
       JSON.stringify(translations, null, 2),
       "utf-8"
     );
+
+    await formatWithPrettier(jsonFile);
 
     console.log("Generating TypeScript type definition...");
     await generateTypeDefinition(translations);

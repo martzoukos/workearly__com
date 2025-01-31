@@ -13,33 +13,35 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { mainItems } = useCoursePageResolver();
+  const { items } = useCoursePageResolver();
 
   return (
     <main className={clsx(styles.root, className)}>
-      <div className={styles.content}>
-        <nav className={styles.breadcrumbs}>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/courses">Courses</Link>
-            </li>
-            <li>{page.name}</li>
-          </ul>
-        </nav>
-        <CourseDetails />
-        {mainItems.map((item) => (
-          <PageItem
-            key={item?.sys.id}
-            item={item}
-            className={styles.contentItem}
-          />
-        ))}
-      </div>
-      <div>
-        <PurchaseCourse />
+      <div className={styles.contentWrapper}>
+        <div className={styles.content}>
+          <nav className={styles.breadcrumbs}>
+            <ul>
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/courses">Courses</Link>
+              </li>
+              <li>{page.name}</li>
+            </ul>
+          </nav>
+          <CourseDetails />
+          {items.map((item) => (
+            <PageItem
+              key={item?.sys.id}
+              item={item}
+              className={styles.contentItem}
+            />
+          ))}
+        </div>
+        <div>
+          <PurchaseCourse />
+        </div>
       </div>
     </main>
   );

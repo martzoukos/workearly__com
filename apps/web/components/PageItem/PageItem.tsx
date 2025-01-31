@@ -5,7 +5,7 @@ import UniqueComponent from "@/components/UniqueComponent/UniqueComponent";
 import useCoursePageResolver from "../../hooks/useCoursePageResolver";
 
 type PropsType = {
-  item: ReturnType<typeof useCoursePageResolver>["mainItems"][number];
+  item: ReturnType<typeof useCoursePageResolver>["items"][number];
   className?: string;
 };
 

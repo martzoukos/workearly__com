@@ -13,7 +13,7 @@ export default function UniqueComponent({
 }: PropsType) {
   return (
     <section className={clsx(styles.root, className)}>
-      {uniqueComponent.__typename}
+      {uniqueComponent.variant}
     </section>
   );
 }
