@@ -11,8 +11,10 @@ export default function PageRenderer() {
   return (
     <>
       <Header />
-      {page.type === "Course" && <CoursePage className={styles.root} />}
-      {page.type === "Playground" && <PlaygroundPage className={styles.root} />}
+      {page.variant === "Course" && <CoursePage className={styles.root} />}
+      {page.variant === "Playground" && (
+        <PlaygroundPage className={styles.root} />
+      )}
       <Footer />
     </>
   );

@@ -106,7 +106,7 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
     sys {
       id
     }
-    type
+    variant
   }
 `);
 
@@ -180,7 +180,7 @@ export const PAGE_FIELDS = graphql(`
     sys {
       id
     }
-    type
+    variant
     name
     slug
     tags
