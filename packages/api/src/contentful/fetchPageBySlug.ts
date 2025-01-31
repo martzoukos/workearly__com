@@ -6,12 +6,12 @@ import {
   CardQueryItem,
   ContentTypeRichTextQueryItem,
   CourseDetailsQueryItem,
-  PageChildContentType,
   PageQueryItem,
-  RelationshipMapContentType,
-  RelationshipMapType,
-  SectionChildContentType,
+  PageReferenceTypeName,
+  RelationshipMapTypeName,
+  RelationshipMap,
   SectionQueryItem,
+  SectionReferenceTypeName,
   UniqueComponentQueryItem,
 } from "../types";
 import { fetchCollectionByIds } from "./fetchCollectionByIds";
@@ -29,7 +29,7 @@ import {
 
 type ReturnType = {
   page: PageQueryItem;
-  relationshipMap: RelationshipMapType;
+  relationshipMap: RelationshipMap;
 };
 
 export default async function fetchPageBySlug(
@@ -56,7 +56,7 @@ export default async function fetchPageBySlug(
 async function getPageRelationships(
   client: Client,
   page: PageQueryItem
-): Promise<RelationshipMapType> {
+): Promise<RelationshipMap> {
   const courseDetailsIds = extractPageChildIds(page, "CourseDetails");
   const courseDetailsCollection = await fetchCollectionByIds(client, {
     ids: courseDetailsIds,
@@ -149,7 +149,7 @@ async function getPageRelationships(
     mapItems: (data) => (data?.pageCollection?.items || []) as PageQueryItem[],
   });
 
-  const relationshipMap: RelationshipMapType = {
+  const relationshipMap: RelationshipMap = {
     courseDetailsCollection,
     sectionCollection,
     contentTypeRichTextCollection,
@@ -167,15 +167,15 @@ async function getPageRelationships(
 function extractRecursiveChildIds(
   page: PageQueryItem,
   sections: SectionQueryItem[],
-  contentTypeName: RelationshipMapContentType
+  contentTypeName: RelationshipMapTypeName
 ) {
   const pageChildIds = extractPageChildIds(
     page,
-    contentTypeName as PageChildContentType
+    contentTypeName as PageReferenceTypeName
   );
 
   const sectionChildIds = sections.flatMap((section) =>
-    extractSectionChildIds(section, contentTypeName as SectionChildContentType)
+    extractSectionChildIds(section, contentTypeName as SectionReferenceTypeName)
   );
 
   return [...pageChildIds, ...sectionChildIds];
@@ -183,7 +183,7 @@ function extractRecursiveChildIds(
 
 function extractPageChildIds(
   page: PageQueryItem,
-  contentTypeName: PageChildContentType
+  contentTypeName: PageReferenceTypeName
 ) {
   if (contentTypeName === "CourseDetails") {
     return page?.details?.sys.id ? [page.details.sys.id] : [];
@@ -198,7 +198,7 @@ function extractPageChildIds(
 
 function extractSectionChildIds(
   section: SectionQueryItem,
-  contentTypeName: SectionChildContentType
+  contentTypeName: SectionReferenceTypeName
 ) {
   if (contentTypeName === "Action") {
     return (

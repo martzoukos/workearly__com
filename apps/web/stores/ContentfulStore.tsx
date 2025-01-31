@@ -1,14 +1,8 @@
+import { fetchPageBySlug } from "@workearly/api";
 import {
-  AccordionCardQueryItem,
-  ActionQueryItem,
-  CardQueryItem,
-  fetchPageBySlug,
-  SectionQueryItem,
-} from "@workearly/api";
-import {
+  createContext,
   PropsWithChildren,
   ReactElement,
-  createContext,
   useContext,
 } from "react";
 

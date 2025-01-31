@@ -9,9 +9,7 @@ import {
   ContentTypeRichTextCollectionQuery,
   CourseDetailsCollectionQuery,
   PageCollectionQuery,
-  PageContentItem,
   SectionCollectionQuery,
-  SectionContentItem,
   UniqueComponentCollectionQuery,
 } from "./contentful/graphql/__generated__/gql/graphql";
 
@@ -73,28 +71,58 @@ export type AssetQueryItem = QueryItemMap["Asset"];
 export type AccordionCardQueryItem = QueryItemMap["AccordionCard"];
 export type CardQueryItem = QueryItemMap["Card"];
 
-export type RelationshipMapType = {
+export type ToRelationshipMap<
+  T extends string,
+  Q extends Record<string, any>,
+> = {
   [K in Exclude<
-    RelationshipMapContentType,
+    T,
     undefined
-  > as `${Uncapitalize<K>}Collection`]: K extends keyof QueryItemMap
-    ? QueryItemMap[K][]
-    : never;
+  > as `${Uncapitalize<K>}Collection`]: K extends keyof Q ? Q[K][] : never;
 };
 
-export type RelationshipMapContentType =
-  | Exclude<PageChildContentType, undefined>
-  | Exclude<SectionChildContentType, undefined>;
-
-export type PageChildContentType =
-  | PageContentItem["__typename"]
-  | NonNullable<PageQueryItem["details"]>["__typename"];
-
-export type SectionChildContentType =
-  | SectionContentItem["__typename"]
+export type SectionReference = Exclude<
+  | NonNullable<SectionQueryItem["contentCollection"]>["items"][number]
   | NonNullable<
       NonNullable<SectionQueryItem["actionsCollection"]>["items"][number]
-    >["__typename"]
+    >
   | NonNullable<
       NonNullable<SectionQueryItem["assetsCollection"]>["items"][number]
-    >["__typename"];
+    >,
+  null | undefined
+>;
+
+export type SectionReferenceTypeName = Exclude<
+  SectionReference["__typename"],
+  undefined
+>;
+
+export type SectionRelationshipMap = ToRelationshipMap<
+  SectionReferenceTypeName,
+  QueryItemMap
+>;
+
+export type PageReference = Exclude<
+  | NonNullable<PageQueryItem["contentCollection"]>["items"][number]
+  | NonNullable<PageQueryItem["details"]>,
+  null | undefined
+>;
+
+export type PageReferenceTypeName = Exclude<
+  PageReference["__typename"],
+  undefined
+>;
+
+export type PageRelationshipMap = ToRelationshipMap<
+  PageReferenceTypeName,
+  QueryItemMap
+>;
+
+export type RelationshipMapTypeName =
+  | PageReferenceTypeName
+  | SectionReferenceTypeName;
+
+export type RelationshipMap = ToRelationshipMap<
+  RelationshipMapTypeName,
+  QueryItemMap
+>;
