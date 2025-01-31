@@ -690,6 +690,7 @@ export type AssetLinkingCollections = {
   __typename?: 'AssetLinkingCollections';
   actionCollection?: Maybe<ActionCollection>;
   cardCollection?: Maybe<CardCollection>;
+  courseDetailsCollection?: Maybe<CourseDetailsCollection>;
   entryCollection?: Maybe<EntryCollection>;
   pageCollection?: Maybe<PageCollection>;
   sectionCollection?: Maybe<SectionCollection>;
@@ -705,6 +706,14 @@ export type AssetLinkingCollectionsActionCollectionArgs = {
 
 
 export type AssetLinkingCollectionsCardCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+export type AssetLinkingCollectionsCourseDetailsCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
@@ -762,6 +771,7 @@ export enum AssetOrder {
 export type Card = Entry & _Node & {
   __typename?: 'Card';
   _id: Scalars['ID']['output'];
+  actionsCollection?: Maybe<CardActionsCollection>;
   asset?: Maybe<Asset>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
@@ -770,6 +780,15 @@ export type Card = Entry & _Node & {
   text?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
   variant?: Maybe<Scalars['String']['output']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
+export type CardActionsCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
 };
 
 
@@ -809,6 +828,14 @@ export type CardVariantArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
+export type CardActionsCollection = {
+  __typename?: 'CardActionsCollection';
+  items: Array<Maybe<Entry>>;
+  limit: Scalars['Int']['output'];
+  skip: Scalars['Int']['output'];
+  total: Scalars['Int']['output'];
+};
+
 export type CardCollection = {
   __typename?: 'CardCollection';
   items: Array<Maybe<Card>>;
@@ -820,6 +847,7 @@ export type CardCollection = {
 export type CardFilter = {
   AND?: InputMaybe<Array<InputMaybe<CardFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<CardFilter>>>;
+  actionsCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
@@ -1239,6 +1267,7 @@ export type CourseDetails = Entry & _Node & {
   timeLeft?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
   userReviews?: Maybe<Scalars['Float']['output']>;
+  videoThumbnail?: Maybe<Asset>;
   videoUrl?: Maybe<Scalars['String']['output']>;
 };
 
@@ -1342,6 +1371,13 @@ export type CourseDetailsTitleArgs = {
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsUserReviewsArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsVideoThumbnailArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
 };
 
 
@@ -1474,6 +1510,7 @@ export type CourseDetailsFilter = {
   userReviews_lte?: InputMaybe<Scalars['Float']['input']>;
   userReviews_not?: InputMaybe<Scalars['Float']['input']>;
   userReviews_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  videoThumbnail_exists?: InputMaybe<Scalars['Boolean']['input']>;
   videoUrl?: InputMaybe<Scalars['String']['input']>;
   videoUrl_contains?: InputMaybe<Scalars['String']['input']>;
   videoUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -3020,6 +3057,7 @@ export type CfCourseDetailsNestedFilter = {
   userReviews_lte?: InputMaybe<Scalars['Float']['input']>;
   userReviews_not?: InputMaybe<Scalars['Float']['input']>;
   userReviews_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  videoThumbnail_exists?: InputMaybe<Scalars['Boolean']['input']>;
   videoUrl?: InputMaybe<Scalars['String']['input']>;
   videoUrl_contains?: InputMaybe<Scalars['String']['input']>;
   videoUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
