@@ -1,21 +1,21 @@
 import { AssetQueryItem } from "@workearly/api";
 import clsx from "clsx";
-import styles from "./AssetGrid.module.scss";
+import styles from "./LogoShowcase.module.scss";
 import Image from "next/image";
 
 type PropsType = {
   assets: AssetQueryItem[];
-  cardsCount: number;
+  columnCount: number;
   className?: string;
 };
 
-export default function AssetGrid({
+export default function LogoShowcase({
   assets,
-  cardsCount,
+  columnCount,
   className,
 }: PropsType) {
   const style = {
-    "--cards-count": cardsCount,
+    "--column-count": columnCount,
   } as React.CSSProperties;
 
   return (

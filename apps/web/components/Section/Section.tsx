@@ -6,7 +6,7 @@ import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
 import useSectionResolver from "../../hooks/useSectionResolver";
 import CardGrid from "@/components/CardGrid/CardGrid";
-import AssetGrid from "../AssetGrid/AssetGrid";
+import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
 
 type PropsType = {
   section: SectionQueryItem;
@@ -41,7 +41,7 @@ export default function Section({ section, className }: PropsType) {
             <CardGrid
               cards={cardItems}
               fallbackVariant={section.cardVariant as CardVariantType}
-              cardsCount={cardsCount}
+              columnCount={cardsCount}
             />
           )}
 
@@ -50,7 +50,7 @@ export default function Section({ section, className }: PropsType) {
           )}
 
           {variant === "Logo Showcase" && assetItems.length > 0 && (
-            <AssetGrid assets={assetItems} cardsCount={cardsCount} />
+            <LogoShowcase assets={assetItems} columnCount={cardsCount} />
           )}
         </div>
       )}
