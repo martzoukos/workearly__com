@@ -1,7 +1,7 @@
 import { ContentTypeRichTextQueryItem } from "@workearly/api";
 import { RoundedCheckIcon } from "@workearly/icons";
 
-export default function getRichTextResolver(
+export default function useRichTextResolver(
   richText?: ContentTypeRichTextQueryItem
 ) {
   const hasBulletTranformation = richText?.bulletTranformation !== "None";

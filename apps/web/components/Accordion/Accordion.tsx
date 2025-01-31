@@ -4,7 +4,6 @@ import { Accordion as RadixAccordion } from "radix-ui";
 import { forwardRef } from "react";
 import styles from "./Accordion.module.scss";
 import RichText from "../RichText/RichText";
-import getRichTextResolver from "../../utils/getRichTextResolver";
 import { ArrowUpIcon, CircleIcon } from "@workearly/icons";
 
 type PropsType = {
@@ -81,7 +80,6 @@ function AccordionCard({
           {accordionCard.text?.json && (
             <RichText
               json={accordionCard.text.json}
-              resolver={getRichTextResolver()}
               className={styles.contentText}
             />
           )}

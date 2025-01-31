@@ -1,4 +1,3 @@
-import getRichTextResolver from "@/utils/getRichTextResolver";
 import {
   documentToReactComponents,
   Options,
@@ -11,8 +10,10 @@ import List from "./List";
 import ListItem from "./ListItem";
 import Button from "../Button/Button";
 import styles from "./RichText.module.scss";
+import useRichTextResolver from "../../hooks/useRichTextResolver";
+import { ContentTypeRichTextQueryItem } from "@workearly/api";
 
-function getOptions(resolver: ReturnType<typeof getRichTextResolver>) {
+function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
   const {
     columnCount,
     IconComponent,
@@ -86,16 +87,31 @@ function getOptions(resolver: ReturnType<typeof getRichTextResolver>) {
   return options;
 }
 
-type PropsType = {
-  json: Document;
-  resolver: ReturnType<typeof getRichTextResolver>;
+interface BaseProps {
   className?: string;
-};
+}
 
-export default function RichText({ json, resolver, className }: PropsType) {
+interface JsonProps extends BaseProps {
+  json: Document;
+  richText?: never;
+}
+
+interface RichTextProps extends BaseProps {
+  richText: ContentTypeRichTextQueryItem;
+  json?: never;
+}
+
+type PropsType = JsonProps | RichTextProps;
+
+export default function RichText({ json, richText, className }: PropsType) {
+  const resolver = useRichTextResolver(richText);
+
   return (
     <section className={clsx(styles.root, className)}>
-      {documentToReactComponents(json, getOptions(resolver))}
+      {documentToReactComponents(
+        richText?.body?.json || json,
+        getOptions(resolver)
+      )}
     </section>
   );
 }

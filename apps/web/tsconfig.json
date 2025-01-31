@@ -17,8 +17,7 @@
       "@/styles/*": ["styles/*"],
       "@/components/*": ["components/*"],
       "@/hooks/*": ["hooks/*"],
-      "@/stores/*": ["stores/*"],
-      "@/utils/*": ["utils/*"]
+      "@/stores/*": ["stores/*"]
     }
   },
   "include": [
