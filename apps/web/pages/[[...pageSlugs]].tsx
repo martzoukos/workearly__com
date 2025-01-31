@@ -1,7 +1,9 @@
 import {
   PAGE_SLUGS_QUERY,
   fetchPageBySlug,
+  getPageSlug,
   getServerClient,
+  toPageSlugs,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { ContentfulProvider } from "../stores/ContentfulStore";
@@ -22,9 +24,7 @@ export async function getStaticProps(
   context: GetStaticPropsContext<{ pageSlugs: string[] }>
 ) {
   const [client] = getServerClient();
-  const pageSlug = !context.params?.pageSlugs
-    ? "home"
-    : (context.params?.pageSlugs.join("/") as string);
+  const pageSlug = getPageSlug(context.params?.pageSlugs);
 
   try {
     const { page, relationshipMap } = await fetchPageBySlug(client, pageSlug);
@@ -53,7 +53,7 @@ export async function getStaticPaths() {
     .filter((x) => x?.slug)
     .map((item) => ({
       params: {
-        pageSlugs: item?.slug === "home" ? [] : item?.slug?.split("/"),
+        pageSlugs: toPageSlugs(item?.slug || ""),
       },
     }));
 

@@ -26,7 +26,6 @@ export default function Section({ section, className }: PropsType) {
   } = useSectionResolver(section);
 
   const style = {
-    "--cards-count": cardsCount,
     "--flex-alignment": flexAlignment,
   } as React.CSSProperties;
 
