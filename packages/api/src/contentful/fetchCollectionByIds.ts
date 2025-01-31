@@ -16,7 +16,7 @@ type OptionsType<TItem, TData> = {
   mapItems: (data: TData | undefined) => TItem[];
 };
 
-export async function fetchCollectionByIds<TItem, TData>(
+export default async function fetchCollectionByIds<TItem, TData>(
   client: Client,
   options: OptionsType<TItem, TData>
 ): Promise<TItem[]> {

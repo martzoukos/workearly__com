@@ -1,13 +1,13 @@
 import Text from "@/components/Text/Text";
-import { AccordionCardQueryItem } from "@workearly/api";
 import { Accordion as RadixAccordion } from "radix-ui";
 import { forwardRef } from "react";
 import styles from "./Accordion.module.scss";
 import RichText from "../RichText/RichText";
 import { ArrowUpIcon, CircleIcon } from "@workearly/icons";
+import { QueryItem } from "@workearly/api";
 
 type PropsType = {
-  accordionCards: AccordionCardQueryItem[];
+  accordionCards: QueryItem["AccordionCard"][];
 };
 
 export default function Accordion({ accordionCards }: PropsType) {
@@ -35,7 +35,7 @@ function AccordionCard({
   className,
   count,
 }: {
-  accordionCard: AccordionCardQueryItem;
+  accordionCard: QueryItem["AccordionCard"];
   className?: string;
   count?: number;
 }) {

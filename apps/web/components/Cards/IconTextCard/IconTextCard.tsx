@@ -1,11 +1,11 @@
 import styles from "./IconTextCard.module.scss";
-import { CardQueryItem } from "@workearly/api";
 import Text from "@/components/Text/Text";
 import Image from "next/image";
 import { SvgRenderer } from "@workearly/icons";
+import { QueryItem } from "@workearly/api";
 
 type PropsType = {
-  card: CardQueryItem;
+  card: QueryItem["Card"];
 };
 
 const IconTextCard = ({ card }: PropsType) => {

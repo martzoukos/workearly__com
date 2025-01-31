@@ -1,9 +1,9 @@
-import { SectionQueryItem } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 import styles from "./CardShowcase.module.scss";
 import clsx from "clsx";
 
 type PropsType = {
-  section: SectionQueryItem;
+  section: QueryItem["Section"];
   className?: string;
 };
 

@@ -11,7 +11,7 @@ import ListItem from "./ListItem";
 import Button from "../Button/Button";
 import styles from "./RichText.module.scss";
 import useRichTextResolver from "../../hooks/useRichTextResolver";
-import { ContentTypeRichTextQueryItem } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 
 function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
   const {
@@ -97,7 +97,7 @@ interface JsonProps extends BaseProps {
 }
 
 interface RichTextProps extends BaseProps {
-  richText: ContentTypeRichTextQueryItem;
+  richText: QueryItem["ContentTypeRichText"];
   json?: never;
 }
 

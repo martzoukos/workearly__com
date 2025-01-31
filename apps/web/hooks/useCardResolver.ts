@@ -1,10 +1,10 @@
-import { CardQueryItem } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 
 const CARD_VARIANTS = ["Icon and Text", "Title and Text"] as const;
 
 export type CardVariantType = (typeof CARD_VARIANTS)[number] | undefined;
 
-export default function useCardResolver(card: CardQueryItem) {
+export default function useCardResolver(card: QueryItem["Card"]) {
   const variant = card.variant as CardVariantType;
 
   return {

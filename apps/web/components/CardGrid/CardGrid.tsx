@@ -1,12 +1,12 @@
-import { CardQueryItem } from "@workearly/api";
 import IconTextCard from "@/components/Cards/IconTextCard/IconTextCard";
 import styles from "./CardGrid.module.scss";
 import clsx from "clsx";
 import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
+import { QueryItem } from "@workearly/api";
 
 type PropsType = {
-  cards: CardQueryItem[];
+  cards: QueryItem["Card"][];
   fallbackVariant: CardVariantType;
   columnCount: number;
   className?: string;
@@ -32,7 +32,7 @@ export default function CardGrid({
 }
 
 type CardPropsType = {
-  card: CardQueryItem;
+  card: QueryItem["Card"];
   fallbackVariant?: CardVariantType;
 };
 

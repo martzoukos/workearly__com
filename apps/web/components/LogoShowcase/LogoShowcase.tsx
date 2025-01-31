@@ -1,10 +1,10 @@
-import { AssetQueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./LogoShowcase.module.scss";
 import Image from "next/image";
+import { QueryItem } from "@workearly/api";
 
 type PropsType = {
-  assets: AssetQueryItem[];
+  assets: QueryItem["Asset"][];
   columnCount: number;
   className?: string;
 };

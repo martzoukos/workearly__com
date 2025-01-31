@@ -1,8 +1,8 @@
-import { ContentTypeRichTextQueryItem } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 import { RoundedCheckIcon } from "@workearly/icons";
 
 export default function useRichTextResolver(
-  richText?: ContentTypeRichTextQueryItem
+  richText?: QueryItem["ContentTypeRichText"]
 ) {
   const variant = (richText?.variant ?? "Default") as
     | "Default"

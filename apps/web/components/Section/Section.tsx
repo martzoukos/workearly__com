@@ -1,4 +1,3 @@
-import { SectionQueryItem } from "@workearly/api";
 import styles from "./Section.module.scss";
 import clsx from "clsx";
 import Text from "@/components/Text/Text";
@@ -9,23 +8,24 @@ import CardGrid from "@/components/CardGrid/CardGrid";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
 import CardShowcase from "@/components/CardShowcase/CardShowcase";
 import { CardVariantType } from "@/hooks/useCardResolver";
+import { QueryItem } from "@workearly/api";
 
 type PropsType = {
-  section: SectionQueryItem;
+  section: QueryItem["Section"];
   className?: string;
 };
 
 export default function Section({ section, className }: PropsType) {
-  const {
-    cardItems,
-    cardsCount,
-    flexAlignment,
-    accordionItems,
-    actionItems,
-    assetItems,
-    hasContentItems,
-    variant,
-  } = useSectionResolver(section);
+  const { cardsCount, flexAlignment, variant, getReferences } =
+    useSectionResolver(section);
+
+  const cards = getReferences("Card");
+  const accordionCards = getReferences("AccordionCard");
+  const assets = getReferences("Asset");
+  const actions = getReferences("Action");
+
+  const hasContent =
+    cards.length > 0 || assets.length > 0 || accordionCards.length > 0;
 
   const style = {
     "--flex-alignment": flexAlignment,
@@ -37,31 +37,31 @@ export default function Section({ section, className }: PropsType) {
         <Text as="h4">{section.title}</Text>
         {section.text && <Text>{section.text}</Text>}
       </header>
-      {hasContentItems && (
+      {hasContent && (
         <div className={styles.content}>
-          {variant === "Default" && cardItems.length > 0 && (
+          {variant === "Default" && cards.length > 0 && (
             <CardGrid
-              cards={cardItems}
+              cards={cards}
               fallbackVariant={section.cardVariant as CardVariantType}
               columnCount={cardsCount}
             />
           )}
 
-          {variant === "Accordion" && accordionItems.length > 0 && (
-            <Accordion accordionCards={accordionItems} />
+          {variant === "Accordion" && accordionCards.length > 0 && (
+            <Accordion accordionCards={accordionCards} />
           )}
 
-          {variant === "Logo Showcase" && assetItems.length > 0 && (
-            <LogoShowcase assets={assetItems} columnCount={cardsCount} />
+          {variant === "Logo Showcase" && assets.length > 0 && (
+            <LogoShowcase assets={assets} columnCount={cardsCount} />
           )}
 
           {variant === "Card Showcase" && <CardShowcase section={section} />}
         </div>
       )}
 
-      {actionItems.length > 0 && (
+      {actions.length > 0 && (
         <footer className={styles.footer}>
-          {actionItems.map((action) => (
+          {actions.map((action) => (
             <Button key={action.sys.id} variant="Chip" colorScheme="White">
               {action.name}
             </Button>

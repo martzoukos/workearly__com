@@ -23,7 +23,7 @@ export type ContentfulExchangeOptionsType = {
   isPreview?: boolean;
 };
 
-type QueryItemMap = {
+export type QueryItem = {
   CourseDetails: NonNullable<
     NonNullable<
       CourseDetailsCollectionQuery["courseDetailsCollection"]
@@ -61,16 +61,6 @@ type QueryItemMap = {
   >;
 };
 
-export type PageQueryItem = QueryItemMap["Page"];
-export type SectionQueryItem = QueryItemMap["Section"];
-export type CourseDetailsQueryItem = QueryItemMap["CourseDetails"];
-export type ContentTypeRichTextQueryItem = QueryItemMap["ContentTypeRichText"];
-export type UniqueComponentQueryItem = QueryItemMap["UniqueComponent"];
-export type ActionQueryItem = QueryItemMap["Action"];
-export type AssetQueryItem = QueryItemMap["Asset"];
-export type AccordionCardQueryItem = QueryItemMap["AccordionCard"];
-export type CardQueryItem = QueryItemMap["Card"];
-
 export type ToRelationshipMap<
   T extends string,
   Q extends Record<string, any>,
@@ -82,12 +72,12 @@ export type ToRelationshipMap<
 };
 
 export type SectionReference = Exclude<
-  | NonNullable<SectionQueryItem["contentCollection"]>["items"][number]
+  | NonNullable<QueryItem["Section"]["contentCollection"]>["items"][number]
   | NonNullable<
-      NonNullable<SectionQueryItem["actionsCollection"]>["items"][number]
+      NonNullable<QueryItem["Section"]["actionsCollection"]>["items"][number]
     >
   | NonNullable<
-      NonNullable<SectionQueryItem["assetsCollection"]>["items"][number]
+      NonNullable<QueryItem["Section"]["assetsCollection"]>["items"][number]
     >,
   null | undefined
 >;
@@ -99,12 +89,12 @@ export type SectionReferenceTypeName = Exclude<
 
 export type SectionRelationshipMap = ToRelationshipMap<
   SectionReferenceTypeName,
-  QueryItemMap
+  QueryItem
 >;
 
 export type PageReference = Exclude<
-  | NonNullable<PageQueryItem["contentCollection"]>["items"][number]
-  | NonNullable<PageQueryItem["details"]>,
+  | NonNullable<QueryItem["Page"]["contentCollection"]>["items"][number]
+  | NonNullable<QueryItem["Page"]["details"]>,
   null | undefined
 >;
 
@@ -115,7 +105,7 @@ export type PageReferenceTypeName = Exclude<
 
 export type PageRelationshipMap = ToRelationshipMap<
   PageReferenceTypeName,
-  QueryItemMap
+  QueryItem
 >;
 
 export type RelationshipMapTypeName =
@@ -124,5 +114,5 @@ export type RelationshipMapTypeName =
 
 export type RelationshipMap = ToRelationshipMap<
   RelationshipMapTypeName,
-  QueryItemMap
+  QueryItem
 >;

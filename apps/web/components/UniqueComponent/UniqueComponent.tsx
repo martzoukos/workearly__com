@@ -1,9 +1,9 @@
-import { UniqueComponentQueryItem } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 import styles from "./UniqueComponent.module.scss";
 import clsx from "clsx";
 
 type PropsType = {
-  uniqueComponent: UniqueComponentQueryItem;
+  uniqueComponent: QueryItem["UniqueComponent"];
   className?: string;
 };
 
