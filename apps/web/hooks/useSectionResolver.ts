@@ -19,6 +19,7 @@ const DATA_MAP = {
     "Logo Showcase",
     "Card Showcase",
     "Steps Showcase",
+    "Features Showcase",
   ],
 } as const;
 
