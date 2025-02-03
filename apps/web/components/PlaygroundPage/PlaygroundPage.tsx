@@ -38,10 +38,10 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
-        <VideoTetimonial />
+        {/* <VideoTetimonial />
         <ArticleCard />
         <ArticleSideCard />
-        <PeopleCard />
+        <PeopleCard /> */}
         {items.map((item) => (
           <PageItem
             key={item?.sys.id}

@@ -9,6 +9,7 @@ import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
 import CardShowcase from "@/components/CardShowcase/CardShowcase";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
+import StepsShowcase from "../StepsShowcase/StepsShowcase";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -56,6 +57,8 @@ export default function Section({ section, className }: PropsType) {
           )}
 
           {variant === "Card Showcase" && <CardShowcase section={section} />}
+
+          {variant === "Steps Showcase" && <StepsShowcase section={section} />}
         </div>
       )}
 

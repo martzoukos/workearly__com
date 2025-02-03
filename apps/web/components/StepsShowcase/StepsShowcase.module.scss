@@ -1,0 +1,74 @@
+.root {
+  display: flex;
+  background-color: hsl(var(--color-green-500));
+  color: hsl(var(--color-black-500));
+  gap: 2rem;
+  border-radius: 1rem;
+  padding: 2.5rem 3rem;
+  min-height: 36rem;
+}
+
+.content {
+  width: 60%;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.description {
+  max-width: 50%;
+  margin-top: 2rem;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.cardContainer {
+  flex: 1;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.number {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.border {
+  width: 2px;
+  height: 100%;
+  border-left: 2px dashed black;
+}
+
+.cardsContainer {
+  .cardContainer:last-child {
+    .progress {
+      .border {
+        height: 20%;
+      }
+    }
+  }
+}
+
+.cardTitle {
+  font-weight: 800;
+}

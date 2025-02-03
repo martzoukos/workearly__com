@@ -12,7 +12,14 @@ const DATA_MAP = {
     "actionsCollection",
     "assetsCollection",
   ],
-  variants: ["Default", "Accordion", "Tabs", "Logo Showcase", "Card Showcase"],
+  variants: [
+    "Default",
+    "Accordion",
+    "Tabs",
+    "Logo Showcase",
+    "Card Showcase",
+    "Steps Showcase",
+  ],
 } as const;
 
 export default function useSectionResolver(section: QueryItem["Section"]) {
