@@ -1966,6 +1966,7 @@ export type PageLinkingCollections = {
   actionCollection?: Maybe<ActionCollection>;
   entryCollection?: Maybe<EntryCollection>;
   sectionCollection?: Maybe<SectionCollection>;
+  uniqueComponentCollection?: Maybe<UniqueComponentCollection>;
 };
 
 
@@ -1990,6 +1991,15 @@ export type PageLinkingCollectionsSectionCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
   order?: InputMaybe<Array<InputMaybe<PageLinkingCollectionsSectionCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+export type PageLinkingCollectionsUniqueComponentCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<PageLinkingCollectionsUniqueComponentCollectionOrder>>>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
 };
@@ -2046,6 +2056,21 @@ export enum PageLinkingCollectionsSectionCollectionOrder {
   ThemeDesc = 'theme_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
+
+export enum PageLinkingCollectionsUniqueComponentCollectionOrder {
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   VariantAsc = 'variant_ASC',
   VariantDesc = 'variant_DESC'
 }
@@ -2737,6 +2762,7 @@ export type UniqueComponent = Entry & _Node & {
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   linkedFrom?: Maybe<UniqueComponentLinkingCollections>;
+  referencesCollection?: Maybe<UniqueComponentReferencesCollection>;
   sys: Sys;
   variant?: Maybe<Scalars['String']['output']>;
 };
@@ -2751,6 +2777,17 @@ export type UniqueComponentContentfulNameArgs = {
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/uniqueComponent) */
 export type UniqueComponentLinkedFromArgs = {
   allowedLocales?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/uniqueComponent) */
+export type UniqueComponentReferencesCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<UniqueComponentReferencesCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+  where?: InputMaybe<PageFilter>;
 };
 
 
@@ -2778,6 +2815,8 @@ export type UniqueComponentFilter = {
   contentfulName_not?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  references?: InputMaybe<CfPageNestedFilter>;
+  referencesCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   sys?: InputMaybe<SysFilter>;
   variant?: InputMaybe<Scalars['String']['input']>;
   variant_contains?: InputMaybe<Scalars['String']['input']>;
@@ -2886,6 +2925,39 @@ export enum UniqueComponentOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
+
+export type UniqueComponentReferencesCollection = {
+  __typename?: 'UniqueComponentReferencesCollection';
+  items: Array<Maybe<Page>>;
+  limit: Scalars['Int']['output'];
+  skip: Scalars['Int']['output'];
+  total: Scalars['Int']['output'];
+};
+
+export enum UniqueComponentReferencesCollectionOrder {
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  NameAsc = 'name_ASC',
+  NameDesc = 'name_DESC',
+  SeoDescriptionAsc = 'seoDescription_ASC',
+  SeoDescriptionDesc = 'seoDescription_DESC',
+  SeoTitleAsc = 'seoTitle_ASC',
+  SeoTitleDesc = 'seoTitle_DESC',
+  SlugAsc = 'slug_ASC',
+  SlugDesc = 'slug_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  ThemeAsc = 'theme_ASC',
+  ThemeDesc = 'theme_DESC',
   VariantAsc = 'variant_ASC',
   VariantDesc = 'variant_DESC'
 }

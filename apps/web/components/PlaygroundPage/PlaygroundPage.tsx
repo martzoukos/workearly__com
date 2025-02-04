@@ -8,6 +8,7 @@ import PeopleCard from "../Cards/PeopleCard/PeopleCard";
 import ArticleSideCard from "../Cards/ArticleSideCard/ArticleSideCard";
 import ArticleCard from "../Cards/ArticleCard/ArticleCard";
 import VideoTetimonial from "../VideoTetimonial/VideoTetimonial";
+import CallOutCard from "../Cards/CallOutCard/CallOutCard";
 
 type PropsType = {
   className?: string;
@@ -42,6 +43,7 @@ export default function PlaygroundPage({ className }: PropsType) {
         <ArticleCard />
         <ArticleSideCard />
         <PeopleCard /> */}
+        <CallOutCard />
         {items.map((item) => (
           <PageItem
             key={item?.sys.id}
