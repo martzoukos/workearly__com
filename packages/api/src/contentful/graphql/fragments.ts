@@ -63,6 +63,15 @@ export const CARD_FIELDS = graphql(`
     asset {
       ...AssetFields
     }
+    actionsCollection {
+      items {
+        ... on Entry {
+          sys {
+            id
+          }
+        }
+      }
+    }
   }
 `);
 
@@ -86,6 +95,43 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     startingCost
     finalCost
     timeLeft
+  }
+`);
+
+export const PEOPLE_DETAILS_FIELDS = graphql(`
+  fragment PeopleDetailsFields on PeopleDetails {
+    sys {
+      id
+    }
+    name
+    role
+    company
+    text
+    expertise
+    linkedIn
+  }
+`);
+
+export const RESOURCE_DETAILS_FIELDS = graphql(`
+  fragment ResourceDetailsFields on ResourceDetails {
+    sys {
+      id
+    }
+    name
+    topics
+    publicationDate
+    asset {
+      ...AssetFields
+    }
+    authorCollection {
+      items {
+        ... on Entry {
+          sys {
+            id
+          }
+        }
+      }
+    }
   }
 `);
 
@@ -133,39 +179,12 @@ export const SECTION_FIELDS = graphql(`
     }
     assetsCollection {
       items {
-        sys {
-          id
-        }
+        ...AssetFields
       }
     }
     contentCollection {
       items {
-        ... on AccordionCard {
-          sys {
-            id
-          }
-        }
-        ... on Card {
-          sys {
-            id
-          }
-        }
-        ... on ContentTypeRichText {
-          sys {
-            id
-          }
-        }
-        ... on Page {
-          sys {
-            id
-          }
-        }
-        ... on Section {
-          sys {
-            id
-          }
-        }
-        ... on UniqueComponent {
+        ... on Entry {
           sys {
             id
           }
@@ -191,23 +210,15 @@ export const PAGE_FIELDS = graphql(`
     }
     theme
     details {
-      sys {
-        id
+      ... on Entry {
+        sys {
+          id
+        }
       }
     }
     contentCollection {
       items {
-        ... on ContentTypeRichText {
-          sys {
-            id
-          }
-        }
-        ... on Section {
-          sys {
-            id
-          }
-        }
-        ... on UniqueComponent {
+        ... on Entry {
           sys {
             id
           }

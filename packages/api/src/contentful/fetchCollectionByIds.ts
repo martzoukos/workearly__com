@@ -18,8 +18,12 @@ type OptionsType<TItem, TData> = {
 
 export default async function fetchCollectionByIds<TItem, TData>(
   client: Client,
-  options: OptionsType<TItem, TData>
+  options: OptionsType<TItem, TData>,
 ): Promise<TItem[]> {
+  if (!options.ids.length) {
+    return [];
+  }
+
   const items: TItem[] = [];
 
   for (const group of chunk(options.ids, options.limit || 10)) {
