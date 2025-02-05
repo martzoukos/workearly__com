@@ -17,7 +17,7 @@ export default function FeaturesShowcase({ section, className }: PropsType) {
   const [activeCard, setactiveCard] = useState(cards[0]);
 
   return (
-    <section className={clsx(styles.root, className)}>
+    <div className={clsx(styles.root, className)}>
       <div className={styles.navigation}>
         <Text size="h4">{section.title}</Text>
 
@@ -49,6 +49,6 @@ export default function FeaturesShowcase({ section, className }: PropsType) {
         </div>
         <div className={styles.border}></div>
       </div>
-    </section>
+    </div>
   );
 }

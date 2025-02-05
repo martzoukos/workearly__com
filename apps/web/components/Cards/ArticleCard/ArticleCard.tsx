@@ -1,59 +1,74 @@
 import Image from "next/image";
 import styles from "./ArticleCard.module.scss";
 import Text from "@/components/Text/Text";
+import { QueryItem } from "@workearly/api";
+import usePageResolver from "../../../hooks/usePageResolver";
+import { DateTime } from "luxon";
+import ReadingTime from "../../ReadingTime/ReadingTime";
 
-export default function ArticleCard() {
-  const variant = "normal";
+type PropsType = {
+  page: QueryItem["Page"];
+};
+
+export default function ArticleCard({ page }: PropsType) {
+  const { resourceDetails, peopleDetails, items } = usePageResolver(page);
+  const richTexts = items.filter(
+    (item) => item?.__typename === "ContentTypeRichText"
+  ) as QueryItem["ContentTypeRichText"][];
+
+  if (!resourceDetails) {
+    return null;
+  }
+
   return (
-    <div className={styles.card} data-variant={variant}>
-      <Image
-        src="/article.png"
-        alt=""
-        width={100}
-        height={100}
-        className={styles.media}
-        data-variant={variant}
-      />
-
-      <div className={styles.content} data-variant={variant}>
-        <div className={styles.header}>
-          <Text size={variant === "normal" ? "h5" : "h3"}>
-            5 Steps to Transitioning from Math Teacher to Data Scientist
-          </Text>
-          <Text size="small">
-            Discover how to transition from teaching to tech with our tailored
-            data science programs. Learn essential skills and strategies to land
-            your first role.
-          </Text>
+    <div className={styles.root}>
+      {resourceDetails.asset?.url && (
+        <div className={styles.media}>
+          <Image
+            src={resourceDetails.asset.url}
+            fill={true}
+            alt={resourceDetails.name || ""}
+            quality={100}
+          />
         </div>
+      )}
 
-        <div className={styles.footer}>
-          <div className={styles.left}>
-            <Text size="caption" className={styles.tag}>
-              GUIDES
-            </Text>
+      <div className={styles.content}>
+        <header className={styles.header}>
+          {resourceDetails.name && <Text as="h5">{resourceDetails.name}</Text>}
+          {resourceDetails.description && (
+            <Text size="small">{resourceDetails.description}</Text>
+          )}
+        </header>
 
-            <div className={styles.left}>
-              <div className={styles.profileContainer}>
-                <Image
-                  src="/profile-card.png"
-                  alt=""
-                  width={20}
-                  height={20}
-                  className={styles.profile}
-                />
-                <Text size="small">Alex Olson</Text>
-              </div>
+        <footer className={styles.footer}>
+          <Text size="xsmall" className={styles.tag}>
+            {resourceDetails.topics?.at(0)}
+          </Text>
 
-              <Text size="small">December 9, 2024</Text>
+          {peopleDetails.asset?.url && (
+            <div className={styles.person}>
+              <Image
+                src={peopleDetails.asset.url}
+                alt={peopleDetails.name || ""}
+                width={20}
+                height={20}
+                className={styles.profile}
+              />
+              <Text size="caption">{peopleDetails.name}</Text>
             </div>
-          </div>
+          )}
 
-          <div className={styles.right}>
-            <Image src="/clock.svg" alt="" width={16} height={16} />
-            <Text>14 mins</Text>
-          </div>
-        </div>
+          <Text size="caption">
+            {DateTime.fromISO(resourceDetails.publicationDate).toFormat(
+              "MMM dd, yyyy"
+            )}
+          </Text>
+
+          <ReadingTime
+            documents={richTexts.map((richText) => richText?.body?.json)}
+          />
+        </footer>
       </div>
     </div>
   );

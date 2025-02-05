@@ -4,8 +4,9 @@ import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import NextLink from "next/link";
 import { useContentful } from "@/stores/ContentfulStore";
-import useCoursePageResolver from "@/hooks/useCoursePageResolver";
+import usePageResolver from "@/hooks/usePageResolver";
 import clsx from "clsx";
+import CoursePrices from "../CoursePrices/CoursePrices";
 
 type PropsType = {
   className?: string;
@@ -13,7 +14,11 @@ type PropsType = {
 
 export default function PurchaseCourse({ className }: PropsType) {
   const { page } = useContentful();
-  const { courseDetails } = useCoursePageResolver();
+  const { courseDetails } = usePageResolver(page);
+
+  if (!courseDetails) {
+    return null;
+  }
 
   return (
     <div className={clsx(styles.root, className)} data-color="Green">
@@ -48,17 +53,12 @@ export default function PurchaseCourse({ className }: PropsType) {
             <Text size="caption">{courseDetails?.timeLeft}</Text>
           </div>
 
-          <div className={styles.prices}>
-            <Text size="h6" className={clsx(styles.price, styles.finalPrice)}>
-              {courseDetails?.finalCost}
-            </Text>
-            <Text
-              size="h6"
-              className={clsx(styles.price, styles.startingPrice)}
-            >
-              {courseDetails?.startingCost}
-            </Text>
-          </div>
+          {courseDetails && (
+            <CoursePrices
+              courseDetails={courseDetails}
+              className={styles.prices}
+            />
+          )}
         </div>
 
         <footer className={styles.footer}>

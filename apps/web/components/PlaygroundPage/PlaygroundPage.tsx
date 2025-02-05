@@ -3,11 +3,7 @@ import styles from "./PlaygroundPage.module.scss";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import PageItem from "../PageItem/PageItem";
-import useCoursePageResolver from "../../hooks/useCoursePageResolver";
-import PeopleCard from "../Cards/PeopleCard/PeopleCard";
-import ArticleSideCard from "../Cards/ArticleSideCard/ArticleSideCard";
-import ArticleCard from "../Cards/ArticleCard/ArticleCard";
-import VideoTetimonial from "../VideoTetimonial/VideoTetimonial";
+import usePageResolver from "../../hooks/usePageResolver";
 import CallOutCard from "../Cards/CallOutCard/CallOutCard";
 import RichCard from "../Cards/RichCard/RichCard";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
@@ -18,7 +14,7 @@ type PropsType = {
 
 export default function PlaygroundPage({ className }: PropsType) {
   const { page } = useContentful();
-  const { items } = useCoursePageResolver();
+  const { beforeFullWidthItems, afterFullWidthItems } = usePageResolver(page);
 
   // console.log(
   //   items.filter((item) => item?.__typename === "Section"),
@@ -45,9 +41,9 @@ export default function PlaygroundPage({ className }: PropsType) {
         <ArticleCard />
         <ArticleSideCard />
         <PeopleCard /> */}
-        {/* <RichCard />
-        <CallOutCard /> */}
-        {items.map((item) => (
+        <RichCard />
+        <CallOutCard />
+        {[...beforeFullWidthItems, ...afterFullWidthItems].map((item) => (
           <PageItem
             key={item?.sys.id}
             item={item}

@@ -1,0 +1,21 @@
+@use "@/styles/index" as *;
+
+.root {
+  display: flex;
+  gap: 0.5rem;
+
+  .price {
+    &::before {
+      content: "€";
+    }
+  }
+
+  .startingPrice {
+    text-decoration: line-through;
+    opacity: 0.4;
+  }
+
+  .finalPrice {
+    font-weight: 700;
+  }
+}

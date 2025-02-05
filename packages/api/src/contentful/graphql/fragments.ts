@@ -82,6 +82,7 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     }
     title
     summary
+    shortDescription
     duration
     language
     pace
@@ -95,6 +96,9 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     startingCost
     finalCost
     timeLeft
+    videoThumbnail {
+      ...AssetFields
+    }
   }
 `);
 
@@ -109,6 +113,9 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
     text
     expertise
     linkedIn
+    asset {
+      ...AssetFields
+    }
   }
 `);
 
@@ -118,20 +125,12 @@ export const RESOURCE_DETAILS_FIELDS = graphql(`
       id
     }
     name
+    description
     topics
     publicationDate
     asset {
       ...AssetFields
     }
-    # authorCollection {
-    #   items {
-    #     ... on Entry {
-    #       sys {
-    #         id
-    #       }
-    #     }
-    #   }
-    # }
   }
 `);
 
@@ -209,13 +208,6 @@ export const PAGE_FIELDS = graphql(`
       ...AssetFields
     }
     theme
-    details {
-      ... on Entry {
-        sys {
-          id
-        }
-      }
-    }
     contentCollection {
       items {
         ... on Entry {

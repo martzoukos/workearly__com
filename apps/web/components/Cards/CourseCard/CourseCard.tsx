@@ -1,38 +1,67 @@
 import Image from "next/image";
 import styles from "./CourseCard.module.scss";
 import Text from "@/components/Text/Text";
+import { QueryItem } from "@workearly/api";
+import CourseDetails from "../../CourseDetails/CourseDetails";
+import { UserIcon } from "@workearly/icons";
+import usePageResolver from "../../../hooks/usePageResolver";
+import CoursePrices from "../../CoursePrices/CoursePrices";
 
-type PropsType = {};
+type PropsType = {
+  page: QueryItem["Page"];
+  className?: string;
+};
 
-const CourseCard = () => {
+const CourseCard = ({ page }: PropsType) => {
+  const { courseDetails } = usePageResolver(page);
+
+  if (!courseDetails) {
+    return null;
+  }
+
   return (
-    <div className={styles.card} data-color="Dark" data-size={"normal"}>
-      <Image
-        src="/course-card.png"
-        alt=""
-        width={100}
-        height={100}
-        className={styles.media}
-      />
+    <div className={styles.root} data-size={"normal"}>
+      {courseDetails?.videoThumbnail?.url && (
+        <div className={styles.media}>
+          <Image
+            src={courseDetails.videoThumbnail.url}
+            fill={true}
+            alt={page.name || ""}
+            quality={100}
+          />
+        </div>
+      )}
 
       <div className={styles.content}>
         <Text size="h6" className={styles.title}>
-          Healthcare Analytics Bootcamp
+          {page.name}
         </Text>
 
-        <Text size="small" className={styles.description}>
-          Master data-driven insights to improve healthcare systems, patient
-          outcomes, and decision-making in the medical field.
-        </Text>
+        {courseDetails?.shortDescription && (
+          <Text size="small" className={styles.description}>
+            {courseDetails.shortDescription}
+          </Text>
+        )}
 
-        <div className={styles.details}>
-          <Text size="caption">4-6 Months</Text>
-          <Text size="caption">563 Students</Text>
+        <div className={styles.stats}>
+          {courseDetails?.duration && (
+            <Text size="caption">{courseDetails.duration}</Text>
+          )}
+          {courseDetails?.studentsCount && (
+            <CourseDetails.StatLabel
+              icon={<UserIcon />}
+              label={`${courseDetails.studentsCount} Students`}
+              className={styles.statLabel}
+            />
+          )}
         </div>
 
-        <Text size="h6" className={styles.price}>
-          €9.99
-        </Text>
+        {courseDetails && (
+          <CoursePrices
+            courseDetails={courseDetails}
+            className={styles.prices}
+          />
+        )}
       </div>
     </div>
   );
