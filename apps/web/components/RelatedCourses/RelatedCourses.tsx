@@ -36,7 +36,7 @@ export default function RelatedCourses({ section, className }: PropsType) {
         )}
       </div>
       <div className={styles.cards}>
-        <Swiper slidesPerView={pages.length - 0.5}>
+        <Swiper slidesPerView={2.5}>
           {pages.map((page) => (
             <SwiperSlide key={page.sys.id}>
               <CourseCard page={page} />

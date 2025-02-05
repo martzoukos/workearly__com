@@ -82,6 +82,7 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     }
     title
     summary
+    shortDescription
     duration
     language
     pace
@@ -112,6 +113,9 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
     text
     expertise
     linkedIn
+    asset {
+      ...AssetFields
+    }
   }
 `);
 
@@ -121,6 +125,7 @@ export const RESOURCE_DETAILS_FIELDS = graphql(`
       id
     }
     name
+    description
     topics
     publicationDate
     asset {
@@ -200,9 +205,6 @@ export const PAGE_FIELDS = graphql(`
     seoTitle
     seoDescription
     seoImage {
-      ...AssetFields
-    }
-    asset {
       ...AssetFields
     }
     theme

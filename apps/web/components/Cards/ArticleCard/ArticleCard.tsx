@@ -4,23 +4,30 @@ import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
 import usePageResolver from "../../../hooks/usePageResolver";
 import { DateTime } from "luxon";
-import { ClockIcon } from "@workearly/icons";
+import ReadingTime from "../../ReadingTime/ReadingTime";
 
 type PropsType = {
   page: QueryItem["Page"];
 };
 
 export default function ArticleCard({ page }: PropsType) {
-  const { resourceDetails, peopleDetails } = usePageResolver(page);
+  const { resourceDetails, peopleDetails, items } = usePageResolver(page);
+  const richTexts = items.filter(
+    (item) => item?.__typename === "ContentTypeRichText"
+  ) as QueryItem["ContentTypeRichText"][];
+
+  if (!resourceDetails) {
+    return null;
+  }
 
   return (
     <div className={styles.root}>
-      {page.asset?.url && (
+      {resourceDetails.asset?.url && (
         <div className={styles.media}>
           <Image
-            src={page.asset.url}
+            src={resourceDetails.asset.url}
             fill={true}
-            alt={page.name || ""}
+            alt={resourceDetails.name || ""}
             quality={100}
           />
         </div>
@@ -28,24 +35,22 @@ export default function ArticleCard({ page }: PropsType) {
 
       <div className={styles.content}>
         <header className={styles.header}>
-          <Text as="h5">{page?.name}</Text>
-          <Text size="small">
-            Discover how to transition from teaching to tech with our tailored
-            data science programs. Learn essential skills and strategies to land
-            your first role.
-          </Text>
+          {resourceDetails.name && <Text as="h5">{resourceDetails.name}</Text>}
+          {resourceDetails.description && (
+            <Text size="small">{resourceDetails.description}</Text>
+          )}
         </header>
 
         <footer className={styles.footer}>
           <Text size="xsmall" className={styles.tag}>
-            {resourceDetails?.topics?.at(0)}
+            {resourceDetails.topics?.at(0)}
           </Text>
 
-          {peopleDetails && (
+          {peopleDetails.asset?.url && (
             <div className={styles.person}>
               <Image
-                src="/profile-card.png"
-                alt=""
+                src={peopleDetails.asset.url}
+                alt={peopleDetails.name || ""}
                 width={20}
                 height={20}
                 className={styles.profile}
@@ -60,10 +65,9 @@ export default function ArticleCard({ page }: PropsType) {
             )}
           </Text>
 
-          <div className={styles.timeToRead}>
-            <ClockIcon />
-            <Text size="caption">14 mins</Text>
-          </div>
+          <ReadingTime
+            documents={richTexts.map((richText) => richText?.body?.json)}
+          />
         </footer>
       </div>
     </div>
