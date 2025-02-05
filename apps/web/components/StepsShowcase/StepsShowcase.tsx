@@ -14,7 +14,7 @@ export default function StepsShowcase({ section, className }: PropsType) {
   const cards = getReferences("Card");
 
   return (
-    <section className={clsx(styles.root, className)}>
+    <div className={clsx(styles.root, className)}>
       <div className={styles.content}>
         <Text size="d1">{section.supertitle}</Text>
         <Text size="d1" className={styles.title}>
@@ -41,6 +41,6 @@ export default function StepsShowcase({ section, className }: PropsType) {
           );
         })}
       </div>
-    </section>
+    </div>
   );
 }

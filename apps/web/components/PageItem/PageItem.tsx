@@ -1,10 +1,10 @@
 import RichText from "@/components/RichText/RichText";
 import Section from "@/components/Section/Section";
 import UniqueComponent from "@/components/UniqueComponent/UniqueComponent";
-import useCoursePageResolver from "../../hooks/useCoursePageResolver";
+import usePageResolver from "../../hooks/usePageResolver";
 
 type PropsType = {
-  item: ReturnType<typeof useCoursePageResolver>["items"][number];
+  item: ReturnType<typeof usePageResolver>["items"][number];
   className?: string;
 };
 

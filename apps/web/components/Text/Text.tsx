@@ -18,6 +18,7 @@ interface PropsType extends ComponentPropsWithoutRef<"p"> {
     | "h6"
     | "p"
     | "small"
+    | "xsmall"
     | "caption";
 }
 
@@ -38,6 +39,7 @@ const Text = forwardRef<TextElement, PropsType>((props, forwardedRef) => {
     classNameComparator === "h6" && styles.h6,
     classNameComparator === "p" && styles.p,
     classNameComparator === "small" && styles.small,
+    classNameComparator === "xsmall" && styles.xsmall,
     classNameComparator === "caption" && styles.caption
   );
 

@@ -5,15 +5,17 @@ import clsx from "clsx";
 import CourseDetails from "../CourseDetails/CourseDetails";
 import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
 import PageItem from "../PageItem/PageItem";
-import useCoursePageResolver from "../../hooks/useCoursePageResolver";
+import usePageResolver from "../../hooks/usePageResolver";
 
 type PropsType = {
   className?: string;
 };
 
 export default function CoursePage({ className }: PropsType) {
-  const { page } = useContentful();
-  const { items } = useCoursePageResolver();
+  const { page, relationshipMap } = useContentful();
+  const { beforeFullWidthItems, afterFullWidthItems } = usePageResolver(page);
+
+  console.log(page, relationshipMap);
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -31,7 +33,7 @@ export default function CoursePage({ className }: PropsType) {
             </ul>
           </nav>
           <CourseDetails />
-          {items.map((item) => (
+          {beforeFullWidthItems.map((item) => (
             <PageItem
               key={item?.sys.id}
               item={item}
@@ -41,6 +43,9 @@ export default function CoursePage({ className }: PropsType) {
         </div>
         <PurchaseCourse className={styles.sidebar} />
       </div>
+      {afterFullWidthItems.map((item) => (
+        <PageItem key={item?.sys.id} item={item} />
+      ))}
     </main>
   );
 }

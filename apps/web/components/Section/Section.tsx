@@ -6,11 +6,12 @@ import Accordion from "@/components/Accordion/Accordion";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
-import CardShowcase from "@/components/CardShowcase/CardShowcase";
+import RelatedCourses from "@/components/RelatedCourses/RelatedCourses";
 import { CardVariantType } from "@/hooks/useCardResolver";
-import { QueryItem } from "@workearly/api";
-import StepsShowcase from "../StepsShowcase/StepsShowcase";
-import FeaturesShowcase from "../FeaturesShowcase/FeaturesShowcase";
+import { isDefined, QueryItem } from "@workearly/api";
+import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
+import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
+import RelatedArticles from "@/components/RelatedArticles/RelatedArticles";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -23,8 +24,8 @@ export default function Section({ section, className }: PropsType) {
 
   const cards = getReferences("Card");
   const accordionCards = getReferences("AccordionCard");
-  const assets = getReferences("Asset");
   const actions = getReferences("Action");
+  const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
   const hasContent =
     cards.length > 0 || assets.length > 0 || accordionCards.length > 0;
@@ -32,6 +33,12 @@ export default function Section({ section, className }: PropsType) {
   const style = {
     "--flex-alignment": flexAlignment,
   } as React.CSSProperties;
+
+  if (variant === "Related Classes") {
+    return <RelatedCourses section={section} />;
+  } else if (variant === "Related Articles") {
+    return <RelatedArticles section={section} />;
+  }
 
   return (
     <section className={clsx(styles.root, className)} style={style}>
@@ -57,10 +64,10 @@ export default function Section({ section, className }: PropsType) {
             <LogoShowcase assets={assets} columnCount={cardsCount} />
           )}
 
-          {variant === "Card Showcase" && <CardShowcase section={section} />}
-
+          {/* Dependent on Section */}
           {variant === "Steps Showcase" && <StepsShowcase section={section} />}
 
+          {/* Dependent on Section */}
           {variant === "Features Showcase" && (
             <FeaturesShowcase section={section} />
           )}
