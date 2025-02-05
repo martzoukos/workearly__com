@@ -16,6 +16,10 @@ export default function PurchaseCourse({ className }: PropsType) {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
 
+  if (!courseDetails) {
+    return null;
+  }
+
   return (
     <div className={clsx(styles.root, className)} data-color="Green">
       <div className={styles.media}>

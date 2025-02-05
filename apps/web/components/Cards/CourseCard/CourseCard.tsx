@@ -15,6 +15,10 @@ type PropsType = {
 const CourseCard = ({ page }: PropsType) => {
   const { courseDetails } = usePageResolver(page);
 
+  if (!courseDetails) {
+    return null;
+  }
+
   return (
     <div className={styles.root} data-size={"normal"}>
       {courseDetails?.videoThumbnail?.url && (
@@ -33,9 +37,9 @@ const CourseCard = ({ page }: PropsType) => {
           {page.name}
         </Text>
 
-        {courseDetails?.summary && (
-          <Text size="small" className={styles.summary}>
-            {courseDetails.summary}
+        {courseDetails?.shortDescription && (
+          <Text size="small" className={styles.description}>
+            {courseDetails.shortDescription}
           </Text>
         )}
 
