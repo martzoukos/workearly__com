@@ -7,6 +7,7 @@ import usePageResolver from "../../hooks/usePageResolver";
 import CallOutCard from "../Cards/CallOutCard/CallOutCard";
 import RichCard from "../Cards/RichCard/RichCard";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
+import PeopleDetails from "../PeopleDetails/PeopleDetails";
 
 type PropsType = {
   className?: string;
@@ -43,6 +44,7 @@ export default function PlaygroundPage({ className }: PropsType) {
         <PeopleCard /> */}
         {/* <RichCard />
         <CallOutCard /> */}
+        <PeopleDetails />
         {[...beforeFullWidthItems, ...afterFullWidthItems].map((item) => (
           <PageItem
             key={item?.sys.id}
