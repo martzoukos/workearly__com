@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "./CoursePage.module.scss";
+import styles from "./PostPage.module.scss";
 import { useContentful } from "../../stores/ContentfulStore";
 import clsx from "clsx";
 import CourseDetails from "../CourseDetails/CourseDetails";
@@ -30,7 +30,7 @@ export default function CoursePage({ className }: PropsType) {
               <li>{page.name}</li>
             </ul>
           </nav>
-          <CourseDetails />
+
           {beforeFullWidthItems.map((item) => (
             <PageItem
               key={item?.sys.id}
