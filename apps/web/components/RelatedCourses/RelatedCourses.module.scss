@@ -1,0 +1,26 @@
+.root {
+  padding: 3rem;
+  background: hsl(var(--color-neutral-500));
+  border-radius: 1rem;
+  color: hsl(var(--color-black-500));
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2.5rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.cards {
+  min-width: 0;
+}

@@ -95,6 +95,9 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     startingCost
     finalCost
     timeLeft
+    videoThumbnail {
+      ...AssetFields
+    }
   }
 `);
 
@@ -122,15 +125,6 @@ export const RESOURCE_DETAILS_FIELDS = graphql(`
     publicationDate
     asset {
       ...AssetFields
-    }
-    authorCollection {
-      items {
-        ... on Entry {
-          sys {
-            id
-          }
-        }
-      }
     }
   }
 `);
@@ -208,14 +202,10 @@ export const PAGE_FIELDS = graphql(`
     seoImage {
       ...AssetFields
     }
-    theme
-    details {
-      ... on Entry {
-        sys {
-          id
-        }
-      }
+    asset {
+      ...AssetFields
     }
+    theme
     contentCollection {
       items {
         ... on Entry {

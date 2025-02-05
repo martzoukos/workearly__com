@@ -27,7 +27,7 @@ const Demo = () => {
       <CourseDetailsCard />
       <TitleTextCard />
       <PeopleCard />
-      <CourseCard />
+      {/* <CourseCard /> */}
       <KeyMetricsCard />
     </section>
   );

@@ -114,8 +114,7 @@ export type SectionRelationshipMap = ToRelationshipMap<
 >;
 
 export type PageReference = Exclude<
-  | NonNullable<QueryItem["Page"]["contentCollection"]>["items"][number]
-  | NonNullable<QueryItem["Page"]["details"]>,
+  NonNullable<QueryItem["Page"]["contentCollection"]>["items"][number],
   null | undefined
 >;
 

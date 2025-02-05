@@ -2,11 +2,12 @@ import { useContentful } from "../../stores/ContentfulStore";
 import styles from "./CourseDetails.module.scss";
 import Text from "@/components/Text/Text";
 import { StarIcon, UserIcon } from "@workearly/icons";
-import useCoursePageResolver from "@/hooks/useCoursePageResolver";
+import usePageResolver from "@/hooks/usePageResolver";
+import clsx from "clsx";
 
 export default function CourseDetails() {
   const { page } = useContentful();
-  const { courseDetails, hasStatLabels } = useCoursePageResolver();
+  const { courseDetails } = usePageResolver(page);
 
   return (
     <section className={styles.root}>
@@ -14,7 +15,7 @@ export default function CourseDetails() {
         <Text as="h1">{page.name}</Text>
         <Text>{courseDetails?.summary}</Text>
       </header>
-      {hasStatLabels && (
+      {(courseDetails.studentsCount || courseDetails.userReviews) && (
         <div className={styles.statLabels}>
           {courseDetails?.studentsCount && (
             <StatLabel
@@ -78,11 +79,12 @@ export default function CourseDetails() {
 type StatLabelPropsType = {
   label: string;
   icon: React.ReactNode;
+  className?: string;
 };
 
-function StatLabel({ icon, label }: StatLabelPropsType) {
+function StatLabel({ icon, label, className }: StatLabelPropsType) {
   return (
-    <div className={styles.statLabel}>
+    <div className={clsx(styles.statLabel, className)}>
       {icon} <Text size="caption">{label}</Text>
     </div>
   );
@@ -103,3 +105,5 @@ function StatCard({ value, label }: StatCardPropsType) {
     </div>
   );
 }
+
+CourseDetails.StatLabel = StatLabel;
