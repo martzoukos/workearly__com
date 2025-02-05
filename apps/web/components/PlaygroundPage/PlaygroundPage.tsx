@@ -41,8 +41,8 @@ export default function PlaygroundPage({ className }: PropsType) {
         <ArticleCard />
         <ArticleSideCard />
         <PeopleCard /> */}
-        <RichCard />
-        <CallOutCard />
+        {/* <RichCard />
+        <CallOutCard /> */}
         {[...beforeFullWidthItems, ...afterFullWidthItems].map((item) => (
           <PageItem
             key={item?.sys.id}

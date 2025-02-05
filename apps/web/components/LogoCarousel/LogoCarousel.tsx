@@ -1,10 +1,10 @@
 import styles from "./LogoCarousel.module.scss";
 import Text from "@/components/Text/Text";
 import Image from "next/image";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import { QueryItem } from "@workearly/api";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import { Autoplay } from "swiper/modules";
 
 const images = [
   "/logos/public.png",
@@ -28,19 +28,21 @@ const settings = {
 };
 
 type PropsType = {
+  assets: QueryItem["Asset"][];
   section: QueryItem["Section"];
   className?: string;
 };
 
-const LogoCarousel = ({ section }: PropsType) => {
+const LogoCarousel = ({ section, assets }: PropsType) => {
   return (
     <div className={styles.root}>
-      <Text>Top Companies Hire Workearly Graduates</Text>
-      {images.length <= 6 ? (
+      {section.supertitle && <Text>{section.supertitle}</Text>}
+
+      {assets.length <= 6 ? (
         <div className={styles.mediaRow}>
-          {images.map((img, index) => (
+          {assets.map((img, index) => (
             <Image
-              src={img}
+              src={img.url || ""}
               alt=""
               width={100}
               height={100}
@@ -49,19 +51,33 @@ const LogoCarousel = ({ section }: PropsType) => {
           ))}
         </div>
       ) : (
-        <Slider {...settings} className={styles.slider}>
-          {images.map((img) => (
-            <div>
-              <Image
-                src={img}
-                alt=""
-                width={100}
-                height={100}
-                className={styles.media}
-              />
-            </div>
-          ))}
-        </Slider>
+        <Swiper
+          spaceBetween={32}
+          slidesPerView={6}
+          loop={true}
+          modules={[Autoplay]}
+          autoplay={{ delay: 3000, disableOnInteraction: false }}
+          breakpoints={{
+            0: { slidesPerView: 3 },
+            640: { slidesPerView: 4 },
+            1024: { slidesPerView: 6 },
+          }}
+          className={styles.slider}
+        >
+          {assets.map((media) => {
+            return (
+              <SwiperSlide>
+                <Image
+                  src={media.url || ""}
+                  alt=""
+                  width={media.width || 100}
+                  height={media.height || 100}
+                  className={styles.media}
+                />
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
       )}
     </div>
   );

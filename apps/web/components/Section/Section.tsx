@@ -73,7 +73,9 @@ export default function Section({ section, className }: PropsType) {
             <FeaturesShowcase section={section} />
           )}
 
-          {variant === "Logo Carousel" && <LogoCarousel section={section} />}
+          {variant === "Logo Carousel" && (
+            <LogoCarousel assets={assets} section={section} />
+          )}
         </div>
       )}
 
