@@ -34,7 +34,9 @@ export default function StepsShowcase({ section, className }: PropsType) {
                 <div className={styles.border}></div>
               </div>
               <div className={styles.card}>
-                <Text className={styles.cardTitle}>{card.title}</Text>
+                <Text size="h6" className={styles.cardTitle}>
+                  {card.title}
+                </Text>
                 <Text>{card.text}</Text>
               </div>
             </div>
