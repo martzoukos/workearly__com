@@ -13,6 +13,7 @@ const DATA_MAP = {
     "Accordion",
     "Tabs",
     "Logo Showcase",
+    "Logo Carousel",
     "Card Showcase",
     "Steps Showcase",
     "Features Showcase",

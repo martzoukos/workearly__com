@@ -123,15 +123,15 @@ export const RESOURCE_DETAILS_FIELDS = graphql(`
     asset {
       ...AssetFields
     }
-    authorCollection {
-      items {
-        ... on Entry {
-          sys {
-            id
-          }
-        }
-      }
-    }
+    # authorCollection {
+    #   items {
+    #     ... on Entry {
+    #       sys {
+    #         id
+    #       }
+    #     }
+    #   }
+    # }
   }
 `);
 

@@ -11,6 +11,7 @@ import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 import StepsShowcase from "../StepsShowcase/StepsShowcase";
 import FeaturesShowcase from "../FeaturesShowcase/FeaturesShowcase";
+import LogoCarousel from "../LogoCarousel/LogoCarousel";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -64,6 +65,8 @@ export default function Section({ section, className }: PropsType) {
           {variant === "Features Showcase" && (
             <FeaturesShowcase section={section} />
           )}
+
+          {variant === "Logo Carousel" && <LogoCarousel section={section} />}
         </div>
       )}
 
