@@ -5,6 +5,7 @@ import {
   RelationshipMap,
   SectionReferenceTypeName,
   QueryItem,
+  CardReferenceTypeName,
 } from "../types";
 import fetchCollectionByIds from "./fetchCollectionByIds";
 import {
@@ -15,20 +16,22 @@ import {
   CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
   COURSE_DETAILS_COLLECTION_QUERY,
   PAGE_COLLECTION_QUERY,
+  PEOPLE_DETAILS_COLLECTION_QUERY,
+  RESOURCE_DETAILS_COLLECTION_QUERY,
   SECTION_COLLECTION_QUERY,
   UNIQUE_COMPONENT_COLLECTION_QUERY,
 } from "./graphql/queries";
 import { isDefined } from "../utils";
 
-type ReturnType = {
+type FuncReturnType = {
   page: QueryItem["Page"];
   relationshipMap: RelationshipMap;
 };
 
 export default async function fetchPageBySlug(
   client: Client,
-  slug: string
-): Promise<ReturnType> {
+  slug: string,
+): Promise<FuncReturnType> {
   const { data } = await client
     .query(PAGE_COLLECTION_QUERY, { where: { slug }, limit: 1 })
     .toPromise();
@@ -48,9 +51,12 @@ export default async function fetchPageBySlug(
 
 async function getPageRelationships(
   client: Client,
-  page: QueryItem["Page"]
+  page: QueryItem["Page"],
 ): Promise<RelationshipMap> {
-  const courseDetailsIds = extractPageChildIds(page, "CourseDetails");
+  const courseDetailsIds = extractPageRecursiveChildIds(
+    { page },
+    "CourseDetails",
+  );
   const courseDetailsCollection = await fetchCollectionByIds(client, {
     ids: courseDetailsIds,
     query: COURSE_DETAILS_COLLECTION_QUERY,
@@ -58,17 +64,37 @@ async function getPageRelationships(
       data?.courseDetailsCollection?.items.filter(isDefined) || [],
   });
 
-  const sectionIds = extractRecursiveChildIds(page, [], "Section");
+  const resourceDetailsIds = extractPageRecursiveChildIds(
+    { page },
+    "ResourceDetails",
+  );
+  const resourceDetailsCollection = await fetchCollectionByIds(client, {
+    ids: resourceDetailsIds,
+    query: RESOURCE_DETAILS_COLLECTION_QUERY,
+    mapItems: (data) =>
+      data?.resourceDetailsCollection?.items.filter(isDefined) || [],
+  });
+
+  const pageSectionIds = extractPageRecursiveChildIds({ page }, "Section");
+  const pageSectionCollection = await fetchCollectionByIds(client, {
+    ids: pageSectionIds,
+    query: SECTION_COLLECTION_QUERY,
+    mapItems: (data) => data?.sectionCollection?.items.filter(isDefined) || [],
+  });
+
+  const sectionIds = extractPageRecursiveChildIds(
+    { page, sections: pageSectionCollection },
+    "Section",
+  );
   const sectionCollection = await fetchCollectionByIds(client, {
     ids: sectionIds,
     query: SECTION_COLLECTION_QUERY,
     mapItems: (data) => data?.sectionCollection?.items.filter(isDefined) || [],
   });
 
-  const contentTypeRichTextIds = extractRecursiveChildIds(
-    page,
-    sectionCollection,
-    "ContentTypeRichText"
+  const contentTypeRichTextIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection },
+    "ContentTypeRichText",
   );
   const contentTypeRichTextCollection = await fetchCollectionByIds(client, {
     ids: contentTypeRichTextIds,
@@ -77,10 +103,9 @@ async function getPageRelationships(
       data?.contentTypeRichTextCollection?.items.filter(isDefined) || [],
   });
 
-  const uniqueComponentIds = extractRecursiveChildIds(
-    page,
-    sectionCollection,
-    "UniqueComponent"
+  const uniqueComponentIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection },
+    "UniqueComponent",
   );
   const uniqueComponentCollection = await fetchCollectionByIds(client, {
     ids: uniqueComponentIds,
@@ -89,32 +114,9 @@ async function getPageRelationships(
       data?.uniqueComponentCollection?.items.filter(isDefined) || [],
   });
 
-  const actionIds = sectionCollection.flatMap(
-    (section) =>
-      section?.actionsCollection?.items.map((item) => item?.sys.id as string) ||
-      []
-  );
-  const actionCollection = await fetchCollectionByIds(client, {
-    ids: actionIds,
-    query: ACTION_COLLECTION_QUERY,
-    mapItems: (data) => data?.actionCollection?.items.filter(isDefined) || [],
-  });
-
-  const assetIds = sectionCollection.flatMap(
-    (section) =>
-      section?.assetsCollection?.items.map((item) => item?.sys.id as string) ||
-      []
-  );
-  const assetCollection = await fetchCollectionByIds(client, {
-    ids: assetIds,
-    query: ASSET_COLLECTION_QUERY,
-    mapItems: (data) => data?.assetCollection?.items.filter(isDefined) || [],
-  });
-
-  const accordionCardIds = extractRecursiveChildIds(
-    page,
-    sectionCollection,
-    "AccordionCard"
+  const accordionCardIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection },
+    "AccordionCard",
   );
   const accordionCardCollection = await fetchCollectionByIds(client, {
     ids: accordionCardIds,
@@ -123,28 +125,56 @@ async function getPageRelationships(
       data?.accordionCardCollection?.items.filter(isDefined) || [],
   });
 
-  const cardIds = extractRecursiveChildIds(page, sectionCollection, "Card");
-  const cardCollection = await fetchCollectionByIds(client, {
-    ids: cardIds,
-    query: CARD_COLLECTION_QUERY,
-    mapItems: (data) => data?.cardCollection?.items.filter(isDefined) || [],
-  });
-
-  const pageIds = extractRecursiveChildIds(page, sectionCollection, "Page");
+  const pageIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection },
+    "Page",
+  );
   const pageCollection = await fetchCollectionByIds(client, {
     ids: pageIds,
     query: PAGE_COLLECTION_QUERY,
     mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
   });
 
+  const peopleDetailsIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection },
+    "PeopleDetails",
+  );
+  const peopleDetailsCollection = await fetchCollectionByIds(client, {
+    ids: peopleDetailsIds,
+    query: PEOPLE_DETAILS_COLLECTION_QUERY,
+    mapItems: (data) =>
+      data?.peopleDetailsCollection?.items.filter(isDefined) || [],
+  });
+
+  const cardIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection },
+    "Card",
+  );
+  const cardCollection = await fetchCollectionByIds(client, {
+    ids: cardIds,
+    query: CARD_COLLECTION_QUERY,
+    mapItems: (data) => data?.cardCollection?.items.filter(isDefined) || [],
+  });
+
+  const actionIds = extractPageRecursiveChildIds(
+    { page, sections: sectionCollection, cards: cardCollection },
+    "Action",
+  );
+  const actionCollection = await fetchCollectionByIds(client, {
+    ids: actionIds,
+    query: ACTION_COLLECTION_QUERY,
+    mapItems: (data) => data?.actionCollection?.items.filter(isDefined) || [],
+  });
+
   const relationshipMap: RelationshipMap = {
     courseDetailsCollection,
+    peopleDetailsCollection,
+    resourceDetailsCollection,
     sectionCollection,
     contentTypeRichTextCollection,
     uniqueComponentCollection,
     accordionCardCollection,
     actionCollection,
-    assetCollection,
     cardCollection,
     pageCollection,
   };
@@ -152,28 +182,44 @@ async function getPageRelationships(
   return relationshipMap;
 }
 
-function extractRecursiveChildIds(
-  page: QueryItem["Page"],
-  sections: QueryItem["Section"][],
-  contentTypeName: RelationshipMapTypeName
+function extractPageRecursiveChildIds(
+  entities: {
+    page: QueryItem["Page"];
+    sections?: QueryItem["Section"][];
+    cards?: QueryItem["Card"][];
+  },
+  contentTypeName: RelationshipMapTypeName,
 ) {
   const pageChildIds = extractPageChildIds(
-    page,
-    contentTypeName as PageReferenceTypeName
+    entities.page,
+    contentTypeName as PageReferenceTypeName,
   );
 
-  const sectionChildIds = sections.flatMap((section) =>
-    extractSectionChildIds(section, contentTypeName as SectionReferenceTypeName)
-  );
+  const sectionChildIds =
+    entities.sections?.flatMap((section) =>
+      extractSectionChildIds(
+        section,
+        contentTypeName as SectionReferenceTypeName,
+      ),
+    ) || [];
 
-  return [...pageChildIds, ...sectionChildIds];
+  const cardChildIds =
+    entities.cards?.flatMap((card) =>
+      extractCardChildIds(card, contentTypeName as CardReferenceTypeName),
+    ) || [];
+
+  return [...new Set([...pageChildIds, ...sectionChildIds, ...cardChildIds])];
 }
 
 function extractPageChildIds(
   page: QueryItem["Page"],
-  contentTypeName: PageReferenceTypeName
+  contentTypeName: PageReferenceTypeName,
 ) {
   if (contentTypeName === "CourseDetails") {
+    return page?.details?.sys.id ? [page.details.sys.id] : [];
+  } else if (contentTypeName === "PeopleDetails") {
+    return page?.details?.sys.id ? [page.details.sys.id] : [];
+  } else if (contentTypeName === "ResourceDetails") {
     return page?.details?.sys.id ? [page.details.sys.id] : [];
   }
 
@@ -186,16 +232,11 @@ function extractPageChildIds(
 
 function extractSectionChildIds(
   section: QueryItem["Section"],
-  contentTypeName: SectionReferenceTypeName
+  contentTypeName: SectionReferenceTypeName,
 ) {
   if (contentTypeName === "Action") {
     return (
       section.actionsCollection?.items.map((item) => item?.sys.id as string) ||
-      []
-    );
-  } else if (contentTypeName === "Asset") {
-    return (
-      section.assetsCollection?.items.map((item) => item?.sys.id as string) ||
       []
     );
   }
@@ -205,4 +246,17 @@ function extractSectionChildIds(
       .filter((item) => item?.__typename === contentTypeName)
       .map((item) => item?.sys.id as string) || []
   );
+}
+
+function extractCardChildIds(
+  card: QueryItem["Card"],
+  contentTypeName: CardReferenceTypeName,
+) {
+  if (contentTypeName === "Action") {
+    return (
+      card.actionsCollection?.items.map((item) => item?.sys.id as string) || []
+    );
+  }
+
+  return [];
 }

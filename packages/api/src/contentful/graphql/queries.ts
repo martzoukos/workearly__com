@@ -46,6 +46,26 @@ export const COURSE_DETAILS_COLLECTION_QUERY = graphql(`
   }
 `);
 
+export const PEOPLE_DETAILS_COLLECTION_QUERY = graphql(`
+  query PeopleDetailsCollection($where: PeopleDetailsFilter, $limit: Int) {
+    peopleDetailsCollection(where: $where, limit: $limit) {
+      items {
+        ...PeopleDetailsFields
+      }
+    }
+  }
+`);
+
+export const RESOURCE_DETAILS_COLLECTION_QUERY = graphql(`
+  query ResourceDetailsCollection($where: ResourceDetailsFilter, $limit: Int) {
+    resourceDetailsCollection(where: $where, limit: $limit) {
+      items {
+        ...ResourceDetailsFields
+      }
+    }
+  }
+`);
+
 export const CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY = graphql(`
   query ContentTypeRichTextCollection(
     $where: ContentTypeRichTextFilter

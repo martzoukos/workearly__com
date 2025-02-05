@@ -9,6 +9,8 @@ import {
   ContentTypeRichTextCollectionQuery,
   CourseDetailsCollectionQuery,
   PageCollectionQuery,
+  PeopleDetailsCollectionQuery,
+  ResourceDetailsCollectionQuery,
   SectionCollectionQuery,
   UniqueComponentCollectionQuery,
 } from "./contentful/graphql/__generated__/gql/graphql";
@@ -27,6 +29,16 @@ export type QueryItem = {
   CourseDetails: NonNullable<
     NonNullable<
       CourseDetailsCollectionQuery["courseDetailsCollection"]
+    >["items"][number]
+  >;
+  PeopleDetails: NonNullable<
+    NonNullable<
+      PeopleDetailsCollectionQuery["peopleDetailsCollection"]
+    >["items"][number]
+  >;
+  ResourceDetails: NonNullable<
+    NonNullable<
+      ResourceDetailsCollectionQuery["resourceDetailsCollection"]
     >["items"][number]
   >;
   ContentTypeRichText: NonNullable<
@@ -71,13 +83,22 @@ export type ToRelationshipMap<
   > as `${Uncapitalize<K>}Collection`]: K extends keyof Q ? Q[K][] : never;
 };
 
+export type CardReference = Exclude<
+  NonNullable<
+    NonNullable<QueryItem["Section"]["actionsCollection"]>["items"][number]
+  >,
+  null | undefined
+>;
+
+export type CardReferenceTypeName = Exclude<
+  CardReference["__typename"],
+  undefined
+>;
+
 export type SectionReference = Exclude<
   | NonNullable<QueryItem["Section"]["contentCollection"]>["items"][number]
   | NonNullable<
       NonNullable<QueryItem["Section"]["actionsCollection"]>["items"][number]
-    >
-  | NonNullable<
-      NonNullable<QueryItem["Section"]["assetsCollection"]>["items"][number]
     >,
   null | undefined
 >;
@@ -116,3 +137,39 @@ export type RelationshipMap = ToRelationshipMap<
   RelationshipMapTypeName,
   QueryItem
 >;
+
+// Experimental
+type NestedRelationship = {
+  page: Omit<QueryItem["Page"], "contentCollection"> & {
+    contentCollection?: {
+      __typename?: `PageContentCollection`;
+      items: Array<
+        | (Omit<
+            QueryItem["Section"],
+            "contentCollection" | "actionsCollection" | "assetsCollection"
+          > & {
+            contentCollection?: {
+              __typename?: `SectionContentCollection`;
+              items: Array<
+                QueryItem["ContentTypeRichText"] | QueryItem["UniqueComponent"]
+              >;
+            };
+            actionsCollection?: {
+              __typename?: `SectionActionsCollection`;
+              items: Array<QueryItem["Action"]>;
+            };
+            assetsCollection?: {
+              __typename?: `SectionAssetsCollection`;
+              items: Array<QueryItem["Asset"]>;
+            };
+          })
+        | QueryItem["ContentTypeRichText"]
+        | QueryItem["UniqueComponent"]
+      >;
+    };
+    details:
+      | QueryItem["CourseDetails"]
+      | QueryItem["PeopleDetails"]
+      | QueryItem["ResourceDetails"];
+  };
+};

@@ -7,11 +7,7 @@ const DATA_MAP = {
     Left: "flex-start",
     Centered: "center",
   },
-  referenceFieldKeys: [
-    "contentCollection",
-    "actionsCollection",
-    "assetsCollection",
-  ],
+  referenceFieldKeys: ["contentCollection", "actionsCollection"],
   variants: [
     "Default",
     "Accordion",
@@ -38,8 +34,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
 
     if (typename === "Action") {
       referenceFieldKey = "actionsCollection";
-    } else if (typename === "Asset") {
-      referenceFieldKey = "assetsCollection";
     }
 
     return referenceFieldKey;
