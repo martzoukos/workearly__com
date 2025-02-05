@@ -9,6 +9,10 @@ export default function CourseDetails() {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
 
+  if (!courseDetails) {
+    return null;
+  }
+
   return (
     <section className={styles.root}>
       <header className={styles.header}>
