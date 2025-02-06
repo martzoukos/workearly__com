@@ -7,6 +7,7 @@ import styles from "./Button.module.scss";
 const buttonVariants = cva(styles.base, {
   variants: {
     colorScheme: {
+      Transparent: styles.default,
       Green: styles.colorSchemeGreen,
       White: styles.colorSchemeWhite,
       Black: styles.colorSchemeBlack,
