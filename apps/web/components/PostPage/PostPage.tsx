@@ -5,6 +5,7 @@ import clsx from "clsx";
 import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
 import PageItem from "../PageItem/PageItem";
 import usePageResolver from "../../hooks/usePageResolver";
+import PostCover from "../PostCover/PostCover";
 
 type PropsType = {
   className?: string;
@@ -12,35 +13,12 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { preDividerItems, postDividerItems } = usePageResolver(page);
+  const { preDividerItems } = usePageResolver(page);
 
   return (
     <main className={clsx(styles.root, className)}>
-      <div className={styles.contentWrapper}>
-        <div className={styles.content}>
-          <nav className={styles.breadcrumbs}>
-            <ul>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/courses">Courses</Link>
-              </li>
-              <li>{page.name}</li>
-            </ul>
-          </nav>
-
-          {preDividerItems.map((item) => (
-            <PageItem
-              key={item?.sys.id}
-              item={item}
-              className={styles.contentItem}
-            />
-          ))}
-        </div>
-        <PurchaseCourse className={styles.sidebar} />
-      </div>
-      {postDividerItems.map((item) => (
+      <PostCover />
+      {preDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />
       ))}
     </main>

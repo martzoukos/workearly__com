@@ -1,26 +1,12 @@
-import { Document } from "@contentful/rich-text-types";
-import styles from "./ReadingTime.module.scss";
-import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
-import { ClockIcon } from "@workearly/icons";
 import Text from "@/components/Text/Text";
-
-const WORDS_PER_MINUTE = 200;
-
-const calculateReadingTime = (documents: Document[]): number => {
-  const plainText = documents
-    .map((document) => documentToPlainTextString(document))
-    .join(" ");
-  const wordCount = plainText.split(/\s+/).filter(Boolean).length;
-  return Math.ceil(wordCount / WORDS_PER_MINUTE);
-};
+import { ClockIcon } from "@workearly/icons";
+import styles from "./ReadingTime.module.scss";
 
 type PropsType = {
-  documents: Document[];
+  time: number;
 };
 
-export default function ReadingTime({ documents }: PropsType) {
-  const time = calculateReadingTime(documents);
-
+export default function ReadingTime({ time }: PropsType) {
   return (
     <div className={styles.root}>
       <ClockIcon />

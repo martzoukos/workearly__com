@@ -1,0 +1,25 @@
+.root {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border-color);
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    li:not(:last-child) {
+      opacity: 0.5;
+      transition: color var(--transition-duration);
+
+      &:after {
+        content: var(--divider-char);
+        margin: 0 0.5rem;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}

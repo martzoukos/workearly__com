@@ -30,7 +30,7 @@ type FuncReturnType = {
 
 export default async function fetchPageBySlug(
   client: Client,
-  slug: string,
+  slug: string
 ): Promise<FuncReturnType> {
   const { data } = await client
     .query(PAGE_COLLECTION_QUERY, { where: { slug }, limit: 1 })
@@ -51,11 +51,11 @@ export default async function fetchPageBySlug(
 
 async function getPageRelationships(
   client: Client,
-  page: QueryItem["Page"],
+  page: QueryItem["Page"]
 ): Promise<RelationshipMap> {
   const pageSectionIds = extractPageRecursiveChildIds(
     { pages: [page] },
-    "Section",
+    "Section"
   );
   const pageSectionCollection = await fetchCollectionByIds(client, {
     ids: pageSectionIds,
@@ -65,7 +65,7 @@ async function getPageRelationships(
 
   const sectionIds = extractPageRecursiveChildIds(
     { pages: [page], sections: pageSectionCollection },
-    "Section",
+    "Section"
   );
   const sectionCollection = await fetchCollectionByIds(client, {
     ids: sectionIds,
@@ -75,7 +75,7 @@ async function getPageRelationships(
 
   const contentTypeRichTextIds = extractPageRecursiveChildIds(
     { pages: [page], sections: sectionCollection },
-    "ContentTypeRichText",
+    "ContentTypeRichText"
   );
   const contentTypeRichTextCollection = await fetchCollectionByIds(client, {
     ids: contentTypeRichTextIds,
@@ -86,7 +86,7 @@ async function getPageRelationships(
 
   const uniqueComponentIds = extractPageRecursiveChildIds(
     { pages: [page], sections: sectionCollection },
-    "UniqueComponent",
+    "UniqueComponent"
   );
   const uniqueComponentCollection = await fetchCollectionByIds(client, {
     ids: uniqueComponentIds,
@@ -97,7 +97,7 @@ async function getPageRelationships(
 
   const accordionCardIds = extractPageRecursiveChildIds(
     { pages: [page], sections: sectionCollection },
-    "AccordionCard",
+    "AccordionCard"
   );
   const accordionCardCollection = await fetchCollectionByIds(client, {
     ids: accordionCardIds,
@@ -106,19 +106,20 @@ async function getPageRelationships(
       data?.accordionCardCollection?.items.filter(isDefined) || [],
   });
 
-  const pageIds = extractPageRecursiveChildIds(
+  const childPageIds = extractPageRecursiveChildIds(
     { pages: [page], sections: sectionCollection },
-    "Page",
+    "Page"
   );
-  const pageCollection = await fetchCollectionByIds(client, {
-    ids: pageIds,
+  const childPageCollection = await fetchCollectionByIds(client, {
+    ids: childPageIds,
     query: PAGE_COLLECTION_QUERY,
     mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
   });
+  const pageCollection = [page, ...childPageCollection];
 
   const peopleDetailsIds = extractPageRecursiveChildIds(
     { pages: pageCollection, sections: sectionCollection },
-    "PeopleDetails",
+    "PeopleDetails"
   );
   const peopleDetailsCollection = await fetchCollectionByIds(client, {
     ids: peopleDetailsIds,
@@ -129,7 +130,7 @@ async function getPageRelationships(
 
   const courseDetailsIds = extractPageRecursiveChildIds(
     { pages: pageCollection, sections: sectionCollection },
-    "CourseDetails",
+    "CourseDetails"
   );
   const courseDetailsCollection = await fetchCollectionByIds(client, {
     ids: courseDetailsIds,
@@ -140,8 +141,9 @@ async function getPageRelationships(
 
   const resourceDetailsIds = extractPageRecursiveChildIds(
     { pages: pageCollection, sections: sectionCollection },
-    "ResourceDetails",
+    "ResourceDetails"
   );
+
   const resourceDetailsCollection = await fetchCollectionByIds(client, {
     ids: resourceDetailsIds,
     query: RESOURCE_DETAILS_COLLECTION_QUERY,
@@ -151,7 +153,7 @@ async function getPageRelationships(
 
   const cardIds = extractPageRecursiveChildIds(
     { pages: [page], sections: sectionCollection },
-    "Card",
+    "Card"
   );
   const cardCollection = await fetchCollectionByIds(client, {
     ids: cardIds,
@@ -161,7 +163,7 @@ async function getPageRelationships(
 
   const actionIds = extractPageRecursiveChildIds(
     { pages: [page], sections: sectionCollection, cards: cardCollection },
-    "Action",
+    "Action"
   );
   const actionCollection = await fetchCollectionByIds(client, {
     ids: actionIds,
@@ -191,24 +193,24 @@ function extractPageRecursiveChildIds(
     sections?: QueryItem["Section"][];
     cards?: QueryItem["Card"][];
   },
-  contentTypeName: RelationshipMapTypeName,
+  contentTypeName: RelationshipMapTypeName
 ) {
   const pageChildIds =
     entities.pages?.flatMap((page) =>
-      extractPageChildIds(page, contentTypeName as PageReferenceTypeName),
+      extractPageChildIds(page, contentTypeName as PageReferenceTypeName)
     ) || [];
 
   const sectionChildIds =
     entities.sections?.flatMap((section) =>
       extractSectionChildIds(
         section,
-        contentTypeName as SectionReferenceTypeName,
-      ),
+        contentTypeName as SectionReferenceTypeName
+      )
     ) || [];
 
   const cardChildIds =
     entities.cards?.flatMap((card) =>
-      extractCardChildIds(card, contentTypeName as CardReferenceTypeName),
+      extractCardChildIds(card, contentTypeName as CardReferenceTypeName)
     ) || [];
 
   return [...new Set([...pageChildIds, ...sectionChildIds, ...cardChildIds])];
@@ -216,7 +218,7 @@ function extractPageRecursiveChildIds(
 
 function extractPageChildIds(
   page: QueryItem["Page"],
-  contentTypeName: PageReferenceTypeName,
+  contentTypeName: PageReferenceTypeName
 ) {
   return (
     page?.contentCollection?.items
@@ -227,7 +229,7 @@ function extractPageChildIds(
 
 function extractSectionChildIds(
   section: QueryItem["Section"],
-  contentTypeName: SectionReferenceTypeName,
+  contentTypeName: SectionReferenceTypeName
 ) {
   if (contentTypeName === "Action") {
     return (
@@ -245,7 +247,7 @@ function extractSectionChildIds(
 
 function extractCardChildIds(
   card: QueryItem["Card"],
-  contentTypeName: CardReferenceTypeName,
+  contentTypeName: CardReferenceTypeName
 ) {
   if (contentTypeName === "Action") {
     return (

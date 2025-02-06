@@ -1,5 +1,7 @@
 import { QueryItem } from "@workearly/api";
 import { useContentful } from "../stores/ContentfulStore";
+import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
+import { Document } from "@contentful/rich-text-types";
 
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
@@ -56,6 +58,14 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     (item) => item?.__typename === "ResourceDetails"
   ) as QueryItem["ResourceDetails"];
 
+  const richTexts = items.filter(
+    (item) => item?.__typename === "ContentTypeRichText"
+  ) as QueryItem["ContentTypeRichText"][];
+
+  const readingTime = calculateReadingTime(
+    richTexts.map((richText) => richText?.body?.json)
+  );
+
   return {
     courseDetails,
     peopleDetails,
@@ -63,5 +73,16 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     preDividerItems,
     postDividerItems,
     items,
+    readingTime,
   };
+}
+
+const WORDS_PER_MINUTE = 200;
+
+function calculateReadingTime(documents: Document[]) {
+  const plainText = documents
+    .map((document) => documentToPlainTextString(document))
+    .join(" ");
+  const wordCount = plainText.split(/\s+/).filter(Boolean).length;
+  return Math.ceil(wordCount / WORDS_PER_MINUTE);
 }

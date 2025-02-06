@@ -5,16 +5,14 @@ import { QueryItem } from "@workearly/api";
 import usePageResolver from "../../../hooks/usePageResolver";
 import { DateTime } from "luxon";
 import ReadingTime from "../../ReadingTime/ReadingTime";
+import Person from "../../Person/Person";
 
 type PropsType = {
   page: QueryItem["Page"];
 };
 
 export default function ArticleCard({ page }: PropsType) {
-  const { resourceDetails, peopleDetails, items } = usePageResolver(page);
-  const richTexts = items.filter(
-    (item) => item?.__typename === "ContentTypeRichText"
-  ) as QueryItem["ContentTypeRichText"][];
+  const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
 
   if (!resourceDetails) {
     return null;
@@ -47,16 +45,10 @@ export default function ArticleCard({ page }: PropsType) {
           </Text>
 
           {peopleDetails.asset?.url && (
-            <div className={styles.person}>
-              <Image
-                src={peopleDetails.asset.url}
-                alt={peopleDetails.name || ""}
-                width={20}
-                height={20}
-                className={styles.profile}
-              />
-              <Text size="caption">{peopleDetails.name}</Text>
-            </div>
+            <Person
+              imageUrl={peopleDetails.asset.url}
+              name={peopleDetails.name || ""}
+            />
           )}
 
           <Text size="caption">
@@ -65,9 +57,7 @@ export default function ArticleCard({ page }: PropsType) {
             )}
           </Text>
 
-          <ReadingTime
-            documents={richTexts.map((richText) => richText?.body?.json)}
-          />
+          <ReadingTime time={readingTime} />
         </footer>
       </div>
     </div>
