@@ -35,14 +35,16 @@ export default function usePageResolver(page: QueryItem["Page"]) {
       })
       .filter(Boolean) || [];
 
-  const fullWidthItemIndex = items.findIndex(
+  const dividerIndex = items.findIndex(
     (item) =>
       item?.__typename === "UniqueComponent" &&
       item.variant === "Start Full Width"
   );
 
-  const beforeFullWidthItems = items.slice(0, fullWidthItemIndex);
-  const afterFullWidthItems = items.slice(fullWidthItemIndex + 1);
+  const preDividerItems =
+    dividerIndex === -1 ? items : items.slice(0, dividerIndex);
+  const postDividerItems =
+    dividerIndex === -1 ? [] : items.slice(dividerIndex + 1);
 
   const courseDetails = items.find(
     (item) => item?.__typename === "CourseDetails"
@@ -58,8 +60,8 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     courseDetails,
     peopleDetails,
     resourceDetails,
-    beforeFullWidthItems,
-    afterFullWidthItems,
+    preDividerItems,
+    postDividerItems,
     items,
   };
 }

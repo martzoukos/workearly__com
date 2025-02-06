@@ -15,7 +15,7 @@ type PropsType = {
 
 export default function PlaygroundPage({ className }: PropsType) {
   const { page } = useContentful();
-  const { beforeFullWidthItems, afterFullWidthItems } = usePageResolver(page);
+  const { preDividerItems, postDividerItems } = usePageResolver(page);
 
   // console.log(
   //   items.filter((item) => item?.__typename === "Section"),
@@ -45,7 +45,7 @@ export default function PlaygroundPage({ className }: PropsType) {
         {/* <RichCard />
         <CallOutCard /> */}
         <PeopleDetails />
-        {[...beforeFullWidthItems, ...afterFullWidthItems].map((item) => (
+        {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem
             key={item?.sys.id}
             item={item}

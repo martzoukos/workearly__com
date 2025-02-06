@@ -13,7 +13,7 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { beforeFullWidthItems, afterFullWidthItems } = usePageResolver(page);
+  const { preDividerItems, postDividerItems } = usePageResolver(page);
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -31,7 +31,7 @@ export default function CoursePage({ className }: PropsType) {
             </ul>
           </nav>
           <CourseDetails />
-          {beforeFullWidthItems.map((item) => (
+          {preDividerItems.map((item) => (
             <PageItem
               key={item?.sys.id}
               item={item}
@@ -41,7 +41,7 @@ export default function CoursePage({ className }: PropsType) {
         </div>
         <PurchaseCourse className={styles.sidebar} />
       </div>
-      {afterFullWidthItems.map((item) => (
+      {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />
       ))}
     </main>
