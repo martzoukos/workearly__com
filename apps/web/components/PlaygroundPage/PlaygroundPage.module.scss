@@ -8,6 +8,7 @@
 }
 
 .content {
+  min-width: 0;
   border: 1px solid var(--border-color);
   padding: fluid-rem(0.88rem, 0.88rem);
 }

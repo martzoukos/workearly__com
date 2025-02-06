@@ -1,0 +1,128 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  background-color: hsl(var(--color-green-500));
+  border: 1px solid black;
+  border-radius: 1rem;
+  padding: 0.5rem 3rem 2.5rem 0.5rem;
+}
+
+.breadcrumbs {
+  color: black;
+  padding: 0.5rem 0.75rem;
+
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    li:not(:last-child) {
+      opacity: 0.5;
+      transition: color var(--transition-duration);
+
+      &:after {
+        content: ">";
+        margin: 0 0.5rem;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 0.5fr 2.5fr;
+  gap: 2rem;
+}
+
+.backToMentors {
+  padding-left: 1.25rem;
+  color: black;
+  text-decoration: underline;
+}
+
+.contentDetails {
+  display: grid;
+  background-color: hsl(var(--color-neutral-400));
+  color: black;
+  border: 1px solid black;
+  padding: 0.5rem 0.5rem 1.2rem;
+  grid-template-columns: 0.5fr 2fr;
+  gap: 4rem;
+}
+
+.personDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.mentorTitle {
+  text-align: center;
+  background-color: hsl(var(--color-green-500));
+  padding-block: 0.25rem;
+  border: 1px solid black;
+}
+
+.moreDetails {
+  background-color: hsl(var(--color-neutral-300));
+  border: 1px solid black;
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+.mentorMedia {
+  border: 1px solid black;
+  border-radius: 0.4rem;
+  padding: 0.22rem;
+  margin-bottom: 1rem;
+}
+
+.media {
+  width: auto;
+  height: 11rem;
+  object-fit: cover;
+}
+
+.expertise {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  margin-bottom: 1.4rem;
+}
+
+.tag {
+  background-color: hsl(var(--color-neutral-200));
+  border: 1px solid rgba(114, 114, 114, 0.5);
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.55rem;
+}
+
+.linkedin {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 0.35rem;
+  padding-block: 0.8rem;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
+}
+
+.description {
+  max-width: 80%;
+}

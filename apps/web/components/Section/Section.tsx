@@ -12,6 +12,7 @@ import { isDefined, QueryItem } from "@workearly/api";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import RelatedArticles from "@/components/RelatedArticles/RelatedArticles";
+import LogoCarousel from "../LogoCarousel/LogoCarousel";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -70,6 +71,10 @@ export default function Section({ section, className }: PropsType) {
           {/* Dependent on Section */}
           {variant === "Features Showcase" && (
             <FeaturesShowcase section={section} />
+          )}
+
+          {variant === "Logo Carousel" && (
+            <LogoCarousel assets={assets} section={section} />
           )}
         </div>
       )}
