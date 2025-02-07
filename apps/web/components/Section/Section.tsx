@@ -13,6 +13,7 @@ import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import RelatedArticles from "@/components/RelatedArticles/RelatedArticles";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
+import TabSection from "../TabSection/TabSection";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -26,10 +27,15 @@ export default function Section({ section, className }: PropsType) {
   const cards = getReferences("Card");
   const accordionCards = getReferences("AccordionCard");
   const actions = getReferences("Action");
+  const sections = getReferences("Section");
+
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
   const hasContent =
-    cards.length > 0 || assets.length > 0 || accordionCards.length > 0;
+    cards.length > 0 ||
+    assets.length > 0 ||
+    accordionCards.length > 0 ||
+    sections.length > 0;
 
   const style = {
     "--flex-alignment": flexAlignment,
@@ -76,6 +82,8 @@ export default function Section({ section, className }: PropsType) {
           {variant === "Logo Carousel" && (
             <LogoCarousel assets={assets} section={section} />
           )}
+
+          {variant === "Tabs" && <TabSection section={section} />}
         </div>
       )}
 

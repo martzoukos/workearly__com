@@ -6,13 +6,14 @@ import CourseDetails from "../../CourseDetails/CourseDetails";
 import { UserIcon } from "@workearly/icons";
 import usePageResolver from "../../../hooks/usePageResolver";
 import CoursePrices from "../../CoursePrices/CoursePrices";
+import clsx from "clsx";
 
 type PropsType = {
   page: QueryItem["Page"];
   className?: string;
 };
 
-const CourseCard = ({ page }: PropsType) => {
+const CourseCard = ({ page, className }: PropsType) => {
   const { courseDetails } = usePageResolver(page);
 
   if (!courseDetails) {
@@ -20,7 +21,7 @@ const CourseCard = ({ page }: PropsType) => {
   }
 
   return (
-    <div className={styles.root} data-size={"normal"}>
+    <div className={clsx(styles.root, className)} data-size={"normal"}>
       {courseDetails?.videoThumbnail?.url && (
         <div className={styles.media}>
           <Image

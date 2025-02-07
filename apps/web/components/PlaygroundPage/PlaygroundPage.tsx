@@ -44,7 +44,7 @@ export default function PlaygroundPage({ className }: PropsType) {
         <PeopleCard /> */}
         {/* <RichCard />
         <CallOutCard /> */}
-        <PeopleDetails />
+        {/* <PeopleDetails /> */}
         {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem
             key={item?.sys.id}
