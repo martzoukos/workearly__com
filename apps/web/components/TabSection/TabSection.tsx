@@ -23,32 +23,39 @@ const TabSection = ({ section }: PropsType) => {
   );
   const currentTabActions = getReferncesTab("Action");
   const currentTabPages = getReferncesTab("Page");
+  const highestPercentage =
+    currentTab?.metadata?.values?.reduce(
+      (max: number, v: any) => Math.max(max, v.percentage),
+      0
+    ) || 0;
 
   return (
     <div className={styles.root}>
-      <div className={styles.header}>
-        <div className={styles.tabButtonsHolder}>
-          {nestedSections.map((section) => {
-            return (
-              <Button
-                variant={"Outlined"}
-                colorScheme={"Transparent"}
-                className={styles.tabButton}
-                data-active={currentTab === section}
-                onClick={() => setCurrentTab(section)}
-              >
-                {section.title}
-              </Button>
-            );
-          })}
-        </div>
+      {nestedSections.length > 1 && (
+        <div className={styles.header}>
+          <div className={styles.tabButtonsHolder}>
+            {nestedSections.map((section) => {
+              return (
+                <Button
+                  variant={"Outlined"}
+                  colorScheme={"Transparent"}
+                  className={styles.tabButton}
+                  data-active={currentTab === section}
+                  onClick={() => setCurrentTab(section)}
+                >
+                  {section.title}
+                </Button>
+              );
+            })}
+          </div>
 
-        <div className={styles.sectionActions}>
-          {sectionActions.map((action) => {
-            return <Button>{action.name}</Button>;
-          })}
+          <div className={styles.sectionActions}>
+            {sectionActions.map((action) => {
+              return <Button>{action.name}</Button>;
+            })}
+          </div>
         </div>
-      </div>
+      )}
 
       <div className={styles.contentContainer}>
         <div className={styles.content}>
@@ -56,40 +63,45 @@ const TabSection = ({ section }: PropsType) => {
             <Text size="h3">{currentTab?.title}</Text>
             <Text>{currentTab?.text}</Text>
           </div>
+          {(currentTab?.metadata?.title ||
+            currentTab?.metadata?.values?.length > 0) && (
+            <div className={styles.statics}>
+              {currentTab?.metadata?.title && (
+                <Text className={styles.staticsTitle}>
+                  {currentTab.metadata.title}
+                </Text>
+              )}
 
-          <div className={styles.statics}>
-            {currentTab?.metadata?.title && (
-              <Text className={styles.staticsTitle}>
-                {currentTab?.metadata.title}
-              </Text>
-            )}
-
-            {currentTab?.metadata?.values &&
-              currentTab?.metadata?.values?.map((item: any) => {
-                return (
+              {currentTab?.metadata?.values?.length > 0 &&
+                currentTab?.metadata.values.map((item: any) => (
                   <div
                     className={styles.staticsBar}
-                    data-percentage={item.percentage}
+                    data-active={item.percentage == highestPercentage}
+                    style={{ width: `${item.percentage}%` }}
                   >
                     <Text>{item.title}</Text>
-                    <Text>{item.amount}€</Text>
+                    <Text>{item.amount}</Text>
                   </div>
-                );
-              })}
-          </div>
+                ))}
+            </div>
+          )}
 
-          <div>
-            {currentTabActions.map((item) => (
-              <Button>{item.name}</Button>
-            ))}
-          </div>
+          {currentTabActions.length > 0 && (
+            <div className={styles.buttons}>
+              {currentTabActions.map((item) => (
+                <Button>{item.name}</Button>
+              ))}
+            </div>
+          )}
         </div>
 
-        <div className={styles.pages}>
-          {currentTabPages.map((page) => {
-            return <CourseCard page={page} className={styles.card} />;
-          })}
-        </div>
+        {currentTabPages.length > 0 && (
+          <div className={styles.pages}>
+            {currentTabPages.map((page) => {
+              return <CourseCard page={page} className={styles.card} />;
+            })}
+          </div>
+        )}
       </div>
     </div>
   );
