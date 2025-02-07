@@ -111,23 +111,13 @@ export const CATEGORY_OR_JOB_DETAILS_FIELDS = graphql(`
     title
     summary
     shortDescription
-    duration
-    language
-    pace
-    level
-    style
-    courseCount
-    programStarts
-    applicationDeadline
     studentsCount
     userReviews
-    startingCost
-    finalCost
-    timeLeft
-    videoUrl
-    videoThumbnail {
+    asset {
       ...AssetFields
     }
+    averageUsSalary
+    averageEuSalary
   }
 `);
 

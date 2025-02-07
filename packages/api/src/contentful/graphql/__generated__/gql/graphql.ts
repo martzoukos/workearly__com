@@ -1017,33 +1017,36 @@ export enum CardOrder {
 export type CategoryOrJobDetails = Entry & _Node & {
   __typename?: 'CategoryOrJobDetails';
   _id: Scalars['ID']['output'];
-  applicationDeadline?: Maybe<Scalars['String']['output']>;
+  asset?: Maybe<Asset>;
+  averageEuSalary?: Maybe<Scalars['String']['output']>;
+  averageUsSalary?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
-  courseCount?: Maybe<Scalars['String']['output']>;
-  duration?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
-  finalCost?: Maybe<Scalars['Float']['output']>;
-  language?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
-  level?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   linkedFrom?: Maybe<CategoryOrJobDetailsLinkingCollections>;
-  pace?: Maybe<Scalars['String']['output']>;
-  programStarts?: Maybe<Scalars['String']['output']>;
   shortDescription?: Maybe<Scalars['String']['output']>;
-  startingCost?: Maybe<Scalars['Float']['output']>;
   studentsCount?: Maybe<Scalars['Int']['output']>;
-  style?: Maybe<Scalars['String']['output']>;
   summary?: Maybe<Scalars['String']['output']>;
   sys: Sys;
-  timeLeft?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
   userReviews?: Maybe<Scalars['Float']['output']>;
-  videoThumbnail?: Maybe<Asset>;
-  videoUrl?: Maybe<Scalars['String']['output']>;
 };
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsApplicationDeadlineArgs = {
+export type CategoryOrJobDetailsAssetArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
+export type CategoryOrJobDetailsAverageEuSalaryArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
+export type CategoryOrJobDetailsAverageUsSalaryArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -1055,61 +1058,13 @@ export type CategoryOrJobDetailsContentfulNameArgs = {
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsCourseCountArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsDurationArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsFinalCostArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsLanguageArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsLevelArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
 export type CategoryOrJobDetailsLinkedFromArgs = {
   allowedLocales?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
 };
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsPaceArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsProgramStartsArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
 export type CategoryOrJobDetailsShortDescriptionArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsStartingCostArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -1121,19 +1076,7 @@ export type CategoryOrJobDetailsStudentsCountArgs = {
 
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsStyleArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
 export type CategoryOrJobDetailsSummaryArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsTimeLeftArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -1149,19 +1092,6 @@ export type CategoryOrJobDetailsUserReviewsArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsVideoThumbnailArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-  preview?: InputMaybe<Scalars['Boolean']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/categoryOrJobDetails) */
-export type CategoryOrJobDetailsVideoUrlArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
 export type CategoryOrJobDetailsCollection = {
   __typename?: 'CategoryOrJobDetailsCollection';
   items: Array<Maybe<CategoryOrJobDetails>>;
@@ -1173,13 +1103,21 @@ export type CategoryOrJobDetailsCollection = {
 export type CategoryOrJobDetailsFilter = {
   AND?: InputMaybe<Array<InputMaybe<CategoryOrJobDetailsFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<CategoryOrJobDetailsFilter>>>;
-  applicationDeadline?: InputMaybe<Scalars['String']['input']>;
-  applicationDeadline_contains?: InputMaybe<Scalars['String']['input']>;
-  applicationDeadline_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  applicationDeadline_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  applicationDeadline_not?: InputMaybe<Scalars['String']['input']>;
-  applicationDeadline_not_contains?: InputMaybe<Scalars['String']['input']>;
-  applicationDeadline_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  averageEuSalary?: InputMaybe<Scalars['String']['input']>;
+  averageEuSalary_contains?: InputMaybe<Scalars['String']['input']>;
+  averageEuSalary_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  averageEuSalary_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  averageEuSalary_not?: InputMaybe<Scalars['String']['input']>;
+  averageEuSalary_not_contains?: InputMaybe<Scalars['String']['input']>;
+  averageEuSalary_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  averageUsSalary?: InputMaybe<Scalars['String']['input']>;
+  averageUsSalary_contains?: InputMaybe<Scalars['String']['input']>;
+  averageUsSalary_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  averageUsSalary_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  averageUsSalary_not?: InputMaybe<Scalars['String']['input']>;
+  averageUsSalary_not_contains?: InputMaybe<Scalars['String']['input']>;
+  averageUsSalary_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
   contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
@@ -1188,48 +1126,6 @@ export type CategoryOrJobDetailsFilter = {
   contentfulName_not?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  courseCount?: InputMaybe<Scalars['String']['input']>;
-  courseCount_contains?: InputMaybe<Scalars['String']['input']>;
-  courseCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  courseCount_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  courseCount_not?: InputMaybe<Scalars['String']['input']>;
-  courseCount_not_contains?: InputMaybe<Scalars['String']['input']>;
-  courseCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  duration_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  duration_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  duration_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  duration_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  finalCost?: InputMaybe<Scalars['Float']['input']>;
-  finalCost_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  finalCost_gt?: InputMaybe<Scalars['Float']['input']>;
-  finalCost_gte?: InputMaybe<Scalars['Float']['input']>;
-  finalCost_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
-  finalCost_lt?: InputMaybe<Scalars['Float']['input']>;
-  finalCost_lte?: InputMaybe<Scalars['Float']['input']>;
-  finalCost_not?: InputMaybe<Scalars['Float']['input']>;
-  finalCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
-  language_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  language_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  language_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  language_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  level_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  level_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  level_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  level_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  pace?: InputMaybe<Scalars['String']['input']>;
-  pace_contains?: InputMaybe<Scalars['String']['input']>;
-  pace_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  pace_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  pace_not?: InputMaybe<Scalars['String']['input']>;
-  pace_not_contains?: InputMaybe<Scalars['String']['input']>;
-  pace_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  programStarts?: InputMaybe<Scalars['String']['input']>;
-  programStarts_contains?: InputMaybe<Scalars['String']['input']>;
-  programStarts_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  programStarts_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  programStarts_not?: InputMaybe<Scalars['String']['input']>;
-  programStarts_not_contains?: InputMaybe<Scalars['String']['input']>;
-  programStarts_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   shortDescription?: InputMaybe<Scalars['String']['input']>;
   shortDescription_contains?: InputMaybe<Scalars['String']['input']>;
   shortDescription_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -1237,15 +1133,6 @@ export type CategoryOrJobDetailsFilter = {
   shortDescription_not?: InputMaybe<Scalars['String']['input']>;
   shortDescription_not_contains?: InputMaybe<Scalars['String']['input']>;
   shortDescription_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  startingCost?: InputMaybe<Scalars['Float']['input']>;
-  startingCost_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  startingCost_gt?: InputMaybe<Scalars['Float']['input']>;
-  startingCost_gte?: InputMaybe<Scalars['Float']['input']>;
-  startingCost_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
-  startingCost_lt?: InputMaybe<Scalars['Float']['input']>;
-  startingCost_lte?: InputMaybe<Scalars['Float']['input']>;
-  startingCost_not?: InputMaybe<Scalars['Float']['input']>;
-  startingCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
   studentsCount?: InputMaybe<Scalars['Int']['input']>;
   studentsCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
   studentsCount_gt?: InputMaybe<Scalars['Int']['input']>;
@@ -1255,13 +1142,6 @@ export type CategoryOrJobDetailsFilter = {
   studentsCount_lte?: InputMaybe<Scalars['Int']['input']>;
   studentsCount_not?: InputMaybe<Scalars['Int']['input']>;
   studentsCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
-  style?: InputMaybe<Scalars['String']['input']>;
-  style_contains?: InputMaybe<Scalars['String']['input']>;
-  style_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  style_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  style_not?: InputMaybe<Scalars['String']['input']>;
-  style_not_contains?: InputMaybe<Scalars['String']['input']>;
-  style_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   summary?: InputMaybe<Scalars['String']['input']>;
   summary_contains?: InputMaybe<Scalars['String']['input']>;
   summary_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -1270,13 +1150,6 @@ export type CategoryOrJobDetailsFilter = {
   summary_not_contains?: InputMaybe<Scalars['String']['input']>;
   summary_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   sys?: InputMaybe<SysFilter>;
-  timeLeft?: InputMaybe<Scalars['String']['input']>;
-  timeLeft_contains?: InputMaybe<Scalars['String']['input']>;
-  timeLeft_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  timeLeft_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  timeLeft_not?: InputMaybe<Scalars['String']['input']>;
-  timeLeft_not_contains?: InputMaybe<Scalars['String']['input']>;
-  timeLeft_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   title?: InputMaybe<Scalars['String']['input']>;
   title_contains?: InputMaybe<Scalars['String']['input']>;
   title_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -1293,14 +1166,6 @@ export type CategoryOrJobDetailsFilter = {
   userReviews_lte?: InputMaybe<Scalars['Float']['input']>;
   userReviews_not?: InputMaybe<Scalars['Float']['input']>;
   userReviews_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
-  videoThumbnail_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  videoUrl?: InputMaybe<Scalars['String']['input']>;
-  videoUrl_contains?: InputMaybe<Scalars['String']['input']>;
-  videoUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  videoUrl_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  videoUrl_not?: InputMaybe<Scalars['String']['input']>;
-  videoUrl_not_contains?: InputMaybe<Scalars['String']['input']>;
-  videoUrl_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
 };
 
 export type CategoryOrJobDetailsLinkingCollections = {
@@ -1352,26 +1217,16 @@ export enum CategoryOrJobDetailsLinkingCollectionsPageCollectionOrder {
 }
 
 export enum CategoryOrJobDetailsOrder {
-  ApplicationDeadlineAsc = 'applicationDeadline_ASC',
-  ApplicationDeadlineDesc = 'applicationDeadline_DESC',
+  AverageEuSalaryAsc = 'averageEuSalary_ASC',
+  AverageEuSalaryDesc = 'averageEuSalary_DESC',
+  AverageUsSalaryAsc = 'averageUsSalary_ASC',
+  AverageUsSalaryDesc = 'averageUsSalary_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
-  CourseCountAsc = 'courseCount_ASC',
-  CourseCountDesc = 'courseCount_DESC',
-  FinalCostAsc = 'finalCost_ASC',
-  FinalCostDesc = 'finalCost_DESC',
-  PaceAsc = 'pace_ASC',
-  PaceDesc = 'pace_DESC',
-  ProgramStartsAsc = 'programStarts_ASC',
-  ProgramStartsDesc = 'programStarts_DESC',
   ShortDescriptionAsc = 'shortDescription_ASC',
   ShortDescriptionDesc = 'shortDescription_DESC',
-  StartingCostAsc = 'startingCost_ASC',
-  StartingCostDesc = 'startingCost_DESC',
   StudentsCountAsc = 'studentsCount_ASC',
   StudentsCountDesc = 'studentsCount_DESC',
-  StyleAsc = 'style_ASC',
-  StyleDesc = 'style_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
   SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
   SysIdAsc = 'sys_id_ASC',
@@ -1380,14 +1235,10 @@ export enum CategoryOrJobDetailsOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
-  TimeLeftAsc = 'timeLeft_ASC',
-  TimeLeftDesc = 'timeLeft_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   UserReviewsAsc = 'userReviews_ASC',
-  UserReviewsDesc = 'userReviews_DESC',
-  VideoUrlAsc = 'videoUrl_ASC',
-  VideoUrlDesc = 'videoUrl_DESC'
+  UserReviewsDesc = 'userReviews_DESC'
 }
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/richText) */
@@ -4061,7 +3912,7 @@ export type CardFieldsFragment = { __typename?: 'Card', title?: string | null, t
 
 export type CourseDetailsFieldsFragment = { __typename?: 'CourseDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, duration?: Array<string | null> | null, language?: Array<string | null> | null, pace?: string | null, level?: Array<string | null> | null, style?: string | null, courseCount?: string | null, programStarts?: string | null, applicationDeadline?: string | null, studentsCount?: number | null, userReviews?: number | null, startingCost?: number | null, finalCost?: number | null, timeLeft?: string | null, sys: { __typename?: 'Sys', id: string }, videoThumbnail?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null };
 
-export type CategoryOrJobDetailsFieldsFragment = { __typename?: 'CategoryOrJobDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, duration?: Array<string | null> | null, language?: Array<string | null> | null, pace?: string | null, level?: Array<string | null> | null, style?: string | null, courseCount?: string | null, programStarts?: string | null, applicationDeadline?: string | null, studentsCount?: number | null, userReviews?: number | null, startingCost?: number | null, finalCost?: number | null, timeLeft?: string | null, videoUrl?: string | null, sys: { __typename?: 'Sys', id: string }, videoThumbnail?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null };
+export type CategoryOrJobDetailsFieldsFragment = { __typename?: 'CategoryOrJobDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, studentsCount?: number | null, userReviews?: number | null, averageUsSalary?: string | null, averageEuSalary?: string | null, sys: { __typename?: 'Sys', id: string }, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null };
 
 export type PeopleDetailsFieldsFragment = { __typename?: 'PeopleDetails', name?: string | null, role?: string | null, company?: string | null, text?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, sys: { __typename?: 'Sys', id: string }, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null };
 
@@ -4107,7 +3958,7 @@ export type CateogoryOrJobDetailsCollectionQueryVariables = Exact<{
 }>;
 
 
-export type CateogoryOrJobDetailsCollectionQuery = { __typename?: 'Query', categoryOrJobDetailsCollection?: { __typename?: 'CategoryOrJobDetailsCollection', items: Array<{ __typename?: 'CategoryOrJobDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, duration?: Array<string | null> | null, language?: Array<string | null> | null, pace?: string | null, level?: Array<string | null> | null, style?: string | null, courseCount?: string | null, programStarts?: string | null, applicationDeadline?: string | null, studentsCount?: number | null, userReviews?: number | null, startingCost?: number | null, finalCost?: number | null, timeLeft?: string | null, videoUrl?: string | null, sys: { __typename?: 'Sys', id: string }, videoThumbnail?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null } | null> } | null };
+export type CateogoryOrJobDetailsCollectionQuery = { __typename?: 'Query', categoryOrJobDetailsCollection?: { __typename?: 'CategoryOrJobDetailsCollection', items: Array<{ __typename?: 'CategoryOrJobDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, studentsCount?: number | null, userReviews?: number | null, averageUsSalary?: string | null, averageEuSalary?: string | null, sys: { __typename?: 'Sys', id: string }, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null } | null> } | null };
 
 export type PeopleDetailsCollectionQueryVariables = Exact<{
   where?: InputMaybe<PeopleDetailsFilter>;
@@ -4186,7 +4037,7 @@ export const AssetFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":
 export const ActionFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"ActionFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Action"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"internal"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}},{"kind":"Field","name":{"kind":"Name","value":"external"}},{"kind":"Field","name":{"kind":"Name","value":"externalType"}},{"kind":"Field","name":{"kind":"Name","value":"icon"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}},{"kind":"Field","name":{"kind":"Name","value":"iconPlacement"}},{"kind":"Field","name":{"kind":"Name","value":"color"}},{"kind":"Field","name":{"kind":"Name","value":"variant"}},{"kind":"Field","name":{"kind":"Name","value":"behaviour"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<ActionFieldsFragment, unknown>;
 export const CardFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CardFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Card"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"text"}},{"kind":"Field","name":{"kind":"Name","value":"variant"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}},{"kind":"Field","name":{"kind":"Name","value":"actionsCollection"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"InlineFragment","typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Entry"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<CardFieldsFragment, unknown>;
 export const CourseDetailsFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CourseDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"CourseDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"summary"}},{"kind":"Field","name":{"kind":"Name","value":"shortDescription"}},{"kind":"Field","name":{"kind":"Name","value":"duration"}},{"kind":"Field","name":{"kind":"Name","value":"language"}},{"kind":"Field","name":{"kind":"Name","value":"pace"}},{"kind":"Field","name":{"kind":"Name","value":"level"}},{"kind":"Field","name":{"kind":"Name","value":"style"}},{"kind":"Field","name":{"kind":"Name","value":"courseCount"}},{"kind":"Field","name":{"kind":"Name","value":"programStarts"}},{"kind":"Field","name":{"kind":"Name","value":"applicationDeadline"}},{"kind":"Field","name":{"kind":"Name","value":"studentsCount"}},{"kind":"Field","name":{"kind":"Name","value":"userReviews"}},{"kind":"Field","name":{"kind":"Name","value":"startingCost"}},{"kind":"Field","name":{"kind":"Name","value":"finalCost"}},{"kind":"Field","name":{"kind":"Name","value":"timeLeft"}},{"kind":"Field","name":{"kind":"Name","value":"videoThumbnail"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<CourseDetailsFieldsFragment, unknown>;
-export const CategoryOrJobDetailsFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CategoryOrJobDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"CategoryOrJobDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"summary"}},{"kind":"Field","name":{"kind":"Name","value":"shortDescription"}},{"kind":"Field","name":{"kind":"Name","value":"duration"}},{"kind":"Field","name":{"kind":"Name","value":"language"}},{"kind":"Field","name":{"kind":"Name","value":"pace"}},{"kind":"Field","name":{"kind":"Name","value":"level"}},{"kind":"Field","name":{"kind":"Name","value":"style"}},{"kind":"Field","name":{"kind":"Name","value":"courseCount"}},{"kind":"Field","name":{"kind":"Name","value":"programStarts"}},{"kind":"Field","name":{"kind":"Name","value":"applicationDeadline"}},{"kind":"Field","name":{"kind":"Name","value":"studentsCount"}},{"kind":"Field","name":{"kind":"Name","value":"userReviews"}},{"kind":"Field","name":{"kind":"Name","value":"startingCost"}},{"kind":"Field","name":{"kind":"Name","value":"finalCost"}},{"kind":"Field","name":{"kind":"Name","value":"timeLeft"}},{"kind":"Field","name":{"kind":"Name","value":"videoUrl"}},{"kind":"Field","name":{"kind":"Name","value":"videoThumbnail"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<CategoryOrJobDetailsFieldsFragment, unknown>;
+export const CategoryOrJobDetailsFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CategoryOrJobDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"CategoryOrJobDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"summary"}},{"kind":"Field","name":{"kind":"Name","value":"shortDescription"}},{"kind":"Field","name":{"kind":"Name","value":"studentsCount"}},{"kind":"Field","name":{"kind":"Name","value":"userReviews"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}},{"kind":"Field","name":{"kind":"Name","value":"averageUsSalary"}},{"kind":"Field","name":{"kind":"Name","value":"averageEuSalary"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<CategoryOrJobDetailsFieldsFragment, unknown>;
 export const PeopleDetailsFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"PeopleDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"PeopleDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"role"}},{"kind":"Field","name":{"kind":"Name","value":"company"}},{"kind":"Field","name":{"kind":"Name","value":"text"}},{"kind":"Field","name":{"kind":"Name","value":"expertise"}},{"kind":"Field","name":{"kind":"Name","value":"linkedIn"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<PeopleDetailsFieldsFragment, unknown>;
 export const ResourceDetailsFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"ResourceDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"ResourceDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"topics"}},{"kind":"Field","name":{"kind":"Name","value":"publicationDate"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<ResourceDetailsFieldsFragment, unknown>;
 export const ContentTypeRichTextFieldsFragmentDoc = {"kind":"Document","definitions":[{"kind":"FragmentDefinition","name":{"kind":"Name","value":"ContentTypeRichTextFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"ContentTypeRichText"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"body"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"json"}},{"kind":"Field","name":{"kind":"Name","value":"links"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"entries"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"block"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"__typename"}},{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"inline"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"__typename"}},{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"assets"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"block"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"variant"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}}]} as unknown as DocumentNode<ContentTypeRichTextFieldsFragment, unknown>;
@@ -4197,7 +4048,7 @@ export const PlaygroundPageSlugsDocument = {"kind":"Document","definitions":[{"k
 export const PageSlugsDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"PageSlugs"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"pageCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"ObjectValue","fields":[{"kind":"ObjectField","name":{"kind":"Name","value":"slug_not_in"},"value":{"kind":"ListValue","values":[{"kind":"StringValue","value":"404","block":false}]}},{"kind":"ObjectField","name":{"kind":"Name","value":"variant_not_in"},"value":{"kind":"ListValue","values":[{"kind":"StringValue","value":"Playground","block":false}]}}]}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"IntValue","value":"100"}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"slug"}}]}}]}}]}}]} as unknown as DocumentNode<PageSlugsQuery, PageSlugsQueryVariables>;
 export const PageCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"PageCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"PageFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"pageCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"PageFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"PageFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Page"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"variant"}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"slug"}},{"kind":"Field","name":{"kind":"Name","value":"tags"}},{"kind":"Field","name":{"kind":"Name","value":"seoTitle"}},{"kind":"Field","name":{"kind":"Name","value":"seoDescription"}},{"kind":"Field","name":{"kind":"Name","value":"seoImage"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}},{"kind":"Field","name":{"kind":"Name","value":"theme"}},{"kind":"Field","name":{"kind":"Name","value":"contentCollection"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"InlineFragment","typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Entry"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}}]}}]}}]}}]} as unknown as DocumentNode<PageCollectionQuery, PageCollectionQueryVariables>;
 export const CourseDetailsCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"CourseDetailsCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"CourseDetailsFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"courseDetailsCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"CourseDetailsFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CourseDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"CourseDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"summary"}},{"kind":"Field","name":{"kind":"Name","value":"shortDescription"}},{"kind":"Field","name":{"kind":"Name","value":"duration"}},{"kind":"Field","name":{"kind":"Name","value":"language"}},{"kind":"Field","name":{"kind":"Name","value":"pace"}},{"kind":"Field","name":{"kind":"Name","value":"level"}},{"kind":"Field","name":{"kind":"Name","value":"style"}},{"kind":"Field","name":{"kind":"Name","value":"courseCount"}},{"kind":"Field","name":{"kind":"Name","value":"programStarts"}},{"kind":"Field","name":{"kind":"Name","value":"applicationDeadline"}},{"kind":"Field","name":{"kind":"Name","value":"studentsCount"}},{"kind":"Field","name":{"kind":"Name","value":"userReviews"}},{"kind":"Field","name":{"kind":"Name","value":"startingCost"}},{"kind":"Field","name":{"kind":"Name","value":"finalCost"}},{"kind":"Field","name":{"kind":"Name","value":"timeLeft"}},{"kind":"Field","name":{"kind":"Name","value":"videoThumbnail"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}}]} as unknown as DocumentNode<CourseDetailsCollectionQuery, CourseDetailsCollectionQueryVariables>;
-export const CateogoryOrJobDetailsCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"CateogoryOrJobDetailsCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"CategoryOrJobDetailsFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"categoryOrJobDetailsCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"CategoryOrJobDetailsFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CategoryOrJobDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"CategoryOrJobDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"summary"}},{"kind":"Field","name":{"kind":"Name","value":"shortDescription"}},{"kind":"Field","name":{"kind":"Name","value":"duration"}},{"kind":"Field","name":{"kind":"Name","value":"language"}},{"kind":"Field","name":{"kind":"Name","value":"pace"}},{"kind":"Field","name":{"kind":"Name","value":"level"}},{"kind":"Field","name":{"kind":"Name","value":"style"}},{"kind":"Field","name":{"kind":"Name","value":"courseCount"}},{"kind":"Field","name":{"kind":"Name","value":"programStarts"}},{"kind":"Field","name":{"kind":"Name","value":"applicationDeadline"}},{"kind":"Field","name":{"kind":"Name","value":"studentsCount"}},{"kind":"Field","name":{"kind":"Name","value":"userReviews"}},{"kind":"Field","name":{"kind":"Name","value":"startingCost"}},{"kind":"Field","name":{"kind":"Name","value":"finalCost"}},{"kind":"Field","name":{"kind":"Name","value":"timeLeft"}},{"kind":"Field","name":{"kind":"Name","value":"videoUrl"}},{"kind":"Field","name":{"kind":"Name","value":"videoThumbnail"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}}]} as unknown as DocumentNode<CateogoryOrJobDetailsCollectionQuery, CateogoryOrJobDetailsCollectionQueryVariables>;
+export const CateogoryOrJobDetailsCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"CateogoryOrJobDetailsCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"CategoryOrJobDetailsFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"categoryOrJobDetailsCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"CategoryOrJobDetailsFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"CategoryOrJobDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"CategoryOrJobDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"summary"}},{"kind":"Field","name":{"kind":"Name","value":"shortDescription"}},{"kind":"Field","name":{"kind":"Name","value":"studentsCount"}},{"kind":"Field","name":{"kind":"Name","value":"userReviews"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}},{"kind":"Field","name":{"kind":"Name","value":"averageUsSalary"}},{"kind":"Field","name":{"kind":"Name","value":"averageEuSalary"}}]}}]} as unknown as DocumentNode<CateogoryOrJobDetailsCollectionQuery, CateogoryOrJobDetailsCollectionQueryVariables>;
 export const PeopleDetailsCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"PeopleDetailsCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"PeopleDetailsFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"peopleDetailsCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"PeopleDetailsFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"PeopleDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"PeopleDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"role"}},{"kind":"Field","name":{"kind":"Name","value":"company"}},{"kind":"Field","name":{"kind":"Name","value":"text"}},{"kind":"Field","name":{"kind":"Name","value":"expertise"}},{"kind":"Field","name":{"kind":"Name","value":"linkedIn"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}}]} as unknown as DocumentNode<PeopleDetailsCollectionQuery, PeopleDetailsCollectionQueryVariables>;
 export const ResourceDetailsCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"ResourceDetailsCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"ResourceDetailsFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"resourceDetailsCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"ResourceDetailsFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"ResourceDetailsFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"ResourceDetails"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"name"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"topics"}},{"kind":"Field","name":{"kind":"Name","value":"publicationDate"}},{"kind":"Field","name":{"kind":"Name","value":"asset"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}}]} as unknown as DocumentNode<ResourceDetailsCollectionQuery, ResourceDetailsCollectionQueryVariables>;
 export const ContentTypeRichTextCollectionDocument = {"kind":"Document","definitions":[{"kind":"OperationDefinition","operation":"query","name":{"kind":"Name","value":"ContentTypeRichTextCollection"},"variableDefinitions":[{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"where"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"ContentTypeRichTextFilter"}}},{"kind":"VariableDefinition","variable":{"kind":"Variable","name":{"kind":"Name","value":"limit"}},"type":{"kind":"NamedType","name":{"kind":"Name","value":"Int"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"contentTypeRichTextCollection"},"arguments":[{"kind":"Argument","name":{"kind":"Name","value":"where"},"value":{"kind":"Variable","name":{"kind":"Name","value":"where"}}},{"kind":"Argument","name":{"kind":"Name","value":"limit"},"value":{"kind":"Variable","name":{"kind":"Name","value":"limit"}}}],"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"items"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"ContentTypeRichTextFields"}}]}}]}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"AssetFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"Asset"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"url"}},{"kind":"Field","name":{"kind":"Name","value":"width"}},{"kind":"Field","name":{"kind":"Name","value":"height"}},{"kind":"Field","name":{"kind":"Name","value":"title"}},{"kind":"Field","name":{"kind":"Name","value":"description"}},{"kind":"Field","name":{"kind":"Name","value":"contentType"}}]}},{"kind":"FragmentDefinition","name":{"kind":"Name","value":"ContentTypeRichTextFields"},"typeCondition":{"kind":"NamedType","name":{"kind":"Name","value":"ContentTypeRichText"}},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}},{"kind":"Field","name":{"kind":"Name","value":"body"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"json"}},{"kind":"Field","name":{"kind":"Name","value":"links"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"entries"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"block"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"__typename"}},{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"inline"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"__typename"}},{"kind":"Field","name":{"kind":"Name","value":"sys"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"id"}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"assets"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"Field","name":{"kind":"Name","value":"block"},"selectionSet":{"kind":"SelectionSet","selections":[{"kind":"FragmentSpread","name":{"kind":"Name","value":"AssetFields"}}]}}]}}]}}]}},{"kind":"Field","name":{"kind":"Name","value":"variant"}}]}}]} as unknown as DocumentNode<ContentTypeRichTextCollectionQuery, ContentTypeRichTextCollectionQueryVariables>;
