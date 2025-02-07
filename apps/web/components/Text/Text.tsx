@@ -4,7 +4,7 @@ import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./Text.module.scss";
 
 type TextElement = React.ElementRef<"p">;
-interface PropsType extends ComponentPropsWithoutRef<"p"> {
+export interface TextProps extends ComponentPropsWithoutRef<"p"> {
   asChild?: boolean;
   as?: keyof JSX.IntrinsicElements;
   size?:
@@ -22,7 +22,7 @@ interface PropsType extends ComponentPropsWithoutRef<"p"> {
     | "caption";
 }
 
-const Text = forwardRef<TextElement, PropsType>((props, forwardedRef) => {
+const Text = forwardRef<TextElement, TextProps>((props, forwardedRef) => {
   const { children, className, asChild, size, as: Tag = "p", ...rest } = props;
 
   const classNameComparator = size || Tag;

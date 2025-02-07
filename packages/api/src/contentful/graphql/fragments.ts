@@ -8,6 +8,7 @@ export const ASSET_FIELDS = graphql(`
     url
     width
     height
+    title
     description
     contentType
   }
@@ -102,6 +103,34 @@ export const COURSE_DETAILS_FIELDS = graphql(`
   }
 `);
 
+export const CATEGORY_OR_JOB_DETAILS_FIELDS = graphql(`
+  fragment CategoryOrJobDetailsFields on CategoryOrJobDetails {
+    sys {
+      id
+    }
+    title
+    summary
+    shortDescription
+    duration
+    language
+    pace
+    level
+    style
+    courseCount
+    programStarts
+    applicationDeadline
+    studentsCount
+    userReviews
+    startingCost
+    finalCost
+    timeLeft
+    videoUrl
+    videoThumbnail {
+      ...AssetFields
+    }
+  }
+`);
+
 export const PEOPLE_DETAILS_FIELDS = graphql(`
   fragment PeopleDetailsFields on PeopleDetails {
     sys {
@@ -141,6 +170,27 @@ export const CONTENT_TYPE_RICH_TEXT_FIELDS = graphql(`
     }
     body {
       json
+      links {
+        entries {
+          block {
+            __typename
+            sys {
+              id
+            }
+          }
+          inline {
+            __typename
+            sys {
+              id
+            }
+          }
+        }
+        assets {
+          block {
+            ...AssetFields
+          }
+        }
+      }
     }
     variant
   }

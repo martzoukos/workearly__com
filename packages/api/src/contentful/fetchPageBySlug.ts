@@ -11,8 +11,8 @@ import fetchCollectionByIds from "./fetchCollectionByIds";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
   ACTION_COLLECTION_QUERY,
-  ASSET_COLLECTION_QUERY,
   CARD_COLLECTION_QUERY,
+  CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY,
   CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
   COURSE_DETAILS_COLLECTION_QUERY,
   PAGE_COLLECTION_QUERY,
@@ -54,7 +54,7 @@ async function getPageRelationships(
   page: QueryItem["Page"]
 ): Promise<RelationshipMap> {
   const pageSectionIds = extractPageRecursiveChildIds(
-    { pages: [page] },
+    { pageCollection: [page] },
     "Section"
   );
   const pageSectionCollection = await fetchCollectionByIds(client, {
@@ -64,7 +64,7 @@ async function getPageRelationships(
   });
 
   const sectionIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: pageSectionCollection },
+    { pageCollection: [page], sectionCollection: pageSectionCollection },
     "Section"
   );
   const sectionCollection = await fetchCollectionByIds(client, {
@@ -74,7 +74,7 @@ async function getPageRelationships(
   });
 
   const contentTypeRichTextIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: sectionCollection },
+    { pageCollection: [page], sectionCollection },
     "ContentTypeRichText"
   );
   const contentTypeRichTextCollection = await fetchCollectionByIds(client, {
@@ -85,7 +85,7 @@ async function getPageRelationships(
   });
 
   const uniqueComponentIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: sectionCollection },
+    { pageCollection: [page], sectionCollection },
     "UniqueComponent"
   );
   const uniqueComponentCollection = await fetchCollectionByIds(client, {
@@ -96,7 +96,7 @@ async function getPageRelationships(
   });
 
   const accordionCardIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: sectionCollection },
+    { pageCollection: [page], sectionCollection },
     "AccordionCard"
   );
   const accordionCardCollection = await fetchCollectionByIds(client, {
@@ -107,7 +107,7 @@ async function getPageRelationships(
   });
 
   const childPageIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: sectionCollection },
+    { pageCollection: [page], sectionCollection },
     "Page"
   );
   const childPageCollection = await fetchCollectionByIds(client, {
@@ -118,7 +118,7 @@ async function getPageRelationships(
   const pageCollection = [page, ...childPageCollection];
 
   const peopleDetailsIds = extractPageRecursiveChildIds(
-    { pages: pageCollection, sections: sectionCollection },
+    { pageCollection, sectionCollection, contentTypeRichTextCollection },
     "PeopleDetails"
   );
   const peopleDetailsCollection = await fetchCollectionByIds(client, {
@@ -129,7 +129,7 @@ async function getPageRelationships(
   });
 
   const courseDetailsIds = extractPageRecursiveChildIds(
-    { pages: pageCollection, sections: sectionCollection },
+    { pageCollection, sectionCollection },
     "CourseDetails"
   );
   const courseDetailsCollection = await fetchCollectionByIds(client, {
@@ -140,7 +140,7 @@ async function getPageRelationships(
   });
 
   const resourceDetailsIds = extractPageRecursiveChildIds(
-    { pages: pageCollection, sections: sectionCollection },
+    { pageCollection, sectionCollection },
     "ResourceDetails"
   );
 
@@ -151,8 +151,24 @@ async function getPageRelationships(
       data?.resourceDetailsCollection?.items.filter(isDefined) || [],
   });
 
+  const categoryOrJobDetailsIds = extractPageRecursiveChildIds(
+    { pageCollection, sectionCollection },
+    "CategoryOrJobDetails"
+  );
+
+  const categoryOrJobDetailsCollection = await fetchCollectionByIds(client, {
+    ids: categoryOrJobDetailsIds,
+    query: CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY,
+    mapItems: (data) =>
+      data?.categoryOrJobDetailsCollection?.items.filter(isDefined) || [],
+  });
+
   const cardIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: sectionCollection },
+    {
+      pageCollection: [page],
+      sectionCollection,
+      contentTypeRichTextCollection,
+    },
     "Card"
   );
   const cardCollection = await fetchCollectionByIds(client, {
@@ -162,7 +178,7 @@ async function getPageRelationships(
   });
 
   const actionIds = extractPageRecursiveChildIds(
-    { pages: [page], sections: sectionCollection, cards: cardCollection },
+    { pageCollection: [page], sectionCollection, cardCollection },
     "Action"
   );
   const actionCollection = await fetchCollectionByIds(client, {
@@ -182,6 +198,7 @@ async function getPageRelationships(
     actionCollection,
     cardCollection,
     pageCollection,
+    categoryOrJobDetailsCollection,
   };
 
   return relationshipMap;
@@ -189,19 +206,20 @@ async function getPageRelationships(
 
 function extractPageRecursiveChildIds(
   entities: {
-    pages: QueryItem["Page"][];
-    sections?: QueryItem["Section"][];
-    cards?: QueryItem["Card"][];
+    pageCollection: QueryItem["Page"][];
+    sectionCollection?: QueryItem["Section"][];
+    cardCollection?: QueryItem["Card"][];
+    contentTypeRichTextCollection?: QueryItem["ContentTypeRichText"][];
   },
   contentTypeName: RelationshipMapTypeName
 ) {
   const pageChildIds =
-    entities.pages?.flatMap((page) =>
+    entities.pageCollection?.flatMap((page) =>
       extractPageChildIds(page, contentTypeName as PageReferenceTypeName)
     ) || [];
 
   const sectionChildIds =
-    entities.sections?.flatMap((section) =>
+    entities.sectionCollection?.flatMap((section) =>
       extractSectionChildIds(
         section,
         contentTypeName as SectionReferenceTypeName
@@ -209,11 +227,26 @@ function extractPageRecursiveChildIds(
     ) || [];
 
   const cardChildIds =
-    entities.cards?.flatMap((card) =>
+    entities.cardCollection?.flatMap((card) =>
       extractCardChildIds(card, contentTypeName as CardReferenceTypeName)
     ) || [];
 
-  return [...new Set([...pageChildIds, ...sectionChildIds, ...cardChildIds])];
+  const contentTypeRichTextChildIds =
+    entities.contentTypeRichTextCollection?.flatMap((contentTypeRichText) =>
+      extractContentTypeRichTextChildIds(
+        contentTypeRichText,
+        contentTypeName as RelationshipMapTypeName
+      )
+    ) || [];
+
+  return [
+    ...new Set([
+      ...pageChildIds,
+      ...sectionChildIds,
+      ...cardChildIds,
+      ...contentTypeRichTextChildIds,
+    ]),
+  ];
 }
 
 function extractPageChildIds(
@@ -256,4 +289,22 @@ function extractCardChildIds(
   }
 
   return [];
+}
+
+function extractContentTypeRichTextChildIds(
+  richText: QueryItem["ContentTypeRichText"],
+  contentTypeName: RelationshipMapTypeName
+) {
+  const blockIds =
+    richText.body?.links.entries.block
+      .filter((item) => item?.__typename === contentTypeName)
+      .map((item) => item?.sys.id)
+      .filter(isDefined) || [];
+  const inlineIds =
+    richText.body?.links.entries.inline
+      .filter((item) => item?.__typename === contentTypeName)
+      .map((item) => item?.sys.id)
+      .filter(isDefined) || [];
+
+  return [...blockIds, ...inlineIds];
 }

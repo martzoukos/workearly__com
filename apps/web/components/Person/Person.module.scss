@@ -1,10 +1,20 @@
 .root {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: var(--gap);
 }
 
 .image {
-  border: 1px solid black;
-  border-radius: 0.2rem;
+  border: 1px solid hsl(var(--color-black-500));
+  border-radius: var(--image-border-radius);
+}
+
+.sizeCaption {
+  --gap: 0.5rem;
+  --image-border-radius: 0.2rem;
+}
+
+.sizeSmall {
+  --gap: 0.8rem;
+  --image-border-radius: 0.5rem;
 }

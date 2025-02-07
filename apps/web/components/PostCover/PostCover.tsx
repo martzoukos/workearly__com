@@ -19,10 +19,9 @@ export default function PostCover() {
   }
 
   return (
-    <div className={styles.root}>
+    <section className={styles.root}>
       <div className={styles.contentWrapper}>
         <Breadcrumbs
-          dividerChar="/"
           items={[
             { name: "Home", href: "/" },
             { name: "Blog", href: "/blog" },
@@ -75,6 +74,6 @@ export default function PostCover() {
           />
         </div>
       )}
-    </div>
+    </section>
   );
 }
