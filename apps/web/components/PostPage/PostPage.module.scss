@@ -13,3 +13,13 @@
   grid-template-columns: 1fr 2.5fr 1fr;
   gap: 3.5rem;
 }
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.viewAllButton {
+  margin-inline: auto;
+}

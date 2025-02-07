@@ -3,6 +3,20 @@ import { useContentful } from "../stores/ContentfulStore";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
 
+const DATA_MAP = {
+  variants: [
+    "Default",
+    "Post",
+    "Course",
+    "Playground",
+    "Post",
+    "Job Title",
+    "Category",
+    "Framed",
+    "Person",
+  ],
+} as const;
+
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
 

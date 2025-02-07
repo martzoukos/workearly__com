@@ -129,7 +129,9 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
     name
     role
     company
-    text
+    text {
+      json
+    }
     expertise
     linkedIn
     asset {
