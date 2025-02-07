@@ -8,6 +8,7 @@ import PostOutline from "../PostOutline/PostOutline";
 import Link from "next/link";
 import Button from "../Button/Button";
 import { ArrowRightIcon } from "@workearly/icons";
+import PostAuthor from "../PostAuthor/PostAuthor";
 
 type PropsType = {
   className?: string;
@@ -37,7 +38,7 @@ export default function CoursePage({ className }: PropsType) {
             </Link>
           </Button>
         </div>
-        <aside></aside>
+        <PostAuthor />
       </section>
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />
