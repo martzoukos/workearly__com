@@ -4,10 +4,8 @@ import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import PageItem from "../PageItem/PageItem";
 import usePageResolver from "../../hooks/usePageResolver";
-import CallOutCard from "../Cards/CallOutCard/CallOutCard";
-import RichCard from "../Cards/RichCard/RichCard";
-import LogoCarousel from "../LogoCarousel/LogoCarousel";
-import PeopleDetails from "../PeopleDetails/PeopleDetails";
+import CourseCard from "../Cards/CourseCard/CourseCard";
+import RelatedProjectCard from "../Cards/RelatedProjectCard/RelatedProjectCard";
 
 type PropsType = {
   className?: string;
@@ -16,13 +14,6 @@ type PropsType = {
 export default function PlaygroundPage({ className }: PropsType) {
   const { page } = useContentful();
   const { preDividerItems, postDividerItems } = usePageResolver(page);
-
-  // console.log(
-  //   items.filter((item) => item?.__typename === "Section"),
-  //   relationshipMap.sectionCollection.find(
-  //     (item) => item.sys.id === "7806hsWKKyTfL1aGFulMKd"
-  //   )
-  // );
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -38,13 +29,7 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
-        {/* <VideoTetimonial />
-        <ArticleCard />
-        <ArticleSideCard />
-        <PeopleCard /> */}
-        {/* <RichCard />
-        <CallOutCard /> */}
-        {/* <PeopleDetails /> */}
+        <RelatedProjectCard />
         {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem
             key={item?.sys.id}
