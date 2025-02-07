@@ -6,6 +6,7 @@ import PageItem from "../PageItem/PageItem";
 import usePageResolver from "../../hooks/usePageResolver";
 import CourseCard from "../Cards/CourseCard/CourseCard";
 import RelatedProjectCard from "../Cards/RelatedProjectCard/RelatedProjectCard";
+import PartnerHero from "../PartnerHero/PartnerHero";
 
 type PropsType = {
   className?: string;
@@ -29,6 +30,7 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
+        <PartnerHero />
         <RelatedProjectCard />
         {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem

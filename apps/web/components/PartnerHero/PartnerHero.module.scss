@@ -1,0 +1,27 @@
+.root {
+  display: grid;
+  color: black;
+  background-color: hsl(var(--color-neutral-500));
+  border-radius: 1rem;
+  gap: 10%;
+  min-height: 30rem;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 3.5rem;
+  padding-top: 2.5rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.mediaContainer {
+  display: flex;
+}
+
+.media {
+  width: fit-content;
+  height: auto;
+  object-fit: contain;
+}
