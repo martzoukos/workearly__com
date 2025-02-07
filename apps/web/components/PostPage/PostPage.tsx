@@ -1,11 +1,10 @@
-import Link from "next/link";
-import styles from "./PostPage.module.scss";
-import { useContentful } from "../../stores/ContentfulStore";
 import clsx from "clsx";
-import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
-import PageItem from "../PageItem/PageItem";
 import usePageResolver from "../../hooks/usePageResolver";
+import { useContentful } from "../../stores/ContentfulStore";
+import PageItem from "../PageItem/PageItem";
 import PostCover from "../PostCover/PostCover";
+import styles from "./PostPage.module.scss";
+import PostOutline from "../PostOutline/PostOutline";
 
 type PropsType = {
   className?: string;
@@ -16,11 +15,17 @@ export default function CoursePage({ className }: PropsType) {
   const { preDividerItems } = usePageResolver(page);
 
   return (
-    <main className={clsx(styles.root, className)}>
+    <article className={clsx(styles.root, className)}>
       <PostCover />
-      {preDividerItems.map((item) => (
-        <PageItem key={item?.sys.id} item={item} />
-      ))}
-    </main>
+      <section className={styles.content}>
+        <PostOutline />
+        <div>
+          {preDividerItems.map((item) => (
+            <PageItem key={item?.sys.id} item={item} />
+          ))}
+        </div>
+        <aside></aside>
+      </section>
+    </article>
   );
 }

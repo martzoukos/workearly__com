@@ -50,6 +50,14 @@ const nextConfig = {
         protocol: "https",
         hostname: "downloads.ctfassets.net",
       },
+      {
+        protocol: "http",
+        hostname: "videos.ctfassets.net",
+      },
+      {
+        protocol: "https",
+        hostname: "videos.ctfassets.net",
+      },
     ],
   },
   transpilePackages: [],

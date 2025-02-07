@@ -46,6 +46,19 @@ export const COURSE_DETAILS_COLLECTION_QUERY = graphql(`
   }
 `);
 
+export const CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY = graphql(`
+  query CateogoryOrJobDetailsCollection(
+    $where: CategoryOrJobDetailsFilter
+    $limit: Int
+  ) {
+    categoryOrJobDetailsCollection(where: $where, limit: $limit) {
+      items {
+        ...CategoryOrJobDetailsFields
+      }
+    }
+  }
+`);
+
 export const PEOPLE_DETAILS_COLLECTION_QUERY = graphql(`
   query PeopleDetailsCollection($where: PeopleDetailsFilter, $limit: Int) {
     peopleDetailsCollection(where: $where, limit: $limit) {

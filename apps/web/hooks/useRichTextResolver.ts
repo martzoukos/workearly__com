@@ -1,9 +1,11 @@
 import { QueryItem } from "@workearly/api";
 import { RoundedCheckIcon } from "@workearly/icons";
+import { useContentful } from "../stores/ContentfulStore";
 
 export default function useRichTextResolver(
   richText?: QueryItem["ContentTypeRichText"]
 ) {
+  const { getReference } = useContentful();
   const variant = (richText?.variant ?? "Default") as
     | "Default"
     | "Single Column Checkmark"
@@ -29,5 +31,7 @@ export default function useRichTextResolver(
     IconComponent,
     renderListAsCards,
     renderListAsChips,
+    getReference,
+    richText,
   };
 }

@@ -1,7 +1,7 @@
 import { QueryItem } from "@workearly/api";
 import { useContentful } from "../stores/ContentfulStore";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
-import { Document } from "@contentful/rich-text-types";
+import { BLOCKS, Document } from "@contentful/rich-text-types";
 
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
@@ -66,6 +66,23 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     richTexts.map((richText) => richText?.body?.json)
   );
 
+  function getHeadingsDoc() {
+    const richText = preDividerItems
+      .filter((x) => x?.__typename === "ContentTypeRichText")
+      .at(0) as QueryItem["ContentTypeRichText"];
+
+    const headingsDoc = richText.body
+      ? {
+          ...(richText.body.json as Document),
+          content: (richText.body.json as Document).content.filter((node) =>
+            [BLOCKS.HEADING_2].includes(node.nodeType)
+          ),
+        }
+      : undefined;
+
+    return headingsDoc;
+  }
+
   return {
     courseDetails,
     peopleDetails,
@@ -74,6 +91,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     postDividerItems,
     items,
     readingTime,
+    getHeadingsDoc,
   };
 }
 

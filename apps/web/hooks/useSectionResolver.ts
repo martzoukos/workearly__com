@@ -55,7 +55,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
         .map((item) => {
           const collection = relationshipMap[relationshipKey];
           return collection?.find(
-            (entry) => entry.sys.id === item?.sys.id
+            (entry) => entry?.sys.id === item?.sys.id
           ) as Pick<QueryItem, SectionReferenceTypeName>[T];
         })
         .filter(isDefined) || []

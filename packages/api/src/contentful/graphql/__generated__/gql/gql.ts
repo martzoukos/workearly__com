@@ -14,14 +14,15 @@ import { TypedDocumentNode as DocumentNode } from '@graphql-typed-document-node/
  * Learn more about it here: https://the-guild.dev/graphql/codegen/plugins/presets/preset-client#reducing-bundle-size
  */
 const documents = {
-    "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n    contentType\n  }\n": types.AssetFieldsFragmentDoc,
+    "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    title\n    description\n    contentType\n  }\n": types.AssetFieldsFragmentDoc,
     "\n  fragment AccordionCardFields on AccordionCard {\n    sys {\n      id\n    }\n    title\n    text {\n      json\n    }\n    column1Title\n    column1Text\n    column2Title\n    column2Text\n    topNotes\n    skipNumber\n  }\n": types.AccordionCardFieldsFragmentDoc,
     "\n  fragment ActionFields on Action {\n    sys {\n      id\n    }\n    name\n    internal {\n      slug\n    }\n    external\n    externalType\n    icon {\n      ...AssetFields\n    }\n    iconPlacement\n    color\n    variant\n    behaviour\n  }\n": types.ActionFieldsFragmentDoc,
     "\n  fragment CardFields on Card {\n    sys {\n      id\n    }\n    title\n    text\n    variant\n    asset {\n      ...AssetFields\n    }\n    actionsCollection {\n      items {\n        ... on Entry {\n          sys {\n            id\n          }\n        }\n      }\n    }\n  }\n": types.CardFieldsFragmentDoc,
     "\n  fragment CourseDetailsFields on CourseDetails {\n    sys {\n      id\n    }\n    title\n    summary\n    shortDescription\n    duration\n    language\n    pace\n    level\n    style\n    courseCount\n    programStarts\n    applicationDeadline\n    studentsCount\n    userReviews\n    startingCost\n    finalCost\n    timeLeft\n    videoThumbnail {\n      ...AssetFields\n    }\n  }\n": types.CourseDetailsFieldsFragmentDoc,
+    "\n  fragment CategoryOrJobDetailsFields on CategoryOrJobDetails {\n    sys {\n      id\n    }\n    title\n    summary\n    shortDescription\n    duration\n    language\n    pace\n    level\n    style\n    courseCount\n    programStarts\n    applicationDeadline\n    studentsCount\n    userReviews\n    startingCost\n    finalCost\n    timeLeft\n    videoUrl\n    videoThumbnail {\n      ...AssetFields\n    }\n  }\n": types.CategoryOrJobDetailsFieldsFragmentDoc,
     "\n  fragment PeopleDetailsFields on PeopleDetails {\n    sys {\n      id\n    }\n    name\n    role\n    company\n    text\n    expertise\n    linkedIn\n    asset {\n      ...AssetFields\n    }\n  }\n": types.PeopleDetailsFieldsFragmentDoc,
     "\n  fragment ResourceDetailsFields on ResourceDetails {\n    sys {\n      id\n    }\n    name\n    description\n    topics\n    publicationDate\n    asset {\n      ...AssetFields\n    }\n  }\n": types.ResourceDetailsFieldsFragmentDoc,
-    "\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    sys {\n      id\n    }\n    body {\n      json\n    }\n    variant\n  }\n": types.ContentTypeRichTextFieldsFragmentDoc,
+    "\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    sys {\n      id\n    }\n    body {\n      json\n      links {\n        entries {\n          block {\n            __typename\n            sys {\n              id\n            }\n          }\n          inline {\n            __typename\n            sys {\n              id\n            }\n          }\n        }\n        assets {\n          block {\n            ...AssetFields\n          }\n        }\n      }\n    }\n    variant\n  }\n": types.ContentTypeRichTextFieldsFragmentDoc,
     "\n  fragment UniqueComponentFields on UniqueComponent {\n    sys {\n      id\n    }\n    variant\n  }\n": types.UniqueComponentFieldsFragmentDoc,
     "\n  fragment SectionFields on Section {\n    sys {\n      id\n    }\n    alignment\n    title\n    supertitle\n    text\n    cardVariant\n    variant\n    cardsCount\n    behaviour\n    theme\n    metadata\n    actionsCollection {\n      items {\n        sys {\n          id\n        }\n      }\n    }\n    assetsCollection {\n      items {\n        ...AssetFields\n      }\n    }\n    contentCollection {\n      items {\n        ... on Entry {\n          sys {\n            id\n          }\n        }\n      }\n    }\n  }\n": types.SectionFieldsFragmentDoc,
     "\n  fragment PageFields on Page {\n    sys {\n      id\n    }\n    variant\n    name\n    slug\n    tags\n    seoTitle\n    seoDescription\n    seoImage {\n      ...AssetFields\n    }\n    theme\n    contentCollection {\n      items {\n        ... on Entry {\n          sys {\n            id\n          }\n        }\n      }\n    }\n  }\n": types.PageFieldsFragmentDoc,
@@ -29,6 +30,7 @@ const documents = {
     "\n  query PageSlugs {\n    pageCollection(\n      where: { slug_not_in: [\"404\"], variant_not_in: [\"Playground\"] }\n      limit: 100\n    ) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PageSlugsDocument,
     "\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      items {\n        ...PageFields\n      }\n    }\n  }\n": types.PageCollectionDocument,
     "\n  query CourseDetailsCollection($where: CourseDetailsFilter, $limit: Int) {\n    courseDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CourseDetailsFields\n      }\n    }\n  }\n": types.CourseDetailsCollectionDocument,
+    "\n  query CateogoryOrJobDetailsCollection(\n    $where: CategoryOrJobDetailsFilter\n    $limit: Int\n  ) {\n    categoryOrJobDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CategoryOrJobDetailsFields\n      }\n    }\n  }\n": types.CateogoryOrJobDetailsCollectionDocument,
     "\n  query PeopleDetailsCollection($where: PeopleDetailsFilter, $limit: Int) {\n    peopleDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...PeopleDetailsFields\n      }\n    }\n  }\n": types.PeopleDetailsCollectionDocument,
     "\n  query ResourceDetailsCollection($where: ResourceDetailsFilter, $limit: Int) {\n    resourceDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...ResourceDetailsFields\n      }\n    }\n  }\n": types.ResourceDetailsCollectionDocument,
     "\n  query ContentTypeRichTextCollection(\n    $where: ContentTypeRichTextFilter\n    $limit: Int\n  ) {\n    contentTypeRichTextCollection(where: $where, limit: $limit) {\n      items {\n        ...ContentTypeRichTextFields\n      }\n    }\n  }\n": types.ContentTypeRichTextCollectionDocument,
@@ -57,7 +59,7 @@ export function graphql(source: string): unknown;
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function graphql(source: "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n    contentType\n  }\n"): (typeof documents)["\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    description\n    contentType\n  }\n"];
+export function graphql(source: "\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    title\n    description\n    contentType\n  }\n"): (typeof documents)["\n  fragment AssetFields on Asset {\n    sys {\n      id\n    }\n    url\n    width\n    height\n    title\n    description\n    contentType\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
@@ -77,6 +79,10 @@ export function graphql(source: "\n  fragment CourseDetailsFields on CourseDetai
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
+export function graphql(source: "\n  fragment CategoryOrJobDetailsFields on CategoryOrJobDetails {\n    sys {\n      id\n    }\n    title\n    summary\n    shortDescription\n    duration\n    language\n    pace\n    level\n    style\n    courseCount\n    programStarts\n    applicationDeadline\n    studentsCount\n    userReviews\n    startingCost\n    finalCost\n    timeLeft\n    videoUrl\n    videoThumbnail {\n      ...AssetFields\n    }\n  }\n"): (typeof documents)["\n  fragment CategoryOrJobDetailsFields on CategoryOrJobDetails {\n    sys {\n      id\n    }\n    title\n    summary\n    shortDescription\n    duration\n    language\n    pace\n    level\n    style\n    courseCount\n    programStarts\n    applicationDeadline\n    studentsCount\n    userReviews\n    startingCost\n    finalCost\n    timeLeft\n    videoUrl\n    videoThumbnail {\n      ...AssetFields\n    }\n  }\n"];
+/**
+ * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
 export function graphql(source: "\n  fragment PeopleDetailsFields on PeopleDetails {\n    sys {\n      id\n    }\n    name\n    role\n    company\n    text\n    expertise\n    linkedIn\n    asset {\n      ...AssetFields\n    }\n  }\n"): (typeof documents)["\n  fragment PeopleDetailsFields on PeopleDetails {\n    sys {\n      id\n    }\n    name\n    role\n    company\n    text\n    expertise\n    linkedIn\n    asset {\n      ...AssetFields\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
@@ -85,7 +91,7 @@ export function graphql(source: "\n  fragment ResourceDetailsFields on ResourceD
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function graphql(source: "\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    sys {\n      id\n    }\n    body {\n      json\n    }\n    variant\n  }\n"): (typeof documents)["\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    sys {\n      id\n    }\n    body {\n      json\n    }\n    variant\n  }\n"];
+export function graphql(source: "\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    sys {\n      id\n    }\n    body {\n      json\n      links {\n        entries {\n          block {\n            __typename\n            sys {\n              id\n            }\n          }\n          inline {\n            __typename\n            sys {\n              id\n            }\n          }\n        }\n        assets {\n          block {\n            ...AssetFields\n          }\n        }\n      }\n    }\n    variant\n  }\n"): (typeof documents)["\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    sys {\n      id\n    }\n    body {\n      json\n      links {\n        entries {\n          block {\n            __typename\n            sys {\n              id\n            }\n          }\n          inline {\n            __typename\n            sys {\n              id\n            }\n          }\n        }\n        assets {\n          block {\n            ...AssetFields\n          }\n        }\n      }\n    }\n    variant\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
@@ -114,6 +120,10 @@ export function graphql(source: "\n  query PageCollection($where: PageFilter, $l
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function graphql(source: "\n  query CourseDetailsCollection($where: CourseDetailsFilter, $limit: Int) {\n    courseDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CourseDetailsFields\n      }\n    }\n  }\n"): (typeof documents)["\n  query CourseDetailsCollection($where: CourseDetailsFilter, $limit: Int) {\n    courseDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CourseDetailsFields\n      }\n    }\n  }\n"];
+/**
+ * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
+export function graphql(source: "\n  query CateogoryOrJobDetailsCollection(\n    $where: CategoryOrJobDetailsFilter\n    $limit: Int\n  ) {\n    categoryOrJobDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CategoryOrJobDetailsFields\n      }\n    }\n  }\n"): (typeof documents)["\n  query CateogoryOrJobDetailsCollection(\n    $where: CategoryOrJobDetailsFilter\n    $limit: Int\n  ) {\n    categoryOrJobDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CategoryOrJobDetailsFields\n      }\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

@@ -2,6 +2,7 @@
   .h2,
   .h3,
   .h4 {
+    scroll-margin-block-start: 1rem;
     &:not(:first-child) {
       margin-block-start: 4rem;
     }
@@ -14,6 +15,34 @@
       margin-block-start: 1.5rem;
     }
   }
+  .ul {
+    padding-inline-start: 1.75rem;
+    margin: 0;
+    margin-block-start: 1.5rem;
+  }
+
+  .blockquoteContainer {
+    margin-block-start: 4rem;
+    padding: 0.5rem;
+    background: hsl(var(--color-neutral-200));
+    border: 1px solid hsl(var(--color-black-500));
+
+    blockquote {
+      background: hsl(var(--color-neutral-500));
+      padding: 1rem;
+      border: 1px solid hsl(var(--color-black-500));
+
+      .blockquoteInner {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        & > span {
+          padding-inline: 0.5rem;
+        }
+      }
+    }
+  }
 
   .li,
   .small,
@@ -21,6 +50,92 @@
     &:not(:first-child) {
       margin-block-start: 0.875rem;
     }
+  }
+
+  .media {
+    padding: 0.5rem;
+    border: 1px solid hsl(var(--color-black-500));
+    width: fit-content;
+    margin-block-start: 4rem;
+    margin-inline: auto;
+  }
+
+  .figure {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: fit-content;
+    border: 1px solid hsl(var(--color-black-500));
+    background: hsl(var(--color-neutral-400));
+
+    img {
+      border-radius: 0.5rem;
+    }
+
+    figcaption {
+      text-align: left;
+      margin: 0.8rem 0.8rem 0.3rem 0.8rem;
+    }
+  }
+
+  .table {
+    --border-radius: 0.5rem;
+    margin-block-start: 4rem;
+    width: 100%;
+    border: 1px solid hsl(var(--color-black-400));
+    border-radius: var(--border-radius);
+    border-spacing: 0;
+    background: hsl(var(--color-neutral-400));
+
+    .th,
+    .td {
+      padding: 0.5rem 0.75rem;
+
+      text-align: left;
+
+      &:first-child {
+        border-start-start-radius: var(--border-radius);
+      }
+
+      &:last-child {
+        border-start-end-radius: var(--border-radius);
+      }
+
+      &:not(:last-child) {
+        border-inline-end: 1px solid hsl(var(--color-black-400));
+      }
+    }
+
+    .th {
+      background: hsl(var(--color-neutral-300));
+      border-block-end: 1px solid hsl(var(--color-black-400));
+      & > p {
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 1.125rem;
+        letter-spacing: 0.0175rem;
+      }
+    }
+
+    .td {
+      & > p {
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        letter-spacing: 0.0075rem;
+      }
+    }
+
+    .tr {
+      &:not(:last-child) {
+        .td {
+          border-block-end: 1px solid hsl(var(--color-black-400));
+        }
+      }
+    }
+  }
+
+  .embeddedBlock {
+    margin-block-start: 4rem;
   }
 }
 

@@ -21,7 +21,7 @@ export default function Breadcrumbs({
     <nav className={clsx(styles.root, className)} style={style}>
       <ul>
         {items.map((item) => (
-          <li key={item.href}>
+          <li key={item.name}>
             {item.href ? <Link href={item.href}>{item.name}</Link> : item.name}
           </li>
         ))}

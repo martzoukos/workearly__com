@@ -6,6 +6,7 @@ import {
   ActionCollectionQuery,
   AssetCollectionQuery,
   CardCollectionQuery,
+  CateogoryOrJobDetailsCollectionQuery,
   ContentTypeRichTextCollectionQuery,
   CourseDetailsCollectionQuery,
   PageCollectionQuery,
@@ -71,6 +72,11 @@ export type QueryItem = {
   Asset: NonNullable<
     NonNullable<AssetCollectionQuery["assetCollection"]>["items"][number]
   >;
+  CategoryOrJobDetails: NonNullable<
+    NonNullable<
+      CateogoryOrJobDetailsCollectionQuery["categoryOrJobDetailsCollection"]
+    >["items"]
+  >[number];
 };
 
 export type ToRelationshipMap<
