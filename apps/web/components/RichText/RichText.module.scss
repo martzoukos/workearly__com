@@ -52,29 +52,54 @@
     }
   }
 
-  .media {
+  .imageContainer {
     padding: 0.5rem;
     border: 1px solid hsl(var(--color-black-500));
     width: fit-content;
     margin-block-start: 4rem;
     margin-inline: auto;
+
+    .figure {
+      display: flex;
+      flex-direction: column;
+      padding: 0.5rem;
+      width: fit-content;
+      border: 1px solid hsl(var(--color-black-500));
+      background: hsl(var(--color-neutral-400));
+
+      img {
+        border-radius: 0.5rem;
+      }
+
+      figcaption {
+        text-align: left;
+        margin: 0.8rem 0.8rem 0.3rem 0.8rem;
+      }
+    }
   }
 
-  .figure {
-    display: flex;
-    flex-direction: column;
+  .videoContainer {
     padding: 0.5rem;
-    width: fit-content;
     border: 1px solid hsl(var(--color-black-500));
-    background: hsl(var(--color-neutral-400));
+    width: fit-content;
+    margin-block-start: 4rem;
+    margin-inline: auto;
+    width: 100%;
+    background: hsl(var(--color-green-500));
 
-    img {
-      border-radius: 0.5rem;
+    .playerContainer {
+      background: hsl(var(--color-neutral-400));
+      padding: 0.5rem;
+      border: 1px solid hsl(var(--color-black-500));
     }
 
-    figcaption {
+    .videoCaption {
       text-align: left;
       margin: 0.8rem 0.8rem 0.3rem 0.8rem;
+    }
+
+    video {
+      display: block;
     }
   }
 

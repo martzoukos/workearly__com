@@ -7,3 +7,4 @@ export { default as StarIcon } from "./StarIcon";
 export { default as UserIcon } from "./UserIcon";
 export { default as ClockIcon } from "./ClockIcon";
 export { default as ShareIcon } from "./ShareIcon";
+export { default as ArrowRightIcon } from "./ArrowRightIcon";

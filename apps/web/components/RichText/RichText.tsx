@@ -22,6 +22,7 @@ import Image from "next/image";
 import React from "react";
 import Person from "../Person/Person";
 import CallOutCard from "../Cards/CallOutCard/CallOutCard";
+import ReactPlayer from "react-player";
 
 function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
   const {
@@ -135,7 +136,7 @@ function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
 
         if (asset.contentType?.includes("image/")) {
           return (
-            <div className={styles.media}>
+            <div className={styles.imageContainer}>
               <figure className={styles.figure}>
                 <Image
                   src={asset.url}
@@ -151,10 +152,20 @@ function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
 
         if (asset.contentType?.includes("video/")) {
           return (
-            <div className={styles.media}>
-              <video controls>
-                <source src={asset.url} type={asset.contentType} />
-              </video>
+            <div className={styles.videoContainer}>
+              <div className={styles.playerContainer}>
+                <ReactPlayer
+                  url={asset.url}
+                  width="100%"
+                  height="100%"
+                  controls={true}
+                />
+                {asset.title && (
+                  <Text as="h4" className={styles.videoCaption}>
+                    {asset.title}
+                  </Text>
+                )}
+              </div>
             </div>
           );
         }
