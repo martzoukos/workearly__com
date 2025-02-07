@@ -18,6 +18,7 @@ const DATA_MAP = {
     "Related Articles",
     "Steps Showcase",
     "Features Showcase",
+    "Project",
   ],
 } as const;
 
