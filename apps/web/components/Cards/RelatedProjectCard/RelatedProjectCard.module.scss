@@ -1,0 +1,20 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(var(--color-black-450));
+  color: hsl(var(--color-neutral-500));
+  min-height: 15rem;
+  padding: 1.1rem 1.4rem 1.25rem;
+  border-radius: 1rem;
+}
+
+.description {
+  opacity: 0.6;
+  margin-top: 0.25rem;
+}
+
+.icon {
+  display: flex;
+  gap: 0.5rem;
+}
