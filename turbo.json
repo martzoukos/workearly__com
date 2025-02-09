@@ -5,7 +5,8 @@
     "CONTENTFUL_GRAPHQL_URL",
     "CONTENTFUL_PREVIEW_GRAPHQL_URL",
     "AIRTABLE_API_KEY",
-    "CONTENTFUL_PREVIEW_SECRET_TOKEN"
+    "CONTENTFUL_PREVIEW_SECRET_TOKEN",
+    "NODE_ENV"
   ],
   "globalDependencies": ["**/.env.*local", ".env"],
   "tasks": {
