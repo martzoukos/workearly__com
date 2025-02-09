@@ -6,6 +6,7 @@ import {
   getServerClient,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import { NextSeo } from "next-seo";
 
 export default function Page({
   page,
@@ -13,6 +14,7 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <ContentfulProvider page={page} relationshipMap={relationshipMap}>
+      <NextSeo nofollow noindex />
       <PageRenderer />
     </ContentfulProvider>
   );
