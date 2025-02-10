@@ -25,7 +25,7 @@ export default function RelatedCourses({ section, className }: PropsType) {
           <Text as="h3">{section.title}</Text>
           <Text>{section.text}</Text>
         </header>
-        {(section?.metadata?.title ||
+        {/* {(section?.metadata?.title ||
           section?.metadata?.values?.length > 0) && (
           <div className={styles.statics}>
             {section?.metadata?.title && (
@@ -46,7 +46,7 @@ export default function RelatedCourses({ section, className }: PropsType) {
                 </div>
               ))}
           </div>
-        )}
+        )} */}
         {actions.length > 0 && (
           <footer>
             {actions.map((action) => (

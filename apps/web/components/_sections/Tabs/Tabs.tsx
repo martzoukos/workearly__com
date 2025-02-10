@@ -4,6 +4,7 @@ import styles from "./Tabs.module.scss";
 import clsx from "clsx";
 import Button from "@/components/Button/Button";
 import { useState } from "react";
+import Section from "@/components/Section/Section";
 
 type PropsType = {
   actions: QueryItem["Action"][];
@@ -40,11 +41,7 @@ export default function Tabs({ sections, actions, className }: PropsType) {
         {actions.length > 0 && (
           <div className={styles.actions}>
             {actions.map((action) => (
-              <Button
-                key={action.sys.id}
-                variant="Outlined"
-                colorScheme="White"
-              >
+              <Button key={action.sys.id} variant="Outlined">
                 {action.name}
               </Button>
             ))}
@@ -64,31 +61,8 @@ type ContentPropsType = {
 
 function Content({ section }: ContentPropsType) {
   return (
-    <RadixTabs.Content className="TabsContent" value="tab1">
-      <p className="Text">
-        Make changes to your account here. Click save when you're done.
-      </p>
-      <fieldset className="Fieldset">
-        <label className="Label" htmlFor="name">
-          Name
-        </label>
-        <input className="Input" id="name" defaultValue="Pedro Duarte" />
-      </fieldset>
-      <fieldset className="Fieldset">
-        <label className="Label" htmlFor="username">
-          Username
-        </label>
-        <input className="Input" id="username" defaultValue="@peduarte" />
-      </fieldset>
-      <div
-        style={{
-          display: "flex",
-          marginTop: 20,
-          justifyContent: "flex-end",
-        }}
-      >
-        <button className="Button green">Save changes</button>
-      </div>
+    <RadixTabs.Content value={section.sys.id}>
+      <Section section={section} />
     </RadixTabs.Content>
   );
 }

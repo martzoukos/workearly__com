@@ -8,6 +8,7 @@
   --color-box-shadow: transparent;
   --color-border: transparent;
 
+  font-size: var(--font-size);
   background: none;
   background-color: var(--color-bg);
   box-shadow: 0rem 0rem 0rem var(--color-box-shadow);
@@ -30,7 +31,7 @@
 
 .variantSolid {
   --color-bg: var(--primary-color);
-  --color-text: hsl(var(--color-black-500));
+  --color-text: var(--secondary-color);
   --color-border: var(--primary-color);
 
   &:hover {
@@ -136,7 +137,7 @@
 
 .colorSchemeGreen {
   --primary-color: hsl(var(--color-green-500));
-  --secondary-color: hsl(var(--color-green-200));
+  --secondary-color: hsl(var(--color-black-500));
   --accent-color: hsl(var(--color-green-400));
 }
 
@@ -153,15 +154,15 @@
 }
 
 .sizeSmall {
-  font-size: 0.875rem;
+  --font-size: 0.875rem;
 }
 
 .sizeMedium {
-  font-size: 1rem;
+  --font-size: 1rem;
 }
 
 .sizeLarge {
-  font-size: 1.25rem;
+  --font-size: 1.25rem;
 }
 
 .behaviourFlex {
