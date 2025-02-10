@@ -5,6 +5,11 @@ type ReferenceFieldsType = {
   [key in SectionReferenceTypeName]: "contentCollection" | "actionsCollection";
 };
 
+type MetadataType = {
+  title?: string;
+  values: Array<{ title: string; amount: string; percentage: string }>;
+};
+
 const DATA_MAP = {
   alignment: {
     Left: "flex-start",
@@ -73,11 +78,14 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     });
   }
 
+  const metadata: MetadataType | undefined = section.metadata;
+
   return {
     flexAlignment,
     cardsCount,
     variant,
     getReferences,
     hasReferences,
+    metadata,
   };
 }

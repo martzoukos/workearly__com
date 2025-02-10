@@ -19,7 +19,7 @@ type PropsType = {
 
 export default function Slider({ section, className }: PropsType) {
   const { getReference } = useContentful();
-  const { getReferences } = useSectionResolver(section);
+  const { getReferences, metadata } = useSectionResolver(section);
   const actions = getReferences("Action");
 
   // const handleTouchEnd = (swiper: SwiperCore) => {
@@ -27,6 +27,12 @@ export default function Slider({ section, className }: PropsType) {
   //     console.log("User stretched beyond the last slide!");
   //   }
   // };
+
+  const highestPercentage =
+    metadata?.values?.reduce(
+      (max: number, v) => Math.max(max, Number(v.percentage)),
+      0
+    ) || 0;
 
   return (
     <section className={clsx(styles.root, className)}>
@@ -42,28 +48,25 @@ export default function Slider({ section, className }: PropsType) {
               <Text as="h3">{section.title}</Text>
               <Text>{section.text}</Text>
             </header>
-            {/* {(section?.metadata?.title ||
-          section?.metadata?.values?.length > 0) && (
-          <div className={styles.statics}>
-            {section?.metadata?.title && (
-              <Text className={styles.staticsTitle}>
-                {section.metadata.title}
-              </Text>
-            )}
+            {metadata && (
+              <div className={styles.metadata}>
+                {metadata.title && (
+                  <Text className={styles.metadataTitle}>{metadata.title}</Text>
+                )}
 
-            {section?.metadata?.values?.length > 0 &&
-              section?.metadata.values.map((item: any) => (
-                <div
-                  className={styles.staticsBar}
-                  data-active={item.percentage == highestPercentage}
-                  style={{ width: `${item.percentage}%` }}
-                >
-                  <Text>{item.title}</Text>
-                  <Text>{item.amount}</Text>
-                </div>
-              ))}
-          </div>
-        )} */}
+                {metadata.values.map((value) => (
+                  <div
+                    key={value.title}
+                    className={styles.metadataBar}
+                    data-active={Number(value.percentage) == highestPercentage}
+                    style={{ width: `${value.percentage}%` }}
+                  >
+                    <Text>{value.title}</Text>
+                    <Text>{value.amount}</Text>
+                  </div>
+                ))}
+              </div>
+            )}
             {actions.length > 0 && (
               <footer>
                 {actions.map((action) => (
