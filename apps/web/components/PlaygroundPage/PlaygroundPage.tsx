@@ -4,7 +4,6 @@ import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import PageItem from "../PageItem/PageItem";
 import usePageResolver from "../../hooks/usePageResolver";
-import PartnerHero from "../PartnerHero/PartnerHero";
 
 type PropsType = {
   className?: string;
@@ -28,7 +27,7 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
-        <PartnerHero />
+
         {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem
             key={item?.sys.id}

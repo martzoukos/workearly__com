@@ -1,29 +1,38 @@
 import Image from "next/image";
 import styles from "./PeopleCard.module.scss";
 import Text from "@/components/Text/Text";
+import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
 
-type PropsType = {};
+type PropsType = {
+  card: QueryItem["Card"];
+  className?: string;
+};
 
-const PeopleCard = () => {
+const PeopleCard = ({ card, className }: PropsType) => {
   return (
-    <div className={styles.card}>
+    <div className={clsx(styles.card, className)}>
       <div className={styles.content}>
-        <Image
-          src="/people.png"
-          alt=""
-          width={100}
-          height={100}
-          className={styles.media}
-        />
+        {card?.asset?.url && (
+          <Image
+            src={card.asset.url}
+            alt=""
+            width={card.asset.width || 100}
+            height={card.asset.height || 100}
+            className={styles.media}
+          />
+        )}
 
         <div className={styles.label}>
-          <Text className={styles.labelText}>Jamie Lee</Text>
-          <Text size="small" className={styles.labelText}>
-            Director of Services
-          </Text>
-          <Text size="small" className={styles.labelText}>
-            Vortex
-          </Text>
+          {card?.title && (
+            <Text className={styles.labelText}>{card.title}</Text>
+          )}
+
+          {card?.text && (
+            <Text size="small" className={styles.labelText}>
+              {card.text}
+            </Text>
+          )}
         </div>
       </div>
     </div>

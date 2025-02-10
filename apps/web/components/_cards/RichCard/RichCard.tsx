@@ -2,34 +2,55 @@ import styles from "./RichCard.module.scss";
 import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import Image from "next/image";
+import clsx from "clsx";
+import { isDefined, QueryItem } from "@workearly/api";
+import { useContentful } from "../../../stores/ContentfulStore";
 
-type PropsType = {};
+type PropsType = {
+  card: QueryItem["Card"];
+  className?: string;
+};
 
-const RichCard = ({}: PropsType) => {
+const RichCard = ({ card, className }: PropsType) => {
+  const { getReferences } = useContentful();
+
+  const actionIds =
+    card.actionsCollection?.items
+      .filter(isDefined)
+      .map((item) => item?.sys.id) || [];
+  const actions = getReferences("Action", actionIds);
+
   return (
-    <div className={styles.root}>
-      <Text className={styles.title}>For Individuals</Text>
-      <div className={styles.content}>
-        <div className={styles.richText}>
-          <Text size="h3">Unlock your full career potential</Text>
-          <Text>
-            WorkEarly uses AI and interactive tools to deliver personalized
-            lessons, real-time feedback, and an engaging learning experience
-            tailored to your goals.
-          </Text>
-        </div>
+    <div className={clsx(styles.root, className)}>
+      {card?.title && <Text className={styles.title}>{card.title}</Text>}
 
-        <Image
-          src="/cards.png"
-          alt=""
-          width={320}
-          height={160}
-          className={styles.media}
-        />
+      <div className={styles.content}>
+        {card?.text && (
+          <div className={styles.richText}>
+            <Text>{card.text}</Text>
+          </div>
+        )}
+
+        {card?.asset?.url && (
+          <Image
+            src={card.asset.url}
+            alt=""
+            width={card.asset.width || 100}
+            height={card.asset.height || 100}
+            className={styles.media}
+          />
+        )}
       </div>
-      <Button colorScheme={"Green"} className={styles.button}>
-        <Text size="h6">Browse Courses</Text>
-      </Button>
+
+      {actions.map((action) => (
+        <Button
+          key={action?.sys.id}
+          colorScheme={"Green"}
+          className={styles.button}
+        >
+          <Text size="h6"> {action.name}</Text>
+        </Button>
+      ))}
     </div>
   );
 };

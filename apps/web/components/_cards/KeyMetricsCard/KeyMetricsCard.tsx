@@ -1,17 +1,27 @@
 import Text from "@/components/Text/Text";
 import styles from "./KeyMetricsCard.module.scss";
+import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
 
-type PropsType = {};
+type PropsType = {
+  card: QueryItem["Card"];
+  className?: string;
+};
 
-const KeyMetricsCard = () => {
+const KeyMetricsCard = ({ card, className }: PropsType) => {
   return (
-    <div className={styles.card}>
-      <Text size="d2" className={styles.title}>
-        20k+
-      </Text>
-      <Text size="h4" className={styles.subtitle}>
-        Graduates
-      </Text>
+    <div className={clsx(styles.card, className)}>
+      {card?.title && (
+        <Text size="d2" className={styles.title}>
+          {card.title}
+        </Text>
+      )}
+
+      {card?.text && (
+        <Text size="h4" className={styles.subtitle}>
+          {card.text}
+        </Text>
+      )}
     </div>
   );
 };
