@@ -1,13 +1,24 @@
 import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
 import { useContentful } from "@/stores/ContentfulStore";
-import { camelCase } from "lodash-es";
+
+type ReferenceFieldsType = {
+  [key in SectionReferenceTypeName]: "contentCollection" | "actionsCollection";
+};
 
 const DATA_MAP = {
   alignment: {
     Left: "flex-start",
     Centered: "center",
   },
-  referenceFieldKeys: ["contentCollection", "actionsCollection"],
+  referenceFields: {
+    AccordionCard: "contentCollection",
+    Action: "actionsCollection",
+    Card: "contentCollection",
+    ContentTypeRichText: "contentCollection",
+    Page: "contentCollection",
+    Section: "contentCollection",
+    UniqueComponent: "contentCollection",
+  } as ReferenceFieldsType,
   variants: [
     "Default",
     "Accordion",
@@ -23,7 +34,7 @@ const DATA_MAP = {
 } as const;
 
 export default function useSectionResolver(section: QueryItem["Section"]) {
-  const { relationshipMap } = useContentful();
+  const { getReferences: getContentfulReferences } = useContentful();
   const flexAlignment =
     DATA_MAP.alignment[section.alignment as keyof typeof DATA_MAP.alignment] ??
     DATA_MAP.alignment.Left;
@@ -31,47 +42,28 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   const variant = (section.variant ??
     "Default") as (typeof DATA_MAP.variants)[number];
 
-  function getReferenceFieldKey(typename: SectionReferenceTypeName) {
-    let referenceFieldKey: (typeof DATA_MAP.referenceFieldKeys)[number] =
-      "contentCollection";
-
-    if (typename === "Action") {
-      referenceFieldKey = "actionsCollection";
-    }
-
-    return referenceFieldKey;
-  }
-
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
   ): Pick<QueryItem, SectionReferenceTypeName>[T][] {
-    const relationshipKey = camelCase(
-      `${typename}Collection`
-    ) as keyof typeof relationshipMap;
-    const referenceFieldKey = getReferenceFieldKey(typename);
-
-    return (
+    const referenceFieldKey = DATA_MAP.referenceFields[typename];
+    const ids =
       section[referenceFieldKey]?.items
-        .filter((item) => item?.__typename === typename)
-        .map((item) => {
-          const collection = relationshipMap[relationshipKey];
-          return collection?.find(
-            (entry) => entry?.sys.id === item?.sys.id
-          ) as Pick<QueryItem, SectionReferenceTypeName>[T];
-        })
-        .filter(isDefined) || []
-    );
+        .filter(isDefined)
+        .filter((item) => item.__typename === typename)
+        .map((item) => item.sys.id) || [];
+
+    return getContentfulReferences(typename, ids);
   }
 
   function hasReferences(typenames?: SectionReferenceTypeName[]) {
     if (!typenames) {
-      return DATA_MAP.referenceFieldKeys.some(
+      return Object.values(DATA_MAP.referenceFields).some(
         (key) => section[key]?.items.length
       );
     }
 
     return typenames.some((typename) => {
-      const referenceFieldKey = getReferenceFieldKey(typename);
+      const referenceFieldKey = DATA_MAP.referenceFields[typename];
 
       return Boolean(
         section[referenceFieldKey]?.items.filter(

@@ -17,7 +17,7 @@ type PropsType = PropsWithChildren<Awaited<ReturnType<typeof fetchPageBySlug>>>;
 type ContextType = PropsType & {
   getReferences: <T extends RelationshipMapTypeName>(
     typename: T,
-    ids?: string[]
+    ids: string[]
   ) => Pick<QueryItem, RelationshipMapTypeName>[T][];
   getReference: <T extends RelationshipMapTypeName>(
     typename: T,
@@ -34,32 +34,28 @@ export const ContentfulProvider = ({
 }: PropsType): ReactElement => {
   function getReferences<T extends RelationshipMapTypeName>(
     typename: T,
-    ids?: string[]
+    ids: string[]
   ): Pick<QueryItem, RelationshipMapTypeName>[T][] {
     const relationshipKey = camelCase(
       `${typename}Collection`
     ) as keyof typeof relationshipMap;
 
-    return (
-      relationshipMap[relationshipKey]
-        .filter(isDefined)
-        .filter((item) => item?.__typename === typename)
-        .filter((item) => !ids || ids.includes(item.sys.id))
-        .map((item) => {
-          const collection = relationshipMap[relationshipKey];
-          return collection?.find(
-            (entry) => entry?.sys.id === item?.sys.id
-          ) as Pick<QueryItem, RelationshipMapTypeName>[T];
-        }) || []
-    );
+    return ids.map((id) => {
+      const collection = relationshipMap[relationshipKey];
+
+      return collection?.find((entry) => entry?.sys.id === id) as Pick<
+        QueryItem,
+        RelationshipMapTypeName
+      >[T];
+    });
   }
 
   function getReference<T extends RelationshipMapTypeName>(
     typename: T,
     id: string
   ): Pick<QueryItem, RelationshipMapTypeName>[T] | undefined {
-    const references = getReferences(typename);
-    return references.find((reference) => reference?.sys.id === id);
+    const references = getReferences(typename, [id]);
+    return references.at(0);
   }
 
   return (
