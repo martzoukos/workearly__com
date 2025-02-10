@@ -37,7 +37,7 @@ type CardPropsType = {
   fallbackVariant?: CardVariantType;
 };
 
-function Card({ card, fallbackVariant }: CardPropsType) {
+export function Card({ card, fallbackVariant }: CardPropsType) {
   const variant = (card.variant || fallbackVariant) as CardVariantType;
 
   if (variant === "Icon and Text") {

@@ -1,0 +1,35 @@
+.root {
+  --gap: 3rem;
+  background: hsl(var(--color-neutral-500));
+  border-radius: 1rem;
+  color: hsl(var(--color-black-500));
+  min-width: 0;
+}
+
+.swiperWrapper {
+  padding-block: var(--gap);
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: var(--gap);
+  padding-inline: var(--gap);
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.headerSlide {
+  width: calc(100% / 3 + var(--gap));
+  height: auto;
+}
+
+.cardSlide {
+  width: fit-content;
+}

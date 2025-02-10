@@ -25,7 +25,7 @@ const DATA_MAP = {
     "Tabs",
     "Logo Showcase",
     "Logo Carousel",
-    "Related Classes",
+    "Slider",
     "Related Articles",
     "Steps Showcase",
     "Features Showcase",

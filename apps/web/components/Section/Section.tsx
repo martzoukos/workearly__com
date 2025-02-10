@@ -6,7 +6,7 @@ import Accordion from "@/components/Accordion/Accordion";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
-import RelatedCourses from "@/components/_sections/RelatedCourses/RelatedCourses";
+import Slider from "@/components/_sections/Slider/Slider";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { isDefined, QueryItem } from "@workearly/api";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
@@ -80,8 +80,8 @@ export default function Section({ section, className }: PropsType) {
         <FeaturesShowcase cards={cards} title={section.title || ""} />
       </SectionLayout>
     );
-  } else if (variant === "Related Classes") {
-    return <RelatedCourses section={section} />;
+  } else if (variant === "Slider") {
+    return <Slider section={section} />;
   } else if (variant === "Related Articles") {
     return <RelatedArticles section={section} />;
   } else if (variant === "Tabs") {
