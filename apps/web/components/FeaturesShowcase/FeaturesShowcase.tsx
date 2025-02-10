@@ -2,41 +2,42 @@ import { QueryItem } from "@workearly/api";
 import styles from "./FeaturesShowcase.module.scss";
 import clsx from "clsx";
 import Text from "../Text/Text";
-import useSectionResolver from "@/hooks/useSectionResolver";
 import { useState } from "react";
 import Image from "next/image";
 
 type PropsType = {
-  section: QueryItem["Section"];
+  cards: QueryItem["Card"][];
+  title?: string;
   className?: string;
 };
 
-export default function FeaturesShowcase({ section, className }: PropsType) {
-  const { getReferences } = useSectionResolver(section);
-  const cards = getReferences("Card");
+export default function FeaturesShowcase({
+  title,
+  cards,
+  className,
+}: PropsType) {
   const [activeCard, setactiveCard] = useState(cards[0]);
 
   return (
     <div className={clsx(styles.root, className)}>
       <div className={styles.navigation}>
-        <Text size="h4">{section.title}</Text>
+        {title && <Text size="h4">{title}</Text>}
 
         <div>
-          {cards.map((card) => {
-            return (
-              <div
-                className={styles.navigationButton}
-                data-active={activeCard?.sys.id === card.sys.id}
-                onClick={() => setactiveCard(card)}
-              >
-                {activeCard?.sys.id === card.sys.id && (
-                  <Image src="/arrow-right.svg" alt="" width={20} height={20} />
-                )}
+          {cards.map((card) => (
+            <div
+              key={card.sys.id}
+              className={styles.navigationButton}
+              data-active={activeCard?.sys.id === card.sys.id}
+              onClick={() => setactiveCard(card)}
+            >
+              {activeCard?.sys.id === card.sys.id && (
+                <Image src="/arrow-right.svg" alt="" width={20} height={20} />
+              )}
 
-                <Text>{card.title}</Text>
-              </div>
-            );
-          })}
+              <Text>{card.title}</Text>
+            </div>
+          ))}
         </div>
       </div>
 

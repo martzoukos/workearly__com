@@ -25,6 +25,28 @@ export default function RelatedCourses({ section, className }: PropsType) {
           <Text as="h3">{section.title}</Text>
           <Text>{section.text}</Text>
         </header>
+        {(section?.metadata?.title ||
+          section?.metadata?.values?.length > 0) && (
+          <div className={styles.statics}>
+            {section?.metadata?.title && (
+              <Text className={styles.staticsTitle}>
+                {section.metadata.title}
+              </Text>
+            )}
+
+            {section?.metadata?.values?.length > 0 &&
+              section?.metadata.values.map((item: any) => (
+                <div
+                  className={styles.staticsBar}
+                  data-active={item.percentage == highestPercentage}
+                  style={{ width: `${item.percentage}%` }}
+                >
+                  <Text>{item.title}</Text>
+                  <Text>{item.amount}</Text>
+                </div>
+              ))}
+          </div>
+        )}
         {actions.length > 0 && (
           <footer>
             {actions.map((action) => (
