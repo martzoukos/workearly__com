@@ -1,22 +1,28 @@
-import styles from "./RelatedProjectCard.module.scss";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import styles from "./ProjectCard.module.scss";
 import Text from "@/components/Text/Text";
+import { QueryItem } from "@workearly/api";
 import { UserIcon } from "@workearly/icons";
 import clsx from "clsx";
 
-export default function RelatedProjectCard() {
+type PropsType = {
+  card: QueryItem["Card"];
+  className?: string;
+};
+
+export default function ProjectCard({ card }: PropsType) {
   return (
     <div className={styles.root}>
       <div>
-        <Text size="h6">Exploring London’s Travel Network</Text>
+        <Text size="h6">{card.title}</Text>
         <Text size="small" className={styles.description}>
-          Master data-driven insights to improve healthcare systems, patient
-          outcomes, and decision-making in the medical field.
+          {card.text}
         </Text>
       </div>
 
       <StatLabel
         icon={<UserIcon />}
-        label="500 Students"
+        label={`${500} Students`}
         className={styles.icon}
       />
     </div>

@@ -61,6 +61,7 @@ export const CARD_FIELDS = graphql(`
     title
     text
     variant
+    studentsCount
     asset {
       ...AssetFields
     }

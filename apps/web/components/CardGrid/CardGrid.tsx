@@ -4,6 +4,7 @@ import clsx from "clsx";
 import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
+import ProjectCard from "../Cards/RelatedProjectCard/ProjectCard";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -43,5 +44,7 @@ function Card({ card, fallbackVariant }: CardPropsType) {
     return <IconTextCard card={card} />;
   } else if (variant === "Title and Text") {
     return <TitleTextCard title={card.title} text={card.text} />;
+  } else if (variant === "Project") {
+    return <ProjectCard card={card} />;
   }
 }
