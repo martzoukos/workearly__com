@@ -3,7 +3,7 @@ import styles from "./RelatedArticles.module.scss";
 import clsx from "clsx";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import Text from "@/components/Text/Text";
-import ArticleCard from "../Cards/ArticleCard/ArticleCard";
+import ArticleCard from "@/components/_cards/ArticleCard/ArticleCard";
 
 type PropsType = {
   section: QueryItem["Section"];

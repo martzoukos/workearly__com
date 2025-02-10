@@ -4,7 +4,7 @@ import { QueryItem } from "@workearly/api";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import Button from "../Button/Button";
 import { useState } from "react";
-import CourseCard from "../Cards/CourseCard/CourseCard";
+import CourseCard from "@/components/_cards/CourseCard/CourseCard";
 
 type PropsType = {
   section: QueryItem["Section"];

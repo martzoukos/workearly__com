@@ -6,7 +6,7 @@ import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import CourseCard from "../Cards/CourseCard/CourseCard";
+import CourseCard from "@/components/_cards/CourseCard/CourseCard";
 
 type PropsType = {
   section: QueryItem["Section"];

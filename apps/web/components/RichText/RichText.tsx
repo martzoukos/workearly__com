@@ -9,7 +9,7 @@ import {
   INLINES,
 } from "@contentful/rich-text-types";
 import clsx from "clsx";
-import TitleTextCard from "../Cards/TitleTextCard/TitleTextCard";
+import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
 import Text from "../Text/Text";
 import List from "./List";
 import ListItem from "./ListItem";
@@ -21,8 +21,10 @@ import snakeCase from "lodash-es/snakeCase";
 import Image from "next/image";
 import React from "react";
 import Person from "../Person/Person";
-import CallOutCard from "../Cards/CallOutCard/CallOutCard";
-import ReactPlayer from "react-player";
+import CallOutCard from "@/components/_cards/CallOutCard/CallOutCard";
+import dynamic from "next/dynamic";
+
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
   const {

@@ -1,10 +1,10 @@
-import IconTextCard from "@/components/Cards/IconTextCard/IconTextCard";
+import IconTextCard from "@/components/_cards/IconTextCard/IconTextCard";
 import styles from "./CardGrid.module.scss";
 import clsx from "clsx";
-import TitleTextCard from "@/components/Cards/TitleTextCard/TitleTextCard";
+import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
-import ProjectCard from "../Cards/RelatedProjectCard/ProjectCard";
+import ProjectCard from "@/components/_cards/RelatedProjectCard/ProjectCard";
 
 type PropsType = {
   cards: QueryItem["Card"][];
