@@ -1,4 +1,3 @@
-import useSectionResolver from "@/hooks/useSectionResolver";
 import styles from "./ProjectCard.module.scss";
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
@@ -10,9 +9,9 @@ type PropsType = {
   className?: string;
 };
 
-export default function ProjectCard({ card }: PropsType) {
+export default function ProjectCard({ card, className }: PropsType) {
   return (
-    <div className={styles.root}>
+    <div className={clsx(styles.root, className)}>
       <div>
         <Text size="h6">{card.title}</Text>
         <Text size="small" className={styles.description}>
@@ -22,7 +21,7 @@ export default function ProjectCard({ card }: PropsType) {
 
       <StatLabel
         icon={<UserIcon />}
-        label={`${500} Students`}
+        label={`${card.studentsCount} Students`}
         className={styles.icon}
       />
     </div>
