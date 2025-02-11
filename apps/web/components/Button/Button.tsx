@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./Button.module.scss";
 
-const buttonVariants = cva(styles.base, {
+const buttonVariants = cva(styles.root, {
   variants: {
     colorScheme: {
       Green: styles.colorSchemeGreen,
@@ -17,15 +17,17 @@ const buttonVariants = cva(styles.base, {
       Ghost: styles.variantGhost,
       Underlined: styles.variantUnderlined,
       Decorative: styles.variantDecorative,
-      Chip: styles.variantChip,
     },
     size: {
       small: styles.sizeSmall,
       medium: styles.sizeMedium,
       large: styles.sizeLarge,
     },
-    behaviour: {
-      Flex: styles.behaviourFlex,
+    isFullWidth: {
+      true: styles.featureIsFullWidth,
+    },
+    isRounded: {
+      true: styles.featureIsRounded,
     },
     iconPlacement: {
       Left: styles.iconPlacementLeft,
@@ -56,7 +58,8 @@ export const Button = forwardRef<ButtonElement, PropsType>(
       size,
       colorScheme,
       variant,
-      behaviour,
+      isFullWidth,
+      isRounded,
       iconPlacement,
       as: Tag = "button",
       ...rest
@@ -71,7 +74,8 @@ export const Button = forwardRef<ButtonElement, PropsType>(
             colorScheme,
             variant,
             size,
-            behaviour,
+            isFullWidth,
+            isRounded,
             iconPlacement,
           }),
           className

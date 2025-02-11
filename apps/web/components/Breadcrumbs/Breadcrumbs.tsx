@@ -22,7 +22,13 @@ export default function Breadcrumbs({
       <ul>
         {items.map((item) => (
           <li key={item.name}>
-            {item.href ? <Link href={item.href}>{item.name}</Link> : item.name}
+            {item.href ? (
+              <Link href={item.href} className={styles.link}>
+                {item.name}
+              </Link>
+            ) : (
+              item.name
+            )}
           </li>
         ))}
       </ul>

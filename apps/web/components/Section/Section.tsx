@@ -29,11 +29,13 @@ export default function Section({ section, className }: PropsType) {
 
     return (
       <SectionLayout section={section} className={className}>
-        <CardGrid
-          cards={cards}
-          fallbackVariant={section.cardVariant as CardVariantType}
-          columnCount={cardsCount}
-        />
+        {Boolean(cards.length) && (
+          <CardGrid
+            cards={cards}
+            fallbackVariant={section.cardVariant as CardVariantType}
+            columnCount={cardsCount}
+          />
+        )}
       </SectionLayout>
     );
   } else if (variant === "Accordion") {
@@ -120,11 +122,16 @@ function SectionLayout({
           {section.text && <Text>{section.text}</Text>}
         </header>
       )}
-      <div className={styles.content}>{children}</div>
+      {children && <div className={styles.content}>{children}</div>}
       {actions.length > 0 && (
         <footer className={styles.footer}>
           {actions.map((action) => (
-            <Button key={action.sys.id} variant="Chip" colorScheme="White">
+            <Button
+              key={action.sys.id}
+              variant="Solid"
+              isRounded={true}
+              colorScheme="White"
+            >
               {action.name}
             </Button>
           ))}

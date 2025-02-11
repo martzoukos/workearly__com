@@ -57,7 +57,7 @@ export default function PostCover() {
         <Button
           variant="Outlined"
           size="large"
-          behaviour="Flex"
+          isFullWidth
           className={styles.shareButton}
         >
           <ShareIcon />

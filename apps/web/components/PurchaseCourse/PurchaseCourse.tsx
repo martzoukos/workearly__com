@@ -62,15 +62,15 @@ export default function PurchaseCourse({ className }: PropsType) {
         </div>
 
         <footer className={styles.footer}>
-          <Button asChild colorScheme="Black" behaviour="Flex" size="large">
+          <Button asChild colorScheme="Black" isFullWidth size="large">
             <NextLink href="https://www.holy.gd/">Purchase course</NextLink>
           </Button>
 
-          <Button asChild variant="Outlined" colorScheme="Black">
+          <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
             <NextLink href="https://www.holy.gd/">Share</NextLink>
           </Button>
 
-          <Button asChild variant="Outlined" colorScheme="Black">
+          <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
             <NextLink href="https://www.holy.gd/"> Gift this Course</NextLink>
           </Button>
         </footer>

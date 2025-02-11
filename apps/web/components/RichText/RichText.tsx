@@ -81,7 +81,7 @@ function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
         </Text>
       ),
       [BLOCKS.UL_LIST]: (_, children) => {
-        if (renderListAsChips) {
+        if (variant !== "Default") {
           return (
             <List
               columnCount={columnCount}
@@ -98,7 +98,7 @@ function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
         if (renderListAsCards) {
           return <TitleTextCard>{children}</TitleTextCard>;
         } else if (renderListAsChips) {
-          return <Button variant="Chip">{children}</Button>;
+          return <Button isRounded>{children}</Button>;
         } else if (variant !== "Default") {
           return (
             <ListItem icon={IconComponent ? <IconComponent /> : null}>
