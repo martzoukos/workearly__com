@@ -71,6 +71,7 @@ export default function PostCover() {
             fill={true}
             alt={resourceDetails.name || ""}
             quality={100}
+            sizes="30vw"
           />
         </div>
       )}

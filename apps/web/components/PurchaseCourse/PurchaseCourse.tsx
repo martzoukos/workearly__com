@@ -28,6 +28,7 @@ export default function PurchaseCourse({ className }: PropsType) {
           fill={true}
           alt={page.name || ""}
           quality={100}
+          sizes="30vw"
         />
       </div>
 
