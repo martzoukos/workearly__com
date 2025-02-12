@@ -2,9 +2,9 @@ import Link from "next/link";
 import styles from "./PlaygroundPage.module.scss";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import PageItem from "../PageItem/PageItem";
-import usePageResolver from "../../hooks/usePageResolver";
-import PartnerHero from "../PartnerHero/PartnerHero";
+import usePageResolver from "@/hooks/usePageResolver";
+import PartnerHero from "@/components/PartnerHero/PartnerHero";
+import PageItem from "@/components/PageItem/PageItem";
 
 type PropsType = {
   className?: string;

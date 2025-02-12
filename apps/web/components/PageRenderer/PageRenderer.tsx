@@ -1,10 +1,10 @@
-import { useContentful } from "../../stores/ContentfulStore";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-import CoursePage from "../CoursePage/CoursePage";
+import CoursePage from "@/components/_pages/CoursePage";
+import PlaygroundPage from "@/components/_pages/PlaygroundPage";
+import PostPage from "@/components/_pages/PostPage";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import { useContentful } from "@/stores/ContentfulStore";
 import styles from "./PageRenderer.module.scss";
-import PlaygroundPage from "../PlaygroundPage/PlaygroundPage";
-import PostPage from "../PostPage/PostPage";
 
 export default function PageRenderer() {
   const { page } = useContentful();

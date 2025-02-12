@@ -1,14 +1,14 @@
 import clsx from "clsx";
-import usePageResolver from "../../hooks/usePageResolver";
-import { useContentful } from "../../stores/ContentfulStore";
-import PageItem from "../PageItem/PageItem";
-import PostCover from "../PostCover/PostCover";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import PageItem from "@/components/PageItem/PageItem";
+import PostCover from "@/components/PostCover/PostCover";
 import styles from "./PostPage.module.scss";
-import PostOutline from "../PostOutline/PostOutline";
+import PostOutline from "@/components/PostOutline/PostOutline";
 import Link from "next/link";
-import Button from "../Button/Button";
+import Button from "@/components/Button/Button";
 import { ArrowRightIcon } from "@workearly/icons";
-import PostAuthor from "../PostAuthor/PostAuthor";
+import PostAuthor from "@/components/PostAuthor/PostAuthor";
 
 type PropsType = {
   className?: string;
