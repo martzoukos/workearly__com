@@ -1,2 +1,1 @@
-import PlaygroundPage from "./PlaygroundPage";
-export default PlaygroundPage;
+export { default } from "./PlaygroundPage";

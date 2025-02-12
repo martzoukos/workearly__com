@@ -89,6 +89,15 @@ export type ToRelationshipMap<
   > as `${Uncapitalize<K>}Collection`]: K extends keyof Q ? Q[K][] : never;
 };
 
+export type ToRelationshipUnion<
+  T extends string,
+  Q extends Record<string, any>,
+> = {
+  [K in Exclude<T, undefined>]: K extends keyof Q
+    ? { __typename: K; data: Q[K] }
+    : never;
+}[Exclude<T, undefined>];
+
 export type CardReference = Exclude<
   NonNullable<
     NonNullable<QueryItem["Section"]["actionsCollection"]>["items"][number]
@@ -119,13 +128,11 @@ export type SectionRelationshipMap = ToRelationshipMap<
   QueryItem
 >;
 
-export type PageReference = Exclude<
-  NonNullable<QueryItem["Page"]["contentCollection"]>["items"][number],
-  null | undefined
->;
-
 export type PageReferenceTypeName = Exclude<
-  PageReference["__typename"],
+  Exclude<
+    NonNullable<QueryItem["Page"]["contentCollection"]>["items"][number],
+    null | undefined
+  >["__typename"],
   undefined
 >;
 
@@ -133,6 +140,15 @@ export type PageRelationshipMap = ToRelationshipMap<
   PageReferenceTypeName,
   QueryItem
 >;
+
+export type PageReferenceUnion = ToRelationshipUnion<
+  PageReferenceTypeName,
+  QueryItem
+>;
+
+export type PageReference<
+  T extends PageReferenceTypeName = PageReferenceTypeName,
+> = Extract<PageReferenceUnion, { __typename: T }>["data"];
 
 export type RelationshipMapTypeName =
   | PageReferenceTypeName

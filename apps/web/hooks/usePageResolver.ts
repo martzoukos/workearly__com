@@ -1,21 +1,24 @@
-import { QueryItem } from "@workearly/api";
-import { useContentful } from "../stores/ContentfulStore";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
+import { QueryItem } from "@workearly/api";
+import { useContentful } from "../stores/ContentfulStore";
 
 const DATA_MAP = {
+  wordsPerMinute: 200,
   variants: [
     "Default",
     "Post",
     "Course",
     "Playground",
     "Post",
-    "Job Title",
+    "Job",
     "Category",
     "Framed",
     "Person",
   ],
 } as const;
+
+export type PageVariantType = (typeof DATA_MAP)["variants"][number];
 
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
@@ -97,6 +100,8 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     return headingsDoc;
   }
 
+  const variant = page.variant as PageVariantType;
+
   return {
     courseDetails,
     peopleDetails,
@@ -106,15 +111,14 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     items,
     readingTime,
     getHeadingsDoc,
+    variant,
   };
 }
-
-const WORDS_PER_MINUTE = 200;
 
 function calculateReadingTime(documents: Document[]) {
   const plainText = documents
     .map((document) => documentToPlainTextString(document))
     .join(" ");
   const wordCount = plainText.split(/\s+/).filter(Boolean).length;
-  return Math.ceil(wordCount / WORDS_PER_MINUTE);
+  return Math.ceil(wordCount / DATA_MAP.wordsPerMinute);
 }

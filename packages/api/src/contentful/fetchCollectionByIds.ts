@@ -9,6 +9,8 @@ type ContentTypeVariables = {
   };
 };
 
+// TODO: Check TData being optional PageReference in types
+
 type OptionsType<TItem, TData> = {
   query: TypedDocumentNode<TData, ContentTypeVariables>;
   ids: string[];
@@ -18,7 +20,7 @@ type OptionsType<TItem, TData> = {
 
 export default async function fetchCollectionByIds<TItem, TData>(
   client: Client,
-  options: OptionsType<TItem, TData>,
+  options: OptionsType<TItem, TData>
 ): Promise<TItem[]> {
   if (!options.ids.length) {
     return [];

@@ -1,2 +1,1 @@
-import CoursePrices from "./CoursePrices";
-export default CoursePrices;
+export { default } from "./CoursePrices";

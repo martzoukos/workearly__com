@@ -1,2 +1,1 @@
-import PostPage from "./PostPage";
-export default PostPage;
+export { default } from "./PostPage";

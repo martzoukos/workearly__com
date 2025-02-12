@@ -1,9 +1,9 @@
+import Text from "@/components/Text/Text";
+import usePageResolver from "@/hooks/usePageResolver";
+import { StarIcon, UserIcon } from "@workearly/icons";
+import clsx from "clsx";
 import { useContentful } from "../../stores/ContentfulStore";
 import styles from "./CourseDetails.module.scss";
-import Text from "@/components/Text/Text";
-import { StarIcon, UserIcon } from "@workearly/icons";
-import usePageResolver from "@/hooks/usePageResolver";
-import clsx from "clsx";
 
 export default function CourseDetails() {
   const { page } = useContentful();
