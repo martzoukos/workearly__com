@@ -1,26 +1,29 @@
 import Image from "next/image";
 import styles from "./CertificateCard.module.scss";
 import Text from "@/components/Text/Text";
+import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
 
-type PropsType = {};
-
-const CertificateCard = () => {
+type PropsType = {
+  card: QueryItem["Card"];
+  className?: string;
+  columnCount: number;
+};
+const CertificateCard = ({ card, className, columnCount }: PropsType) => {
   return (
-    <div className={styles.card} data-cards={1}>
-      <Image
-        src="/certificate.png"
-        alt=""
-        width={140}
-        height={100}
-        className={styles.media}
-      />
-
-      <div className={styles.content} data-cards={1}>
-        <Text size="h6">Project Management Certificate</Text>
-        <Text>
-          Earn your Project Management Certificate to enhance your skills and
-          advance your career in managing successful projects.
-        </Text>
+    <div className={clsx(styles.card, className)} data-column={columnCount > 1}>
+      {card?.asset?.url && (
+        <Image
+          src={card.asset.url}
+          alt=""
+          width={card.asset.width || 100}
+          height={card.asset.height || 100}
+          className={styles.media}
+        />
+      )}
+      <div className={styles.content} data-column={columnCount > 1}>
+        {card?.title && <Text size="h6">{card.title}</Text>}
+        {card?.text && <Text>{card.text}</Text>}
       </div>
     </div>
   );

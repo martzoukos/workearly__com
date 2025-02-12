@@ -2,8 +2,8 @@
 
 .card {
   padding: 0.25rem;
-  max-width: 15rem;
   background: hsl(var(--color-neutral-500));
+  width: fit-content;
 }
 
 .content {
@@ -14,14 +14,12 @@
   overflow: hidden;
   border-radius: 0.6rem;
   border: 1px solid hsl(var(--color-black-500));
-  width: 100%;
 }
 
 .media {
-  width: 100%;
+  width: fit-content;
   height: auto;
   object-fit: contain;
-  min-width: 12rem;
 }
 
 .label {
@@ -30,6 +28,7 @@
   justify-content: center;
   flex-direction: column;
   position: absolute;
+  text-align: center;
   left: 50%;
   bottom: 1rem;
   transform: translate(-50%, -5%);
