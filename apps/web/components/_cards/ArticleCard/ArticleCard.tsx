@@ -54,6 +54,7 @@ export default function ArticleCard({
       )}
     >
       {resourceDetails.asset?.url && (
+<<<<<<< HEAD
         <Image
           src={resourceDetails.asset.url}
           width={resourceDetails.asset.width || 100}
@@ -61,6 +62,17 @@ export default function ArticleCard({
           alt={resourceDetails.name || ""}
           className={styles.media}
         />
+=======
+        <div className={styles.media}>
+          <Image
+            src={resourceDetails.asset.url}
+            fill={true}
+            alt={resourceDetails.name || ""}
+            quality={100}
+            sizes="30vw"
+          />
+        </div>
+>>>>>>> 4e257ff3f869787d056153ee2ba13b632d09a064
       )}
 
       <div className={`${styles.content} `}>

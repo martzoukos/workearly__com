@@ -3,46 +3,26 @@ import Text from "@/components/Text/Text";
 import Image from "next/image";
 import { QueryItem } from "@workearly/api";
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { Autoplay } from "swiper/modules";
-
-const images = [
-  "/logos/public.png",
-  "/logos/apple.png",
-  "/logos/eurobank.png",
-  "/logos/klarna.png",
-  "/logos/opta.png",
-  "/logos/slack.png",
-  "/logos/slack.png",
-];
-
-const settings = {
-  dots: false,
-  infinite: true,
-  speed: 1500,
-  slidesToShow: 6,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 2000,
-  arrows: false,
-};
+import "swiper/css";
 
 type PropsType = {
   assets: QueryItem["Asset"][];
-  section: QueryItem["Section"];
+  title?: string;
   className?: string;
 };
 
-const LogoCarousel = ({ section, assets }: PropsType) => {
+const LogoCarousel = ({ title, assets }: PropsType) => {
   return (
     <div className={styles.root}>
-      {section.supertitle && <Text>{section.supertitle}</Text>}
+      {title && <Text>{title}</Text>}
 
       {assets.length <= 6 ? (
         <div className={styles.mediaRow}>
-          {assets.map((img, index) => (
+          {assets.map((asset) => (
             <Image
-              src={img.url || ""}
+              key={asset.sys.id}
+              src={asset.url || ""}
               alt=""
               width={100}
               height={100}
@@ -64,14 +44,14 @@ const LogoCarousel = ({ section, assets }: PropsType) => {
           }}
           className={styles.slider}
         >
-          {assets.map((media) => {
+          {assets.map((asset) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={asset.sys.id}>
                 <Image
-                  src={media.url || ""}
+                  src={asset.url || ""}
                   alt=""
-                  width={media.width || 100}
-                  height={media.height || 100}
+                  width={asset.width || 100}
+                  height={asset.height || 100}
                   className={styles.media}
                 />
               </SwiperSlide>

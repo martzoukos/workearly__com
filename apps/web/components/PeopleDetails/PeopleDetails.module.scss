@@ -20,7 +20,7 @@
 
     li:not(:last-child) {
       opacity: 0.5;
-      transition: color var(--transition-duration);
+      transition: color 200ms;
 
       &:after {
         content: ">";

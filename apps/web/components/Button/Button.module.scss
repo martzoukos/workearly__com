@@ -1,205 +1,166 @@
-@use "@/styles/index" as *;
-
 /* TODO: Apply justify amd text-alignment depending on icon presence */
 
-.base {
-  --color-bg: transparent;
-  --color-text: hsl(var(--color-black-500));
-  --color-box-shadow: transparent;
-  --color-border: transparent;
+.root {
+  border: none;
+  transition-property: color, background, border;
+  transition-duration: 200ms;
 
-  background: none;
-  background-color: var(--color-bg);
-  box-shadow: 0rem 0rem 0rem var(--color-box-shadow);
+  background: var(--color-bg);
   color: var(--color-text);
-  cursor: pointer;
+
   display: inline-flex;
   gap: 0.5rem;
   align-items: center;
   justify-content: center;
   border-radius: 0.3125rem;
-  padding: 0.7em 0.85em;
   border: 1px solid var(--color-border);
-  line-height: 1rem;
   width: fit-content;
 
   &:disabled {
     opacity: 0.5;
   }
-}
-
-.variantSolid {
-  --color-bg: transparent;
-  --color-text: hsl(var(--color-black-500));
-  --color-box-shadow: transparent;
-  --color-border: transparent;
-
-  background: none;
-  background-color: var(--color-bg);
-  box-shadow: 0rem 0rem 0rem var(--color-box-shadow);
-  color: var(--color-text);
-  cursor: pointer;
-  display: inline-flex;
-  gap: 0.5rem;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.3125rem;
-  padding: 0.7em 0.85em;
-  border: 1px solid var(--color-border);
-}
-
-.variantOutlined {
-  --color-bg: transparent;
-  --color-text: hsl(var(--color-black-500));
-  --color-border: hsl(var(--color-black-500));
-
-  &:hover {
-    --color-border: hsl(var(--color-black-450));
-    --color-bg: transparent;
-    --color-text: hsl(var(--color-black-450));
-  }
 
   &:active {
-    border: 2px solid hsl(var(--color-black-450));
-  }
-}
-
-.variantGhost {
-  border: none;
-  --color-bg: transparent;
-  --color-text: hsl(var(--color-black-500));
-
-  &:hover {
-    --color-bg: transparent;
-    --color-text: hsl(var(--color-black-450));
-  }
-
-  &:active {
-    --color-bg: hsl(var(--color-neutral-300));
-    --color-text: hsl(var(--color-black-450));
-  }
-}
-
-.variantUnderlined {
-  border: none;
-  padding: 0rem;
-  border-radius: unset;
-  --color-bg: transparent;
-  border-bottom: 1px solid hsl(var(--color-black-500));
-
-  &:hover {
-    --color-bg: transparent;
-    --color-text: hsl(var(--color-black-450));
-    border-bottom-color: hsl(var(--color-black-450));
-  }
-
-  &:active {
-    --color-bg: transparent;
-    border-bottom: 2px solid hsl(var(--color-black-500));
-  }
-}
-
-.variantDecorative {
-  --bg-color: hsl(var(--color-green-500));
-  --text-color: hsl(var(--color-black-500));
-  border: 1px solid hsl(var(--color-black-500));
-  border-radius: 1rem;
-  box-shadow: 0 0 0 0.5rem v(box-shadow-color);
-
-  &:hover {
-    --bg-color: hsl(var(--color-green-500));
-    --text-color: hsl(var(--color-black-500));
-  }
-
-  &:active {
-    --bg-color: hsl(var(--color-green-500));
-  }
-
-  &:disabled {
-    opacity: 0.5;
-  }
-}
-
-.variantChip {
-  --bg-color: hsl(var(--color-black-500));
-  --text-color: hsl(var(--color-neutral-500));
-  border: none;
-  padding: 0.9em 1.7em;
-  border-radius: 1.5rem;
-
-  &:hover {
-    --bg-color: hsl(var(--color-black-450));
-    --text-color: hsl(var(--color-neutral-500));
-  }
-
-  &:active {
-    --bg-color: hsl(var(--color-black-500));
-    --text-color: hsl(var(--color-neutral-500));
-  }
-
-  &:disabled {
-    opacity: 0.5;
+    outline: 1px solid var(--color-accent);
   }
 }
 
 .colorSchemeGreen {
-  --color-bg: hsl(var(--color-green-500));
-  --color-box-shadow: hsl(var(--color-neutral-500));
-
-  &:hover {
-    --color-bg: hsl(var(--color-green-400));
-  }
-
-  &:active {
-    --color-border: hsl(var(--color-green-200));
-  }
+  --color-primary: hsl(var(--color-green-500));
+  --color-secondary: hsl(var(--color-black-500));
+  --color-accent: hsl(var(--color-green-400));
 }
 
 .colorSchemeWhite {
-  --color-bg: hsl(var(--color-neutral-500));
-  --color-box-shadow: hsl(var(--color-neutral-500));
-
-  &:hover {
-    --color-bg: hsl(var(--color-neutral-400));
-  }
-
-  &:active {
-    --color-border: hsl(var(--color-black-500));
-  }
+  --color-primary: hsl(var(--color-neutral-500));
+  --color-secondary: hsl(var(--color-black-500));
+  --color-accent: hsl(var(--color-black-400));
 }
 
 .colorSchemeBlack {
-  --color-bg: hsl(var(--color-black-500));
-  --color-text: hsl(var(--color-neutral-500));
-  --color-box-shadow: hsl(var(--color-white));
-
-  &:hover {
-    --color-bg: hsl(var(--color-black-450));
-    --color-text: hsl(var(--color-neutral-500));
-  }
-
-  &:active {
-    --color-border: hsl(var(--color-neutral-300));
-    --color-text: hsl(var(--color-neutral-500));
-  }
+  --color-primary: hsl(var(--color-black-500));
+  --color-secondary: hsl(var(--color-neutral-500));
+  --color-accent: hsl(var(--color-black-450));
 }
 
 .sizeSmall {
   font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0175rem;
+  padding: 0.625rem 0.75rem;
 }
 
 .sizeMedium {
   font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.02rem;
+  padding: 0.75rem 0.875rem;
 }
 
 .sizeLarge {
   font-size: 1.25rem;
+  line-height: 1.75rem;
+  letter-spacing: -0.0125rem;
+  padding: 1rem 1.25rem;
 }
 
-.behaviourFlex {
+.featureIsFullWidth {
   width: 100%;
+}
+
+.featureIsRounded {
+  padding-inline: 1.5rem;
+  border-radius: 1.5rem;
 }
 
 .iconPlacementLeft {
   flex-direction: row-reverse;
+}
+
+.variantSolid {
+  --color-bg: var(--color-primary);
+  --color-text: var(--color-secondary);
+  --color-border: var(--color-primary);
+
+  &:hover {
+    --color-bg: var(--color-accent);
+    --color-border: var(--color-accent);
+  }
+}
+
+.variantOutlined {
+  --color-bg: transparent;
+  --color-text: var(--color-primary);
+  --color-border: var(--color-primary);
+
+  &:hover {
+    --color-border: var(--color-accent);
+    --color-text: var(--color-accent);
+  }
+}
+
+.variantGhost {
+  --color-bg: transparent;
+  --color-text: var(--color-primary);
+  --color-border: transparent;
+
+  &:hover {
+    --color-text: var(--color-accent);
+  }
+
+  &:active {
+    --color-bg: var(--color-accent);
+    --color-text: var(--color-secondary);
+  }
+}
+
+.variantUnderlined {
+  --color-bg: transparent;
+  --color-text: var(--color-primary);
+
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  border-bottom: 1px solid var(--color-text);
+  position: relative;
+
+  &:after {
+    content: "";
+    border-bottom: 2px solid transparent;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -2px;
+  }
+
+  &:hover {
+    --color-text: var(--color-accent);
+  }
+
+  &:active {
+    outline: none;
+    &:after {
+      border-color: var(--color-text);
+    }
+  }
+}
+
+.variantDecorative {
+  --color-bg: hsl(var(--color-green-500));
+  --color-text: hsl(var(--color-black-500));
+  border: 1px solid hsl(var(--color-black-500));
+  border-radius: 1rem;
+
+  &:hover {
+    --color-bg: hsl(var(--color-green-500));
+    --color-text: hsl(var(--color-black-500));
+  }
+
+  &:active {
+    --color-bg: hsl(var(--color-green-500));
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
 }

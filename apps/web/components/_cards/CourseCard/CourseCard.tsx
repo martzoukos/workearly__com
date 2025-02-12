@@ -61,6 +61,7 @@ const CourseCard = ({
             fill={true}
             alt={page.name || ""}
             quality={100}
+            sizes="30vw"
           />
         </div>
       )}

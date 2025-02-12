@@ -25,7 +25,7 @@ export default function PostAuthor() {
         <Text size="small">Related Topics</Text>
         <div className={styles.topics}>
           {resourceDetails.topics?.map((topic) => (
-            <Button key={topic} variant="Chip" size="small">
+            <Button key={topic} isRounded size="small">
               {topic}
             </Button>
           ))}

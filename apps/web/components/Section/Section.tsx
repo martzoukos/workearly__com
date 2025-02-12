@@ -6,14 +6,15 @@ import Accordion from "@/components/Accordion/Accordion";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
-import RelatedCourses from "@/components/RelatedCourses/RelatedCourses";
+import Slider from "@/components/_sections/Slider/Slider";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { isDefined, QueryItem } from "@workearly/api";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
-import RelatedArticles from "@/components/RelatedArticles/RelatedArticles";
+import RelatedArticles from "@/components/_sections/RelatedArticles/RelatedArticles";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
-import TabSection from "../TabSection/TabSection";
+import Tabs from "../_sections/Tabs/Tabs";
+import { PropsWithChildren } from "react";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -21,76 +22,116 @@ type PropsType = {
 };
 
 export default function Section({ section, className }: PropsType) {
-  const { cardsCount, flexAlignment, variant, getReferences } =
-    useSectionResolver(section);
+  const { cardsCount, variant, getReferences } = useSectionResolver(section);
 
-  const cards = getReferences("Card");
-  const accordionCards = getReferences("AccordionCard");
-  const actions = getReferences("Action");
-  const sections = getReferences("Section");
+  if (variant === "Default") {
+    const cards = getReferences("Card");
 
-  const assets = section.assetsCollection?.items.filter(isDefined) || [];
+    return (
+      <SectionLayout section={section} className={className}>
+        {Boolean(cards.length) && (
+          <CardGrid
+            cards={cards}
+            fallbackVariant={section.cardVariant as CardVariantType}
+            columnCount={cardsCount}
+          />
+        )}
+      </SectionLayout>
+    );
+  } else if (variant === "Accordion") {
+    const accordionCards = getReferences("AccordionCard");
 
-  const hasContent =
-    cards.length > 0 ||
-    assets.length > 0 ||
-    accordionCards.length > 0 ||
-    sections.length > 0;
+    return (
+      <SectionLayout section={section} className={className}>
+        <Accordion accordionCards={accordionCards} />
+      </SectionLayout>
+    );
+  } else if (variant === "Logo Showcase") {
+    const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
+    return (
+      <SectionLayout section={section} className={className}>
+        <LogoShowcase assets={assets} columnCount={cardsCount} />
+      </SectionLayout>
+    );
+  } else if (variant === "Logo Carousel") {
+    const assets = section.assetsCollection?.items.filter(isDefined) || [];
+
+    return (
+      <SectionLayout section={section} className={className}>
+        <LogoCarousel assets={assets} title={section.title || ""} />
+      </SectionLayout>
+    );
+  } else if (variant === "Steps Showcase") {
+    const cards = getReferences("Card");
+
+    return (
+      <SectionLayout section={section} className={className}>
+        <StepsShowcase
+          cards={cards}
+          title={section.title || ""}
+          supertitle={section.supertitle || ""}
+          description={section.text || ""}
+        />
+      </SectionLayout>
+    );
+  } else if (variant === "Features Showcase") {
+    const cards = getReferences("Card");
+    return (
+      <SectionLayout section={section} className={className}>
+        <FeaturesShowcase cards={cards} title={section.title || ""} />
+      </SectionLayout>
+    );
+  } else if (variant === "Slider") {
+    return <Slider section={section} />;
+  } else if (variant === "Related Articles") {
+    return <RelatedArticles section={section} />;
+  } else if (variant === "Tabs") {
+    const sections = getReferences("Section");
+    const actions = getReferences("Action");
+
+    return <Tabs sections={sections} actions={actions} />;
+  }
+
+  return null;
+}
+
+type SectionLayoutPropsType = PropsWithChildren<{
+  section: QueryItem["Section"];
+  className?: string;
+}>;
+
+function SectionLayout({
+  section,
+  className,
+  children,
+}: SectionLayoutPropsType) {
+  const { flexAlignment, getReferences } = useSectionResolver(section);
+  const hasHeader = section.title || section.text;
   const style = {
     "--flex-alignment": flexAlignment,
   } as React.CSSProperties;
 
-  if (variant === "Related Classes") {
-    return <RelatedCourses section={section} />;
-  } else if (variant === "Related Articles") {
-    return <RelatedArticles section={section} />;
-  }
+  const actions = getReferences("Action");
 
   return (
     <section className={clsx(styles.root, className)} style={style}>
-      <header className={styles.header}>
-        <Text as="h4">{section.title}</Text>
-        {section.text && <Text>{section.text}</Text>}
-      </header>
-      {hasContent && (
-        <div className={styles.content}>
-          {variant === "Default" && cards.length > 0 && (
-            <CardGrid
-              cards={cards}
-              fallbackVariant={section.cardVariant as CardVariantType}
-              columnCount={cardsCount}
-            />
-          )}
-
-          {variant === "Accordion" && accordionCards.length > 0 && (
-            <Accordion accordionCards={accordionCards} />
-          )}
-
-          {variant === "Logo Showcase" && assets.length > 0 && (
-            <LogoShowcase assets={assets} columnCount={cardsCount} />
-          )}
-
-          {/* Dependent on Section */}
-          {variant === "Steps Showcase" && <StepsShowcase section={section} />}
-
-          {/* Dependent on Section */}
-          {variant === "Features Showcase" && (
-            <FeaturesShowcase section={section} />
-          )}
-
-          {variant === "Logo Carousel" && (
-            <LogoCarousel assets={assets} section={section} />
-          )}
-
-          {variant === "Tabs" && <TabSection section={section} />}
-        </div>
+      {hasHeader && (
+        <header className={styles.header}>
+          <Text as="h4">{section.title}</Text>
+          {section.text && <Text>{section.text}</Text>}
+        </header>
       )}
-
+      {children && <div className={styles.content}>{children}</div>}
       {actions.length > 0 && (
         <footer className={styles.footer}>
           {actions.map((action) => (
-            <Button key={action.sys.id} variant="Chip" colorScheme="White">
+            <Button
+              key={action.sys.id}
+              variant="Solid"
+              isRounded={true}
+              colorScheme="White"
+            >
               {action.name}
             </Button>
           ))}
