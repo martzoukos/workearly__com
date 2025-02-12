@@ -11,7 +11,7 @@ type PropsType = {
   className?: string;
 };
 
-const RichCard = ({ card, className }: PropsType) => {
+export default function RichCard({ card, className }: PropsType) {
   const { getReferences } = useContentful();
 
   const actionIds =
@@ -53,4 +53,4 @@ const RichCard = ({ card, className }: PropsType) => {
       ))}
     </div>
   );
-};
+}

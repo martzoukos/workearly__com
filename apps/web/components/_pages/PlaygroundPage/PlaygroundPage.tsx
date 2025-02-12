@@ -1,8 +1,8 @@
+import PageItem from "@/components/PageItem/PageItem";
+import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import Link from "next/link";
-import usePageResolver from "../../hooks/usePageResolver";
-import PageItem from "../PageItem/PageItem";
 import styles from "./PlaygroundPage.module.scss";
 
 type PropsType = {

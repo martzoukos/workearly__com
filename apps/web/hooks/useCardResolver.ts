@@ -5,6 +5,9 @@ const CARD_VARIANTS = [
   "Title and Text",
   "Project",
   "Rich Card",
+  "Certificate",
+  "Key Metrics",
+  "People",
 ] as const;
 
 export type CardVariantType = (typeof CARD_VARIANTS)[number] | undefined;
