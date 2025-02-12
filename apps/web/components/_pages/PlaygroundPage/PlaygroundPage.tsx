@@ -1,10 +1,9 @@
-import Link from "next/link";
-import styles from "./PlaygroundPage.module.scss";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import usePageResolver from "@/hooks/usePageResolver";
-import PartnerHero from "@/components/PartnerHero/PartnerHero";
-import PageItem from "@/components/PageItem/PageItem";
+import Link from "next/link";
+import usePageResolver from "../../hooks/usePageResolver";
+import PageItem from "../PageItem/PageItem";
+import styles from "./PlaygroundPage.module.scss";
 
 type PropsType = {
   className?: string;
@@ -28,7 +27,7 @@ export default function PlaygroundPage({ className }: PropsType) {
             <li>{page.name}</li>
           </ul>
         </nav>
-        <PartnerHero />
+
         {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem
             key={item?.sys.id}

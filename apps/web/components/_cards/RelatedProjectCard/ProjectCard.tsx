@@ -13,10 +13,13 @@ export default function ProjectCard({ card, className }: PropsType) {
   return (
     <div className={clsx(styles.root, className)}>
       <div>
-        <Text size="h6">{card.title}</Text>
-        <Text size="small" className={styles.description}>
-          {card.text}
-        </Text>
+        {card?.title && <Text size="h6">{card.title}</Text>}
+
+        {card?.text && (
+          <Text size="small" className={styles.description}>
+            {card.text}
+          </Text>
+        )}
       </div>
 
       <StatLabel
