@@ -33,4 +33,5 @@
 .sidebar {
   position: sticky;
   top: var(--gap-sidebar);
+  height: fit-content;
 }

@@ -1,0 +1,11 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 0.12rem;
+
+  svg {
+    width: 0.75rem;
+    height: 0.75rem;
+    color: hsl(var(--color-green-500));
+  }
+}

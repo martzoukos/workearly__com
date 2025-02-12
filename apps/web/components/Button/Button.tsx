@@ -1,10 +1,10 @@
-import { Slot } from "radix-ui";
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
+import { Slot } from "radix-ui";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./Button.module.scss";
 
-const buttonVariants = cva(styles.root, {
+const variants = cva(styles.root, {
   variants: {
     colorScheme: {
       Green: styles.colorSchemeGreen,
@@ -44,7 +44,7 @@ type ButtonElement = React.ElementRef<"button">;
 
 interface PropsType
   extends ComponentPropsWithoutRef<"button">,
-    VariantProps<typeof buttonVariants> {
+    VariantProps<typeof variants> {
   asChild?: boolean;
   as?: keyof JSX.IntrinsicElements;
 }
@@ -70,7 +70,7 @@ export const Button = forwardRef<ButtonElement, PropsType>(
         {...rest}
         ref={forwardedRef}
         className={clsx(
-          buttonVariants({
+          variants({
             colorScheme,
             variant,
             size,

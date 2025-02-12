@@ -1,10 +1,10 @@
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import JobDetails from "@/components/JobDetails";
 import PageItem from "@/components/PageItem/PageItem";
-import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
+import Image from "next/image";
 import styles from "./JobPage.module.scss";
 
 type PropsType = {
@@ -13,7 +13,8 @@ type PropsType = {
 
 export default function JobPage({ className }: PropsType) {
   const { page } = useContentful();
-  const { preDividerItems, postDividerItems } = usePageResolver(page);
+  const { preDividerItems, postDividerItems, categoryOrJobDetails } =
+    usePageResolver(page);
 
   return (
     <main className={clsx(styles.root, className)}>
@@ -22,7 +23,7 @@ export default function JobPage({ className }: PropsType) {
           <Breadcrumbs
             items={[
               { name: "Home", href: "/" },
-              { name: "Courses", href: "/courses" },
+              { name: "Career Path", href: "/career" },
               { name: page.name || "" },
             ]}
           />
@@ -35,7 +36,16 @@ export default function JobPage({ className }: PropsType) {
             />
           ))}
         </div>
-        <PurchaseCourse className={styles.sidebar} />
+        {categoryOrJobDetails?.asset?.url && (
+          <aside className={styles.sidebar}>
+            <Image
+              src={categoryOrJobDetails.asset.url}
+              alt={categoryOrJobDetails.title || ""}
+              width={330}
+              height={480}
+            />
+          </aside>
+        )}
       </div>
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />

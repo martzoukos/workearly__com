@@ -1,3 +1,26 @@
 .root {
+  padding: 2.12rem 1.88rem;
+  border-radius: 0.5rem;
+  background-color: hsl(var(--color-black-450));
   display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.statLabels {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.statCards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.25rem;
 }

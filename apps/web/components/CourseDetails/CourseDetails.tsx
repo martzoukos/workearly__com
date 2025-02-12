@@ -1,7 +1,8 @@
+import StatCard from "@/components/StatCard";
+import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { StarIcon, UserIcon } from "@workearly/icons";
-import clsx from "clsx";
 import { useContentful } from "../../stores/ContentfulStore";
 import styles from "./CourseDetails.module.scss";
 
@@ -79,35 +80,3 @@ export default function CourseDetails() {
     </section>
   );
 }
-
-type StatLabelPropsType = {
-  label: string;
-  icon: React.ReactNode;
-  className?: string;
-};
-
-function StatLabel({ icon, label, className }: StatLabelPropsType) {
-  return (
-    <div className={clsx(styles.statLabel, className)}>
-      {icon} <Text size="caption">{label}</Text>
-    </div>
-  );
-}
-
-type StatCardPropsType = {
-  label: string;
-  value: string;
-};
-
-function StatCard({ value, label }: StatCardPropsType) {
-  return (
-    <div className={styles.statCard}>
-      <Text as="label" size="caption">
-        {label}
-      </Text>
-      <Text>{value}</Text>
-    </div>
-  );
-}
-
-CourseDetails.StatLabel = StatLabel;

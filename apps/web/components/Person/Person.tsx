@@ -1,10 +1,10 @@
-import styles from "./Person.module.scss";
-import Image from "next/image";
-import Text, { TextProps } from "../Text/Text";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
+import Image from "next/image";
+import Text, { TextProps } from "../Text/Text";
+import styles from "./Person.module.scss";
 
-const personVariants = cva(styles.root, {
+const variants = cva(styles.root, {
   variants: {
     size: {
       caption: styles.sizeCaption,
@@ -16,7 +16,7 @@ const personVariants = cva(styles.root, {
   },
 });
 
-interface PropsType extends VariantProps<typeof personVariants> {
+interface PropsType extends VariantProps<typeof variants> {
   imageUrl: string;
   name: string;
   className?: string;
@@ -42,7 +42,7 @@ export default function Person({
   return (
     <div
       className={clsx(
-        personVariants({
+        variants({
           size,
         }),
         className

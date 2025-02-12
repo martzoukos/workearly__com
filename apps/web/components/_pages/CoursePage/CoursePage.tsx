@@ -1,7 +1,7 @@
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import CourseDetails from "@/components/CourseDetails/CourseDetails";
 import PageItem from "@/components/PageItem/PageItem";
-import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
+import PurchaseCourse from "@/components/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
@@ -35,7 +35,9 @@ export default function CoursePage({ className }: PropsType) {
             />
           ))}
         </div>
-        <PurchaseCourse className={styles.sidebar} />
+        <aside className={styles.sidebar}>
+          <PurchaseCourse />
+        </aside>
       </div>
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />

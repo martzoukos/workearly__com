@@ -1,6 +1,6 @@
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
-import { QueryItem } from "@workearly/api";
+import { isDefined, QueryItem } from "@workearly/api";
 import { useContentful } from "../stores/ContentfulStore";
 
 const DATA_MAP = {
@@ -23,6 +23,7 @@ export type PageVariantType = (typeof DATA_MAP)["variants"][number];
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
 
+  // TODO: Use getReferences here?
   const items =
     page.contentCollection?.items
       .map((item) => {
@@ -50,9 +51,13 @@ export default function usePageResolver(page: QueryItem["Page"]) {
           return relationshipMap.resourceDetailsCollection.find(
             (section) => section.sys.id === item.sys.id
           );
+        } else if (item?.__typename === "CategoryOrJobDetails") {
+          return relationshipMap.categoryOrJobDetailsCollection.find(
+            (section) => section?.sys.id === item.sys.id
+          );
         }
       })
-      .filter(Boolean) || [];
+      .filter(isDefined) || [];
 
   const dividerIndex = items.findIndex(
     (item) =>
@@ -74,6 +79,9 @@ export default function usePageResolver(page: QueryItem["Page"]) {
   const resourceDetails = items.find(
     (item) => item?.__typename === "ResourceDetails"
   ) as QueryItem["ResourceDetails"];
+  const categoryOrJobDetails = items.find(
+    (item) => item?.__typename === "CategoryOrJobDetails"
+  ) as QueryItem["CategoryOrJobDetails"];
 
   const richTexts = items.filter(
     (item) => item?.__typename === "ContentTypeRichText"
@@ -106,6 +114,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     courseDetails,
     peopleDetails,
     resourceDetails,
+    categoryOrJobDetails,
     preDividerItems,
     postDividerItems,
     items,

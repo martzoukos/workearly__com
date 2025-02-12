@@ -3,6 +3,7 @@ import CoursePrices from "@/components/CoursePrices";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
+import { Gift, Share } from "@carbon/icons-react";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
@@ -35,10 +36,10 @@ export default function PurchaseCourse({ className }: PropsType) {
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <div className={styles.buttons}>
-            <Button asChild variant="Outlined" colorScheme="Green">
+            <Button asChild colorScheme="Green">
               <Link href="/project-management-bootcamp">Personal</Link>
             </Button>
-            <Button asChild variant="Outlined">
+            <Button asChild variant="Outlined" colorScheme="Black">
               <Link href="/project-management-bootcamp">Team</Link>
             </Button>
           </div>
@@ -68,11 +69,15 @@ export default function PurchaseCourse({ className }: PropsType) {
           </Button>
 
           <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
-            <Link href="https://www.holy.gd/">Share</Link>
+            <Link href="https://www.holy.gd/">
+              <Share /> Share
+            </Link>
           </Button>
 
           <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
-            <Link href="https://www.holy.gd/"> Gift this Course</Link>
+            <Link href="https://www.holy.gd/">
+              <Gift /> Gift this Course
+            </Link>
           </Button>
         </footer>
       </div>
