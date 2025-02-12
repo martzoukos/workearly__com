@@ -1,6 +1,11 @@
 import { QueryItem } from "@workearly/api";
 
-const CARD_VARIANTS = ["Icon and Text", "Title and Text"] as const;
+const CARD_VARIANTS = [
+  "Icon and Text",
+  "Title and Text",
+  "Project",
+  "Rich Card",
+] as const;
 
 export type CardVariantType = (typeof CARD_VARIANTS)[number] | undefined;
 

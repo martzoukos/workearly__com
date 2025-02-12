@@ -1,132 +1,99 @@
+import CallOutCard from "@/components/_cards/CallOutCard/CallOutCard";
+import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
 import {
   documentToReactComponents,
   Options,
 } from "@contentful/rich-text-react-renderer";
 import {
   BLOCKS,
-  Document,
   Text as ContentfulText,
+  Document,
   INLINES,
 } from "@contentful/rich-text-types";
-import clsx from "clsx";
-import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
-import Text from "../Text/Text";
-import List from "./List";
-import ListItem from "./ListItem";
-import Button from "../Button/Button";
-import styles from "./RichText.module.scss";
-import useRichTextResolver from "../../hooks/useRichTextResolver";
 import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
+import dynamic from "next/dynamic";
 import Image from "next/image";
 import React from "react";
+import { useRemarkSync } from "react-remark";
+import useRichTextResolver, {
+  RichTextVariantType,
+} from "../../hooks/useRichTextResolver";
+import Button from "../Button/Button";
 import Person from "../Person/Person";
-import CallOutCard from "@/components/_cards/CallOutCard/CallOutCard";
-import dynamic from "next/dynamic";
+import Text, { TextProps } from "../Text/Text";
+import List from "./List";
+import ListItem from "./ListItem";
+import styles from "./RichText.module.scss";
+import {
+  BlockQuote,
+  H1,
+  H2,
+  H3,
+  H4,
+  H5,
+  H6,
+  LI,
+  P,
+  UL,
+} from "./RichTextPrimitives";
 
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
-function getOptions(resolver: ReturnType<typeof useRichTextResolver>) {
+function getOptions(
+  resolver: ReturnType<typeof useRichTextResolver>,
+  richText?: QueryItem["ContentTypeRichText"]
+) {
   const {
     columnCount,
     IconComponent,
     renderListAsCards,
     renderListAsChips,
     variant,
-    richText,
     getReference,
   } = resolver;
 
   const options: Options = {
     renderNode: {
-      [BLOCKS.HEADING_1]: (_, children) => <Text as="h1">{children}</Text>,
+      [BLOCKS.HEADING_1]: (_, children) => (
+        <H1 resolver={resolver}>{children}</H1>
+      ),
       [BLOCKS.HEADING_2]: (node, children) => {
         const textNode = node.content.find(
           (node) => node.nodeType === "text"
         ) as ContentfulText;
 
         return (
-          <Text
-            id={snakeCase(`h2_${textNode.value}`)}
-            as="h2"
-            className={clsx(variant === "Default" && styles.h2)}
-          >
+          <H2 resolver={resolver} id={snakeCase(`h2_${textNode.value}`)}>
             {children}
-          </Text>
+          </H2>
         );
       },
       [BLOCKS.HEADING_3]: (_, children) => (
-        <Text as="h3" className={clsx(variant === "Default" && styles.h3)}>
-          {children}
-        </Text>
+        <H3 resolver={resolver}>{children}</H3>
       ),
       [BLOCKS.HEADING_4]: (_, children) => (
-        <Text as="h4" className={clsx(variant === "Default" && styles.h4)}>
-          {children}
-        </Text>
+        <H4 resolver={resolver}>{children}</H4>
       ),
       [BLOCKS.HEADING_5]: (_, children) => (
-        <Text as="h5" className={clsx(variant === "Default" && styles.h5)}>
-          {children}
-        </Text>
+        <H5 resolver={resolver}>{children}</H5>
       ),
       [BLOCKS.HEADING_6]: (_, children) => (
-        <Text as="h6" className={clsx(variant === "Default" && styles.h6)}>
-          {children}
-        </Text>
+        <H6 resolver={resolver}>{children}</H6>
       ),
       [BLOCKS.PARAGRAPH]: (_, children) => (
-        <Text as="p" className={clsx(variant === "Default" && styles.p)}>
-          {children}
-        </Text>
+        <P resolver={resolver}>{children}</P>
       ),
-      [BLOCKS.UL_LIST]: (_, children) => {
-        if (variant !== "Default") {
-          return (
-            <List
-              columnCount={columnCount}
-              className={clsx(renderListAsChips && styles.chips)}
-            >
-              {children}
-            </List>
-          );
-        }
-
-        return <ul className={styles.ul}>{children}</ul>;
-      },
-      [BLOCKS.LIST_ITEM]: (_, children) => {
-        if (renderListAsCards) {
-          return <TitleTextCard>{children}</TitleTextCard>;
-        } else if (renderListAsChips) {
-          return <Button isRounded>{children}</Button>;
-        } else if (variant !== "Default") {
-          return (
-            <ListItem icon={IconComponent ? <IconComponent /> : null}>
-              {children}
-            </ListItem>
-          );
-        }
-
-        return <li className={styles.li}>{children}</li>;
-      },
-      [BLOCKS.QUOTE]: (_, children) => {
-        return (
-          <div className={styles.blockquoteContainer}>
-            <blockquote>
-              {React.Children.map(children, (child) => {
-                if (React.isValidElement(child) && child.props.as === "p") {
-                  return (
-                    <Text size="h4" as="div" className={styles.blockquoteInner}>
-                      {child.props.children}
-                    </Text>
-                  );
-                }
-                return child;
-              })}
-            </blockquote>
-          </div>
-        );
-      },
+      [BLOCKS.UL_LIST]: (_, children) => (
+        <UL resolver={resolver}>{children}</UL>
+      ),
+      [BLOCKS.LIST_ITEM]: (_, children) => (
+        <LI resolver={resolver}>{children}</LI>
+      ),
+      [BLOCKS.QUOTE]: (_, children) => (
+        <BlockQuote resolver={resolver}>{children}</BlockQuote>
+      ),
       [BLOCKS.EMBEDDED_ASSET]: (node) => {
         const asset = richText?.body?.links.assets.block.find(
           (item) => item?.sys.id === node.data.target.sys.id
@@ -276,7 +243,9 @@ interface RichTextProps extends BaseProps {
 type PropsType = JsonProps | RichTextProps;
 
 export default function RichText({ json, richText, className }: PropsType) {
-  const resolver = useRichTextResolver(richText);
+  const resolver = useRichTextResolver(
+    richText?.variant as RichTextVariantType
+  );
 
   return (
     <section className={clsx(styles.root, className)}>

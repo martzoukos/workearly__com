@@ -5,6 +5,7 @@ import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 import ProjectCard from "@/components/_cards/RelatedProjectCard/ProjectCard";
+import RichCard from "../_cards/RichCard/RichCard";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -40,11 +41,17 @@ type CardPropsType = {
 export function Card({ card, fallbackVariant }: CardPropsType) {
   const variant = (card.variant || fallbackVariant) as CardVariantType;
 
+  if (!variant) {
+    return null;
+  }
+
   if (variant === "Icon and Text") {
     return <IconTextCard card={card} />;
   } else if (variant === "Title and Text") {
     return <TitleTextCard title={card.title} text={card.text} />;
   } else if (variant === "Project") {
     return <ProjectCard card={card} />;
+  } else if (variant === "Rich Card") {
+    return <RichCard card={card} />;
   }
 }
