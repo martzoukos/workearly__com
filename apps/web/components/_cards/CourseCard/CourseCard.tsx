@@ -7,13 +7,37 @@ import { UserIcon } from "@workearly/icons";
 import usePageResolver from "../../../hooks/usePageResolver";
 import CoursePrices from "../../CoursePrices/CoursePrices";
 import clsx from "clsx";
+import { cva, VariantProps } from "class-variance-authority";
 
-type PropsType = {
+const courseCardVariants = cva(styles.root, {
+  variants: {
+    size: {
+      normal: styles.normal,
+      wide: styles.wide,
+    },
+    colors: {
+      Green: styles.green,
+      White: styles.root,
+      Black: styles.dark,
+    },
+  },
+  defaultVariants: {
+    size: "normal",
+    colors: "White",
+  },
+});
+
+interface PropsType extends VariantProps<typeof courseCardVariants> {
   page: QueryItem["Page"];
   className?: string;
-};
+}
 
-const CourseCard = ({ page, className }: PropsType) => {
+const CourseCard = ({
+  page,
+  size = "normal",
+  colors = "White",
+  className,
+}: PropsType) => {
   const { courseDetails } = usePageResolver(page);
 
   if (!courseDetails) {
@@ -21,7 +45,15 @@ const CourseCard = ({ page, className }: PropsType) => {
   }
 
   return (
-    <div className={clsx(styles.root, className)} data-size={"normal"}>
+    <div
+      className={clsx(
+        courseCardVariants({
+          size,
+          colors,
+        }),
+        className
+      )}
+    >
       {courseDetails?.videoThumbnail?.url && (
         <div className={styles.media}>
           <Image
