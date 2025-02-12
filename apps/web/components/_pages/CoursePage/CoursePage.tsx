@@ -1,11 +1,11 @@
-import styles from "./CoursePage.module.scss";
-import { useContentful } from "../../stores/ContentfulStore";
-import clsx from "clsx";
-import CourseDetails from "../CourseDetails/CourseDetails";
+import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
+import CourseDetails from "@/components/CourseDetails/CourseDetails";
+import PageItem from "@/components/PageItem/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
-import PageItem from "../PageItem/PageItem";
-import usePageResolver from "../../hooks/usePageResolver";
-import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import clsx from "clsx";
+import styles from "./CoursePage.module.scss";
 
 type PropsType = {
   className?: string;

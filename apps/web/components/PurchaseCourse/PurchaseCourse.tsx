@@ -1,12 +1,12 @@
-import Image from "next/image";
-import styles from "./PurchaseCourse.module.scss";
-import Text from "@/components/Text/Text";
-import Button from "@/components/Button/Button";
-import NextLink from "next/link";
-import { useContentful } from "@/stores/ContentfulStore";
+import Button from "@/components/Button";
+import CoursePrices from "@/components/CoursePrices";
+import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import CoursePrices from "../CoursePrices/CoursePrices";
+import Image from "next/image";
+import Link from "next/link";
+import styles from "./PurchaseCourse.module.scss";
 
 type PropsType = {
   className?: string;
@@ -36,10 +36,10 @@ export default function PurchaseCourse({ className }: PropsType) {
         <div className={styles.content}>
           <div className={styles.buttons}>
             <Button asChild variant="Outlined" colorScheme="Green">
-              <NextLink href="/project-management-bootcamp">Personal</NextLink>
+              <Link href="/project-management-bootcamp">Personal</Link>
             </Button>
             <Button asChild variant="Outlined">
-              <NextLink href="/project-management-bootcamp">Team</NextLink>
+              <Link href="/project-management-bootcamp">Team</Link>
             </Button>
           </div>
 
@@ -64,15 +64,15 @@ export default function PurchaseCourse({ className }: PropsType) {
 
         <footer className={styles.footer}>
           <Button asChild colorScheme="Black" isFullWidth size="large">
-            <NextLink href="https://www.holy.gd/">Purchase course</NextLink>
+            <Link href="https://www.holy.gd/">Purchase course</Link>
           </Button>
 
           <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
-            <NextLink href="https://www.holy.gd/">Share</NextLink>
+            <Link href="https://www.holy.gd/">Share</Link>
           </Button>
 
           <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
-            <NextLink href="https://www.holy.gd/"> Gift this Course</NextLink>
+            <Link href="https://www.holy.gd/"> Gift this Course</Link>
           </Button>
         </footer>
       </div>
