@@ -4,32 +4,15 @@
   gap: 0.5rem;
 }
 
-.header {
+.nav {
   display: flex;
   justify-content: space-between;
 }
 
-.tabButtonsHolder {
+.list,
+.actions {
   display: flex;
   gap: 0.4rem;
-  overflow-x: auto;
-  max-width: 80%;
-}
-
-.tabButton {
-  flex-shrink: 0;
-  color: rgba(235, 236, 222, 0.6);
-  border-color: rgba(235, 236, 222, 0.6);
-
-  &:hover {
-    color: black;
-    background-color: hsl(var(--color-green-500));
-  }
-
-  &[data-active="true"] {
-    color: black;
-    background-color: hsl(var(--color-green-500));
-  }
 }
 
 .contentContainer {

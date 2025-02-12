@@ -1,19 +1,15 @@
 @forward "./reset";
 @forward "./variables";
 
+:root {
+  --color-body-text: hsl(var(--color-neutral-500));
+  --color-body-bg: hsl(var(--color-black-500));
+}
+
 body {
-  color: hsl(var(--color-neutral-500));
-  background-color: hsl(var(--color-black-500));
+  color: var(--color-body-text);
+  background-color: var(--color-body-bg);
   font:
     400 1rem / 1.25 "aktiv-grotesk",
     sans-serif;
-}
-
-a {
-  text-decoration: none;
-  transition: box-shadow var(--transition-duration);
-
-  &:hover {
-    box-shadow: inset 0 -0.05rem 0 hsl(var(--color-neutral-500));
-  }
 }

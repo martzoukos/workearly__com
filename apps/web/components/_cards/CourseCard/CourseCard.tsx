@@ -29,6 +29,7 @@ const CourseCard = ({ page, className }: PropsType) => {
             fill={true}
             alt={page.name || ""}
             quality={100}
+            sizes="30vw"
           />
         </div>
       )}
