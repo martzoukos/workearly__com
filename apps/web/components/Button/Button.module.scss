@@ -141,7 +141,7 @@ a.root {
   }
 
   &:hover {
-    border: none;
+    border-color: transparent;
     --color-text: var(--color-accent);
   }
 

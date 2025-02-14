@@ -1,14 +1,14 @@
-import clsx from "clsx";
+import Button from "@/components/Button/Button";
+import PageItem from "@/components/PageItem/PageItem";
+import PostAuthor from "@/components/PostAuthor/PostAuthor";
+import PostCover from "@/components/PostCover/PostCover";
+import PostOutline from "@/components/PostOutline/PostOutline";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import PageItem from "@/components/PageItem/PageItem";
-import PostCover from "@/components/PostCover/PostCover";
-import styles from "./PostPage.module.scss";
-import PostOutline from "@/components/PostOutline/PostOutline";
-import Link from "next/link";
-import Button from "@/components/Button/Button";
 import { ArrowRightIcon } from "@workearly/icons";
-import PostAuthor from "@/components/PostAuthor/PostAuthor";
+import clsx from "clsx";
+import Link from "next/link";
+import styles from "./PostPage.module.scss";
 
 type PropsType = {
   className?: string;
@@ -32,6 +32,7 @@ export default function CoursePage({ className }: PropsType) {
             variant="Underlined"
             size="large"
             className={styles.viewAllButton}
+            colorScheme="Black"
           >
             <Link href="/courses">
               View All Success Stories <ArrowRightIcon />
