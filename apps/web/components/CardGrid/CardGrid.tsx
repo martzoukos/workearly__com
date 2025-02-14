@@ -1,7 +1,6 @@
 import CertificateCard from "@/components/_cards/CertificateCard/CertificateCard";
 import IconTextCard from "@/components/_cards/IconTextCard/IconTextCard";
 import KeyMetricsCard from "@/components/_cards/KeyMetricsCard/KeyMetricsCard";
-import PeopleCard from "@/components/_cards/PeopleCard/PeopleCard";
 import ProjectCard from "@/components/_cards/RelatedProjectCard/ProjectCard";
 import RichCard from "@/components/_cards/RichCard/RichCard";
 import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
@@ -64,8 +63,6 @@ export function Card({ card, fallbackVariant }: CardPropsType) {
     return <CertificateCard card={card} columnCount={0} />;
   } else if (variant === "Key Metrics") {
     return <KeyMetricsCard card={card} />;
-  } else if (variant === "People") {
-    return <PeopleCard card={card} />;
   } else if (variant === "Rich Card") {
     return <RichCard card={card} />;
   }

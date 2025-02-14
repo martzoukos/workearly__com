@@ -195,6 +195,10 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
       id
     }
     variant
+    title
+    description {
+      json
+    }
     contentCollection {
       items {
         ... on Entry {
@@ -250,6 +254,12 @@ export const PAGE_FIELDS = graphql(`
   fragment PageFields on Page {
     sys {
       id
+    }
+    contentfulMetadata {
+      tags {
+        id
+        name
+      }
     }
     variant
     name

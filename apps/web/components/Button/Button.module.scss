@@ -43,6 +43,13 @@
   --color-accent: hsl(var(--color-black-450));
 }
 
+.sizeXSmall {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.0175rem;
+  padding: 0.25rem 0.75rem;
+}
+
 .sizeSmall {
   font-size: 0.875rem;
   line-height: 1.125rem;

@@ -29,7 +29,9 @@
     "lodash-es": "^4.17.21",
     "luxon": "^3.5.0",
     "next": "^14.0.4",
+    "next-query-params": "^5.1.0",
     "next-seo": "^6.6.0",
+    "nextjs-progressbar": "^0.0.16",
     "postcss": "^8.4.32",
     "postcss-functions": "^4.0.2",
     "postcss-logical": "^7.0.0",
@@ -41,7 +43,8 @@
     "react-remark": "^2.1.0",
     "sass": "^1.69.5",
     "swiper": "^11.2.2",
-    "typescript": "5.5.4"
+    "typescript": "5.5.4",
+    "use-query-params": "^2.2.1"
   },
   "devDependencies": {
     "typescript-plugin-css-modules": "^5.1.0"

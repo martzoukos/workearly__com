@@ -19,6 +19,7 @@ const variants = cva(styles.root, {
       Decorative: styles.variantDecorative,
     },
     size: {
+      xsmall: styles.sizeXSmall,
       small: styles.sizeSmall,
       medium: styles.sizeMedium,
       large: styles.sizeLarge,

@@ -21,6 +21,9 @@
 }
 
 .contentItems {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
   padding: 3rem;
   border-radius: 0.5rem;
   border: 1px solid var(--border-color);
