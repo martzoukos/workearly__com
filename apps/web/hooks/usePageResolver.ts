@@ -62,7 +62,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
   const dividerIndex = items.findIndex(
     (item) =>
       item?.__typename === "UniqueComponent" &&
-      item.variant === "Start Full Width"
+      item.variant === "Full Width Divider"
   );
 
   const preDividerItems =

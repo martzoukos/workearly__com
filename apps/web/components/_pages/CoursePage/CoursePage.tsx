@@ -1,6 +1,6 @@
-import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
-import CourseDetails from "@/components/CourseDetails/CourseDetails";
-import PageItem from "@/components/PageItem/PageItem";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import CourseDetails from "@/components/CourseDetails";
+import PageItem from "@/components/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";

@@ -1,12 +1,14 @@
 import { Client } from "@urql/core";
 import {
-  PageReferenceTypeName,
-  RelationshipMapTypeName,
-  RelationshipMap,
-  SectionReferenceTypeName,
-  QueryItem,
   CardReferenceTypeName,
+  PageReferenceTypeName,
+  QueryItem,
+  RelationshipMap,
+  RelationshipMapTypeName,
+  SectionReferenceTypeName,
+  UniqueComponentReferenceTypeName,
 } from "../types";
+import { isDefined } from "../utils";
 import fetchCollectionByIds from "./fetchCollectionByIds";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
@@ -21,7 +23,6 @@ import {
   SECTION_COLLECTION_QUERY,
   UNIQUE_COMPONENT_COLLECTION_QUERY,
 } from "./graphql/queries";
-import { isDefined } from "../utils";
 
 type FuncReturnType = {
   page: QueryItem["Page"];
@@ -107,7 +108,7 @@ async function getPageRelationships(
   });
 
   const childPageIds = extractPageRecursiveChildIds(
-    { pageCollection: [page], sectionCollection },
+    { pageCollection: [page], sectionCollection, uniqueComponentCollection },
     "Page"
   );
   const childPageCollection = await fetchCollectionByIds(client, {
@@ -209,6 +210,7 @@ function extractPageRecursiveChildIds(
     pageCollection: QueryItem["Page"][];
     sectionCollection?: QueryItem["Section"][];
     cardCollection?: QueryItem["Card"][];
+    uniqueComponentCollection?: QueryItem["UniqueComponent"][];
     contentTypeRichTextCollection?: QueryItem["ContentTypeRichText"][];
   },
   contentTypeName: RelationshipMapTypeName
@@ -239,12 +241,21 @@ function extractPageRecursiveChildIds(
       )
     ) || [];
 
+  const uniqueComponentChildIds =
+    entities.uniqueComponentCollection?.flatMap((uniqueComponent) =>
+      extractUniqueComponentChildIds(
+        uniqueComponent,
+        contentTypeName as UniqueComponentReferenceTypeName
+      )
+    ) || [];
+
   return [
     ...new Set([
       ...pageChildIds,
       ...sectionChildIds,
       ...cardChildIds,
       ...contentTypeRichTextChildIds,
+      ...uniqueComponentChildIds,
     ]),
   ];
 }
@@ -285,6 +296,21 @@ function extractCardChildIds(
   if (contentTypeName === "Action") {
     return (
       card.actionsCollection?.items.map((item) => item?.sys.id as string) || []
+    );
+  }
+
+  return [];
+}
+
+function extractUniqueComponentChildIds(
+  uniqueComponent: QueryItem["UniqueComponent"],
+  contentTypeName: UniqueComponentReferenceTypeName
+) {
+  if (contentTypeName === "Page") {
+    return (
+      uniqueComponent.contentCollection?.items.map(
+        (item) => item?.sys.id as string
+      ) || []
     );
   }
 

@@ -195,6 +195,15 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
       id
     }
     variant
+    contentCollection {
+      items {
+        ... on Entry {
+          sys {
+            id
+          }
+        }
+      }
+    }
   }
 `);
 

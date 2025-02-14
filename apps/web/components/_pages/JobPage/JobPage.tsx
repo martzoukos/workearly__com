@@ -1,6 +1,6 @@
-import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
+import Breadcrumbs from "@/components/Breadcrumbs";
 import JobDetails from "@/components/JobDetails";
-import PageItem from "@/components/PageItem/PageItem";
+import PageItem from "@/components/PageItem";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";

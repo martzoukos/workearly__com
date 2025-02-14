@@ -110,6 +110,20 @@ export type CardReferenceTypeName = Exclude<
   undefined
 >;
 
+export type UniqueComponentReference = Exclude<
+  NonNullable<
+    NonNullable<
+      QueryItem["UniqueComponent"]["contentCollection"]
+    >["items"][number]
+  >,
+  null | undefined
+>;
+
+export type UniqueComponentReferenceTypeName = Exclude<
+  UniqueComponentReference["__typename"],
+  undefined
+>;
+
 export type SectionReference = Exclude<
   | NonNullable<QueryItem["Section"]["contentCollection"]>["items"][number]
   | NonNullable<
