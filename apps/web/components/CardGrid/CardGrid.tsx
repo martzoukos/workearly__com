@@ -29,12 +29,7 @@ export default function CardGrid({
   return (
     <div className={clsx(styles.root, className)} style={style}>
       {cards.map((card) => (
-        <Card
-          key={card.sys.id}
-          card={card}
-          fallbackVariant={fallbackVariant}
-          columnCount={columnCount}
-        />
+        <Card key={card.sys.id} card={card} fallbackVariant={fallbackVariant} />
       ))}
     </div>
   );
@@ -43,7 +38,6 @@ export default function CardGrid({
 type CardPropsType = {
   card: QueryItem["Card"];
   fallbackVariant?: CardVariantType;
-  columnCount: number;
 };
 
 export function Card({ card, fallbackVariant }: CardPropsType) {
