@@ -68,8 +68,6 @@ async function fetchCollectionByTags<TItem, TData>(
 
   const items: TItem[] = [];
 
-  console.log(tagIds);
-
   const { data, error } = await client
     .query(options.query, {
       where: {

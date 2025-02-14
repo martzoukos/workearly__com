@@ -1,7 +1,11 @@
+import Button from "@/components/Button";
+import RichText from "@/components/RichText/RichText";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import { ArrowLeft, Share } from "@carbon/icons-react";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import { useContentful } from "../../stores/ContentfulStore";
 import Text from "../Text/Text";
 import styles from "./PeopleDetails.module.scss";
 
@@ -11,83 +15,90 @@ type PropsType = {
 
 export default function PeopleDetails({ className }: PropsType) {
   const { page } = useContentful();
-  const tags = ["Students", "Technology", "Design"];
+  const { peopleDetails } = usePageResolver(page);
 
   return (
     <div className={clsx(styles.root, className)}>
-      <nav className={styles.breadcrumbs}>
-        <ul>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
-          <li>
-            <Link href="/mentors">Mentors</Link>
-          </li>
-          <li className={styles.pageName}>{page.name}</li>
-        </ul>
-      </nav>
-      <div className={styles.content}>
-        <div className={styles.backToMentors}>
-          <Link href="/mentors">Back to All Mentors</Link>
-        </div>
+      <Button
+        asChild
+        variant="Underlined"
+        colorScheme="Black"
+        className={styles.backButton}
+        size="large"
+      >
+        <Link href="/mentors">
+          <ArrowLeft /> Back to All Mentors
+        </Link>
+      </Button>
 
-        <div className={styles.contentDetails}>
-          <div className={styles.personDetails}>
-            <Text size="small" className={styles.mentorTitle}>
-              Workearly Mentor
-            </Text>
+      <article className={styles.article}>
+        <div className={styles.personCard}>
+          <Text size="small" className={styles.cardTitle}>
+            Workearly Mentor
+          </Text>
 
-            <div className={styles.moreDetails}>
-              <div className={styles.mentorMedia}>
+          <div className={styles.cardContent}>
+            {peopleDetails.asset?.url && (
+              <div className={styles.cardMedia}>
                 <Image
-                  src={"/mentor.png"}
-                  alt=""
-                  width={100}
-                  height={100}
-                  className={styles.media}
+                  src={peopleDetails.asset.url}
+                  alt={peopleDetails.asset.title || peopleDetails.name || ""}
+                  width={198}
+                  height={198}
                 />
               </div>
+            )}
 
-              <div className={styles.expertise}>
+            {page.tags && (
+              <div className={styles.tagsContainer}>
                 <Text size="small">Functional Expertise</Text>
 
                 <div className={styles.tags}>
-                  {tags.map((tag) => {
+                  {page.tags.map((tag) => {
                     return (
-                      <Text size="small" className={styles.tag}>
+                      <Button
+                        as="span"
+                        key={tag}
+                        size="xsmall"
+                        colorScheme="Black"
+                        variant="Outlined"
+                        className={styles.tag}
+                      >
                         {tag}
-                      </Text>
+                      </Button>
                     );
                   })}
                 </div>
               </div>
-              <div className={styles.linkedin}>
-                <Link href="https://www.linkedin.com/">Linkedin</Link>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.textContainer}>
-            <Text size="h2">Casey Johnson, Business Director, Pulse</Text>
-
-            <Text className={styles.description}>
-              George brings into his career an extensive education background
-              including a degree in Nuclear Physics, an MBA from Bentley
-              University, and ongoing doctoral research as a PhD candidate at
-              the Technical University of Crete. He has over 23 years of
-              experience in leadership roles and as a COO, and has been
-              successful in scaling and restructuring various organizations.
-              George has grown teams to over a thousand and revenues from $500k
-              to $1 billion within three years. His background also spans
-              software development and project management, with roles at
-              Cognizant, Wipro, Alite, Dentsu, and Mindshare. He has managed
-              fiscal challenges, P&L responsibilities, and has led high-profile
-              companies, such as Lloyd’s, BP, LBC, and Lego, in AI design and
-              roadmapping.
-            </Text>
+            )}
+            {peopleDetails.linkedIn && (
+              <Button
+                asChild
+                isFullWidth
+                variant="Outlined"
+                size="medium"
+                colorScheme="Black"
+              >
+                <a
+                  href={peopleDetails.linkedIn}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <Share /> Linkedin
+                </a>
+              </Button>
+            )}
           </div>
         </div>
-      </div>
+
+        <div className={styles.textContainer}>
+          <Text size="h2">
+            {peopleDetails.name}, {peopleDetails.role}, {peopleDetails.company}
+          </Text>
+
+          <RichText json={peopleDetails.text?.json} />
+        </div>
+      </article>
     </div>
   );
 }

@@ -1,7 +1,7 @@
+import clsx from "clsx";
 import { Slot } from "radix-ui";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./ListItem.module.scss";
-import clsx from "clsx";
 
 type ListItemElement = React.ElementRef<"li">;
 

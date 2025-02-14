@@ -1,13 +1,13 @@
-import Image from "next/image";
-import styles from "./ArticleCard.module.scss";
 import Text, { TextProps } from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
-import usePageResolver from "../../../hooks/usePageResolver";
-import { DateTime } from "luxon";
-import ReadingTime from "../../ReadingTime/ReadingTime";
-import Person from "../../Person/Person";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
+import { DateTime } from "luxon";
+import Image from "next/image";
+import usePageResolver from "../../../hooks/usePageResolver";
+import Person from "../../Person/Person";
+import ReadingTime from "../../ReadingTime/ReadingTime";
+import styles from "./ArticleCard.module.scss";
 
 const articleCardVariants = cva(styles.root, {
   variants: {
@@ -54,15 +54,6 @@ export default function ArticleCard({
       )}
     >
       {resourceDetails.asset?.url && (
-<<<<<<< HEAD
-        <Image
-          src={resourceDetails.asset.url}
-          width={resourceDetails.asset.width || 100}
-          height={resourceDetails.asset.height || 100}
-          alt={resourceDetails.name || ""}
-          className={styles.media}
-        />
-=======
         <div className={styles.media}>
           <Image
             src={resourceDetails.asset.url}
@@ -72,7 +63,6 @@ export default function ArticleCard({
             sizes="30vw"
           />
         </div>
->>>>>>> 4e257ff3f869787d056153ee2ba13b632d09a064
       )}
 
       <div className={`${styles.content} `}>

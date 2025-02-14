@@ -1,5 +1,5 @@
-import { Slot } from "radix-ui";
 import clsx from "clsx";
+import { Slot } from "radix-ui";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./Text.module.scss";
 
