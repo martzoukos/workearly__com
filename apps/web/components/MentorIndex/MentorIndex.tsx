@@ -34,8 +34,6 @@ export default function MentorIndex({ pages, title, subtitle }: PropsType) {
     );
   });
 
-  console.log(pages, pageTagIds);
-
   return (
     <div className={styles.root}>
       {(title || subtitle) && (
