@@ -1,6 +1,7 @@
+import Text from "@/components/Text";
+import clsx from "clsx";
 import Link from "next/link";
 import styles from "./Breadcrumbs.module.scss";
-import clsx from "clsx";
 
 type PropsType = {
   items: Array<{ name: string; href?: string }>;
@@ -23,11 +24,13 @@ export default function Breadcrumbs({
         {items.map((item) => (
           <li key={item.name}>
             {item.href ? (
-              <Link href={item.href} className={styles.link}>
-                {item.name}
-              </Link>
+              <Text asChild size="caption">
+                <Link href={item.href} className={styles.link}>
+                  {item.name}
+                </Link>
+              </Text>
             ) : (
-              item.name
+              <Text size="caption">{item.name}</Text>
             )}
           </li>
         ))}

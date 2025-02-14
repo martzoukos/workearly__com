@@ -3,6 +3,7 @@ import Button from "@/components/Button";
 import Text from "@/components/Text";
 import useFilterTabs from "@/hooks/useFilterTabs";
 import { CONTENTFUL_TAGS, QueryItem } from "@workearly/api";
+import Link from "next/link";
 import styles from "./MentorIndex.module.scss";
 
 type PropsType = {
@@ -65,7 +66,9 @@ export default function MentorIndex({ pages, title, subtitle }: PropsType) {
       )}
       <div className={styles.cardGrid}>
         {filteredPages.map((page) => (
-          <PersonCard key={page.sys.id} page={page} />
+          <Link key={page.sys.id} href={page.slug || "/"}>
+            <PersonCard page={page} className={styles.personCard} />
+          </Link>
         ))}
       </div>
     </div>

@@ -25,6 +25,10 @@
   }
 }
 
+a.root {
+  cursor: pointer;
+}
+
 .colorSchemeGreen {
   --color-primary: hsl(var(--color-green-500));
   --color-secondary: hsl(var(--color-black-500));
@@ -78,10 +82,6 @@
 .featureIsRounded {
   padding-inline: 1.5rem;
   border-radius: 1.5rem;
-}
-
-.iconPlacementLeft {
-  flex-direction: row-reverse;
 }
 
 .variantSolid {
@@ -141,6 +141,7 @@
   }
 
   &:hover {
+    border: none;
     --color-text: var(--color-accent);
   }
 

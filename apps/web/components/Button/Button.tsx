@@ -30,9 +30,6 @@ const variants = cva(styles.root, {
     isRounded: {
       true: styles.featureIsRounded,
     },
-    iconPlacement: {
-      Left: styles.iconPlacementLeft,
-    },
   },
   defaultVariants: {
     size: "small",
@@ -61,7 +58,6 @@ export const Button = forwardRef<ButtonElement, PropsType>(
       variant,
       isFullWidth,
       isRounded,
-      iconPlacement,
       as: Tag = "button",
       ...rest
     } = props;
@@ -77,7 +73,6 @@ export const Button = forwardRef<ButtonElement, PropsType>(
             size,
             isFullWidth,
             isRounded,
-            iconPlacement,
           }),
           className
         )}
