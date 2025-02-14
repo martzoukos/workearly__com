@@ -1,25 +1,29 @@
-import { QueryItem } from "@workearly/api";
-import { useContentful } from "../stores/ContentfulStore";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
+import { isDefined, QueryItem } from "@workearly/api";
+import { useContentful } from "../stores/ContentfulStore";
 
 const DATA_MAP = {
+  wordsPerMinute: 200,
   variants: [
     "Default",
     "Post",
     "Course",
     "Playground",
     "Post",
-    "Job Title",
+    "Job",
     "Category",
     "Framed",
     "Person",
   ],
 } as const;
 
+export type PageVariantType = (typeof DATA_MAP)["variants"][number];
+
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
 
+  // TODO: Use getReferences here?
   const items =
     page.contentCollection?.items
       .map((item) => {
@@ -47,14 +51,18 @@ export default function usePageResolver(page: QueryItem["Page"]) {
           return relationshipMap.resourceDetailsCollection.find(
             (section) => section.sys.id === item.sys.id
           );
+        } else if (item?.__typename === "CategoryOrJobDetails") {
+          return relationshipMap.categoryOrJobDetailsCollection.find(
+            (section) => section?.sys.id === item.sys.id
+          );
         }
       })
-      .filter(Boolean) || [];
+      .filter(isDefined) || [];
 
   const dividerIndex = items.findIndex(
     (item) =>
       item?.__typename === "UniqueComponent" &&
-      item.variant === "Start Full Width"
+      item.variant === "Full Width Divider"
   );
 
   const preDividerItems =
@@ -71,6 +79,9 @@ export default function usePageResolver(page: QueryItem["Page"]) {
   const resourceDetails = items.find(
     (item) => item?.__typename === "ResourceDetails"
   ) as QueryItem["ResourceDetails"];
+  const categoryOrJobDetails = items.find(
+    (item) => item?.__typename === "CategoryOrJobDetails"
+  ) as QueryItem["CategoryOrJobDetails"];
 
   const richTexts = items.filter(
     (item) => item?.__typename === "ContentTypeRichText"
@@ -97,24 +108,26 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     return headingsDoc;
   }
 
+  const variant = page.variant as PageVariantType;
+
   return {
     courseDetails,
     peopleDetails,
     resourceDetails,
+    categoryOrJobDetails,
     preDividerItems,
     postDividerItems,
     items,
     readingTime,
     getHeadingsDoc,
+    variant,
   };
 }
-
-const WORDS_PER_MINUTE = 200;
 
 function calculateReadingTime(documents: Document[]) {
   const plainText = documents
     .map((document) => documentToPlainTextString(document))
     .join(" ");
   const wordCount = plainText.split(/\s+/).filter(Boolean).length;
-  return Math.ceil(wordCount / WORDS_PER_MINUTE);
+  return Math.ceil(wordCount / DATA_MAP.wordsPerMinute);
 }

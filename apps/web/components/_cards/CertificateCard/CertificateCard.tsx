@@ -1,15 +1,15 @@
-import Image from "next/image";
-import styles from "./CertificateCard.module.scss";
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
+import Image from "next/image";
+import styles from "./CertificateCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
   className?: string;
-  columnCount: number;
+  columnCount?: number;
 };
-const CertificateCard = ({ card, className, columnCount }: PropsType) => {
+const CertificateCard = ({ card, className, columnCount = 2 }: PropsType) => {
   return (
     <div className={clsx(styles.card, className)} data-column={columnCount > 1}>
       {card?.asset?.url && (

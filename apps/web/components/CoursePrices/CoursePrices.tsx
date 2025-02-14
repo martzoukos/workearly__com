@@ -1,7 +1,7 @@
-import Text from "../Text/Text";
+import Text from "@/components/Text";
+import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./CoursePrices.module.scss";
-import { QueryItem } from "@workearly/api";
 
 type PropsType = {
   courseDetails: QueryItem["CourseDetails"];

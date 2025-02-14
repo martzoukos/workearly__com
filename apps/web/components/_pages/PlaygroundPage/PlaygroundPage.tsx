@@ -1,9 +1,9 @@
-import Link from "next/link";
-import styles from "./PlaygroundPage.module.scss";
+import PageItem from "@/components/PageItem/PageItem";
+import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import PageItem from "../PageItem/PageItem";
-import usePageResolver from "../../hooks/usePageResolver";
+import Link from "next/link";
+import styles from "./PlaygroundPage.module.scss";
 
 type PropsType = {
   className?: string;

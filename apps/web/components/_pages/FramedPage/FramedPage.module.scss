@@ -1,0 +1,31 @@
+@use "@/styles/_functions" as *;
+
+.root {
+  --border-color: hsl(var(--color-black));
+  background: hsl(var(--color-neutral-500));
+  color: hsl(var(--color-black-500));
+}
+
+.content {
+  border-radius: 1rem;
+  border: 1px solid var(--border-color);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  background: hsl(var(--color-green-500));
+}
+
+.breadcrumbs {
+  border: none;
+}
+
+.contentItems {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-color);
+  background: hsl(var(--color-neutral-300));
+}

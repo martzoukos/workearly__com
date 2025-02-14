@@ -1,6 +1,5 @@
 import {
   fetchPageBySlug,
-  isDefined,
   QueryItem,
   RelationshipMapTypeName,
 } from "@workearly/api";
@@ -23,6 +22,10 @@ type ContextType = PropsType & {
     typename: T,
     id: string
   ) => Pick<QueryItem, RelationshipMapTypeName>[T] | undefined;
+  getTaggedReferences: <T extends RelationshipMapTypeName>(
+    typename: T,
+    tagIds: string[]
+  ) => Pick<QueryItem, RelationshipMapTypeName>[T][];
 };
 
 const Context = createContext<ContextType | undefined>(undefined);
@@ -58,6 +61,22 @@ export const ContentfulProvider = ({
     return references.at(0);
   }
 
+  function getTaggedReferences<T extends RelationshipMapTypeName>(
+    typename: T,
+    tagIds: string[]
+  ): Pick<QueryItem, RelationshipMapTypeName>[T][] {
+    const relationshipKey = camelCase(
+      `${typename}Collection`
+    ) as keyof typeof relationshipMap;
+
+    const collection = relationshipMap[relationshipKey];
+    return collection?.filter((entry) =>
+      entry?.contentfulMetadata.tags
+        .map((tag) => tag?.id as string)
+        .some((id) => tagIds.includes(id))
+    ) as Pick<QueryItem, RelationshipMapTypeName>[T][];
+  }
+
   return (
     <Context.Provider
       value={{
@@ -65,6 +84,7 @@ export const ContentfulProvider = ({
         relationshipMap,
         getReferences,
         getReference,
+        getTaggedReferences,
       }}
     >
       {children}

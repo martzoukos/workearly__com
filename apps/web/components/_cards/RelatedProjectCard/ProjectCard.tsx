@@ -1,8 +1,9 @@
-import styles from "./ProjectCard.module.scss";
+import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
 import { UserIcon } from "@workearly/icons";
 import clsx from "clsx";
+import styles from "./ProjectCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
@@ -25,22 +26,8 @@ export default function ProjectCard({ card, className }: PropsType) {
       <StatLabel
         icon={<UserIcon />}
         label={`${card.studentsCount} Students`}
-        className={styles.icon}
+        className={styles.statLabel}
       />
-    </div>
-  );
-}
-
-type StatLabelPropsType = {
-  label: string;
-  icon: React.ReactNode;
-  className?: string;
-};
-
-function StatLabel({ icon, label, className }: StatLabelPropsType) {
-  return (
-    <div className={clsx(styles.statLabel, className)}>
-      {icon} <Text size="caption">{label}</Text>
     </div>
   );
 }

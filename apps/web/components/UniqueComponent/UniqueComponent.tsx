@@ -1,6 +1,9 @@
+import MentorIndex from "@/components/MentorIndex";
+import useUniqueComponentResolver from "@/hooks/useUniqueComponentResolver";
+import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { QueryItem } from "@workearly/api";
-import styles from "./UniqueComponent.module.scss";
 import clsx from "clsx";
+import styles from "./UniqueComponent.module.scss";
 
 type PropsType = {
   uniqueComponent: QueryItem["UniqueComponent"];
@@ -11,9 +14,19 @@ export default function UniqueComponent({
   uniqueComponent,
   className,
 }: PropsType) {
+  const { variant, pages } = useUniqueComponentResolver(uniqueComponent);
+
   return (
     <section className={clsx(styles.root, className)}>
-      {uniqueComponent.variant}
+      {variant === "Mentors" && (
+        <MentorIndex
+          pages={pages}
+          title={uniqueComponent.title}
+          subtitle={documentToPlainTextString(
+            uniqueComponent.description?.json
+          )}
+        />
+      )}
     </section>
   );
 }

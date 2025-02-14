@@ -1,17 +1,17 @@
-import styles from "./RichCard.module.scss";
-import Text from "@/components/Text/Text";
 import Button from "@/components/Button/Button";
-import Image from "next/image";
-import clsx from "clsx";
+import Text from "@/components/Text/Text";
 import { isDefined, QueryItem } from "@workearly/api";
+import clsx from "clsx";
+import Image from "next/image";
 import { useContentful } from "../../../stores/ContentfulStore";
+import styles from "./RichCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
   className?: string;
 };
 
-const RichCard = ({ card, className }: PropsType) => {
+export default function RichCard({ card, className }: PropsType) {
   const { getReferences } = useContentful();
 
   const actionIds =
@@ -53,6 +53,4 @@ const RichCard = ({ card, className }: PropsType) => {
       ))}
     </div>
   );
-};
-
-export default RichCard;
+}

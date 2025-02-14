@@ -1,14 +1,14 @@
-import { DateTime } from "luxon";
-import usePageResolver from "../../hooks/usePageResolver";
-import { useContentful } from "../../stores/ContentfulStore";
-import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
-import Button from "../Button/Button";
-import Person from "../Person/Person";
-import Text from "../Text/Text";
-import styles from "./PostCover.module.scss";
-import Image from "next/image";
-import ReadingTime from "../ReadingTime/ReadingTime";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import Button from "@/components/Button";
+import Person from "@/components/Person";
+import ReadingTime from "@/components/ReadingTime";
+import Text from "@/components/Text";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
 import { ShareIcon } from "@workearly/icons";
+import { DateTime } from "luxon";
+import Image from "next/image";
+import styles from "./PostCover.module.scss";
 
 export default function PostCover() {
   const { page } = useContentful();

@@ -1,5 +1,19 @@
 import { graphql } from "./__generated__/gql";
 
+export const ENTRY_FIELDS = graphql(`
+  fragment EntryFields on Entry {
+    sys {
+      id
+    }
+    contentfulMetadata {
+      tags {
+        id
+        name
+      }
+    }
+  }
+`);
+
 export const ASSET_FIELDS = graphql(`
   fragment AssetFields on Asset {
     sys {
@@ -16,9 +30,7 @@ export const ASSET_FIELDS = graphql(`
 
 export const ACCORDION_CARD_FIELDS = graphql(`
   fragment AccordionCardFields on AccordionCard {
-    sys {
-      id
-    }
+    ...EntryFields
     title
     text {
       json
@@ -34,9 +46,7 @@ export const ACCORDION_CARD_FIELDS = graphql(`
 
 export const ACTION_FIELDS = graphql(`
   fragment ActionFields on Action {
-    sys {
-      id
-    }
+    ...EntryFields
     name
     internal {
       slug
@@ -55,9 +65,7 @@ export const ACTION_FIELDS = graphql(`
 
 export const CARD_FIELDS = graphql(`
   fragment CardFields on Card {
-    sys {
-      id
-    }
+    ...EntryFields
     title
     text
     variant
@@ -68,9 +76,7 @@ export const CARD_FIELDS = graphql(`
     actionsCollection {
       items {
         ... on Entry {
-          sys {
-            id
-          }
+          ...EntryFields
         }
       }
     }
@@ -79,9 +85,7 @@ export const CARD_FIELDS = graphql(`
 
 export const COURSE_DETAILS_FIELDS = graphql(`
   fragment CourseDetailsFields on CourseDetails {
-    sys {
-      id
-    }
+    ...EntryFields
     title
     summary
     shortDescription
@@ -106,9 +110,7 @@ export const COURSE_DETAILS_FIELDS = graphql(`
 
 export const CATEGORY_OR_JOB_DETAILS_FIELDS = graphql(`
   fragment CategoryOrJobDetailsFields on CategoryOrJobDetails {
-    sys {
-      id
-    }
+    ...EntryFields
     title
     summary
     shortDescription
@@ -124,9 +126,7 @@ export const CATEGORY_OR_JOB_DETAILS_FIELDS = graphql(`
 
 export const PEOPLE_DETAILS_FIELDS = graphql(`
   fragment PeopleDetailsFields on PeopleDetails {
-    sys {
-      id
-    }
+    ...EntryFields
     name
     role
     company
@@ -143,9 +143,7 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
 
 export const RESOURCE_DETAILS_FIELDS = graphql(`
   fragment ResourceDetailsFields on ResourceDetails {
-    sys {
-      id
-    }
+    ...EntryFields
     name
     description
     topics
@@ -158,24 +156,18 @@ export const RESOURCE_DETAILS_FIELDS = graphql(`
 
 export const CONTENT_TYPE_RICH_TEXT_FIELDS = graphql(`
   fragment ContentTypeRichTextFields on ContentTypeRichText {
-    sys {
-      id
-    }
+    ...EntryFields
     body {
       json
       links {
         entries {
           block {
             __typename
-            sys {
-              id
-            }
+            ...EntryFields
           }
           inline {
             __typename
-            sys {
-              id
-            }
+            ...EntryFields
           }
         }
         assets {
@@ -191,18 +183,25 @@ export const CONTENT_TYPE_RICH_TEXT_FIELDS = graphql(`
 
 export const UNIQUE_COMPONENT_FIELDS = graphql(`
   fragment UniqueComponentFields on UniqueComponent {
-    sys {
-      id
-    }
+    ...EntryFields
     variant
+    title
+    description {
+      json
+    }
+    contentCollection {
+      items {
+        ... on Entry {
+          ...EntryFields
+        }
+      }
+    }
   }
 `);
 
 export const SECTION_FIELDS = graphql(`
   fragment SectionFields on Section {
-    sys {
-      id
-    }
+    ...EntryFields
     alignment
     title
     supertitle
@@ -215,9 +214,7 @@ export const SECTION_FIELDS = graphql(`
     metadata
     actionsCollection {
       items {
-        sys {
-          id
-        }
+        ...EntryFields
       }
     }
     assetsCollection {
@@ -228,9 +225,7 @@ export const SECTION_FIELDS = graphql(`
     contentCollection {
       items {
         ... on Entry {
-          sys {
-            id
-          }
+          ...EntryFields
         }
       }
     }
@@ -239,9 +234,7 @@ export const SECTION_FIELDS = graphql(`
 
 export const PAGE_FIELDS = graphql(`
   fragment PageFields on Page {
-    sys {
-      id
-    }
+    ...EntryFields
     variant
     name
     slug
@@ -255,9 +248,7 @@ export const PAGE_FIELDS = graphql(`
     contentCollection {
       items {
         ... on Entry {
-          sys {
-            id
-          }
+          ...EntryFields
         }
       }
     }

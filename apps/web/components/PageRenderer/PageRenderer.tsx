@@ -1,22 +1,26 @@
-import { useContentful } from "../../stores/ContentfulStore";
-import Footer from "../Footer/Footer";
-import Header from "../Header/Header";
-import CoursePage from "../CoursePage/CoursePage";
+import CoursePage from "@/components/_pages/CoursePage";
+import FramedPage from "@/components/_pages/FramedPage";
+import JobPage from "@/components/_pages/JobPage";
+import PlaygroundPage from "@/components/_pages/PlaygroundPage";
+import PostPage from "@/components/_pages/PostPage";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
 import styles from "./PageRenderer.module.scss";
-import PlaygroundPage from "../PlaygroundPage/PlaygroundPage";
-import PostPage from "../PostPage/PostPage";
 
 export default function PageRenderer() {
   const { page } = useContentful();
+  const { variant } = usePageResolver(page);
 
   return (
     <>
       <Header />
-      {page.variant === "Course" && <CoursePage className={styles.root} />}
-      {page.variant === "Playground" && (
-        <PlaygroundPage className={styles.root} />
-      )}
-      {page.variant === "Post" && <PostPage className={styles.root} />}
+      {variant === "Course" && <CoursePage className={styles.root} />}
+      {variant === "Playground" && <PlaygroundPage className={styles.root} />}
+      {variant === "Post" && <PostPage className={styles.root} />}
+      {variant === "Job" && <JobPage className={styles.root} />}
+      {variant === "Framed" && <FramedPage className={styles.root} />}
       <Footer />
     </>
   );

@@ -1,13 +1,12 @@
+import CertificateCard from "@/components/_cards/CertificateCard/CertificateCard";
 import IconTextCard from "@/components/_cards/IconTextCard/IconTextCard";
+import KeyMetricsCard from "@/components/_cards/KeyMetricsCard/KeyMetricsCard";
 import ProjectCard from "@/components/_cards/RelatedProjectCard/ProjectCard";
+import RichCard from "@/components/_cards/RichCard/RichCard";
 import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
-import CertificateCard from "../_cards/CertificateCard/CertificateCard";
-import KeyMetricsCard from "../_cards/KeyMetricsCard/KeyMetricsCard";
-import PeopleCard from "../_cards/PeopleCard/PeopleCard";
-import RichCard from "../_cards/RichCard/RichCard";
 import styles from "./CardGrid.module.scss";
 
 type PropsType = {
@@ -50,6 +49,10 @@ type CardPropsType = {
 export function Card({ card, fallbackVariant }: CardPropsType) {
   const variant = (card.variant || fallbackVariant) as CardVariantType;
 
+  if (!variant) {
+    return null;
+  }
+
   if (variant === "Icon and Text") {
     return <IconTextCard card={card} />;
   } else if (variant === "Title and Text") {
@@ -60,8 +63,6 @@ export function Card({ card, fallbackVariant }: CardPropsType) {
     return <CertificateCard card={card} columnCount={0} />;
   } else if (variant === "Key Metrics") {
     return <KeyMetricsCard card={card} />;
-  } else if (variant === "People") {
-    return <PeopleCard card={card} />;
   } else if (variant === "Rich Card") {
     return <RichCard card={card} />;
   }

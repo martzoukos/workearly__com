@@ -1,0 +1,37 @@
+@use "@/styles/_functions" as *;
+
+.root {
+  --border-color: hsl(var(--color-neutral-500) / 0.3);
+  --gap-sidebar: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8rem;
+}
+
+.contentWrapper {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: var(--gap-sidebar);
+}
+
+.content {
+  border: 1px solid var(--border-color);
+  padding: fluid-rem(0.88rem, 0.88rem);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  height: fit-content;
+
+  .contentItem {
+    padding: 2.12rem 1.88rem;
+
+    &:not(:first-child) {
+      border-top: 1px solid var(--border-color);
+    }
+  }
+}
+
+.sidebar {
+  position: sticky;
+  top: var(--gap-sidebar);
+}

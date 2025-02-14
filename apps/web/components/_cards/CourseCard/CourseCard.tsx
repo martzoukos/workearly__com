@@ -1,13 +1,13 @@
-import Image from "next/image";
-import styles from "./CourseCard.module.scss";
+import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
-import CourseDetails from "../../CourseDetails/CourseDetails";
 import { UserIcon } from "@workearly/icons";
+import { cva, VariantProps } from "class-variance-authority";
+import clsx from "clsx";
+import Image from "next/image";
 import usePageResolver from "../../../hooks/usePageResolver";
 import CoursePrices from "../../CoursePrices/CoursePrices";
-import clsx from "clsx";
-import { cva, VariantProps } from "class-variance-authority";
+import styles from "./CourseCard.module.scss";
 
 const courseCardVariants = cva(styles.root, {
   variants: {
@@ -82,7 +82,7 @@ const CourseCard = ({
             <Text size="caption">{courseDetails.duration}</Text>
           )}
           {courseDetails?.studentsCount && (
-            <CourseDetails.StatLabel
+            <StatLabel
               icon={<UserIcon />}
               label={`${courseDetails.studentsCount} Students`}
               className={styles.statLabel}

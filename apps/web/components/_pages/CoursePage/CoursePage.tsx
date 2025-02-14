@@ -1,11 +1,11 @@
-import styles from "./CoursePage.module.scss";
-import { useContentful } from "../../stores/ContentfulStore";
+import Breadcrumbs from "@/components/Breadcrumbs";
+import CourseDetails from "@/components/CourseDetails";
+import PageItem from "@/components/PageItem";
+import PurchaseCourse from "@/components/PurchaseCourse";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import CourseDetails from "../CourseDetails/CourseDetails";
-import PurchaseCourse from "@/components/PurchaseCourse/PurchaseCourse";
-import PageItem from "../PageItem/PageItem";
-import usePageResolver from "../../hooks/usePageResolver";
-import Breadcrumbs from "../Breadcrumbs/Breadcrumbs";
+import styles from "./CoursePage.module.scss";
 
 type PropsType = {
   className?: string;
@@ -35,7 +35,9 @@ export default function CoursePage({ className }: PropsType) {
             />
           ))}
         </div>
-        <PurchaseCourse className={styles.sidebar} />
+        <aside className={styles.sidebar}>
+          <PurchaseCourse />
+        </aside>
       </div>
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />
