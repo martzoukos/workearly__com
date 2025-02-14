@@ -1,31 +1,32 @@
 @use "@/styles/_index" as *;
 
 .root {
-  --bg-color: hsl(var(--color-neutral-300));
-  --border-line: hsl(var(--color-neutral-500));
-  --txt-color: hsl(var(--color-black-500));
   display: flex;
   flex-direction: column;
-  background-color: v(bg-color);
-  border: 0.5rem solid v(border-line);
+  background-color: hsl(var(--color-neutral-300));
+  border: 0.5rem solid hsl(var(--color-neutral-500));
+  color: hsl(var(--color-black-500));
   padding: 0.5rem;
   border-radius: 0.5rem;
+}
+
+.normal {
   max-width: 18rem;
+}
 
-  &[data-color="Dark"] {
-    --bg-color: hsl(var(--color-black-450));
-    --border-line: hsl(var(--color-black-500));
-    --txt-color: hsl((var(--neutral-500)));
-  }
+.wide {
+  max-width: 21rem;
+}
 
-  &[data-color="Green"] {
-    --bg-color: hsl(var(--color-green-100));
-    --border-line: hsl(var(--color-green-500));
-  }
+.green {
+  background-color: hsl(var(--color-green-100));
+  border-color: hsl(var(--color-green-500));
+}
 
-  &[data-size="normal"] {
-    max-width: 21rem;
-  }
+.dark {
+  background-color: hsl(var(--color-black-450));
+  border-color: hsl(var(--color-black-500));
+  color: hsl((var(--color-neutral-500)));
 }
 
 .media {

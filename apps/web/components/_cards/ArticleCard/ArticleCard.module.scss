@@ -5,19 +5,20 @@
   border-radius: 1rem;
 }
 
+.wide {
+  display: flex;
+
+  .content {
+    justify-content: space-between;
+  }
+}
+
 .media {
-  position: relative;
-  width: 100%;
-  height: 10.4375rem;
+  max-height: 19rem;
+  width: fit-content;
   border: 1px solid hsl(var(--color-black-500));
   border-radius: 0.5rem;
-
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0.5rem;
-  }
+  object-fit: cover;
 }
 
 .content {
@@ -47,7 +48,14 @@
   }
 }
 
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 .right {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
 }
