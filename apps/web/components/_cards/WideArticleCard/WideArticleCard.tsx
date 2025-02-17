@@ -5,13 +5,13 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import { DateTime } from "luxon";
 import Image from "next/image";
-import styles from "./ArticleCard.module.scss";
+import styles from "./WideArticleCard.module.scss";
 
 type PropsType = {
   page: QueryItem["Page"];
 };
 
-export default function ArticleCard({ page }: PropsType) {
+export default function WideArticleCard({ page }: PropsType) {
   const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
 
   if (!resourceDetails) {
@@ -34,7 +34,7 @@ export default function ArticleCard({ page }: PropsType) {
 
       <div className={styles.content}>
         <header className={styles.header}>
-          {resourceDetails.name && <Text as="h5">{resourceDetails.name}</Text>}
+          {resourceDetails.name && <Text as="h3">{resourceDetails.name}</Text>}
           {resourceDetails.description && (
             <Text size="small">{resourceDetails.description}</Text>
           )}
