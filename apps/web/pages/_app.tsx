@@ -1,29 +1,38 @@
-import ExitPreview from "@/components/ExitPreview/ExitPreview";
+import ExitPreview from "@/components/ExitPreview";
 import "@/styles/fonts.scss";
-import "@/styles/style.scss";
+import "@/styles/global.scss";
 import NextAdapterPages from "next-query-params/pages";
 import { DefaultSeo } from "next-seo";
+import { ThemeProvider } from "next-themes";
 import type { AppProps } from "next/app";
+import dynamic from "next/dynamic";
 import NextNProgress from "nextjs-progressbar";
 import { QueryParamProvider } from "use-query-params";
 
+const ThemeSwitcher = dynamic(() => import("@/components/ThemeSwitcher"), {
+  ssr: false,
+});
+
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <QueryParamProvider adapter={NextAdapterPages}>
-      <ExitPreview />
-      <DefaultSeo
-        title="Home"
-        additionalLinkTags={[{ rel: "shortcut icon", href: "/favicon.png" }]}
-      />
-      <NextNProgress
-        color="#C1FF72"
-        startPosition={0.3}
-        stopDelayMs={200}
-        height={3}
-        showOnShallow={false}
-        options={{ showSpinner: false }}
-      />
-      <Component {...pageProps} />
-    </QueryParamProvider>
+    <ThemeProvider defaultTheme="dark" enableSystem={false}>
+      <QueryParamProvider adapter={NextAdapterPages}>
+        <ExitPreview />
+        {process.env.NODE_ENV === "development" && <ThemeSwitcher />}
+        <DefaultSeo
+          title="Home"
+          additionalLinkTags={[{ rel: "shortcut icon", href: "/favicon.png" }]}
+        />
+        <NextNProgress
+          color="#C1FF72"
+          startPosition={0.3}
+          stopDelayMs={200}
+          height={3}
+          showOnShallow={false}
+          options={{ showSpinner: false }}
+        />
+        <Component {...pageProps} />
+      </QueryParamProvider>
+    </ThemeProvider>
   );
 }

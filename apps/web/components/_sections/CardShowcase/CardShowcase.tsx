@@ -1,15 +1,15 @@
-import "swiper/css";
-import { QueryItem } from "@workearly/api";
-import styles from "./Slider.module.scss";
-import clsx from "clsx";
-import useSectionResolver from "@/hooks/useSectionResolver";
-import Text from "@/components/Text/Text";
-import Button from "@/components/Button/Button";
-import { Swiper, SwiperSlide } from "swiper/react";
 import CourseCard from "@/components/_cards/CourseCard/CourseCard";
-import { useContentful } from "@/stores/ContentfulStore";
+import Button from "@/components/Button/Button";
 import { Card } from "@/components/CardGrid/CardGrid";
+import Text from "@/components/Text/Text";
 import { CardVariantType } from "@/hooks/useCardResolver";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
+import "swiper/css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import styles from "./CardShowcase.module.scss";
 // import { Swiper as SwiperCore } from "swiper/types";
 
 type PropsType = {

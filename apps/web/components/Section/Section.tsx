@@ -5,9 +5,9 @@ import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import Text from "@/components/Text/Text";
+import Slider from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
-import RelatedArticles from "@/components/_sections/RelatedArticles/RelatedArticles";
-import Slider from "@/components/_sections/Slider/Slider";
+import RelatedArticles from "@/components/_sections/RelatedArticles";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { isDefined, QueryItem } from "@workearly/api";
@@ -25,7 +25,11 @@ type PropsType = {
 export default function Section({ section, className }: PropsType) {
   const { cardsCount, variant, getReferences } = useSectionResolver(section);
 
-  if (variant === "Default") {
+  if (
+    variant === "Card Grid" ||
+    variant === "Card Slider" ||
+    variant === "Card Hybrid"
+  ) {
     const cards = getReferences("Card");
 
     return (
@@ -83,7 +87,7 @@ export default function Section({ section, className }: PropsType) {
         <FeaturesShowcase cards={cards} title={section.title || ""} />
       </SectionLayout>
     );
-  } else if (variant === "Slider") {
+  } else if (variant === "Card Showcase") {
     return <Slider section={section} />;
   } else if (variant === "Related Articles") {
     return <RelatedArticles section={section} />;

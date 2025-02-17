@@ -209,7 +209,6 @@ export const SECTION_FIELDS = graphql(`
     cardVariant
     variant
     cardsCount
-    behaviour
     theme
     metadata
     actionsCollection {
