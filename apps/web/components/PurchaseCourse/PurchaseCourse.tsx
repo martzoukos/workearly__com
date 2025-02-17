@@ -2,11 +2,13 @@ import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
+import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Gift, Share } from "@carbon/icons-react";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import styles from "./PurchaseCourse.module.scss";
 
 type PropsType = {
@@ -14,8 +16,12 @@ type PropsType = {
 };
 
 export default function PurchaseCourse({ className }: PropsType) {
+  const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
+    "Personal"
+  );
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
+  const { translate } = useTranslate();
 
   if (!courseDetails) {
     return null;
@@ -36,18 +42,28 @@ export default function PurchaseCourse({ className }: PropsType) {
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <div className={styles.buttons}>
-            <Button asChild colorScheme="Green">
-              <Link href="/project-management-bootcamp">Personal</Link>
+            <Button
+              variant={purchaseType === "Personal" ? "Solid" : "Outlined"}
+              colorScheme={purchaseType === "Personal" ? "Green" : "Black"}
+              onClick={() => setPurchaseType("Personal")}
+            >
+              {translate("Personal")}
             </Button>
-            <Button asChild variant="Outlined" colorScheme="Black">
-              <Link href="/project-management-bootcamp">Team</Link>
+            <Button
+              variant={purchaseType === "Team" ? "Solid" : "Outlined"}
+              colorScheme={purchaseType === "Team" ? "Green" : "Black"}
+              onClick={() => setPurchaseType("Team")}
+            >
+              {translate("Team")}
             </Button>
           </div>
 
           <Text size="small" className={styles.description}>
-            Workearly Bootcamps use AI to personalize learning for each
-            participant, offering tailored material, real-time support, and
-            connections with Hiring Partners and like-minded peers.
+            {translate(
+              purchaseType === "Personal"
+                ? "CourseCardPersonal"
+                : "CourseCardTeam"
+            )}
           </Text>
 
           <div className={styles.timeLeft}>
@@ -65,12 +81,14 @@ export default function PurchaseCourse({ className }: PropsType) {
 
         <footer className={styles.footer}>
           <Button asChild colorScheme="Black" isFullWidth size="large">
-            <Link href="https://www.holy.gd/">Purchase course</Link>
+            <Link href="https://www.holy.gd/">
+              {translate("CourseCardCTA")}
+            </Link>
           </Button>
 
           <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
             <Link href="https://www.holy.gd/">
-              <Share /> Share
+              <Share /> {translate("CourseCardShare")}
             </Link>
           </Button>
 
