@@ -1,4 +1,4 @@
-import MentorIndex from "@/components/MentorIndex";
+import PeopleIndex from "@/components/PeopleIndex";
 import useUniqueComponentResolver from "@/hooks/useUniqueComponentResolver";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { QueryItem } from "@workearly/api";
@@ -19,13 +19,16 @@ export default function UniqueComponent({
   return (
     <section className={clsx(styles.root, className)}>
       {variant === "Mentors" && (
-        <MentorIndex
+        <PeopleIndex
           pages={pages}
           title={uniqueComponent.title}
           subtitle={documentToPlainTextString(
             uniqueComponent.description?.json
           )}
         />
+      )}
+      {variant === "Partners" && (
+        <PeopleIndex pages={pages} hideFilters className={styles.partners} />
       )}
     </section>
   );

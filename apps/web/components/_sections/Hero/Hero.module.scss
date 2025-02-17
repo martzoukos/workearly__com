@@ -3,7 +3,6 @@
   display: flex;
   background-color: hsl(var(--color-neutral-500));
   border-radius: 1rem;
-  min-height: 23.5rem;
 }
 
 .content {
@@ -13,16 +12,16 @@
   padding: 3rem;
 }
 
-.mediaContainer {
-  flex-shrink: 0;
-  display: flex;
-  width: 40%;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-
 .media {
-  width: fit-content;
-  height: auto;
-  object-fit: contain;
+  flex-shrink: 0;
+  position: relative;
+  width: 42rem;
+  height: 32rem;
+
+  img {
+    object-fit: contain;
+    object-position: right bottom;
+    border-start-end-radius: 1rem;
+    border-end-end-radius: 1rem;
+  }
 }

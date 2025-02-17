@@ -1,20 +1,21 @@
-import styles from "./Section.module.scss";
-import clsx from "clsx";
-import Text from "@/components/Text/Text";
-import Button from "@/components/Button/Button";
 import Accordion from "@/components/Accordion/Accordion";
-import useSectionResolver from "@/hooks/useSectionResolver";
+import Button from "@/components/Button/Button";
 import CardGrid from "@/components/CardGrid/CardGrid";
+import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
+import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
+import Text from "@/components/Text/Text";
+import Hero from "@/components/_sections/Hero";
+import RelatedArticles from "@/components/_sections/RelatedArticles/RelatedArticles";
 import Slider from "@/components/_sections/Slider/Slider";
 import { CardVariantType } from "@/hooks/useCardResolver";
+import useSectionResolver from "@/hooks/useSectionResolver";
 import { isDefined, QueryItem } from "@workearly/api";
-import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
-import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
-import RelatedArticles from "@/components/_sections/RelatedArticles/RelatedArticles";
+import clsx from "clsx";
+import { PropsWithChildren } from "react";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
 import Tabs from "../_sections/Tabs/Tabs";
-import { PropsWithChildren } from "react";
+import styles from "./Section.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -91,6 +92,8 @@ export default function Section({ section, className }: PropsType) {
     const actions = getReferences("Action");
 
     return <Tabs sections={sections} actions={actions} />;
+  } else if (variant === "Hero") {
+    return <Hero section={section} />;
   }
 
   return null;

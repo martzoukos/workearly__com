@@ -1,5 +1,5 @@
-import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
 import { useContentful } from "@/stores/ContentfulStore";
+import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
 
 type ReferenceFieldsType = {
   [key in SectionReferenceTypeName]: "contentCollection" | "actionsCollection";
@@ -35,6 +35,7 @@ const DATA_MAP = {
     "Steps Showcase",
     "Features Showcase",
     "Project",
+    "Hero",
   ],
 } as const;
 

@@ -1,4 +1,5 @@
 import CoursePage from "@/components/_pages/CoursePage";
+import DefaultPage from "@/components/_pages/DefaultPage";
 import FramedPage from "@/components/_pages/FramedPage";
 import JobPage from "@/components/_pages/JobPage";
 import PersonPage from "@/components/_pages/PersonPage";
@@ -17,6 +18,7 @@ export default function PageRenderer() {
   return (
     <>
       <Header />
+      {variant === "Default" && <DefaultPage className={styles.root} />}
       {variant === "Course" && <CoursePage className={styles.root} />}
       {variant === "Playground" && <PlaygroundPage className={styles.root} />}
       {variant === "Post" && <PostPage className={styles.root} />}

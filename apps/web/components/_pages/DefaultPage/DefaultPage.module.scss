@@ -1,0 +1,11 @@
+@use "@/styles/_functions" as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.breadcrumbs {
+  padding-inline: 0;
+}

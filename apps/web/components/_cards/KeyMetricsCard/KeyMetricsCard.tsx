@@ -1,7 +1,7 @@
-import Text from "@/components/Text/Text";
-import styles from "./KeyMetricsCard.module.scss";
+import Text from "@/components/Text/";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
+import styles from "./KeyMetricsCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];

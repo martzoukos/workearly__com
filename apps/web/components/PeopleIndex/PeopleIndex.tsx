@@ -3,16 +3,25 @@ import Button from "@/components/Button";
 import Text from "@/components/Text";
 import useFilterTabs from "@/hooks/useFilterTabs";
 import { CONTENTFUL_TAGS, QueryItem } from "@workearly/api";
+import clsx from "clsx";
 import Link from "next/link";
-import styles from "./MentorIndex.module.scss";
+import styles from "./PeopleIndex.module.scss";
 
 type PropsType = {
-  title: string | null | undefined;
-  subtitle: string | null | undefined;
+  title?: string | null;
+  subtitle?: string | null;
   pages: QueryItem["Page"][];
+  hideFilters?: boolean;
+  className?: string;
 };
 
-export default function MentorIndex({ pages, title, subtitle }: PropsType) {
+export default function PeopleIndex({
+  pages,
+  title,
+  subtitle,
+  hideFilters = false,
+  className,
+}: PropsType) {
   const categoryTabs = useFilterTabs("categories");
 
   const pageTagIds = [
@@ -36,32 +45,36 @@ export default function MentorIndex({ pages, title, subtitle }: PropsType) {
   });
 
   return (
-    <div className={styles.root}>
-      {(title || subtitle) && (
+    <div className={clsx(styles.root, className)}>
+      {(title || subtitle || !hideFilters) && (
         <header className={styles.header}>
           <div className={styles.headerContent}>
             {title && <Text as="h1">{title}</Text>}
             {subtitle && <Text>{subtitle}</Text>}
           </div>
-          <div className={styles.filterTabs}>
-            {FILTER_TAGS.map((tag) => (
-              <Button
-                key={tag.id}
-                className={styles.filterButton}
-                size="xsmall"
-                variant={
-                  categoryTabs.selected.includes(tag.id) ? "Solid" : "Outlined"
-                }
-                colorScheme="Black"
-                onClick={() => {
-                  const newCategories = categoryTabs.onSelect(tag.id);
-                  categoryTabs.setSelected(newCategories);
-                }}
-              >
-                {tag.name}
-              </Button>
-            ))}
-          </div>
+          {!hideFilters && (
+            <div className={styles.filterTabs}>
+              {FILTER_TAGS.map((tag) => (
+                <Button
+                  key={tag.id}
+                  className={styles.filterButton}
+                  size="xsmall"
+                  variant={
+                    categoryTabs.selected.includes(tag.id)
+                      ? "Solid"
+                      : "Outlined"
+                  }
+                  colorScheme="Black"
+                  onClick={() => {
+                    const newCategories = categoryTabs.onSelect(tag.id);
+                    categoryTabs.setSelected(newCategories);
+                  }}
+                >
+                  {tag.name}
+                </Button>
+              ))}
+            </div>
+          )}
         </header>
       )}
       <div className={styles.cardGrid}>
