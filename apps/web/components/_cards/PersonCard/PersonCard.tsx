@@ -1,4 +1,4 @@
-import Text from "@/components/Text/Text";
+import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
