@@ -1,6 +1,7 @@
+import useMotif from "@/hooks/useMotif";
+import { ThemeType } from "@workearly/api";
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
-import { useTheme } from "next-themes";
 import { Slot } from "radix-ui";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./Button.module.scss";
@@ -39,18 +40,22 @@ const variants = cva(styles.root, {
   },
 });
 
-type ButtonElement = React.ElementRef<"button">;
+type ButtonElement<T extends React.ElementType = "button"> =
+  React.ElementRef<T>;
 
 interface PropsType
   extends ComponentPropsWithoutRef<"button">,
     VariantProps<typeof variants> {
   asChild?: boolean;
   as?: keyof JSX.IntrinsicElements;
+  colorSchemes?: {
+    [key in ThemeType]?: VariantProps<typeof variants>["colorScheme"];
+  };
 }
 
 export const Button = forwardRef<ButtonElement, PropsType>(
   (props, forwardedRef) => {
-    const { resolvedTheme } = useTheme();
+    const { resolvedTheme } = useMotif();
     const {
       children,
       className,
@@ -60,11 +65,16 @@ export const Button = forwardRef<ButtonElement, PropsType>(
       variant,
       isFullWidth,
       isRounded,
+      colorSchemes,
       as: Tag = "button",
       ...rest
     } = props;
 
-    const defaultColorScheme = resolvedTheme === "dark" ? "White" : "Black";
+    const defaultColorScheme = colorSchemes
+      ? colorSchemes[resolvedTheme]
+      : resolvedTheme === "dark"
+        ? "White"
+        : "Black";
 
     return (
       <Slot.Root

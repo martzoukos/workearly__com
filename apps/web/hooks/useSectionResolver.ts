@@ -1,3 +1,4 @@
+import useMotif from "@/hooks/useMotif";
 import { useContentful } from "@/stores/ContentfulStore";
 import {
   isDefined,
@@ -5,7 +6,6 @@ import {
   SectionReferenceTypeName,
   ThemeType,
 } from "@workearly/api";
-import { useTheme } from "next-themes";
 
 type ReferenceFieldsType = {
   [key in SectionReferenceTypeName]: "contentCollection" | "actionsCollection";
@@ -48,7 +48,7 @@ const DATA_MAP = {
 } as const;
 
 export default function useSectionResolver(section: QueryItem["Section"]) {
-  const { resolvedTheme } = useTheme();
+  const { resolvedTheme } = useMotif();
   const { getReferences: getContentfulReferences } = useContentful();
   const flexAlignment =
     DATA_MAP.alignment[section.alignment as keyof typeof DATA_MAP.alignment] ??

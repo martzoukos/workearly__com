@@ -3,14 +3,6 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 8rem;
-
-  html[data-theme="light"] & {
-    --border-color: hsl(var(--color-black-500) / 0.3);
-  }
-
-  html[data-theme="dark"] & {
-    --border-color: hsl(var(--color-neutral-500) / 0.3);
-  }
 }
 
 .contentWrapper {
@@ -20,7 +12,7 @@
 }
 
 .content {
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-sys-border);
   padding: 0.88rem;
   display: flex;
   flex-direction: column;
@@ -31,7 +23,7 @@
     padding: 2.12rem 1.88rem;
 
     &:not(:first-child) {
-      border-top: 1px solid var(--border-color);
+      border-top: 1px solid var(--color-sys-border);
     }
   }
 }

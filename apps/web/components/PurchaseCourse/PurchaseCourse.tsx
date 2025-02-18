@@ -1,10 +1,11 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import Text from "@/components/Text";
+import useMotif from "@/hooks/useMotif";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
-import { Gift, Share } from "@carbon/icons-react";
+import { Gift, Share, Time } from "@carbon/icons-react";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
@@ -22,13 +23,14 @@ export default function PurchaseCourse({ className }: PropsType) {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { translate } = useTranslate();
+  const { resolvedTheme } = useMotif();
 
   if (!courseDetails) {
     return null;
   }
 
   return (
-    <div className={clsx(styles.root, className)} data-color="Green">
+    <div className={clsx(styles.root, className)} data-theme={resolvedTheme}>
       <div className={styles.media}>
         <Image
           src="/course-card.png"
@@ -44,14 +46,20 @@ export default function PurchaseCourse({ className }: PropsType) {
           <div className={styles.buttons}>
             <Button
               variant={purchaseType === "Personal" ? "Solid" : "Outlined"}
-              colorScheme={purchaseType === "Personal" ? "Green" : "Black"}
+              colorSchemes={{
+                light: purchaseType === "Personal" ? "Green" : "Black",
+                dark: purchaseType === "Personal" ? "Green" : "White",
+              }}
               onClick={() => setPurchaseType("Personal")}
             >
               {translate("Personal")}
             </Button>
             <Button
               variant={purchaseType === "Team" ? "Solid" : "Outlined"}
-              colorScheme={purchaseType === "Team" ? "Green" : "Black"}
+              colorSchemes={{
+                light: purchaseType === "Team" ? "Green" : "Black",
+                dark: purchaseType === "Team" ? "Green" : "White",
+              }}
               onClick={() => setPurchaseType("Team")}
             >
               {translate("Team")}
@@ -67,7 +75,7 @@ export default function PurchaseCourse({ className }: PropsType) {
           </Text>
 
           <div className={styles.timeLeft}>
-            <Image src="/clock.svg" alt="" width={12} height={12} />
+            <Time />
             <Text size="caption">{courseDetails?.timeLeft}</Text>
           </div>
 
@@ -80,19 +88,19 @@ export default function PurchaseCourse({ className }: PropsType) {
         </div>
 
         <footer className={styles.footer}>
-          <Button asChild colorScheme="Black" isFullWidth size="large">
+          <Button asChild isFullWidth size="large">
             <Link href="https://www.holy.gd/">
               {translate("CourseCardCTA")}
             </Link>
           </Button>
 
-          <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
+          <Button asChild variant="Outlined" isFullWidth>
             <Link href="https://www.holy.gd/">
               <Share /> {translate("CourseCardShare")}
             </Link>
           </Button>
 
-          <Button asChild variant="Outlined" isFullWidth colorScheme="Black">
+          <Button asChild variant="Outlined" isFullWidth>
             <Link href="https://www.holy.gd/">
               <Gift /> Gift this Course
             </Link>

@@ -2,8 +2,8 @@
 @forward "./variables";
 
 body {
-  color: var(--color-body-text);
-  background-color: var(--color-body-bg);
+  color: var(--color-ink-default);
+  background-color: var(--color-sys-default);
   font:
     400 1rem / 1.25 "aktiv-grotesk",
     sans-serif;

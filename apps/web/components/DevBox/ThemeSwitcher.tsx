@@ -9,6 +9,10 @@ export default function ThemeSwitcher() {
     <Button
       size="xsmall"
       variant="Solid"
+      colorSchemes={{
+        light: "White",
+        dark: "Black",
+      }}
       onClick={() => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}

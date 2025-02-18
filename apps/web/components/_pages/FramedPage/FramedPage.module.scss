@@ -1,14 +1,13 @@
 @use "@/styles/_functions" as *;
 
 .root {
-  --border-color: hsl(var(--color-black));
   background: hsl(var(--color-neutral-500));
   color: hsl(var(--color-black-500));
 }
 
 .content {
   border-radius: 1rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-sys-border);
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -26,6 +25,6 @@
   gap: 3rem;
   padding: 3rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--border-color);
+  border: 1px solid var(--color-sys-border);
   background: hsl(var(--color-neutral-300));
 }

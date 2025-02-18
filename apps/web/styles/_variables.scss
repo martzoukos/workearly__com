@@ -8,11 +8,21 @@
 }
 
 [data-theme="dark"] {
-  --color-body-text: hsl(var(--color-neutral-500));
-  --color-body-bg: hsl(var(--color-black-500));
+  --color-ink-default: hsl(var(--color-neutral-500));
+  // --color-ink-muted: hsl(var(--color-neutral-300));
+  // --color-ink-primary: hsl(var(--color-blue-400));
+
+  --color-sys-default: hsl(var(--color-black-500));
+  --color-sys-surface: hsl(var(--color-neutral-700));
+  --color-sys-border: hsl(var(--color-neutral-500) / 0.3);
 }
 
 [data-theme="light"] {
-  --color-body-text: hsl(var(--color-black-500));
-  --color-body-bg: hsl(var(--color-neutral-500));
+  --color-ink-default: hsl(var(--color-black-500));
+  // --color-ink-muted: hsl(var(--color-neutral-700));
+  // --color-ink-primary: hsl(var(--color-blue-600));
+
+  --color-sys-default: hsl(var(--color-neutral-500));
+  --color-sys-surface: hsl(var(--color-neutral-450));
+  --color-sys-border: hsl(var(--color-black-500) / 0.3);
 }

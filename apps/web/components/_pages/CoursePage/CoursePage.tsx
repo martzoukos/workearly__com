@@ -1,5 +1,6 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CourseDetails from "@/components/CourseDetails";
+import Motif from "@/components/Motif";
 import PageItem from "@/components/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -36,7 +37,9 @@ export default function CoursePage({ className }: PropsType) {
           ))}
         </div>
         <aside className={styles.sidebar}>
-          <PurchaseCourse />
+          <Motif theme={theme === "light" ? "dark" : "light"}>
+            <PurchaseCourse />
+          </Motif>
         </aside>
       </div>
       {postDividerItems.map((item) => (

@@ -1,4 +1,4 @@
-import { RoundedCheckIcon } from "@workearly/icons";
+import { CheckmarkOutline } from "@carbon/icons-react";
 import { useContentful } from "../stores/ContentfulStore";
 
 const VARIANTS = [
@@ -26,7 +26,7 @@ export default function useRichTextResolver(
   let IconComponent = undefined;
 
   if (variant.includes("Checkmark")) {
-    IconComponent = RoundedCheckIcon;
+    IconComponent = CheckmarkOutline;
   }
 
   return {

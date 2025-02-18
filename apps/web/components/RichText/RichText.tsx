@@ -1,5 +1,4 @@
 import CallOutCard from "@/components/_cards/CallOutCard/CallOutCard";
-import TitleTextCard from "@/components/_cards/TitleTextCard/TitleTextCard";
 import {
   documentToReactComponents,
   Options,
@@ -15,16 +14,11 @@ import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import React from "react";
-import { useRemarkSync } from "react-remark";
 import useRichTextResolver, {
   RichTextVariantType,
 } from "../../hooks/useRichTextResolver";
-import Button from "../Button/Button";
 import Person from "../Person/Person";
-import Text, { TextProps } from "../Text/Text";
-import List from "./List";
-import ListItem from "./ListItem";
+import Text from "../Text/Text";
 import styles from "./RichText.module.scss";
 import {
   BlockQuote,
@@ -45,14 +39,7 @@ function getOptions(
   resolver: ReturnType<typeof useRichTextResolver>,
   richText?: QueryItem["ContentTypeRichText"]
 ) {
-  const {
-    columnCount,
-    IconComponent,
-    renderListAsCards,
-    renderListAsChips,
-    variant,
-    getReference,
-  } = resolver;
+  const { getReference } = resolver;
 
   const options: Options = {
     renderNode: {

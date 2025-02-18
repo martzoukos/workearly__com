@@ -5,11 +5,11 @@
 
 .item {
   overflow: hidden;
-  --border-color: hsl(var(--color-black-400));
-  border-inline-start: 1px solid var(--border-color);
+  --color-border: hsl(var(--color-black-400));
+  border-inline-start: 1px solid var(--color-border);
 
   &[data-state="open"] {
-    --border-color: hsl(var(--color-green-500));
+    --color-border: hsl(var(--color-green-500));
   }
 }
 

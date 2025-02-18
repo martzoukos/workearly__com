@@ -1,7 +1,7 @@
+import useMotif from "@/hooks/useMotif";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
 import { isDefined, QueryItem, ThemeType } from "@workearly/api";
-import { useTheme } from "next-themes";
 import { useContentful } from "../stores/ContentfulStore";
 
 const DATA_MAP = {
@@ -23,7 +23,7 @@ export type PageVariantType = (typeof DATA_MAP)["variants"][number];
 
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
-  const { resolvedTheme } = useTheme();
+  const { resolvedTheme } = useMotif();
 
   // TODO: Use getReferences here?
   const items =

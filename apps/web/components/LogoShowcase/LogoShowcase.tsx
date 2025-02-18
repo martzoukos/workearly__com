@@ -1,7 +1,7 @@
-import clsx from "clsx";
-import styles from "./LogoShowcase.module.scss";
-import Image from "next/image";
 import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
+import Image from "next/image";
+import styles from "./LogoShowcase.module.scss";
 
 type PropsType = {
   assets: QueryItem["Asset"][];

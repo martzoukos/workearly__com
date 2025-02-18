@@ -1,13 +1,12 @@
 import useRichTextResolver from "@/hooks/useRichTextResolver";
-import Text, { TextProps as BaseTextProps } from "../Text/Text";
 import clsx from "clsx";
-import styles from "./RichText.module.scss";
-import List from "./List";
-import { PropsWithChildren } from "react";
+import React, { PropsWithChildren } from "react";
 import TitleTextCard from "../_cards/TitleTextCard/TitleTextCard";
 import Button from "../Button/Button";
+import Text, { TextProps as BaseTextProps } from "../Text/Text";
+import List from "./List";
 import ListItem from "./ListItem";
-import React from "react";
+import styles from "./RichText.module.scss";
 
 type NodeBaseProps = PropsWithChildren<{
   resolver: ReturnType<typeof useRichTextResolver>;
@@ -79,40 +78,36 @@ export const P = ({ resolver, ...props }: TextProps) => {
 };
 
 export const UL = ({ resolver, children }: NodeBaseProps) => {
-  {
-    if (resolver.variant !== "Default") {
-      return (
-        <List
-          columnCount={resolver.columnCount}
-          className={clsx(resolver.renderListAsChips && styles.chips)}
-        >
-          {children}
-        </List>
-      );
-    }
-
-    return <ul className={styles.ul}>{children}</ul>;
+  if (resolver.variant !== "Default") {
+    return (
+      <List
+        columnCount={resolver.columnCount}
+        className={clsx(resolver.renderListAsChips && styles.chips)}
+      >
+        {children}
+      </List>
+    );
   }
+
+  return <ul className={styles.ul}>{children}</ul>;
 };
 
 export const LI = ({ resolver, children }: NodeBaseProps) => {
-  {
-    if (resolver.renderListAsCards) {
-      return <TitleTextCard>{children}</TitleTextCard>;
-    } else if (resolver.renderListAsChips) {
-      return <Button isRounded>{children}</Button>;
-    } else if (resolver.variant !== "Default") {
-      return (
-        <ListItem
-          icon={resolver.IconComponent ? <resolver.IconComponent /> : null}
-        >
-          {children}
-        </ListItem>
-      );
-    }
-
-    return <li className={styles.li}>{children}</li>;
+  if (resolver.renderListAsCards) {
+    return <TitleTextCard>{children}</TitleTextCard>;
+  } else if (resolver.renderListAsChips) {
+    return <Button isRounded>{children}</Button>;
+  } else if (resolver.variant !== "Default") {
+    return (
+      <ListItem
+        icon={resolver.IconComponent ? <resolver.IconComponent /> : null}
+      >
+        {children}
+      </ListItem>
+    );
   }
+
+  return <li className={styles.li}>{children}</li>;
 };
 
 export const BlockQuote = ({ resolver, children }: NodeBaseProps) => {
