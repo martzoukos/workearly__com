@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import styles from "./ExitPreview.module.scss";
-import { useRouter } from "next/router";
 import Button from "@/components/Button/Button";
 import { Close } from "@carbon/icons-react";
+import { useRouter } from "next/router";
+import { useState } from "react";
 
 export default function ExitPreview() {
   const [isClearing, setIsClearing] = useState(false);
@@ -14,9 +13,7 @@ export default function ExitPreview() {
 
   return (
     <Button
-      variant="Solid"
-      colorScheme="Green"
-      className={styles.root}
+      size="xsmall"
       onClick={async () => {
         setIsClearing(true);
         await fetch("/api/exit-preview");

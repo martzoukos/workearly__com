@@ -1,6 +1,7 @@
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
-import { isDefined, QueryItem } from "@workearly/api";
+import { isDefined, QueryItem, ThemeType } from "@workearly/api";
+import { useTheme } from "next-themes";
 import { useContentful } from "../stores/ContentfulStore";
 
 const DATA_MAP = {
@@ -22,6 +23,7 @@ export type PageVariantType = (typeof DATA_MAP)["variants"][number];
 
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
+  const { resolvedTheme } = useTheme();
 
   // TODO: Use getReferences here?
   const items =
@@ -109,6 +111,8 @@ export default function usePageResolver(page: QueryItem["Page"]) {
   }
 
   const variant = page.variant as PageVariantType;
+  // const theme = (page.theme?.toLowerCase() || resolvedTheme) as ThemeType;
+  const theme = resolvedTheme as ThemeType;
 
   return {
     courseDetails,
@@ -121,6 +125,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     readingTime,
     getHeadingsDoc,
     variant,
+    theme,
   };
 }
 

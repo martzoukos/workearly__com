@@ -1,6 +1,6 @@
 import { TranslationTextType } from "./airtable";
 import TRANSLATIONS from "./airtable/__generated__/translations.json";
-import { LOCALES } from "./constants";
+import { LOCALES, THEMES } from "./constants";
 import {
   AccordionCardCollectionQuery,
   ActionCollectionQuery,
@@ -25,6 +25,7 @@ export type TranslateOptionsType = {
 export type ContentfulExchangeOptionsType = {
   isPreview?: boolean;
 };
+export type ThemeType = (typeof THEMES)[number];
 
 export type QueryItem = {
   CourseDetails: NonNullable<

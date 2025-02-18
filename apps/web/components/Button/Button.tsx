@@ -1,5 +1,6 @@
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
+import { useTheme } from "next-themes";
 import { Slot } from "radix-ui";
 import { ComponentPropsWithoutRef, forwardRef } from "react";
 import styles from "./Button.module.scss";
@@ -49,6 +50,7 @@ interface PropsType
 
 export const Button = forwardRef<ButtonElement, PropsType>(
   (props, forwardedRef) => {
+    const { resolvedTheme } = useTheme();
     const {
       children,
       className,
@@ -62,13 +64,15 @@ export const Button = forwardRef<ButtonElement, PropsType>(
       ...rest
     } = props;
 
+    const defaultColorScheme = resolvedTheme === "dark" ? "White" : "Black";
+
     return (
       <Slot.Root
         {...rest}
         ref={forwardedRef}
         className={clsx(
           variants({
-            colorScheme,
+            colorScheme: colorScheme || defaultColorScheme,
             variant,
             size,
             isFullWidth,

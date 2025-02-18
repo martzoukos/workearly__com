@@ -5,12 +5,14 @@
   @each $name, $color in $colors {
     --color-#{$name}: #{$color};
   }
+}
 
+[data-theme="dark"] {
   --color-body-text: hsl(var(--color-neutral-500));
   --color-body-bg: hsl(var(--color-black-500));
 }
 
-[data-theme="dark"] {
+[data-theme="light"] {
   --color-body-text: hsl(var(--color-black-500));
   --color-body-bg: hsl(var(--color-neutral-500));
 }

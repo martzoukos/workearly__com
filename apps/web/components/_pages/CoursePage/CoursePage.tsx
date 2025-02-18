@@ -13,10 +13,10 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { preDividerItems, postDividerItems } = usePageResolver(page);
+  const { preDividerItems, postDividerItems, theme } = usePageResolver(page);
 
   return (
-    <main className={clsx(styles.root, className)}>
+    <main className={clsx(styles.root, className)} data-theme={theme}>
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <Breadcrumbs
