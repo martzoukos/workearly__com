@@ -3,13 +3,7 @@
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem;
-  background: var(--color-background);
-
-  html[data-theme="light"] & {
-    background: hsl(var(--color-black-500));
-  }
-
-  html[data-theme="dark"] & {
-    background: hsl(var(--color-neutral-500));
-  }
+  background: var(--color-sys-surface);
+  position: sticky;
+  top: 0;
 }

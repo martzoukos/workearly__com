@@ -5,18 +5,21 @@ import JobPage from "@/components/_pages/JobPage";
 import PersonPage from "@/components/_pages/PersonPage";
 import PlaygroundPage from "@/components/_pages/PlaygroundPage";
 import PostPage from "@/components/_pages/PostPage";
+import DevBox from "@/components/DevBox";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
+import { ThemeProvider } from "next-themes";
 import styles from "./PageRenderer.module.scss";
 
 export default function PageRenderer() {
   const { page } = useContentful();
-  const { variant } = usePageResolver(page);
+  const { variant, theme } = usePageResolver(page);
 
   return (
-    <>
+    <ThemeProvider defaultTheme={theme}>
+      <DevBox />
       <Header />
       {variant === "Default" && <DefaultPage className={styles.root} />}
       {variant === "Course" && <CoursePage className={styles.root} />}
@@ -26,6 +29,6 @@ export default function PageRenderer() {
       {variant === "Framed" && <FramedPage className={styles.root} />}
       {variant === "Person" && <PersonPage className={styles.root} />}
       <Footer />
-    </>
+    </ThemeProvider>
   );
 }

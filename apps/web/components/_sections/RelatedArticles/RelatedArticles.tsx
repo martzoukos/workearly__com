@@ -1,3 +1,4 @@
+import Motif from "@/components/Motif";
 import Text from "@/components/Text/Text";
 import ArticleCard from "@/components/_cards/ArticleCard/ArticleCard";
 import useSectionResolver from "@/hooks/useSectionResolver";
@@ -21,9 +22,11 @@ export default function RelatedArticles({ section, className }: PropsType) {
         {section.text && <Text>{section.text}</Text>}
       </header>
       <div className={styles.cards}>
-        {pages.map((page) => (
-          <ArticleCard key={page.sys.id} page={page} />
-        ))}
+        <Motif isInverted={true}>
+          {pages.map((page) => (
+            <ArticleCard key={page.sys.id} page={page} />
+          ))}
+        </Motif>
       </div>
     </section>
   );

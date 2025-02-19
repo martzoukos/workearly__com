@@ -1,10 +1,10 @@
 import Text from "@/components/Text/Text";
+import { QueryItem } from "@workearly/api";
+import { ArrowUpIcon, CircleIcon } from "@workearly/icons";
 import { Accordion as RadixAccordion } from "radix-ui";
 import { forwardRef } from "react";
-import styles from "./Accordion.module.scss";
 import RichText from "../RichText/RichText";
-import { ArrowUpIcon, CircleIcon } from "@workearly/icons";
-import { QueryItem } from "@workearly/api";
+import styles from "./Accordion.module.scss";
 
 type PropsType = {
   accordionCards: QueryItem["AccordionCard"][];

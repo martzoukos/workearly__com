@@ -17,7 +17,7 @@
   width: fit-content;
 
   &:disabled {
-    opacity: 0.5;
+    cursor: not-allowed;
   }
 
   &:active {
@@ -29,18 +29,24 @@
   --color-primary: hsl(var(--color-green-500));
   --color-secondary: hsl(var(--color-black-500));
   --color-accent: hsl(var(--color-green-400));
+  --color-disabled-bg: hsl(var(--color-green-100));
+  --color-disabled-text: hsl(var(--color-black-300));
 }
 
 .colorSchemeWhite {
   --color-primary: hsl(var(--color-neutral-500));
   --color-secondary: hsl(var(--color-black-500));
   --color-accent: hsl(var(--color-black-400));
+  --color-disabled-bg: hsl(var(--color-neutral-300));
+  --color-disabled-text: hsl(var(--color-black-300));
 }
 
 .colorSchemeBlack {
   --color-primary: hsl(var(--color-black-500));
   --color-secondary: hsl(var(--color-neutral-500));
   --color-accent: hsl(var(--color-black-450));
+  --color-disabled-bg: hsl(var(--color-black-200));
+  --color-disabled-text: hsl(var(--color-black-300));
 }
 
 .sizeXSmall {
@@ -85,9 +91,15 @@
   --color-text: var(--color-secondary);
   --color-border: var(--color-primary);
 
-  &:hover {
+  &:not(:disabled):hover {
     --color-bg: var(--color-accent);
     --color-border: var(--color-accent);
+  }
+
+  &:disabled {
+    --color-bg: var(--color-disabled-bg);
+    --color-border: var(--color-disabled-bg);
+    --color-text: var(--color-disabled-text);
   }
 }
 
@@ -96,9 +108,14 @@
   --color-text: var(--color-primary);
   --color-border: var(--color-primary);
 
-  &:hover {
+  &:not(:disabled):hover {
     --color-border: var(--color-accent);
     --color-text: var(--color-accent);
+  }
+
+  &:disabled {
+    --color-border: var(--color-disabled-text);
+    --color-text: var(--color-disabled-text);
   }
 }
 
@@ -107,8 +124,12 @@
   --color-text: var(--color-primary);
   --color-border: transparent;
 
-  &:hover {
+  &:not(:disabled):hover {
     --color-text: var(--color-accent);
+  }
+
+  &:disabled {
+    --color-text: var(--color-disabled-text);
   }
 
   &:active {
@@ -136,9 +157,13 @@
     bottom: -2px;
   }
 
-  &:hover {
+  &:not(:disabled):hover {
     border-color: transparent;
     --color-text: var(--color-accent);
+  }
+
+  &:disabled {
+    --color-text: var(--color-disabled-text);
   }
 
   &:active {
@@ -155,16 +180,17 @@
   border: 1px solid hsl(var(--color-black-500));
   border-radius: 1rem;
 
-  &:hover {
+  &:not(:disabled):hover {
     --color-bg: hsl(var(--color-green-500));
     --color-text: hsl(var(--color-black-500));
   }
 
-  &:active {
-    --color-bg: hsl(var(--color-green-500));
+  &:disabled {
+    --color-bg: var(--color-disabled-bg);
+    --color-text: var(--color-disabled-text);
   }
 
-  &:disabled {
-    opacity: 0.5;
+  &:active {
+    --color-bg: hsl(var(--color-green-500));
   }
 }

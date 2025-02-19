@@ -14,10 +14,10 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { preDividerItems, postDividerItems, theme } = usePageResolver(page);
+  const { preDividerItems, postDividerItems } = usePageResolver(page);
 
   return (
-    <main className={clsx(styles.root, className)} data-theme={theme}>
+    <main className={clsx(styles.root, className)}>
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <Breadcrumbs
@@ -37,7 +37,7 @@ export default function CoursePage({ className }: PropsType) {
           ))}
         </div>
         <aside className={styles.sidebar}>
-          <Motif theme={theme === "light" ? "dark" : "light"}>
+          <Motif isInverted={true}>
             <PurchaseCourse />
           </Motif>
         </aside>

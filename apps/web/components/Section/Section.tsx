@@ -1,4 +1,4 @@
-import Accordion from "@/components/Accordion/Accordion";
+import Accordion from "@/components/Accordion";
 import Button from "@/components/Button/Button";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";

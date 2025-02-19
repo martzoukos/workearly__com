@@ -1,6 +1,7 @@
 import Person from "@/components/Person";
 import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
+import useMotif from "@/hooks/useMotif";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import { DateTime } from "luxon";
@@ -13,13 +14,14 @@ type PropsType = {
 
 export default function ArticleCard({ page }: PropsType) {
   const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
+  const { resolvedTheme } = useMotif();
 
   if (!resourceDetails) {
     return null;
   }
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root} data-theme={resolvedTheme}>
       {resourceDetails.asset?.url && (
         <div className={styles.media}>
           <Image

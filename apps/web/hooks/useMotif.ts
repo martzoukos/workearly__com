@@ -5,18 +5,19 @@ import { useContext } from "react";
 
 export default function useMotif() {
   const motifContext = useContext(Motif.Context);
-  const { resolvedTheme: rootTheme, ...props } = useTheme();
-  let resolvedTheme = rootTheme;
+  const { resolvedTheme: rootTheme, forcedTheme, ...props } = useTheme();
+  let resolvedTheme = forcedTheme || rootTheme;
 
-  if (motifContext?.theme) {
-    resolvedTheme = motifContext.theme;
+  if (motifContext?.isInverted) {
+    resolvedTheme = resolvedTheme === "light" ? "dark" : "light";
   }
 
-  const invertedTheme = resolvedTheme === "dark" ? "light" : "dark";
+  if (motifContext?.forcedTheme) {
+    resolvedTheme = motifContext.forcedTheme;
+  }
 
   return {
     rootTheme: rootTheme as ThemeType,
-    invertedTheme: invertedTheme as ThemeType,
     resolvedTheme: resolvedTheme as ThemeType,
     ...props,
   };

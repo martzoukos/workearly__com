@@ -1,41 +1,16 @@
 import Text from "@/components/Text";
-import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 import styles from "./StatCard.module.scss";
 
-const variants = cva(styles.root, {
-  variants: {
-    variant: {
-      default: styles.variantDefault,
-      pronounced: styles.variantPronounced,
-    },
-  },
-  defaultVariants: {
-    variant: "default",
-  },
-});
-
-interface PropsType extends VariantProps<typeof variants> {
+interface PropsType {
   label: string;
   value: string;
   className?: string;
 }
 
-export default function StatCard({
-  value,
-  variant,
-  className,
-  label,
-}: PropsType) {
+export default function StatCard({ value, className, label }: PropsType) {
   return (
-    <div
-      className={clsx(
-        variants({
-          variant,
-        }),
-        className
-      )}
-    >
+    <div className={clsx(styles.root, className)}>
       <Text as="label" size="caption">
         {label}
       </Text>

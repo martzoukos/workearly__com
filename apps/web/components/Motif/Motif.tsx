@@ -7,18 +7,25 @@ import React, {
 } from "react";
 
 interface ContextType {
-  theme: ThemeType;
+  forcedTheme: ThemeType | undefined;
+  isInverted: boolean;
 }
 
 const MotifContext = createContext<ContextType | undefined>(undefined);
 
 type PropsType = PropsWithChildren<{
-  theme: ThemeType;
+  forcedTheme?: ThemeType;
+  isInverted?: boolean;
 }>;
 
-export default function Motif({ theme, children }: PropsType) {
+export default function Motif({
+  forcedTheme,
+  isInverted,
+  children,
+}: PropsType) {
   const value = {
-    theme,
+    forcedTheme,
+    isInverted: isInverted || false,
   };
 
   const motifyChildren = (children: ReactNode) => {
@@ -27,7 +34,7 @@ export default function Motif({ theme, children }: PropsType) {
     return childrenArray.map((child) => {
       if (React.isValidElement(child)) {
         return React.cloneElement(child as ReactElement, {
-          "data-theme": theme,
+          "data-theme": forcedTheme,
         });
       }
       return child;
@@ -36,7 +43,7 @@ export default function Motif({ theme, children }: PropsType) {
 
   return (
     <MotifContext.Provider value={value}>
-      {motifyChildren(children)}
+      {forcedTheme ? motifyChildren(children) : children}
     </MotifContext.Provider>
   );
 }

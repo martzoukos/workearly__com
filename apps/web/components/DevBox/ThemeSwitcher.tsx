@@ -3,16 +3,12 @@ import { ColorSwitch } from "@carbon/icons-react";
 import { useTheme } from "next-themes";
 
 export default function ThemeSwitcher() {
-  const { resolvedTheme, setTheme } = useTheme();
+  const { resolvedTheme, forcedTheme, setTheme } = useTheme();
 
   return (
     <Button
       size="xsmall"
-      variant="Solid"
-      colorSchemes={{
-        light: "White",
-        dark: "Black",
-      }}
+      disabled={forcedTheme !== undefined}
       onClick={() => {
         setTheme(resolvedTheme === "dark" ? "light" : "dark");
       }}

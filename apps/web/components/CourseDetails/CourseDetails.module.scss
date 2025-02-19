@@ -1,7 +1,7 @@
 .root {
   padding: 2.12rem 1.88rem;
   border-radius: 0.5rem;
-  background-color: hsl(var(--color-black-450));
+  background: var(--color-sys-surface);
   display: flex;
   flex-direction: column;
   gap: 2rem;

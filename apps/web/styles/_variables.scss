@@ -9,20 +9,24 @@
 
 [data-theme="dark"] {
   --color-ink-default: hsl(var(--color-neutral-500));
-  // --color-ink-muted: hsl(var(--color-neutral-300));
-  // --color-ink-primary: hsl(var(--color-blue-400));
+  --color-ink-inverted: hsl(var(--color-black-500));
+  --color-ink-muted: hsl(var(--color-neutral-500) / 0.6);
+  --color-ink-highlight: hsl(var(--color-green-500));
 
   --color-sys-default: hsl(var(--color-black-500));
-  --color-sys-surface: hsl(var(--color-neutral-700));
-  --color-sys-border: hsl(var(--color-neutral-500) / 0.3);
+  --color-sys-surface: hsl(var(--color-black-450));
+  --color-sys-border: hsl(var(--color-neutral-500));
+  --color-sys-border-muted: hsl(var(--color-neutral-500) / 0.3);
 }
 
 [data-theme="light"] {
   --color-ink-default: hsl(var(--color-black-500));
-  // --color-ink-muted: hsl(var(--color-neutral-700));
-  // --color-ink-primary: hsl(var(--color-blue-600));
+  --color-ink-inverted: hsl(var(--color-neutral-500));
+  --color-ink-muted: hsl(var(--color-black-500) / 0.6);
+  --color-ink-highlight: hsl(var(--color-blue-500));
 
   --color-sys-default: hsl(var(--color-neutral-500));
-  --color-sys-surface: hsl(var(--color-neutral-450));
-  --color-sys-border: hsl(var(--color-black-500) / 0.3);
+  --color-sys-surface: hsl(var(--color-neutral-400));
+  --color-sys-border: hsl(var(--color-black-500));
+  --color-sys-border-muted: hsl(var(--color-black-500) / 0.3);
 }

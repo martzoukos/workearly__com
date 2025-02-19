@@ -111,8 +111,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
   }
 
   const variant = page.variant as PageVariantType;
-  // const theme = (page.theme?.toLowerCase() || resolvedTheme) as ThemeType;
-  const theme = resolvedTheme as ThemeType;
+  const theme = (page.theme?.toLowerCase() || resolvedTheme) as ThemeType;
 
   return {
     courseDetails,

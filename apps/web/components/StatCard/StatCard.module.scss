@@ -1,20 +1,12 @@
 .root {
   padding: 0.75rem;
   border-radius: 0.5rem;
-  background: hsl(var(--color-black-500));
+  background: var(--color-sys-default);
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-}
 
-.variantDefault {
   label {
     text-transform: uppercase;
-  }
-}
-
-.variantPronounced {
-  label {
-    color: hsl(var(--color-green-500));
   }
 }

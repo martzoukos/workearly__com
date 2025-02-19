@@ -42,14 +42,12 @@ export default function JobDetails() {
           <StatCard
             label="Duration"
             value={categoryOrJobDetails.averageUsSalary}
-            variant="pronounced"
           />
         )}
         {categoryOrJobDetails?.averageEuSalary && (
           <StatCard
             label="Language"
             value={categoryOrJobDetails.averageEuSalary}
-            variant="pronounced"
           />
         )}
       </div>

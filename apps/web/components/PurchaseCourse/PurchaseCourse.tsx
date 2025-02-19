@@ -12,9 +12,9 @@ import Link from "next/link";
 import { useState } from "react";
 import styles from "./PurchaseCourse.module.scss";
 
-type PropsType = {
+interface PropsType {
   className?: string;
-};
+}
 
 export default function PurchaseCourse({ className }: PropsType) {
   const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
@@ -45,21 +45,21 @@ export default function PurchaseCourse({ className }: PropsType) {
         <div className={styles.content}>
           <div className={styles.buttons}>
             <Button
-              variant={purchaseType === "Personal" ? "Solid" : "Outlined"}
               colorSchemes={{
                 light: purchaseType === "Personal" ? "Green" : "Black",
                 dark: purchaseType === "Personal" ? "Green" : "White",
               }}
+              variant={purchaseType === "Personal" ? "Solid" : "Outlined"}
               onClick={() => setPurchaseType("Personal")}
             >
               {translate("Personal")}
             </Button>
             <Button
-              variant={purchaseType === "Team" ? "Solid" : "Outlined"}
               colorSchemes={{
                 light: purchaseType === "Team" ? "Green" : "Black",
                 dark: purchaseType === "Team" ? "Green" : "White",
               }}
+              variant={purchaseType === "Team" ? "Solid" : "Outlined"}
               onClick={() => setPurchaseType("Team")}
             >
               {translate("Team")}
