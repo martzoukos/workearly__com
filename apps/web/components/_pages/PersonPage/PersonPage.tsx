@@ -1,6 +1,6 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PageItem from "@/components/PageItem";
-import PeopleDetails from "@/components/PeopleDetails";
+import PersonCover from "@/components/PersonCover";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
@@ -25,7 +25,7 @@ export default function PersonPage({ className }: PropsType) {
             { name: page.name || "" },
           ]}
         />
-        <PeopleDetails className={styles.heroContent} />
+        <PersonCover className={styles.heroContent} />
       </div>
 
       {[...preDividerItems, ...postDividerItems].map((item) => (

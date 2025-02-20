@@ -1,7 +1,7 @@
 .root {
   padding: 2rem 2rem 2rem 2.75rem;
   border-radius: 0.4375rem;
-  background: hsl(var(--color-neutral-400));
+  background: var(--color-sys-surface);
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5rem;

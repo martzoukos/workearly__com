@@ -16,7 +16,6 @@ export default function DefaultPage({ className }: PropsType) {
   return (
     <main className={clsx(styles.root, className)}>
       <Breadcrumbs
-        className={styles.breadcrumbs}
         items={[{ name: "Home", href: "/" }, { name: page.name || "" }]}
       />
       {[...preDividerItems, ...postDividerItems].map((item) => (

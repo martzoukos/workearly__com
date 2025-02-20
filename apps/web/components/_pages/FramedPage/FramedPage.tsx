@@ -17,7 +17,6 @@ export default function FramedPage({ className }: PropsType) {
     <main className={clsx(styles.root, className)}>
       <div className={styles.content}>
         <Breadcrumbs
-          className={styles.breadcrumbs}
           items={[
             { name: "Home", href: "/" },
             { name: page.name || "", href: "/mentors" },

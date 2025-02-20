@@ -4,9 +4,9 @@ import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { StarIcon, UserIcon } from "@workearly/icons";
-import styles from "./JobDetails.module.scss";
+import styles from "./JobCover.module.scss";
 
-export default function JobDetails() {
+export default function JobCover() {
   const { page } = useContentful();
   const { categoryOrJobDetails } = usePageResolver(page);
 

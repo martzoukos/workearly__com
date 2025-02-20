@@ -1,5 +1,5 @@
 import Text from "@/components/Text/Text";
-import { ClockIcon } from "@workearly/icons";
+import { Time } from "@carbon/icons-react";
 import styles from "./ReadingTime.module.scss";
 
 type PropsType = {
@@ -9,7 +9,7 @@ type PropsType = {
 export default function ReadingTime({ time }: PropsType) {
   return (
     <div className={styles.root}>
-      <ClockIcon />
+      <Time />
       <Text size="caption">{time} mins</Text>
     </div>
   );

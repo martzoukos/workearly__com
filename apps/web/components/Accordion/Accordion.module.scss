@@ -8,7 +8,7 @@
   border-inline-start: 1px solid var(--color-sys-border-muted);
 
   &[data-state="open"] {
-    border-color: var(--color-ink-highlight);
+    border-color: var(--color-sys-accent);
   }
 }
 
@@ -29,7 +29,7 @@
   }
 
   &[data-state="open"] {
-    color: var(--color-ink-highlight);
+    color: var(--color-sys-accent);
   }
 }
 
@@ -44,8 +44,8 @@
     color: var(--color-ink-inverted);
 
     svg {
-      fill: var(--color-ink-highlight);
-      color: var(--color-ink-highlight);
+      fill: var(--color-sys-accent);
+      color: var(--color-sys-accent);
     }
   }
 
@@ -97,7 +97,7 @@
 
   .columnTitle {
     font-weight: 700;
-    color: var(--color-ink-highlight);
+    color: var(--color-sys-accent);
   }
 
   .contentText {

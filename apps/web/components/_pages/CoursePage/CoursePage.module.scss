@@ -33,3 +33,7 @@
   top: var(--gap-sidebar);
   height: fit-content;
 }
+
+.breadcrumbs {
+  border: 1px solid var(--color-sys-border-muted);
+}

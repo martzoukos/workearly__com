@@ -24,13 +24,13 @@
   .blockquoteContainer {
     margin-block-start: 4rem;
     padding: 0.5rem;
-    background: hsl(var(--color-neutral-200));
-    border: 1px solid hsl(var(--color-black-500));
+    background: var(--color-sys-surface-2);
+    border: 1px solid var(--color-sys-border);
 
     blockquote {
-      background: hsl(var(--color-neutral-500));
+      background: var(--color-sys-default);
       padding: 1rem;
-      border: 1px solid hsl(var(--color-black-500));
+      border: 1px solid var(--color-sys-border);
 
       .blockquoteInner {
         display: flex;
@@ -107,10 +107,10 @@
     --border-radius: 0.5rem;
     margin-block-start: 4rem;
     width: 100%;
-    border: 1px solid hsl(var(--color-black-400));
+    border: 1px solid var(--color-sys-border);
     border-radius: var(--border-radius);
     border-spacing: 0;
-    background: hsl(var(--color-neutral-400));
+    background: var(--color-sys-surface);
 
     .th,
     .td {
@@ -127,13 +127,13 @@
       }
 
       &:not(:last-child) {
-        border-inline-end: 1px solid hsl(var(--color-black-400));
+        border-inline-end: 1px solid var(--color-sys-border);
       }
     }
 
     .th {
-      background: hsl(var(--color-neutral-300));
-      border-block-end: 1px solid hsl(var(--color-black-400));
+      background: var(--color-sys-surface-1);
+      border-block-end: 1px solid var(--color-sys-border);
       & > p {
         font-size: 0.875rem;
         font-weight: 700;
@@ -153,7 +153,7 @@
     .tr {
       &:not(:last-child) {
         .td {
-          border-block-end: 1px solid hsl(var(--color-black-400));
+          border-block-end: 1px solid var(--color-sys-border);
         }
       }
     }

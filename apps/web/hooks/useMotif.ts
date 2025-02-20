@@ -19,6 +19,7 @@ export default function useMotif() {
   return {
     rootTheme: rootTheme as ThemeType,
     resolvedTheme: resolvedTheme as ThemeType,
+    forcedTheme: forcedTheme as ThemeType,
     ...props,
   };
 }

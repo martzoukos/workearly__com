@@ -1,5 +1,5 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
-import CourseDetails from "@/components/CourseDetails";
+import CourseCover from "@/components/CourseCover";
 import Motif from "@/components/Motif";
 import PageItem from "@/components/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse";
@@ -21,13 +21,14 @@ export default function CoursePage({ className }: PropsType) {
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <Breadcrumbs
+            className={styles.breadcrumbs}
             items={[
               { name: "Home", href: "/" },
               { name: "Courses", href: "/courses" },
               { name: page.name || "" },
             ]}
           />
-          <CourseDetails />
+          <CourseCover />
           {preDividerItems.map((item) => (
             <PageItem
               key={item?.sys.id}

@@ -8,6 +8,7 @@ import PostPage from "@/components/_pages/PostPage";
 import DevBox from "@/components/DevBox";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import Motif from "@/components/Motif";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ThemeProvider } from "next-themes";
@@ -19,7 +20,9 @@ export default function PageRenderer() {
 
   return (
     <ThemeProvider defaultTheme={theme}>
-      <DevBox />
+      <Motif isInverted={true}>
+        <DevBox />
+      </Motif>
       <Header />
       {variant === "Default" && <DefaultPage className={styles.root} />}
       {variant === "Course" && <CoursePage className={styles.root} />}

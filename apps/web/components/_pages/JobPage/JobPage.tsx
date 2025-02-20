@@ -1,5 +1,5 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
-import JobDetails from "@/components/JobDetails";
+import JobCover from "@/components/JobCover";
 import PageItem from "@/components/PageItem";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
@@ -21,13 +21,14 @@ export default function JobPage({ className }: PropsType) {
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <Breadcrumbs
+            className={styles.breadcrumbs}
             items={[
               { name: "Home", href: "/" },
               { name: "Career Path", href: "/career" },
               { name: page.name || "" },
             ]}
           />
-          <JobDetails />
+          <JobCover />
           {preDividerItems.map((item) => (
             <PageItem
               key={item?.sys.id}

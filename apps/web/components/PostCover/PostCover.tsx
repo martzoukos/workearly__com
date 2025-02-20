@@ -5,7 +5,7 @@ import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import { ShareIcon } from "@workearly/icons";
+import { Share } from "@carbon/icons-react";
 import { DateTime } from "luxon";
 import Image from "next/image";
 import styles from "./PostCover.module.scss";
@@ -56,11 +56,11 @@ export default function PostCover() {
         </div>
         <Button
           variant="Outlined"
-          size="large"
+          size="medium"
           isFullWidth
           className={styles.shareButton}
         >
-          <ShareIcon />
+          <Share />
           Share
         </Button>
       </div>

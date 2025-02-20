@@ -1,11 +1,11 @@
 import Button from "@/components/Button/Button";
-import PageItem from "@/components/PageItem/PageItem";
-import PostAuthor from "@/components/PostAuthor/PostAuthor";
-import PostCover from "@/components/PostCover/PostCover";
-import PostOutline from "@/components/PostOutline/PostOutline";
+import PageItem from "@/components/PageItem";
+import PostAuthor from "@/components/PostAuthor";
+import PostCover from "@/components/PostCover";
+import PostOutline from "@/components/PostOutline";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import { ArrowRightIcon } from "@workearly/icons";
+import { ArrowRight } from "@carbon/icons-react";
 import clsx from "clsx";
 import Link from "next/link";
 import styles from "./PostPage.module.scss";
@@ -32,10 +32,9 @@ export default function CoursePage({ className }: PropsType) {
             variant="Underlined"
             size="large"
             className={styles.viewAllButton}
-            colorScheme="Black"
           >
             <Link href="/courses">
-              View All Success Stories <ArrowRightIcon />
+              View All Success Stories <ArrowRight />
             </Link>
           </Button>
         </div>

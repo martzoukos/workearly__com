@@ -7,13 +7,13 @@ import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
 import Text from "../Text/Text";
-import styles from "./PeopleDetails.module.scss";
+import styles from "./PersonCover.module.scss";
 
 type PropsType = {
   className?: string;
 };
 
-export default function PeopleDetails({ className }: PropsType) {
+export default function PersonCover({ className }: PropsType) {
   const { page } = useContentful();
   const { peopleDetails } = usePageResolver(page);
 

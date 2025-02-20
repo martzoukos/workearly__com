@@ -2,11 +2,11 @@ import StatCard from "@/components/StatCard";
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
 import { StarIcon, UserIcon } from "@workearly/icons";
-import { useContentful } from "../../stores/ContentfulStore";
-import styles from "./CourseDetails.module.scss";
+import styles from "./CourseCover.module.scss";
 
-export default function CourseDetails() {
+export default function CourseCover() {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
 
