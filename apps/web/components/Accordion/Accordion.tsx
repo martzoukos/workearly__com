@@ -1,9 +1,9 @@
-import Text from "@/components/Text/Text";
+import RichText from "@/components/RichText";
+import Text from "@/components/Text";
+import { ArrowUp, CircleOutline } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
-import { ArrowUpIcon, CircleIcon } from "@workearly/icons";
 import { Accordion as RadixAccordion } from "radix-ui";
 import { forwardRef } from "react";
-import RichText from "../RichText/RichText";
 import styles from "./Accordion.module.scss";
 
 type PropsType = {
@@ -46,10 +46,10 @@ function AccordionCard({
           {count ? (
             <div className={styles.circle}>
               <Text size="caption">{count}</Text>
-              <CircleIcon />
+              <CircleOutline />
             </div>
           ) : (
-            <ArrowUpIcon className={styles.arrow} />
+            <ArrowUp className={styles.arrow} />
           )}
         </div>
         {accordionCard.title}

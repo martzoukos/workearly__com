@@ -1,7 +1,7 @@
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
+import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
-import { UserIcon } from "@workearly/icons";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 import Image from "next/image";
@@ -83,7 +83,7 @@ const CourseCard = ({
           )}
           {courseDetails?.studentsCount && (
             <StatLabel
-              icon={<UserIcon />}
+              icon={<UserFilled />}
               label={`${courseDetails.studentsCount} Students`}
               className={styles.statLabel}
             />

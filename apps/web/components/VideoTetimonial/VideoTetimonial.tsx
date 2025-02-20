@@ -1,7 +1,6 @@
-import Image from "next/image";
-import styles from "./VideoTetimonial.module.scss";
 import ReactPlayer from "react-player";
 import Text from "../Text/Text";
+import styles from "./VideoTetimonial.module.scss";
 
 export default function VideoTetimonial() {
   return (
@@ -18,7 +17,7 @@ export default function VideoTetimonial() {
         </div>
 
         <div className={styles.details}>
-          <Image src="/stars.svg" alt="" width={96} height={16} />
+          {/* <Image src="/stars.svg" alt="" width={96} height={16} /> */}
           <Text>Maria Lopez | Marketing Specialist at GrowthWorks</Text>
           <Text>
             Maria moved from retail to marketing with WorkEarly’s digital

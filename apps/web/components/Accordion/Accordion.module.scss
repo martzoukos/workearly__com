@@ -41,8 +41,6 @@
   flex-shrink: 0;
 
   .trigger[data-state="open"] & {
-    color: var(--color-ink-inverted);
-
     svg {
       fill: var(--color-sys-accent);
       color: var(--color-sys-accent);

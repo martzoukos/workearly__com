@@ -1,7 +1,7 @@
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
+import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
-import { UserIcon } from "@workearly/icons";
 import clsx from "clsx";
 import styles from "./ProjectCard.module.scss";
 
@@ -24,7 +24,7 @@ export default function ProjectCard({ card, className }: PropsType) {
       </div>
 
       <StatLabel
-        icon={<UserIcon />}
+        icon={<UserFilled />}
         label={`${card.studentsCount} Students`}
         className={styles.statLabel}
       />

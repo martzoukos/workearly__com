@@ -1,5 +1,5 @@
 {
-  "name": "@workearly/icons",
+  "name": "@workearly/svg",
   "version": "0.0.0",
   "private": true,
   "main": "./src/index.tsx",

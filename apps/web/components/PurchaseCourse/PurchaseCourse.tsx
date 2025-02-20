@@ -31,15 +31,17 @@ export default function PurchaseCourse({ className }: PropsType) {
 
   return (
     <div className={clsx(styles.root, className)} data-theme={resolvedTheme}>
-      <div className={styles.media}>
-        <Image
-          src="/course-card.png"
-          fill={true}
-          alt={page.name || ""}
-          quality={100}
-          sizes="30vw"
-        />
-      </div>
+      {courseDetails.videoThumbnail?.url && (
+        <div className={styles.media}>
+          <Image
+            src={courseDetails.videoThumbnail.url}
+            fill={true}
+            alt={page.name || ""}
+            quality={100}
+            sizes="30vw"
+          />
+        </div>
+      )}
 
       <div className={styles.contentWrapper}>
         <div className={styles.content}>

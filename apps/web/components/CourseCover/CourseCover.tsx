@@ -3,7 +3,7 @@ import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import { StarIcon, UserIcon } from "@workearly/icons";
+import { StarFilled, UserFilled } from "@carbon/icons-react";
 import styles from "./CourseCover.module.scss";
 
 export default function CourseCover() {
@@ -24,13 +24,13 @@ export default function CourseCover() {
         <div className={styles.statLabels}>
           {courseDetails?.studentsCount && (
             <StatLabel
-              icon={<UserIcon />}
+              icon={<UserFilled />}
               label={`${courseDetails.studentsCount} Students`}
             />
           )}
           {courseDetails?.userReviews && (
             <StatLabel
-              icon={<StarIcon />}
+              icon={<StarFilled />}
               label={`${courseDetails.userReviews} Reviews`}
             />
           )}

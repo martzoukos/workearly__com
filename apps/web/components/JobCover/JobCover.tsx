@@ -3,7 +3,7 @@ import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import { StarIcon, UserIcon } from "@workearly/icons";
+import { StarFilled, UserFilled } from "@carbon/icons-react";
 import styles from "./JobCover.module.scss";
 
 export default function JobCover() {
@@ -25,13 +25,13 @@ export default function JobCover() {
         <div className={styles.statLabels}>
           {categoryOrJobDetails?.studentsCount && (
             <StatLabel
-              icon={<UserIcon />}
+              icon={<UserFilled />}
               label={`${categoryOrJobDetails.studentsCount} Students`}
             />
           )}
           {categoryOrJobDetails?.userReviews && (
             <StatLabel
-              icon={<StarIcon />}
+              icon={<StarFilled />}
               label={`${categoryOrJobDetails.userReviews} Reviews`}
             />
           )}
