@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  align-items: center;
+  background: var(--color-sys-surface);
+  color: var(--color-ink-default);
+  border-radius: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.63rem;
+  padding: 4.38rem;
+}
+
+.media {
+  flex-shrink: 0;
+  position: relative;
+  width: 42rem;
+  height: 32rem;
+
+  img {
+    object-fit: contain;
+    object-position: right bottom;
+    border-start-end-radius: 1rem;
+    border-end-end-radius: 1rem;
+  }
+}
+
+.statLabels {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+  margin-block-start: 1rem;
+}

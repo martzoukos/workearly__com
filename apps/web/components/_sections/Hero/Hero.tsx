@@ -14,7 +14,9 @@ export default function Hero({ section }: PropsType) {
   return (
     <div className={styles.root}>
       <div className={styles.content}>
-        <Text size="d2">{section.title}</Text>
+        <Text as="h1" size="d2">
+          {section.title}
+        </Text>
         <Text size="h6">{section.text}</Text>
       </div>
 
