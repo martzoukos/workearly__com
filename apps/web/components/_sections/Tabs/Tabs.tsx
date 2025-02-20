@@ -1,10 +1,10 @@
-import { QueryItem } from "@workearly/api";
-import { Tabs as RadixTabs } from "radix-ui";
-import styles from "./Tabs.module.scss";
-import clsx from "clsx";
 import Button from "@/components/Button/Button";
-import { useState } from "react";
 import Section from "@/components/Section/Section";
+import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
+import { Tabs as RadixTabs } from "radix-ui";
+import { useState } from "react";
+import styles from "./Tabs.module.scss";
 
 type PropsType = {
   actions: QueryItem["Action"][];
@@ -31,7 +31,10 @@ export default function Tabs({ sections, actions, className }: PropsType) {
             >
               <Button
                 variant={activeTab === section.sys.id ? "Solid" : "Outlined"}
-                colorScheme={activeTab === section.sys.id ? "Green" : "White"}
+                colorSchemes={{
+                  light: activeTab === section.sys.id ? "Green" : "Black",
+                  dark: activeTab === section.sys.id ? "Green" : "White",
+                }}
               >
                 {section.title}
               </Button>

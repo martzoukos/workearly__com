@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   gap: 1rem;
+  color: hsl(var(--color-neutral-500));
 }
 
 .navigation {

@@ -1,18 +1,13 @@
 @use "@/styles/_functions" as *;
 
-.root {
-  background: hsl(var(--color-neutral-500));
-  color: hsl(var(--color-black-500));
-}
-
 .content {
   border-radius: 1rem;
-  border: 1px solid var(--color-sys-border-muted);
+  border: 1px solid var(--color-sys-border);
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
-  background: hsl(var(--color-green-500));
+  background: var(--color-sys-accent);
 }
 
 .contentItems {
@@ -21,6 +16,6 @@
   gap: 3rem;
   padding: 3rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--color-sys-border-muted);
-  background: hsl(var(--color-neutral-300));
+  border: 1px solid var(--color-sys-border);
+  background: var(--color-sys-surface-1);
 }

@@ -1,6 +1,7 @@
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
+import { Frame } from "@workearly/svg";
 import clsx from "clsx";
 import Image from "next/image";
 import styles from "./PersonCard.module.scss";
@@ -18,7 +19,7 @@ export default function PersonCard({ page, className }: PropsType) {
   }
 
   return (
-    <article className={clsx(styles.card, className)}>
+    <article className={clsx(styles.root, className)}>
       <div className={styles.content}>
         {peopleDetails.asset?.url && (
           <Image
@@ -32,6 +33,7 @@ export default function PersonCard({ page, className }: PropsType) {
 
         <div className={styles.labelContainer}>
           <div className={styles.label}>
+            <Frame />
             {peopleDetails.name && <Text>{peopleDetails.name}</Text>}
 
             {peopleDetails.role && (

@@ -19,7 +19,7 @@ type PropsType = {
 
 export default function Slider({ section, className }: PropsType) {
   const { getReference } = useContentful();
-  const { getReferences, metadata } = useSectionResolver(section);
+  const { getReferences, metadata, theme } = useSectionResolver(section);
   const actions = getReferences("Action");
 
   // const handleTouchEnd = (swiper: SwiperCore) => {
@@ -35,7 +35,7 @@ export default function Slider({ section, className }: PropsType) {
     ) || 0;
 
   return (
-    <section className={clsx(styles.root, className)}>
+    <section className={clsx(styles.root, className)} data-theme={theme}>
       <Swiper
         slidesPerView={"auto"}
         wrapperClass={styles.swiperWrapper}
@@ -70,9 +70,7 @@ export default function Slider({ section, className }: PropsType) {
             {actions.length > 0 && (
               <footer>
                 {actions.map((action) => (
-                  <Button key={action.sys.id} colorScheme="Black">
-                    {action.name}
-                  </Button>
+                  <Button key={action.sys.id}>{action.name}</Button>
                 ))}
               </footer>
             )}

@@ -3,9 +3,10 @@ import Button from "@/components/Button/Button";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
+import Motif from "@/components/Motif";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import Text from "@/components/Text/Text";
-import Slider from "@/components/_sections/CardShowcase";
+import CardShowcase from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
 import RelatedArticles from "@/components/_sections/RelatedArticles";
 import { CardVariantType } from "@/hooks/useCardResolver";
@@ -88,7 +89,11 @@ export default function Section({ section, className }: PropsType) {
       </SectionLayout>
     );
   } else if (variant === "Card Showcase") {
-    return <Slider section={section} />;
+    return (
+      <Motif isInverted={true}>
+        <CardShowcase section={section} />
+      </Motif>
+    );
   } else if (variant === "Related Articles") {
     return <RelatedArticles section={section} />;
   } else if (variant === "Tabs") {

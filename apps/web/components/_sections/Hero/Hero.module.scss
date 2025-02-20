@@ -1,7 +1,7 @@
 .root {
-  color: black;
   display: flex;
-  background-color: hsl(var(--color-neutral-500));
+  background: var(--color-sys-surface);
+  color: var(--color-ink-default);
   border-radius: 1rem;
 }
 

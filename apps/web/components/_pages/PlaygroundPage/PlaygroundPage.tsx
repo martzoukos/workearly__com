@@ -1,8 +1,8 @@
+import Breadcrumbs from "@/components/Breadcrumbs";
 import PageItem from "@/components/PageItem/PageItem";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import Link from "next/link";
 import styles from "./PlaygroundPage.module.scss";
 
 type PropsType = {
@@ -16,17 +16,13 @@ export default function PlaygroundPage({ className }: PropsType) {
   return (
     <main className={clsx(styles.root, className)}>
       <div className={styles.content}>
-        <nav className={styles.breadcrumbs}>
-          <ul>
-            <li>
-              <Link href="/">Home</Link>
-            </li>
-            <li>
-              <Link href="/courses">Courses</Link>
-            </li>
-            <li>{page.name}</li>
-          </ul>
-        </nav>
+        <Breadcrumbs
+          items={[
+            { name: "Home", href: "/" },
+            { name: "Courses", href: "/courses" },
+            { name: page.name || "" },
+          ]}
+        />
 
         {[...preDividerItems, ...postDividerItems].map((item) => (
           <PageItem

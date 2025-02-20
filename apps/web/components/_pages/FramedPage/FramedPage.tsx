@@ -14,7 +14,7 @@ export default function FramedPage({ className }: PropsType) {
   const { postDividerItems, preDividerItems } = usePageResolver(page);
 
   return (
-    <main className={clsx(styles.root, className)}>
+    <main className={clsx(className)}>
       <div className={styles.content}>
         <Breadcrumbs
           items={[
