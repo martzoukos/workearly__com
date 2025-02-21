@@ -50,6 +50,7 @@ interface PropsType
   colorSchemes?: {
     [key in ThemeType]?: VariantProps<typeof variants>["colorScheme"];
   };
+  isInverted?: boolean;
 }
 
 export const Button = forwardRef<ButtonElement, PropsType>(
@@ -65,15 +66,23 @@ export const Button = forwardRef<ButtonElement, PropsType>(
       isFullWidth,
       isRounded,
       colorSchemes,
+      isInverted,
       as: Tag = "button",
       ...rest
     } = props;
 
-    const defaultColorScheme = colorSchemes
-      ? colorSchemes[theme]
-      : theme === "dark"
-        ? "White"
-        : "Black";
+    let defaultColorScheme: VariantProps<typeof variants>["colorScheme"] =
+      undefined;
+
+    if (colorSchemes) {
+      defaultColorScheme = colorSchemes[theme];
+    } else if (theme) {
+      defaultColorScheme = theme === "dark" ? "White" : "Black";
+
+      if (isInverted) {
+        defaultColorScheme = theme === "dark" ? "Black" : "White";
+      }
+    }
 
     return (
       <Slot.Root
