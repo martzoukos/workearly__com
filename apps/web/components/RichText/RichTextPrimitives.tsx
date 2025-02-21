@@ -100,7 +100,11 @@ export const LI = ({ resolver, children }: NodeBaseProps) => {
   } else if (resolver.variant !== "Default") {
     return (
       <ListItem
-        icon={resolver.IconComponent ? <resolver.IconComponent /> : null}
+        icon={
+          resolver.IconComponent ? (
+            <resolver.IconComponent className={styles.listItemIcon} />
+          ) : null
+        }
       >
         {children}
       </ListItem>
