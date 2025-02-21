@@ -2,7 +2,14 @@ import { useContentful } from "@/stores/ContentfulStore";
 import { QueryItem } from "@workearly/api";
 
 const DATA_MAP = {
-  variants: ["Header", "Footer", "Full Width Divider", "Mentors", "Partners"],
+  variants: [
+    "Header",
+    "Footer",
+    "Full Width Divider",
+    "Mentors",
+    "Partners",
+    "Courses",
+  ],
 } as const;
 
 export type UniqueComponentVariantType = (typeof DATA_MAP)["variants"][number];

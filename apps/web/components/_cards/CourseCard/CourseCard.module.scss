@@ -3,19 +3,18 @@
 .root {
   display: flex;
   flex-direction: column;
-  background-color: hsl(var(--color-neutral-300));
-  border: 0.5rem solid hsl(var(--color-neutral-500));
-  color: hsl(var(--color-black-500));
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+  background-color: var(--color-sys-surface-1);
+  border: 0.5rem solid var(--color-sys-surface-1);
+  color: var(--color-ink-default);
+  border-radius: 1rem;
 }
 
 .normal {
-  max-width: 18rem;
+  min-width: 18rem;
 }
 
 .wide {
-  max-width: 21rem;
+  min-width: 21rem;
 }
 
 .green {
@@ -47,6 +46,7 @@
   flex-direction: column;
   gap: 0.5rem;
   padding: 1rem;
+  flex: 1;
 }
 
 .title {
@@ -69,5 +69,5 @@
 }
 
 .prices {
-  margin-block-start: fluid-rem(0.5rem, 2rem);
+  margin-block-start: auto;
 }

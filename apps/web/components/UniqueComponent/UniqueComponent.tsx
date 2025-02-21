@@ -1,3 +1,4 @@
+import CourseIndex from "@/components/CourseIndex";
 import PeopleIndex from "@/components/PeopleIndex";
 import useUniqueComponentResolver from "@/hooks/useUniqueComponentResolver";
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
@@ -30,6 +31,7 @@ export default function UniqueComponent({
       {variant === "Partners" && (
         <PeopleIndex pages={pages} hideFilters className={styles.partners} />
       )}
+      {variant === "Courses" && <CourseIndex pages={pages} />}
     </section>
   );
 }

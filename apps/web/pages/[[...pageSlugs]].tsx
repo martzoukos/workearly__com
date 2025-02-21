@@ -1,3 +1,5 @@
+import PageRenderer from "@/components/PageRenderer";
+import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   PAGE_SLUGS_QUERY,
   fetchPageBySlug,
@@ -6,8 +8,6 @@ import {
   toPageSlugs,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import { ContentfulProvider } from "@/stores/ContentfulStore";
-import PageRenderer from "@/components/PageRenderer/PageRenderer";
 
 export default function Page({
   page,

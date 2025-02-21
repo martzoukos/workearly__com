@@ -238,7 +238,7 @@ export default function RichText({ json, richText, className }: PropsType) {
     <section className={clsx(styles.root, className)}>
       {documentToReactComponents(
         richText?.body?.json || json,
-        getOptions(resolver)
+        getOptions(resolver, richText)
       )}
     </section>
   );

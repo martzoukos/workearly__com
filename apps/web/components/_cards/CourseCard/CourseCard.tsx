@@ -9,35 +9,24 @@ import usePageResolver from "../../../hooks/usePageResolver";
 import CoursePrices from "../../CoursePrices/CoursePrices";
 import styles from "./CourseCard.module.scss";
 
-const courseCardVariants = cva(styles.root, {
+const variants = cva(styles.root, {
   variants: {
     size: {
       normal: styles.normal,
       wide: styles.wide,
     },
-    colors: {
-      Green: styles.green,
-      White: styles.root,
-      Black: styles.dark,
-    },
   },
   defaultVariants: {
     size: "normal",
-    colors: "White",
   },
 });
 
-interface PropsType extends VariantProps<typeof courseCardVariants> {
+interface PropsType extends VariantProps<typeof variants> {
   page: QueryItem["Page"];
   className?: string;
 }
 
-const CourseCard = ({
-  page,
-  size = "normal",
-  colors = "White",
-  className,
-}: PropsType) => {
+const CourseCard = ({ page, size = "normal", className }: PropsType) => {
   const { courseDetails } = usePageResolver(page);
 
   if (!courseDetails) {
@@ -47,9 +36,8 @@ const CourseCard = ({
   return (
     <div
       className={clsx(
-        courseCardVariants({
+        variants({
           size,
-          colors,
         }),
         className
       )}

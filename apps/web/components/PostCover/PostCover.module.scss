@@ -1,10 +1,14 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
-  padding: 2rem 2rem 2rem 2.75rem;
+  padding: fluid-rem(0.5rem, 2rem);
+  padding-inline-start: fluid-rem(0.5rem, 2.75rem);
   border-radius: 0.4375rem;
   background: var(--color-sys-surface);
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+  gap: fluid-rem(1rem, 5rem);
 }
 
 .contentWrapper {
