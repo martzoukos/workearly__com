@@ -47,6 +47,20 @@ const DATA_MAP = {
   ],
 } as const;
 
+type TitleOverride =
+  | "d1"
+  | "d2"
+  | "h1"
+  | "h2"
+  | "h3"
+  | "h4"
+  | "h5"
+  | "h6"
+  | "p"
+  | "small"
+  | "xsmall"
+  | "caption";
+
 export default function useSectionResolver(section: QueryItem["Section"]) {
   const { resolvedTheme } = useMotif();
   const { getReferences: getContentfulReferences } = useContentful();
@@ -90,6 +104,8 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
 
   const metadata: MetadataType | undefined = section.metadata;
   const theme = (section.theme?.toLowerCase() || resolvedTheme) as ThemeType;
+  const titleOverride =
+    section.titleSizeOverride?.toLowerCase() as TitleOverride;
 
   return {
     flexAlignment,
@@ -99,5 +115,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     hasReferences,
     metadata,
     theme,
+    titleOverride,
   };
 }

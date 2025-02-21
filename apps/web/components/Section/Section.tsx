@@ -130,6 +130,7 @@ function SectionLayout({
     <section className={clsx(styles.root, className)} style={style}>
       {hasHeader && (
         <header className={styles.header}>
+          {section.supertitle && <Text>{section.supertitle}</Text>}
           <Text as="h4">{section.title}</Text>
           {section.text && <Text>{section.text}</Text>}
         </header>

@@ -2,22 +2,38 @@ import Text from "@/components/Text";
 import { isDefined, QueryItem } from "@workearly/api";
 import Image from "next/image";
 import styles from "./Hero.module.scss";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import Button from "@/components/Button";
+import Action from "@/components/ActionButton";
 
 type PropsType = {
   section: QueryItem["Section"];
 };
 
 export default function Hero({ section }: PropsType) {
+  const { getReferences } = useSectionResolver(section);
+  const actions = getReferences("Action");
+
+  const { titleOverride } = useSectionResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
 
   return (
     <div className={styles.root}>
       <div className={styles.content}>
-        <Text as="h1" size="d2">
+        <Text as="h1" size={titleOverride || "d2"}>
           {section.title}
         </Text>
-        <Text size="h6">{section.text}</Text>
+        <Text size={"h6"}>{section.text}</Text>
+        {actions.length > 0 && (
+          <div className={styles.actions}>
+            {actions.map((action) => (
+              <Action action={action} key={action.sys.id}>
+                {action.name}
+              </Action>
+            ))}
+          </div>
+        )}
       </div>
 
       {asset?.url && (

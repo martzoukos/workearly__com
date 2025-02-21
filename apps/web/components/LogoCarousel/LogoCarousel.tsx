@@ -15,8 +15,6 @@ type PropsType = {
 const LogoCarousel = ({ title, assets }: PropsType) => {
   return (
     <div className={styles.root}>
-      {title && <Text>{title}</Text>}
-
       {assets.length <= 6 ? (
         <div className={styles.mediaRow}>
           {assets.map((asset) => (
