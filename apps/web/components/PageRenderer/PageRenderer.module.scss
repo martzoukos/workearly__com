@@ -2,6 +2,6 @@
 
 .root {
   @extend %container;
-  padding-inline: fluid-rem(1.5rem, 3rem);
+  padding-inline: fluid-rem(0.75rem, 3rem);
   padding-block: fluid-rem(2.5rem, 5rem);
 }

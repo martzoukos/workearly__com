@@ -56,6 +56,32 @@
   );
 }
 
+@function reverse-fluid-rem(
+  $min: 3rem,
+  $max: 1rem,
+  $breakpoints: 375 $container,
+  $remValue: 16
+) {
+  $minSizeStriped: strip($min);
+  $maxSizeStriped: strip($max);
+  $minWidthRem: pxToRem(list.nth($breakpoints, 1), $remValue);
+  $maxWidthRem: pxToRem(list.nth($breakpoints, 2), $remValue);
+  $viewportValue: 100;
+
+  $sizeDif: $minSizeStriped - $maxSizeStriped;
+  $widthDif: $maxWidthRem - $minWidthRem;
+
+  $slope: math.div($sizeDif, $widthDif) * -1;
+
+  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStriped;
+
+  @return clamp(
+    #{$max},
+    #{$yAxisIntersection}rem + #{$slope * $viewportValue}vw,
+    #{$min}
+  );
+}
+
 @function fluid-px(
   $min: 16px,
   $max: 32px,

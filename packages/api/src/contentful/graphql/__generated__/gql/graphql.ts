@@ -220,6 +220,8 @@ export enum AccordionCardLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -501,6 +503,8 @@ export enum ActionLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -980,6 +984,8 @@ export enum CardLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -1471,6 +1477,8 @@ export enum ContentTypeRichTextLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -2317,6 +2325,8 @@ export enum PageLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -3078,6 +3088,7 @@ export type Section = Entry & _Node & {
   text?: Maybe<Scalars['String']['output']>;
   theme?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
+  titleSizeOverride?: Maybe<Scalars['String']['output']>;
   variant?: Maybe<Scalars['String']['output']>;
 };
 
@@ -3168,6 +3179,12 @@ export type SectionThemeArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
 export type SectionTitleArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/section) */
+export type SectionTitleSizeOverrideArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -3307,6 +3324,13 @@ export type SectionFilter = {
   theme_not_contains?: InputMaybe<Scalars['String']['input']>;
   theme_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   title?: InputMaybe<Scalars['String']['input']>;
+  titleSizeOverride?: InputMaybe<Scalars['String']['input']>;
+  titleSizeOverride_contains?: InputMaybe<Scalars['String']['input']>;
+  titleSizeOverride_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  titleSizeOverride_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  titleSizeOverride_not?: InputMaybe<Scalars['String']['input']>;
+  titleSizeOverride_not_contains?: InputMaybe<Scalars['String']['input']>;
+  titleSizeOverride_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   title_contains?: InputMaybe<Scalars['String']['input']>;
   title_exists?: InputMaybe<Scalars['Boolean']['input']>;
   title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
@@ -3401,6 +3425,8 @@ export enum SectionLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -3428,6 +3454,8 @@ export enum SectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
@@ -3748,6 +3776,8 @@ export enum UniqueComponentLinkingCollectionsSectionCollectionOrder {
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
   ThemeAsc = 'theme_ASC',
   ThemeDesc = 'theme_DESC',
+  TitleSizeOverrideAsc = 'titleSizeOverride_ASC',
+  TitleSizeOverrideDesc = 'titleSizeOverride_DESC',
   TitleAsc = 'title_ASC',
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',

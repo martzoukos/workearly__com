@@ -1,6 +1,5 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import CourseCover from "@/components/CourseCover";
-import Motif from "@/components/Motif";
 import PageItem from "@/components/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -38,9 +37,7 @@ export default function CoursePage({ className }: PropsType) {
           ))}
         </div>
         <aside className={styles.sidebar}>
-          <Motif isInverted={true}>
-            <PurchaseCourse />
-          </Motif>
+          <PurchaseCourse />
         </aside>
       </div>
       {postDividerItems.map((item) => (

@@ -1,5 +1,4 @@
-import useMotif from "@/hooks/useMotif";
-import { ThemeType } from "@workearly/api";
+import { ThemeType, useTheme } from "@workearly/theme";
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 import { Slot } from "radix-ui";
@@ -55,7 +54,7 @@ interface PropsType
 
 export const Button = forwardRef<ButtonElement, PropsType>(
   (props, forwardedRef) => {
-    const { resolvedTheme } = useMotif();
+    const { theme } = useTheme();
     const {
       children,
       className,
@@ -71,8 +70,8 @@ export const Button = forwardRef<ButtonElement, PropsType>(
     } = props;
 
     const defaultColorScheme = colorSchemes
-      ? colorSchemes[resolvedTheme]
-      : resolvedTheme === "dark"
+      ? colorSchemes[theme]
+      : theme === "dark"
         ? "White"
         : "Black";
 
