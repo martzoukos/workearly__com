@@ -52,12 +52,11 @@ export const ACTION_FIELDS = graphql(`
       slug
     }
     external
-    externalType
     icon {
       ...AssetFields
     }
     iconPlacement
-    color
+    colorScheme
     variant
     behaviour
   }

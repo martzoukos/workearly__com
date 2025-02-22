@@ -1,10 +1,9 @@
+import ActionButton from "@/components/ActionButton";
 import Text from "@/components/Text";
+import useSectionResolver from "@/hooks/useSectionResolver";
 import { isDefined, QueryItem } from "@workearly/api";
 import Image from "next/image";
 import styles from "./Hero.module.scss";
-import useSectionResolver from "@/hooks/useSectionResolver";
-import Button from "@/components/Button";
-import Action from "@/components/ActionButton";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -28,9 +27,7 @@ export default function Hero({ section }: PropsType) {
         {actions.length > 0 && (
           <div className={styles.actions}>
             {actions.map((action) => (
-              <Action action={action} key={action.sys.id}>
-                {action.name}
-              </Action>
+              <ActionButton action={action} key={action.sys.id} />
             ))}
           </div>
         )}

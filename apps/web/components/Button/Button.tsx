@@ -43,17 +43,17 @@ const variants = cva(styles.root, {
 type ButtonElement<T extends React.ElementType = "button"> =
   React.ElementRef<T>;
 
-interface PropsType
+export interface ButtonProps
   extends ComponentPropsWithoutRef<"button">,
     VariantProps<typeof variants> {
   asChild?: boolean;
   as?: keyof JSX.IntrinsicElements;
   colorSchemes?: {
-    [key in ThemeType]?: VariantProps<typeof variants>["colorScheme"];
+    [key in ThemeType]?: ButtonProps["colorScheme"];
   };
 }
 
-export const Button = forwardRef<ButtonElement, PropsType>(
+export const Button = forwardRef<ButtonElement, ButtonProps>(
   (props, forwardedRef) => {
     const { resolvedTheme } = useMotif();
     const {
