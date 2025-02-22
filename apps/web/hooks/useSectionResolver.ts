@@ -1,3 +1,4 @@
+import { TextProps } from "@/components/Text/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
@@ -43,20 +44,6 @@ const DATA_MAP = {
   ],
 } as const;
 
-type TitleOverride =
-  | "d1"
-  | "d2"
-  | "h1"
-  | "h2"
-  | "h3"
-  | "h4"
-  | "h5"
-  | "h6"
-  | "p"
-  | "small"
-  | "xsmall"
-  | "caption";
-
 export default function useSectionResolver(section: QueryItem["Section"]) {
   const { getReferences: getContentfulReferences, page } = useContentful();
   const { theme: pageTheme } = usePageResolver(page);
@@ -100,8 +87,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
 
   const metadata: MetadataType | undefined = section.metadata;
   const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
-  const titleOverride =
-    section.titleSizeOverride?.toLowerCase() as TitleOverride;
+  const titleSize = section.titleSize as TextProps["size"];
 
   return {
     flexAlignment,
@@ -111,6 +97,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     hasReferences,
     metadata,
     theme,
-    titleOverride,
+    titleSize,
   };
 }

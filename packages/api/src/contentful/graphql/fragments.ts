@@ -210,7 +210,7 @@ export const SECTION_FIELDS = graphql(`
     cardsCount
     theme
     metadata
-    titleSizeOverride
+    titleSize
     actionsCollection {
       items {
         ...EntryFields

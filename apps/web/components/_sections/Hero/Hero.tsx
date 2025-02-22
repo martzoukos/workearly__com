@@ -10,17 +10,16 @@ type PropsType = {
 };
 
 export default function Hero({ section }: PropsType) {
-  const { getReferences } = useSectionResolver(section);
+  const { getReferences, titleSize } = useSectionResolver(section);
   const actions = getReferences("Action");
 
-  const { titleOverride } = useSectionResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
 
   return (
     <div className={styles.root}>
       <div className={styles.content}>
-        <Text as="h1" size={titleOverride || "d2"}>
+        <Text as="h1" size={titleSize ?? "d2"}>
           {section.title}
         </Text>
         <Text size={"h6"}>{section.text}</Text>

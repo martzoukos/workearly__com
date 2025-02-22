@@ -113,7 +113,8 @@ function SectionLayout({
   className,
   children,
 }: SectionLayoutPropsType) {
-  const { flexAlignment, getReferences } = useSectionResolver(section);
+  const { flexAlignment, getReferences, titleSize } =
+    useSectionResolver(section);
   const hasHeader = section.title || section.text;
   const style = {
     "--flex-alignment": flexAlignment,
@@ -126,7 +127,9 @@ function SectionLayout({
       {hasHeader && (
         <header className={styles.header}>
           {section.supertitle && <Text>{section.supertitle}</Text>}
-          <Text as="h4">{section.title}</Text>
+          <Text as="h4" size={titleSize}>
+            {section.title}
+          </Text>
           {section.text && <Text>{section.text}</Text>}
         </header>
       )}
