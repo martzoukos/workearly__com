@@ -1,30 +1,42 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
-  --gap-sidebar: 3rem;
+  --gap-sidebar: #{fluid-rem(1.5rem, 3rem)};
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8rem;
+  gap: fluid-rem(1.5rem, 8rem);
 }
 
 .contentWrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: var(--gap-sidebar);
+
+  @include media(lg) {
+    grid-template-columns: 1fr;
+  }
 }
 
 .content {
   border: 1px solid var(--color-sys-border-muted);
-  padding: 0.88rem;
+  padding: fluid-rem(0rem, 0.88rem);
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: reverse-fluid-rem(1.5rem, 0.75rem);
   height: fit-content;
 
   .contentItem {
-    padding: 2.12rem 1.88rem;
+    padding-inline: fluid-rem(0.75rem, 1.88rem);
+    padding-block: fluid-rem(1.5rem, 2.12rem);
 
     &:not(:first-child) {
       border-top: 1px solid var(--color-sys-border-muted);
     }
+  }
+
+  @include media(lg) {
+    border: none;
   }
 }
 

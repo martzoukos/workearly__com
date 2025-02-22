@@ -1,6 +1,11 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
   --icon-size: 1.5rem;
-  --icon-gap: 1.12rem;
+  --icon-gap: #{fluid-rem(0.75rem, 1.12rem)};
+  --trigger-padding-inline: #{fluid-rem(0.5rem, 1.75rem)};
+  --trigger-padding-block: #{reverse-fluid-rem(0.75rem, 0.62rem)};
 }
 
 .item {
@@ -15,14 +20,29 @@
 .trigger {
   all: unset;
   color: var(--color-ink-muted);
-  gap: var(--icon-gap);
-  padding: 0.62rem 1.75rem;
+  padding: var(--trigger-padding-block) var(--trigger-padding-inline);
   display: flex;
-  align-items: center;
+  gap: var(--icon-gap);
   cursor: pointer;
+  font-weight: 400;
+  line-height: 1.5rem;
+  letter-spacing: 0.0125rem;
 
   width: 100%;
   box-sizing: border-box;
+
+  .title {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .topNotes {
+    flex-shrink: 0;
+  }
 
   &:hover {
     background: var(--color-sys-surface);
@@ -31,10 +51,6 @@
   &[data-state="open"] {
     color: var(--color-sys-accent);
   }
-}
-
-.topNotes {
-  margin-inline-start: auto;
 }
 
 .icon {
@@ -88,9 +104,11 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1.44rem;
-  padding-inline: calc(1.75rem + var(--icon-size) + var(--icon-gap));
+  padding-inline: calc(
+    var(--trigger-padding-inline) + var(--icon-size) + var(--icon-gap)
+  );
   padding-block: 1rem 1.62rem;
 
   .columnTitle {

@@ -9,10 +9,9 @@ import PostPage from "@/components/_pages/PostPage";
 import DevBox from "@/components/DevBox";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-import Motif from "@/components/Motif";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import { ThemeProvider } from "next-themes";
+import { ThemeProvider } from "@workearly/theme";
 import styles from "./PageRenderer.module.scss";
 
 export default function PageRenderer() {
@@ -20,10 +19,8 @@ export default function PageRenderer() {
   const { variant, theme } = usePageResolver(page);
 
   return (
-    <ThemeProvider defaultTheme={theme}>
-      <Motif isInverted={true}>
-        <DevBox />
-      </Motif>
+    <ThemeProvider defaultRootTheme={theme}>
+      <DevBox />
       <Header />
       {variant === "Default" && <DefaultPage className={styles.root} />}
       {variant === "Course" && <CoursePage className={styles.root} />}

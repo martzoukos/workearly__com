@@ -1,13 +1,13 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
+import Media from "@/components/Media";
 import Text from "@/components/Text";
-import useMotif from "@/hooks/useMotif";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Gift, Share, Time } from "@carbon/icons-react";
+import { Themed } from "@workearly/theme";
 import clsx from "clsx";
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import styles from "./PurchaseCourse.module.scss";
@@ -23,25 +23,22 @@ export default function PurchaseCourse({ className }: PropsType) {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { translate } = useTranslate();
-  const { resolvedTheme } = useMotif();
 
   if (!courseDetails) {
     return null;
   }
 
   return (
-    <div className={clsx(styles.root, className)} data-theme={resolvedTheme}>
-      {courseDetails.videoThumbnail?.url && (
-        <div className={styles.media}>
-          <Image
-            src={courseDetails.videoThumbnail.url}
-            fill={true}
-            alt={page.name || ""}
-            quality={100}
-            sizes="30vw"
-          />
-        </div>
-      )}
+    <Themed className={clsx(styles.root, className)} isInverted={true}>
+      <Media
+        canHoldPlace={true}
+        asset={courseDetails.videoThumbnail}
+        aspectRatio="16 / 9"
+        imageProps={{
+          quality: 100,
+          sizes: "30vw",
+        }}
+      />
 
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
@@ -109,6 +106,6 @@ export default function PurchaseCourse({ className }: PropsType) {
           </Button>
         </footer>
       </div>
-    </div>
+    </Themed>
   );
 }

@@ -1,4 +1,4 @@
-import useMotif from "@/hooks/useMotif";
+import { Code } from "@carbon/icons-react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import styles from "./DevBox.module.scss";
@@ -11,14 +11,14 @@ const ThemeSwitcher = dynamic(() => import("./ThemeSwitcher"), {
 export default function DevBox() {
   const router = useRouter();
   const isProduction = process.env.NODE_ENV === "production";
-  const { resolvedTheme } = useMotif();
 
   if (isProduction && !router.isPreview) {
     return null;
   }
 
   return (
-    <div className={styles.root} data-theme={resolvedTheme}>
+    <div className={styles.root}>
+      <Code />
       <ExitPreview />
       <ThemeSwitcher />
     </div>

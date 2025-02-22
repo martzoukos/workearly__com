@@ -1,5 +1,9 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
-  padding: 2.12rem 1.88rem;
+  padding-inline: fluid-rem(0.75rem, 1.88rem);
+  padding-block: fluid-rem(0.75rem, 2.12rem);
   border-radius: 0.5rem;
   background: var(--color-sys-surface);
   display: flex;
@@ -20,7 +24,12 @@
 }
 
 .statCards {
+  --min-card-width: 15rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(var(--min-card-width), 1fr));
   gap: 0.25rem;
+
+  @include media(sm) {
+    --min-card-width: 10rem;
+  }
 }

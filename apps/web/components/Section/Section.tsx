@@ -3,7 +3,6 @@ import Button from "@/components/Button/Button";
 import CardGrid from "@/components/CardGrid/CardGrid";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
-import Motif from "@/components/Motif";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import Text from "@/components/Text/Text";
 import CardShowcase from "@/components/_sections/CardShowcase";
@@ -89,11 +88,7 @@ export default function Section({ section, className }: PropsType) {
       </SectionLayout>
     );
   } else if (variant === "Card Showcase") {
-    return (
-      <Motif isInverted={true}>
-        <CardShowcase section={section} />
-      </Motif>
-    );
+    return <CardShowcase section={section} />;
   } else if (variant === "Related Articles") {
     return <RelatedArticles section={section} />;
   } else if (variant === "Tabs") {

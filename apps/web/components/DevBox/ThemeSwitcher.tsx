@@ -1,19 +1,18 @@
 import Button from "@/components/Button/Button";
 import { ColorSwitch } from "@carbon/icons-react";
-import { useTheme } from "next-themes";
+import { useTheme } from "@workearly/theme";
 
 export default function ThemeSwitcher() {
-  const { resolvedTheme, forcedTheme, setTheme } = useTheme();
+  const { rootTheme, setRootTheme } = useTheme();
 
   return (
     <Button
       size="xsmall"
-      disabled={forcedTheme !== undefined}
       onClick={() => {
-        setTheme(resolvedTheme === "dark" ? "light" : "dark");
+        setRootTheme(rootTheme === "dark" ? "light" : "dark");
       }}
     >
-      Switch to {resolvedTheme === "dark" ? "Light" : "Dark"} Mode
+      Switch to {rootTheme === "dark" ? "Light" : "Dark"} Mode
       <ColorSwitch />
     </Button>
   );

@@ -1,11 +1,7 @@
-import useMotif from "@/hooks/useMotif";
+import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import {
-  isDefined,
-  QueryItem,
-  SectionReferenceTypeName,
-  ThemeType,
-} from "@workearly/api";
+import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
+import { ThemeType } from "@workearly/theme";
 
 type ReferenceFieldsType = {
   [key in SectionReferenceTypeName]: "contentCollection" | "actionsCollection";
@@ -62,8 +58,8 @@ type TitleOverride =
   | "caption";
 
 export default function useSectionResolver(section: QueryItem["Section"]) {
-  const { resolvedTheme } = useMotif();
-  const { getReferences: getContentfulReferences } = useContentful();
+  const { getReferences: getContentfulReferences, page } = useContentful();
+  const { theme: pageTheme } = usePageResolver(page);
   const flexAlignment =
     DATA_MAP.alignment[section.alignment as keyof typeof DATA_MAP.alignment] ??
     DATA_MAP.alignment.Left;
@@ -103,7 +99,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   }
 
   const metadata: MetadataType | undefined = section.metadata;
-  const theme = (section.theme?.toLowerCase() || resolvedTheme) as ThemeType;
+  const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
   const titleOverride =
     section.titleSizeOverride?.toLowerCase() as TitleOverride;
 

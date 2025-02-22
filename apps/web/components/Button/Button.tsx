@@ -1,5 +1,4 @@
-import useMotif from "@/hooks/useMotif";
-import { ThemeType } from "@workearly/api";
+import { ThemeType, useTheme } from "@workearly/theme";
 import { cva, type VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 import { Slot } from "radix-ui";
@@ -51,11 +50,12 @@ export interface ButtonProps
   colorSchemes?: {
     [key in ThemeType]?: ButtonProps["colorScheme"];
   };
+  isInverted?: boolean;
 }
 
 export const Button = forwardRef<ButtonElement, ButtonProps>(
   (props, forwardedRef) => {
-    const { resolvedTheme } = useMotif();
+    const { theme } = useTheme();
     const {
       children,
       className,
@@ -66,15 +66,23 @@ export const Button = forwardRef<ButtonElement, ButtonProps>(
       isFullWidth,
       isRounded,
       colorSchemes,
+      isInverted,
       as: Tag = "button",
       ...rest
     } = props;
 
-    const defaultColorScheme = colorSchemes
-      ? colorSchemes[resolvedTheme]
-      : resolvedTheme === "dark"
-        ? "White"
-        : "Black";
+    let defaultColorScheme: VariantProps<typeof variants>["colorScheme"] =
+      undefined;
+
+    if (colorSchemes) {
+      defaultColorScheme = colorSchemes[theme];
+    } else if (theme) {
+      defaultColorScheme = theme === "dark" ? "White" : "Black";
+
+      if (isInverted) {
+        defaultColorScheme = theme === "dark" ? "Black" : "White";
+      }
+    }
 
     return (
       <Slot.Root

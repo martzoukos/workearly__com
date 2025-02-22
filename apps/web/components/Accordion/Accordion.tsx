@@ -52,12 +52,12 @@ function AccordionCard({
             <ArrowUp className={styles.arrow} />
           )}
         </div>
-        {accordionCard.title}
-        {accordionCard.topNotes && (
-          <Text size="small" className={styles.topNotes}>
-            {accordionCard.topNotes.join(",")}
-          </Text>
-        )}
+        <div className={styles.title}>
+          {accordionCard.title}
+          {accordionCard.topNotes && (
+            <Text size="small">{accordionCard.topNotes.join(",")}</Text>
+          )}
+        </div>
       </AccordionTrigger>
       <AccordionContent className={styles.content}>
         <div className={styles.grid}>
