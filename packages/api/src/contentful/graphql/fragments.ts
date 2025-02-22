@@ -52,12 +52,11 @@ export const ACTION_FIELDS = graphql(`
       slug
     }
     external
-    externalType
     icon {
       ...AssetFields
     }
     iconPlacement
-    color
+    colorScheme
     variant
     behaviour
   }
@@ -211,6 +210,7 @@ export const SECTION_FIELDS = graphql(`
     cardsCount
     theme
     metadata
+    titleSize
     actionsCollection {
       items {
         ...EntryFields
