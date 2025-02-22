@@ -1,15 +1,17 @@
 import { QueryItem } from "@workearly/api";
 
-const CARD_VARIANTS = [
-  "Icon and Text",
-  "Title and Text",
-  "Project",
-  "Rich Card",
-  "Certificate",
-  "Key Metrics",
-] as const;
+const DATA_MAP = {
+  variants: [
+    "Icon and Text",
+    "Title and Text",
+    "Project",
+    "Rich Card",
+    "Certificate",
+    "Key Metrics",
+  ],
+} as const;
 
-export type CardVariantType = (typeof CARD_VARIANTS)[number] | undefined;
+export type CardVariantType = (typeof DATA_MAP.variants)[number] | undefined;
 
 export default function useCardResolver(card: QueryItem["Card"]) {
   const variant = card.variant as CardVariantType;

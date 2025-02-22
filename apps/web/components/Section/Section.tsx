@@ -113,8 +113,9 @@ function SectionLayout({
   className,
   children,
 }: SectionLayoutPropsType) {
-  const { flexAlignment, getReferences } = useSectionResolver(section);
-  const hasHeader = section.title || section.text;
+  const { flexAlignment, getReferences, titleSize } =
+    useSectionResolver(section);
+  const hasHeader = section.supertitle || section.title || section.text;
   const style = {
     "--flex-alignment": flexAlignment,
   } as React.CSSProperties;
@@ -125,7 +126,12 @@ function SectionLayout({
     <section className={clsx(styles.root, className)} style={style}>
       {hasHeader && (
         <header className={styles.header}>
-          <Text as="h4">{section.title}</Text>
+          {section.supertitle && <Text>{section.supertitle}</Text>}
+          {section.title && (
+            <Text as="h4" size={titleSize}>
+              {section.title}
+            </Text>
+          )}
           {section.text && <Text>{section.text}</Text>}
         </header>
       )}

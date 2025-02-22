@@ -1,3 +1,4 @@
+import { TextProps } from "@/components/Text/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
@@ -86,6 +87,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
 
   const metadata: MetadataType | undefined = section.metadata;
   const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
+  const titleSize = section.titleSize as TextProps["size"];
 
   return {
     flexAlignment,
@@ -95,5 +97,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     hasReferences,
     metadata,
     theme,
+    titleSize,
   };
 }

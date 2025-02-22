@@ -12,6 +12,11 @@
   padding: 3rem;
 }
 
+.actions {
+  display: flex;
+  gap: 1rem;
+}
+
 .media {
   flex-shrink: 0;
   position: relative;
