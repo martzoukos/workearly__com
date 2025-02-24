@@ -68,7 +68,7 @@ async function fetchCollectionByTags<TItem, TData>(
 
   const items: TItem[] = [];
 
-  const { data, error } = await client
+  const { data } = await client
     .query(options.query, {
       where: {
         contentfulMetadata: {

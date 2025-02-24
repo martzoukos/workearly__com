@@ -64,7 +64,6 @@ export default function PeopleIndex({
                       ? "Solid"
                       : "Outlined"
                   }
-                  colorScheme="Black"
                   onClick={() => {
                     const newCategories = categoryTabs.onSelect(tag.id);
                     categoryTabs.setSelected(newCategories);

@@ -15,7 +15,7 @@ export default function UniqueComponent({
   uniqueComponent,
   className,
 }: PropsType) {
-  const { variant, pages } = useUniqueComponentResolver(uniqueComponent);
+  const { variant, pages, tags } = useUniqueComponentResolver(uniqueComponent);
 
   return (
     <section className={clsx(styles.root, className)}>
@@ -32,7 +32,7 @@ export default function UniqueComponent({
         <PeopleIndex pages={pages} hideFilters className={styles.partners} />
       )}
       {variant === "Courses" && (
-        <CourseIndex pages={pages} title={uniqueComponent.title} />
+        <CourseIndex pages={pages} title={uniqueComponent.title} tags={tags} />
       )}
     </section>
   );

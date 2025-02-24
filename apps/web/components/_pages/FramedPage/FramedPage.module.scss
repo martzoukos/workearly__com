@@ -2,12 +2,13 @@
 
 .content {
   border-radius: 1rem;
-  border: 1px solid var(--color-sys-border);
+  border: 1px solid hsl(var(--color-black-500));
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
   background: var(--color-sys-accent);
+  color: hsl(var(--color-black-500));
 }
 
 .contentItems {
@@ -16,6 +17,7 @@
   gap: 3rem;
   padding: 3rem;
   border-radius: 0.5rem;
-  border: 1px solid var(--color-sys-border);
-  background: var(--color-sys-surface-1);
+  border: 1px solid hsl(var(--color-black-500));
+  background: var(--color-sys-surface);
+  color: var(--color-ink-default);
 }

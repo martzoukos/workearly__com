@@ -2,7 +2,6 @@ import CourseCard from "@/components/_cards/CourseCard";
 import Button from "@/components/Button";
 import FilterList from "@/components/FilterList";
 import Text from "@/components/Text";
-import { useContentful } from "@/stores/ContentfulStore";
 import {
   COURSE_CATEGORIES,
   COURSE_DURATIONS,
@@ -24,11 +23,10 @@ import styles from "./CourseIndex.module.scss";
 type PropsType = {
   pages: QueryItem["Page"][];
   title: string | null | undefined;
+  tags: Array<string>;
 };
 
-export default function CourseIndex({ title, pages }: PropsType) {
-  const { page } = useContentful();
-
+export default function CourseIndex({ title, pages, tags }: PropsType) {
   const [categories, setCategories] = useQueryParam(
     "category",
     withDefault(DelimitedArrayParam, [])
@@ -126,11 +124,11 @@ export default function CourseIndex({ title, pages }: PropsType) {
       </aside>
       <div className={styles.content}>
         {title && <header>{title && <Text as="h2">{title}</Text>}</header>}
-        {Boolean(page.contentfulMetadata.tags.length) && (
+        {Boolean(tags.length) && (
           <div className={styles.filters}>
-            {page.contentfulMetadata.tags?.map((tag) => (
-              <Button key={tag?.id} isRounded>
-                {tag?.name}
+            {tags.map((tag) => (
+              <Button key={tag} isRounded colorScheme="Surface">
+                {tag}
               </Button>
             ))}
           </div>

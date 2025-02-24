@@ -1,5 +1,5 @@
 import { useContentful } from "@/stores/ContentfulStore";
-import { QueryItem } from "@workearly/api";
+import { isDefined, QueryItem } from "@workearly/api";
 
 const DATA_MAP = {
   variants: [
@@ -31,9 +31,13 @@ export default function useUniqueComponentResolver(
 
   const pages = getReferences("Page", pageIds);
   const taggedPages = getTaggedReferences("Page", tagIds);
+  const tags = uniqueComponent.contentfulMetadata.tags
+    .map((tag) => tag?.name)
+    .filter(isDefined);
 
   return {
     variant,
     pages: [...pages, ...taggedPages],
+    tags,
   };
 }

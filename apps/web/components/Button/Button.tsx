@@ -11,6 +11,7 @@ const variants = cva(styles.root, {
       Green: styles.colorSchemeGreen,
       White: styles.colorSchemeWhite,
       Black: styles.colorSchemeBlack,
+      Surface: styles.colorSchemeSurface,
     },
     variant: {
       Solid: styles.variantSolid,

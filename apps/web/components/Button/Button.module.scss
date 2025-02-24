@@ -2,7 +2,7 @@
 
 .root {
   border: none;
-  transition-property: color, background, border;
+  transition-property: color, background, border, opacity;
   transition-duration: 200ms;
 
   background: var(--color-bg);
@@ -16,19 +16,22 @@
   border: 1px solid var(--color-border);
   width: fit-content;
 
+  &:not(:disabled):hover {
+    opacity: 0.8;
+  }
+
   &:disabled {
     cursor: not-allowed;
   }
 
   &:active {
-    outline: 1px solid var(--color-accent);
+    outline: 1px solid var(--color-primary);
   }
 }
 
 .colorSchemeGreen {
   --color-primary: hsl(var(--color-green-500));
   --color-secondary: hsl(var(--color-black-500));
-  --color-accent: hsl(var(--color-green-400));
   --color-disabled-bg: hsl(var(--color-green-100));
   --color-disabled-text: hsl(var(--color-black-300));
 }
@@ -36,7 +39,6 @@
 .colorSchemeWhite {
   --color-primary: hsl(var(--color-neutral-500));
   --color-secondary: hsl(var(--color-black-500));
-  --color-accent: hsl(var(--color-black-400));
   --color-disabled-bg: hsl(var(--color-neutral-300));
   --color-disabled-text: hsl(var(--color-black-300));
 }
@@ -44,9 +46,15 @@
 .colorSchemeBlack {
   --color-primary: hsl(var(--color-black-500));
   --color-secondary: hsl(var(--color-neutral-500));
-  --color-accent: hsl(var(--color-black-450));
   --color-disabled-bg: hsl(var(--color-black-200));
   --color-disabled-text: hsl(var(--color-black-300));
+}
+
+.colorSchemeSurface {
+  --color-primary: var(--color-sys-surface);
+  --color-secondary: var(--color-ink-default);
+  --color-disabled-bg: var(--color-sys-surface-2);
+  --color-disabled-text: var(--color-sys-surface-2);
 }
 
 .sizeXSmall {
@@ -91,11 +99,6 @@
   --color-text: var(--color-secondary);
   --color-border: var(--color-primary);
 
-  &:not(:disabled):hover {
-    --color-bg: var(--color-accent);
-    --color-border: var(--color-accent);
-  }
-
   &:disabled {
     --color-bg: var(--color-disabled-bg);
     --color-border: var(--color-disabled-bg);
@@ -107,11 +110,6 @@
   --color-bg: transparent;
   --color-text: var(--color-primary);
   --color-border: var(--color-primary);
-
-  &:not(:disabled):hover {
-    --color-border: var(--color-accent);
-    --color-text: var(--color-accent);
-  }
 
   &:disabled {
     --color-border: var(--color-disabled-text);
@@ -129,7 +127,6 @@
   }
 
   &:active {
-    --color-bg: var(--color-accent);
     --color-text: var(--color-secondary);
   }
 }
@@ -155,7 +152,6 @@
 
   &:not(:disabled):hover {
     border-color: transparent;
-    --color-text: var(--color-accent);
   }
 
   &:disabled {
