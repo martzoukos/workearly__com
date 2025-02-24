@@ -111,6 +111,9 @@ export default function usePageResolver(page: QueryItem["Page"]) {
 
   const variant = page.variant as PageVariantType;
   const theme = page.theme?.toLowerCase() as ThemeType;
+  const tags = page.contentfulMetadata.tags
+    .map((tag) => tag?.name)
+    .filter(isDefined);
 
   return {
     courseDetails,
@@ -124,6 +127,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     getHeadingsDoc,
     variant,
     theme,
+    tags,
   };
 }
 

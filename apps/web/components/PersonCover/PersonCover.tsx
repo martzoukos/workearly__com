@@ -15,7 +15,7 @@ type PropsType = {
 
 export default function PersonCover({ className }: PropsType) {
   const { page } = useContentful();
-  const { peopleDetails } = usePageResolver(page);
+  const { peopleDetails, tags } = usePageResolver(page);
 
   return (
     <div className={clsx(styles.root, className)}>
@@ -49,12 +49,12 @@ export default function PersonCover({ className }: PropsType) {
               </div>
             )}
 
-            {page.tags && (
+            {Boolean(tags.length) && (
               <div className={styles.tagsContainer}>
                 <Text size="small">Functional Expertise</Text>
 
                 <div className={styles.tags}>
-                  {page.tags.map((tag) => {
+                  {tags.map((tag) => {
                     return (
                       <Button
                         as="span"
