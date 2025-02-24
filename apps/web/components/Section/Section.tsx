@@ -19,6 +19,8 @@ import { PropsWithChildren } from "react";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
 import Tabs from "../_sections/Tabs";
 import styles from "./Section.module.scss";
+import StandardFramed from "@/components/_sections/StandardFramed";
+import Standard from "@/components/_sections/Standard";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -107,8 +109,11 @@ export default function Section({ section, className }: PropsType) {
     return <TabsAlt sections={sections} />;
   } else if (variant === "Hero") {
     return <Hero section={section} />;
+  } else if (variant === "Standard Component Framed") {
+    return <StandardFramed section={section} />;
+  } else if (variant === "Standard Component") {
+    return <Standard section={section} />;
   }
-
   return null;
 }
 
