@@ -21,6 +21,7 @@ import Tabs from "../_sections/Tabs";
 import styles from "./Section.module.scss";
 import StandardFramed from "@/components/_sections/StandardFramed";
 import Standard from "@/components/_sections/Standard";
+import HeroBackground from "@/components/_sections/HeroBackground";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -107,6 +108,8 @@ export default function Section({ section, className }: PropsType) {
     return <StandardFramed section={section} />;
   } else if (variant === "Standard Component") {
     return <Standard section={section} />;
+  } else if (variant === "Hero With Background") {
+    return <HeroBackground section={section} />;
   }
   return null;
 }

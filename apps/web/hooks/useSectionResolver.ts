@@ -45,6 +45,7 @@ const DATA_MAP = {
     "Hero",
     "Standard Component",
     "Standard Component Framed",
+    "Hero With Background",
   ],
 } as const;
 
