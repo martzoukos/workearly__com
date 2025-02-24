@@ -31,7 +31,9 @@ export default function UniqueComponent({
       {variant === "Partners" && (
         <PeopleIndex pages={pages} hideFilters className={styles.partners} />
       )}
-      {variant === "Courses" && <CourseIndex pages={pages} />}
+      {variant === "Courses" && (
+        <CourseIndex pages={pages} title={uniqueComponent.title} />
+      )}
     </section>
   );
 }

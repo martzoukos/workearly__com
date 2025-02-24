@@ -1,0 +1,36 @@
+.root {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.radio {
+  all: unset;
+
+  &[data-state="checked"] {
+    .iconChecked {
+      display: block;
+    }
+  }
+
+  &[data-state="unchecked"] {
+    .iconUnchecked {
+      display: block;
+    }
+  }
+}
+
+.icon {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: none;
+}
+
+.label {
+  flex: 1;
+}

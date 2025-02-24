@@ -5,6 +5,7 @@ import { QueryItem } from "@workearly/api";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 import usePageResolver from "../../../hooks/usePageResolver";
 import CoursePrices from "../../CoursePrices/CoursePrices";
 import styles from "./CourseCard.module.scss";
@@ -34,7 +35,8 @@ const CourseCard = ({ page, size = "normal", className }: PropsType) => {
   }
 
   return (
-    <div
+    <Link
+      href={page.slug || "/"}
       className={clsx(
         variants({
           size,
@@ -85,7 +87,7 @@ const CourseCard = ({ page, size = "normal", className }: PropsType) => {
           />
         )}
       </div>
-    </div>
+    </Link>
   );
 };
 
