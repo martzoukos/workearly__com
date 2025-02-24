@@ -12,7 +12,6 @@ type PropsType = {
 
 export default function Standard({ section }: PropsType) {
   const { page } = useContentful();
-  const { getReferences } = useSectionResolver(section);
   const assets = section.assetsCollection?.items || [];
   const { items } = usePageResolver(page);
 
