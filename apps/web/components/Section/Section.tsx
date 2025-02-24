@@ -76,22 +76,16 @@ export default function Section({ section, className }: PropsType) {
     const cards = getReferences("Card");
 
     return (
-      <SectionLayout section={section} className={className}>
-        <StepsShowcase
-          cards={cards}
-          title={section.title || ""}
-          supertitle={section.supertitle || ""}
-          description={section.text || ""}
-        />
-      </SectionLayout>
+      <StepsShowcase
+        cards={cards}
+        title={section.title || ""}
+        supertitle={section.supertitle || ""}
+        description={section.text || ""}
+      />
     );
   } else if (variant === "Features Showcase") {
     const cards = getReferences("Card");
-    return (
-      <SectionLayout section={section} className={className}>
-        <FeaturesShowcase cards={cards} title={section.title || ""} />
-      </SectionLayout>
-    );
+    return <FeaturesShowcase cards={cards} title={section.title || ""} />;
   } else if (variant === "Card Showcase") {
     return <CardShowcase section={section} />;
   } else if (variant === "Media Showcase") {
