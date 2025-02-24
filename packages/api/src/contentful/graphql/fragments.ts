@@ -237,7 +237,6 @@ export const PAGE_FIELDS = graphql(`
     variant
     name
     slug
-    tags
     seoTitle
     seoDescription
     seoImage {
