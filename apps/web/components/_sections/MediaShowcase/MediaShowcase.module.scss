@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  padding: 1.38rem 1.88rem;
+}
+
+.title {
+  font-weight: 800;
+}
+
+.description {
+  margin-block-start: 0.5rem;
+}
+
+.actions {
+  margin-block-start: 1.62rem;
+}
+
+.swiper {
+  width: 100%;
+  aspect-ratio: 16/9;
+}

@@ -1,4 +1,3 @@
-import { initUrqlClient } from "next-urql";
 import {
   Client,
   ClientOptions,
@@ -7,11 +6,14 @@ import {
   fetchExchange,
   ssrExchange,
 } from "@urql/core";
-import contentfulExchange from "./contentful-exchange";
-import { ContentfulExchangeOptionsType } from "../../types";
+import { initUrqlClient } from "next-urql";
+import contentfulExchange, {
+  ContentfulExchangeProps,
+} from "./contentful-exchange";
+import playgroundExchange from "./playground-exchange";
 
 type OptionsType = {
-  contentful: ContentfulExchangeOptionsType;
+  contentful: ContentfulExchangeProps;
 };
 
 export function getServerClient(options?: OptionsType): [Client, SSRExchange] {
@@ -21,6 +23,11 @@ export function getServerClient(options?: OptionsType): [Client, SSRExchange] {
       exchanges: [
         contentfulExchange({
           isPreview: Boolean(options?.contentful?.isPreview),
+        }),
+        playgroundExchange({
+          isEnabled:
+            process.env.NODE_ENV === "development" ||
+            Boolean(options?.contentful?.isPreview),
         }),
         ssrCache,
       ],

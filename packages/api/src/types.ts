@@ -22,9 +22,6 @@ export type TranslateOptionsType = {
   fallbackCode?: TranslationTextType;
   allowMissing?: boolean;
 };
-export type ContentfulExchangeOptionsType = {
-  isPreview?: boolean;
-};
 
 export type QueryItem = {
   CourseDetails: NonNullable<

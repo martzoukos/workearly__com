@@ -1,7 +1,8 @@
 @use "@/styles/index" as *;
 
 .root {
-  background-color: hsl(var(--color-black-450));
+  background-color: var(--color-sys-surface);
+  color: var(--color-ink-default);
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -11,6 +12,6 @@
 
 .svgWrapper {
   & > svg > path {
-    fill: hsl(var(--color-green-500));
+    fill: var(--color-sys-accent);
   }
 }

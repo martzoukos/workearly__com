@@ -1,10 +1,9 @@
-import styles from "./LogoCarousel.module.scss";
-import Text from "@/components/Text/Text";
-import Image from "next/image";
 import { QueryItem } from "@workearly/api";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import Image from "next/image";
 import "swiper/css";
+import { Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import styles from "./LogoCarousel.module.scss";
 
 type PropsType = {
   assets: QueryItem["Asset"][];

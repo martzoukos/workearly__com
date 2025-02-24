@@ -1,10 +1,13 @@
 import { Exchange } from "@urql/core";
 import { pipe, tap } from "wonka";
-import { ContentfulExchangeOptionsType } from "../../types";
+
+export type ContentfulExchangeProps = {
+  isPreview?: boolean;
+};
 
 export default function contentfulExchange({
   isPreview,
-}: ContentfulExchangeOptionsType): Exchange {
+}: ContentfulExchangeProps): Exchange {
   return ({ forward }) =>
     (ops$) => {
       return pipe(

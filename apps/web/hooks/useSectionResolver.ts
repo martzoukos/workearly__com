@@ -34,6 +34,8 @@ const DATA_MAP = {
     "Card Showcase",
     "Accordion",
     "Tabs",
+    "Tabs Alt",
+    "Media Showcase",
     "Logo Showcase",
     "Logo Carousel",
     "Related Articles",

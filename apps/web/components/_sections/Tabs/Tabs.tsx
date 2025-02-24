@@ -52,20 +52,10 @@ export default function Tabs({ sections, actions, className }: PropsType) {
         )}
       </nav>
       {sections.map((section) => (
-        <Content key={section.sys.id} section={section} />
+        <RadixTabs.Content key={section.sys.id} value={section.sys.id}>
+          <Section section={section} />
+        </RadixTabs.Content>
       ))}
     </RadixTabs.Root>
-  );
-}
-
-type ContentPropsType = {
-  section: QueryItem["Section"];
-};
-
-function Content({ section }: ContentPropsType) {
-  return (
-    <RadixTabs.Content value={section.sys.id}>
-      <Section section={section} />
-    </RadixTabs.Content>
   );
 }

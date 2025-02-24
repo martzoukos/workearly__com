@@ -7,14 +7,17 @@ import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import Text from "@/components/Text/Text";
 import CardShowcase from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
+import MediaShowcase from "@/components/_sections/MediaShowcase";
 import RelatedArticles from "@/components/_sections/RelatedArticles";
+import TabsAlt from "@/components/_sections/TabsAlt";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { isDefined, QueryItem } from "@workearly/api";
+import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import { PropsWithChildren } from "react";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
-import Tabs from "../_sections/Tabs/Tabs";
+import Tabs from "../_sections/Tabs";
 import styles from "./Section.module.scss";
 
 type PropsType = {
@@ -89,6 +92,8 @@ export default function Section({ section, className }: PropsType) {
     );
   } else if (variant === "Card Showcase") {
     return <CardShowcase section={section} />;
+  } else if (variant === "Media Showcase") {
+    return <MediaShowcase section={section} />;
   } else if (variant === "Related Articles") {
     return <RelatedArticles section={section} />;
   } else if (variant === "Tabs") {
@@ -96,6 +101,10 @@ export default function Section({ section, className }: PropsType) {
     const actions = getReferences("Action");
 
     return <Tabs sections={sections} actions={actions} />;
+  } else if (variant === "Tabs Alt") {
+    const sections = getReferences("Section");
+
+    return <TabsAlt sections={sections} />;
   } else if (variant === "Hero") {
     return <Hero section={section} />;
   }
@@ -123,7 +132,7 @@ function SectionLayout({
   const actions = getReferences("Action");
 
   return (
-    <section className={clsx(styles.root, className)} style={style}>
+    <Themed as="section" className={clsx(styles.root, className)} style={style}>
       {hasHeader && (
         <header className={styles.header}>
           {section.supertitle && <Text>{section.supertitle}</Text>}
@@ -150,6 +159,6 @@ function SectionLayout({
           ))}
         </footer>
       )}
-    </section>
+    </Themed>
   );
 }

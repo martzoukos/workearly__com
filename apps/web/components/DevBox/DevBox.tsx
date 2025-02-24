@@ -1,4 +1,3 @@
-import { Code } from "@carbon/icons-react";
 import dynamic from "next/dynamic";
 import { useRouter } from "next/router";
 import styles from "./DevBox.module.scss";
@@ -18,7 +17,6 @@ export default function DevBox() {
 
   return (
     <div className={styles.root}>
-      <Code />
       <ExitPreview />
       <ThemeSwitcher />
     </div>

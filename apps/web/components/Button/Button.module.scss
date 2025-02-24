@@ -124,10 +124,6 @@
   --color-text: var(--color-primary);
   --color-border: transparent;
 
-  &:not(:disabled):hover {
-    --color-text: var(--color-accent);
-  }
-
   &:disabled {
     --color-text: var(--color-disabled-text);
   }
