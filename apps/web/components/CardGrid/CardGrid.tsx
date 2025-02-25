@@ -3,6 +3,7 @@ import IconTextCard from "@/components/_cards/IconTextCard";
 import KeyMetricsCard from "@/components/_cards/KeyMetricsCard";
 import ProjectCard from "@/components/_cards/ProjectCard";
 import RichCard from "@/components/_cards/RichCard";
+import TestimonialCard from "@/components/_cards/TestimonialCard";
 import TitleTextCard from "@/components/_cards/TitleTextCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
@@ -47,7 +48,9 @@ export function Card({ card, fallbackVariant }: CardPropsType) {
     return null;
   }
 
-  if (variant === "Icon and Text") {
+  if (variant === "Testimonial") {
+    return <TestimonialCard card={card} />;
+  } else if (variant === "Icon and Text") {
     return <IconTextCard card={card} />;
   } else if (variant === "Title and Text") {
     return <TitleTextCard title={card.title} text={card.text} />;
