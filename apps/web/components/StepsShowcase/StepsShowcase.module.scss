@@ -92,6 +92,10 @@
 
 .card {
   max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0.5rem;
 }
 
 .cardTitle {
