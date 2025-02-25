@@ -15,17 +15,22 @@ export default function PlaygroundPage({ className }: PropsType) {
   const { preDividerItems, postDividerItems } = usePageResolver(page);
 
   return (
-    <main className={clsx(styles.root, className)}>
-      {[...preDividerItems, ...postDividerItems].map((item) => (
-        <PlaygroundPanel
-          key={item?.sys.id}
-          sys={item.sys}
-          info={getItemInfo(item)}
-        >
-          <PageItem item={item} />
-        </PlaygroundPanel>
-      ))}
-    </main>
+    <PlaygroundPanel
+      sys={page.sys}
+      info={["Page", page.variant].filter(isDefined)}
+    >
+      <main className={clsx(styles.root, className)}>
+        {[...preDividerItems, ...postDividerItems].map((item) => (
+          <PlaygroundPanel
+            key={item?.sys.id}
+            sys={item.sys}
+            info={getItemInfo(item)}
+          >
+            <PageItem item={item} />
+          </PlaygroundPanel>
+        ))}
+      </main>
+    </PlaygroundPanel>
   );
 }
 

@@ -5,7 +5,7 @@
   &:hover {
     border-color: var(--color-sys-debug);
 
-    .panel {
+    & > .panel {
       visibility: visible;
     }
   }
