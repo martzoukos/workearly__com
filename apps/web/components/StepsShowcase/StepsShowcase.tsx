@@ -1,7 +1,9 @@
 import styles from "./StepsShowcase.module.scss";
 import clsx from "clsx";
 import Text from "../Text/Text";
-import { QueryItem } from "@workearly/api";
+import { isDefined, QueryItem } from "@workearly/api";
+import ActionButton from "@/components/ActionButton";
+import useCardResolver from "@/hooks/useCardResolver";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -19,6 +21,9 @@ export default function StepsShowcase({
   className,
 }: PropsType) {
   const hasHeader = title || supertitle || description;
+
+  // THIS WHOLE COMPONENT WILL BE REFACTORED
+
   return (
     <div className={clsx(styles.root, className)}>
       {hasHeader && (
@@ -39,6 +44,10 @@ export default function StepsShowcase({
 
       <div className={styles.cardsContainer}>
         {cards.map((card, index) => {
+          const { getReferences } = useCardResolver(card);
+          const actions = getReferences("Action").filter(isDefined);
+          const action = actions.at(0);
+
           return (
             <div key={card.sys.id} className={styles.cardContainer}>
               <div className={styles.progress}>
@@ -46,10 +55,14 @@ export default function StepsShowcase({
                 <div className={styles.border}></div>
               </div>
               <div className={styles.card}>
-                <Text size="h6" className={styles.cardTitle}>
-                  {card.title}
-                </Text>
-                <Text>{card.text}</Text>
+                <div>
+                  <Text size="h6" className={styles.cardTitle}>
+                    {card.title}
+                  </Text>
+                  <Text>{card.text}</Text>
+                </div>
+
+                {action && <ActionButton action={action} />}
               </div>
             </div>
           );
