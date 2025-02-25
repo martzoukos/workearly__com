@@ -790,6 +790,7 @@ export type Card = Entry & _Node & {
   rating?: Maybe<Scalars['Int']['output']>;
   studentsCount?: Maybe<Scalars['Int']['output']>;
   sys: Sys;
+  tags?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   text?: Maybe<Scalars['String']['output']>;
   title?: Maybe<Scalars['String']['output']>;
   variant?: Maybe<Scalars['String']['output']>;
@@ -832,6 +833,12 @@ export type CardRatingArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
 export type CardStudentsCountArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/card) */
+export type CardTagsArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -901,6 +908,10 @@ export type CardFilter = {
   studentsCount_not?: InputMaybe<Scalars['Int']['input']>;
   studentsCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
   sys?: InputMaybe<SysFilter>;
+  tags_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  tags_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  tags_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  tags_exists?: InputMaybe<Scalars['Boolean']['input']>;
   text?: InputMaybe<Scalars['String']['input']>;
   text_contains?: InputMaybe<Scalars['String']['input']>;
   text_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -2307,6 +2318,8 @@ export enum PageLinkingCollectionsSectionCollectionOrder {
 export enum PageLinkingCollectionsUniqueComponentCollectionOrder {
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
+  HideFiltersAsc = 'hideFilters_ASC',
+  HideFiltersDesc = 'hideFilters_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
   SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
   SysIdAsc = 'sys_id_ASC',
@@ -2354,6 +2367,7 @@ export type PeopleDetails = Entry & _Node & {
   company?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
+  courseCount?: Maybe<Scalars['String']['output']>;
   expertise?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   linkedFrom?: Maybe<PeopleDetailsLinkingCollections>;
   linkedIn?: Maybe<Scalars['String']['output']>;
@@ -2380,6 +2394,12 @@ export type PeopleDetailsCompanyArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/peopleDetails) */
 export type PeopleDetailsContentfulNameArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/peopleDetails) */
+export type PeopleDetailsCourseCountArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2452,6 +2472,13 @@ export type PeopleDetailsFilter = {
   contentfulName_not?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
   contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  courseCount?: InputMaybe<Scalars['String']['input']>;
+  courseCount_contains?: InputMaybe<Scalars['String']['input']>;
+  courseCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  courseCount_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  courseCount_not?: InputMaybe<Scalars['String']['input']>;
+  courseCount_not_contains?: InputMaybe<Scalars['String']['input']>;
+  courseCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   expertise_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   expertise_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   expertise_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
@@ -2540,6 +2567,8 @@ export enum PeopleDetailsOrder {
   CompanyDesc = 'company_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
+  CourseCountAsc = 'courseCount_ASC',
+  CourseCountDesc = 'courseCount_DESC',
   LinkedInAsc = 'linkedIn_ASC',
   LinkedInDesc = 'linkedIn_DESC',
   NameAsc = 'name_ASC',
@@ -3497,6 +3526,7 @@ export type UniqueComponent = Entry & _Node & {
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   description?: Maybe<UniqueComponentDescription>;
+  hideFilters?: Maybe<Scalars['Boolean']['output']>;
   linkedFrom?: Maybe<UniqueComponentLinkingCollections>;
   sys: Sys;
   title?: Maybe<Scalars['String']['output']>;
@@ -3523,6 +3553,12 @@ export type UniqueComponentContentfulNameArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/uniqueComponent) */
 export type UniqueComponentDescriptionArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/uniqueComponent) */
+export type UniqueComponentHideFiltersArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -3649,6 +3685,9 @@ export type UniqueComponentFilter = {
   description_contains?: InputMaybe<Scalars['String']['input']>;
   description_exists?: InputMaybe<Scalars['Boolean']['input']>;
   description_not_contains?: InputMaybe<Scalars['String']['input']>;
+  hideFilters?: InputMaybe<Scalars['Boolean']['input']>;
+  hideFilters_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  hideFilters_not?: InputMaybe<Scalars['Boolean']['input']>;
   sys?: InputMaybe<SysFilter>;
   title?: InputMaybe<Scalars['String']['input']>;
   title_contains?: InputMaybe<Scalars['String']['input']>;
@@ -3756,6 +3795,8 @@ export enum UniqueComponentLinkingCollectionsSectionCollectionOrder {
 export enum UniqueComponentOrder {
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
+  HideFiltersAsc = 'hideFilters_ASC',
+  HideFiltersDesc = 'hideFilters_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
   SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
   SysIdAsc = 'sys_id_ASC',

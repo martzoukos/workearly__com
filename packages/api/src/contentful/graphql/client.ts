@@ -28,9 +28,7 @@ export function getServerClient(options?: OptionsType): [Client, SSRExchange] {
           isPreview: Boolean(options?.contentful?.isPreview),
         }),
         playgroundExchange({
-          isEnabled:
-            process.env.NODE_ENV === "development" ||
-            Boolean(options?.playground?.isEnabled),
+          isEnabled: Boolean(options?.playground?.isEnabled),
         }),
         ssrCache,
       ],

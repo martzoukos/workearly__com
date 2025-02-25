@@ -1,17 +1,15 @@
-@use "@/styles/_index" as *;
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
 
 .root {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  padding: 1rem 1rem 2rem 1rem;
   border-radius: 0.5rem;
   background: var(--color-sys-default);
   color: var(--color-ink-default);
+  border: 1rem solid var(--color-sys-default);
 }
 
 .contentWrapper {
-  padding-inline: 1rem;
+  padding: 1rem;
 }
 
 .content {

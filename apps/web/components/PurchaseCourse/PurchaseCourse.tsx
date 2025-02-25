@@ -14,9 +14,10 @@ import styles from "./PurchaseCourse.module.scss";
 
 interface PropsType {
   className?: string;
+  hideMedia?: boolean;
 }
 
-export default function PurchaseCourse({ className }: PropsType) {
+export default function PurchaseCourse({ className, hideMedia }: PropsType) {
   const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
     "Personal"
   );
@@ -30,15 +31,17 @@ export default function PurchaseCourse({ className }: PropsType) {
 
   return (
     <Themed className={clsx(styles.root, className)} isInverted={true}>
-      <Media
-        canHoldPlace={true}
-        asset={courseDetails.videoThumbnail}
-        aspectRatio="16 / 9"
-        imageProps={{
-          quality: 100,
-          sizes: "30vw",
-        }}
-      />
+      {!hideMedia && (
+        <Media
+          canHoldPlace={true}
+          asset={courseDetails.videoThumbnail}
+          aspectRatio="16 / 9"
+          imageProps={{
+            quality: 100,
+            sizes: "30vw",
+          }}
+        />
+      )}
 
       <div className={styles.contentWrapper}>
         <div className={styles.content}>

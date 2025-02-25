@@ -13,7 +13,7 @@
   grid-template-columns: 2fr 1fr;
   gap: var(--gap-sidebar);
 
-  @include media(lg) {
+  @include media(md) {
     grid-template-columns: 1fr;
   }
 }
@@ -35,7 +35,7 @@
     }
   }
 
-  @include media(lg) {
+  @include media(md) {
     border: none;
   }
 }
