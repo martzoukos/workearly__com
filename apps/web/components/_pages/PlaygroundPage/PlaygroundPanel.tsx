@@ -35,7 +35,7 @@ export default function PlaygroundPanel({
         )}
         <ThemeSwitcher className={styles.action} />
       </div>
-      {children}
+      <div className={styles.children}>{children}</div>
     </div>
   );
 }
