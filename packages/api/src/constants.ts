@@ -53,7 +53,7 @@ export const CONTENTFUL_TAGS = [
 export const COURSE_CATEGORIES = CONTENTFUL_TAGS.filter((tag) =>
   tag.id.startsWith("courseCategory")
 )
-  .map((tag) => tag.name.split(":").at(1)?.trim())
+  .map((tag) => tag.name)
   .filter(isDefined);
 
 export const COURSE_DURATIONS = [
