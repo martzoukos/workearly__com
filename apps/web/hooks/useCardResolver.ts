@@ -2,6 +2,7 @@ import { QueryItem } from "@workearly/api";
 
 const DATA_MAP = {
   variants: [
+    "Testimonial",
     "Icon and Text",
     "Title and Text",
     "Project",

@@ -23,7 +23,7 @@ export default function Page({
 export async function getStaticProps(
   context: GetStaticPropsContext<{ playgroundSlug: string }>
 ) {
-  const [client] = getServerClient();
+  const [client] = getServerClient({ playground: { isEnabled: true } });
   const pageSlug = context.params?.playgroundSlug || "";
 
   try {
@@ -45,7 +45,7 @@ export async function getStaticProps(
 }
 
 export async function getStaticPaths() {
-  const [client] = getServerClient();
+  const [client] = getServerClient({ playground: { isEnabled: true } });
 
   const { data } = await client
     .query(PLAYGROUND_PAGE_SLUGS_QUERY, {})

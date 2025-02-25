@@ -1,19 +1,21 @@
-import Button from "@/components/Button/Button";
 import { ColorSwitch } from "@carbon/icons-react";
 import { useTheme } from "@workearly/theme";
 
-export default function ThemeSwitcher() {
+type PropsType = {
+  className?: string;
+};
+
+export default function ThemeSwitcher({ className }: PropsType) {
   const { rootTheme, setRootTheme } = useTheme();
 
   return (
-    <Button
-      size="xsmall"
+    <button
+      className={className}
       onClick={() => {
         setRootTheme(rootTheme === "dark" ? "light" : "dark");
       }}
     >
-      Switch to {rootTheme === "dark" ? "Light" : "Dark"} Mode
       <ColorSwitch />
-    </Button>
+    </button>
   );
 }

@@ -1,9 +1,9 @@
-import useSectionResolver from "@/hooks/useSectionResolver";
-import Text from "../Text/Text";
-import styles from "./VideoTetimonial.module.scss";
-import { QueryItem } from "@workearly/api";
 import ActionButton from "@/components/ActionButton";
 import VideoTetimonialCard from "@/components/_cards/VideoTetimonialCard/VideoTetimonialCard";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import { QueryItem } from "@workearly/api";
+import Text from "../Text/Text";
+import styles from "./VideoTetimonial.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
