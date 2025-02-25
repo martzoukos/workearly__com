@@ -1,3 +1,5 @@
+import { isDefined } from "./utils";
+
 export const DEFAULT_LOCALE = "el";
 export const LOCALES = [DEFAULT_LOCALE, "en"] as const;
 
@@ -48,20 +50,18 @@ export const CONTENTFUL_TAGS = [
   },
 ] as const;
 
-export const COURSE_CATEGORIES = [
-  "Data Science",
-  "HR",
-  "IT",
-  "Administration",
-  "Soft Skills",
-] as const;
+export const COURSE_CATEGORIES = CONTENTFUL_TAGS.filter((tag) =>
+  tag.id.startsWith("courseCategory")
+)
+  .map((tag) => tag.name.split(":").at(1)?.trim())
+  .filter(isDefined);
 
 export const COURSE_DURATIONS = [
-  "1 week",
-  "1-4 weeks",
-  "1-3 months",
-  "3-6 months",
-  "6 months+",
+  "1 Week",
+  "1-4 Weeks",
+  "1-3 Months",
+  "3-6 Months",
+  "6 Months+",
 ];
 
 export const COURSE_PRICE_RANGES = [

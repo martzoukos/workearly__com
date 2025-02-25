@@ -1,6 +1,6 @@
 import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { BLOCKS, Document } from "@contentful/rich-text-types";
-import { isDefined, QueryItem } from "@workearly/api";
+import { isDefined, QueryItem, RelationshipMap } from "@workearly/api";
 import { ThemeType } from "@workearly/theme";
 import { useContentful } from "../stores/ContentfulStore";
 
@@ -23,7 +23,21 @@ export type PageVariantType = (typeof DATA_MAP)["variants"][number];
 
 export default function usePageResolver(page: QueryItem["Page"]) {
   const { relationshipMap } = useContentful();
+  return getPageResolver(page, relationshipMap);
+}
 
+function calculateReadingTime(documents: Document[]) {
+  const plainText = documents
+    .map((document) => documentToPlainTextString(document))
+    .join(" ");
+  const wordCount = plainText.split(/\s+/).filter(Boolean).length;
+  return Math.ceil(wordCount / DATA_MAP.wordsPerMinute);
+}
+
+export function getPageResolver(
+  page: QueryItem["Page"],
+  relationshipMap: RelationshipMap
+) {
   // TODO: Use getReferences here?
   const items =
     page.contentCollection?.items
@@ -113,6 +127,7 @@ export default function usePageResolver(page: QueryItem["Page"]) {
   const theme = page.theme?.toLowerCase() as ThemeType;
   const tags = page.contentfulMetadata.tags
     .map((tag) => tag?.name)
+    .map((tag) => tag?.split(":").at(1)?.trim())
     .filter(isDefined);
 
   return {
@@ -129,12 +144,4 @@ export default function usePageResolver(page: QueryItem["Page"]) {
     theme,
     tags,
   };
-}
-
-function calculateReadingTime(documents: Document[]) {
-  const plainText = documents
-    .map((document) => documentToPlainTextString(document))
-    .join(" ");
-  const wordCount = plainText.split(/\s+/).filter(Boolean).length;
-  return Math.ceil(wordCount / DATA_MAP.wordsPerMinute);
 }

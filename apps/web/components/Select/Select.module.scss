@@ -1,0 +1,43 @@
+.content {
+  overflow: hidden;
+  background-color: var(--color-sys-surface);
+  color: var(--color-sys-default);
+  border-radius: 0.5rem;
+  border: 1px solid var(--color-sys-border);
+}
+
+.item {
+  font-size: 0.75rem;
+  line-height: 1;
+  color: var(--color-ink-default);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  position: relative;
+  user-select: none;
+
+  &[data-highlighted] {
+    outline: none;
+    background-color: var(--color-ink-default);
+    color: var(--color-sys-default);
+  }
+}
+
+.itemIndicator {
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scrollButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1.5rem;
+  background: var(--color-sys-surface-2);
+  color: var(--color-sys-default);
+  cursor: default;
+}

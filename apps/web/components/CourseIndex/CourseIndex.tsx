@@ -1,7 +1,11 @@
 import CourseCard from "@/components/_cards/CourseCard";
 import Button from "@/components/Button";
 import FilterList from "@/components/FilterList";
+import Select from "@/components/Select";
 import Text from "@/components/Text";
+import { getPageResolver } from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import { ChevronLeft, ChevronRight } from "@carbon/icons-react";
 import {
   COURSE_CATEGORIES,
   COURSE_DURATIONS,
@@ -14,6 +18,7 @@ import {
 } from "@workearly/api";
 import {
   DelimitedArrayParam,
+  NumberParam,
   StringParam,
   useQueryParam,
   withDefault,
@@ -26,7 +31,18 @@ type PropsType = {
   tags: Array<string>;
 };
 
+const MIN_PAGE_LIMIT = 3;
+
 export default function CourseIndex({ title, pages, tags }: PropsType) {
+  const { relationshipMap } = useContentful();
+  const [pageLimit, setPageLimit] = useQueryParam(
+    "pageLimit",
+    withDefault(NumberParam, MIN_PAGE_LIMIT)
+  );
+  const [pageIndex, setPageIndex] = useQueryParam(
+    "pageIndex",
+    withDefault(NumberParam, 1)
+  );
   const [categories, setCategories] = useQueryParam(
     "category",
     withDefault(DelimitedArrayParam, [])
@@ -51,6 +67,72 @@ export default function CourseIndex({ title, pages, tags }: PropsType) {
     "mentoring",
     withDefault(StringParam, "")
   );
+
+  let filteredPages = pages;
+
+  if (categories.length) {
+    filteredPages = filteredPages.filter((page) => {
+      const { tags } = getPageResolver(page, relationshipMap);
+      return tags.some((tag) => categories.filter(isDefined).includes(tag));
+    });
+  }
+
+  if (durations.length) {
+    filteredPages = filteredPages.filter((page) => {
+      const { courseDetails } = getPageResolver(page, relationshipMap);
+
+      if (!courseDetails.duration?.length) {
+        return false;
+      }
+
+      return courseDetails.duration.some((duration) =>
+        durations.filter(isDefined).includes(duration)
+      );
+    });
+  }
+
+  if (priceRanges.length) {
+    filteredPages = filteredPages.filter((page) => {
+      const { courseDetails } = getPageResolver(page, relationshipMap);
+
+      let coursePriceRange = "Free";
+
+      if (!courseDetails.finalCost) {
+        coursePriceRange = "Free";
+      } else if (courseDetails.finalCost <= 50) {
+        coursePriceRange = "Upto 50";
+      } else if (courseDetails.finalCost <= 100) {
+        coursePriceRange = "From 51 to 100";
+      } else if (courseDetails.finalCost > 100) {
+        coursePriceRange = "101+";
+      }
+
+      return priceRanges.filter(isDefined).includes(coursePriceRange);
+    });
+  }
+
+  if (levels.length) {
+    filteredPages = filteredPages.filter((page) => {
+      const { courseDetails } = getPageResolver(page, relationshipMap);
+
+      if (!courseDetails.level?.length) {
+        return false;
+      }
+
+      return courseDetails.level.some((level) =>
+        levels.filter(isDefined).includes(level)
+      );
+    });
+  }
+
+  const pageCount = Math.ceil(filteredPages.length / pageLimit);
+
+  function getCurrentPageItems() {
+    const startIndex = (pageIndex - 1) * pageLimit;
+    const endIndex = startIndex + pageLimit;
+
+    return filteredPages.slice(startIndex, endIndex);
+  }
 
   return (
     <section className={styles.root}>
@@ -134,11 +216,62 @@ export default function CourseIndex({ title, pages, tags }: PropsType) {
           </div>
         )}
         <div className={styles.grid}>
-          {pages.map((page) => (
+          {getCurrentPageItems().map((page) => (
             <CourseCard key={page.sys.id} page={page} />
           ))}
+          {getCurrentPageItems().length === 0 && (
+            <Text size="h3" className={styles.noResults}>
+              No results found
+            </Text>
+          )}
         </div>
-        <footer className={styles.footer}>Results per view</footer>
+        <footer className={styles.footer}>
+          <label className={styles.pageCount}>
+            Results per view
+            <Select
+              value={pageLimit.toString()}
+              onValueChange={(count) => setPageLimit(Number(count))}
+            >
+              {Array.from({ length: 5 }, (_, i) => i).map((count) => (
+                <Select.Item
+                  key={count}
+                  value={(count * 3 + MIN_PAGE_LIMIT).toString()}
+                >
+                  {count * 3 + MIN_PAGE_LIMIT}
+                </Select.Item>
+              ))}
+            </Select>
+          </label>
+          <div className={styles.pagination}>
+            <Button
+              variant="Outlined"
+              onClick={() => setPageIndex(pageIndex - 1)}
+              disabled={pageIndex === 1}
+            >
+              <ChevronLeft />
+            </Button>
+            {Array.from({ length: pageCount }, (_, i) => i + 1).map((index) => (
+              <Button
+                key={index}
+                variant="Solid"
+                onClick={() => setPageIndex(index)}
+                colorSchemes={{
+                  light: index === pageIndex ? "Green" : "Surface",
+                  dark: index === pageIndex ? "Green" : "Surface",
+                }}
+              >
+                {index}
+              </Button>
+            ))}
+            <Button
+              variant="Outlined"
+              onClick={() => setPageIndex(pageIndex + 1)}
+              disabled={pageIndex === pageCount}
+            >
+              <ChevronRight />
+            </Button>
+          </div>
+        </footer>
       </div>
     </section>
   );

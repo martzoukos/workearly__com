@@ -21,10 +21,11 @@
   }
 
   &:disabled {
+    opacity: 0.4;
     cursor: not-allowed;
   }
 
-  &:active {
+  &:not(:disabled):active {
     outline: 1px solid var(--color-primary);
   }
 }
@@ -32,29 +33,21 @@
 .colorSchemeGreen {
   --color-primary: hsl(var(--color-green-500));
   --color-secondary: hsl(var(--color-black-500));
-  --color-disabled-bg: hsl(var(--color-green-100));
-  --color-disabled-text: hsl(var(--color-black-300));
 }
 
 .colorSchemeWhite {
   --color-primary: hsl(var(--color-neutral-500));
   --color-secondary: hsl(var(--color-black-500));
-  --color-disabled-bg: hsl(var(--color-neutral-300));
-  --color-disabled-text: hsl(var(--color-black-300));
 }
 
 .colorSchemeBlack {
   --color-primary: hsl(var(--color-black-500));
   --color-secondary: hsl(var(--color-neutral-500));
-  --color-disabled-bg: hsl(var(--color-black-200));
-  --color-disabled-text: hsl(var(--color-black-300));
 }
 
 .colorSchemeSurface {
   --color-primary: var(--color-sys-surface);
   --color-secondary: var(--color-ink-default);
-  --color-disabled-bg: var(--color-sys-surface-2);
-  --color-disabled-text: var(--color-sys-surface-2);
 }
 
 .sizeXSmall {
@@ -98,33 +91,18 @@
   --color-bg: var(--color-primary);
   --color-text: var(--color-secondary);
   --color-border: var(--color-primary);
-
-  &:disabled {
-    --color-bg: var(--color-disabled-bg);
-    --color-border: var(--color-disabled-bg);
-    --color-text: var(--color-disabled-text);
-  }
 }
 
 .variantOutlined {
   --color-bg: transparent;
   --color-text: var(--color-primary);
   --color-border: var(--color-primary);
-
-  &:disabled {
-    --color-border: var(--color-disabled-text);
-    --color-text: var(--color-disabled-text);
-  }
 }
 
 .variantGhost {
   --color-bg: transparent;
   --color-text: var(--color-primary);
   --color-border: transparent;
-
-  &:disabled {
-    --color-text: var(--color-disabled-text);
-  }
 
   &:active {
     --color-border: var(--color-primary);
@@ -154,10 +132,6 @@
     border-color: transparent;
   }
 
-  &:disabled {
-    --color-text: var(--color-disabled-text);
-  }
-
   &:active {
     outline: none;
     &:after {
@@ -175,11 +149,6 @@
   &:not(:disabled):hover {
     --color-bg: hsl(var(--color-green-500));
     --color-text: hsl(var(--color-black-500));
-  }
-
-  &:disabled {
-    --color-bg: var(--color-disabled-bg);
-    --color-text: var(--color-disabled-text);
   }
 
   &:active {

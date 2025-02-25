@@ -6,7 +6,8 @@
   background: var(--color-sys-default);
   border: 1px solid var(--color-border);
   width: fit-content;
-  transition: background 200ms;
+  transition-property: color, background, border, opacity;
+  transition-duration: 200ms;
 
   &:hover {
     --color-border: var(--color-sys-surface);

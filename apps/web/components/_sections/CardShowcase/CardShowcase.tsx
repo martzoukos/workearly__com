@@ -40,6 +40,7 @@ export default function Slider({ section, className }: PropsType) {
         slidesPerView={"auto"}
         wrapperClass={styles.swiperWrapper}
         slidesOffsetAfter={40}
+        spaceBetween={16}
         // onTouchEnd={handleTouchEnd}
       >
         <SwiperSlide className={styles.headerSlide}>
