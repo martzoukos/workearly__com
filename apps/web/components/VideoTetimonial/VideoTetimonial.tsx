@@ -1,31 +1,41 @@
-import ReactPlayer from "react-player";
+import useSectionResolver from "@/hooks/useSectionResolver";
 import Text from "../Text/Text";
 import styles from "./VideoTetimonial.module.scss";
+import { QueryItem } from "@workearly/api";
+import ActionButton from "@/components/ActionButton";
+import VideoTetimonialCard from "@/components/_cards/VideoTetimonialCard/VideoTetimonialCard";
 
-export default function VideoTetimonial() {
+type PropsType = {
+  section: QueryItem["Section"];
+};
+
+export default function VideoTetimonial({ section }: PropsType) {
+  const { getReferences, cardsCount } = useSectionResolver(section);
+  const actions = getReferences("Action");
+  const cards = getReferences("Card");
+  const style = {
+    "--column-count": cardsCount,
+  } as React.CSSProperties;
+
   return (
-    <div className={styles.card}>
-      <div className={styles.content}>
-        <div className={styles.playerWrapper}>
-          <ReactPlayer
-            url="https://vimeo.com/347119375?share=copy"
-            controls
-            width="100%"
-            height="100%"
-            className={styles.player}
-          />
-        </div>
+    <section className={styles.root} style={style}>
+      <div className={styles.header}>
+        {section.title && <Text size="h4">{section.title}</Text>}
 
-        <div className={styles.details}>
-          {/* <Image src="/stars.svg" alt="" width={96} height={16} /> */}
-          <Text>Maria Lopez | Marketing Specialist at GrowthWorks</Text>
-          <Text>
-            Maria moved from retail to marketing with WorkEarly’s digital
-            marketing program, building a portfolio and landing her first role
-            in content strategy.
-          </Text>
-        </div>
+        {actions.length > 0 && (
+          <div className={styles.actions}>
+            {actions.map((action) => {
+              return <ActionButton action={action} key={action.sys.id} />;
+            })}
+          </div>
+        )}
       </div>
-    </div>
+
+      <div className={styles.cards}>
+        {cards.map((card) => {
+          return <VideoTetimonialCard card={card} />;
+        })}
+      </div>
+    </section>
   );
 }
