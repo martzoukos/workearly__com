@@ -1,8 +1,8 @@
 import ReactPlayer from "react-player";
 import Text from "../Text/Text";
-import styles from "./VideoTetimonial.module.scss";
+import styles from "./VideoTestimonial.module.scss";
 
-export default function VideoTetimonial() {
+export default function VideoTestimonial() {
   return (
     <div className={styles.card}>
       <div className={styles.content}>
