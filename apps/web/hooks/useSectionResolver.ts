@@ -46,6 +46,7 @@ const DATA_MAP = {
     "Standard Component",
     "Standard Component Framed",
     "Hero With Background",
+    "Video Testimonials",
   ],
 } as const;
 

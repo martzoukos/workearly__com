@@ -1,0 +1,41 @@
+.card {
+  border: 1px solid black;
+  background-color: hsl(var(--color-neutral-500));
+  color: hsl(var(--color-black-500));
+  padding: 0.5rem;
+  border-radius: 1rem;
+}
+
+.content {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.playerWrapper {
+  video {
+    display: block;
+  }
+}
+
+.asset {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.details {
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(var(--color-green-500));
+  border-top: 2px solid black;
+  gap: 0.4rem;
+  padding: 1rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.25rem;
+}

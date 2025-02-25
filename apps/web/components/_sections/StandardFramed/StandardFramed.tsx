@@ -1,6 +1,6 @@
 import Text from "@/components/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
-import { QueryItem } from "@workearly/api";
+import { isDefined, QueryItem } from "@workearly/api";
 import styles from "./StandardFramed.module.scss";
 import { useContentful } from "@/stores/ContentfulStore";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -14,7 +14,8 @@ type PropsType = {
 export default function StandardFramed({ section }: PropsType) {
   const { page } = useContentful();
   const { getReferences } = useSectionResolver(section);
-  const assets = section.assetsCollection?.items || [];
+  const assets = section.assetsCollection?.items.filter(isDefined) || [];
+  const asset = assets.at(0);
   const actions = getReferences("Action");
   const { items } = usePageResolver(page);
 
@@ -34,7 +35,7 @@ export default function StandardFramed({ section }: PropsType) {
 
   return (
     <section className={styles.root} data-media={mediaAlignment}>
-      {assets.length > 0 && (
+      {asset && (
         <Image
           src={assets[0]?.url || ""}
           width={assets[0]?.width || 0}
