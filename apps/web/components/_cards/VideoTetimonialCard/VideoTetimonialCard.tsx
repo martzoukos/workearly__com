@@ -1,8 +1,9 @@
 import Text from "@/components/Text";
-import styles from "./VideoTetimonialCard.module.scss";
+import { StarFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
-import ReactPlayer from "react-player";
 import Image from "next/image";
+import ReactPlayer from "react-player";
+import styles from "./VideoTetimonialCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
@@ -41,7 +42,7 @@ export default function VideoTetimonialCard({ card }: PropsType) {
           {card.rating && (
             <div className={styles.stars}>
               {Array.from({ length: card.rating }).map((_, index) => (
-                <Image src="/images/star.svg" alt="" width={16} height={16} />
+                <StarFilled key={index} />
               ))}
             </div>
           )}

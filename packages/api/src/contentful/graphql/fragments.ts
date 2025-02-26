@@ -186,6 +186,7 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
     ...EntryFields
     variant
     title
+    json
     description {
       json
     }

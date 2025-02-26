@@ -1,9 +1,9 @@
+import { ArrowRight } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
-import styles from "./FeaturesShowcase.module.scss";
 import clsx from "clsx";
-import Text from "../Text/Text";
 import { useState } from "react";
-import Image from "next/image";
+import Text from "../Text/Text";
+import styles from "./FeaturesShowcase.module.scss";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -31,9 +31,7 @@ export default function FeaturesShowcase({
               data-active={activeCard?.sys.id === card.sys.id}
               onClick={() => setactiveCard(card)}
             >
-              {activeCard?.sys.id === card.sys.id && (
-                <Image src="/arrow-right.svg" alt="" width={20} height={20} />
-              )}
+              {activeCard?.sys.id === card.sys.id && <ArrowRight />}
 
               <Text>{card.title}</Text>
             </div>
