@@ -1,3 +1,100 @@
 .root {
+  padding: 3rem 3.2rem;
+  border-radius: 1rem 1rem 0rem 0rem;
+  background-color: var(--color-ink-default);
+  color: var(--color-ink-inverted);
+}
+
+.header {
   display: flex;
+  justify-content: space-between;
+}
+
+.columnOne {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .title {
+    font-weight: 800;
+  }
+
+  .bottom {
+    margin-top: auto;
+  }
+}
+
+.google {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.reviews {
+  color: var(--color-ink-inverted);
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.starsImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navgation {
+  display: flex;
+  gap: 5rem;
+}
+
+.columnTwo,
+.columnThree {
+  .title {
+    color: var(--color-sys-surface);
+    margin-bottom: 1.5rem;
+  }
+
+  .links {
+    max-height: 13.5rem;
+    column-gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .link {
+    padding-inline: 0;
+  }
+}
+
+.footer {
+  margin-top: 2.5rem;
+  padding-block: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  border-block: 1px solid var(--color-sys-surface);
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.trademark {
+  vertical-align: baseline;
 }

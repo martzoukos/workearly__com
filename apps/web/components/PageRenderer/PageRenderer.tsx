@@ -30,7 +30,6 @@ export default function PageRenderer() {
       {variant === "Category" && <CategoryPage className={styles.root} />}
       {variant === "Framed" && <FramedPage className={styles.root} />}
       {variant === "Person" && <PersonPage className={styles.root} />}
-      <Footer />
     </ThemeProvider>
   );
 }

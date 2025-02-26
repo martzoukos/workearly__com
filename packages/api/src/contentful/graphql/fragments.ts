@@ -189,6 +189,7 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
     description {
       json
     }
+    json
     contentCollection {
       items {
         ... on Entry {
