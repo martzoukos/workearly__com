@@ -2,6 +2,7 @@ import RichText from "@/components/RichText/RichText";
 import Section from "@/components/Section/Section";
 import UniqueComponent from "@/components/UniqueComponent/UniqueComponent";
 import usePageResolver from "../../hooks/usePageResolver";
+import Menu from "@/components/Menu/Menu";
 
 type PropsType = {
   item: ReturnType<typeof usePageResolver>["items"][number];

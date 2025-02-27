@@ -13,6 +13,7 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ThemeProvider } from "@workearly/theme";
 import styles from "./PageRenderer.module.scss";
+import Menu from "@/components/Menu/Menu";
 
 export default function PageRenderer() {
   const { page } = useContentful();
@@ -20,6 +21,7 @@ export default function PageRenderer() {
 
   return (
     <ThemeProvider defaultRootTheme={theme}>
+      <Menu />
       <PreviewPanel />
       <Header />
       {variant === "Default" && <DefaultPage className={styles.root} />}
