@@ -17,9 +17,12 @@ const IconTextCard = ({ card }: PropsType) => {
       {card.asset?.url && card.asset.contentType === "image/svg+xml" && (
         <SvgRenderer src={card.asset.url} className={styles.svgWrapper} />
       )}
-      <Text as="p" size="h6">
-        {card.title}
-      </Text>
+      {card?.title && (
+        <Text as="p" size="h6">
+          {card.title}
+        </Text>
+      )}
+      {card?.text && <Text size="small">{card.text}</Text>}
     </div>
   );
 };
