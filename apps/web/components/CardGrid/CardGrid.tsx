@@ -9,6 +9,7 @@ import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./CardGrid.module.scss";
+import BusinessTestimonialCard from "@/components/_cards/BusinessTestimonialCard";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -62,5 +63,7 @@ export function Card({ card, fallbackVariant }: CardPropsType) {
     return <KeyMetricsCard card={card} />;
   } else if (variant === "Rich Card") {
     return <RichCard card={card} />;
+  } else if (variant === "Business Testimonial") {
+    return <BusinessTestimonialCard card={card} />;
   }
 }
