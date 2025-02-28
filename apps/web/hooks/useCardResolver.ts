@@ -13,6 +13,7 @@ const DATA_MAP = {
     "Rich Card",
     "Certificate",
     "Key Metrics",
+    "Business Testimonial",
   ],
 } as const;
 

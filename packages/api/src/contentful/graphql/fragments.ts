@@ -70,6 +70,7 @@ export const CARD_FIELDS = graphql(`
     variant
     studentsCount
     rating
+    tags
     asset {
       ...AssetFields
     }
