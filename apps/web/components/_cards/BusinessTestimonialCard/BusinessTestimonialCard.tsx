@@ -10,6 +10,9 @@ type PropsType = {
 
 export default function BusinessTestimonialCard({ card }: PropsType) {
   const asset = card?.asset;
+  const titles = card?.title?.split("|") || [];
+  const tags = card?.tags || [];
+
   return (
     <div className={styles.card}>
       <div className={styles.content}>
@@ -27,9 +30,9 @@ export default function BusinessTestimonialCard({ card }: PropsType) {
 
         <div className={styles.details}>
           <div>
-            {card?.tags && card?.tags?.length > 0 && (
+            {tags.length > 0 && (
               <div className={styles.tags}>
-                {card.tags.map((tag) => (
+                {tags.map((tag) => (
                   <Text size="caption" className={styles.tag}>
                     {tag}
                   </Text>
@@ -38,7 +41,13 @@ export default function BusinessTestimonialCard({ card }: PropsType) {
             )}
             {card.text && <Text>{card.text}</Text>}
           </div>
-          {card.title && <Text className={styles.title}>{card.title}</Text>}
+          {titles.length > 0 && (
+            <div>
+              {titles.map((title) => (
+                <Text className={styles.title}>{title}</Text>
+              ))}
+            </div>
+          )}
         </div>
       </div>
     </div>
