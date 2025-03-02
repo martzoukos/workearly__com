@@ -5,8 +5,8 @@
 @use "sass:string";
 @use "./colors" as *;
 @use "./settings" as *;
+@use "./breakpoints" as *;
 
-// Get CSS Var
 @function v($name, $fallback: null) {
   @if ($fallback) {
     @return var(--#{$name}, #{$fallback});
@@ -15,7 +15,6 @@
   }
 }
 
-// Unit Stripe
 @function strip($value) {
   @if meta.type-of($value) != "number" {
     @error "Invalid `#{meta.type-of($value)}` type. Choose a number type instead.";
@@ -33,21 +32,27 @@
 @function fluid-rem(
   $min: 1rem,
   $max: 3rem,
-  $breakpoints: 375 $container,
+  $breakpoints: (
+    "sm",
+    "xxl",
+  ),
   $remValue: 16
 ) {
-  $minSizeStriped: strip($min);
-  $maxSizeStriped: strip($max);
-  $minWidthRem: pxToRem(list.nth($breakpoints, 1), $remValue);
-  $maxWidthRem: pxToRem(list.nth($breakpoints, 2), $remValue);
+  $minWidth: get-breakpoint(list.nth($breakpoints, 1));
+  $maxWidth: get-breakpoint(list.nth($breakpoints, 2));
+
+  $minSizeStripped: strip($min);
+  $maxSizeStripped: strip($max);
+  $minWidthRem: pxToRem(strip($minWidth), $remValue);
+  $maxWidthRem: pxToRem(strip($maxWidth), $remValue);
   $viewportValue: 100;
 
-  $sizeDif: $maxSizeStriped - $minSizeStriped;
+  $sizeDif: $maxSizeStripped - $minSizeStripped;
   $widthDif: $maxWidthRem - $minWidthRem;
 
   $slope: math.div($sizeDif, $widthDif);
 
-  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStriped;
+  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStripped;
 
   @return clamp(
     #{$min},
@@ -59,21 +64,27 @@
 @function reverse-fluid-rem(
   $min: 3rem,
   $max: 1rem,
-  $breakpoints: 375 $container,
+  $breakpoints: (
+    "sm",
+    "xxl",
+  ),
   $remValue: 16
 ) {
-  $minSizeStriped: strip($min);
-  $maxSizeStriped: strip($max);
-  $minWidthRem: pxToRem(list.nth($breakpoints, 1), $remValue);
-  $maxWidthRem: pxToRem(list.nth($breakpoints, 2), $remValue);
+  $minWidth: get-breakpoint(list.nth($breakpoints, 1));
+  $maxWidth: get-breakpoint(list.nth($breakpoints, 2));
+
+  $minSizeStripped: strip($min);
+  $maxSizeStripped: strip($max);
+  $minWidthRem: pxToRem(strip($minWidth), $remValue);
+  $maxWidthRem: pxToRem(strip($maxWidth), $remValue);
   $viewportValue: 100;
 
-  $sizeDif: $minSizeStriped - $maxSizeStriped;
+  $sizeDif: $minSizeStripped - $maxSizeStripped;
   $widthDif: $maxWidthRem - $minWidthRem;
 
   $slope: math.div($sizeDif, $widthDif) * -1;
 
-  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStriped;
+  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStripped;
 
   @return clamp(
     #{$max},
@@ -88,16 +99,16 @@
   $breakpoints: 375 $container,
   $remValue: 16
 ) {
-  $stripedMin: strip($min);
-  $stripedMax: strip($max);
+  $strippedMin: strip($min);
+  $strippedMax: strip($max);
   $minBreakPoint: list.nth($breakpoints, 1);
   $maxBreakPoint: list.nth($breakpoints, 2);
 
-  $sizeDif: $stripedMax - $stripedMin;
+  $sizeDif: $strippedMax - $strippedMin;
   $widthDif: $maxWidthRem - $minWidthRem;
 
   $slope: math.div($sizeDif, $widthDif);
-  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStriped;
+  $yAxisIntersection: ((-1 * $minWidthRem) * $slope) + $minSizeStripped;
 
   $prefered: "#{pxToRem(strip($min), $remValue)}rem + (#{strip($max)} - #{strip($min)}) * ((100vw - #{list.nth($breakpoints, 1)}px) / (#{list.nth($breakpoints, 2)} - #{list.nth($breakpoints, 1)}))";
 

@@ -4,15 +4,16 @@
 .root {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: fluid-rem(0.75rem, 3rem);
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 2.5fr 1fr;
-  gap: 3.5rem;
+  gap: fluid-rem(1rem, 3.5rem);
 
   @include media(md) {
+    gap: 4rem;
     grid-template-columns: 1fr;
   }
 }

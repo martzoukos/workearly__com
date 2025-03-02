@@ -17,3 +17,12 @@
     font-weight: 700;
   }
 }
+
+.orientationVertical {
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.orientationHorizontal {
+  flex-direction: row;
+}

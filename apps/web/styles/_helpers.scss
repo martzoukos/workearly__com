@@ -2,6 +2,6 @@
 @use "./settings" as *;
 
 %container {
-  width: min(90rem, 100%);
+  width: min($container, 100%);
   margin-inline: auto;
 }

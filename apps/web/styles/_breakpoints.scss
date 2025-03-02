@@ -1,9 +1,24 @@
+@use "sass:map";
+@use "./settings" as *;
+
 $breakpoints: (
-  "sm": 480px,
-  "md": 768px,
-  "lg": 1024px,
-  "xl": 1280px,
+  "xs": $breakpoint-xs,
+  "sm": $breakpoint-sm,
+  "md": $breakpoint-md,
+  "lg": $breakpoint-lg,
+  "xl": $breakpoint-xl,
+  "xxl": $container,
 ) !default;
+
+@function get-breakpoint($key) {
+  @if map.has-key($breakpoints, $key) {
+    @return map.get($breakpoints, $key);
+  } @else if meta.type-of($key) == "number" {
+    @return $key;
+  } @else {
+    @error "Invalid breakpoint `#{$key}`. Must be a valid breakpoint key or number.";
+  }
+}
 
 @mixin media($size) {
   $breakpoint: map-get($breakpoints, $size);
@@ -11,6 +26,30 @@ $breakpoints: (
   @if $breakpoint {
     @media (width < #{$breakpoint}) {
       @content;
+    }
+  } @else {
+    @warn "Breakpoint #{$size} not found in $breakpoints map.";
+  }
+}
+
+@mixin media-show-until($size) {
+  $breakpoint: map-get($breakpoints, $size);
+
+  @if $breakpoint {
+    @media (min-width: #{$breakpoint}) {
+      display: none;
+    }
+  } @else {
+    @warn "Breakpoint #{$size} not found in $breakpoints map.";
+  }
+}
+
+@mixin media-show-after($size) {
+  $breakpoint: map-get($breakpoints, $size);
+
+  @if $breakpoint {
+    @media (max-width: #{$breakpoint - 1}) {
+      display: none;
     }
   } @else {
     @warn "Breakpoint #{$size} not found in $breakpoints map.";

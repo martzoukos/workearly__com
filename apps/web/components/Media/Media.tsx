@@ -8,25 +8,38 @@ import styles from "./Media.module.scss";
 
 const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
-type PropsType = {
+type BaseProps = {
   asset: QueryItem["Asset"] | null | undefined;
   canHoldPlace?: boolean;
-  aspectRatio: string;
   imageProps?: Omit<ImageProps, "src" | "alt"> & { alt?: string };
   videoProps?: ReactPlayerProps;
   className?: string;
 };
+
+type PropsType = BaseProps &
+  (
+    | {
+        aspectRatio: string;
+        height?: never;
+      }
+    | {
+        aspectRatio?: never;
+        height: string;
+      }
+  );
 
 export default function Media({
   asset,
   imageProps,
   videoProps,
   aspectRatio,
+  height,
   canHoldPlace,
   className,
 }: PropsType) {
   const style = {
-    "--aspect-ratio": aspectRatio,
+    "--aspect-ratio": aspectRatio ?? "auto",
+    "--height": height ?? "100%",
   } as React.CSSProperties;
 
   if (!asset) {

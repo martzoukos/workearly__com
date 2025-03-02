@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import Media from "@/components/Media";
 import Text from "@/components/Text";
+import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
@@ -9,7 +10,8 @@ import { Gift, Share, Time } from "@carbon/icons-react";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
 
 interface PropsType {
@@ -24,13 +26,33 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { translate } = useTranslate();
+  const { isIntersecting, ref } = useIntersectionObserver({
+    threshold: 0.5,
+  });
+
+  const [showBanner, setShowBanner] = useState(false);
+  const [hasAppeared, setHasAppeared] = useState(false);
+
+  useEffect(() => {
+    if (isIntersecting) {
+      setHasAppeared(true);
+    }
+
+    if (hasAppeared) {
+      setShowBanner(!isIntersecting);
+    }
+  }, [isIntersecting, hasAppeared]);
 
   if (!courseDetails) {
     return null;
   }
 
   return (
-    <Themed className={clsx(styles.root, className)} isInverted={true}>
+    <Themed
+      className={clsx(styles.root, className)}
+      isInverted={true}
+      ref={ref}
+    >
       {!hideMedia && (
         <Media
           canHoldPlace={true}
@@ -109,6 +131,19 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
           </Button>
         </footer>
       </div>
+      {hasAppeared && (
+        <Viewport showUntil="md">
+          <aside className={clsx(styles.banner, showBanner && styles.visible)}>
+            <CoursePrices
+              courseDetails={courseDetails}
+              orientation="vertical"
+            />
+            <Button isFullWidth size="large">
+              {translate("CourseCardCTA")}
+            </Button>
+          </aside>
+        </Viewport>
+      )}
     </Themed>
   );
 }

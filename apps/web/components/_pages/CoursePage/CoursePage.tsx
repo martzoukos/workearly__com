@@ -2,6 +2,7 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import CourseCover from "@/components/CourseCover";
 import PageItem from "@/components/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse";
+import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
@@ -28,6 +29,9 @@ export default function CoursePage({ className }: PropsType) {
             ]}
           />
           <CourseCover />
+          <Viewport showUntil="md">
+            <PurchaseCourse hideMedia />
+          </Viewport>
           {preDividerItems.map((item) => (
             <PageItem
               key={item?.sys.id}
@@ -36,9 +40,11 @@ export default function CoursePage({ className }: PropsType) {
             />
           ))}
         </div>
-        <aside className={styles.sidebar}>
-          <PurchaseCourse />
-        </aside>
+        <Viewport showAfter="md">
+          <aside className={styles.sidebar}>
+            <PurchaseCourse />
+          </aside>
+        </Viewport>
       </div>
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />

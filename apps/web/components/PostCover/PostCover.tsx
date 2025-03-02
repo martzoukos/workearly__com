@@ -1,5 +1,6 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Button from "@/components/Button";
+import Media from "@/components/Media";
 import Person from "@/components/Person";
 import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
@@ -7,7 +8,6 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Share } from "@carbon/icons-react";
 import { DateTime } from "luxon";
-import Image from "next/image";
 import styles from "./PostCover.module.scss";
 
 export default function PostCover() {
@@ -32,27 +32,30 @@ export default function PostCover() {
         <div className={styles.content}>
           <div className={styles.topics}>
             {resourceDetails.topics?.map((topic) => (
-              <Button key={topic} variant="Outlined" size="small">
+              <Button key={topic} variant="Outlined" size="xsmall">
                 {topic}
               </Button>
             ))}
           </div>
-          <Text as="h1">{resourceDetails.name}</Text>
+          <Text as="h1" className={styles.title}>
+            {resourceDetails.name}
+          </Text>
         </div>
         <div className={styles.publishingDetails}>
           {peopleDetails.asset?.url && (
             <Person
               imageUrl={peopleDetails.asset.url}
               name={peopleDetails.name || ""}
+              className={styles.author}
             />
           )}
-          <Text size="caption">
+          <Text size="caption" className={styles.publishDate}>
             Publised on{" "}
             {DateTime.fromISO(resourceDetails.publicationDate).toFormat(
               "d MMM yyyy"
             )}
           </Text>
-          <ReadingTime time={readingTime} />
+          <ReadingTime time={readingTime} className={styles.readingTime} />
         </div>
         <Button
           variant="Outlined"
@@ -65,15 +68,14 @@ export default function PostCover() {
         </Button>
       </div>
       {resourceDetails.asset?.url && (
-        <div className={styles.media}>
-          <Image
-            src={resourceDetails.asset.url}
-            fill={true}
-            alt={resourceDetails.name || ""}
-            quality={100}
-            sizes="30vw"
-          />
-        </div>
+        <Media
+          asset={resourceDetails.asset}
+          className={styles.media}
+          height="25rem"
+          imageProps={{
+            sizes: "600px",
+          }}
+        />
       )}
     </section>
   );

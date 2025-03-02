@@ -4,7 +4,8 @@
 
 .mediaContainer {
   position: relative;
-  aspect-ratio: var(--aspect-ratio, 16 / 9);
+  aspect-ratio: var(--aspect-ratio);
+  height: var(--height);
   display: flex;
   justify-content: center;
   align-items: center;

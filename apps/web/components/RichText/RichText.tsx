@@ -92,14 +92,16 @@ function getOptions(
 
         if (asset.contentType?.includes("image/")) {
           return (
-            <div className={styles.imageContainer}>
+            <div className={styles.figureContainer}>
               <figure className={styles.figure}>
-                <Image
-                  src={asset.url}
-                  width={asset.width || 600}
-                  height={asset.height || 450}
-                  alt={asset.description || ""}
-                />
+                <div className={styles.imageContainer}>
+                  <Image
+                    src={asset.url}
+                    fill={true}
+                    sizes="50vw"
+                    alt={asset.description || ""}
+                  />
+                </div>
                 {asset.title && <figcaption>{asset.title}</figcaption>}
               </figure>
             </div>
