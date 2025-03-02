@@ -1,1 +1,1 @@
-export { default } from "./Viewport";
+export { default, useViewport } from "./Viewport";

@@ -15,6 +15,12 @@
   flex-direction: column;
   gap: 1.25rem;
   padding: 0.5rem;
+
+  @include media(md) {
+    .button {
+      width: 100%;
+    }
+  }
 }
 
 .title {
@@ -24,8 +30,4 @@
 .button {
   align-self: flex-end;
   width: 50%;
-
-  @include media(md) {
-    width: 100%;
-  }
 }

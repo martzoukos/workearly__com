@@ -1,19 +1,28 @@
 import clsx from "clsx";
 import { PropsWithChildren } from "react";
+import { useMediaQuery } from "usehooks-ts";
 import styles from "./Viewport.module.scss";
 
-type BreakpointType = "xs" | "sm" | "md" | "lg" | "xl";
+const BREAKPOINTS = {
+  xs: "375px",
+  sm: "480px",
+  md: "768px",
+  lg: "1024px",
+  xl: "1280px",
+  xxl: "1440px",
+} as const;
 
-type PropsType = PropsWithChildren<
+type BreakpointType = keyof typeof BREAKPOINTS;
+
+type PropsType =
   | { showUntil: BreakpointType; showAfter?: never }
-  | { showAfter: BreakpointType; showUntil?: never }
->;
+  | { showAfter: BreakpointType; showUntil?: never };
 
 export default function Viewport({
   showUntil,
   showAfter,
   children,
-}: PropsType) {
+}: PropsWithChildren<PropsType>) {
   return (
     <div
       className={clsx(
@@ -23,5 +32,15 @@ export default function Viewport({
     >
       {children}
     </div>
+  );
+}
+
+export function useViewport(props: PropsType) {
+  const breakpointValue = props.showAfter || props.showUntil;
+
+  const width = BREAKPOINTS[breakpointValue];
+
+  return useMediaQuery(
+    props.showAfter ? `(min-width: ${width})` : `(max-width: ${width})`
   );
 }

@@ -79,7 +79,7 @@ export default function PeopleIndex({
       <div className={styles.cardGrid}>
         {filteredPages.map((page) => (
           <Link key={page.sys.id} href={page.slug || "/"}>
-            <PersonCard page={page} />
+            <PersonCard page={page} className={styles.card} />
           </Link>
         ))}
       </div>

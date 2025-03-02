@@ -1,9 +1,10 @@
+import Media from "@/components/Media";
 import Text from "@/components/Text";
+import { useViewport } from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import { Frame } from "@workearly/svg";
 import clsx from "clsx";
-import Image from "next/image";
 import styles from "./PersonCard.module.scss";
 
 type PropsType = {
@@ -13,6 +14,7 @@ type PropsType = {
 
 export default function PersonCard({ page, className }: PropsType) {
   const { peopleDetails } = usePageResolver(page);
+  const isUntilMd = useViewport({ showUntil: "md" });
 
   if (!peopleDetails) {
     return null;
@@ -21,23 +23,34 @@ export default function PersonCard({ page, className }: PropsType) {
   return (
     <article className={clsx(styles.root, className)}>
       <div className={styles.content}>
-        {peopleDetails.asset?.url && (
-          <Image
-            src={peopleDetails.asset.url}
-            alt={peopleDetails.asset.title || peopleDetails.name || ""}
-            width={237}
-            height={277}
-            className={styles.media}
+        {peopleDetails.asset && (
+          <Media
+            asset={peopleDetails.asset}
+            imageProps={{
+              alt: peopleDetails.asset.title || peopleDetails.name || "",
+              sizes: "600px",
+            }}
+            aspectRatio="auto"
           />
         )}
 
         <div className={styles.labelContainer}>
           <div className={styles.label}>
             <Frame />
-            {peopleDetails.name && <Text>{peopleDetails.name}</Text>}
 
+            {peopleDetails.name && (
+              <Text
+                size={isUntilMd ? "caption" : "p"}
+                className={styles.personName}
+              >
+                {peopleDetails.name}
+              </Text>
+            )}
             {peopleDetails.role && (
-              <Text size="small">
+              <Text
+                size={isUntilMd ? "caption" : "small"}
+                className={styles.personRole}
+              >
                 {peopleDetails.role}
                 {peopleDetails.company && (
                   <>

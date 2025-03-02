@@ -1,14 +1,24 @@
+@use "@/styles/_breakpoints" as *;
+@use "@/styles/_functions" as *;
+
 .root {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: fluid-rem(1.5rem, 2rem);
   width: 100%;
+  --card-height: 17.8125rem;
+  --card-width: 14.85rem;
+
+  @include media(md) {
+    --card-height: 11rem;
+    --card-width: 9.25rem;
+  }
 }
 
 .header {
   display: grid;
-  gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
+  gap: reverse-fluid-rem(1.5rem, 0.5rem);
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
   align-items: end;
 }
 
@@ -31,6 +41,10 @@
 
 .cardGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, 15.35rem);
+  grid-template-columns: repeat(auto-fit, minmax(var(--card-width), 1fr));
   gap: 0.625rem;
+}
+
+.card {
+  height: var(--card-height);
 }
