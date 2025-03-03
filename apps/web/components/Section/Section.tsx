@@ -1,184 +1,111 @@
-import Accordion from "@/components/Accordion";
 import Button from "@/components/Button";
-import CardGrid from "@/components/CardGrid";
-import CardSlider from "@/components/CardSlider";
-import FeaturesShowcase from "@/components/FeaturesShowcase";
-import LogoShowcase from "@/components/LogoShowcase";
-import StepsShowcase from "@/components/StepsShowcase";
 import Text from "@/components/Text/Text";
-import VideoTestimonial from "@/components/VideoTestimonial";
-import CardShowcase from "@/components/_sections/CardShowcase";
-import Hero from "@/components/_sections/Hero";
-import HeroBackground from "@/components/_sections/HeroBackground";
-import MediaShowcase from "@/components/_sections/MediaShowcase";
-import RelatedArticles from "@/components/_sections/RelatedArticles";
-import Standard from "@/components/_sections/Standard";
-import StandardFramed from "@/components/_sections/StandardFramed";
-import TabsAlt from "@/components/_sections/TabsAlt";
-import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
-import { isDefined, QueryItem } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import { PropsWithChildren } from "react";
-import LogoCarousel from "../LogoCarousel/LogoCarousel";
-import Tabs from "../_sections/Tabs";
 import styles from "./Section.module.scss";
 
-type PropsType = {
+type PropsType = PropsWithChildren<{
   section: QueryItem["Section"];
   className?: string;
-};
-
-export default function Section({ section, className }: PropsType) {
-  const { cardsCount, variant, getReferences } = useSectionResolver(section);
-
-  if (variant === "Card Grid") {
-    const cards = getReferences("Card");
-
-    return (
-      <SectionLayout section={section} className={className}>
-        {Boolean(cards.length) && (
-          <CardGrid
-            cards={cards}
-            fallbackVariant={section.cardVariant as CardVariantType}
-            columnCount={cardsCount}
-          />
-        )}
-      </SectionLayout>
-    );
-  } else if (variant === "Card Slider") {
-    const cards = getReferences("Card");
-
-    return (
-      <SectionLayout section={section} className={className}>
-        {Boolean(cards.length) && (
-          <CardSlider
-            cards={cards}
-            fallbackVariant={section.cardVariant as CardVariantType}
-            columnCount={cardsCount}
-          />
-        )}
-      </SectionLayout>
-    );
-  } else if (variant === "Accordion") {
-    const accordionCards = getReferences("AccordionCard");
-
-    return (
-      <SectionLayout section={section} className={className}>
-        <Accordion accordionCards={accordionCards} />
-      </SectionLayout>
-    );
-  } else if (variant === "Logo Showcase") {
-    const assets = section.assetsCollection?.items.filter(isDefined) || [];
-
-    return (
-      <SectionLayout section={section} className={className}>
-        <LogoShowcase assets={assets} columnCount={cardsCount} />
-      </SectionLayout>
-    );
-  } else if (variant === "Logo Carousel") {
-    const assets = section.assetsCollection?.items.filter(isDefined) || [];
-
-    return (
-      <SectionLayout section={section} className={className}>
-        <LogoCarousel assets={assets} title={section.title || ""} />
-      </SectionLayout>
-    );
-  } else if (variant === "Steps Showcase") {
-    const cards = getReferences("Card");
-
-    return (
-      <StepsShowcase
-        cards={cards}
-        title={section.title || ""}
-        supertitle={section.supertitle || ""}
-        description={section.text || ""}
-      />
-    );
-  } else if (variant === "Features Showcase") {
-    const cards = getReferences("Card");
-    return <FeaturesShowcase cards={cards} title={section.title || ""} />;
-  } else if (variant === "Card Showcase") {
-    return <CardShowcase section={section} />;
-  } else if (variant === "Media Showcase") {
-    return <MediaShowcase section={section} />;
-  } else if (variant === "Related Articles") {
-    return <RelatedArticles section={section} />;
-  } else if (variant === "Tabs") {
-    const sections = getReferences("Section");
-    const actions = getReferences("Action");
-
-    return <Tabs sections={sections} actions={actions} />;
-  } else if (variant === "Tabs Alt") {
-    const sections = getReferences("Section");
-
-    return <TabsAlt sections={sections} />;
-  } else if (variant === "Hero") {
-    return <Hero section={section} />;
-  } else if (variant === "Standard Component Framed") {
-    return <StandardFramed section={section} />;
-  } else if (variant === "Standard Component") {
-    return <Standard section={section} />;
-  } else if (variant === "Hero With Background") {
-    return <HeroBackground section={section} />;
-  } else if (variant === "Video Testimonials") {
-    return <VideoTestimonial section={section} />;
-  }
-  return null;
-}
-
-type SectionLayoutPropsType = PropsWithChildren<{
-  section: QueryItem["Section"];
-  className?: string;
+  as?: keyof JSX.IntrinsicElements;
 }>;
 
-function SectionLayout({
+function SectionRoot({
+  as: Tag = "section",
   section,
   className,
   children,
-}: SectionLayoutPropsType) {
-  const { flexAlignment, getReferences, titleSize, size } =
-    useSectionResolver(section);
-  const hasHeader = section.supertitle || section.title || section.text;
+}: PropsType) {
+  const { flexAlignment, size } = useSectionResolver(section);
   const style = {
     "--flex-alignment": flexAlignment,
   } as React.CSSProperties;
 
-  const actions = getReferences("Action");
-
   return (
     <Themed
-      as="section"
+      as={Tag}
       className={clsx(styles.root, styles[`size${size}`], className)}
       style={style}
     >
-      {hasHeader && (
-        <header className={styles.header}>
-          {section.supertitle && <Text>{section.supertitle}</Text>}
-          {section.title && (
-            <Text as="h4" size={titleSize}>
-              {section.title}
-            </Text>
-          )}
-          {section.text && <Text>{section.text}</Text>}
-        </header>
-      )}
-      {children && <div className={styles.content}>{children}</div>}
-      {actions.length > 0 && (
-        <footer className={styles.footer}>
-          {actions.map((action) => (
-            <Button
-              key={action.sys.id}
-              variant="Solid"
-              isRounded={true}
-              colorScheme="White"
-            >
-              {action.name}
-            </Button>
-          ))}
-        </footer>
-      )}
+      {children}
     </Themed>
   );
 }
+
+function SectionHeader({ as: Tag = "header", section, className }: PropsType) {
+  const { titleSize } = useSectionResolver(section);
+
+  const hasHeader = section.supertitle || section.title || section.text;
+
+  if (!hasHeader) {
+    return null;
+  }
+
+  return (
+    <Tag className={clsx(styles.header, className)}>
+      {section.supertitle && <Text>{section.supertitle}</Text>}
+      {section.title && (
+        <Text as="h4" size={titleSize}>
+          {section.title}
+        </Text>
+      )}
+      {section.text && <Text>{section.text}</Text>}
+    </Tag>
+  );
+}
+
+function SectionActions({ as: Tag = "div", section, className }: PropsType) {
+  const { getReferences } = useSectionResolver(section);
+
+  const actions = getReferences("Action");
+
+  if (!actions.length) {
+    return null;
+  }
+
+  return (
+    <Tag className={clsx(styles.footer, className)}>
+      {actions.map((action) => (
+        <Button
+          key={action.sys.id}
+          variant="Solid"
+          isRounded={true}
+          colorScheme="White"
+        >
+          {action.name}
+        </Button>
+      ))}
+    </Tag>
+  );
+}
+
+function SectionContent({
+  children,
+  className,
+  as: Tag = "div",
+}: Omit<PropsType, "section">) {
+  return <Tag className={clsx(styles.content, className)}>{children}</Tag>;
+}
+
+function SectionDefaultLayout({ section, className, children }: PropsType) {
+  return (
+    <SectionRoot section={section} className={className}>
+      <SectionHeader section={section} />
+      {children && <SectionContent>{children}</SectionContent>}
+      <SectionActions as="footer" section={section} />
+    </SectionRoot>
+  );
+}
+
+const Section = {
+  Root: SectionRoot,
+  Header: SectionHeader,
+  Actions: SectionActions,
+  Content: SectionContent,
+  DefaultLayout: SectionDefaultLayout,
+};
+
+export default Section;

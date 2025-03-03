@@ -2385,7 +2385,7 @@ export type PeopleDetails = Entry & _Node & {
   role?: Maybe<Scalars['String']['output']>;
   sys: Sys;
   text?: Maybe<PeopleDetailsText>;
-  variant?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
+  variant?: Maybe<Scalars['String']['output']>;
 };
 
 
@@ -2518,10 +2518,13 @@ export type PeopleDetailsFilter = {
   text_contains?: InputMaybe<Scalars['String']['input']>;
   text_exists?: InputMaybe<Scalars['Boolean']['input']>;
   text_not_contains?: InputMaybe<Scalars['String']['input']>;
-  variant_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  variant_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  variant_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant?: InputMaybe<Scalars['String']['input']>;
+  variant_contains?: InputMaybe<Scalars['String']['input']>;
   variant_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  variant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant_not?: InputMaybe<Scalars['String']['input']>;
+  variant_not_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
 };
 
 export type PeopleDetailsLinkingCollections = {
@@ -2592,7 +2595,9 @@ export enum PeopleDetailsOrder {
   SysPublishedAtAsc = 'sys_publishedAt_ASC',
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
-  SysPublishedVersionDesc = 'sys_publishedVersion_DESC'
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
 }
 
 export type PeopleDetailsText = {
@@ -4019,7 +4024,7 @@ export type CourseDetailsFieldsFragment = { __typename?: 'CourseDetails', title?
 
 export type CategoryOrJobDetailsFieldsFragment = { __typename?: 'CategoryOrJobDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, studentsCount?: number | null, userReviews?: number | null, averageUsSalary?: string | null, averageEuSalary?: string | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
-export type PeopleDetailsFieldsFragment = { __typename?: 'PeopleDetails', name?: string | null, variant?: Array<string | null> | null, role?: string | null, company?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
+export type PeopleDetailsFieldsFragment = { __typename?: 'PeopleDetails', name?: string | null, variant?: string | null, role?: string | null, company?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
 export type ResourceDetailsFieldsFragment = { __typename?: 'ResourceDetails', name?: string | null, description?: string | null, topics?: Array<string | null> | null, publicationDate?: any | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
@@ -4071,7 +4076,7 @@ export type PeopleDetailsCollectionQueryVariables = Exact<{
 }>;
 
 
-export type PeopleDetailsCollectionQuery = { __typename?: 'Query', peopleDetailsCollection?: { __typename?: 'PeopleDetailsCollection', items: Array<{ __typename?: 'PeopleDetails', name?: string | null, variant?: Array<string | null> | null, role?: string | null, company?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null };
+export type PeopleDetailsCollectionQuery = { __typename?: 'Query', peopleDetailsCollection?: { __typename?: 'PeopleDetailsCollection', items: Array<{ __typename?: 'PeopleDetails', name?: string | null, variant?: string | null, role?: string | null, company?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null };
 
 export type ResourceDetailsCollectionQueryVariables = Exact<{
   where?: InputMaybe<ResourceDetailsFilter>;

@@ -5,7 +5,6 @@
   flex-direction: column;
   gap: 1.5rem;
   align-items: var(--flex-alignment);
-  box-sizing: border-box;
 
   &.sizeNarrow {
     --container-width: calc(48rem - var(--page-padding-inline) * 2);

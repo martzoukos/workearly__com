@@ -1,5 +1,5 @@
 import Button from "@/components/Button/Button";
-import Section from "@/components/Section/Section";
+import SectionRenderer from "@/components/SectionRenderer";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import { Tabs as RadixTabs } from "radix-ui";
@@ -53,7 +53,7 @@ export default function Tabs({ sections, actions, className }: PropsType) {
       </nav>
       {sections.map((section) => (
         <RadixTabs.Content key={section.sys.id} value={section.sys.id}>
-          <Section section={section} />
+          <SectionRenderer section={section} />
         </RadixTabs.Content>
       ))}
     </RadixTabs.Root>

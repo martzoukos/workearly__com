@@ -1,4 +1,4 @@
-import Section from "@/components/Section";
+import SectionRenderer from "@/components/SectionRenderer";
 import Text from "@/components/Text";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -22,7 +22,7 @@ export default function Tabs({ sections, className }: PropsType) {
     >
       {sections.map((section) => (
         <RadixTabs.Content key={section.sys.id} value={section.sys.id}>
-          <Section section={section} />
+          <SectionRenderer section={section} />
         </RadixTabs.Content>
       ))}
       <nav>
