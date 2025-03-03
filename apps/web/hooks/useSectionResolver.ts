@@ -13,7 +13,10 @@ type MetadataType = {
   values: Array<{ title: string; amount: string; percentage: string }>;
 };
 
+export type SectionSize = (typeof DATA_MAP.size)[number];
+
 const DATA_MAP = {
+  size: ["Narrow", "Wide", "Full"],
   alignment: {
     Left: "flex-start",
     Centered: "center",
@@ -94,6 +97,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   const metadata: MetadataType | undefined = section.metadata;
   const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
   const titleSize = section.titleSize as TextProps["size"];
+  const size = (section.size ?? "Full") as SectionSize;
 
   return {
     flexAlignment,
@@ -104,5 +108,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     metadata,
     theme,
     titleSize,
+    size,
   };
 }

@@ -1,14 +1,19 @@
 import Accordion from "@/components/Accordion";
 import Button from "@/components/Button/Button";
 import CardGrid from "@/components/CardGrid/CardGrid";
+import CardSlider from "@/components/CardSlider";
 import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
 import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
 import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
 import Text from "@/components/Text/Text";
+import VideoTetimonial from "@/components/VideoTetimonial";
 import CardShowcase from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
+import HeroBackground from "@/components/_sections/HeroBackground";
 import MediaShowcase from "@/components/_sections/MediaShowcase";
 import RelatedArticles from "@/components/_sections/RelatedArticles";
+import Standard from "@/components/_sections/Standard";
+import StandardFramed from "@/components/_sections/StandardFramed";
 import TabsAlt from "@/components/_sections/TabsAlt";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
@@ -19,10 +24,6 @@ import { PropsWithChildren } from "react";
 import LogoCarousel from "../LogoCarousel/LogoCarousel";
 import Tabs from "../_sections/Tabs";
 import styles from "./Section.module.scss";
-import StandardFramed from "@/components/_sections/StandardFramed";
-import Standard from "@/components/_sections/Standard";
-import HeroBackground from "@/components/_sections/HeroBackground";
-import VideoTetimonial from "@/components/VideoTetimonial";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -32,17 +33,27 @@ type PropsType = {
 export default function Section({ section, className }: PropsType) {
   const { cardsCount, variant, getReferences } = useSectionResolver(section);
 
-  if (
-    variant === "Card Grid" ||
-    variant === "Card Slider" ||
-    variant === "Card Hybrid"
-  ) {
+  if (variant === "Card Grid") {
     const cards = getReferences("Card");
 
     return (
       <SectionLayout section={section} className={className}>
         {Boolean(cards.length) && (
           <CardGrid
+            cards={cards}
+            fallbackVariant={section.cardVariant as CardVariantType}
+            columnCount={cardsCount}
+          />
+        )}
+      </SectionLayout>
+    );
+  } else if (variant === "Card Slider") {
+    const cards = getReferences("Card");
+
+    return (
+      <SectionLayout section={section} className={className}>
+        {Boolean(cards.length) && (
+          <CardSlider
             cards={cards}
             fallbackVariant={section.cardVariant as CardVariantType}
             columnCount={cardsCount}
@@ -127,7 +138,7 @@ function SectionLayout({
   className,
   children,
 }: SectionLayoutPropsType) {
-  const { flexAlignment, getReferences, titleSize } =
+  const { flexAlignment, getReferences, titleSize, size } =
     useSectionResolver(section);
   const hasHeader = section.supertitle || section.title || section.text;
   const style = {
@@ -137,7 +148,11 @@ function SectionLayout({
   const actions = getReferences("Action");
 
   return (
-    <Themed as="section" className={clsx(styles.root, className)} style={style}>
+    <Themed
+      as="section"
+      className={clsx(styles.root, styles[`size${size}`], className)}
+      style={style}
+    >
       {hasHeader && (
         <header className={styles.header}>
           {section.supertitle && <Text>{section.supertitle}</Text>}

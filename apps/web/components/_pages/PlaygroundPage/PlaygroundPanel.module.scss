@@ -3,7 +3,7 @@
 
   &:hover {
     & > .children {
-      border-color: var(--color-sys-debug);
+      outline-color: var(--color-sys-debug);
     }
 
     & > .panel {
@@ -13,7 +13,7 @@
 }
 
 .children {
-  border: 1px dashed transparent;
+  outline: 1px dashed transparent;
 }
 
 .panel {

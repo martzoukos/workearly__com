@@ -96,7 +96,11 @@ export const LI = ({ resolver, children }: NodeBaseProps) => {
   if (resolver.renderListAsCards) {
     return <TitleTextCard>{children}</TitleTextCard>;
   } else if (resolver.renderListAsChips) {
-    return <Button isRounded>{children}</Button>;
+    return (
+      <Button isRounded colorScheme="Surface">
+        {children}
+      </Button>
+    );
   } else if (resolver.variant !== "Default") {
     return (
       <ListItem

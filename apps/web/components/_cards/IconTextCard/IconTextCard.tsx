@@ -1,16 +1,18 @@
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
 import { SvgRenderer } from "@workearly/svg";
+import clsx from "clsx";
 import Image from "next/image";
 import styles from "./IconTextCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
+  className?: string;
 };
 
-const IconTextCard = ({ card }: PropsType) => {
+const IconTextCard = ({ card, className }: PropsType) => {
   return (
-    <div className={styles.root}>
+    <div className={clsx(styles.root, className)}>
       {card.asset?.url && card.asset.contentType !== "image/svg+xml" && (
         <Image src={card.asset.url} alt="" width={24} height={24} />
       )}

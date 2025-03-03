@@ -1,15 +1,8 @@
-import CertificateCard from "@/components/_cards/CertificateCard";
-import IconTextCard from "@/components/_cards/IconTextCard";
-import KeyMetricsCard from "@/components/_cards/KeyMetricsCard";
-import ProjectCard from "@/components/_cards/ProjectCard";
-import RichCard from "@/components/_cards/RichCard";
-import TestimonialCard from "@/components/_cards/TestimonialCard";
-import TitleTextCard from "@/components/_cards/TitleTextCard";
+import Card from "@/components/Card";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./CardGrid.module.scss";
-import BusinessTestimonialCard from "@/components/_cards/BusinessTestimonialCard";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -35,35 +28,4 @@ export default function CardGrid({
       ))}
     </div>
   );
-}
-
-type CardPropsType = {
-  card: QueryItem["Card"];
-  fallbackVariant?: CardVariantType;
-};
-
-export function Card({ card, fallbackVariant }: CardPropsType) {
-  const variant = (card.variant || fallbackVariant) as CardVariantType;
-
-  if (!variant) {
-    return null;
-  }
-
-  if (variant === "Testimonial") {
-    return <TestimonialCard card={card} />;
-  } else if (variant === "Icon and Text") {
-    return <IconTextCard card={card} />;
-  } else if (variant === "Title and Text") {
-    return <TitleTextCard title={card.title} text={card.text} />;
-  } else if (variant === "Project") {
-    return <ProjectCard card={card} />;
-  } else if (variant === "Certificate") {
-    return <CertificateCard card={card} columnCount={0} />;
-  } else if (variant === "Key Metrics") {
-    return <KeyMetricsCard card={card} />;
-  } else if (variant === "Rich Card") {
-    return <RichCard card={card} />;
-  } else if (variant === "Business Testimonial") {
-    return <BusinessTestimonialCard card={card} />;
-  }
 }

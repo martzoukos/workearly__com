@@ -1,6 +1,6 @@
 @use "@/styles/index" as *;
 
-.card {
+.root {
   display: flex;
   flex-direction: column;
   background: var(--color-sys-surface);

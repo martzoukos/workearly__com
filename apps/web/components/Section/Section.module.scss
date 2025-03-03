@@ -1,8 +1,23 @@
+@use "@/styles/_settings" as *;
+
 .root {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   align-items: var(--flex-alignment);
+  box-sizing: border-box;
+
+  &.sizeNarrow {
+    --container-width: calc(48rem - var(--page-padding-inline) * 2);
+  }
+
+  &.sizeWide {
+    --container-width: calc(80rem - var(--page-padding-inline) * 2);
+  }
+
+  &.sizeFull {
+    --container-width: calc(#{$container} - var(--page-padding-inline) * 2);
+  }
 }
 
 .content {

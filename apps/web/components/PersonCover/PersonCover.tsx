@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import RichText from "@/components/RichText/RichText";
 import usePageResolver from "@/hooks/usePageResolver";
+import usePeopleDetailsResolver from "@/hooks/usePeopleDetailsResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ArrowLeft, Share } from "@carbon/icons-react";
 import clsx from "clsx";
@@ -16,6 +17,8 @@ type PropsType = {
 export default function PersonCover({ className }: PropsType) {
   const { page } = useContentful();
   const { peopleDetails, tags } = usePageResolver(page);
+  const { entityLabel, indexLabel, indexLink } =
+    usePeopleDetailsResolver(peopleDetails);
 
   return (
     <div className={clsx(styles.root, className)}>
@@ -26,15 +29,15 @@ export default function PersonCover({ className }: PropsType) {
         className={styles.backButton}
         size="large"
       >
-        <Link href="/mentors">
-          <ArrowLeft /> Back to All Mentors
+        <Link href={indexLink}>
+          <ArrowLeft /> Back to All {indexLabel}
         </Link>
       </Button>
 
       <article className={styles.article}>
         <div className={styles.personCard}>
           <Text size="small" className={styles.cardTitle}>
-            Workearly Mentor
+            {entityLabel}
           </Text>
 
           <div className={styles.cardContent}>
@@ -93,7 +96,9 @@ export default function PersonCover({ className }: PropsType) {
 
         <div className={styles.textContainer}>
           <Text size="h2">
-            {peopleDetails.name}, {peopleDetails.role}, {peopleDetails.company}
+            {peopleDetails.name}
+            {peopleDetails.role && <span>, {peopleDetails.role}</span>}
+            {peopleDetails.company && <span>, {peopleDetails.company}</span>}
           </Text>
 
           <RichText json={peopleDetails.text?.json} />

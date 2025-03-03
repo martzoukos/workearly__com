@@ -1,5 +1,11 @@
 .root {
+  --gap: 0.5rem;
+  --total-gap-width: calc(var(--gap) * (var(--column-count) - 1));
+  --column-width: calc(
+    (var(--container-width) - var(--total-gap-width)) / var(--column-count)
+  );
+
   display: grid;
-  grid-template-columns: repeat(var(--column-count), 1fr);
-  gap: 0.5rem;
+  gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(var(--column-width), 1fr));
 }
