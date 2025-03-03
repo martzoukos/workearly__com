@@ -1,12 +1,12 @@
 import Accordion from "@/components/Accordion";
-import Button from "@/components/Button/Button";
-import CardGrid from "@/components/CardGrid/CardGrid";
+import Button from "@/components/Button";
+import CardGrid from "@/components/CardGrid";
 import CardSlider from "@/components/CardSlider";
-import FeaturesShowcase from "@/components/FeaturesShowcase/FeaturesShowcase";
-import LogoShowcase from "@/components/LogoShowcase/LogoShowcase";
-import StepsShowcase from "@/components/StepsShowcase/StepsShowcase";
+import FeaturesShowcase from "@/components/FeaturesShowcase";
+import LogoShowcase from "@/components/LogoShowcase";
+import StepsShowcase from "@/components/StepsShowcase";
 import Text from "@/components/Text/Text";
-import VideoTetimonial from "@/components/VideoTetimonial";
+import VideoTestimonial from "@/components/VideoTestimonial";
 import CardShowcase from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
@@ -123,7 +123,7 @@ export default function Section({ section, className }: PropsType) {
   } else if (variant === "Hero With Background") {
     return <HeroBackground section={section} />;
   } else if (variant === "Video Testimonials") {
-    return <VideoTetimonial section={section} />;
+    return <VideoTestimonial section={section} />;
   }
   return null;
 }

@@ -1,15 +1,15 @@
 import ActionButton from "@/components/ActionButton";
-import VideoTetimonialCard from "@/components/_cards/VideoTetimonialCard/VideoTetimonialCard";
+import VideoTestimonialCard from "@/components/_cards/VideoTestimonialCard";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { QueryItem } from "@workearly/api";
 import Text from "../Text/Text";
-import styles from "./VideoTetimonial.module.scss";
+import styles from "./VideoTestimonial.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
 };
 
-export default function VideoTetimonial({ section }: PropsType) {
+export default function VideoTestimonial({ section }: PropsType) {
   const { getReferences, cardsCount } = useSectionResolver(section);
   const actions = getReferences("Action");
   const cards = getReferences("Card");
@@ -33,7 +33,7 @@ export default function VideoTetimonial({ section }: PropsType) {
 
       <div className={styles.cards}>
         {cards.map((card) => {
-          return <VideoTetimonialCard card={card} />;
+          return <VideoTestimonialCard key={card.sys.id} card={card} />;
         })}
       </div>
     </section>

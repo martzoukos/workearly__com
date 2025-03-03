@@ -3,13 +3,13 @@ import { StarFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import Image from "next/image";
 import ReactPlayer from "react-player";
-import styles from "./VideoTetimonialCard.module.scss";
+import styles from "./VideoTestimonialCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
 };
 
-export default function VideoTetimonialCard({ card }: PropsType) {
+export default function VideoTestimonialCard({ card }: PropsType) {
   const asset = card.asset;
   return (
     <div className={styles.card}>
