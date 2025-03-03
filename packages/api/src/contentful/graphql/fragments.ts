@@ -129,6 +129,7 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
   fragment PeopleDetailsFields on PeopleDetails {
     ...EntryFields
     name
+    variant
     role
     company
     text {
@@ -208,6 +209,7 @@ export const SECTION_FIELDS = graphql(`
     alignment
     title
     supertitle
+    size
     text
     cardVariant
     variant
