@@ -1,4 +1,5 @@
 @use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
 
 .root {
   display: flex;
@@ -21,5 +22,7 @@
 }
 
 .heroContent {
-  padding: 0 2.5rem 2.5rem 0;
+  --spacing: #{fluid-rem(0rem, 2.5rem, ("md", "xxl"))};
+  padding-inline-end: var(--spacing);
+  padding-block-end: var(--spacing);
 }

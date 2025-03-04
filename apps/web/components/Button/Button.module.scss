@@ -132,7 +132,7 @@
     border-color: transparent;
   }
 
-  &:active {
+  &:not(:disabled):active {
     outline: none;
     &:after {
       border-color: var(--color-text);

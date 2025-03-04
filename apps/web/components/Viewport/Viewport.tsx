@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { PropsWithChildren } from "react";
+import { cloneElement, ReactElement } from "react";
 import { useMediaQuery } from "usehooks-ts";
 import styles from "./Viewport.module.scss";
 
@@ -22,17 +22,14 @@ export default function Viewport({
   showUntil,
   showAfter,
   children,
-}: PropsWithChildren<PropsType>) {
-  return (
-    <div
-      className={clsx(
-        showUntil && styles[`show-until-${showUntil}`],
-        showAfter && styles[`show-after-${showAfter}`]
-      )}
-    >
-      {children}
-    </div>
-  );
+}: PropsType & { children: ReactElement }) {
+  return cloneElement(children, {
+    className: clsx(
+      children.props.className,
+      showUntil && styles[`show-until-${showUntil}`],
+      showAfter && styles[`show-after-${showAfter}`]
+    ),
+  });
 }
 
 export function useViewport(props: PropsType) {

@@ -1,11 +1,11 @@
 @use "@/styles/_breakpoints" as *;
 
 @each $size, $value in $breakpoints {
-  .show-until-#{$size} {
+  body .show-until-#{$size} {
     @include media-show-until($size);
   }
 
-  .show-after-#{$size} {
+  body .show-after-#{$size} {
     @include media-show-after($size);
   }
 }

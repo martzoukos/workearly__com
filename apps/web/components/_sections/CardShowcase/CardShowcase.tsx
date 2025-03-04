@@ -1,6 +1,6 @@
 import CourseCard from "@/components/_cards/CourseCard/CourseCard";
 import Button from "@/components/Button/Button";
-import { Card } from "@/components/CardGrid/CardGrid";
+import Card from "@/components/Card";
 import Text from "@/components/Text/Text";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";

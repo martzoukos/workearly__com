@@ -46,8 +46,8 @@ export default function PersonCover({ className }: PropsType) {
                 <Image
                   src={peopleDetails.asset.url}
                   alt={peopleDetails.asset.title || peopleDetails.name || ""}
-                  width={198}
-                  height={198}
+                  fill={true}
+                  sizes="600px"
                 />
               </div>
             )}

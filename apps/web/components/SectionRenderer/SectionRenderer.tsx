@@ -16,6 +16,7 @@ import LogoShowcase from "@/components/LogoShowcase";
 import Section from "@/components/Section";
 import StepsShowcase from "@/components/StepsShowcase";
 import VideoTestimonial from "@/components/VideoTestimonial";
+import { useViewport } from "@/components/Viewport";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { QueryItem, isDefined } from "@workearly/api";
@@ -26,13 +27,18 @@ type PropsType = {
 };
 
 export default function SectionRenderer({ section, className }: PropsType) {
-  const { cardsCount, variant, getReferences } = useSectionResolver(section);
+  const { cardsCount, variant, getReferences, layout } =
+    useSectionResolver(section);
+  const isUntilMd = useViewport({ showUntil: "md" });
+
+  const SectionLayout =
+    layout === "Alt" ? Section.AltLayout : Section.DefaultLayout;
 
   if (variant === "Card Grid") {
     const cards = getReferences("Card");
 
     return (
-      <Section.DefaultLayout section={section} className={className}>
+      <SectionLayout section={section} className={className}>
         {Boolean(cards.length) && (
           <CardGrid
             cards={cards}
@@ -40,13 +46,13 @@ export default function SectionRenderer({ section, className }: PropsType) {
             columnCount={cardsCount}
           />
         )}
-      </Section.DefaultLayout>
+      </SectionLayout>
     );
   } else if (variant === "Card Slider") {
     const cards = getReferences("Card");
 
     return (
-      <Section.DefaultLayout section={section} className={className}>
+      <SectionLayout section={section} className={className}>
         {Boolean(cards.length) && (
           <CardSlider
             cards={cards}
@@ -54,31 +60,53 @@ export default function SectionRenderer({ section, className }: PropsType) {
             columnCount={cardsCount}
           />
         )}
-      </Section.DefaultLayout>
+      </SectionLayout>
+    );
+  } else if (variant === "Card Hybrid") {
+    const cards = getReferences("Card");
+
+    return (
+      <SectionLayout section={section} className={className}>
+        {isUntilMd
+          ? Boolean(cards.length) && (
+              <CardSlider
+                cards={cards}
+                fallbackVariant={section.cardVariant as CardVariantType}
+                columnCount={cardsCount}
+              />
+            )
+          : Boolean(cards.length) && (
+              <CardGrid
+                cards={cards}
+                fallbackVariant={section.cardVariant as CardVariantType}
+                columnCount={cardsCount}
+              />
+            )}
+      </SectionLayout>
     );
   } else if (variant === "Accordion") {
     const accordionCards = getReferences("AccordionCard");
 
     return (
-      <Section.DefaultLayout section={section} className={className}>
+      <SectionLayout section={section} className={className}>
         <Accordion accordionCards={accordionCards} />
-      </Section.DefaultLayout>
+      </SectionLayout>
     );
   } else if (variant === "Logo Showcase") {
     const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
     return (
-      <Section.DefaultLayout section={section} className={className}>
+      <SectionLayout section={section} className={className}>
         <LogoShowcase assets={assets} columnCount={cardsCount} />
-      </Section.DefaultLayout>
+      </SectionLayout>
     );
   } else if (variant === "Logo Carousel") {
     const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
     return (
-      <Section.DefaultLayout section={section} className={className}>
+      <SectionLayout section={section} className={className}>
         <LogoCarousel assets={assets} title={section.title || ""} />
-      </Section.DefaultLayout>
+      </SectionLayout>
     );
   } else if (variant === "Steps Showcase") {
     const cards = getReferences("Card");
@@ -106,9 +134,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
 
     return <Tabs sections={sections} actions={actions} />;
   } else if (variant === "Tabs Alt") {
-    const sections = getReferences("Section");
-
-    return <TabsAlt sections={sections} />;
+    return <TabsAlt section={section} />;
   } else if (variant === "Hero") {
     return <Hero section={section} />;
   } else if (variant === "Standard Component Framed") {

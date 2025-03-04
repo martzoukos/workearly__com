@@ -19,16 +19,17 @@ function SectionRoot({
   className,
   children,
 }: PropsType) {
-  const { flexAlignment, size } = useSectionResolver(section);
-  const style = {
-    "--flex-alignment": flexAlignment,
-  } as React.CSSProperties;
+  const { alignment, size } = useSectionResolver(section);
 
   return (
     <Themed
       as={Tag}
-      className={clsx(styles.root, styles[`size${size}`], className)}
-      style={style}
+      className={clsx(
+        styles.root,
+        styles[`size${size}`],
+        styles[`alignment${alignment}`],
+        className
+      )}
     >
       {children}
     </Themed>
@@ -100,12 +101,25 @@ function SectionDefaultLayout({ section, className, children }: PropsType) {
   );
 }
 
+function SectionAltLayout({ section, className, children }: PropsType) {
+  return (
+    <SectionRoot section={section} className={className}>
+      <header className={styles.headerContainer}>
+        <SectionHeader as="div" section={section} />
+        <SectionActions as="div" section={section} />
+      </header>
+      {children && <SectionContent>{children}</SectionContent>}
+    </SectionRoot>
+  );
+}
+
 const Section = {
   Root: SectionRoot,
   Header: SectionHeader,
   Actions: SectionActions,
   Content: SectionContent,
   DefaultLayout: SectionDefaultLayout,
+  AltLayout: SectionAltLayout,
 };
 
 export default Section;

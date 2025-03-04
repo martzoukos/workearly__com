@@ -207,6 +207,7 @@ export const SECTION_FIELDS = graphql(`
   fragment SectionFields on Section {
     ...EntryFields
     alignment
+    layout
     title
     supertitle
     size

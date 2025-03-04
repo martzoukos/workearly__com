@@ -16,11 +16,9 @@ type MetadataType = {
 export type SectionSize = (typeof DATA_MAP.size)[number];
 
 const DATA_MAP = {
+  layout: ["Default", "Alt"],
   size: ["Narrow", "Wide", "Full"],
-  alignment: {
-    Left: "flex-start",
-    Centered: "center",
-  },
+  alignment: ["Left", "Centered"],
   referenceFields: {
     AccordionCard: "contentCollection",
     Action: "actionsCollection",
@@ -56,12 +54,13 @@ const DATA_MAP = {
 export default function useSectionResolver(section: QueryItem["Section"]) {
   const { getReferences: getContentfulReferences, page } = useContentful();
   const { theme: pageTheme } = usePageResolver(page);
-  const flexAlignment =
-    DATA_MAP.alignment[section.alignment as keyof typeof DATA_MAP.alignment] ??
-    DATA_MAP.alignment.Left;
   const cardsCount = section.cardsCount ?? 1;
   const variant = (section.variant ??
     "Default") as (typeof DATA_MAP.variants)[number];
+  const layout = (section.layout ??
+    "Default") as (typeof DATA_MAP.layout)[number];
+  const alignment = (section.alignment ??
+    "Left") as (typeof DATA_MAP.alignment)[number];
 
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
@@ -100,7 +99,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   const size = (section.size ?? "Full") as SectionSize;
 
   return {
-    flexAlignment,
+    alignment,
     cardsCount,
     variant,
     getReferences,
@@ -109,5 +108,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     theme,
     titleSize,
     size,
+    layout,
   };
 }
