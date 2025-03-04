@@ -1,6 +1,7 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JobCover from "@/components/JobCover";
 import PageItem from "@/components/PageItem";
+import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
@@ -37,15 +38,18 @@ export default function JobPage({ className }: PropsType) {
             />
           ))}
         </div>
+
         {categoryOrJobDetails?.asset?.url && (
-          <aside className={styles.sidebar}>
-            <Image
-              src={categoryOrJobDetails.asset.url}
-              alt={categoryOrJobDetails.title || ""}
-              width={330}
-              height={480}
-            />
-          </aside>
+          <Viewport showAfter="md">
+            <aside className={styles.sidebar}>
+              <Image
+                src={categoryOrJobDetails.asset.url}
+                alt={categoryOrJobDetails.title || ""}
+                width={330}
+                height={480}
+              />
+            </aside>
+          </Viewport>
         )}
       </div>
       {postDividerItems.map((item) => (

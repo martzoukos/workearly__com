@@ -4,9 +4,14 @@ import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
+import clsx from "clsx";
 import styles from "./JobCover.module.scss";
 
-export default function JobCover() {
+type PropsType = {
+  className?: string;
+};
+
+export default function JobCover({ className }: PropsType) {
   const { page } = useContentful();
   const { categoryOrJobDetails } = usePageResolver(page);
 
@@ -15,7 +20,7 @@ export default function JobCover() {
   }
 
   return (
-    <section className={styles.root}>
+    <section className={clsx(styles.root, className)}>
       <header className={styles.header}>
         <Text as="h1">{page.name}</Text>
         <Text>{categoryOrJobDetails?.summary}</Text>

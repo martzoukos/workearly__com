@@ -39,7 +39,7 @@ export default function Media({
 }: PropsType) {
   const style = {
     "--aspect-ratio": aspectRatio ?? "auto",
-    "--height": height ?? "100%",
+    "--height": height ?? "initial",
   } as React.CSSProperties;
 
   if (!asset) {
