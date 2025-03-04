@@ -2062,6 +2062,7 @@ export type CourseDetailsFilter = {
 export type CourseDetailsLinkingCollections = {
   __typename?: 'CourseDetailsLinkingCollections';
   entryCollection?: Maybe<EntryCollection>;
+  menuCollection?: Maybe<MenuCollection>;
   pageCollection?: Maybe<PageCollection>;
 };
 
@@ -2074,6 +2075,15 @@ export type CourseDetailsLinkingCollectionsEntryCollectionArgs = {
 };
 
 
+export type CourseDetailsLinkingCollectionsMenuCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<CourseDetailsLinkingCollectionsMenuCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
 export type CourseDetailsLinkingCollectionsPageCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
@@ -2081,6 +2091,21 @@ export type CourseDetailsLinkingCollectionsPageCollectionArgs = {
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
 };
+
+export enum CourseDetailsLinkingCollectionsMenuCollectionOrder {
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  TitleAsc = 'title_ASC',
+  TitleDesc = 'title_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
 
 export enum CourseDetailsLinkingCollectionsPageCollectionOrder {
   ContentfulNameAsc = 'contentfulName_ASC',
@@ -2277,7 +2302,10 @@ export type Menu = Entry & _Node & {
   __typename?: 'Menu';
   _id: Scalars['ID']['output'];
   actionsMenuCollection?: Maybe<MenuActionsMenuCollection>;
+  certificatesCollection?: Maybe<MenuCertificatesCollection>;
+  contentCollection?: Maybe<MenuContentCollection>;
   contentfulMetadata: ContentfulMetadata;
+  coursesCollection?: Maybe<MenuCoursesCollection>;
   linkedFrom?: Maybe<MenuLinkingCollections>;
   sys: Sys;
   text?: Maybe<Scalars['String']['output']>;
@@ -2293,6 +2321,39 @@ export type MenuActionsMenuCollectionArgs = {
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
   where?: InputMaybe<MenuActionsMenuFilter>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/menu) */
+export type MenuCertificatesCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<MenuCertificatesCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+  where?: InputMaybe<PeopleDetailsFilter>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/menu) */
+export type MenuContentCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<MenuContentCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+  where?: InputMaybe<MenuFilter>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/menu) */
+export type MenuCoursesCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<MenuCoursesCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+  where?: InputMaybe<CourseDetailsFilter>;
 };
 
 
@@ -2343,6 +2404,39 @@ export type MenuActionsMenuFilter = {
 
 export type MenuActionsMenuItem = Action | Menu;
 
+export type MenuCertificatesCollection = {
+  __typename?: 'MenuCertificatesCollection';
+  items: Array<Maybe<PeopleDetails>>;
+  limit: Scalars['Int']['output'];
+  skip: Scalars['Int']['output'];
+  total: Scalars['Int']['output'];
+};
+
+export enum MenuCertificatesCollectionOrder {
+  CompanyAsc = 'company_ASC',
+  CompanyDesc = 'company_DESC',
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  CourseCountAsc = 'courseCount_ASC',
+  CourseCountDesc = 'courseCount_DESC',
+  LinkedInAsc = 'linkedIn_ASC',
+  LinkedInDesc = 'linkedIn_DESC',
+  NameAsc = 'name_ASC',
+  NameDesc = 'name_DESC',
+  RoleAsc = 'role_ASC',
+  RoleDesc = 'role_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
+
 export type MenuCollection = {
   __typename?: 'MenuCollection';
   items: Array<Maybe<Menu>>;
@@ -2351,12 +2445,88 @@ export type MenuCollection = {
   total: Scalars['Int']['output'];
 };
 
+export type MenuContentCollection = {
+  __typename?: 'MenuContentCollection';
+  items: Array<Maybe<Menu>>;
+  limit: Scalars['Int']['output'];
+  skip: Scalars['Int']['output'];
+  total: Scalars['Int']['output'];
+};
+
+export enum MenuContentCollectionOrder {
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  TitleAsc = 'title_ASC',
+  TitleDesc = 'title_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
+
+export type MenuCoursesCollection = {
+  __typename?: 'MenuCoursesCollection';
+  items: Array<Maybe<CourseDetails>>;
+  limit: Scalars['Int']['output'];
+  skip: Scalars['Int']['output'];
+  total: Scalars['Int']['output'];
+};
+
+export enum MenuCoursesCollectionOrder {
+  ApplicationDeadlineAsc = 'applicationDeadline_ASC',
+  ApplicationDeadlineDesc = 'applicationDeadline_DESC',
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  CourseCountAsc = 'courseCount_ASC',
+  CourseCountDesc = 'courseCount_DESC',
+  FinalCostAsc = 'finalCost_ASC',
+  FinalCostDesc = 'finalCost_DESC',
+  PaceAsc = 'pace_ASC',
+  PaceDesc = 'pace_DESC',
+  ProgramStartsAsc = 'programStarts_ASC',
+  ProgramStartsDesc = 'programStarts_DESC',
+  ShortDescriptionAsc = 'shortDescription_ASC',
+  ShortDescriptionDesc = 'shortDescription_DESC',
+  StartingCostAsc = 'startingCost_ASC',
+  StartingCostDesc = 'startingCost_DESC',
+  StudentsCountAsc = 'studentsCount_ASC',
+  StudentsCountDesc = 'studentsCount_DESC',
+  StyleAsc = 'style_ASC',
+  StyleDesc = 'style_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  TimeLeftAsc = 'timeLeft_ASC',
+  TimeLeftDesc = 'timeLeft_DESC',
+  TitleAsc = 'title_ASC',
+  TitleDesc = 'title_DESC',
+  UserReviewsAsc = 'userReviews_ASC',
+  UserReviewsDesc = 'userReviews_DESC',
+  VideoUrlAsc = 'videoUrl_ASC',
+  VideoUrlDesc = 'videoUrl_DESC'
+}
+
 export type MenuFilter = {
   AND?: InputMaybe<Array<InputMaybe<MenuFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<MenuFilter>>>;
   actionsMenu?: InputMaybe<CfactionsMenuMultiTypeNestedFilter>;
   actionsMenuCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  certificates?: InputMaybe<CfPeopleDetailsNestedFilter>;
+  certificatesCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  content?: InputMaybe<CfMenuNestedFilter>;
+  contentCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
+  courses?: InputMaybe<CfCourseDetailsNestedFilter>;
+  coursesCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   sys?: InputMaybe<SysFilter>;
   text?: InputMaybe<Scalars['String']['input']>;
   text_contains?: InputMaybe<Scalars['String']['input']>;
@@ -2385,6 +2555,7 @@ export type MenuLinkingCollections = {
   __typename?: 'MenuLinkingCollections';
   entryCollection?: Maybe<EntryCollection>;
   menuCollection?: Maybe<MenuCollection>;
+  uniqueComponentCollection?: Maybe<UniqueComponentCollection>;
 };
 
 
@@ -2404,7 +2575,35 @@ export type MenuLinkingCollectionsMenuCollectionArgs = {
   skip?: InputMaybe<Scalars['Int']['input']>;
 };
 
+
+export type MenuLinkingCollectionsUniqueComponentCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<MenuLinkingCollectionsUniqueComponentCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
 export enum MenuLinkingCollectionsMenuCollectionOrder {
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  TitleAsc = 'title_ASC',
+  TitleDesc = 'title_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
+
+export enum MenuLinkingCollectionsUniqueComponentCollectionOrder {
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  HideFiltersAsc = 'hideFilters_ASC',
+  HideFiltersDesc = 'hideFilters_DESC',
   SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
   SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
   SysIdAsc = 'sys_id_ASC',
@@ -2914,6 +3113,7 @@ export type PeopleDetailsFilter = {
 export type PeopleDetailsLinkingCollections = {
   __typename?: 'PeopleDetailsLinkingCollections';
   entryCollection?: Maybe<EntryCollection>;
+  menuCollection?: Maybe<MenuCollection>;
   pageCollection?: Maybe<PageCollection>;
 };
 
@@ -2926,6 +3126,15 @@ export type PeopleDetailsLinkingCollectionsEntryCollectionArgs = {
 };
 
 
+export type PeopleDetailsLinkingCollectionsMenuCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<PeopleDetailsLinkingCollectionsMenuCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
 export type PeopleDetailsLinkingCollectionsPageCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
@@ -2933,6 +3142,21 @@ export type PeopleDetailsLinkingCollectionsPageCollectionArgs = {
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
 };
+
+export enum PeopleDetailsLinkingCollectionsMenuCollectionOrder {
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  TitleAsc = 'title_ASC',
+  TitleDesc = 'title_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
 
 export enum PeopleDetailsLinkingCollectionsPageCollectionOrder {
   ContentfulNameAsc = 'contentfulName_ASC',
@@ -4041,10 +4265,9 @@ export type UniqueComponent = Entry & _Node & {
 export type UniqueComponentContentCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
-  order?: InputMaybe<Array<InputMaybe<UniqueComponentContentCollectionOrder>>>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
-  where?: InputMaybe<PageFilter>;
+  where?: InputMaybe<UniqueComponentContentFilter>;
 };
 
 
@@ -4099,36 +4322,27 @@ export type UniqueComponentCollection = {
 
 export type UniqueComponentContentCollection = {
   __typename?: 'UniqueComponentContentCollection';
-  items: Array<Maybe<Page>>;
+  items: Array<Maybe<UniqueComponentContentItem>>;
   limit: Scalars['Int']['output'];
   skip: Scalars['Int']['output'];
   total: Scalars['Int']['output'];
 };
 
-export enum UniqueComponentContentCollectionOrder {
-  ContentfulNameAsc = 'contentfulName_ASC',
-  ContentfulNameDesc = 'contentfulName_DESC',
-  NameAsc = 'name_ASC',
-  NameDesc = 'name_DESC',
-  SeoDescriptionAsc = 'seoDescription_ASC',
-  SeoDescriptionDesc = 'seoDescription_DESC',
-  SeoTitleAsc = 'seoTitle_ASC',
-  SeoTitleDesc = 'seoTitle_DESC',
-  SlugAsc = 'slug_ASC',
-  SlugDesc = 'slug_DESC',
-  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
-  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
-  SysIdAsc = 'sys_id_ASC',
-  SysIdDesc = 'sys_id_DESC',
-  SysPublishedAtAsc = 'sys_publishedAt_ASC',
-  SysPublishedAtDesc = 'sys_publishedAt_DESC',
-  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
-  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
-  ThemeAsc = 'theme_ASC',
-  ThemeDesc = 'theme_DESC',
-  VariantAsc = 'variant_ASC',
-  VariantDesc = 'variant_DESC'
-}
+export type UniqueComponentContentFilter = {
+  AND?: InputMaybe<Array<InputMaybe<UniqueComponentContentFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<UniqueComponentContentFilter>>>;
+  contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
+  sys?: InputMaybe<SysFilter>;
+  variant?: InputMaybe<Scalars['String']['input']>;
+  variant_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  variant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant_not?: InputMaybe<Scalars['String']['input']>;
+  variant_not_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type UniqueComponentContentItem = Menu | Page;
 
 export type UniqueComponentDescription = {
   __typename?: 'UniqueComponentDescription';
@@ -4181,7 +4395,7 @@ export type UniqueComponentDescriptionResourcesInline = ResourceLink & {
 export type UniqueComponentFilter = {
   AND?: InputMaybe<Array<InputMaybe<UniqueComponentFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<UniqueComponentFilter>>>;
-  content?: InputMaybe<CfPageNestedFilter>;
+  content?: InputMaybe<CfcontentMultiTypeNestedFilter>;
   contentCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
@@ -4387,6 +4601,171 @@ export type CfActionNestedFilter = {
   variant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
 };
 
+export type CfCourseDetailsNestedFilter = {
+  AND?: InputMaybe<Array<InputMaybe<CfCourseDetailsNestedFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<CfCourseDetailsNestedFilter>>>;
+  applicationDeadline?: InputMaybe<Scalars['String']['input']>;
+  applicationDeadline_contains?: InputMaybe<Scalars['String']['input']>;
+  applicationDeadline_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  applicationDeadline_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  applicationDeadline_not?: InputMaybe<Scalars['String']['input']>;
+  applicationDeadline_not_contains?: InputMaybe<Scalars['String']['input']>;
+  applicationDeadline_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
+  contentfulName?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  contentfulName_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  contentfulName_not?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  courseCount?: InputMaybe<Scalars['String']['input']>;
+  courseCount_contains?: InputMaybe<Scalars['String']['input']>;
+  courseCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  courseCount_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  courseCount_not?: InputMaybe<Scalars['String']['input']>;
+  courseCount_not_contains?: InputMaybe<Scalars['String']['input']>;
+  courseCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  duration_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  duration_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  duration_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  duration_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  finalCost?: InputMaybe<Scalars['Float']['input']>;
+  finalCost_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  finalCost_gt?: InputMaybe<Scalars['Float']['input']>;
+  finalCost_gte?: InputMaybe<Scalars['Float']['input']>;
+  finalCost_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  finalCost_lt?: InputMaybe<Scalars['Float']['input']>;
+  finalCost_lte?: InputMaybe<Scalars['Float']['input']>;
+  finalCost_not?: InputMaybe<Scalars['Float']['input']>;
+  finalCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  language_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  language_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  language_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  language_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  level_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  level_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  level_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  level_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  pace?: InputMaybe<Scalars['String']['input']>;
+  pace_contains?: InputMaybe<Scalars['String']['input']>;
+  pace_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  pace_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  pace_not?: InputMaybe<Scalars['String']['input']>;
+  pace_not_contains?: InputMaybe<Scalars['String']['input']>;
+  pace_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  programStarts?: InputMaybe<Scalars['String']['input']>;
+  programStarts_contains?: InputMaybe<Scalars['String']['input']>;
+  programStarts_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  programStarts_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  programStarts_not?: InputMaybe<Scalars['String']['input']>;
+  programStarts_not_contains?: InputMaybe<Scalars['String']['input']>;
+  programStarts_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  shortDescription?: InputMaybe<Scalars['String']['input']>;
+  shortDescription_contains?: InputMaybe<Scalars['String']['input']>;
+  shortDescription_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  shortDescription_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  shortDescription_not?: InputMaybe<Scalars['String']['input']>;
+  shortDescription_not_contains?: InputMaybe<Scalars['String']['input']>;
+  shortDescription_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  startingCost?: InputMaybe<Scalars['Float']['input']>;
+  startingCost_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  startingCost_gt?: InputMaybe<Scalars['Float']['input']>;
+  startingCost_gte?: InputMaybe<Scalars['Float']['input']>;
+  startingCost_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  startingCost_lt?: InputMaybe<Scalars['Float']['input']>;
+  startingCost_lte?: InputMaybe<Scalars['Float']['input']>;
+  startingCost_not?: InputMaybe<Scalars['Float']['input']>;
+  startingCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  studentsCount?: InputMaybe<Scalars['Int']['input']>;
+  studentsCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  studentsCount_gt?: InputMaybe<Scalars['Int']['input']>;
+  studentsCount_gte?: InputMaybe<Scalars['Int']['input']>;
+  studentsCount_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
+  studentsCount_lt?: InputMaybe<Scalars['Int']['input']>;
+  studentsCount_lte?: InputMaybe<Scalars['Int']['input']>;
+  studentsCount_not?: InputMaybe<Scalars['Int']['input']>;
+  studentsCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
+  style?: InputMaybe<Scalars['String']['input']>;
+  style_contains?: InputMaybe<Scalars['String']['input']>;
+  style_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  style_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  style_not?: InputMaybe<Scalars['String']['input']>;
+  style_not_contains?: InputMaybe<Scalars['String']['input']>;
+  style_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  summary?: InputMaybe<Scalars['String']['input']>;
+  summary_contains?: InputMaybe<Scalars['String']['input']>;
+  summary_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  summary_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  summary_not?: InputMaybe<Scalars['String']['input']>;
+  summary_not_contains?: InputMaybe<Scalars['String']['input']>;
+  summary_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  sys?: InputMaybe<SysFilter>;
+  timeLeft?: InputMaybe<Scalars['String']['input']>;
+  timeLeft_contains?: InputMaybe<Scalars['String']['input']>;
+  timeLeft_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  timeLeft_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  timeLeft_not?: InputMaybe<Scalars['String']['input']>;
+  timeLeft_not_contains?: InputMaybe<Scalars['String']['input']>;
+  timeLeft_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  title_contains?: InputMaybe<Scalars['String']['input']>;
+  title_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  title_not?: InputMaybe<Scalars['String']['input']>;
+  title_not_contains?: InputMaybe<Scalars['String']['input']>;
+  title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  userReviews?: InputMaybe<Scalars['Float']['input']>;
+  userReviews_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  userReviews_gt?: InputMaybe<Scalars['Float']['input']>;
+  userReviews_gte?: InputMaybe<Scalars['Float']['input']>;
+  userReviews_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  userReviews_lt?: InputMaybe<Scalars['Float']['input']>;
+  userReviews_lte?: InputMaybe<Scalars['Float']['input']>;
+  userReviews_not?: InputMaybe<Scalars['Float']['input']>;
+  userReviews_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  videoThumbnail_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  videoUrl?: InputMaybe<Scalars['String']['input']>;
+  videoUrl_contains?: InputMaybe<Scalars['String']['input']>;
+  videoUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  videoUrl_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  videoUrl_not?: InputMaybe<Scalars['String']['input']>;
+  videoUrl_not_contains?: InputMaybe<Scalars['String']['input']>;
+  videoUrl_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type CfMenuNestedFilter = {
+  AND?: InputMaybe<Array<InputMaybe<CfMenuNestedFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<CfMenuNestedFilter>>>;
+  actionsMenuCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  certificatesCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  contentCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
+  coursesCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  sys?: InputMaybe<SysFilter>;
+  text?: InputMaybe<Scalars['String']['input']>;
+  text_contains?: InputMaybe<Scalars['String']['input']>;
+  text_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  text_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  text_not?: InputMaybe<Scalars['String']['input']>;
+  text_not_contains?: InputMaybe<Scalars['String']['input']>;
+  text_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  title?: InputMaybe<Scalars['String']['input']>;
+  title_contains?: InputMaybe<Scalars['String']['input']>;
+  title_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  title_not?: InputMaybe<Scalars['String']['input']>;
+  title_not_contains?: InputMaybe<Scalars['String']['input']>;
+  title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant?: InputMaybe<Scalars['String']['input']>;
+  variant_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  variant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant_not?: InputMaybe<Scalars['String']['input']>;
+  variant_not_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
 export type CfPageNestedFilter = {
   AND?: InputMaybe<Array<InputMaybe<CfPageNestedFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<CfPageNestedFilter>>>;
@@ -4436,6 +4815,70 @@ export type CfPageNestedFilter = {
   theme_not?: InputMaybe<Scalars['String']['input']>;
   theme_not_contains?: InputMaybe<Scalars['String']['input']>;
   theme_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant?: InputMaybe<Scalars['String']['input']>;
+  variant_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  variant_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  variant_not?: InputMaybe<Scalars['String']['input']>;
+  variant_not_contains?: InputMaybe<Scalars['String']['input']>;
+  variant_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+};
+
+export type CfPeopleDetailsNestedFilter = {
+  AND?: InputMaybe<Array<InputMaybe<CfPeopleDetailsNestedFilter>>>;
+  OR?: InputMaybe<Array<InputMaybe<CfPeopleDetailsNestedFilter>>>;
+  asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  company?: InputMaybe<Scalars['String']['input']>;
+  company_contains?: InputMaybe<Scalars['String']['input']>;
+  company_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  company_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  company_not?: InputMaybe<Scalars['String']['input']>;
+  company_not_contains?: InputMaybe<Scalars['String']['input']>;
+  company_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
+  contentfulName?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  contentfulName_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  contentfulName_not?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_not_contains?: InputMaybe<Scalars['String']['input']>;
+  contentfulName_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  courseCount?: InputMaybe<Scalars['String']['input']>;
+  courseCount_contains?: InputMaybe<Scalars['String']['input']>;
+  courseCount_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  courseCount_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  courseCount_not?: InputMaybe<Scalars['String']['input']>;
+  courseCount_not_contains?: InputMaybe<Scalars['String']['input']>;
+  courseCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  expertise_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  expertise_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  expertise_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  expertise_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  linkedIn?: InputMaybe<Scalars['String']['input']>;
+  linkedIn_contains?: InputMaybe<Scalars['String']['input']>;
+  linkedIn_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  linkedIn_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  linkedIn_not?: InputMaybe<Scalars['String']['input']>;
+  linkedIn_not_contains?: InputMaybe<Scalars['String']['input']>;
+  linkedIn_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  name?: InputMaybe<Scalars['String']['input']>;
+  name_contains?: InputMaybe<Scalars['String']['input']>;
+  name_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  name_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  name_not?: InputMaybe<Scalars['String']['input']>;
+  name_not_contains?: InputMaybe<Scalars['String']['input']>;
+  name_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  role?: InputMaybe<Scalars['String']['input']>;
+  role_contains?: InputMaybe<Scalars['String']['input']>;
+  role_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  role_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  role_not?: InputMaybe<Scalars['String']['input']>;
+  role_not_contains?: InputMaybe<Scalars['String']['input']>;
+  role_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  sys?: InputMaybe<SysFilter>;
+  text_contains?: InputMaybe<Scalars['String']['input']>;
+  text_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  text_not_contains?: InputMaybe<Scalars['String']['input']>;
   variant?: InputMaybe<Scalars['String']['input']>;
   variant_contains?: InputMaybe<Scalars['String']['input']>;
   variant_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -4616,7 +5059,7 @@ export type ResourceDetailsFieldsFragment = { __typename?: 'ResourceDetails', na
 
 export type ContentTypeRichTextFieldsFragment = { __typename?: 'ContentTypeRichText', variant?: string | null, body?: { __typename?: 'ContentTypeRichTextBody', json: any, links: { __typename?: 'ContentTypeRichTextBodyLinks', entries: { __typename?: 'ContentTypeRichTextBodyEntries', block: Array<{ __typename: 'AccordionCard', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Card', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'CategoryOrJobDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Composite', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'ContentTypeRichText', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'CourseDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Menu', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'PeopleDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'ResourceDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Section', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'UniqueComponent', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null>, inline: Array<{ __typename: 'AccordionCard', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Card', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'CategoryOrJobDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Composite', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'ContentTypeRichText', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'CourseDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Menu', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'PeopleDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'ResourceDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'Section', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename: 'UniqueComponent', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> }, assets: { __typename?: 'ContentTypeRichTextBodyAssets', block: Array<{ __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null> } } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
-export type UniqueComponentFieldsFragment = { __typename?: 'UniqueComponent', variant?: string | null, title?: string | null, json?: any | null, description?: { __typename?: 'UniqueComponentDescription', json: any } | null, contentCollection?: { __typename?: 'UniqueComponentContentCollection', items: Array<{ __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
+export type UniqueComponentFieldsFragment = { __typename?: 'UniqueComponent', variant?: string | null, title?: string | null, json?: any | null, description?: { __typename?: 'UniqueComponentDescription', json: any } | null, contentCollection?: { __typename?: 'UniqueComponentContentCollection', items: Array<{ __typename?: 'Menu', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
 export type SectionFieldsFragment = { __typename?: 'Section', alignment?: string | null, layout?: string | null, title?: string | null, supertitle?: string | null, size?: string | null, text?: string | null, cardVariant?: string | null, variant?: string | null, cardsCount?: number | null, theme?: string | null, metadata?: any | null, titleSize?: string | null, actionsCollection?: { __typename?: 'SectionActionsCollection', items: Array<{ __typename?: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, assetsCollection?: { __typename?: 'AssetCollection', items: Array<{ __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null> } | null, contentCollection?: { __typename?: 'SectionContentCollection', items: Array<{ __typename?: 'AccordionCard', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Card', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'ContentTypeRichText', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Section', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'UniqueComponent', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
@@ -4686,7 +5129,7 @@ export type UniqueComponentCollectionQueryVariables = Exact<{
 }>;
 
 
-export type UniqueComponentCollectionQuery = { __typename?: 'Query', uniqueComponentCollection?: { __typename?: 'UniqueComponentCollection', items: Array<{ __typename?: 'UniqueComponent', variant?: string | null, title?: string | null, json?: any | null, description?: { __typename?: 'UniqueComponentDescription', json: any } | null, contentCollection?: { __typename?: 'UniqueComponentContentCollection', items: Array<{ __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null };
+export type UniqueComponentCollectionQuery = { __typename?: 'Query', uniqueComponentCollection?: { __typename?: 'UniqueComponentCollection', items: Array<{ __typename?: 'UniqueComponent', variant?: string | null, title?: string | null, json?: any | null, description?: { __typename?: 'UniqueComponentDescription', json: any } | null, contentCollection?: { __typename?: 'UniqueComponentContentCollection', items: Array<{ __typename?: 'Menu', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null };
 
 export type AccordionCardCollectionQueryVariables = Exact<{
   where?: InputMaybe<AccordionCardFilter>;

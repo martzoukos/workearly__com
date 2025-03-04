@@ -9,7 +9,7 @@ import {
   Document,
   INLINES,
 } from "@contentful/rich-text-types";
-import { QueryItem } from "@workearly/api";
+import { QueryItem, RelationshipMapTypeName } from "@workearly/api";
 import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
 import dynamic from "next/dynamic";
@@ -154,7 +154,7 @@ function getOptions(
         }
 
         const reference = getReference(
-          blockEntry.__typename,
+          blockEntry.__typename as RelationshipMapTypeName,
           blockEntry.sys.id
         );
 
@@ -179,7 +179,7 @@ function getOptions(
         }
 
         const reference = getReference(
-          inlineEntry.__typename,
+          inlineEntry.__typename as RelationshipMapTypeName,
           inlineEntry.sys.id
         );
 
