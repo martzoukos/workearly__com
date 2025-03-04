@@ -15,7 +15,11 @@ type PropsType = {
   className?: string;
 };
 
-export default function Card({ card, fallbackVariant, className }: PropsType) {
+export default function CardRenderer({
+  card,
+  fallbackVariant,
+  className,
+}: PropsType) {
   const variant = (card.variant || fallbackVariant) as CardVariantType;
 
   if (!variant) {

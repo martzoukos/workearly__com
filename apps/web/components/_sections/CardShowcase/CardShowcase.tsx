@@ -1,6 +1,6 @@
 import CourseCard from "@/components/_cards/CourseCard/CourseCard";
+import CardRenderer from "@/components/_renderers/CardRenderer";
 import Button from "@/components/Button/Button";
-import Card from "@/components/Card";
 import Text from "@/components/Text/Text";
 import { useViewport } from "@/components/Viewport";
 import { CardVariantType } from "@/hooks/useCardResolver";
@@ -66,7 +66,7 @@ export default function Slider({ section, className }: PropsType) {
 
             return (
               <SwiperSlide key={card.sys.id} className={styles.cardSlide}>
-                <Card
+                <CardRenderer
                   card={card}
                   fallbackVariant={section.cardVariant as CardVariantType}
                 />

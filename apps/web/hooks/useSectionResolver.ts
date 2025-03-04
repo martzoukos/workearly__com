@@ -39,7 +39,6 @@ const DATA_MAP = {
     "Media Showcase",
     "Logo Showcase",
     "Logo Carousel",
-    "Related Articles",
     "Steps Showcase",
     "Features Showcase",
     "Project",

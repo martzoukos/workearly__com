@@ -1,5 +1,5 @@
+import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import ActionButton from "@/components/ActionButton";
-import SectionRenderer from "@/components/SectionRenderer";
 import Text from "@/components/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { QueryItem } from "@workearly/api";

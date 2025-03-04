@@ -2,7 +2,6 @@ import CardShowcase from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
 import MediaShowcase from "@/components/_sections/MediaShowcase";
-import RelatedArticles from "@/components/_sections/RelatedArticles";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
 import Tabs from "@/components/_sections/Tabs";
@@ -36,52 +35,53 @@ export default function SectionRenderer({ section, className }: PropsType) {
 
   if (variant === "Card Grid") {
     const cards = getReferences("Card");
+    const pages = getReferences("Page");
 
     return (
       <SectionLayout section={section} className={className}>
-        {Boolean(cards.length) && (
-          <CardGrid
-            cards={cards}
-            fallbackVariant={section.cardVariant as CardVariantType}
-            columnCount={cardsCount}
-          />
-        )}
+        <CardGrid
+          cards={cards}
+          pages={pages}
+          fallbackVariant={section.cardVariant as CardVariantType}
+          columnCount={cardsCount}
+        />
       </SectionLayout>
     );
   } else if (variant === "Card Slider") {
     const cards = getReferences("Card");
+    const pages = getReferences("Page");
 
     return (
       <SectionLayout section={section} className={className}>
-        {Boolean(cards.length) && (
-          <CardSlider
-            cards={cards}
-            fallbackVariant={section.cardVariant as CardVariantType}
-            columnCount={cardsCount}
-          />
-        )}
+        <CardSlider
+          cards={cards}
+          pages={pages}
+          fallbackVariant={section.cardVariant as CardVariantType}
+          columnCount={cardsCount}
+        />
       </SectionLayout>
     );
   } else if (variant === "Card Hybrid") {
     const cards = getReferences("Card");
+    const pages = getReferences("Page");
 
     return (
       <SectionLayout section={section} className={className}>
-        {isUntilMd
-          ? Boolean(cards.length) && (
-              <CardSlider
-                cards={cards}
-                fallbackVariant={section.cardVariant as CardVariantType}
-                columnCount={cardsCount}
-              />
-            )
-          : Boolean(cards.length) && (
-              <CardGrid
-                cards={cards}
-                fallbackVariant={section.cardVariant as CardVariantType}
-                columnCount={cardsCount}
-              />
-            )}
+        {isUntilMd ? (
+          <CardSlider
+            cards={cards}
+            pages={pages}
+            fallbackVariant={section.cardVariant as CardVariantType}
+            columnCount={cardsCount}
+          />
+        ) : (
+          <CardGrid
+            cards={cards}
+            pages={pages}
+            fallbackVariant={section.cardVariant as CardVariantType}
+            columnCount={cardsCount}
+          />
+        )}
       </SectionLayout>
     );
   } else if (variant === "Accordion") {
@@ -126,8 +126,6 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <CardShowcase section={section} />;
   } else if (variant === "Media Showcase") {
     return <MediaShowcase section={section} />;
-  } else if (variant === "Related Articles") {
-    return <RelatedArticles section={section} />;
   } else if (variant === "Tabs") {
     const sections = getReferences("Section");
     const actions = getReferences("Action");

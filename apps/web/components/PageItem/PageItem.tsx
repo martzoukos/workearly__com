@@ -1,5 +1,5 @@
+import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import RichText from "@/components/RichText/RichText";
-import SectionRenderer from "@/components/SectionRenderer";
 import UniqueComponent from "@/components/UniqueComponent/UniqueComponent";
 import usePageResolver from "../../hooks/usePageResolver";
 

@@ -1,11 +1,11 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import JobCover from "@/components/JobCover";
+import Media from "@/components/Media";
 import PageItem from "@/components/PageItem";
 import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import Image from "next/image";
 import styles from "./JobPage.module.scss";
 
 type PropsType = {
@@ -42,11 +42,13 @@ export default function JobPage({ className }: PropsType) {
         {categoryOrJobDetails?.asset?.url && (
           <Viewport showAfter="md">
             <aside className={styles.sidebar}>
-              <Image
-                src={categoryOrJobDetails.asset.url}
-                alt={categoryOrJobDetails.title || ""}
-                width={330}
-                height={480}
+              <Media
+                asset={categoryOrJobDetails.asset}
+                imageProps={{
+                  alt: categoryOrJobDetails.title || "",
+                }}
+                aspectRatio="auto"
+                className={styles.media}
               />
             </aside>
           </Viewport>

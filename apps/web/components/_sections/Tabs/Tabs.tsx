@@ -1,5 +1,5 @@
+import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import Button from "@/components/Button/Button";
-import SectionRenderer from "@/components/SectionRenderer";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import { Tabs as RadixTabs } from "radix-ui";
