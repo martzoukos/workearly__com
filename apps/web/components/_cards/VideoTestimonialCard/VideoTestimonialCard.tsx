@@ -1,18 +1,21 @@
 import Text from "@/components/Text";
 import { StarFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
 import Image from "next/image";
 import ReactPlayer from "react-player";
 import styles from "./VideoTestimonialCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
+  className?: string;
 };
 
-export default function VideoTestimonialCard({ card }: PropsType) {
+export default function VideoTestimonialCard({ card, className }: PropsType) {
   const asset = card.asset;
+
   return (
-    <div className={styles.card}>
+    <div className={clsx(styles.card, className)}>
       <div className={styles.content}>
         <div className={styles.playerWrapper}>
           {asset?.url && (

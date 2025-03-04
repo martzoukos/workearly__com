@@ -27,7 +27,7 @@ export default function CardSlider({
   return (
     <Swiper
       slidesPerView="auto"
-      wrapperClass={styles.root}
+      className={styles.root}
       spaceBetween={8}
       style={style}
     >

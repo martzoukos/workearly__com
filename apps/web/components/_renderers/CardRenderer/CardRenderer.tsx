@@ -6,6 +6,7 @@ import ProjectCard from "@/components/_cards/ProjectCard";
 import RichCard from "@/components/_cards/RichCard";
 import TestimonialCard from "@/components/_cards/TestimonialCard";
 import TitleTextCard from "@/components/_cards/TitleTextCard";
+import VideoTestimonialCard from "@/components/_cards/VideoTestimonialCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 
@@ -50,5 +51,9 @@ export default function CardRenderer({
     return <RichCard card={card} />;
   } else if (variant === "Business Testimonial") {
     return <BusinessTestimonialCard card={card} className={className} />;
+  } else if (variant === "Video Testimonial") {
+    return <VideoTestimonialCard card={card} className={className} />;
   }
+
+  return null;
 }

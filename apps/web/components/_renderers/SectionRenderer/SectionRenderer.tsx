@@ -14,7 +14,6 @@ import LogoCarousel from "@/components/LogoCarousel/LogoCarousel";
 import LogoShowcase from "@/components/LogoShowcase";
 import Section from "@/components/Section";
 import StepsShowcase from "@/components/StepsShowcase";
-import VideoTestimonial from "@/components/VideoTestimonial";
 import { useViewport } from "@/components/Viewport";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
@@ -127,10 +126,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
   } else if (variant === "Media Showcase") {
     return <MediaShowcase section={section} />;
   } else if (variant === "Tabs") {
-    const sections = getReferences("Section");
-    const actions = getReferences("Action");
-
-    return <Tabs sections={sections} actions={actions} />;
+    return <Tabs section={section} />;
   } else if (variant === "Tabs Alt") {
     return <TabsAlt section={section} />;
   } else if (variant === "Hero") {
@@ -141,8 +137,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <Standard section={section} />;
   } else if (variant === "Hero With Background") {
     return <HeroBackground section={section} />;
-  } else if (variant === "Video Testimonials") {
-    return <VideoTestimonial section={section} />;
   }
+
   return null;
 }

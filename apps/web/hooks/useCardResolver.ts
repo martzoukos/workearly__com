@@ -1,5 +1,5 @@
 import { useContentful } from "@/stores/ContentfulStore";
-import { isDefined, QueryItem, CardReferenceTypeName } from "@workearly/api";
+import { CardReferenceTypeName, isDefined, QueryItem } from "@workearly/api";
 
 const DATA_MAP = {
   referenceFields: {
@@ -14,6 +14,7 @@ const DATA_MAP = {
     "Certificate",
     "Key Metrics",
     "Business Testimonial",
+    "Video Testimonial",
   ],
 } as const;
 
