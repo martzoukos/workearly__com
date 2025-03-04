@@ -1,13 +1,27 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
   --gap: 3rem;
   background: var(--color-sys-default);
   color: var(--color-ink-default);
   border-radius: 1rem;
   min-width: 0;
-}
-
-.swiperWrapper {
   padding-block: var(--gap);
+
+  @include media(md) {
+    padding: 1.5rem 0.75rem;
+
+    .headerWrapper {
+      --gap: 0.75rem;
+      padding-inline: 0;
+      margin-block-end: 1.25rem;
+    }
+
+    .footer {
+      margin-block-start: 1.25rem;
+    }
+  }
 }
 
 .headerWrapper {

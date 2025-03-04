@@ -4,6 +4,7 @@
   border: none;
   transition-property: color, background, border, opacity;
   transition-duration: 200ms;
+  white-space: nowrap;
 
   background: var(--color-bg);
   color: var(--color-text);

@@ -7,6 +7,9 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  gap: 0.4rem;
+  overflow: hidden;
+  overflow-x: auto;
 }
 
 .list,

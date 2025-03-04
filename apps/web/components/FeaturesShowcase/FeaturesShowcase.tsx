@@ -1,3 +1,4 @@
+import Media from "@/components/Media";
 import { ArrowRight } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -16,7 +17,7 @@ export default function FeaturesShowcase({
   cards,
   className,
 }: PropsType) {
-  const [activeCard, setactiveCard] = useState(cards[0]);
+  const [activeCard, setActiveCard] = useState(cards[0]);
 
   return (
     <div className={clsx(styles.root, className)}>
@@ -29,7 +30,7 @@ export default function FeaturesShowcase({
               key={card.sys.id}
               className={styles.navigationButton}
               data-active={activeCard?.sys.id === card.sys.id}
-              onClick={() => setactiveCard(card)}
+              onClick={() => setActiveCard(card)}
             >
               {activeCard?.sys.id === card.sys.id && <ArrowRight />}
 
@@ -40,13 +41,19 @@ export default function FeaturesShowcase({
       </div>
 
       <div className={styles.content}>
-        <div>
+        <div className={styles.contentText}>
           <Text size="h2" className={styles.title}>
             {activeCard?.title}
           </Text>
           <Text size="h5">{activeCard?.text}</Text>
         </div>
-        <div className={styles.border}></div>
+        {activeCard?.asset && (
+          <Media
+            asset={activeCard.asset}
+            height="24rem"
+            className={styles.contentMedia}
+          />
+        )}
       </div>
     </div>
   );

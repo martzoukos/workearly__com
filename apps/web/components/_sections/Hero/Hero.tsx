@@ -37,8 +37,15 @@ export default function Hero({ section }: PropsType) {
           <Image
             src={asset.url}
             alt={asset.title || section.title || ""}
-            fill={true}
-            sizes="30vw"
+            style={{
+              width: "100%",
+              height: "auto",
+              objectFit: "contain",
+              objectPosition: "right bottom",
+              borderRadius: "1rem",
+            }}
+            width={672}
+            height={512}
           />
         </div>
       )}

@@ -54,7 +54,12 @@ export default function TabsAlt({ section, className }: PropsType) {
           </RadixTabs.Content>
         ))}
         <nav>
-          <RadixTabs.List className={styles.list}>
+          <RadixTabs.List
+            className={styles.triggerList}
+            style={
+              { "--column-count": childSections.length } as React.CSSProperties
+            }
+          >
             {childSections.map((section) => (
               <RadixTabs.Trigger
                 key={section.sys.id}
