@@ -10,7 +10,7 @@ import CardSlider from "@/components/CardSlider";
 import FeaturesShowcase from "@/components/FeaturesShowcase";
 import LogoCarousel from "@/components/LogoCarousel/LogoCarousel";
 import LogoShowcase from "@/components/LogoShowcase";
-import Section from "@/components/Section";
+import Shell from "@/components/Shell";
 import StepsShowcase from "@/components/StepsShowcase";
 import { useViewport } from "@/components/Viewport";
 import { CardVariantType } from "@/hooks/useCardResolver";
@@ -23,19 +23,16 @@ type PropsType = {
 };
 
 export default function SectionRenderer({ section, className }: PropsType) {
-  const { cardsCount, variant, getReferences, layout, cardTheme } =
+  const { cardsCount, variant, getReferences, cardTheme } =
     useSectionResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
-
-  const SectionLayout =
-    layout === "Alt" ? Section.AltLayout : Section.DefaultLayout;
 
   if (variant === "Card Grid") {
     const cards = getReferences("Card");
     const pages = getReferences("Page");
 
     return (
-      <SectionLayout section={section} className={className}>
+      <Shell.Section section={section} className={className}>
         <CardGrid
           cards={cards}
           pages={pages}
@@ -43,14 +40,14 @@ export default function SectionRenderer({ section, className }: PropsType) {
           columnCount={cardsCount}
           cardTheme={cardTheme}
         />
-      </SectionLayout>
+      </Shell.Section>
     );
   } else if (variant === "Card Slider") {
     const cards = getReferences("Card");
     const pages = getReferences("Page");
 
     return (
-      <SectionLayout section={section} className={className}>
+      <Shell.Section section={section} className={className}>
         <CardSlider
           cards={cards}
           pages={pages}
@@ -58,14 +55,14 @@ export default function SectionRenderer({ section, className }: PropsType) {
           columnCount={cardsCount}
           cardTheme={cardTheme}
         />
-      </SectionLayout>
+      </Shell.Section>
     );
   } else if (variant === "Card Hybrid") {
     const cards = getReferences("Card");
     const pages = getReferences("Page");
 
     return (
-      <SectionLayout section={section} className={className}>
+      <Shell.Section section={section} className={className}>
         {isUntilMd ? (
           <CardSlider
             cards={cards}
@@ -83,31 +80,31 @@ export default function SectionRenderer({ section, className }: PropsType) {
             cardTheme={cardTheme}
           />
         )}
-      </SectionLayout>
+      </Shell.Section>
     );
   } else if (variant === "Accordion") {
     const accordionCards = getReferences("AccordionCard");
 
     return (
-      <SectionLayout section={section} className={className}>
+      <Shell.Section section={section} className={className}>
         <Accordion accordionCards={accordionCards} />
-      </SectionLayout>
+      </Shell.Section>
     );
   } else if (variant === "Logo Showcase") {
     const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
     return (
-      <SectionLayout section={section} className={className}>
+      <Shell.Section section={section} className={className}>
         <LogoShowcase assets={assets} columnCount={cardsCount} />
-      </SectionLayout>
+      </Shell.Section>
     );
   } else if (variant === "Logo Carousel") {
     const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
     return (
-      <SectionLayout section={section} className={className}>
+      <Shell.Section section={section} className={className}>
         <LogoCarousel assets={assets} title={section.title || ""} />
-      </SectionLayout>
+      </Shell.Section>
     );
   } else if (variant === "Steps Showcase") {
     const cards = getReferences("Card");

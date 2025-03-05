@@ -60,6 +60,10 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     "Left") as (typeof DATA_MAP.alignment)[number];
   const cardTheme = (section.cardTheme?.toLowerCase() ??
     pageTheme) as ThemeType;
+  const metadata: MetadataType | undefined = section.metadata;
+  const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
+  const titleSize = section.titleSize as TextProps["size"];
+  const size = (section.size ?? "Full") as SectionSize;
 
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
@@ -91,11 +95,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
       );
     });
   }
-
-  const metadata: MetadataType | undefined = section.metadata;
-  const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
-  const titleSize = section.titleSize as TextProps["size"];
-  const size = (section.size ?? "Full") as SectionSize;
 
   return {
     alignment,

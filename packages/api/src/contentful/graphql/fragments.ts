@@ -209,17 +209,18 @@ export const SECTION_FIELDS = graphql(`
     ...EntryFields
     alignment
     layout
+    size
+    theme
     title
     supertitle
-    size
     text
+    titleSize
     cardVariant
     cardsCount
     cardTheme
     variant
-    theme
     metadata
-    titleSize
+
     actionsCollection {
       items {
         ...EntryFields
@@ -244,6 +245,10 @@ export const COMPOSITE_FIELDS = graphql(`
   fragment CompositeFields on Composite {
     ...EntryFields
     variant
+    alignment
+    layout
+    size
+    theme
     title
     supertitle
     text

@@ -1,5 +1,5 @@
 import ActionButton from "@/components/ActionButton";
-import Section from "@/components/Section";
+import Shell from "@/components/Shell";
 import Text from "@/components/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { isDefined, QueryItem } from "@workearly/api";
@@ -11,14 +11,20 @@ type PropsType = {
 };
 
 export default function Hero({ section }: PropsType) {
-  const { getReferences, titleSize } = useSectionResolver(section);
+  const { getReferences, titleSize, alignment, size, theme } =
+    useSectionResolver(section);
   const actions = getReferences("Action");
 
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
 
   return (
-    <Section.Root section={section} className={styles.root}>
+    <Shell.Root
+      className={styles.root}
+      alignment={alignment}
+      size={size}
+      theme={theme}
+    >
       <div className={styles.content}>
         <Text as="h1" size={titleSize ?? "d2"}>
           {section.title}
@@ -50,6 +56,6 @@ export default function Hero({ section }: PropsType) {
           />
         </div>
       )}
-    </Section.Root>
+    </Shell.Root>
   );
 }

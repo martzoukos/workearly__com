@@ -1,10 +1,12 @@
+import Shell from "@/components/Shell";
 import Text from "@/components/Text";
-import useSectionResolver from "@/hooks/useSectionResolver";
-import { isDefined, QueryItem } from "@workearly/api";
-import styles from "./Standard.module.scss";
-import { useContentful } from "@/stores/ContentfulStore";
 import usePageResolver from "@/hooks/usePageResolver";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import { isDefined, QueryItem } from "@workearly/api";
+import clsx from "clsx";
 import Image from "next/image";
+import styles from "./Standard.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -12,6 +14,7 @@ type PropsType = {
 
 export default function Standard({ section }: PropsType) {
   const { page } = useContentful();
+  const { alignment, size, theme } = useSectionResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
 
@@ -31,7 +34,15 @@ export default function Standard({ section }: PropsType) {
   const mediaAlignment = currentIndex % 2 === 0 ? "left" : "right";
 
   return (
-    <section className={styles.root} data-media={mediaAlignment}>
+    <Shell.Root
+      className={clsx(
+        styles.root,
+        mediaAlignment === "right" && styles.reversed
+      )}
+      alignment={alignment}
+      size={size}
+      theme={theme}
+    >
       {asset?.url && (
         <Image
           src={assets[0]?.url || ""}
@@ -46,6 +57,6 @@ export default function Standard({ section }: PropsType) {
         {section.title && <Text size="h2">{section.title}</Text>}
         {section.text && <Text size="h5">{section.text}</Text>}
       </div>
-    </section>
+    </Shell.Root>
   );
 }

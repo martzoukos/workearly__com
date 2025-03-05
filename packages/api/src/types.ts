@@ -76,8 +76,10 @@ export type QueryItem = {
     >["items"]
   >[number];
   Composite: NonNullable<
-    NonNullable<CompositeCollectionQuery["compositeCollection"]>["items"]
-  >[number];
+    NonNullable<
+      NonNullable<CompositeCollectionQuery["compositeCollection"]>["items"]
+    >[number]
+  >;
 };
 
 export type ToRelationshipMap<
