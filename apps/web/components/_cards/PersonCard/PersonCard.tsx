@@ -30,7 +30,7 @@ export default function PersonCard({ page, className }: PropsType) {
               alt: peopleDetails.asset.title || peopleDetails.name || "",
               sizes: "600px",
             }}
-            aspectRatio="auto"
+            height="100%"
           />
         )}
 
