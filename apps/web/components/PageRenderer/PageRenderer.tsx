@@ -7,7 +7,6 @@ import PersonPage from "@/components/_pages/PersonPage";
 import PlaygroundPage from "@/components/_pages/PlaygroundPage";
 import PostPage from "@/components/_pages/PostPage";
 import Footer from "@/components/Footer";
-import Header from "@/components/Header";
 import PreviewPanel from "@/components/PreviewPanel";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
@@ -21,7 +20,7 @@ export default function PageRenderer() {
   return (
     <ThemeProvider defaultRootTheme={theme}>
       <PreviewPanel />
-      {header && <Header uniqueComponent={header} />}
+      {/* {header && <Header uniqueComponent={header} />} */}
       {variant === "Default" && <DefaultPage className={styles.root} />}
       {variant === "Course" && <CoursePage className={styles.root} />}
       {variant === "Playground" && <PlaygroundPage className={styles.root} />}
