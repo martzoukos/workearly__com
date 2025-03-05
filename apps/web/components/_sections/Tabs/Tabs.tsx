@@ -1,6 +1,6 @@
 import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import Button from "@/components/Button/Button";
-import useSectionResolver from "@/hooks/useSectionResolver";
+import useCompositeResolver from "@/hooks/useCompositeResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import { Tabs as RadixTabs } from "radix-ui";
@@ -8,14 +8,15 @@ import { useState } from "react";
 import styles from "./Tabs.module.scss";
 
 type PropsType = {
-  section: QueryItem["Section"];
+  composite: QueryItem["Composite"];
   className?: string;
 };
 
-export default function Tabs({ section, className }: PropsType) {
-  const { getReferences } = useSectionResolver(section);
+export default function Tabs({ composite, className }: PropsType) {
+  const { getReferences } = useCompositeResolver(composite);
   const sections = getReferences("Section");
   const actions = getReferences("Action");
+
   const [activeTab, setActiveTab] = useState(sections.at(0)?.sys.id);
 
   return (

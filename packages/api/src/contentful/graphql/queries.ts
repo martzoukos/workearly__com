@@ -132,6 +132,16 @@ export const SECTION_COLLECTION_QUERY = graphql(`
   }
 `);
 
+export const COMPOSITE_COLLECTION_QUERY = graphql(`
+  query CompositeCollection($where: CompositeFilter, $limit: Int) {
+    compositeCollection(where: $where, limit: $limit) {
+      items {
+        ...CompositeFields
+      }
+    }
+  }
+`);
+
 export const ASSET_COLLECTION_QUERY = graphql(`
   query AssetCollection($where: AssetFilter, $limit: Int) {
     assetCollection(where: $where, limit: $limit) {

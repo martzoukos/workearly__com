@@ -26,6 +26,7 @@ const documents = {
     "\n  fragment ContentTypeRichTextFields on ContentTypeRichText {\n    ...EntryFields\n    body {\n      json\n      links {\n        entries {\n          block {\n            __typename\n            ...EntryFields\n          }\n          inline {\n            __typename\n            ...EntryFields\n          }\n        }\n        assets {\n          block {\n            ...AssetFields\n          }\n        }\n      }\n    }\n    variant\n  }\n": types.ContentTypeRichTextFieldsFragmentDoc,
     "\n  fragment UniqueComponentFields on UniqueComponent {\n    ...EntryFields\n    variant\n    title\n    json\n    description {\n      json\n    }\n    json\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n": types.UniqueComponentFieldsFragmentDoc,
     "\n  fragment SectionFields on Section {\n    ...EntryFields\n    alignment\n    layout\n    title\n    supertitle\n    size\n    text\n    cardVariant\n    variant\n    cardsCount\n    theme\n    metadata\n    titleSize\n    actionsCollection {\n      items {\n        ...EntryFields\n      }\n    }\n    assetsCollection {\n      items {\n        ...AssetFields\n      }\n    }\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n": types.SectionFieldsFragmentDoc,
+    "\n  fragment CompositeFields on Composite {\n    ...EntryFields\n    variant\n    title\n    supertitle\n    text\n    spacing\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n": types.CompositeFieldsFragmentDoc,
     "\n  fragment PageFields on Page {\n    ...EntryFields\n    variant\n    name\n    slug\n    seoTitle\n    seoDescription\n    seoImage {\n      ...AssetFields\n    }\n    theme\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n": types.PageFieldsFragmentDoc,
     "\n  query PlaygroundPageSlugs {\n    pageCollection(\n      where: { slug_not_in: [\"404\"], variant_in: [\"Playground\"] }\n      limit: 100\n    ) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PlaygroundPageSlugsDocument,
     "\n  query PageSlugs {\n    pageCollection(\n      where: { slug_not_in: [\"404\"], variant_not_in: [\"Playground\"] }\n      limit: 100\n    ) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PageSlugsDocument,
@@ -39,6 +40,7 @@ const documents = {
     "\n  query AccordionCardCollection($where: AccordionCardFilter, $limit: Int) {\n    accordionCardCollection(where: $where, limit: $limit) {\n      items {\n        ...AccordionCardFields\n      }\n    }\n  }\n": types.AccordionCardCollectionDocument,
     "\n  query CardCollection($where: CardFilter, $limit: Int) {\n    cardCollection(where: $where, limit: $limit) {\n      items {\n        ...CardFields\n      }\n    }\n  }\n": types.CardCollectionDocument,
     "\n  query SectionCollection($where: SectionFilter, $limit: Int) {\n    sectionCollection(where: $where, limit: $limit) {\n      items {\n        ...SectionFields\n      }\n    }\n  }\n": types.SectionCollectionDocument,
+    "\n  query CompositeCollection($where: CompositeFilter, $limit: Int) {\n    compositeCollection(where: $where, limit: $limit) {\n      items {\n        ...CompositeFields\n      }\n    }\n  }\n": types.CompositeCollectionDocument,
     "\n  query AssetCollection($where: AssetFilter, $limit: Int) {\n    assetCollection(where: $where, limit: $limit) {\n      items {\n        ...AssetFields\n      }\n    }\n  }\n": types.AssetCollectionDocument,
     "\n  query ActionCollection($where: ActionFilter, $limit: Int) {\n    actionCollection(where: $where, limit: $limit) {\n      items {\n        ...ActionFields\n      }\n    }\n  }\n": types.ActionCollectionDocument,
 };
@@ -108,6 +110,10 @@ export function graphql(source: "\n  fragment SectionFields on Section {\n    ..
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
+export function graphql(source: "\n  fragment CompositeFields on Composite {\n    ...EntryFields\n    variant\n    title\n    supertitle\n    text\n    spacing\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n"): (typeof documents)["\n  fragment CompositeFields on Composite {\n    ...EntryFields\n    variant\n    title\n    supertitle\n    text\n    spacing\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n"];
+/**
+ * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
 export function graphql(source: "\n  fragment PageFields on Page {\n    ...EntryFields\n    variant\n    name\n    slug\n    seoTitle\n    seoDescription\n    seoImage {\n      ...AssetFields\n    }\n    theme\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n"): (typeof documents)["\n  fragment PageFields on Page {\n    ...EntryFields\n    variant\n    name\n    slug\n    seoTitle\n    seoDescription\n    seoImage {\n      ...AssetFields\n    }\n    theme\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
@@ -157,6 +163,10 @@ export function graphql(source: "\n  query CardCollection($where: CardFilter, $l
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
 export function graphql(source: "\n  query SectionCollection($where: SectionFilter, $limit: Int) {\n    sectionCollection(where: $where, limit: $limit) {\n      items {\n        ...SectionFields\n      }\n    }\n  }\n"): (typeof documents)["\n  query SectionCollection($where: SectionFilter, $limit: Int) {\n    sectionCollection(where: $where, limit: $limit) {\n      items {\n        ...SectionFields\n      }\n    }\n  }\n"];
+/**
+ * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
+ */
+export function graphql(source: "\n  query CompositeCollection($where: CompositeFilter, $limit: Int) {\n    compositeCollection(where: $where, limit: $limit) {\n      items {\n        ...CompositeFields\n      }\n    }\n  }\n"): (typeof documents)["\n  query CompositeCollection($where: CompositeFilter, $limit: Int) {\n    compositeCollection(where: $where, limit: $limit) {\n      items {\n        ...CompositeFields\n      }\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

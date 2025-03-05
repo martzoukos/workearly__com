@@ -71,6 +71,10 @@ export function getPageResolver(
           return relationshipMap.categoryOrJobDetailsCollection.find(
             (section) => section?.sys.id === item.sys.id
           );
+        } else if (item?.__typename === "Composite") {
+          return relationshipMap.compositeCollection.find(
+            (section) => section?.sys.id === item.sys.id
+          );
         }
       })
       .filter(isDefined) || [];

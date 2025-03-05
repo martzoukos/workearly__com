@@ -1,7 +1,8 @@
+import CompositeRenderer from "@/components/_renderers/CompositeRenderer";
 import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import RichText from "@/components/RichText/RichText";
 import UniqueComponent from "@/components/UniqueComponent/UniqueComponent";
-import usePageResolver from "../../hooks/usePageResolver";
+import usePageResolver from "@/hooks/usePageResolver";
 
 type PropsType = {
   item: ReturnType<typeof usePageResolver>["items"][number];
@@ -15,5 +16,7 @@ export default function PageItem({ item, className }: PropsType) {
     return <RichText richText={item} className={className} />;
   } else if (item?.__typename === "UniqueComponent") {
     return <UniqueComponent uniqueComponent={item} className={className} />;
+  } else if (item.__typename === "Composite") {
+    return <CompositeRenderer composite={item} />;
   }
 }

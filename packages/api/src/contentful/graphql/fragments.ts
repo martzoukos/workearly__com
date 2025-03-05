@@ -239,6 +239,24 @@ export const SECTION_FIELDS = graphql(`
   }
 `);
 
+export const COMPOSITE_FIELDS = graphql(`
+  fragment CompositeFields on Composite {
+    ...EntryFields
+    variant
+    title
+    supertitle
+    text
+    spacing
+    contentCollection {
+      items {
+        ... on Entry {
+          ...EntryFields
+        }
+      }
+    }
+  }
+`);
+
 export const PAGE_FIELDS = graphql(`
   fragment PageFields on Page {
     ...EntryFields

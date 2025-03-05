@@ -1,7 +1,7 @@
-import { QueryItem } from "@workearly/api";
-import styles from "./BusinessTestimonialCard.module.scss";
-import Image from "next/image";
 import Text from "@/components/Text";
+import { QueryItem } from "@workearly/api";
+import Image from "next/image";
+import styles from "./BusinessTestimonialCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
@@ -33,7 +33,7 @@ export default function BusinessTestimonialCard({ card }: PropsType) {
             {tags.length > 0 && (
               <div className={styles.tags}>
                 {tags.map((tag) => (
-                  <Text size="caption" className={styles.tag}>
+                  <Text key={tag} size="caption" className={styles.tag}>
                     {tag}
                   </Text>
                 ))}
@@ -44,7 +44,9 @@ export default function BusinessTestimonialCard({ card }: PropsType) {
           {titles.length > 0 && (
             <div>
               {titles.map((title) => (
-                <Text className={styles.title}>{title}</Text>
+                <Text key={title} className={styles.title}>
+                  {title}
+                </Text>
               ))}
             </div>
           )}

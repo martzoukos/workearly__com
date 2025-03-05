@@ -7,6 +7,7 @@ import {
   AssetCollectionQuery,
   CardCollectionQuery,
   CateogoryOrJobDetailsCollectionQuery,
+  CompositeCollectionQuery,
   ContentTypeRichTextCollectionQuery,
   CourseDetailsCollectionQuery,
   PageCollectionQuery,
@@ -74,6 +75,9 @@ export type QueryItem = {
       CateogoryOrJobDetailsCollectionQuery["categoryOrJobDetailsCollection"]
     >["items"]
   >[number];
+  Composite: NonNullable<
+    NonNullable<CompositeCollectionQuery["compositeCollection"]>["items"]
+  >[number];
 };
 
 export type ToRelationshipMap<
@@ -118,6 +122,18 @@ export type UniqueComponentReference = Exclude<
 
 export type UniqueComponentReferenceTypeName = Exclude<
   UniqueComponentReference["__typename"],
+  undefined
+>;
+
+export type CompositeReference = Exclude<
+  NonNullable<
+    NonNullable<QueryItem["Composite"]>["contentCollection"]
+  >["items"][number],
+  null | undefined
+>;
+
+export type CompositeReferenceTypeName = Exclude<
+  CompositeReference["__typename"],
   undefined
 >;
 

@@ -1,7 +1,7 @@
 import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import ActionButton from "@/components/ActionButton";
 import Text from "@/components/Text";
-import useSectionResolver from "@/hooks/useSectionResolver";
+import useCompositeResolver from "@/hooks/useCompositeResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import { Tabs as RadixTabs } from "radix-ui";
@@ -9,29 +9,31 @@ import { useState } from "react";
 import styles from "./TabsAlt.module.scss";
 
 type PropsType = {
-  section: QueryItem["Section"];
+  composite: QueryItem["Composite"];
   className?: string;
 };
 
-export default function TabsAlt({ section, className }: PropsType) {
-  const { getReferences } = useSectionResolver(section);
+export default function TabsAlt({ composite, className }: PropsType) {
+  const { getReferences } = useCompositeResolver(composite);
   const childSections = getReferences("Section");
   const actions = getReferences("Action");
   const [activeTab, setActiveTab] = useState(childSections.at(0)?.sys.id);
-  const hasHeader = Boolean(section.title || section.text || actions.length);
+  const hasHeader = Boolean(
+    composite?.title || composite?.text || actions.length
+  );
 
   return (
     <section className={clsx(styles.root, className)}>
       {hasHeader && (
         <header className={styles.header}>
-          {section.title && (
+          {composite?.title && (
             <Text as="h3" className={styles.title}>
-              {section.title}
+              {composite.title}
             </Text>
           )}
-          {section.text && (
+          {composite?.text && (
             <Text as="small" className={styles.description}>
-              {section.text}
+              {composite.text}
             </Text>
           )}
           {Boolean(actions.length) && (

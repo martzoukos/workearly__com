@@ -4,8 +4,6 @@ import HeroBackground from "@/components/_sections/HeroBackground";
 import MediaShowcase from "@/components/_sections/MediaShowcase";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
-import Tabs from "@/components/_sections/Tabs";
-import TabsAlt from "@/components/_sections/TabsAlt";
 import Accordion from "@/components/Accordion";
 import CardGrid from "@/components/CardGrid";
 import CardSlider from "@/components/CardSlider";
@@ -125,10 +123,6 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <CardShowcase section={section} />;
   } else if (variant === "Media Showcase") {
     return <MediaShowcase section={section} />;
-  } else if (variant === "Tabs") {
-    return <Tabs section={section} />;
-  } else if (variant === "Tabs Alt") {
-    return <TabsAlt section={section} />;
   } else if (variant === "Hero") {
     return <Hero section={section} />;
   } else if (variant === "Standard Component Framed") {
