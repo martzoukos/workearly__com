@@ -3,20 +3,33 @@ import Text from "@/components/Text";
 import { LogoFacebook, LogoInstagram, LogoLinkedin } from "@carbon/icons-react";
 import Image from "next/image";
 import styles from "./Footer.module.scss";
+import { useTheme } from "@workearly/theme";
 
 export default function Footer({ json }: PropsType) {
+  const { theme } = useTheme();
+
   return (
     <div className={styles.container}>
       <footer className={styles.root}>
         <div className={styles.header}>
           <div className={styles.columnOne}>
-            <Text size="h5" className={styles.title}>
-              Workearly
-            </Text>
+            <Image
+              src={
+                theme === "dark"
+                  ? "/images/logo-light.svg"
+                  : "/images/logo-dark.svg"
+              }
+              alt=""
+              width={224}
+              height={54}
+              className={styles.logo}
+            />
             <div className={styles.bottom}>
               <div className={styles.google}>
                 <Image src="/icons/google.svg" width={31} height={31} alt="" />
-                <Text className={styles.reviews}>Reviews</Text>
+                <Text className={styles.reviews} size="h5">
+                  Reviews
+                </Text>
               </div>
 
               <div className={styles.stars}>
@@ -89,11 +102,16 @@ export default function Footer({ json }: PropsType) {
             </Text>
           </div>
 
-          <div>
+          <div className={styles.copyright}>
             {json?.footer?.map((link) => {
               return (
-                <Button asChild className={styles.link}>
-                  <a href={link.link} target="_blank" rel="noreferrer">
+                <Button asChild>
+                  <a
+                    href={link.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={styles.link}
+                  >
                     <Text> {link?.title}</Text>
                   </a>
                 </Button>
