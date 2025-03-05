@@ -16,6 +16,7 @@ const DATA_MAP = {
     "Category",
     "Framed",
     "Person",
+    "Certificate",
   ],
 } as const;
 

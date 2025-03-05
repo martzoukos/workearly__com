@@ -11,7 +11,6 @@ const DATA_MAP = {
     "Title and Text",
     "Project",
     "Rich Card",
-    "Certificate",
     "Key Metrics",
     "Business Testimonial",
     "Video Testimonial",

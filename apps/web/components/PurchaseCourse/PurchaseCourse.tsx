@@ -75,6 +75,7 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
               }}
               variant={purchaseType === "Personal" ? "Solid" : "Outlined"}
               onClick={() => setPurchaseType("Personal")}
+              data-state={purchaseType === "Personal" ? "active" : "inactive"}
             >
               {translate("Personal")}
             </Button>
@@ -85,6 +86,7 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
               }}
               variant={purchaseType === "Team" ? "Solid" : "Outlined"}
               onClick={() => setPurchaseType("Team")}
+              data-state={purchaseType === "Team" ? "active" : "inactive"}
             >
               {translate("Team")}
             </Button>

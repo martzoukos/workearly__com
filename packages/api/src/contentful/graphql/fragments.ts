@@ -135,6 +135,7 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
     text {
       json
     }
+    shortDescription
     expertise
     linkedIn
     asset {

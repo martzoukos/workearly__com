@@ -14,7 +14,15 @@ const IconTextCard = ({ card, className }: PropsType) => {
   return (
     <div className={clsx(styles.root, className)}>
       {card.asset?.url && card.asset.contentType !== "image/svg+xml" && (
-        <Image src={card.asset.url} alt="" width={24} height={24} />
+        <Image
+          src={card.asset.url}
+          alt=""
+          width={24}
+          height={24}
+          style={{
+            objectFit: "cover",
+          }}
+        />
       )}
       {card.asset?.url && card.asset.contentType === "image/svg+xml" && (
         <SvgRenderer src={card.asset.url} className={styles.svgWrapper} />

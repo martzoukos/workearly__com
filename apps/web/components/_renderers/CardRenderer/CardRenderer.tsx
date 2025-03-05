@@ -1,5 +1,4 @@
 import BusinessTestimonialCard from "@/components/_cards/BusinessTestimonialCard";
-import CertificateCard from "@/components/_cards/CertificateCard";
 import IconTextCard from "@/components/_cards/IconTextCard";
 import KeyMetricsCard from "@/components/_cards/KeyMetricsCard";
 import ProjectCard from "@/components/_cards/ProjectCard";
@@ -41,10 +40,6 @@ export default function CardRenderer({
     );
   } else if (variant === "Project") {
     return <ProjectCard card={card} className={className} />;
-  } else if (variant === "Certificate") {
-    return (
-      <CertificateCard card={card} columnCount={0} className={className} />
-    );
   } else if (variant === "Key Metrics") {
     return <KeyMetricsCard card={card} className={className} />;
   } else if (variant === "Rich Card") {

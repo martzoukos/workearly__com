@@ -29,6 +29,16 @@
 .buttons {
   display: flex;
   gap: 0.38rem;
+
+  button {
+    &[data-state="active"] {
+      border-color: var(--color-sys-border);
+    }
+
+    &[data-state="inactive"] {
+      border-color: var(--color-sys-border-muted);
+    }
+  }
 }
 
 .description {
@@ -52,7 +62,7 @@
 }
 
 .prices {
-  margin-block: fluid-rem(0.5rem, 2rem);
+  margin-block-end: fluid-rem(0.5rem, 2rem);
 }
 
 .banner {

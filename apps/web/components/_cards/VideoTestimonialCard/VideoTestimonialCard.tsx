@@ -1,9 +1,8 @@
+import Media from "@/components/Media";
 import Text from "@/components/Text";
 import { StarFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
-import Image from "next/image";
-import ReactPlayer from "react-player";
 import styles from "./VideoTestimonialCard.module.scss";
 
 type PropsType = {
@@ -12,33 +11,11 @@ type PropsType = {
 };
 
 export default function VideoTestimonialCard({ card, className }: PropsType) {
-  const asset = card.asset;
-
   return (
     <div className={clsx(styles.card, className)}>
       <div className={styles.content}>
         <div className={styles.playerWrapper}>
-          {asset?.url && (
-            <>
-              {asset?.contentType?.includes("video/") && (
-                <ReactPlayer
-                  url={asset.url}
-                  width="100%"
-                  height="100%"
-                  controls
-                />
-              )}
-              {asset?.contentType?.includes("image/") && (
-                <Image
-                  src={asset.url}
-                  width={asset.width || 0}
-                  height={asset.height || 0}
-                  alt=""
-                  className={styles.asset}
-                />
-              )}
-            </>
-          )}
+          {card.asset && <Media asset={card.asset} aspectRatio="auto" />}
         </div>
 
         <div className={styles.details}>

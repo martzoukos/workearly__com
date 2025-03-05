@@ -1,4 +1,4 @@
-import Button from "@/components/Button";
+import ActionButton from "@/components/ActionButton";
 import Text from "@/components/Text/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { QueryItem } from "@workearly/api";
@@ -70,14 +70,7 @@ function SectionActions({ as: Tag = "div", section, className }: PropsType) {
   return (
     <Tag className={clsx(styles.footer, className)}>
       {actions.map((action) => (
-        <Button
-          key={action.sys.id}
-          variant="Solid"
-          isRounded={true}
-          colorScheme="White"
-        >
-          {action.name}
-        </Button>
+        <ActionButton key={action.sys.id} action={action} />
       ))}
     </Tag>
   );
