@@ -2,6 +2,7 @@
 @use "@/styles/_breakpoints" as *;
 
 .root {
+  color: var(--color-ink-default);
   min-height: 37rem;
   border-radius: 1rem;
   display: flex;
