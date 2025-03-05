@@ -1,3 +1,4 @@
+import Media from "@/components/Media";
 import Person from "@/components/Person";
 import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
@@ -5,7 +6,6 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import { DateTime } from "luxon";
-import Image from "next/image";
 import styles from "./ArticleCard.module.scss";
 
 type PropsType = {
@@ -22,15 +22,16 @@ export default function ArticleCard({ page }: PropsType) {
   return (
     <Themed className={styles.root} isInverted={true}>
       {resourceDetails.asset?.url && (
-        <div className={styles.media}>
-          <Image
-            src={resourceDetails.asset.url}
-            fill={true}
-            alt={resourceDetails.name || ""}
-            quality={100}
-            sizes="30vw"
-          />
-        </div>
+        <Media
+          aspectRatio="14 / 6"
+          asset={resourceDetails.asset}
+          imageProps={{
+            alt: resourceDetails.name || "",
+            quality: 100,
+            sizes: "30vw",
+          }}
+          className={styles.media}
+        />
       )}
 
       <div className={styles.content}>

@@ -3,13 +3,12 @@
 .root {
   display: flex;
   gap: 0.5rem;
-  color: var(--color-sys-inverted);
   border-radius: 1rem;
   min-height: 22rem;
   padding-inline: fluid-rem(0rem, 5rem);
   gap: 8rem;
 
-  &[data-media="right"] {
+  &.reversed {
     flex-direction: row-reverse;
   }
 }

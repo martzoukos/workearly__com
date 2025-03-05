@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import { UserFilled } from "@carbon/icons-react";
@@ -12,7 +13,7 @@ type PropsType = {
 
 export default function ProjectCard({ card, className }: PropsType) {
   return (
-    <div className={clsx(styles.root, className)}>
+    <Card.Root className={clsx(styles.root, className)}>
       <div>
         {card?.title && <Text size="h6">{card.title}</Text>}
 
@@ -28,6 +29,6 @@ export default function ProjectCard({ card, className }: PropsType) {
         label={`${card.studentsCount} Students`}
         className={styles.statLabel}
       />
-    </div>
+    </Card.Root>
   );
 }

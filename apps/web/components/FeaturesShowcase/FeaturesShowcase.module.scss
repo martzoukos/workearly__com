@@ -1,17 +1,29 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
   display: grid;
   grid-template-columns: 1fr 2.5fr;
   gap: 1rem;
   color: hsl(var(--color-neutral-500));
+
+  @include media(md) {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .content {
+      flex-direction: column;
+    }
+  }
 }
 
 .navigation {
   display: flex;
   flex-direction: column;
   background-color: hsl(var(--color-black-450));
-  padding: 2.5rem;
+  padding: fluid-rem(0.5rem, 2.5rem, ("md", "xxl"));
   border-radius: 1rem;
-  gap: 2rem;
+  gap: fluid-rem(0.5rem, 2rem, ("md", "xxl"));
 }
 
 .navigationButton {
@@ -29,24 +41,25 @@
 }
 
 .content {
-  display: grid;
-  background-color: hsl(var(--color-black-450));
-  grid-template-columns: 1.5fr 1fr;
+  display: flex;
+  background-color: var(--color-sys-surface);
   align-items: center;
   border-radius: 1rem;
-  gap: 1rem;
-  padding-left: 3rem;
+  gap: fluid-rem(1.5rem, 3rem, ("md", "xxl"));
+  padding: fluid-rem(1rem, 3rem, ("md", "xxl"));
+}
+
+.contentText {
+  padding-inline-start: fluid-rem(0rem, 3rem, ("md", "xxl"));
+}
+
+.contentMedia {
+  img {
+    object-fit: contain;
+  }
 }
 
 .title {
   color: hsl(var(--color-green-500));
   margin-bottom: 1rem;
-}
-
-.border {
-  margin-inline: auto;
-  border: 2px dashed hsl(var(--color-black-400));
-  width: 60%;
-  height: 75%;
-  border-radius: 0.5rem;
 }

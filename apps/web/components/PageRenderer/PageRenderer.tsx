@@ -16,7 +16,7 @@ import styles from "./PageRenderer.module.scss";
 import Menu from "@/components/Menu/Menu";
 
 export default function PageRenderer() {
-  const { page } = useContentful();
+  const { page, footer } = useContentful();
   const { variant, theme } = usePageResolver(page);
 
   return (
@@ -29,9 +29,11 @@ export default function PageRenderer() {
       {variant === "Playground" && <PlaygroundPage className={styles.root} />}
       {variant === "Post" && <PostPage className={styles.root} />}
       {variant === "Job" && <JobPage className={styles.root} />}
+      {variant === "Certificate" && <JobPage className={styles.root} />}
       {variant === "Category" && <CategoryPage className={styles.root} />}
       {variant === "Framed" && <FramedPage className={styles.root} />}
       {variant === "Person" && <PersonPage className={styles.root} />}
+      {footer && <Footer json={footer.json} />}
     </ThemeProvider>
   );
 }

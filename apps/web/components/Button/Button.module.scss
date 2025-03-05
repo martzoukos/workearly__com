@@ -4,6 +4,7 @@
   border: none;
   transition-property: color, background, border, opacity;
   transition-duration: 200ms;
+  white-space: nowrap;
 
   background: var(--color-bg);
   color: var(--color-text);
@@ -132,7 +133,7 @@
     border-color: transparent;
   }
 
-  &:active {
+  &:not(:disabled):active {
     outline: none;
     &:after {
       border-color: var(--color-text);

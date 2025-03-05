@@ -5,7 +5,6 @@ import { documentToPlainTextString } from "@contentful/rich-text-plain-text-rend
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./UniqueComponent.module.scss";
-import Footer from "@/components/Footer";
 
 type PropsType = {
   uniqueComponent: QueryItem["UniqueComponent"];
@@ -16,8 +15,7 @@ export default function UniqueComponent({
   uniqueComponent,
   className,
 }: PropsType) {
-  const { variant, pages, tags, json } =
-    useUniqueComponentResolver(uniqueComponent);
+  const { variant, pages, tags } = useUniqueComponentResolver(uniqueComponent);
 
   return (
     <section className={clsx(styles.root, className)}>
@@ -30,13 +28,10 @@ export default function UniqueComponent({
           )}
         />
       )}
-      {variant === "Partners" && (
-        <PeopleIndex pages={pages} hideFilters className={styles.partners} />
-      )}
+      {variant === "Partners" && <PeopleIndex pages={pages} hideFilters />}
       {variant === "Courses" && (
         <CourseIndex pages={pages} title={uniqueComponent.title} tags={tags} />
       )}
-      {variant === "Footer" && <Footer json={json} />}
     </section>
   );
 }

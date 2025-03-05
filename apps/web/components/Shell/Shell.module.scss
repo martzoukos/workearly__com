@@ -1,0 +1,67 @@
+@use "@/styles/_settings" as *;
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: min(var(--container-width), 100%);
+  width: 100%;
+  margin-inline: auto;
+  align-items: var(--align-items);
+  color: var(--color-ink-default);
+  background: var(--color-sys-default);
+
+  &.alignmentCentered {
+    --align-items: center;
+
+    .header {
+      text-align: center;
+      max-width: min(80ch, 100%);
+    }
+
+    .headerContainer {
+      flex-direction: column;
+    }
+  }
+
+  &.alignmentLeft {
+    --align-items: flex-start;
+  }
+
+  &.sizeNarrow {
+    --container-width: calc(48rem - var(--page-padding-inline) * 2);
+  }
+
+  &.sizeWide {
+    --container-width: calc(80rem - var(--page-padding-inline) * 2);
+  }
+
+  &.sizeFull {
+    --container-width: calc(#{$container} - var(--page-padding-inline) * 2);
+  }
+}
+
+.content {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.headerContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.footer {
+  display: flex;
+  gap: 0.5rem;
+}

@@ -2,6 +2,7 @@ import { Client } from "@urql/core";
 import { uniqBy } from "lodash";
 import {
   CardReferenceTypeName,
+  CompositeReferenceTypeName,
   PageReferenceTypeName,
   QueryItem,
   RelationshipMap,
@@ -11,11 +12,13 @@ import {
 } from "../types";
 import { isDefined } from "../utils";
 import fetchCollection from "./fetchCollection";
+import fetchFooter from "./fetchFooter";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
   ACTION_COLLECTION_QUERY,
   CARD_COLLECTION_QUERY,
   CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY,
+  COMPOSITE_COLLECTION_QUERY,
   CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
   COURSE_DETAILS_COLLECTION_QUERY,
   PAGE_COLLECTION_QUERY,
@@ -27,6 +30,7 @@ import {
 
 type FuncReturnType = {
   page: QueryItem["Page"];
+  footer: QueryItem["UniqueComponent"];
   relationshipMap: RelationshipMap;
 };
 
@@ -44,9 +48,11 @@ export default async function fetchPageBySlug(
 
   const page = data?.pageCollection?.items[0] as QueryItem["Page"];
   const relationshipMap = await getPageRelationships(client, page);
+  const footer = await fetchFooter(client);
 
   return {
     page,
+    footer,
     relationshipMap,
   };
 }
@@ -55,18 +61,19 @@ async function getPageRelationships(
   client: Client,
   page: QueryItem["Page"]
 ): Promise<RelationshipMap> {
-  const pageSectionIds = extractPageDeepChildIds(
+  const compositeIds = extractPageDeepChildIds(
     { pageCollection: [page] },
-    "Section"
+    "Composite"
   );
-  const pageSectionCollection = await fetchCollection(client, {
-    ids: pageSectionIds,
-    query: SECTION_COLLECTION_QUERY,
-    mapItems: (data) => data?.sectionCollection?.items.filter(isDefined) || [],
+  const compositeCollection = await fetchCollection(client, {
+    ids: compositeIds,
+    query: COMPOSITE_COLLECTION_QUERY,
+    mapItems: (data) =>
+      data?.compositeCollection?.items.filter(isDefined) || [],
   });
 
   const sectionIds = extractPageDeepChildIds(
-    { pageCollection: [page], sectionCollection: pageSectionCollection },
+    { pageCollection: [page], compositeCollection },
     "Section"
   );
   const sectionCollection = await fetchCollection(client, {
@@ -206,6 +213,7 @@ async function getPageRelationships(
     courseDetailsCollection,
     peopleDetailsCollection,
     resourceDetailsCollection,
+    compositeCollection,
     sectionCollection,
     contentTypeRichTextCollection,
     uniqueComponentCollection,
@@ -222,6 +230,7 @@ async function getPageRelationships(
 function extractPageDeepChildIds(
   entities: {
     pageCollection: QueryItem["Page"][];
+    compositeCollection?: QueryItem["Composite"][];
     sectionCollection?: QueryItem["Section"][];
     cardCollection?: QueryItem["Card"][];
     uniqueComponentCollection?: QueryItem["UniqueComponent"][];
@@ -232,6 +241,14 @@ function extractPageDeepChildIds(
   const pageChildIds =
     entities.pageCollection?.flatMap((page) =>
       extractPageChildIds(page, contentTypeName as PageReferenceTypeName)
+    ) || [];
+
+  const compositeChildIds =
+    entities.compositeCollection?.flatMap((composite) =>
+      extractCompositeChildIds(
+        composite,
+        contentTypeName as CompositeReferenceTypeName
+      )
     ) || [];
 
   const sectionChildIds =
@@ -266,6 +283,7 @@ function extractPageDeepChildIds(
   return [
     ...new Set([
       ...pageChildIds,
+      ...compositeChildIds,
       ...sectionChildIds,
       ...cardChildIds,
       ...contentTypeRichTextChildIds,
@@ -280,6 +298,17 @@ function extractPageChildIds(
 ) {
   return (
     page?.contentCollection?.items
+      .filter((item) => item?.__typename === contentTypeName)
+      .map((item) => item?.sys.id as string) || []
+  );
+}
+
+function extractCompositeChildIds(
+  composite: QueryItem["Composite"],
+  contentTypeName: CompositeReferenceTypeName
+) {
+  return (
+    composite?.contentCollection?.items
       .filter((item) => item?.__typename === contentTypeName)
       .map((item) => item?.sys.id as string) || []
   );

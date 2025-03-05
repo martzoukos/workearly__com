@@ -45,7 +45,8 @@
     "sass": "^1.69.5",
     "swiper": "^11.2.2",
     "typescript": "5.5.4",
-    "use-query-params": "^2.2.1"
+    "use-query-params": "^2.2.1",
+    "usehooks-ts": "^3.1.1"
   },
   "devDependencies": {
     "typescript-plugin-css-modules": "^5.1.0"

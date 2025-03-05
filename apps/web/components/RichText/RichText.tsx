@@ -1,4 +1,4 @@
-import CallOutCard from "@/components/_cards/CallOutCard/CallOutCard";
+import CallOutCard from "@/components/_cards/CallOutCard";
 import {
   documentToReactComponents,
   Options,
@@ -9,7 +9,7 @@ import {
   Document,
   INLINES,
 } from "@contentful/rich-text-types";
-import { QueryItem } from "@workearly/api";
+import { QueryItem, RelationshipMapTypeName } from "@workearly/api";
 import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
 import dynamic from "next/dynamic";
@@ -92,14 +92,16 @@ function getOptions(
 
         if (asset.contentType?.includes("image/")) {
           return (
-            <div className={styles.imageContainer}>
+            <div className={styles.figureContainer}>
               <figure className={styles.figure}>
-                <Image
-                  src={asset.url}
-                  width={asset.width || 600}
-                  height={asset.height || 450}
-                  alt={asset.description || ""}
-                />
+                <div className={styles.imageContainer}>
+                  <Image
+                    src={asset.url}
+                    fill={true}
+                    sizes="50vw"
+                    alt={asset.description || ""}
+                  />
+                </div>
                 {asset.title && <figcaption>{asset.title}</figcaption>}
               </figure>
             </div>
@@ -152,13 +154,13 @@ function getOptions(
         }
 
         const reference = getReference(
-          blockEntry.__typename,
+          blockEntry.__typename as RelationshipMapTypeName,
           blockEntry.sys.id
         );
 
         if (
           reference?.__typename === "Card" &&
-          reference.variant === "Call out Card"
+          reference.variant === "Call Out"
         ) {
           return (
             <CallOutCard card={reference} className={styles.embeddedBlock} />
@@ -177,7 +179,7 @@ function getOptions(
         }
 
         const reference = getReference(
-          inlineEntry.__typename,
+          inlineEntry.__typename as RelationshipMapTypeName,
           inlineEntry.sys.id
         );
 

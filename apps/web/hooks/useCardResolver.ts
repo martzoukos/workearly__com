@@ -1,25 +1,27 @@
 import { useContentful } from "@/stores/ContentfulStore";
-import { isDefined, QueryItem, CardReferenceTypeName } from "@workearly/api";
+import { CardReferenceTypeName, isDefined, QueryItem } from "@workearly/api";
 
 const DATA_MAP = {
   referenceFields: {
     Action: "actionsCollection",
   },
   variants: [
-    "Testimonial",
-    "Icon and Text",
     "Title and Text",
+    "Icon and Text",
+    "Key Metric",
+    "Rich",
     "Project",
-    "Rich Card",
-    "Certificate",
-    "Key Metrics",
+    "Business Testimonial",
+    "Video Testimonial",
+    "Call Out",
+    "Category",
   ],
 } as const;
 
 export type CardVariantType = (typeof DATA_MAP.variants)[number] | undefined;
 
 export default function useCardResolver(card: QueryItem["Card"]) {
-  const { getReferences: getContentfulReferences, page } = useContentful();
+  const { getReferences: getContentfulReferences } = useContentful();
   const variant = card.variant as CardVariantType;
 
   function getReferences<T extends CardReferenceTypeName>(

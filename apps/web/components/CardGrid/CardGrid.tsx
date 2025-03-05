@@ -1,66 +1,46 @@
-import CertificateCard from "@/components/_cards/CertificateCard";
-import IconTextCard from "@/components/_cards/IconTextCard";
-import KeyMetricsCard from "@/components/_cards/KeyMetricsCard";
-import ProjectCard from "@/components/_cards/ProjectCard";
-import RichCard from "@/components/_cards/RichCard";
-import TestimonialCard from "@/components/_cards/TestimonialCard";
-import TitleTextCard from "@/components/_cards/TitleTextCard";
+import CardRenderer from "@/components/_renderers/CardRenderer";
+import PageCardRenderer from "@/components/_renderers/PageCardRenderer";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
+import { Themed, ThemeType } from "@workearly/theme";
 import clsx from "clsx";
 import styles from "./CardGrid.module.scss";
 
 type PropsType = {
-  cards: QueryItem["Card"][];
+  cards: QueryItem["Card"][] | undefined | null;
+  pages: QueryItem["Page"][] | undefined | null;
   fallbackVariant: CardVariantType;
+  cardTheme: ThemeType;
   columnCount: number;
   className?: string;
 };
 
 export default function CardGrid({
   cards,
+  pages,
   fallbackVariant,
   className,
   columnCount,
+  cardTheme,
 }: PropsType) {
   const style = {
     "--column-count": columnCount,
   } as React.CSSProperties;
 
   return (
-    <div className={clsx(styles.root, className)} style={style}>
-      {cards.map((card) => (
-        <Card key={card.sys.id} card={card} fallbackVariant={fallbackVariant} />
+    <Themed
+      theme={cardTheme}
+      className={clsx(styles.root, className)}
+      style={style}
+    >
+      {cards?.map((card) => (
+        <CardRenderer
+          key={card.sys.id}
+          card={card}
+          fallbackVariant={fallbackVariant}
+        />
       ))}
-    </div>
+      {pages?.map((page) => <PageCardRenderer key={page.sys.id} page={page} />)}
+    </Themed>
   );
-}
-
-type CardPropsType = {
-  card: QueryItem["Card"];
-  fallbackVariant?: CardVariantType;
-};
-
-export function Card({ card, fallbackVariant }: CardPropsType) {
-  const variant = (card.variant || fallbackVariant) as CardVariantType;
-
-  if (!variant) {
-    return null;
-  }
-
-  if (variant === "Testimonial") {
-    return <TestimonialCard card={card} />;
-  } else if (variant === "Icon and Text") {
-    return <IconTextCard card={card} />;
-  } else if (variant === "Title and Text") {
-    return <TitleTextCard title={card.title} text={card.text} />;
-  } else if (variant === "Project") {
-    return <ProjectCard card={card} />;
-  } else if (variant === "Certificate") {
-    return <CertificateCard card={card} columnCount={0} />;
-  } else if (variant === "Key Metrics") {
-    return <KeyMetricsCard card={card} />;
-  } else if (variant === "Rich Card") {
-    return <RichCard card={card} />;
-  }
 }

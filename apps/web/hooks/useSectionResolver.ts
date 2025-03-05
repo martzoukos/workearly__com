@@ -13,11 +13,12 @@ type MetadataType = {
   values: Array<{ title: string; amount: string; percentage: string }>;
 };
 
+export type SectionSize = (typeof DATA_MAP.size)[number];
+
 const DATA_MAP = {
-  alignment: {
-    Left: "flex-start",
-    Centered: "center",
-  },
+  layout: ["Default", "Alt"],
+  size: ["Narrow", "Wide", "Full"],
+  alignment: ["Left", "Centered"],
   referenceFields: {
     AccordionCard: "contentCollection",
     Action: "actionsCollection",
@@ -33,12 +34,9 @@ const DATA_MAP = {
     "Card Hybrid",
     "Card Showcase",
     "Accordion",
-    "Tabs",
-    "Tabs Alt",
     "Media Showcase",
     "Logo Showcase",
     "Logo Carousel",
-    "Related Articles",
     "Steps Showcase",
     "Features Showcase",
     "Project",
@@ -53,12 +51,19 @@ const DATA_MAP = {
 export default function useSectionResolver(section: QueryItem["Section"]) {
   const { getReferences: getContentfulReferences, page } = useContentful();
   const { theme: pageTheme } = usePageResolver(page);
-  const flexAlignment =
-    DATA_MAP.alignment[section.alignment as keyof typeof DATA_MAP.alignment] ??
-    DATA_MAP.alignment.Left;
   const cardsCount = section.cardsCount ?? 1;
   const variant = (section.variant ??
     "Default") as (typeof DATA_MAP.variants)[number];
+  const layout = (section.layout ??
+    "Default") as (typeof DATA_MAP.layout)[number];
+  const alignment = (section.alignment ??
+    "Left") as (typeof DATA_MAP.alignment)[number];
+  const cardTheme = (section.cardTheme?.toLowerCase() ??
+    pageTheme) as ThemeType;
+  const metadata: MetadataType | undefined = section.metadata;
+  const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
+  const titleSize = section.titleSize as TextProps["size"];
+  const size = (section.size ?? "Full") as SectionSize;
 
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
@@ -91,12 +96,8 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     });
   }
 
-  const metadata: MetadataType | undefined = section.metadata;
-  const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
-  const titleSize = section.titleSize as TextProps["size"];
-
   return {
-    flexAlignment,
+    alignment,
     cardsCount,
     variant,
     getReferences,
@@ -104,5 +105,8 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     metadata,
     theme,
     titleSize,
+    size,
+    layout,
+    cardTheme,
   };
 }

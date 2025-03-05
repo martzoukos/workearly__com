@@ -1,10 +1,12 @@
+import Viewport from "@/components/Viewport";
+import { ChevronDown } from "@carbon/icons-react";
 import {
   documentToReactComponents,
   Options,
 } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, Text as ContentfulText } from "@contentful/rich-text-types";
-import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
+import { Accordion } from "radix-ui";
 import useHeadingsObserver from "../../hooks/useHeadingsObserver";
 import usePageResolver from "../../hooks/usePageResolver";
 import { useContentful } from "../../stores/ContentfulStore";
@@ -57,13 +59,37 @@ export default function PostOutline() {
   }
 
   return (
-    <aside className={styles.root}>
-      <Text as="h6" className={styles.title}>
-        {resourceDetails.name}
-      </Text>
-      <ul className={styles.list}>
-        {documentToReactComponents(headingsDoc, options)}
-      </ul>
-    </aside>
+    <>
+      <Viewport showUntil="md">
+        <Accordion.Root type="single" collapsible>
+          <Accordion.Item asChild value="item-1">
+            <aside className={styles.root}>
+              <Accordion.Header>
+                <Accordion.Trigger className={styles.trigger}>
+                  <Text as="h6">Table of contents</Text>
+                  <ChevronDown aria-hidden className={styles.triggerChevron} />
+                </Accordion.Trigger>
+              </Accordion.Header>
+              <Accordion.Content>
+                <ul className={styles.list}>
+                  {documentToReactComponents(headingsDoc, options)}
+                </ul>
+              </Accordion.Content>
+            </aside>
+          </Accordion.Item>
+        </Accordion.Root>
+      </Viewport>
+
+      <Viewport showAfter="md">
+        <aside className={styles.root}>
+          <Text as="h6" className={styles.title}>
+            {resourceDetails.name}
+          </Text>
+          <ul className={styles.list}>
+            {documentToReactComponents(headingsDoc, options)}
+          </ul>
+        </aside>
+      </Viewport>
+    </>
   );
 }

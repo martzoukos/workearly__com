@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.spacingSmall {
+  gap: 1rem;
+}
+
+.spacingMedium {
+  gap: 2rem;
+}
+
+.spacingLarge {
+  gap: 4rem;
+}

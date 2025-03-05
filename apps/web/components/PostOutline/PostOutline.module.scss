@@ -1,10 +1,36 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
   padding: 1rem;
-  background: var(--color-sys-surface);
+  background: var(--color-sys-surface-1);
   border-radius: 1rem;
   height: fit-content;
   position: sticky;
   top: 1rem;
+
+  @include media(md) {
+    border-radius: 0.5rem;
+  }
+}
+
+.trigger {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  &[data-state="open"] {
+    padding-block-end: 0.75rem;
+  }
+
+  &[data-state="open"] {
+    .triggerChevron {
+      transition: transform 300ms cubic-bezier(0.87, 0, 0.13, 1);
+      transform: rotate(180deg);
+    }
+  }
 }
 
 .title {

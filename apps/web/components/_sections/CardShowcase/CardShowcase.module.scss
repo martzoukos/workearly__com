@@ -1,13 +1,26 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
-  --gap: 3rem;
+  --gap: #{fluid-rem(1.5rem, 3rem, ("md", "xxl"))};
   background: var(--color-sys-default);
   color: var(--color-ink-default);
   border-radius: 1rem;
   min-width: 0;
-}
-
-.swiperWrapper {
   padding-block: var(--gap);
+  padding-inline: reverse-fluid-rem(1.5rem, 0rem, ("md", "xxl"));
+
+  @include media(md) {
+    .headerWrapper {
+      --gap: 0.75rem;
+      padding-inline: 0;
+      margin-block-end: 1.25rem;
+    }
+
+    .footer {
+      margin-block-start: 1.25rem;
+    }
+  }
 }
 
 .headerWrapper {
@@ -16,7 +29,6 @@
   justify-content: space-between;
   gap: var(--gap);
   padding-inline: var(--gap);
-  height: 100%;
 }
 
 .header {
@@ -31,6 +43,7 @@
 }
 
 .cardSlide {
+  padding-block: 2px;
   width: fit-content;
 }
 
@@ -47,7 +60,7 @@
 .metadataBar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-sys-surface-2);
+  background-color: var(--color-sys-surface-3);
   border: 1px solid var(--color-sys-border-muted);
   border-radius: 1rem;
   padding: 0.5rem 1rem;

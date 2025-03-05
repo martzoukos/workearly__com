@@ -1,13 +1,13 @@
+import CoursePrices from "@/components/CoursePrices";
 import StatLabel from "@/components/StatLabel";
-import Text from "@/components/Text/Text";
+import Text from "@/components/Text";
+import usePageResolver from "@/hooks/usePageResolver";
 import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
-import usePageResolver from "../../../hooks/usePageResolver";
-import CoursePrices from "../../CoursePrices/CoursePrices";
 import styles from "./CourseCard.module.scss";
 
 const variants = cva(styles.root, {

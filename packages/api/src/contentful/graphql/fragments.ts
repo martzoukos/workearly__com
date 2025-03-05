@@ -70,6 +70,7 @@ export const CARD_FIELDS = graphql(`
     variant
     studentsCount
     rating
+    tags
     asset {
       ...AssetFields
     }
@@ -128,11 +129,13 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
   fragment PeopleDetailsFields on PeopleDetails {
     ...EntryFields
     name
+    variant
     role
     company
     text {
       json
     }
+    shortDescription
     expertise
     linkedIn
     asset {
@@ -205,15 +208,19 @@ export const SECTION_FIELDS = graphql(`
   fragment SectionFields on Section {
     ...EntryFields
     alignment
+    layout
+    size
+    theme
     title
     supertitle
     text
-    cardVariant
-    variant
-    cardsCount
-    theme
-    metadata
     titleSize
+    cardVariant
+    cardsCount
+    cardTheme
+    variant
+    metadata
+
     actionsCollection {
       items {
         ...EntryFields
@@ -224,6 +231,28 @@ export const SECTION_FIELDS = graphql(`
         ...AssetFields
       }
     }
+    contentCollection {
+      items {
+        ... on Entry {
+          ...EntryFields
+        }
+      }
+    }
+  }
+`);
+
+export const COMPOSITE_FIELDS = graphql(`
+  fragment CompositeFields on Composite {
+    ...EntryFields
+    variant
+    alignment
+    layout
+    size
+    theme
+    title
+    supertitle
+    text
+    spacing
     contentCollection {
       items {
         ... on Entry {

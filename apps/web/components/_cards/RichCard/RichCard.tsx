@@ -1,4 +1,5 @@
 import Button from "@/components/Button/Button";
+import Card from "@/components/Card";
 import Text from "@/components/Text/Text";
 import { isDefined, QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -21,7 +22,7 @@ export default function RichCard({ card, className }: PropsType) {
   const actions = getReferences("Action", actionIds);
 
   return (
-    <div className={clsx(styles.root, className)}>
+    <Card.Root className={clsx(styles.root, className)}>
       {card?.title && <Text className={styles.title}>{card.title}</Text>}
 
       <div className={styles.content}>
@@ -51,6 +52,6 @@ export default function RichCard({ card, className }: PropsType) {
           <Text size="h6"> {action.name}</Text>
         </Button>
       ))}
-    </div>
+    </Card.Root>
   );
 }

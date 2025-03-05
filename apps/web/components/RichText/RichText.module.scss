@@ -24,7 +24,7 @@
   .blockquoteContainer {
     margin-block-start: 4rem;
     padding: 0.5rem;
-    background: var(--color-sys-surface-2);
+    background: var(--color-sys-surface-3);
     border: 1px solid var(--color-sys-border);
 
     blockquote {
@@ -56,10 +56,9 @@
     }
   }
 
-  .imageContainer {
+  .figureContainer {
     padding: 0.5rem;
     border: 1px solid hsl(var(--color-black-500));
-    width: fit-content;
     margin-block-start: 4rem;
     margin-inline: auto;
 
@@ -67,12 +66,18 @@
       display: flex;
       flex-direction: column;
       padding: 0.5rem;
-      width: fit-content;
       border: 1px solid hsl(var(--color-black-500));
       background: hsl(var(--color-neutral-400));
 
-      img {
-        border-radius: 0.5rem;
+      .imageContainer {
+        width: 100%;
+        height: 28rem;
+        position: relative;
+
+        img {
+          object-fit: cover;
+          border-radius: 0.5rem;
+        }
       }
 
       figcaption {

@@ -1,0 +1,15 @@
+.root {
+  --total-gap-width: calc(var(--gap) * (var(--column-count) - 1));
+  --column-width: calc(
+    (var(--container-width) - var(--total-gap-width)) / var(--column-count)
+  );
+
+  width: min(
+    calc(100vw - 2 * var(--page-padding-inline)),
+    var(--container-width)
+  );
+}
+
+.card {
+  max-width: var(--column-width);
+}

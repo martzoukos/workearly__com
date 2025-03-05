@@ -4,10 +4,9 @@
 
 .mediaContainer {
   position: relative;
-  aspect-ratio: var(--aspect-ratio, 16 / 9);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  aspect-ratio: var(--aspect-ratio);
+  height: var(--height);
+  width: 100%;
 
   img {
     width: 100%;

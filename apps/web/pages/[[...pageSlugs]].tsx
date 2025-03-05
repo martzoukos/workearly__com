@@ -11,10 +11,15 @@ import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 
 export default function Page({
   page,
+  footer,
   relationshipMap,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
-    <ContentfulProvider page={page} relationshipMap={relationshipMap}>
+    <ContentfulProvider
+      page={page}
+      relationshipMap={relationshipMap}
+      footer={footer}
+    >
       <PageRenderer />
     </ContentfulProvider>
   );
@@ -27,11 +32,15 @@ export async function getStaticProps(
   const pageSlug = getPageSlug(context.params?.pageSlugs);
 
   try {
-    const { page, relationshipMap } = await fetchPageBySlug(client, pageSlug);
+    const { page, relationshipMap, footer } = await fetchPageBySlug(
+      client,
+      pageSlug
+    );
 
     return {
       props: {
         page,
+        footer,
         relationshipMap,
       },
     };

@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.4rem;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.list,
+.actions {
+  display: flex;
+  gap: 0.4rem;
+}

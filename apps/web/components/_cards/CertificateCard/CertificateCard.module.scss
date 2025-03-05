@@ -1,28 +1,22 @@
-@use "@/styles/_index" as *;
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
 
 .card {
   display: flex;
-  background-color: hsl(var(--color-black-450));
-  color: hsl(var(--color-neutral-500));
-  padding: 1rem;
+  background-color: var(--color-sys-surface);
+  color: var(--color-ink-default);
+  padding: 1rem fluid-rem(0.75rem, 1rem);
   border-radius: 0.75rem;
   gap: 1rem;
 
-  &[data-column="true"] {
+  @include media(lg) {
     flex-direction: column;
   }
-}
-
-.media {
-  max-width: 50%;
-  object-fit: contain;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  &[data-column="true"] {
-    gap: 1rem;
-  }
+  gap: 0.5rem;
 }
