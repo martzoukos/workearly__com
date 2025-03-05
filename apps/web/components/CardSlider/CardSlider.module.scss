@@ -5,7 +5,7 @@
   );
 
   width: min(
-    calc(100vw - 2 * var(--page-padding-inline)),
+    calc(100vw - 4 * var(--page-padding-inline)),
     var(--container-width)
   );
 }
