@@ -1,4 +1,5 @@
 import ActionButton from "@/components/ActionButton";
+import Section from "@/components/Section";
 import Text from "@/components/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { isDefined, QueryItem } from "@workearly/api";
@@ -17,7 +18,7 @@ export default function Hero({ section }: PropsType) {
   const asset = assets.at(0);
 
   return (
-    <div className={styles.root}>
+    <Section.Root section={section} className={styles.root}>
       <div className={styles.content}>
         <Text as="h1" size={titleSize ?? "d2"}>
           {section.title}
@@ -49,6 +50,6 @@ export default function Hero({ section }: PropsType) {
           />
         </div>
       )}
-    </div>
+    </Section.Root>
   );
 }

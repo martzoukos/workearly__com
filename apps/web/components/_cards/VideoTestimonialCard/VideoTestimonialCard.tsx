@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Media from "@/components/Media";
 import Text from "@/components/Text";
 import { StarFilled } from "@carbon/icons-react";
@@ -12,7 +13,7 @@ type PropsType = {
 
 export default function VideoTestimonialCard({ card, className }: PropsType) {
   return (
-    <div className={clsx(styles.card, className)}>
+    <Card.Root className={clsx(styles.card, className)}>
       <div className={styles.content}>
         <div className={styles.playerWrapper}>
           {card.asset && <Media asset={card.asset} aspectRatio="auto" />}
@@ -31,6 +32,6 @@ export default function VideoTestimonialCard({ card, className }: PropsType) {
           {card.text && <Text>{card.text}</Text>}
         </div>
       </div>
-    </div>
+    </Card.Root>
   );
 }

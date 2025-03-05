@@ -1,9 +1,10 @@
-import Text from "@/components/Text";
-import styles from "./HeroBackground.module.scss";
-import { QueryItem } from "@workearly/api";
-import useSectionResolver from "@/hooks/useSectionResolver";
 import ActionButton from "@/components/ActionButton";
+import Section from "@/components/Section";
+import Text from "@/components/Text";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import { QueryItem } from "@workearly/api";
 import Image from "next/image";
+import styles from "./HeroBackground.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -15,11 +16,11 @@ export default function HeroBackground({ section }: PropsType) {
   const asset = section.assetsCollection?.items[0];
 
   return (
-    <section className={styles.root}>
-      <div className={styles.content}>
+    <Section.Root section={section} className={styles.root}>
+      <header className={styles.header}>
         {section.title && <Text size="h1">{section.title}</Text>}
         {section.text && <Text size="h5">{section.text}</Text>}
-      </div>
+      </header>
 
       {actions.length > 0 && (
         <div className={styles.actions}>
@@ -29,15 +30,18 @@ export default function HeroBackground({ section }: PropsType) {
         </div>
       )}
 
-      {asset && (
+      {asset?.url && (
         <Image
-          src={asset.url || ""}
-          width={asset.width || 0}
-          height={asset.height || 0}
-          alt=""
-          className={styles.media}
+          src={asset.url}
+          alt={asset.title || ""}
+          fill={true}
+          style={{
+            objectFit: "cover",
+            zIndex: -1,
+          }}
+          sizes="1440px"
         />
       )}
-    </section>
+    </Section.Root>
   );
 }

@@ -1,9 +1,9 @@
 import BusinessTestimonialCard from "@/components/_cards/BusinessTestimonialCard";
+import CallOutCard from "@/components/_cards/CallOutCard";
 import IconTextCard from "@/components/_cards/IconTextCard";
-import KeyMetricsCard from "@/components/_cards/KeyMetricsCard";
+import KeyMetricCard from "@/components/_cards/KeyMetricCard";
 import ProjectCard from "@/components/_cards/ProjectCard";
 import RichCard from "@/components/_cards/RichCard";
-import TestimonialCard from "@/components/_cards/TestimonialCard";
 import TitleTextCard from "@/components/_cards/TitleTextCard";
 import VideoTestimonialCard from "@/components/_cards/VideoTestimonialCard";
 import { CardVariantType } from "@/hooks/useCardResolver";
@@ -26,9 +26,7 @@ export default function CardRenderer({
     return null;
   }
 
-  if (variant === "Testimonial") {
-    return <TestimonialCard card={card} className={className} />;
-  } else if (variant === "Icon and Text") {
+  if (variant === "Icon and Text") {
     return <IconTextCard card={card} className={className} />;
   } else if (variant === "Title and Text") {
     return (
@@ -40,14 +38,16 @@ export default function CardRenderer({
     );
   } else if (variant === "Project") {
     return <ProjectCard card={card} className={className} />;
-  } else if (variant === "Key Metrics") {
-    return <KeyMetricsCard card={card} className={className} />;
-  } else if (variant === "Rich Card") {
+  } else if (variant === "Key Metric") {
+    return <KeyMetricCard card={card} className={className} />;
+  } else if (variant === "Rich") {
     return <RichCard card={card} />;
   } else if (variant === "Business Testimonial") {
     return <BusinessTestimonialCard card={card} className={className} />;
   } else if (variant === "Video Testimonial") {
     return <VideoTestimonialCard card={card} className={className} />;
+  } else if (variant === "Call Out") {
+    return <CallOutCard card={card} className={className} />;
   }
 
   return null;

@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Text from "@/components/Text/";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -10,7 +11,7 @@ type PropsType = {
 
 const KeyMetricsCard = ({ card, className }: PropsType) => {
   return (
-    <div className={clsx(styles.card, className)}>
+    <Card.Root className={clsx(styles.card, className)}>
       {card?.title && (
         <Text size="d2" className={styles.title}>
           {card.title}
@@ -22,7 +23,7 @@ const KeyMetricsCard = ({ card, className }: PropsType) => {
           {card.text}
         </Text>
       )}
-    </div>
+    </Card.Root>
   );
 };
 

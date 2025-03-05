@@ -214,8 +214,9 @@ export const SECTION_FIELDS = graphql(`
     size
     text
     cardVariant
-    variant
     cardsCount
+    cardTheme
+    variant
     theme
     metadata
     titleSize

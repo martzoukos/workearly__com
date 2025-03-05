@@ -1,4 +1,4 @@
-import CallOutCard from "@/components/_cards/CallOutCard/CallOutCard";
+import CallOutCard from "@/components/_cards/CallOutCard";
 import {
   documentToReactComponents,
   Options,
@@ -160,7 +160,7 @@ function getOptions(
 
         if (
           reference?.__typename === "Card" &&
-          reference.variant === "Call out Card"
+          reference.variant === "Call Out"
         ) {
           return (
             <CallOutCard card={reference} className={styles.embeddedBlock} />

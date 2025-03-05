@@ -58,6 +58,8 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     "Default") as (typeof DATA_MAP.layout)[number];
   const alignment = (section.alignment ??
     "Left") as (typeof DATA_MAP.alignment)[number];
+  const cardTheme = (section.cardTheme?.toLowerCase() ??
+    pageTheme) as ThemeType;
 
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
@@ -106,5 +108,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     titleSize,
     size,
     layout,
+    cardTheme,
   };
 }

@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Text from "@/components/Text";
 import { QueryItem } from "@workearly/api";
 import Image from "next/image";
@@ -14,7 +15,7 @@ export default function BusinessTestimonialCard({ card }: PropsType) {
   const tags = card?.tags || [];
 
   return (
-    <div className={styles.card}>
+    <Card.Root className={styles.card}>
       <div className={styles.content}>
         <div className={styles.mediaContainer}>
           {asset?.url && (
@@ -52,6 +53,6 @@ export default function BusinessTestimonialCard({ card }: PropsType) {
           )}
         </div>
       </div>
-    </div>
+    </Card.Root>
   );
 }

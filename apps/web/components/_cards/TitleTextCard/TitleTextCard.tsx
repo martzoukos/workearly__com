@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Text from "@/components/Text/Text";
 import clsx from "clsx";
 import { PropsWithChildren, ReactNode } from "react";
@@ -11,11 +12,11 @@ type PropsType = PropsWithChildren<{
 
 const TitleTextCard = ({ title, text, children, className }: PropsType) => {
   return (
-    <div className={clsx(styles.root, className)}>
+    <Card.Root className={clsx(styles.root, className)}>
       {title && <Text size="h6">{title}</Text>}
       {text && <Text size="small">{text}</Text>}
       {children}
-    </div>
+    </Card.Root>
   );
 };
 

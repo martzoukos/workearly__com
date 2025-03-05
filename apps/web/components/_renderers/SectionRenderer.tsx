@@ -23,7 +23,7 @@ type PropsType = {
 };
 
 export default function SectionRenderer({ section, className }: PropsType) {
-  const { cardsCount, variant, getReferences, layout } =
+  const { cardsCount, variant, getReferences, layout, cardTheme } =
     useSectionResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
 
@@ -41,6 +41,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
           pages={pages}
           fallbackVariant={section.cardVariant as CardVariantType}
           columnCount={cardsCount}
+          cardTheme={cardTheme}
         />
       </SectionLayout>
     );
@@ -55,6 +56,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
           pages={pages}
           fallbackVariant={section.cardVariant as CardVariantType}
           columnCount={cardsCount}
+          cardTheme={cardTheme}
         />
       </SectionLayout>
     );
@@ -70,6 +72,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
             pages={pages}
             fallbackVariant={section.cardVariant as CardVariantType}
             columnCount={cardsCount}
+            cardTheme={cardTheme}
           />
         ) : (
           <CardGrid
@@ -77,6 +80,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
             pages={pages}
             fallbackVariant={section.cardVariant as CardVariantType}
             columnCount={cardsCount}
+            cardTheme={cardTheme}
           />
         )}
       </SectionLayout>

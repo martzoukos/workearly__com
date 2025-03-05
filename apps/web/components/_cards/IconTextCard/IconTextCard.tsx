@@ -1,3 +1,4 @@
+import Card from "@/components/Card";
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
 import { SvgRenderer } from "@workearly/svg";
@@ -12,7 +13,7 @@ type PropsType = {
 
 const IconTextCard = ({ card, className }: PropsType) => {
   return (
-    <div className={clsx(styles.root, className)}>
+    <Card.Root className={clsx(styles.root, className)}>
       {card.asset?.url && card.asset.contentType !== "image/svg+xml" && (
         <Image
           src={card.asset.url}
@@ -33,7 +34,7 @@ const IconTextCard = ({ card, className }: PropsType) => {
         </Text>
       )}
       {card?.text && <Text size="small">{card.text}</Text>}
-    </div>
+    </Card.Root>
   );
 };
 

@@ -19,11 +19,12 @@ function SectionRoot({
   className,
   children,
 }: PropsType) {
-  const { alignment, size } = useSectionResolver(section);
+  const { alignment, size, theme } = useSectionResolver(section);
 
   return (
     <Themed
       as={Tag}
+      theme={theme}
       className={clsx(
         styles.root,
         styles[`size${size}`],

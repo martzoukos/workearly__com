@@ -1,8 +1,6 @@
 @use "@/styles/index" as *;
 
 .root {
-  background-color: var(--color-sys-surface);
-  color: var(--color-ink-default);
   display: flex;
   flex-direction: column;
   padding: 1rem;
