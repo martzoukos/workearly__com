@@ -26,7 +26,7 @@ export default function PageRenderer() {
       {variant === "Playground" && <PlaygroundPage className={styles.root} />}
       {variant === "Post" && <PostPage className={styles.root} />}
       {variant === "Job" && <JobPage className={styles.root} />}
-      {variant === "Certificate" && <JobPage className={styles.root} />}
+      {variant === "Certificate" && <PersonPage className={styles.root} />}
       {variant === "Category" && <CategoryPage className={styles.root} />}
       {variant === "Framed" && <FramedPage className={styles.root} />}
       {variant === "Person" && <PersonPage className={styles.root} />}
