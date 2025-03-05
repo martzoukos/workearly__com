@@ -188,6 +188,7 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
   fragment UniqueComponentFields on UniqueComponent {
     ...EntryFields
     variant
+    hideFilters
     title
     json
     description {

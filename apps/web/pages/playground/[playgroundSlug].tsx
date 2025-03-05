@@ -12,12 +12,14 @@ export default function Page({
   page,
   relationshipMap,
   footer,
+  header,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <ContentfulProvider
       page={page}
       relationshipMap={relationshipMap}
       footer={footer}
+      header={header}
     >
       <NextSeo nofollow noindex />
       <PageRenderer />
@@ -32,7 +34,7 @@ export async function getStaticProps(
   const pageSlug = context.params?.playgroundSlug || "";
 
   try {
-    const { page, relationshipMap, footer } = await fetchPageBySlug(
+    const { page, relationshipMap, footer, header } = await fetchPageBySlug(
       client,
       pageSlug
     );
@@ -40,6 +42,7 @@ export async function getStaticProps(
     return {
       props: {
         page,
+        header,
         relationshipMap,
         footer,
       },

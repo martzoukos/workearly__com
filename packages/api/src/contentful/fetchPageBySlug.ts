@@ -13,6 +13,7 @@ import {
 import { isDefined } from "../utils";
 import fetchCollection from "./fetchCollection";
 import fetchFooter from "./fetchFooter";
+import fetchHeader from "./fetchHeader";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
   ACTION_COLLECTION_QUERY,
@@ -31,6 +32,7 @@ import {
 type FuncReturnType = {
   page: QueryItem["Page"];
   footer: QueryItem["UniqueComponent"];
+  header: QueryItem["UniqueComponent"];
   relationshipMap: RelationshipMap;
 };
 
@@ -48,11 +50,15 @@ export default async function fetchPageBySlug(
 
   const page = data?.pageCollection?.items[0] as QueryItem["Page"];
   const relationshipMap = await getPageRelationships(client, page);
-  const footer = await fetchFooter(client);
+  const [footer, header] = await Promise.all([
+    fetchFooter(client),
+    fetchHeader(client),
+  ]);
 
   return {
     page,
     footer,
+    header,
     relationshipMap,
   };
 }

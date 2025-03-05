@@ -26,9 +26,15 @@ export default function UniqueComponent({
           subtitle={documentToPlainTextString(
             uniqueComponent.description?.json
           )}
+          hideFilters={Boolean(uniqueComponent.hideFilters)}
         />
       )}
-      {variant === "Partners" && <PeopleIndex pages={pages} hideFilters />}
+      {variant === "Partners" && (
+        <PeopleIndex
+          pages={pages}
+          hideFilters={uniqueComponent.hideFilters ?? true}
+        />
+      )}
       {variant === "Courses" && (
         <CourseIndex pages={pages} title={uniqueComponent.title} tags={tags} />
       )}

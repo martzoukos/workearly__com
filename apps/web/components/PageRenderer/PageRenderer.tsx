@@ -13,17 +13,15 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ThemeProvider } from "@workearly/theme";
 import styles from "./PageRenderer.module.scss";
-import Menu from "@/components/Menu/Menu";
 
 export default function PageRenderer() {
-  const { page, footer } = useContentful();
+  const { page, footer, header } = useContentful();
   const { variant, theme } = usePageResolver(page);
 
   return (
     <ThemeProvider defaultRootTheme={theme}>
-      <Menu />
       <PreviewPanel />
-      <Header />
+      {header && <Header uniqueComponent={header} />}
       {variant === "Default" && <DefaultPage className={styles.root} />}
       {variant === "Course" && <CoursePage className={styles.root} />}
       {variant === "Playground" && <PlaygroundPage className={styles.root} />}
