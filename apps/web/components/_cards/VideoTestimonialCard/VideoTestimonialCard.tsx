@@ -15,9 +15,11 @@ export default function VideoTestimonialCard({ card, className }: PropsType) {
   return (
     <Card.Root className={clsx(styles.card, className)}>
       <div className={styles.content}>
-        <div className={styles.playerWrapper}>
-          {card.asset && <Media asset={card.asset} aspectRatio="auto" />}
-        </div>
+        {card.asset && (
+          <div className={styles.playerWrapper}>
+            <Media asset={card.asset} aspectRatio="auto" />
+          </div>
+        )}
 
         <div className={styles.details}>
           {card.rating && (
