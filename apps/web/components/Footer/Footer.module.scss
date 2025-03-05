@@ -1,4 +1,6 @@
 @use "@/styles/_helpers" as *;
+@use "@/styles/_breakpoints" as *;
+@use "@/styles/_functions" as *;
 
 // Remove / move this (Should be at Shell/Section level)
 .container {
@@ -10,6 +12,46 @@
   border-radius: 1rem 1rem 0rem 0rem;
   background-color: var(--color-ink-default);
   color: var(--color-ink-inverted);
+
+  @include media(md) {
+    .header {
+      flex-direction: column;
+    }
+
+    .columnOne {
+      max-width: unset;
+      gap: 3.5rem;
+      margin-bottom: 3.5rem;
+    }
+
+    .logo {
+      width: unset;
+    }
+
+    .navgation {
+      flex-direction: column;
+    }
+
+    .columnTwo {
+      .links {
+        max-height: unset;
+      }
+    }
+
+    .footer {
+      flex-direction: column;
+    }
+
+    .socialMedia {
+      justify-content: flex-start;
+    }
+  }
+}
+
+.logo {
+  width: unset;
+  height: auto;
+  object-fit: contain;
 }
 
 .header {
@@ -73,10 +115,14 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    color: var(--color-ink-inverted);
   }
 
   .link {
     padding-inline: 0;
+    background: none;
+    border: none;
+    color: var(--color-ink-inverted);
   }
 }
 
@@ -85,20 +131,25 @@
   padding-block: 1.5rem;
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
   border-block: 1px solid var(--color-sys-surface);
 }
 
 .copyright {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 1.5rem;
+  .link {
+    color: var(--color-ink-inverted);
+    padding: 0rem;
+    background: none;
+    border: none;
+  }
 }
 
 .socialMedia {
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 1.5rem;
 }
 
