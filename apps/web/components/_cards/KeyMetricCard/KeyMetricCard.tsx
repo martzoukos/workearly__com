@@ -2,14 +2,14 @@ import Card from "@/components/Card";
 import Text from "@/components/Text/";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
-import styles from "./KeyMetricsCard.module.scss";
+import styles from "./KeyMetricCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
   className?: string;
 };
 
-const KeyMetricsCard = ({ card, className }: PropsType) => {
+const KeyMetricCard = ({ card, className }: PropsType) => {
   return (
     <Card.Root className={clsx(styles.card, className)}>
       {card?.title && (
@@ -27,4 +27,4 @@ const KeyMetricsCard = ({ card, className }: PropsType) => {
   );
 };
 
-export default KeyMetricsCard;
+export default KeyMetricCard;
