@@ -2,6 +2,29 @@
 @use "./settings" as *;
 
 %container {
-  width: min($container, 100%);
-  margin-inline: auto;
+  --container: 1440px;
+  --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+  --vw-unit: 50%;
+  padding-inline: max(
+    var(--padding-inline),
+    var(--vw-unit) - var(--container) / 2
+  );
+
+  &-bleed-left {
+    --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+    --vw-unit: 50%;
+    padding-inline-end: max(
+      var(--padding-inline),
+      (var(--vw-unit) - var(--container) / 2) * 2
+    );
+  }
+
+  &-bleed-right {
+    --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+    --vw-unit: 50%;
+    padding-inline-start: max(
+      var(--padding-inline),
+      (var(--vw-unit) - var(--container) / 2) * 2
+    );
+  }
 }

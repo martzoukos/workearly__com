@@ -12,6 +12,7 @@ import {
 } from "../types";
 import { isDefined } from "../utils";
 import fetchCollection from "./fetchCollection";
+import fetchFooter from "./fetchFooter";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
   ACTION_COLLECTION_QUERY,
@@ -29,6 +30,7 @@ import {
 
 type FuncReturnType = {
   page: QueryItem["Page"];
+  footer: QueryItem["UniqueComponent"];
   relationshipMap: RelationshipMap;
 };
 
@@ -46,9 +48,11 @@ export default async function fetchPageBySlug(
 
   const page = data?.pageCollection?.items[0] as QueryItem["Page"];
   const relationshipMap = await getPageRelationships(client, page);
+  const footer = await fetchFooter(client);
 
   return {
     page,
+    footer,
     relationshipMap,
   };
 }
@@ -57,16 +61,6 @@ async function getPageRelationships(
   client: Client,
   page: QueryItem["Page"]
 ): Promise<RelationshipMap> {
-  const pageSectionIds = extractPageDeepChildIds(
-    { pageCollection: [page] },
-    "Section"
-  );
-  const pageSectionCollection = await fetchCollection(client, {
-    ids: pageSectionIds,
-    query: SECTION_COLLECTION_QUERY,
-    mapItems: (data) => data?.sectionCollection?.items.filter(isDefined) || [],
-  });
-
   const compositeIds = extractPageDeepChildIds(
     { pageCollection: [page] },
     "Composite"

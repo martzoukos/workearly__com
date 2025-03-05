@@ -34,12 +34,10 @@ export default function useUniqueComponentResolver(
   const tags = uniqueComponent.contentfulMetadata.tags
     .map((tag) => tag?.name)
     .filter(isDefined);
-  const json = uniqueComponent.json;
 
   return {
     variant,
     pages: [...pages, ...taggedPages],
     tags,
-    json,
   };
 }

@@ -33,6 +33,7 @@ const Context = createContext<ContextType | undefined>(undefined);
 export const ContentfulProvider = ({
   children,
   page,
+  footer,
   relationshipMap,
 }: PropsType): ReactElement => {
   function getReferences<T extends RelationshipMapTypeName>(
@@ -81,6 +82,7 @@ export const ContentfulProvider = ({
     <Context.Provider
       value={{
         page,
+        footer,
         relationshipMap,
         getReferences,
         getReference,

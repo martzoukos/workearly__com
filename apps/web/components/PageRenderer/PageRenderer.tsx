@@ -6,6 +6,7 @@ import JobPage from "@/components/_pages/JobPage";
 import PersonPage from "@/components/_pages/PersonPage";
 import PlaygroundPage from "@/components/_pages/PlaygroundPage";
 import PostPage from "@/components/_pages/PostPage";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PreviewPanel from "@/components/PreviewPanel";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -14,7 +15,7 @@ import { ThemeProvider } from "@workearly/theme";
 import styles from "./PageRenderer.module.scss";
 
 export default function PageRenderer() {
-  const { page } = useContentful();
+  const { page, footer } = useContentful();
   const { variant, theme } = usePageResolver(page);
 
   return (
@@ -30,6 +31,7 @@ export default function PageRenderer() {
       {variant === "Category" && <CategoryPage className={styles.root} />}
       {variant === "Framed" && <FramedPage className={styles.root} />}
       {variant === "Person" && <PersonPage className={styles.root} />}
+      {footer && <Footer json={footer.json} />}
     </ThemeProvider>
   );
 }

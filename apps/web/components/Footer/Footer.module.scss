@@ -1,3 +1,10 @@
+@use "@/styles/_helpers" as *;
+
+// Remove / move this (Should be at Shell/Section level)
+.container {
+  @extend %container;
+}
+
 .root {
   padding: 3rem 3.2rem;
   border-radius: 1rem 1rem 0rem 0rem;
