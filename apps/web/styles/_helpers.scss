@@ -2,6 +2,11 @@
 @use "./settings" as *;
 
 %container {
+  width: min($container, 100%);
+  margin-inline: auto;
+}
+
+%better-container {
   --container: 1440px;
   --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
   --vw-unit: 50%;

@@ -2,7 +2,7 @@
 
 // Remove / move this (Should be at Shell/Section level)
 .container {
-  @extend %container;
+  @extend %better-container;
 }
 
 .root {
