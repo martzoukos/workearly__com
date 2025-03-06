@@ -122,7 +122,7 @@ async function getPageRelationships(
   });
 
   const childPageIds = extractPageDeepChildIds(
-    { pageCollection: [page], sectionCollection, uniqueComponentCollection },
+    { pageCollection: [page], sectionCollection },
     "Page"
   );
   const childPageCollection = await fetchCollection(client, {
@@ -130,18 +130,18 @@ async function getPageRelationships(
     query: PAGE_COLLECTION_QUERY,
     mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
   });
-  const uniqueComponentTagIds =
-    uniqueComponentCollection.flatMap((item) =>
+  const sectionTagIds =
+    sectionCollection.flatMap((item) =>
       item.contentfulMetadata.tags.map((tag) => tag?.id as string)
     ) || [];
-  const uniqueComponentTaggedPageCollection = await fetchCollection(client, {
-    tagIds: uniqueComponentTagIds,
+  const sectionTaggedPageCollection = await fetchCollection(client, {
+    tagIds: sectionTagIds,
     query: PAGE_COLLECTION_QUERY,
     mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
   });
 
   const pageCollection = uniqBy(
-    [page, ...childPageCollection, ...uniqueComponentTaggedPageCollection],
+    [page, ...childPageCollection, ...sectionTaggedPageCollection],
     "sys.id"
   );
 

@@ -1,8 +1,9 @@
 import ActionButton from "@/components/ActionButton";
+import Shell from "@/components/Shell";
 import Text from "@/components/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
 import { isDefined, QueryItem } from "@workearly/api";
-import { Themed } from "@workearly/theme";
 import Image from "next/image";
 import styles from "./Hero.module.scss";
 
@@ -11,14 +12,15 @@ type PropsType = {
 };
 
 export default function Hero({ section }: PropsType) {
-  const { getReferences, titleSize, theme } = useSectionResolver(section);
+  const { getReferences, titleSize } = useSectionResolver(section);
+  const shell = useShellResolver(section);
   const actions = getReferences("Action");
 
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
 
   return (
-    <Themed theme={theme} className={styles.root}>
+    <Shell.Root className={styles.root} {...shell}>
       <div className={styles.content}>
         <Text as="h1" size={titleSize ?? "d2"}>
           {section.title}
@@ -50,6 +52,6 @@ export default function Hero({ section }: PropsType) {
           />
         </div>
       )}
-    </Themed>
+    </Shell.Root>
   );
 }

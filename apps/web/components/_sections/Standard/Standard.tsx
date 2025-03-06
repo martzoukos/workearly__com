@@ -1,7 +1,7 @@
 import Shell from "@/components/Shell";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
-import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { isDefined, QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -14,7 +14,7 @@ type PropsType = {
 
 export default function Standard({ section }: PropsType) {
   const { page } = useContentful();
-  const { alignment, size, theme } = useSectionResolver(section);
+  const shell = useShellResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
 
@@ -39,9 +39,7 @@ export default function Standard({ section }: PropsType) {
         styles.root,
         mediaAlignment === "right" && styles.reversed
       )}
-      alignment={alignment}
-      size={size}
-      theme={theme}
+      {...shell}
     >
       {asset?.url && (
         <Image

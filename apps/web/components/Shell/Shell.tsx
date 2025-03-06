@@ -2,6 +2,7 @@ import ActionButton from "@/components/ActionButton";
 import Text from "@/components/Text/Text";
 import useCompositeResolver from "@/hooks/useCompositeResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
 import { QueryItem } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
@@ -9,9 +10,9 @@ import { PropsWithChildren } from "react";
 import styles from "./Shell.module.scss";
 
 type ShellRootPropsType = PropsWithChildren<{
-  alignment: ReturnType<typeof useSectionResolver>["alignment"];
-  size: ReturnType<typeof useSectionResolver>["size"];
-  theme: ReturnType<typeof useSectionResolver>["theme"];
+  alignment: ReturnType<typeof useShellResolver>["alignment"];
+  size: ReturnType<typeof useShellResolver>["size"];
+  theme: ReturnType<typeof useShellResolver>["theme"];
   className?: string;
   as?: keyof JSX.IntrinsicElements;
 }>;
@@ -40,14 +41,14 @@ function ShellRoot({
   );
 }
 
-type ShellHeaderPropsType = {
+type ShellHeaderPropsType = PropsWithChildren<{
   supertitle?: string | null;
   title?: string | null;
   text?: string | null;
   titleSize?: ReturnType<typeof useSectionResolver>["titleSize"];
   className?: string;
   as?: keyof JSX.IntrinsicElements;
-};
+}>;
 
 function ShellHeader({
   as: Tag = "header",
@@ -56,6 +57,7 @@ function ShellHeader({
   text,
   titleSize,
   className,
+  children,
 }: ShellHeaderPropsType) {
   const hasHeader = supertitle || title || text;
 
@@ -65,13 +67,30 @@ function ShellHeader({
 
   return (
     <Tag className={clsx(styles.header, className)}>
-      {supertitle && <Text>{supertitle}</Text>}
-      {title && (
-        <Text as="h4" size={titleSize}>
-          {title}
-        </Text>
+      {children ? (
+        <>
+          <div>
+            {supertitle && <Text>{supertitle}</Text>}
+            {title && (
+              <Text as="h4" size={titleSize}>
+                {title}
+              </Text>
+            )}
+            {text && <Text>{text}</Text>}
+          </div>
+          {children}
+        </>
+      ) : (
+        <>
+          {supertitle && <Text>{supertitle}</Text>}
+          {title && (
+            <Text as="h4" size={titleSize}>
+              {title}
+            </Text>
+          )}
+          {text && <Text>{text}</Text>}
+        </>
       )}
-      {text && <Text>{text}</Text>}
     </Tag>
   );
 }
@@ -120,20 +139,16 @@ type SectionLayoutPropsType = PropsWithChildren<{
 
 function SectionDefaultLayout({
   section,
-  className,
   children,
+  className,
 }: SectionLayoutPropsType) {
-  const { alignment, size, theme, getReferences, titleSize } =
-    useSectionResolver(section);
+  const { getReferences, titleSize } = useSectionResolver(section);
+  const shell = useShellResolver(section);
+
   const actions = getReferences("Action");
 
   return (
-    <ShellRoot
-      className={className}
-      alignment={alignment}
-      size={size}
-      theme={theme}
-    >
+    <ShellRoot className={clsx(styles.sectionDefault, className)} {...shell}>
       <ShellHeader
         supertitle={section.supertitle}
         title={section.title}
@@ -148,30 +163,25 @@ function SectionDefaultLayout({
 
 function SectionAltLayout({
   section,
-  className,
   children,
+  className,
 }: SectionLayoutPropsType) {
-  const { alignment, size, theme, getReferences, titleSize } =
-    useSectionResolver(section);
+  const { getReferences, titleSize } = useSectionResolver(section);
+  const shell = useShellResolver(section);
+
   const actions = getReferences("Action");
 
   return (
-    <ShellRoot
-      className={className}
-      alignment={alignment}
-      size={size}
-      theme={theme}
-    >
-      <header className={styles.headerContainer}>
-        <ShellHeader
-          as="div"
-          supertitle={section.supertitle}
-          title={section.title}
-          text={section.text}
-          titleSize={titleSize}
-        />
+    <ShellRoot className={clsx(styles.sectionAlt, className)} {...shell}>
+      <ShellHeader
+        supertitle={section.supertitle}
+        title={section.title}
+        text={section.text}
+        titleSize={titleSize}
+        className={styles.headerAlt}
+      >
         <ShellActions as="div" actions={actions} />
-      </header>
+      </ShellHeader>
       {children && <ShellContent>{children}</ShellContent>}
     </ShellRoot>
   );
@@ -179,8 +189,8 @@ function SectionAltLayout({
 
 function SectionLayout({
   section,
-  className,
   children,
+  className,
 }: SectionLayoutPropsType) {
   const { layout } = useSectionResolver(section);
   const Layout = layout === "Alt" ? SectionAltLayout : SectionDefaultLayout;
@@ -194,25 +204,19 @@ function SectionLayout({
 
 type CompositeLayoutPropsType = PropsWithChildren<{
   composite: QueryItem["Composite"];
-  className?: string;
 }>;
 
 function CompositeDefaultLayout({
   composite,
-  className,
   children,
 }: CompositeLayoutPropsType) {
-  const { alignment, size, theme, getReferences } =
-    useCompositeResolver(composite);
+  const { getReferences } = useCompositeResolver(composite);
+  const shell = useShellResolver(composite);
+
   const actions = getReferences("Action");
 
   return (
-    <ShellRoot
-      className={className}
-      alignment={alignment}
-      size={size}
-      theme={theme}
-    >
+    <ShellRoot className={styles.compositeDefault} {...shell}>
       <ShellHeader
         supertitle={composite.supertitle}
         title={composite.title}
@@ -224,49 +228,32 @@ function CompositeDefaultLayout({
   );
 }
 
-function CompositeAltLayout({
-  composite,
-  className,
-  children,
-}: CompositeLayoutPropsType) {
-  const { alignment, size, theme, getReferences } =
-    useCompositeResolver(composite);
+function CompositeAltLayout({ composite, children }: CompositeLayoutPropsType) {
+  const { getReferences } = useCompositeResolver(composite);
+  const shell = useShellResolver(composite);
+
   const actions = getReferences("Action");
 
   return (
-    <ShellRoot
-      className={className}
-      alignment={alignment}
-      size={size}
-      theme={theme}
-    >
-      <header className={styles.headerContainer}>
-        <ShellHeader
-          as="div"
-          supertitle={composite.supertitle}
-          title={composite.title}
-          text={composite.text}
-        />
+    <ShellRoot className={styles.compositeAlt} {...shell}>
+      <ShellHeader
+        supertitle={composite.supertitle}
+        title={composite.title}
+        text={composite.text}
+        className={styles.headerAlt}
+      >
         <ShellActions as="div" actions={actions} />
-      </header>
+      </ShellHeader>
       {children && <ShellContent>{children}</ShellContent>}
     </ShellRoot>
   );
 }
 
-function CompositeLayout({
-  composite,
-  className,
-  children,
-}: CompositeLayoutPropsType) {
+function CompositeLayout({ composite, children }: CompositeLayoutPropsType) {
   const { layout } = useCompositeResolver(composite);
   const Layout = layout === "Alt" ? CompositeAltLayout : CompositeDefaultLayout;
 
-  return (
-    <Layout composite={composite} className={className}>
-      {children}
-    </Layout>
-  );
+  return <Layout composite={composite}>{children}</Layout>;
 }
 
 const Shell = {

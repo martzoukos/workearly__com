@@ -1,11 +1,7 @@
 @use "@/styles/_helpers" as *;
 @use "@/styles/_breakpoints" as *;
 @use "@/styles/_functions" as *;
-
-// Remove / move this (Should be at Shell/Section level)
-.container {
-  @extend %better-container;
-}
+@use "@/styles/_settings" as *;
 
 .root {
   padding: 3rem 3.2rem;

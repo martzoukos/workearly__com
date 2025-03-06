@@ -4,7 +4,6 @@ import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
-import { Themed } from "@workearly/theme";
 import { DateTime } from "luxon";
 import styles from "./ArticleCard.module.scss";
 
@@ -20,7 +19,7 @@ export default function ArticleCard({ page }: PropsType) {
   }
 
   return (
-    <Themed className={styles.root} isInverted={true}>
+    <div className={styles.root}>
       {resourceDetails.asset?.url && (
         <Media
           aspectRatio="14 / 6"
@@ -63,6 +62,6 @@ export default function ArticleCard({ page }: PropsType) {
           <ReadingTime time={readingTime} />
         </footer>
       </div>
-    </Themed>
+    </div>
   );
 }

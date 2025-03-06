@@ -1,10 +1,12 @@
 import CourseCard from "@/components/_cards/CourseCard/CourseCard";
 import CardRenderer from "@/components/_renderers/CardRenderer";
 import Button from "@/components/Button/Button";
+import Shell from "@/components/Shell";
 import Text from "@/components/Text/Text";
 import { useViewport } from "@/components/Viewport";
 import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -19,11 +21,11 @@ type PropsType = {
 
 export default function Slider({ section, className }: PropsType) {
   const { getReference } = useContentful();
-  const { theme } = useSectionResolver(section);
+  const shell = useShellResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
 
   return (
-    <section className={clsx(styles.root, className)} data-theme={theme}>
+    <Shell.Root className={clsx(styles.root, className)} {...shell}>
       {isUntilMd && (
         <div className={styles.headerWrapper}>
           <Header section={section} />
@@ -76,7 +78,7 @@ export default function Slider({ section, className }: PropsType) {
         })}
       </Swiper>
       {isUntilMd && <Footer section={section} />}
-    </section>
+    </Shell.Root>
   );
 }
 

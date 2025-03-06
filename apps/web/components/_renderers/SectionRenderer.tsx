@@ -2,6 +2,7 @@ import CardShowcase from "@/components/_sections/CardShowcase";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
 import MediaShowcase from "@/components/_sections/MediaShowcase";
+import PeopleIndex from "@/components/_sections/PeopleIndex";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
 import Accordion from "@/components/Accordion";
@@ -132,6 +133,14 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <Standard section={section} />;
   } else if (variant === "Hero With Background") {
     return <HeroBackground section={section} />;
+  } else if (variant === "Mentors") {
+    return <PeopleIndex section={section} />;
+  } else if (variant === "Mentors (No Filters)") {
+    return <PeopleIndex section={section} hideFilters />;
+  } else if (variant === "Partners") {
+    return <PeopleIndex section={section} />;
+  } else if (variant === "Partners (No Filters)") {
+    return <PeopleIndex section={section} hideFilters />;
   }
 
   return null;

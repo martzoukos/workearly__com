@@ -1,4 +1,6 @@
 import CallOutCard from "@/components/_cards/CallOutCard";
+import Shell from "@/components/Shell";
+import useShellResolver from "@/hooks/useShellResolver";
 import {
   documentToReactComponents,
   Options,
@@ -235,13 +237,14 @@ export default function RichText({ json, richText, className }: PropsType) {
   const resolver = useRichTextResolver(
     richText?.variant as RichTextVariantType
   );
+  const shell = useShellResolver(richText);
 
   return (
-    <section className={clsx(styles.root, className)}>
+    <Shell.Root {...shell} className={clsx(styles.root, className)}>
       {documentToReactComponents(
         richText?.body?.json || json,
         getOptions(resolver, richText)
       )}
-    </section>
+    </Shell.Root>
   );
 }

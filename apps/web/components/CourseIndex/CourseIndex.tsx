@@ -4,6 +4,7 @@ import FilterList from "@/components/FilterList";
 import Select from "@/components/Select";
 import Text from "@/components/Text";
 import { getPageResolver } from "@/hooks/usePageResolver";
+import useSectionResolver from "@/hooks/useSectionResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ChevronLeft, ChevronRight } from "@carbon/icons-react";
 import {
@@ -26,14 +27,14 @@ import {
 import styles from "./CourseIndex.module.scss";
 
 type PropsType = {
-  pages: QueryItem["Page"][];
-  title: string | null | undefined;
-  tags: Array<string>;
+  section: QueryItem["Section"];
 };
 
 const MIN_PAGE_LIMIT = 3;
 
-export default function CourseIndex({ title, pages, tags }: PropsType) {
+export default function CourseIndex({ section }: PropsType) {
+  const { getReferences, tags } = useSectionResolver(section);
+  const pages = getReferences("Page");
   const { relationshipMap } = useContentful();
   const [pageLimit, setPageLimit] = useQueryParam(
     "pageLimit",
@@ -205,7 +206,12 @@ export default function CourseIndex({ title, pages, tags }: PropsType) {
         />
       </aside>
       <div className={styles.content}>
-        {title && <header>{title && <Text as="h2">{title}</Text>}</header>}
+        {(section.title || section.text) && (
+          <header>
+            {section.title && <Text as="h2">{section.title}</Text>}
+            {section.text && <Text>{section.text}</Text>}
+          </header>
+        )}
         {Boolean(tags.length) && (
           <div className={styles.filters}>
             {tags.map((tag) => (

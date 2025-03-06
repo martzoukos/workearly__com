@@ -1,11 +1,13 @@
-import Text from "@/components/Text";
-import useSectionResolver from "@/hooks/useSectionResolver";
-import { isDefined, QueryItem } from "@workearly/api";
-import styles from "./StandardFramed.module.scss";
-import { useContentful } from "@/stores/ContentfulStore";
-import usePageResolver from "@/hooks/usePageResolver";
-import Image from "next/image";
 import ActionButton from "@/components/ActionButton";
+import Shell from "@/components/Shell";
+import Text from "@/components/Text";
+import usePageResolver from "@/hooks/usePageResolver";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
+import { useContentful } from "@/stores/ContentfulStore";
+import { isDefined, QueryItem } from "@workearly/api";
+import Image from "next/image";
+import styles from "./StandardFramed.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -14,6 +16,7 @@ type PropsType = {
 export default function StandardFramed({ section }: PropsType) {
   const { page } = useContentful();
   const { getReferences } = useSectionResolver(section);
+  const shell = useShellResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
   const actions = getReferences("Action");
@@ -34,7 +37,7 @@ export default function StandardFramed({ section }: PropsType) {
   const mediaAlignment = currentIndex % 2 === 0 ? "left" : "right";
 
   return (
-    <section className={styles.root} data-media={mediaAlignment}>
+    <Shell.Root className={styles.root} data-media={mediaAlignment} {...shell}>
       {asset && (
         <Image
           src={assets[0]?.url || ""}
@@ -67,6 +70,6 @@ export default function StandardFramed({ section }: PropsType) {
           )}
         </div>
       </div>
-    </section>
+    </Shell.Root>
   );
 }

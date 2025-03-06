@@ -1,4 +1,3 @@
-import ThemeSwitcher from "@/components/_pages/PlaygroundPage/ThemeSwitcher";
 import { Launch } from "@carbon/icons-react";
 import clsx from "clsx";
 import { PropsWithChildren } from "react";
@@ -33,7 +32,6 @@ export default function PlaygroundPanel({
         ) : (
           <div className={styles.action}>{infoText}</div>
         )}
-        <ThemeSwitcher className={styles.action} />
       </div>
       <div className={styles.children}>{children}</div>
     </div>

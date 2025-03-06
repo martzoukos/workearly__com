@@ -1,9 +1,9 @@
 @use "@/styles/_functions" as *;
 
 .root {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
+  & > *:not(:first-child) {
+    margin-block-end: fluid-rem(4rem, 8.75rem, ("md", "xxl"));
+  }
 }
 
 .breadcrumbs {

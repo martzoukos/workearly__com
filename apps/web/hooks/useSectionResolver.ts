@@ -13,12 +13,8 @@ type MetadataType = {
   values: Array<{ title: string; amount: string; percentage: string }>;
 };
 
-export type SectionSize = (typeof DATA_MAP.size)[number];
-
 const DATA_MAP = {
   layout: ["Default", "Alt"],
-  size: ["Narrow", "Wide", "Full"],
-  alignment: ["Left", "Centered"],
   referenceFields: {
     AccordionCard: "contentCollection",
     Action: "actionsCollection",
@@ -45,29 +41,43 @@ const DATA_MAP = {
     "Standard Component Framed",
     "Hero With Background",
     "Video Testimonials",
+    "Mentors",
+    "Mentors (No Filters)",
+    "Partners",
+    "Partners (No Filters)",
+    "Courses",
+    "Courses (No Filters)",
   ],
 } as const;
 
 export default function useSectionResolver(section: QueryItem["Section"]) {
-  const { getReferences: getContentfulReferences, page } = useContentful();
+  const {
+    getReferences: getContentfulReferences,
+    getTaggedReferences,
+    page,
+  } = useContentful();
   const { theme: pageTheme } = usePageResolver(page);
   const cardsCount = section.cardsCount ?? 1;
   const variant = (section.variant ??
     "Default") as (typeof DATA_MAP.variants)[number];
   const layout = (section.layout ??
     "Default") as (typeof DATA_MAP.layout)[number];
-  const alignment = (section.alignment ??
-    "Left") as (typeof DATA_MAP.alignment)[number];
   const cardTheme = (section.cardTheme?.toLowerCase() ??
     pageTheme) as ThemeType;
   const metadata: MetadataType | undefined = section.metadata;
-  const theme = (section.theme?.toLowerCase() || pageTheme) as ThemeType;
   const titleSize = section.titleSize as TextProps["size"];
-  const size = (section.size ?? "Full") as SectionSize;
 
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
   ): Pick<QueryItem, SectionReferenceTypeName>[T][] {
+    const references: Pick<QueryItem, SectionReferenceTypeName>[T][] = [];
+
+    const tagIds = section.contentfulMetadata.tags.map(
+      (tag) => tag?.id as string
+    );
+
+    references.push(...getTaggedReferences(typename, tagIds));
+
     const referenceFieldKey = DATA_MAP.referenceFields[typename];
     const ids =
       section[referenceFieldKey]?.items
@@ -75,7 +85,9 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
         .filter((item) => item.__typename === typename)
         .map((item) => item.sys.id) || [];
 
-    return getContentfulReferences(typename, ids);
+    references.push(...getContentfulReferences(typename, ids));
+
+    return references;
   }
 
   function hasReferences(typenames?: SectionReferenceTypeName[]) {
@@ -96,17 +108,19 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     });
   }
 
+  const tags = section.contentfulMetadata.tags
+    .map((tag) => tag?.name)
+    .filter(isDefined);
+
   return {
-    alignment,
     cardsCount,
     variant,
     getReferences,
     hasReferences,
     metadata,
-    theme,
     titleSize,
-    size,
     layout,
     cardTheme,
+    tags,
   };
 }

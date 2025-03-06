@@ -1,45 +1,26 @@
-import {
-  createContext,
-  PropsWithChildren,
-  useContext,
-  useEffect,
-  useState,
-} from "react";
-import { THEMES } from "./constants";
+import { ThemeProvider as NextThemeProvider } from "next-themes";
+import { createContext, PropsWithChildren, useContext } from "react";
 import { ThemeType } from "./types";
 
 type ThemeContextType = {
-  rootTheme: ThemeType;
-  setRootTheme: (theme: ThemeType) => void;
   theme: ThemeType;
 };
 
 const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export type ThemeProviderPropsType = PropsWithChildren<{
-  defaultRootTheme?: ThemeType;
-  theme?: ThemeType;
+  theme: ThemeType;
 }>;
 
-export function ThemeProvider({
-  defaultRootTheme = THEMES[0],
-  theme,
-  children,
-}: ThemeProviderPropsType) {
-  const [rootTheme, setRootTheme] = useState(defaultRootTheme);
-
+export function ThemeProvider({ theme, children }: ThemeProviderPropsType) {
   const value = {
-    rootTheme,
-    setRootTheme,
-    theme: theme || rootTheme,
+    theme,
   };
 
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", rootTheme);
-  }, [rootTheme]);
-
   return (
-    <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
+    <NextThemeProvider forcedTheme={theme} enableSystem={false}>
+      <ThemeContext.Provider value={value}>{children}</ThemeContext.Provider>
+    </NextThemeProvider>
   );
 }
 

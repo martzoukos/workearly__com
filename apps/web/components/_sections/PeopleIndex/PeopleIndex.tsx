@@ -1,27 +1,28 @@
 import PersonCard from "@/components/_cards/PersonCard";
 import Button from "@/components/Button";
-import Text from "@/components/Text";
+import Shell from "@/components/Shell";
 import useFilterTabs from "@/hooks/useFilterTabs";
+import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
 import { CONTENTFUL_TAGS, QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import Link from "next/link";
 import styles from "./PeopleIndex.module.scss";
 
 type PropsType = {
-  title?: string | null;
-  subtitle?: string | null;
-  pages: QueryItem["Page"][];
+  section: QueryItem["Section"];
   hideFilters?: boolean;
   className?: string;
 };
 
 export default function PeopleIndex({
-  pages,
-  title,
-  subtitle,
-  hideFilters = false,
+  section,
+  hideFilters,
   className,
 }: PropsType) {
+  const { getReferences, titleSize } = useSectionResolver(section);
+  const pages = getReferences("Page");
+  const shell = useShellResolver(section);
   const categoryTabs = useFilterTabs("categories");
 
   const pageTagIds = [
@@ -45,13 +46,15 @@ export default function PeopleIndex({
   });
 
   return (
-    <div className={clsx(styles.root, className)}>
-      {(title || subtitle || !hideFilters) && (
-        <header className={styles.header}>
-          <div className={styles.headerContent}>
-            {title && <Text as="h1">{title}</Text>}
-            {subtitle && <Text>{subtitle}</Text>}
-          </div>
+    <Shell.Root className={clsx(styles.root, className)} {...shell}>
+      {(section.title || section.text || !hideFilters) && (
+        <Shell.Header
+          supertitle={section.supertitle}
+          title={section.title}
+          text={section.text}
+          titleSize={titleSize}
+          className={clsx(!hideFilters && styles.header)}
+        >
           {!hideFilters && (
             <div className={styles.filterTabs}>
               {FILTER_TAGS.map((tag) => (
@@ -74,7 +77,7 @@ export default function PeopleIndex({
               ))}
             </div>
           )}
-        </header>
+        </Shell.Header>
       )}
       <div className={styles.cardGrid}>
         {filteredPages.map((page) => (
@@ -83,6 +86,6 @@ export default function PeopleIndex({
           </Link>
         ))}
       </div>
-    </div>
+    </Shell.Root>
   );
 }

@@ -181,6 +181,9 @@ export const CONTENT_TYPE_RICH_TEXT_FIELDS = graphql(`
       }
     }
     variant
+    alignment
+    size
+    theme
   }
 `);
 
@@ -188,12 +191,6 @@ export const UNIQUE_COMPONENT_FIELDS = graphql(`
   fragment UniqueComponentFields on UniqueComponent {
     ...EntryFields
     variant
-    hideFilters
-    title
-    json
-    description {
-      json
-    }
     json
     contentCollection {
       items {

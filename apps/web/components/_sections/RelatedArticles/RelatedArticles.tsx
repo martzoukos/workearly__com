@@ -1,6 +1,8 @@
+import Shell from "@/components/Shell";
 import Text from "@/components/Text/Text";
 import ArticleCard from "@/components/_cards/ArticleCard/ArticleCard";
 import useSectionResolver from "@/hooks/useSectionResolver";
+import useShellResolver from "@/hooks/useShellResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./RelatedArticles.module.scss";
@@ -12,10 +14,11 @@ type PropsType = {
 
 export default function RelatedArticles({ section, className }: PropsType) {
   const { getReferences } = useSectionResolver(section);
+  const shell = useShellResolver(section);
   const pages = getReferences("Page");
 
   return (
-    <section className={clsx(styles.root, className)}>
+    <Shell.Root className={clsx(styles.root, className)} {...shell}>
       <header className={styles.header}>
         {section.title && <Text as="h4">{section.title}</Text>}
         {section.text && <Text>{section.text}</Text>}
@@ -25,6 +28,6 @@ export default function RelatedArticles({ section, className }: PropsType) {
           <ArticleCard key={page.sys.id} page={page} />
         ))}
       </div>
-    </section>
+    </Shell.Root>
   );
 }

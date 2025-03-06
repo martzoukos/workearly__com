@@ -10,6 +10,10 @@
   @include media(md) {
     .contentWrapper {
       grid-template-columns: 1fr;
+
+      .contentItem {
+        --container-width: 100vw;
+      }
     }
 
     .content {
@@ -33,7 +37,8 @@
   height: fit-content;
 
   .contentItem {
-    padding-inline: fluid-rem(0.75rem, 1.88rem);
+    --container-width: 100%;
+    padding-inline: fluid-rem(0rem, 1.88rem, ("md", "xxl"));
     padding-block: fluid-rem(1.5rem, 2.12rem);
 
     &:not(:first-child) {
