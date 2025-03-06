@@ -105,7 +105,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
 
     return (
       <Shell.Section section={section} className={className}>
-        <LogoCarousel assets={assets} title={section.title || ""} />
+        <LogoCarousel assets={assets} />
       </Shell.Section>
     );
   } else if (variant === "Steps Showcase") {
