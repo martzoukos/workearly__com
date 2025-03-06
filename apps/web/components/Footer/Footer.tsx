@@ -5,6 +5,7 @@ import { QueryItem } from "@workearly/api";
 import { Logo } from "@workearly/svg";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./Footer.module.scss";
 
 type PropsType = {
@@ -19,13 +20,13 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
     <footer className={clsx(styles.root, className)}>
       <div className={styles.header}>
         <div className={styles.columnOne}>
-          <Logo />
+          <Link href="/">
+            <Logo />
+          </Link>
           <div className={styles.bottom}>
             <div className={styles.google}>
               <Image src="/icons/google.svg" width={31} height={31} alt="" />
-              <Text className={styles.reviews} size="h5">
-                Reviews
-              </Text>
+              <Text size="h5">Reviews</Text>
             </div>
 
             <div className={styles.stars}>
@@ -56,7 +57,12 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
             <div className={styles.links}>
               {json?.columnTwo?.content.map((link) => {
                 return (
-                  <Button asChild className={styles.link} key={link.link}>
+                  <Button
+                    asChild
+                    className={styles.link}
+                    key={link.link}
+                    colorScheme="White"
+                  >
                     <a href={link.link} target="_blank" rel="noreferrer">
                       {link?.title}
                     </a>
@@ -73,7 +79,12 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
             <div className={styles.links}>
               {json?.columnThree?.content.map((link) => {
                 return (
-                  <Button asChild className={styles.link} key={link.link}>
+                  <Button
+                    asChild
+                    className={styles.link}
+                    key={link.link}
+                    colorScheme="White"
+                  >
                     <a href={link.link} target="_blank" rel="noreferrer">
                       {link?.title}
                     </a>
@@ -99,14 +110,14 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
         <div className={styles.copyright}>
           {json?.footer?.map((link) => {
             return (
-              <Button asChild key={link.link}>
+              <Button asChild key={link.link} colorScheme="White">
                 <a
                   href={link.link}
                   target="_blank"
                   rel="noreferrer"
                   className={styles.link}
                 >
-                  <Text> {link?.title}</Text>
+                  <Text>{link?.title}</Text>
                 </a>
               </Button>
             );

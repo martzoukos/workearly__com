@@ -6,8 +6,8 @@
 .root {
   padding: 3rem 3.2rem;
   border-radius: 1rem 1rem 0rem 0rem;
-  background-color: var(--color-ink-default);
-  color: var(--color-ink-inverted);
+  color: hsl(var(--color-black-500));
+  background: var(--color-sys-nav);
 
   @include media(md) {
     .header {
@@ -70,10 +70,6 @@
   margin-bottom: 0.75rem;
 }
 
-.reviews {
-  color: var(--color-ink-inverted);
-}
-
 .stars {
   display: flex;
   justify-content: center;
@@ -95,7 +91,6 @@
 .columnTwo,
 .columnThree {
   .title {
-    color: var(--color-sys-surface);
     margin-bottom: 1.5rem;
   }
 
@@ -105,14 +100,12 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    color: var(--color-ink-inverted);
   }
 
   .link {
     padding-inline: 0;
     background: none;
     border: none;
-    color: var(--color-ink-inverted);
   }
 }
 
@@ -122,7 +115,7 @@
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  border-block: 1px solid var(--color-sys-surface);
+  border-block: 1px solid hsl(var(--color-black-500));
 }
 
 .copyright {
@@ -130,7 +123,6 @@
   flex-wrap: wrap;
   gap: 1.5rem;
   .link {
-    color: var(--color-ink-inverted);
     padding: 0rem;
     background: none;
     border: none;

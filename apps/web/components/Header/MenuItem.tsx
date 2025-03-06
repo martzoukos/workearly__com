@@ -30,6 +30,7 @@ export default function MenuItem({ item, ...props }: MenuItemProps) {
           variant={item.variant}
           isFullWidth
           size="medium"
+          colorScheme="Black"
           {...props}
         >
           <Link href={item.to}>{item.name}</Link>
@@ -38,16 +39,38 @@ export default function MenuItem({ item, ...props }: MenuItemProps) {
     );
   } else if (item.type === "link" && !item.variant) {
     return (
-      <DropdownMenu.Item key={item.name} asChild className={styles.item}>
-        <Button asChild variant="MenuItem" isFullWidth size="medium" {...props}>
+      <DropdownMenu.Item
+        key={item.name}
+        asChild
+        className={clsx(styles.item, styles.menuItem)}
+      >
+        <Button
+          asChild
+          variant="MenuItem"
+          isFullWidth
+          size="medium"
+          colorScheme="Black"
+          {...props}
+        >
           <Link href={item.to}>{item.name}</Link>
         </Button>
       </DropdownMenu.Item>
     );
   } else if (item.type === "decorative") {
     return (
-      <DropdownMenu.Item key={item.name} asChild className={styles.item}>
-        <Button asChild variant="MenuItem" isFullWidth size="medium" {...props}>
+      <DropdownMenu.Item
+        key={item.name}
+        asChild
+        className={clsx(styles.item, styles.menuItem)}
+      >
+        <Button
+          asChild
+          variant="MenuItem"
+          isFullWidth
+          size="medium"
+          colorScheme="Black"
+          {...props}
+        >
           <Link href={item.to}>{item.name}</Link>
         </Button>
       </DropdownMenu.Item>

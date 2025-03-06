@@ -25,6 +25,7 @@
   --color-sys-surface-3: hsl(var(--color-black-200));
   --color-sys-border: hsl(var(--color-neutral-500));
   --color-sys-border-muted: hsl(var(--color-neutral-500) / 0.3);
+  --color-sys-nav: hsl(var(--color-neutral-500));
   --color-sys-debug: orange;
 }
 
@@ -42,5 +43,6 @@
   --color-sys-surface-3: hsl(var(--color-neutral-200));
   --color-sys-border: hsl(var(--color-black-500));
   --color-sys-border-muted: hsl(var(--color-black-500) / 0.3);
+  --color-sys-nav: hsl(var(--color-neutral-300));
   --color-sys-debug: orangered;
 }

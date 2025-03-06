@@ -5,3 +5,15 @@
 .item {
   padding-inline: 1.12rem;
 }
+
+.menuItem {
+  &:not(:disabled):hover {
+    &::before {
+      content: "•";
+    }
+  }
+
+  &:not(:disabled):active {
+    outline-color: transparent;
+  }
+}

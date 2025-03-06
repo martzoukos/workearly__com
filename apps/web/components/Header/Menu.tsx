@@ -109,7 +109,8 @@ export default function Menu({ menu }: PropsType) {
                             variant="MenuItem"
                             isFullWidth
                             size="medium"
-                            className={styles.item}
+                            colorScheme="Black"
+                            className={clsx(styles.item, styles.menuItem)}
                             onMouseEnter={() => setActiveSub(item)}
                           >
                             {item.name}{" "}
@@ -124,7 +125,8 @@ export default function Menu({ menu }: PropsType) {
                             variant="MenuItem"
                             isFullWidth
                             size="medium"
-                            className={styles.item}
+                            colorScheme="Black"
+                            className={clsx(styles.item, styles.menuItem)}
                             onMouseEnter={() => setActiveSub(item)}
                           >
                             {item.name}{" "}

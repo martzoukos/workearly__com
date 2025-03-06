@@ -21,4 +21,8 @@
 
   padding-inline: var(--container-padding);
   padding-block: fluid-rem(0.5rem, 1rem);
+  position: sticky;
+  top: 0;
+  background: var(--color-sys-default);
+  z-index: var(--z-header-menu);
 }

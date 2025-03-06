@@ -18,7 +18,9 @@ export default function Header({ uniqueComponent }: PropsType) {
   return (
     <section className={styles.root}>
       <div className={styles.logoContainer}>
-        <Logo />
+        <Link href="/">
+          <Logo />
+        </Link>
         {firstMenu && <Menu menu={firstMenu} />}
       </div>
       {menus.slice(1).map((menu) => {
@@ -29,6 +31,7 @@ export default function Header({ uniqueComponent }: PropsType) {
               key={menu.name}
               aria-label={menu.name}
               variant={menu.variant ?? "MenuItem"}
+              colorScheme="Black"
             >
               <Link href={menu.to}>{menu.name}</Link>
             </Button>
