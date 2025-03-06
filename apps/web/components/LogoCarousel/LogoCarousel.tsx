@@ -1,4 +1,5 @@
 import { QueryItem } from "@workearly/api";
+import { Border } from "@workearly/svg";
 import Image from "next/image";
 import "swiper/css";
 import { Autoplay } from "swiper/modules";
@@ -7,11 +8,10 @@ import styles from "./LogoCarousel.module.scss";
 
 type PropsType = {
   assets: QueryItem["Asset"][];
-  title?: string;
   className?: string;
 };
 
-const LogoCarousel = ({ title, assets }: PropsType) => {
+const LogoCarousel = ({ assets }: PropsType) => {
   return (
     <div className={styles.root}>
       {assets.length <= 6 ? (
@@ -56,6 +56,7 @@ const LogoCarousel = ({ title, assets }: PropsType) => {
           })}
         </Swiper>
       )}
+      <Border className={styles.border} />
     </div>
   );
 };

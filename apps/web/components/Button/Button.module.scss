@@ -156,3 +156,21 @@
     --color-bg: hsl(var(--color-green-500));
   }
 }
+
+.variantMenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: unset;
+  padding-inline: 0;
+  outline: none;
+
+  &:not(:disabled):hover {
+    &::before {
+      content: "•";
+    }
+  }
+
+  &:not(:disabled):active {
+    outline-color: transparent;
+  }
+}

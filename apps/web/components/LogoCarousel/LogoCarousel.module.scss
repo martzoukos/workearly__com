@@ -1,7 +1,4 @@
 .root {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
   text-align: center;
 }
 
@@ -21,4 +18,8 @@
 .slider {
   width: 100%;
   cursor: pointer;
+}
+
+.border {
+  color: var(--color-sys-accent);
 }
