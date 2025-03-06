@@ -355,15 +355,11 @@ function extractUniqueComponentChildIds(
   uniqueComponent: QueryItem["UniqueComponent"],
   contentTypeName: UniqueComponentReferenceTypeName
 ) {
-  if (contentTypeName === "Page") {
-    return (
-      uniqueComponent.contentCollection?.items.map(
-        (item) => item?.sys.id as string
-      ) || []
-    );
-  }
-
-  return [];
+  return (
+    uniqueComponent?.contentCollection?.items
+      .filter((item) => item?.__typename === contentTypeName)
+      .map((item) => item?.sys.id as string) || []
+  );
 }
 
 function extractContentTypeRichTextChildIds(

@@ -1,5 +1,6 @@
 import Button from "@/components/Button/Button";
 import Card from "@/components/Card";
+import Markdown from "@/components/RichText/Markdown";
 import Text from "@/components/Text/Text";
 import { isDefined, QueryItem } from "@workearly/api";
 import clsx from "clsx";
@@ -26,11 +27,12 @@ export default function RichCard({ card, className }: PropsType) {
       {card?.title && <Text className={styles.title}>{card.title}</Text>}
 
       <div className={styles.content}>
-        {card?.text && (
-          <div className={styles.richText}>
-            <Text>{card.text}</Text>
-          </div>
-        )}
+        <div className={styles.richText}>
+          <Text size="h3">Unlock your full career potential</Text>
+          {card.text && (
+            <Markdown variant="Single Column Checkmark">{card.text}</Markdown>
+          )}
+        </div>
 
         {card?.asset?.url && (
           <Image

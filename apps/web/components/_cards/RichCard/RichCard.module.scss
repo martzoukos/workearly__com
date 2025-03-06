@@ -23,6 +23,10 @@
 
 .richText {
   padding-bottom: 2rem;
+
+  svg {
+    color: var(--color-sys-accent);
+  }
 }
 
 .media {

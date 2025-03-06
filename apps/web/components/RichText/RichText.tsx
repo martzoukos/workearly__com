@@ -1,5 +1,10 @@
 import CallOutCard from "@/components/_cards/CallOutCard";
+import Person from "@/components/Person";
 import Shell from "@/components/Shell";
+import Text from "@/components/Text";
+import useRichTextResolver, {
+  RichTextVariantType,
+} from "@/hooks/useRichTextResolver";
 import useShellResolver from "@/hooks/useShellResolver";
 import {
   documentToReactComponents,
@@ -16,11 +21,6 @@ import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
 import dynamic from "next/dynamic";
 import Image from "next/image";
-import useRichTextResolver, {
-  RichTextVariantType,
-} from "../../hooks/useRichTextResolver";
-import Person from "../Person/Person";
-import Text from "../Text/Text";
 import styles from "./RichText.module.scss";
 import {
   BlockQuote,
