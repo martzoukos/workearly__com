@@ -455,6 +455,7 @@ export type ActionLinkingCollections = {
   __typename?: 'ActionLinkingCollections';
   compositeCollection?: Maybe<CompositeCollection>;
   entryCollection?: Maybe<EntryCollection>;
+  menuCollection?: Maybe<MenuCollection>;
   sectionCollection?: Maybe<SectionCollection>;
 };
 
@@ -471,6 +472,15 @@ export type ActionLinkingCollectionsCompositeCollectionArgs = {
 export type ActionLinkingCollectionsEntryCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+export type ActionLinkingCollectionsMenuCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<ActionLinkingCollectionsMenuCollectionOrder>>>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
 };
@@ -511,6 +521,19 @@ export enum ActionLinkingCollectionsCompositeCollectionOrder {
   TitleDesc = 'title_DESC',
   VariantAsc = 'variant_ASC',
   VariantDesc = 'variant_DESC'
+}
+
+export enum ActionLinkingCollectionsMenuCollectionOrder {
+  ContentfulTitleAsc = 'contentfulTitle_ASC',
+  ContentfulTitleDesc = 'contentfulTitle_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC'
 }
 
 export enum ActionLinkingCollectionsSectionCollectionOrder {
@@ -2466,11 +2489,20 @@ export type ImageTransformOptions = {
 export type Menu = Entry & _Node & {
   __typename?: 'Menu';
   _id: Scalars['ID']['output'];
+  action?: Maybe<Action>;
   contentCollection?: Maybe<MenuContentCollection>;
   contentfulMetadata: ContentfulMetadata;
   contentfulTitle?: Maybe<Scalars['String']['output']>;
   linkedFrom?: Maybe<MenuLinkingCollections>;
   sys: Sys;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/menu) */
+export type MenuActionArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  where?: InputMaybe<ActionFilter>;
 };
 
 
@@ -2528,6 +2560,8 @@ export enum MenuContentCollectionOrder {
 export type MenuFilter = {
   AND?: InputMaybe<Array<InputMaybe<MenuFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<MenuFilter>>>;
+  action?: InputMaybe<CfActionNestedFilter>;
+  action_exists?: InputMaybe<Scalars['Boolean']['input']>;
   content?: InputMaybe<CfMenuNestedFilter>;
   contentCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
@@ -4415,6 +4449,7 @@ export type CfActionNestedFilter = {
 export type CfMenuNestedFilter = {
   AND?: InputMaybe<Array<InputMaybe<CfMenuNestedFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<CfMenuNestedFilter>>>;
+  action_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulTitle?: InputMaybe<Scalars['String']['input']>;

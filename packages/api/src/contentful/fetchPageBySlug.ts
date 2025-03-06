@@ -48,12 +48,12 @@ export default async function fetchPageBySlug(
     throw new Error(`Page with slug ${slug} not found`);
   }
 
-  const page = data?.pageCollection?.items[0] as QueryItem["Page"];
-  const relationshipMap = await getPageRelationships(client, page);
   const [footer, header] = await Promise.all([
     fetchFooter(client),
     fetchHeader(client),
   ]);
+  const page = data?.pageCollection?.items[0] as QueryItem["Page"];
+  const relationshipMap = await getPageRelationships(client, page, header);
 
   return {
     page,
@@ -65,7 +65,8 @@ export default async function fetchPageBySlug(
 
 async function getPageRelationships(
   client: Client,
-  page: QueryItem["Page"]
+  page: QueryItem["Page"],
+  header: QueryItem["UniqueComponent"]
 ): Promise<RelationshipMap> {
   const compositeIds = extractPageDeepChildIds(
     { pageCollection: [page] },
@@ -122,7 +123,11 @@ async function getPageRelationships(
   });
 
   const childPageIds = extractPageDeepChildIds(
-    { pageCollection: [page], sectionCollection },
+    {
+      pageCollection: [page],
+      sectionCollection,
+      uniqueComponentCollection: [header],
+    },
     "Page"
   );
   const childPageCollection = await fetchCollection(client, {
@@ -196,6 +201,7 @@ async function getPageRelationships(
       pageCollection: [page],
       sectionCollection,
       contentTypeRichTextCollection,
+      uniqueComponentCollection: [header],
     },
     "Card"
   );
@@ -355,6 +361,47 @@ function extractUniqueComponentChildIds(
   uniqueComponent: QueryItem["UniqueComponent"],
   contentTypeName: UniqueComponentReferenceTypeName
 ) {
+  if (uniqueComponent.variant === "Header") {
+    const menus = uniqueComponent.json;
+
+    const ids: string[] = [];
+
+    menus
+      .filter((menu: any) => menu.itemGroups)
+      .forEach((menu: any) =>
+        menu.itemGroups.forEach((group: any) =>
+          group.forEach((item: any) => {
+            if (item.type === "normal-sub") {
+              ids.push(
+                ...item.items
+                  .filter(
+                    (item: any) =>
+                      item.type === "decorative" &&
+                      item.referenceType === contentTypeName
+                  )
+                  .map((item: any) => item.referenceId)
+                  .filter(Boolean)
+              );
+            } else if (item.type === "category-sub") {
+              item.itemGroups.forEach((group: any) => {
+                const referenceItems = group.filter(
+                  (item: any) =>
+                    item.type === "reference" &&
+                    item.referenceType === contentTypeName
+                );
+
+                ids.push(
+                  ...referenceItems.map((item: any) => item.referenceId)
+                );
+              });
+            }
+          })
+        )
+      );
+
+    return ids;
+  }
+
   return (
     uniqueComponent?.contentCollection?.items
       .filter((item) => item?.__typename === contentTypeName)

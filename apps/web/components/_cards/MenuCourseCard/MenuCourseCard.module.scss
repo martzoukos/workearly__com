@@ -7,6 +7,14 @@
   border: 1px solid var(--color-sys-surface);
   background: rgba(114, 114, 114, 0.08);
   height: 100%;
+
+  &:hover {
+    outline: 2px solid var(--color-sys-border-muted);
+  }
+
+  &:active {
+    outline-color: var(--color-sys-border);
+  }
 }
 
 .img {

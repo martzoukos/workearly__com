@@ -163,14 +163,4 @@
   justify-content: unset;
   padding-inline: 0;
   outline: none;
-
-  &:not(:disabled):hover {
-    &::before {
-      content: "•";
-    }
-  }
-
-  &:not(:disabled):active {
-    outline-color: transparent;
-  }
 }
