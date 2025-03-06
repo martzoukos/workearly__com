@@ -1,4 +1,5 @@
 import CardShowcase from "@/components/_sections/CardShowcase";
+import CourseIndex from "@/components/_sections/CourseIndex";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
 import MediaShowcase from "@/components/_sections/MediaShowcase";
@@ -141,6 +142,10 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <PeopleIndex section={section} />;
   } else if (variant === "Partners (No Filters)") {
     return <PeopleIndex section={section} hideFilters />;
+  } else if (variant === "Courses") {
+    return <CourseIndex section={section} />;
+  } else if (variant === "Courses (No Filters)") {
+    return <CourseIndex section={section} />;
   }
 
   return null;

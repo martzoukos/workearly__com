@@ -31,12 +31,12 @@ export default function CardSlider({
     <Themed asChild theme={cardTheme} style={style} className={styles.root}>
       <Swiper slidesPerView="auto" spaceBetween={8}>
         {cards?.map((card) => (
-          <SwiperSlide key={card.sys.id} className={styles.card}>
+          <SwiperSlide key={card.sys.id} className={styles.slide}>
             <CardRenderer card={card} fallbackVariant={fallbackVariant} />
           </SwiperSlide>
         ))}
         {pages?.map((page) => (
-          <SwiperSlide key={page.sys.id} className={styles.card}>
+          <SwiperSlide key={page.sys.id} className={styles.slide}>
             <PageCardRenderer page={page} />
           </SwiperSlide>
         ))}

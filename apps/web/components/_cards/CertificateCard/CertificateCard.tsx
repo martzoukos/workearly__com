@@ -3,6 +3,7 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./CertificateCard.module.scss";
 
 type PropsType = {
@@ -14,7 +15,7 @@ export default function CertificateCard({ page, className }: PropsType) {
   const { peopleDetails } = usePageResolver(page);
 
   return (
-    <div className={clsx(styles.card, className)}>
+    <Link href={page.slug || "/"} className={clsx(styles.card, className)}>
       {peopleDetails?.asset?.url && (
         <Image
           src={peopleDetails.asset.url}
@@ -32,6 +33,6 @@ export default function CertificateCard({ page, className }: PropsType) {
           <Text>{peopleDetails.shortDescription}</Text>
         )}
       </div>
-    </div>
+    </Link>
   );
 }

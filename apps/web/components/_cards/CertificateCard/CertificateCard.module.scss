@@ -9,6 +9,14 @@
   border-radius: 0.75rem;
   gap: 1rem;
 
+  &:hover {
+    outline: 2px solid var(--color-sys-border-muted);
+  }
+
+  &:active {
+    outline-color: var(--color-sys-border);
+  }
+
   @include media(lg) {
     flex-direction: column;
   }

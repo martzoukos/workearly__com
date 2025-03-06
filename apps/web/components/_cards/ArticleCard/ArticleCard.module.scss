@@ -2,6 +2,7 @@
 @use "@/styles/_breakpoints" as *;
 
 .root {
+  display: block;
   background-color: var(--color-sys-default);
   color: var(--color-ink-default);
   border: 0.5rem solid var(--color-sys-default);
