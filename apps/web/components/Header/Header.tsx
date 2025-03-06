@@ -4,6 +4,7 @@ import Button from "@/components/Button";
 import Text from "@/components/Text";
 import { ChevronDown, ChevronRight } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
+import { Logo } from "@workearly/svg";
 import { useState } from "react";
 import styles from "./Header.module.scss";
 
@@ -19,9 +20,7 @@ export default function Header({ uniqueComponent }: PropsType) {
   return (
     <section className={styles.container}>
       <div className={styles.startNav}>
-        <Text size="h6" className={styles.workearly}>
-          workearly
-        </Text>
+        <Logo />
         <div className={styles.buttonsContainer}>
           <Button
             variant="Outlined"
