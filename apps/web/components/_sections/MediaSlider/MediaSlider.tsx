@@ -2,13 +2,13 @@ import Media from "@/components/Media";
 import { QueryItem } from "@workearly/api";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import styles from "./MediaShowcase.module.scss";
+import styles from "./MediaSlider.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
 };
 
-export default function MediaShowcase({ section }: PropsType) {
+export default function MediaSlider({ section }: PropsType) {
   const assets = section.assetsCollection?.items || [];
 
   return (

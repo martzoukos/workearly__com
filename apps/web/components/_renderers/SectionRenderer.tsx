@@ -2,7 +2,7 @@ import CardShowcase from "@/components/_sections/CardShowcase";
 import CourseIndex from "@/components/_sections/CourseIndex";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
-import MediaShowcase from "@/components/_sections/MediaShowcase";
+import MediaSlider from "@/components/_sections/MediaSlider";
 import PeopleIndex from "@/components/_sections/PeopleIndex";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
@@ -124,8 +124,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <FeaturesShowcase cards={cards} title={section.title || ""} />;
   } else if (variant === "Card Showcase") {
     return <CardShowcase section={section} />;
-  } else if (variant === "Media Showcase") {
-    return <MediaShowcase section={section} />;
+  } else if (variant === "Media Slider") {
+    return <MediaSlider section={section} />;
   } else if (variant === "Hero") {
     return <Hero section={section} />;
   } else if (variant === "Standard Component Framed") {
