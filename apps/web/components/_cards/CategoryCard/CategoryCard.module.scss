@@ -1,0 +1,45 @@
+.root {
+  padding: 0.4rem 0.2rem;
+  display: flex;
+  background: transparent;
+  transition-property: transform;
+  transition-duration: 200ms;
+
+  &:hover {
+    transform: rotate(-1deg);
+
+    .twinkle {
+      opacity: 1;
+    }
+  }
+}
+
+.svgContainer {
+  position: relative;
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.title {
+  position: absolute;
+  bottom: 2.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.twinkle {
+  position: absolute;
+  top: 0;
+  right: -0.4rem;
+  opacity: 0;
+
+  transition-property: opacity;
+  transition-duration: 200ms;
+}

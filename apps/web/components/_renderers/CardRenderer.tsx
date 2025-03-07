@@ -1,5 +1,6 @@
 import BusinessTestimonialCard from "@/components/_cards/BusinessTestimonialCard";
 import CallOutCard from "@/components/_cards/CallOutCard";
+import CategoryCard from "@/components/_cards/CategoryCard";
 import IconTextCard from "@/components/_cards/IconTextCard";
 import KeyMetricCard from "@/components/_cards/KeyMetricCard";
 import ProjectCard from "@/components/_cards/ProjectCard";
@@ -31,26 +32,20 @@ export default function CardRenderer({
   }
 
   if (variant === "Icon and Text") {
-    return (
-      <IconTextCard card={card} className={className} theme={fallbackTheme} />
-    );
+    return <IconTextCard card={card} className={className} theme={theme} />;
   } else if (variant === "Title and Text") {
     return (
       <TitleTextCard
         title={card.title}
         text={card.text}
         className={className}
-        theme={fallbackTheme}
+        theme={theme}
       />
     );
   } else if (variant === "Project") {
-    return (
-      <ProjectCard card={card} className={className} theme={fallbackTheme} />
-    );
+    return <ProjectCard card={card} className={className} theme={theme} />;
   } else if (variant === "Key Metric") {
-    return (
-      <KeyMetricCard card={card} className={className} theme={fallbackTheme} />
-    );
+    return <KeyMetricCard card={card} className={className} theme={theme} />;
   } else if (variant === "Rich") {
     return <RichCard card={card} theme={theme} />;
   } else if (variant === "Business Testimonial") {
@@ -58,21 +53,17 @@ export default function CardRenderer({
       <BusinessTestimonialCard
         card={card}
         className={className}
-        theme={fallbackTheme}
+        theme={theme}
       />
     );
   } else if (variant === "Video Testimonial") {
     return (
-      <VideoTestimonialCard
-        card={card}
-        className={className}
-        theme={fallbackTheme}
-      />
+      <VideoTestimonialCard card={card} className={className} theme={theme} />
     );
   } else if (variant === "Call Out") {
-    return (
-      <CallOutCard card={card} className={className} theme={fallbackTheme} />
-    );
+    return <CallOutCard card={card} className={className} theme={theme} />;
+  } else if (variant === "Category") {
+    return <CategoryCard card={card} className={className} theme={theme} />;
   }
 
   return null;
