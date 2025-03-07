@@ -71,6 +71,7 @@ export const CARD_FIELDS = graphql(`
     studentsCount
     rating
     tags
+    theme
     asset {
       ...AssetFields
     }

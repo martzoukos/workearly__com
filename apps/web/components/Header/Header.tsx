@@ -23,23 +23,25 @@ export default function Header({ uniqueComponent }: PropsType) {
         </Link>
         {firstMenu && <Menu menu={firstMenu} />}
       </div>
-      {menus.slice(1).map((menu) => {
-        if (menu.to) {
-          return (
-            <Button
-              asChild
-              key={menu.name}
-              aria-label={menu.name}
-              variant={menu.variant ?? "MenuItem"}
-              colorScheme="Black"
-            >
-              <Link href={menu.to}>{menu.name}</Link>
-            </Button>
-          );
-        } else if (menu.itemGroups) {
-          return <Menu key={menu.name} menu={menu} />;
-        }
-      })}
+      <div className={styles.restMenusContainer}>
+        {menus.slice(1).map((menu) => {
+          if (menu.to) {
+            return (
+              <Button
+                asChild
+                key={menu.name}
+                aria-label={menu.name}
+                variant={menu.variant ?? "MenuItem"}
+                colorScheme="Black"
+              >
+                <Link href={menu.to}>{menu.name}</Link>
+              </Button>
+            );
+          } else if (menu.itemGroups) {
+            return <Menu key={menu.name} menu={menu} />;
+          }
+        })}
+      </div>
     </section>
   );
 }

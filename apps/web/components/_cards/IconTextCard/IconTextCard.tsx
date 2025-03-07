@@ -2,6 +2,7 @@ import Card from "@/components/Card";
 import Text from "@/components/Text/Text";
 import { QueryItem } from "@workearly/api";
 import { SvgRenderer } from "@workearly/svg";
+import { ThemeType } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
 import styles from "./IconTextCard.module.scss";
@@ -9,11 +10,12 @@ import styles from "./IconTextCard.module.scss";
 type PropsType = {
   card: QueryItem["Card"];
   className?: string;
+  theme: ThemeType;
 };
 
-const IconTextCard = ({ card, className }: PropsType) => {
+const IconTextCard = ({ card, className, theme }: PropsType) => {
   return (
-    <Card.Root className={clsx(styles.root, className)}>
+    <Card.Root theme={theme} className={clsx(styles.root, className)}>
       {card.asset?.url && card.asset.contentType !== "image/svg+xml" && (
         <Image
           src={card.asset.url}

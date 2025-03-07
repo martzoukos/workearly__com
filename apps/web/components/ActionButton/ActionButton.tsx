@@ -14,6 +14,7 @@ export default function ActionButton({ action, className }: PropsType) {
         asChild
         variant={action.variant as ButtonProps["variant"]}
         colorScheme={action.colorScheme as ButtonProps["colorScheme"]}
+        isFullWidth={action.behaviour === "Flex"}
         className={className}
       >
         <a href={action.external}>{action.name}</a>
@@ -26,6 +27,7 @@ export default function ActionButton({ action, className }: PropsType) {
         asChild
         variant={action.variant as ButtonProps["variant"]}
         colorScheme={action.colorScheme as ButtonProps["colorScheme"]}
+        isFullWidth={action.behaviour === "Flex"}
         className={className}
       >
         <Link href={action.internal.slug}>{action.name}</Link>

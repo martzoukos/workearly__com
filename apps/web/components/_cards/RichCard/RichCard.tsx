@@ -1,29 +1,26 @@
-import Button from "@/components/Button/Button";
+import ActionButton from "@/components/ActionButton";
 import Card from "@/components/Card";
 import Markdown from "@/components/RichText/Markdown";
 import Text from "@/components/Text/Text";
-import { isDefined, QueryItem } from "@workearly/api";
+import useCardResolver from "@/hooks/useCardResolver";
+import { QueryItem } from "@workearly/api";
+import { ThemeType } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
-import { useContentful } from "../../../stores/ContentfulStore";
 import styles from "./RichCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
   className?: string;
+  theme: ThemeType;
 };
 
-export default function RichCard({ card, className }: PropsType) {
-  const { getReferences } = useContentful();
-
-  const actionIds =
-    card.actionsCollection?.items
-      .filter(isDefined)
-      .map((item) => item?.sys.id) || [];
-  const actions = getReferences("Action", actionIds);
+export default function RichCard({ card, theme, className }: PropsType) {
+  const { getReferences } = useCardResolver(card);
+  const actions = getReferences("Action");
 
   return (
-    <Card.Root className={clsx(styles.root, className)}>
+    <Card.Root theme={theme} className={clsx(styles.root, className)}>
       {card?.title && <Text className={styles.title}>{card.title}</Text>}
 
       <div className={styles.content}>
@@ -46,13 +43,7 @@ export default function RichCard({ card, className }: PropsType) {
       </div>
 
       {actions.map((action) => (
-        <Button
-          key={action?.sys.id}
-          colorScheme={"Green"}
-          className={styles.button}
-        >
-          <Text size="h6"> {action.name}</Text>
-        </Button>
+        <ActionButton action={action} key={action?.sys.id} />
       ))}
     </Card.Root>
   );

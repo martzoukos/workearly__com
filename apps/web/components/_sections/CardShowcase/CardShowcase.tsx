@@ -1,6 +1,6 @@
 import CourseCard from "@/components/_cards/CourseCard/CourseCard";
 import CardRenderer from "@/components/_renderers/CardRenderer";
-import Button from "@/components/Button/Button";
+import ActionButton from "@/components/ActionButton";
 import Shell from "@/components/Shell";
 import Text from "@/components/Text/Text";
 import { useViewport } from "@/components/Viewport";
@@ -21,6 +21,7 @@ type PropsType = {
 
 export default function Slider({ section, className }: PropsType) {
   const { getReference } = useContentful();
+  const { cardTheme } = useSectionResolver(section);
   const shell = useShellResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
 
@@ -71,6 +72,7 @@ export default function Slider({ section, className }: PropsType) {
                 <CardRenderer
                   card={card}
                   fallbackVariant={section.cardVariant as CardVariantType}
+                  fallbackTheme={cardTheme}
                 />
               </SwiperSlide>
             );
@@ -135,7 +137,7 @@ function Footer({ section }: PropsType) {
   return (
     <footer className={styles.footer}>
       {actions.map((action) => (
-        <Button key={action.sys.id}>{action.name}</Button>
+        <ActionButton key={action.sys.id} action={action} />
       ))}
     </footer>
   );

@@ -1,21 +1,28 @@
 import Card from "@/components/Card";
 import Text from "@/components/Text";
 import { QueryItem } from "@workearly/api";
+import { ThemeType } from "@workearly/theme";
+import clsx from "clsx";
 import Image from "next/image";
 import styles from "./BusinessTestimonialCard.module.scss";
 
 type PropsType = {
   card: QueryItem["Card"];
   className?: string;
+  theme: ThemeType;
 };
 
-export default function BusinessTestimonialCard({ card }: PropsType) {
+export default function BusinessTestimonialCard({
+  card,
+  theme,
+  className,
+}: PropsType) {
   const asset = card?.asset;
   const titles = card?.title?.split("|") || [];
   const tags = card?.tags || [];
 
   return (
-    <Card.Root className={styles.card}>
+    <Card.Root className={clsx(styles.card, className)} theme={theme}>
       <div className={styles.content}>
         <div className={styles.mediaContainer}>
           {asset?.url && (

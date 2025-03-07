@@ -1,31 +1,67 @@
+@use "@/styles/_breakpoints" as *;
+
 .root {
+  --border-color: rgba(235, 236, 222, 0.3); // Should be a well-defined token
+
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
   padding: 0.88rem;
-  border: 1px solid rgba(235, 236, 222, 0.3);
+  border: 1px solid var(--border-color);
+
+  &[data-theme="dark"] {
+    background: hsl(var(--color-black-500));
+
+    .richText {
+      svg {
+        color: hsl(var(--color-green-500));
+      }
+    }
+  }
+
+  &[data-theme="light"] {
+    background: hsl(var(--color-black-500));
+
+    .richText {
+      svg {
+        color: hsl(var(--color-black-500));
+      }
+    }
+  }
+
+  @include media(md) {
+    .media {
+      display: none;
+    }
+  }
 }
 
 .title {
   text-align: center;
   padding-block: 0.5rem;
-  border: 1px solid rgba(235, 236, 222, 0.3);
+  border: 1px solid var(--border-color);
+  color: hsl(var(--color-neutral-500));
 }
 
 .content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   border-radius: 1rem;
   padding-top: 2rem;
   padding-left: 1.8rem;
-  border: 1px solid rgba(235, 236, 222, 0.3);
+  border: 1px solid var(--border-color);
+  background: var(--color-sys-default);
 }
 
 .richText {
   padding-bottom: 2rem;
 
-  svg {
-    color: var(--color-sys-accent);
+  p {
+    margin-block: 0.62rem;
+
+    &:first-child {
+      margin-block-start: 0;
+    }
   }
 }
 
@@ -34,9 +70,4 @@
   height: fit-content;
   object-fit: contain;
   margin-left: auto;
-}
-
-.button {
-  padding-block: 0.88rem;
-  width: 100%;
 }

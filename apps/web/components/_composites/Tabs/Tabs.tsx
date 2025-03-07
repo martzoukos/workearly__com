@@ -1,4 +1,5 @@
 import SectionRenderer from "@/components/_renderers/SectionRenderer";
+import ActionButton from "@/components/ActionButton";
 import Button from "@/components/Button/Button";
 import useCompositeResolver from "@/hooks/useCompositeResolver";
 import { QueryItem } from "@workearly/api";
@@ -48,9 +49,7 @@ export default function Tabs({ composite, className }: PropsType) {
         {actions.length > 0 && (
           <div className={styles.actions}>
             {actions.map((action) => (
-              <Button key={action.sys.id} variant="Outlined">
-                {action.name}
-              </Button>
+              <ActionButton key={action.sys.id} action={action} />
             ))}
           </div>
         )}

@@ -178,6 +178,7 @@ export default function Menu({ menu }: PropsType) {
                             activeSubItem.referenceId
                           ) as QueryItem["Card"]
                         }
+                        fallbackTheme="light"
                       />
                     )}
                 </div>
