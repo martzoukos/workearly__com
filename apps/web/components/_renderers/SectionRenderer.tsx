@@ -54,8 +54,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
           cards={cards}
           pages={pages}
           fallbackVariant={section.cardVariant as CardVariantType}
+          fallbackTheme={cardTheme}
           columnCount={cardsCount}
-          cardTheme={cardTheme}
         />
       </Shell.Section>
     );
@@ -70,8 +70,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
             cards={cards}
             pages={pages}
             fallbackVariant={section.cardVariant as CardVariantType}
+            fallbackTheme={cardTheme}
             columnCount={cardsCount}
-            cardTheme={cardTheme}
           />
         ) : (
           <CardGrid
