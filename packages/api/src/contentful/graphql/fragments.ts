@@ -219,6 +219,7 @@ export const SECTION_FIELDS = graphql(`
     cardTheme
     variant
     metadata
+    features
 
     actionsCollection {
       items {

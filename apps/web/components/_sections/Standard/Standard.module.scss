@@ -7,10 +7,10 @@
   min-height: 22rem;
   padding-inline: fluid-rem(0rem, 5rem);
   gap: 8rem;
+}
 
-  &.reversed {
-    flex-direction: row-reverse;
-  }
+.isReversed {
+  flex-direction: row-reverse;
 }
 
 .media {
