@@ -1,3 +1,5 @@
+@use "@/styles/_breakpoints" as *;
+
 .root {
   --gap: 0.5rem;
   --total-gap-width: calc(var(--gap) * (var(--column-count) - 1));
@@ -9,6 +11,19 @@
   gap: var(--gap);
   grid-template-columns: repeat(
     auto-fit,
-    minmax(min(var(--column-width), 100%), 1fr)
+    minmax(min(var(--column-width) / 2, 100%), 1fr)
   );
+
+  // grid-template-columns: repeat(var(--column-count), 1fr);
+
+  // @include media(lg) {
+  //   grid-template-columns: repeat(calc((var(--column-count) + 1) / 2), 1fr);
+  // }
+
+  // @include media(md) {
+  //   grid-template-columns: repeat(
+  //     auto-fit,
+  //     minmax(min(var(--column-width) / 2, 100%), 1fr)
+  //   );
+  // }
 }

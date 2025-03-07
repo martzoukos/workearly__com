@@ -24,9 +24,8 @@
 }
 
 .alignmentCentered {
-  text-align: center;
-
   .header {
+    text-align: center;
     max-width: min(80ch, 100%);
     margin-inline: auto;
   }

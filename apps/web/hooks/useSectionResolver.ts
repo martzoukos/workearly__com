@@ -39,7 +39,6 @@ const DATA_MAP = {
     "Hero With Background",
     "Standard Component",
     "Standard Component Framed",
-    "Video Testimonials",
     "Map",
     "Mentors",
     "Mentors (No Filters)",

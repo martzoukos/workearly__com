@@ -2,6 +2,7 @@ import CardShowcase from "@/components/_sections/CardShowcase";
 import CourseIndex from "@/components/_sections/CourseIndex";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
+import Map from "@/components/_sections/Map";
 import MediaSlider from "@/components/_sections/MediaSlider";
 import PeopleIndex from "@/components/_sections/PeopleIndex";
 import Standard from "@/components/_sections/Standard";
@@ -146,6 +147,14 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <CourseIndex section={section} />;
   } else if (variant === "Courses (No Filters)") {
     return <CourseIndex section={section} />;
+  } else if (variant === "Map") {
+    const assets = section.assetsCollection?.items.filter(isDefined) || [];
+
+    return (
+      <Shell.Section section={section} className={className}>
+        <Map assets={assets} />
+      </Shell.Section>
+    );
   }
 
   return null;
