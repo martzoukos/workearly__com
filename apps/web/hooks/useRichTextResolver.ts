@@ -1,3 +1,4 @@
+import usePageResolver from "@/hooks/usePageResolver";
 import { CheckmarkOutline } from "@carbon/icons-react";
 import { useContentful } from "../stores/ContentfulStore";
 
@@ -15,7 +16,8 @@ export type RichTextVariantType = (typeof VARIANTS)[number];
 export default function useRichTextResolver(
   variant: RichTextVariantType = "Default"
 ) {
-  const { getReference } = useContentful();
+  const { getReference, page } = useContentful();
+  const { theme } = usePageResolver(page);
 
   const renderListAsCards =
     variant === "Single Column Plain Card" ||
@@ -36,5 +38,6 @@ export default function useRichTextResolver(
     renderListAsCards,
     renderListAsChips,
     getReference,
+    theme,
   };
 }

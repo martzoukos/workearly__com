@@ -94,7 +94,7 @@ export const UL = ({ resolver, children }: NodeBaseProps) => {
 
 export const LI = ({ resolver, children }: NodeBaseProps) => {
   if (resolver.renderListAsCards) {
-    return <TitleTextCard>{children}</TitleTextCard>;
+    return <TitleTextCard theme={resolver.theme}>{children}</TitleTextCard>;
   } else if (resolver.renderListAsChips) {
     return (
       <Button isRounded colorScheme="Surface">

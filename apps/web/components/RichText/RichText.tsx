@@ -17,6 +17,7 @@ import {
   INLINES,
 } from "@contentful/rich-text-types";
 import { QueryItem, RelationshipMapTypeName } from "@workearly/api";
+import { ThemeType } from "@workearly/theme";
 import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
 import dynamic from "next/dynamic";
@@ -165,7 +166,11 @@ function getOptions(
           reference.variant === "Call Out"
         ) {
           return (
-            <CallOutCard card={reference} className={styles.embeddedBlock} />
+            <CallOutCard
+              card={reference}
+              className={styles.embeddedBlock}
+              theme={(reference.theme || resolver.theme) as ThemeType}
+            />
           );
         }
 
