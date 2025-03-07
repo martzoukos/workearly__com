@@ -1,8 +1,14 @@
 @use "@/styles/_functions" as *;
 
 .root {
-  & > *:not(:first-child) {
+  & > *:not(:first-child):not(:last-child) {
     margin-block-end: fluid-rem(4rem, 8.75rem, ("md", "xxl"));
+  }
+
+  &.isHome {
+    & > *:first-child {
+      margin-block-end: fluid-rem(4rem, 8.75rem, ("md", "xxl"));
+    }
   }
 }
 
