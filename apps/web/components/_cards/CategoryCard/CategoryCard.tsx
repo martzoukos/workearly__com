@@ -1,8 +1,10 @@
 import Card from "@/components/Card";
+import useCardResolver from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
 import { SvgRenderer, Twinkle } from "@workearly/svg";
 import { ThemeType } from "@workearly/theme";
 import clsx from "clsx";
+import Link from "next/link";
 import styles from "./CategoryCard.module.scss";
 
 type PropsType = {
@@ -12,7 +14,11 @@ type PropsType = {
 };
 
 export default function CategoryCard({ card, className, theme }: PropsType) {
-  return (
+  const { getReferences } = useCardResolver(card);
+  const actions = getReferences("Action");
+  const action = actions.at(0);
+
+  const cardElement = (
     <Card.Root
       as="figure"
       className={clsx(styles.root, className)}
@@ -28,4 +34,10 @@ export default function CategoryCard({ card, className, theme }: PropsType) {
       <Twinkle className={styles.twinkle} />
     </Card.Root>
   );
+
+  if (action?.internal?.slug) {
+    return <Link href={action.internal.slug}>{cardElement}</Link>;
+  }
+
+  return cardElement;
 }

@@ -171,10 +171,31 @@
   .embeddedBlock {
     margin-block-start: 4rem;
   }
+}
 
+.chipsContainer {
   .chips {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+  }
+
+  & > h1,
+  & > h2,
+  & > h3,
+  & > h4,
+  & > h5,
+  & > h6 {
+    &:not(:first-child) {
+      margin-block: 1.5rem;
+    }
+  }
+
+  & > ul {
+    margin: 0;
+  }
+
+  & > p {
+    margin-block: 1.5rem 1.125rem;
   }
 }

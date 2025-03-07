@@ -245,7 +245,14 @@ export default function RichText({ json, richText, className }: PropsType) {
   const shell = useShellResolver(richText);
 
   return (
-    <Shell.Root {...shell} className={clsx(styles.root, className)}>
+    <Shell.Root
+      {...shell}
+      className={clsx(
+        styles.root,
+        resolver.renderListAsChips && styles.chipsContainer,
+        className
+      )}
+    >
       {documentToReactComponents(
         richText?.body?.json || json,
         getOptions(resolver, richText)
