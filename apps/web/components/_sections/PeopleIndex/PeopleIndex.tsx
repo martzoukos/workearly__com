@@ -6,7 +6,6 @@ import useSectionResolver from "@/hooks/useSectionResolver";
 import useShellResolver from "@/hooks/useShellResolver";
 import { CONTENTFUL_TAGS, QueryItem } from "@workearly/api";
 import clsx from "clsx";
-import Link from "next/link";
 import styles from "./PeopleIndex.module.scss";
 
 type PropsType = {
@@ -81,9 +80,7 @@ export default function PeopleIndex({
       )}
       <div className={styles.cardGrid}>
         {filteredPages.map((page) => (
-          <Link key={page.sys.id} href={page.slug || "/"}>
-            <PersonCard page={page} className={styles.card} />
-          </Link>
+          <PersonCard key={page.sys.id} page={page} className={styles.card} />
         ))}
       </div>
     </Shell.Root>

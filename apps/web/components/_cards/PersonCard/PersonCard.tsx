@@ -5,6 +5,7 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import { Frame } from "@workearly/svg";
 import clsx from "clsx";
+import Link from "next/link";
 import styles from "./PersonCard.module.scss";
 
 type PropsType = {
@@ -21,47 +22,49 @@ export default function PersonCard({ page, className }: PropsType) {
   }
 
   return (
-    <article className={clsx(styles.root, className)}>
-      <div className={styles.content}>
-        {peopleDetails.asset && (
-          <Media
-            asset={peopleDetails.asset}
-            imageProps={{
-              alt: peopleDetails.asset.title || peopleDetails.name || "",
-              sizes: "600px",
-            }}
-            height="100%"
-          />
-        )}
+    <Link href={page.slug || "/"}>
+      <article className={clsx(styles.root, className)}>
+        <div className={styles.content}>
+          {peopleDetails.asset && (
+            <Media
+              asset={peopleDetails.asset}
+              imageProps={{
+                alt: peopleDetails.asset.title || peopleDetails.name || "",
+                sizes: "600px",
+              }}
+              height="100%"
+            />
+          )}
 
-        <div className={styles.labelContainer}>
-          <div className={styles.label}>
-            <Frame />
+          <div className={styles.labelContainer}>
+            <div className={styles.label}>
+              <Frame />
 
-            {peopleDetails.name && (
-              <Text
-                size={isUntilMd ? "caption" : "p"}
-                className={styles.personName}
-              >
-                {peopleDetails.name}
-              </Text>
-            )}
-            {peopleDetails.role && (
-              <Text
-                size={isUntilMd ? "caption" : "small"}
-                className={styles.personRole}
-              >
-                {peopleDetails.role}
-                {peopleDetails.company && (
-                  <>
-                    , <br /> {peopleDetails.company}
-                  </>
-                )}
-              </Text>
-            )}
+              {peopleDetails.name && (
+                <Text
+                  size={isUntilMd ? "caption" : "p"}
+                  className={styles.personName}
+                >
+                  {peopleDetails.name}
+                </Text>
+              )}
+              {peopleDetails.role && (
+                <Text
+                  size={isUntilMd ? "caption" : "small"}
+                  className={styles.personRole}
+                >
+                  {peopleDetails.role}
+                  {peopleDetails.company && (
+                    <>
+                      , <br /> {peopleDetails.company}
+                    </>
+                  )}
+                </Text>
+              )}
+            </div>
           </div>
         </div>
-      </div>
-    </article>
+      </article>
+    </Link>
   );
 }
