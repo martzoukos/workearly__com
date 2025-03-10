@@ -1,6 +1,13 @@
 import Button from "@/components/Button";
-import { DecorativeItem, LabelItem, LinkItem } from "@/components/Header/Menu";
+import {
+  CategorySubItem,
+  DecorativeItem,
+  LabelItem,
+  LinkItem,
+  NormalSubItem,
+} from "@/components/Header/Menu";
 import Text from "@/components/Text";
+import { ChevronRight } from "@carbon/icons-react";
 import clsx from "clsx";
 import Link from "next/link";
 import { DropdownMenu } from "radix-ui";
@@ -8,7 +15,7 @@ import { ComponentPropsWithoutRef } from "react";
 import styles from "./MenuItem.module.scss";
 
 type MenuItemProps = ComponentPropsWithoutRef<"button"> & {
-  item: LinkItem | LabelItem | DecorativeItem;
+  item: LinkItem | LabelItem | DecorativeItem | NormalSubItem | CategorySubItem;
 };
 
 export default function MenuItem({ item, ...props }: MenuItemProps) {
@@ -56,6 +63,21 @@ export default function MenuItem({ item, ...props }: MenuItemProps) {
         </Button>
       </DropdownMenu.Item>
     );
+  } else if (item.type === "normal-sub") {
+    return (
+      <DropdownMenu.Item key={item.name} asChild>
+        <Button
+          variant="MenuItem"
+          isFullWidth
+          size="medium"
+          colorScheme="Black"
+          className={clsx(styles.item, styles.menuItem)}
+          {...props}
+        >
+          {item.name} <ChevronRight className={styles.itemChevron} />
+        </Button>
+      </DropdownMenu.Item>
+    );
   } else if (item.type === "decorative") {
     return (
       <DropdownMenu.Item
@@ -72,6 +94,21 @@ export default function MenuItem({ item, ...props }: MenuItemProps) {
           {...props}
         >
           <Link href={item.to}>{item.name}</Link>
+        </Button>
+      </DropdownMenu.Item>
+    );
+  } else if (item.type === "category-sub") {
+    return (
+      <DropdownMenu.Item key={item.name} asChild>
+        <Button
+          variant="MenuItem"
+          isFullWidth
+          size="medium"
+          colorScheme="Black"
+          className={clsx(styles.item, styles.menuItem)}
+          {...props}
+        >
+          {item.name} <ChevronRight className={styles.itemChevron} />
         </Button>
       </DropdownMenu.Item>
     );
