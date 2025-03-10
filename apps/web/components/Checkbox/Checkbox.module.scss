@@ -14,6 +14,7 @@
   &[data-state="checked"] {
     .iconChecked {
       display: block;
+      color: var(--color-sys-accent);
     }
   }
 

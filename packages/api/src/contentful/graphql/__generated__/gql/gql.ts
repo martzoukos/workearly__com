@@ -30,7 +30,7 @@ const documents = {
     "\n  fragment PageFields on Page {\n    ...EntryFields\n    variant\n    name\n    slug\n    seoTitle\n    seoDescription\n    seoImage {\n      ...AssetFields\n    }\n    theme\n    contentCollection {\n      items {\n        ... on Entry {\n          ...EntryFields\n        }\n      }\n    }\n  }\n": types.PageFieldsFragmentDoc,
     "\n  query PlaygroundPageSlugs {\n    pageCollection(\n      where: { slug_not_in: [\"404\"], variant_in: [\"Playground\"] }\n      limit: 100\n    ) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PlaygroundPageSlugsDocument,
     "\n  query PageSlugs {\n    pageCollection(\n      where: { slug_not_in: [\"404\"], variant_not_in: [\"Playground\"] }\n      limit: 100\n    ) {\n      items {\n        slug\n      }\n    }\n  }\n": types.PageSlugsDocument,
-    "\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      items {\n        ...PageFields\n      }\n    }\n  }\n": types.PageCollectionDocument,
+    "\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      total\n      skip\n      limit\n      items {\n        ...PageFields\n      }\n    }\n  }\n": types.PageCollectionDocument,
     "\n  query CourseDetailsCollection($where: CourseDetailsFilter, $limit: Int) {\n    courseDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CourseDetailsFields\n      }\n    }\n  }\n": types.CourseDetailsCollectionDocument,
     "\n  query CateogoryOrJobDetailsCollection(\n    $where: CategoryOrJobDetailsFilter\n    $limit: Int\n  ) {\n    categoryOrJobDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...CategoryOrJobDetailsFields\n      }\n    }\n  }\n": types.CateogoryOrJobDetailsCollectionDocument,
     "\n  query PeopleDetailsCollection($where: PeopleDetailsFilter, $limit: Int) {\n    peopleDetailsCollection(where: $where, limit: $limit) {\n      items {\n        ...PeopleDetailsFields\n      }\n    }\n  }\n": types.PeopleDetailsCollectionDocument,
@@ -126,7 +126,7 @@ export function graphql(source: "\n  query PageSlugs {\n    pageCollection(\n   
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */
-export function graphql(source: "\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      items {\n        ...PageFields\n      }\n    }\n  }\n"): (typeof documents)["\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      items {\n        ...PageFields\n      }\n    }\n  }\n"];
+export function graphql(source: "\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      total\n      skip\n      limit\n      items {\n        ...PageFields\n      }\n    }\n  }\n"): (typeof documents)["\n  query PageCollection($where: PageFilter, $limit: Int) {\n    pageCollection(where: $where, limit: $limit) {\n      total\n      skip\n      limit\n      items {\n        ...PageFields\n      }\n    }\n  }\n"];
 /**
  * The graphql function is used to parse GraphQL queries into a document that can be used by GraphQL clients.
  */

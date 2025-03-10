@@ -29,6 +29,9 @@ export const PAGE_SLUGS_QUERY = graphql(`
 export const PAGE_COLLECTION_QUERY = graphql(`
   query PageCollection($where: PageFilter, $limit: Int) {
     pageCollection(where: $where, limit: $limit) {
+      total
+      skip
+      limit
       items {
         ...PageFields
       }

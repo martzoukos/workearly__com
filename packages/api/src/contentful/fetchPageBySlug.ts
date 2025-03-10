@@ -142,12 +142,14 @@ async function getPageRelationships(
   const sectionTaggedPageCollection = await fetchCollection(client, {
     tagIds: sectionTagIds,
     query: PAGE_COLLECTION_QUERY,
+    limit: 20,
+    mapTotal: (data) => data?.pageCollection?.total || 0,
     mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
   });
 
   const pageCollection = uniqBy(
     [page, ...childPageCollection, ...sectionTaggedPageCollection],
-    "sys.id"
+    (item) => item.sys.id
   );
 
   const peopleDetailsIds = extractPageDeepChildIds(

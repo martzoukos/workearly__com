@@ -134,6 +134,9 @@ importers:
       usehooks-ts:
         specifier: ^3.1.1
         version: 3.1.1(react@18.3.1)
+      vaul:
+        specifier: ^1.1.2
+        version: 1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
     devDependencies:
       typescript-plugin-css-modules:
         specifier: ^5.1.0
@@ -4096,6 +4099,12 @@ packages:
   value-or-promise@1.0.12:
     resolution: {integrity: sha512-Z6Uz+TYwEqE7ZN50gwn+1LCVo9ZVrpxRPOhOLnncYkY1ZzOYtrX8Fwf/rFktZ8R5mJms6EZf5TqNOMeZmnPq9Q==}
     engines: {node: '>=12'}
+
+  vaul@1.1.2:
+    resolution: {integrity: sha512-ZFkClGpWyI2WUQjdLJ/BaGuV6AVQiJ3uELGk3OYtP+B6yCO7Cmn9vPFXVJkRaGkOJu3m8bQMgtyzNHixULceQA==}
+    peerDependencies:
+      react: ^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc
+      react-dom: ^16.8 || ^17.0 || ^18.0 || ^19.0.0 || ^19.0.0-rc
 
   vfile-message@2.0.4:
     resolution: {integrity: sha512-DjssxRGkMvifUOJre00juHoP9DPWuzjxKuMDrhNbk2TdaYYBNMStsNhEOt3idrtI12VQYM/1+iM0KOzXi4pxwQ==}
@@ -8593,6 +8602,15 @@ snapshots:
   v8-compile-cache-lib@3.0.1: {}
 
   value-or-promise@1.0.12: {}
+
+  vaul@1.1.2(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      '@radix-ui/react-dialog': 1.1.5(@types/react-dom@18.3.0)(@types/react@18.3.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+    transitivePeerDependencies:
+      - '@types/react'
+      - '@types/react-dom'
 
   vfile-message@2.0.4:
     dependencies:

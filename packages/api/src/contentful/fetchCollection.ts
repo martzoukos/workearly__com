@@ -11,11 +11,13 @@ type ContentTypeVariables = {
     contentfulMetadata?: ContentfulMetadataFilter;
   };
   limit: number;
+  skip?: number;
 };
 
 type OptionsType<TItem, TData> = {
   query: TypedDocumentNode<TData, ContentTypeVariables>;
   mapItems: (data: TData | undefined) => TItem[];
+  mapTotal?: (data: TData | undefined) => number;
   limit?: number;
 } & ({ ids: string[]; tagIds?: never } | { tagIds: string[]; ids?: never });
 
@@ -58,32 +60,43 @@ async function fetchCollectionByIds<TItem, TData>(
   return items;
 }
 
-// TODO: Utlilize pageCollection.total for chunked query
 async function fetchCollectionByTags<TItem, TData>(
   client: Client,
   options: OptionsType<TItem, TData>
 ) {
   const tagIds = options.tagIds;
   const limit = options.limit || 10;
+  let skip = 0;
+  let total = 0;
 
   const items: TItem[] = [];
 
-  const { data } = await client
-    .query(options.query, {
-      where: {
-        contentfulMetadata: {
-          tags: { id_contains_some: tagIds },
-          tags_exists: true,
+  do {
+    const { data } = await client
+      .query(options.query, {
+        where: {
+          contentfulMetadata: {
+            tags: { id_contains_some: tagIds },
+            tags_exists: true,
+          },
         },
-      },
-      limit,
-    })
-    .toPromise();
+        limit,
+        skip,
+      })
+      .toPromise();
 
-  if (data) {
-    const groupItems = options.mapItems(data);
-    items.push(...(groupItems as TItem[]));
-  }
+    if (data) {
+      const groupItems = options.mapItems(data);
+
+      items.push(...(groupItems as TItem[]));
+
+      if (total === 0 && options.mapTotal) {
+        total = options.mapTotal(data);
+      }
+    }
+
+    skip += limit;
+  } while (items.length < total);
 
   return items;
 }
