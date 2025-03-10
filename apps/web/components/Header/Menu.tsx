@@ -3,6 +3,7 @@ import CategorySubMenu from "@/components/Header/CategorySubMenu";
 import NormalSubMenu from "@/components/Header/NormalSubMenu";
 import { ChevronDown } from "@carbon/icons-react";
 import { RelationshipMapTypeName } from "@workearly/api";
+import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import { DropdownMenu } from "radix-ui";
 import { useState } from "react";
@@ -78,39 +79,44 @@ export default function Menu({ menu }: PropsType) {
       </DropdownMenu.Trigger>
       <DropdownMenu.Portal>
         <DropdownMenu.Content
+          asChild
           className={clsx(styles.content)}
           sideOffset={8}
           align="start"
         >
-          <div className={styles.contentInner}>
-            {menu.itemGroups.map((group, index) => {
-              const groupHasLabel = group.some((item) => item.type === "label");
+          <Themed theme="light">
+            <div className={styles.contentInner}>
+              {menu.itemGroups.map((group, index) => {
+                const groupHasLabel = group.some(
+                  (item) => item.type === "label"
+                );
 
-              return (
-                <div
-                  key={index}
-                  className={clsx(
-                    styles.group,
-                    groupHasLabel && styles.groupHasLabel
-                  )}
-                >
-                  {group.map((item) => (
-                    <MenuItem
-                      key={item.name}
-                      item={item}
-                      onMouseEnter={() => setActiveSub(item)}
-                    />
-                  ))}
-                </div>
-              );
-            })}
-          </div>
-          {activeSub && activeSub.type === "normal-sub" && (
-            <NormalSubMenu menu={activeSub} />
-          )}
-          {activeSub && activeSub.type === "category-sub" && (
-            <CategorySubMenu menu={activeSub} />
-          )}
+                return (
+                  <div
+                    key={index}
+                    className={clsx(
+                      styles.group,
+                      groupHasLabel && styles.groupHasLabel
+                    )}
+                  >
+                    {group.map((item) => (
+                      <MenuItem
+                        key={item.name}
+                        item={item}
+                        onMouseEnter={() => setActiveSub(item)}
+                      />
+                    ))}
+                  </div>
+                );
+              })}
+            </div>
+            {activeSub && activeSub.type === "normal-sub" && (
+              <NormalSubMenu menu={activeSub} />
+            )}
+            {activeSub && activeSub.type === "category-sub" && (
+              <CategorySubMenu menu={activeSub} />
+            )}
+          </Themed>
         </DropdownMenu.Content>
       </DropdownMenu.Portal>
     </DropdownMenu.Root>

@@ -24,6 +24,8 @@ export default function MenuCertificateCard({ page }: PropsType) {
           alt={peopleDetails.asset.title || peopleDetails.name || ""}
           width={60}
           height={60}
+          sizes="60px"
+          quality={100}
           style={{
             objectFit: "cover",
           }}

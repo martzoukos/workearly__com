@@ -22,7 +22,7 @@ export default function MenuCourseCard({ page }: PropsType) {
 
       <div className={styles.details}>
         <Text size="caption">{courseDetails.duration}</Text>
-        <Text size="caption" className={styles.students}>
+        <Text size="caption">
           <UserFilled size={12} /> {courseDetails.studentsCount} Students
         </Text>
       </div>

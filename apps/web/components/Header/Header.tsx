@@ -16,7 +16,7 @@ export default function Header({ uniqueComponent }: PropsType) {
   const firstMenu = menus.at(0);
 
   return (
-    <section className={styles.root}>
+    <nav className={styles.root}>
       <div className={styles.logoContainer}>
         <Link href="/">
           <Logo />
@@ -42,6 +42,6 @@ export default function Header({ uniqueComponent }: PropsType) {
           }
         })}
       </div>
-    </section>
+    </nav>
   );
 }

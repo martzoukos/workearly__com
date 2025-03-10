@@ -1,19 +1,18 @@
 .root {
   border-radius: 0.5rem;
   padding: 1.5rem;
-  border: 1px solid var(--color-sys-surface);
-  background: rgba(114, 114, 114, 0.08);
+  background: hsl(var(--color-black-400) / 0.08);
   flex-grow: 1;
   display: flex;
   gap: 1rem;
   height: 100%;
 
   &:hover {
-    outline: 2px solid var(--color-sys-border-muted);
+    outline: 2px solid var(--color-sys-outline);
   }
 
   &:active {
-    outline-color: var(--color-sys-border);
+    outline-color: hsl(var(--color-black-500));
   }
 }
 
