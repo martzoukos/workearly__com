@@ -1,9 +1,10 @@
 import Card from "@/components/Card";
 import useCardResolver from "@/hooks/useCardResolver";
 import { QueryItem } from "@workearly/api";
-import { SvgRenderer, Twinkle } from "@workearly/svg";
+import { Twinkle } from "@workearly/svg";
 import { ThemeType } from "@workearly/theme";
 import clsx from "clsx";
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./CategoryCard.module.scss";
 
@@ -25,10 +26,14 @@ export default function CategoryCard({ card, className, theme }: PropsType) {
       theme={theme}
     >
       {card.asset && (
-        <SvgRenderer
-          src={card.asset.url || ""}
-          className={styles.svgContainer}
-        />
+        <div className={styles.imageContainer}>
+          <Image
+            src={card.asset.url || ""}
+            fill={true}
+            alt={card.title || ""}
+            sizes="600px"
+          />
+        </div>
       )}
       <figcaption className={styles.title}>{card.title}</figcaption>
       <Twinkle className={styles.twinkle} />

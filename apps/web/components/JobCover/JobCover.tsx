@@ -1,6 +1,8 @@
+import Media from "@/components/Media";
 import StatCard from "@/components/StatCard";
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
+import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
@@ -21,6 +23,16 @@ export default function JobCover({ className }: PropsType) {
 
   return (
     <section className={clsx(styles.root, className)}>
+      <Viewport showUntil="md">
+        <Media
+          asset={categoryOrJobDetails.asset}
+          imageProps={{
+            alt: categoryOrJobDetails.title || "",
+          }}
+          aspectRatio="auto"
+          className={styles.media}
+        />
+      </Viewport>
       <header className={styles.header}>
         <Text as="h1">{page.name}</Text>
         <Text>{categoryOrJobDetails?.summary}</Text>

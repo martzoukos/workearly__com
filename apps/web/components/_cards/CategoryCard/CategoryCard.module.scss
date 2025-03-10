@@ -15,8 +15,12 @@
   }
 }
 
-.svgContainer {
-  svg {
+.imageContainer {
+  position: relative;
+  height: 380px;
+  width: 100%;
+
+  img {
     width: 100%;
     height: 100%;
   }
