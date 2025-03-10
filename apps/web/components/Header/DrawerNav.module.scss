@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.menusContainer {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.drawerContent {
+  top: unset;
+  height: calc(100dvh - 3.5rem);
+  background: var(--color-sys-default);
+}
+
+.drawerContentInner {
+  border-radius: 0.5rem;
+  margin: 0.75rem;
+  background: var(--color-ink-default);
+}

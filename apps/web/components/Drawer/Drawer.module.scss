@@ -42,4 +42,8 @@
 
 .handle {
   margin-block-start: 0.5rem;
+
+  &[data-vaul-handle] {
+    background: var(--color-ink-default);
+  }
 }

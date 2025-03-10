@@ -1,116 +1,67 @@
-import Button from "@/components/Button";
-import {
-  CategorySubItem,
-  DecorativeItem,
-  LabelItem,
-  LinkItem,
-  NormalSubItem,
-} from "@/components/Header/Menu";
-import Text from "@/components/Text";
+import Button, { ButtonProps } from "@/components/Button";
 import { ChevronRight } from "@carbon/icons-react";
+import {
+  CategorySubItemType,
+  DecorativeItemType,
+  LinkItemType,
+  NormalSubItemType,
+} from "@workearly/api";
 import clsx from "clsx";
 import Link from "next/link";
-import { DropdownMenu } from "radix-ui";
 import { ComponentPropsWithoutRef } from "react";
 import styles from "./MenuItem.module.scss";
 
 type MenuItemProps = ComponentPropsWithoutRef<"button"> & {
-  item: LinkItem | LabelItem | DecorativeItem | NormalSubItem | CategorySubItem;
+  item:
+    | LinkItemType
+    | DecorativeItemType
+    | NormalSubItemType
+    | CategorySubItemType;
 };
 
-export default function MenuItem({ item, ...props }: MenuItemProps) {
-  if (item.type === "label") {
+export default function MenuItem({ item, className, ...props }: MenuItemProps) {
+  if (item.type === "link" && item.variant) {
     return (
-      <DropdownMenu.Label
+      <Button
         asChild
-        key={item.name}
-        className={clsx(styles.label, styles.item)}
+        variant={item.variant as ButtonProps["variant"]}
+        isFullWidth
+        size="medium"
+        colorScheme="Black"
+        {...props}
       >
-        <Text size="h6">{item.name}</Text>
-      </DropdownMenu.Label>
-    );
-  } else if (item.type === "link" && item.variant) {
-    return (
-      <DropdownMenu.Item key={item.name} asChild>
-        <Button
-          asChild
-          variant={item.variant}
-          isFullWidth
-          size="medium"
-          colorScheme="Black"
-          {...props}
-        >
-          <Link href={item.to}>{item.name}</Link>
-        </Button>
-      </DropdownMenu.Item>
-    );
-  } else if (item.type === "link" && !item.variant) {
-    return (
-      <DropdownMenu.Item
-        key={item.name}
-        asChild
-        className={clsx(styles.item, styles.menuItem)}
-      >
-        <Button
-          asChild
-          variant="MenuItem"
-          isFullWidth
-          size="medium"
-          colorScheme="Black"
-          {...props}
-        >
-          <Link href={item.to}>{item.name}</Link>
-        </Button>
-      </DropdownMenu.Item>
-    );
-  } else if (item.type === "normal-sub") {
-    return (
-      <DropdownMenu.Item key={item.name} asChild>
-        <Button
-          variant="MenuItem"
-          isFullWidth
-          size="medium"
-          colorScheme="Black"
-          className={clsx(styles.item, styles.menuItem)}
-          {...props}
-        >
-          {item.name} <ChevronRight className={styles.itemChevron} />
-        </Button>
-      </DropdownMenu.Item>
-    );
-  } else if (item.type === "decorative") {
-    return (
-      <DropdownMenu.Item
-        key={item.name}
-        asChild
-        className={clsx(styles.item, styles.menuItem)}
-      >
-        <Button
-          asChild
-          variant="MenuItem"
-          isFullWidth
-          size="medium"
-          colorScheme="Black"
-          {...props}
-        >
-          <Link href={item.to}>{item.name}</Link>
-        </Button>
-      </DropdownMenu.Item>
-    );
-  } else if (item.type === "category-sub") {
-    return (
-      <DropdownMenu.Item key={item.name} asChild>
-        <Button
-          variant="MenuItem"
-          isFullWidth
-          size="medium"
-          colorScheme="Black"
-          className={clsx(styles.item, styles.menuItem)}
-          {...props}
-        >
-          {item.name} <ChevronRight className={styles.itemChevron} />
-        </Button>
-      </DropdownMenu.Item>
+        <Link href={item.to}>{item.name}</Link>
+      </Button>
     );
   }
+
+  if (item.type === "link" || item.type === "decorative") {
+    return (
+      <Button
+        variant="MenuItem"
+        isFullWidth
+        size="medium"
+        colorScheme="Black"
+        className={clsx(styles.item, className)}
+        {...props}
+      >
+        <Link href={item.to}>{item.name}</Link>
+      </Button>
+    );
+  } else if (item.type === "normal-sub" || item.type === "category-sub") {
+    return (
+      <Button
+        variant="MenuItem"
+        isFullWidth
+        size="medium"
+        colorScheme="Black"
+        className={clsx(styles.item, className)}
+        {...props}
+      >
+        {item.name} <ChevronRight className={styles.itemChevron} />
+      </Button>
+    );
+  }
+
+  return null;
 }

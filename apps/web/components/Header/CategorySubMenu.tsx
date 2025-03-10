@@ -2,12 +2,13 @@ import MenuCertificateCard from "@/components/_cards/MenuCertificateCard";
 import MenuCourseCard from "@/components/_cards/MenuCourseCard";
 import Text from "@/components/Text";
 import { useContentful } from "@/stores/ContentfulStore";
+import { CategorySubItemType } from "@workearly/api";
+import { DropdownMenu } from "radix-ui";
 import styles from "./CategorySubMenu.module.scss";
-import { CategorySubItem } from "./Menu";
 import MenuItem from "./MenuItem";
 
 type PropsType = {
-  menu: CategorySubItem;
+  menu: CategorySubItemType;
 };
 
 export default function CategorySubMenu({ menu }: PropsType) {
@@ -25,15 +26,8 @@ export default function CategorySubMenu({ menu }: PropsType) {
           {menu.itemGroups.map((group, index) => {
             return (
               <div key={index}>
-                {group.map((item) => {
-                  if (item.type === "label") {
-                    return (
-                      <Text key={item.name} size="h6">
-                        {item.name}
-                      </Text>
-                    );
-                  }
-
+                <Text size="h6">{group.name}</Text>
+                {group.items.map((item) => {
                   if (item.type === "reference") {
                     if (item.referenceType === "Page") {
                       const page = getReference("Page", item.referenceId);
@@ -54,7 +48,11 @@ export default function CategorySubMenu({ menu }: PropsType) {
                     return null;
                   }
 
-                  return <MenuItem key={item.name} item={item} />;
+                  return (
+                    <DropdownMenu.Item key={item.name} asChild>
+                      <MenuItem item={item} />
+                    </DropdownMenu.Item>
+                  );
                 })}
               </div>
             );

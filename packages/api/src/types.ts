@@ -223,3 +223,54 @@ type NestedRelationship = {
       | QueryItem["ResourceDetails"];
   };
 };
+
+export type LinkItemType = {
+  name: string;
+  to: string;
+  variant?: string;
+  type: "link";
+};
+
+export type ReferenceItemType = {
+  name: string;
+  referenceId: string;
+  referenceType: RelationshipMapTypeName;
+  type: "reference";
+};
+
+export type DecorativeItemType = {
+  name: string;
+  to: string;
+  referenceId: string;
+  referenceType: RelationshipMapTypeName;
+  type: "decorative";
+};
+
+export type NormalSubItemType = {
+  name: string;
+  description: string;
+  items: Array<LinkItemType | DecorativeItemType | NormalSubItemType>;
+  type: "normal-sub";
+};
+
+export type CategorySubItemType = {
+  name: string;
+  description: string;
+  itemGroups: Array<{
+    name?: string;
+    items: Array<LinkItemType | ReferenceItemType>;
+  }>;
+  type: "category-sub";
+};
+
+export type MenuGroupType = {
+  name?: string;
+  items: Array<LinkItemType | NormalSubItemType | CategorySubItemType>;
+};
+
+export type MenuType = {
+  name: string;
+  to?: string;
+  variant?: string;
+  itemGroups: Array<MenuGroupType>;
+};

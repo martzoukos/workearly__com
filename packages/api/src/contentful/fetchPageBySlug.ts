@@ -3,8 +3,11 @@ import { uniqBy } from "lodash";
 import {
   CardReferenceTypeName,
   CompositeReferenceTypeName,
+  DecorativeItemType,
+  MenuType,
   PageReferenceTypeName,
   QueryItem,
+  ReferenceItemType,
   RelationshipMap,
   RelationshipMapTypeName,
   SectionReferenceTypeName,
@@ -364,36 +367,38 @@ function extractUniqueComponentChildIds(
   contentTypeName: UniqueComponentReferenceTypeName
 ) {
   if (uniqueComponent.variant === "Header") {
-    const menus = uniqueComponent.json;
+    const menus: Array<MenuType> = uniqueComponent.json;
 
     const ids: string[] = [];
 
     menus
-      .filter((menu: any) => menu.itemGroups)
-      .forEach((menu: any) =>
-        menu.itemGroups.forEach((group: any) =>
-          group.forEach((item: any) => {
+      .filter((menu) => menu.itemGroups)
+      .forEach((menu) =>
+        menu.itemGroups.forEach((group) =>
+          group.items.forEach((item) => {
             if (item.type === "normal-sub") {
               ids.push(
                 ...item.items
                   .filter(
-                    (item: any) =>
+                    (item) =>
                       item.type === "decorative" &&
                       item.referenceType === contentTypeName
                   )
-                  .map((item: any) => item.referenceId)
+                  .map((item) => (item as DecorativeItemType).referenceId)
                   .filter(Boolean)
               );
             } else if (item.type === "category-sub") {
-              item.itemGroups.forEach((group: any) => {
-                const referenceItems = group.filter(
-                  (item: any) =>
+              item.itemGroups.forEach((group) => {
+                const referenceItems = group.items.filter(
+                  (item) =>
                     item.type === "reference" &&
                     item.referenceType === contentTypeName
                 );
 
                 ids.push(
-                  ...referenceItems.map((item: any) => item.referenceId)
+                  ...referenceItems.map(
+                    (item) => (item as ReferenceItemType).referenceId
+                  )
                 );
               });
             }
