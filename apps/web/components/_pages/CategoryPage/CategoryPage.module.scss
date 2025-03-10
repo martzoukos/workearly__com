@@ -1,10 +1,9 @@
 @use "@/styles/_functions" as *;
 
 .root {
-  --gap-sidebar: 3rem;
   display: grid;
   grid-template-columns: 1fr;
-  gap: 8rem;
+  gap: fluid-rem(1.5rem, 8rem);
 }
 
 .header {

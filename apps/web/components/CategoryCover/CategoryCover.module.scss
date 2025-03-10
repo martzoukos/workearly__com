@@ -1,30 +1,25 @@
+@use "@/styles/_breakpoints" as *;
+@use "@/styles/_functions" as *;
+
 .root {
   display: flex;
   align-items: center;
   background: var(--color-sys-surface);
   color: var(--color-ink-default);
   border-radius: 1rem;
+
+  @include media(md) {
+    flex-direction: column-reverse;
+    padding: reverse-fluid-rem(0.75rem, 0rem, ("md", "xxl"));
+    gap: 1rem;
+  }
 }
 
 .content {
   display: flex;
   flex-direction: column;
   gap: 0.63rem;
-  padding: 4.38rem;
-}
-
-.media {
-  flex-shrink: 0;
-  position: relative;
-  width: 42rem;
-  height: 32rem;
-
-  img {
-    object-fit: contain;
-    object-position: right bottom;
-    border-start-end-radius: 1rem;
-    border-end-end-radius: 1rem;
-  }
+  padding: fluid-rem(0.75rem, 4.38rem, ("md", "xxl"));
 }
 
 .statLabels {

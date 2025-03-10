@@ -48,6 +48,7 @@ export const ACTION_FIELDS = graphql(`
   fragment ActionFields on Action {
     ...EntryFields
     name
+    features
     internal {
       slug
     }

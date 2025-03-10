@@ -1,10 +1,10 @@
+import Media from "@/components/Media";
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
 import clsx from "clsx";
-import Image from "next/image";
 import styles from "./CategoryCover.module.scss";
 
 type PropsType = {
@@ -44,18 +44,7 @@ export default function CategoryCover({ className }: PropsType) {
       </div>
 
       {categoryOrJobDetails.asset?.url && (
-        <div className={styles.media}>
-          <Image
-            src={categoryOrJobDetails.asset.url}
-            alt={
-              categoryOrJobDetails.asset.title ||
-              categoryOrJobDetails.title ||
-              ""
-            }
-            fill={true}
-            sizes="30vw"
-          />
-        </div>
+        <Media asset={categoryOrJobDetails.asset} aspectRatio="21 / 16" />
       )}
     </div>
   );

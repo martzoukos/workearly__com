@@ -1,4 +1,5 @@
 import Button, { ButtonProps } from "@/components/Button";
+import { useViewport } from "@/components/Viewport";
 import { QueryItem } from "@workearly/api";
 import Link from "next/link";
 
@@ -8,13 +9,18 @@ type PropsType = {
 };
 
 export default function ActionButton({ action, className }: PropsType) {
+  const isUntilMd = useViewport({ showUntil: "md" });
+  const isFullWidthInMobile = action.features?.includes("Full Width in Mobile");
+
   if (action?.external) {
     return (
       <Button
         asChild
         variant={action.variant as ButtonProps["variant"]}
         colorScheme={action.colorScheme as ButtonProps["colorScheme"]}
-        isFullWidth={action.behaviour === "Flex"}
+        isFullWidth={
+          action.behaviour === "Flex" || (isFullWidthInMobile && isUntilMd)
+        }
         className={className}
       >
         <a href={action.external}>{action.name}</a>
@@ -27,7 +33,9 @@ export default function ActionButton({ action, className }: PropsType) {
         asChild
         variant={action.variant as ButtonProps["variant"]}
         colorScheme={action.colorScheme as ButtonProps["colorScheme"]}
-        isFullWidth={action.behaviour === "Flex"}
+        isFullWidth={
+          action.behaviour === "Flex" || (isFullWidthInMobile && isUntilMd)
+        }
         className={className}
       >
         <Link href={action.internal.slug}>{action.name}</Link>
