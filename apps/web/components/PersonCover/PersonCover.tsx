@@ -101,7 +101,10 @@ export default function PersonCover({ className }: PropsType) {
             {peopleDetails.company && <span>, {peopleDetails.company}</span>}
           </Text>
 
-          <RichText json={peopleDetails.text?.json} />
+          <RichText
+            json={peopleDetails.text?.json}
+            className={styles.richText}
+          />
         </div>
       </article>
     </div>

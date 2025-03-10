@@ -11,6 +11,8 @@
   .h5,
   .h6,
   .p {
+    word-break: break-word;
+
     &:not(:first-child) {
       margin-block-start: 1.5rem;
     }
