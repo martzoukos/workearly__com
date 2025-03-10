@@ -1,5 +1,6 @@
 import {
   fetchPageBySlug,
+  isDefined,
   QueryItem,
   RelationshipMapTypeName,
 } from "@workearly/api";
@@ -45,14 +46,16 @@ export const ContentfulProvider = ({
       `${typename}Collection`
     ) as keyof typeof relationshipMap;
 
-    return ids.map((id) => {
-      const collection = relationshipMap[relationshipKey];
+    return ids
+      .map((id) => {
+        const collection = relationshipMap[relationshipKey];
 
-      return collection?.find((entry) => entry?.sys.id === id) as Pick<
-        QueryItem,
-        RelationshipMapTypeName
-      >[T];
-    });
+        return collection?.find((entry) => entry?.sys.id === id) as Pick<
+          QueryItem,
+          RelationshipMapTypeName
+        >[T];
+      })
+      .filter(isDefined);
   }
 
   function getReference<T extends RelationshipMapTypeName>(
@@ -72,11 +75,13 @@ export const ContentfulProvider = ({
     ) as keyof typeof relationshipMap;
 
     const collection = relationshipMap[relationshipKey];
-    return collection?.filter((entry) =>
-      entry?.contentfulMetadata.tags
-        .map((tag) => tag?.id as string)
-        .some((id) => tagIds.includes(id))
-    ) as Pick<QueryItem, RelationshipMapTypeName>[T][];
+    return collection
+      ?.filter((entry) =>
+        entry?.contentfulMetadata.tags
+          .map((tag) => tag?.id as string)
+          .some((id) => tagIds.includes(id))
+      )
+      .filter(isDefined) as Pick<QueryItem, RelationshipMapTypeName>[T][];
   }
 
   return (
