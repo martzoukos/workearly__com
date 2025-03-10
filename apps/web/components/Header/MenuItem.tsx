@@ -38,6 +38,7 @@ export default function MenuItem({ item, className, ...props }: MenuItemProps) {
   if (item.type === "link" || item.type === "decorative") {
     return (
       <Button
+        asChild
         variant="MenuItem"
         isFullWidth
         size="medium"
