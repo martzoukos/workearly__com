@@ -28,7 +28,11 @@ export default function CardGrid({
   } as React.CSSProperties;
 
   return (
-    <div className={clsx(styles.root, className)} style={style}>
+    <div
+      className={clsx(styles.root, className)}
+      style={style}
+      data-card-variant={fallbackVariant}
+    >
       {cards?.map((card) => (
         <CardRenderer
           key={card.sys.id}

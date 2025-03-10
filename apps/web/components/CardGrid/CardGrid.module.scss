@@ -20,10 +20,10 @@
   //   grid-template-columns: repeat(calc((var(--column-count) + 1) / 2), 1fr);
   // }
 
-  // @include media(md) {
-  //   grid-template-columns: repeat(
-  //     auto-fit,
-  //     minmax(min(var(--column-width) / 2, 100%), 1fr)
-  //   );
-  // }
+  // data-card-variant to be used as an escape hatch, so don't use unless absolutely necessary
+  @include media(md) {
+    &[data-card-variant="Key Metric"] {
+      --column-width: calc((100% - var(--total-gap-width)) / 2);
+    }
+  }
 }
