@@ -1,0 +1,65 @@
+import Media from "@/components/Media";
+import Text from "@/components/Text";
+import { ChevronDown } from "@carbon/icons-react";
+import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
+import { Accordion as RadixAccordion } from "radix-ui";
+import { useState } from "react";
+import styles from "./FeaturesAccordion.module.scss";
+
+type PropsType = {
+  cards: QueryItem["Card"][];
+  title?: string;
+  className?: string;
+};
+
+export default function FeaturesAccordion({
+  cards,
+  title,
+  className,
+}: PropsType) {
+  const [value, setValue] = useState(cards[0]?.sys.id);
+
+  return (
+    <section className={clsx(styles.root, className)}>
+      {title && (
+        <Text as="h2" className={styles.title}>
+          {title}
+        </Text>
+      )}
+      <RadixAccordion.Root
+        type="single"
+        value={value}
+        onValueChange={setValue}
+        className={styles.accordion}
+        collapsible
+      >
+        {cards.map((card) => (
+          <RadixAccordion.Item key={card.sys.id} value={card.sys.id}>
+            {value !== card.sys.id && (
+              <RadixAccordion.Header asChild>
+                <Text as="h5" size="p">
+                  <RadixAccordion.Trigger className={styles.trigger}>
+                    {card.title} <ChevronDown />
+                  </RadixAccordion.Trigger>
+                </Text>
+              </RadixAccordion.Header>
+            )}
+
+            <RadixAccordion.Content className={styles.content}>
+              <div className={styles.contentInner}>
+                <div className={styles.contentTitleContainer}>
+                  <Text as="h3" size="h2" className={styles.contentTitle}>
+                    {card?.title}
+                  </Text>
+                  <Text size="h5">{card?.text}</Text>
+                </div>
+                {card?.asset && <Media asset={card.asset} height="12.5rem" />}
+              </div>
+            </RadixAccordion.Content>
+          </RadixAccordion.Item>
+        ))}
+      </RadixAccordion.Root>
+    </section>
+  );
+}

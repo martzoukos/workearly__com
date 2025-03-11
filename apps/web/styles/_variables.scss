@@ -20,6 +20,7 @@
 
   --color-sys-default: hsl(var(--color-black-500));
   --color-sys-accent: hsl(var(--color-green-500));
+  --color-sys-accent-muted: hsl(var(--color-green-500) / 0.3);
   --color-sys-surface: hsl(var(--color-black-450));
   --color-sys-surface-1: hsl(var(--color-black-400));
   --color-sys-surface-2: hsl(var(--color-black-300));
@@ -39,6 +40,7 @@
 
   --color-sys-default: hsl(var(--color-neutral-500));
   --color-sys-accent: hsl(var(--color-green-500));
+  --color-sys-accent-muted: hsl(var(--color-green-500) / 0.3);
   --color-sys-surface: hsl(var(--color-neutral-450));
   --color-sys-surface-1: hsl(var(--color-neutral-400));
   --color-sys-surface-2: hsl(var(--color-neutral-300));
