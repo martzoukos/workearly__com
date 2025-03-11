@@ -1,12 +1,12 @@
 import Button, { ButtonProps } from "@/components/Button";
-import { Drawer } from "@/components/Drawer";
-import { Menu as MenuIcon } from "@carbon/icons-react";
+import MenuItem from "@/components/Header/MenuItem";
+import { ChevronDown, Menu as MenuIcon } from "@carbon/icons-react";
 import { MenuType } from "@workearly/api";
 import { Logo } from "@workearly/svg";
 import clsx from "clsx";
 import Link from "next/link";
+import DrawerMenu from "./DrawerMenu";
 import styles from "./DrawerNav.module.scss";
-import Menu from "./Menu";
 
 type PropsType = {
   menus: Array<MenuType>;
@@ -22,10 +22,23 @@ export default function DrawerNav({ menus, className }: PropsType) {
         <Logo />
       </Link>
       <div className={styles.menusContainer}>
-        {firstMenu && <Menu menu={firstMenu} />}
-        <Drawer
-          contentClassName={styles.drawerContent}
-          contentInnerClassName={styles.drawerContentInner}
+        {firstMenu && (
+          <DrawerMenu
+            trigger={
+              <Button
+                aria-label={firstMenu.name}
+                variant={
+                  (firstMenu.variant ?? "Outlined") as ButtonProps["variant"]
+                }
+              >
+                {firstMenu.name}
+                <ChevronDown />
+              </Button>
+            }
+            itemGroups={firstMenu.itemGroups}
+          />
+        )}
+        <DrawerMenu
           trigger={
             <Button variant="Outlined">
               <MenuIcon />
@@ -33,25 +46,19 @@ export default function DrawerNav({ menus, className }: PropsType) {
           }
         >
           {menus.slice(1).map((menu) => {
-            if (menu.to) {
+            if (menu.itemGroups) {
               return (
-                <Button
-                  asChild
+                <DrawerMenu
                   key={menu.name}
-                  aria-label={menu.name}
-                  variant={
-                    (menu.variant ?? "MenuItem") as ButtonProps["variant"]
-                  }
-                  colorScheme="Black"
-                >
-                  <Link href={menu.to}>{menu.name}</Link>
-                </Button>
+                  itemGroups={menu.itemGroups}
+                  trigger={<MenuItem item={menu} />}
+                />
               );
-            } else if (menu.itemGroups) {
-              return <Menu key={menu.name} menu={menu} />;
             }
+
+            return <MenuItem key={menu.name} item={menu} />;
           })}
-        </Drawer>
+        </DrawerMenu>
       </div>
     </nav>
   );

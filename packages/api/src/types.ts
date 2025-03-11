@@ -265,12 +265,20 @@ export type CategorySubItemType = {
 
 export type MenuGroupType = {
   name?: string;
-  items: Array<LinkItemType | NormalSubItemType | CategorySubItemType>;
+  items: Array<
+    | LinkItemType
+    | NormalSubItemType
+    | CategorySubItemType
+    | DecorativeItemType
+    | ReferenceItemType
+    | MenuType
+  >;
 };
 
 export type MenuType = {
   name: string;
   to?: string;
   variant?: string;
+  type: "menu";
   itemGroups: Array<MenuGroupType>;
 };
