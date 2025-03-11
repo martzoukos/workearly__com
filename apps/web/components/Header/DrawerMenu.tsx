@@ -32,7 +32,7 @@ export default function DrawerMenu({
             <header className={styles.header}>
               {index === 0 && (
                 <VaulDrawer.Close asChild>
-                  <Button variant="Ghost">
+                  <Button variant="Ghost" colorScheme="Black">
                     <ChevronLeft className={styles.icon} />
                   </Button>
                 </VaulDrawer.Close>
