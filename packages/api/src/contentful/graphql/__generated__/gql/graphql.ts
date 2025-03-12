@@ -2012,6 +2012,7 @@ export type CourseDetails = Entry & _Node & {
   linkedFrom?: Maybe<CourseDetailsLinkingCollections>;
   pace?: Maybe<Scalars['String']['output']>;
   programStarts?: Maybe<Scalars['String']['output']>;
+  purchaseUrl?: Maybe<Scalars['String']['output']>;
   shortDescription?: Maybe<Scalars['String']['output']>;
   startingCost?: Maybe<Scalars['Float']['output']>;
   studentsCount?: Maybe<Scalars['Int']['output']>;
@@ -2082,6 +2083,12 @@ export type CourseDetailsPaceArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsProgramStartsArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsPurchaseUrlArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2214,6 +2221,13 @@ export type CourseDetailsFilter = {
   programStarts_not?: InputMaybe<Scalars['String']['input']>;
   programStarts_not_contains?: InputMaybe<Scalars['String']['input']>;
   programStarts_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  purchaseUrl?: InputMaybe<Scalars['String']['input']>;
+  purchaseUrl_contains?: InputMaybe<Scalars['String']['input']>;
+  purchaseUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  purchaseUrl_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  purchaseUrl_not?: InputMaybe<Scalars['String']['input']>;
+  purchaseUrl_not_contains?: InputMaybe<Scalars['String']['input']>;
+  purchaseUrl_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   shortDescription?: InputMaybe<Scalars['String']['input']>;
   shortDescription_contains?: InputMaybe<Scalars['String']['input']>;
   shortDescription_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -2348,6 +2362,8 @@ export enum CourseDetailsOrder {
   PaceDesc = 'pace_DESC',
   ProgramStartsAsc = 'programStarts_ASC',
   ProgramStartsDesc = 'programStarts_DESC',
+  PurchaseUrlAsc = 'purchaseUrl_ASC',
+  PurchaseUrlDesc = 'purchaseUrl_DESC',
   ShortDescriptionAsc = 'shortDescription_ASC',
   ShortDescriptionDesc = 'shortDescription_DESC',
   StartingCostAsc = 'startingCost_ASC',

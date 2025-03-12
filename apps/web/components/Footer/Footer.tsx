@@ -95,6 +95,29 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
           </div>
         </nav>
       </div>
+      <div className={styles.details}>
+        <div className={styles.detailsBlock}>
+          <Text size="caption" className={styles.detailsTitle}>
+            ΑΘΗΝΑ
+          </Text>
+          <Text>Ευριπίδου 16-18, Αθήνα 10561, Αττική</Text>
+        </div>
+        <div className={styles.detailsBlock}>
+          <Text size="caption" className={styles.detailsTitle}>
+            ΛΟΝΔΙΝΟ
+          </Text>
+          <Text>156a Burnt Oak Broadway, Edgware, England, HA8 0AX</Text>
+        </div>
+        <div className={styles.detailsBlock}>
+          <Text size="caption" className={styles.detailsTitle}>
+            ΤΗΛΕΦΩΝΑ
+          </Text>
+          <div>
+            <Text as="span">Αθήνα: +30 2102209811</Text>
+            <Text as="span">Λονδίνο: +44 20 4579 3466</Text>
+          </div>
+        </div>
+      </div>
       <div className={styles.footer}>
         <div className={styles.copyright}>
           <Text>© Workearly Copyright {new Date().getFullYear()}</Text>

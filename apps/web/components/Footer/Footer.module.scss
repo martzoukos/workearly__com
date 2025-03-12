@@ -110,12 +110,10 @@
 }
 
 .footer {
-  margin-top: 2.5rem;
   padding-block: 1.5rem;
   display: flex;
   justify-content: space-between;
   gap: 2rem;
-  border-block: 1px solid hsl(var(--color-black-500));
 }
 
 .copyright {
@@ -137,4 +135,30 @@
 
 .trademark {
   vertical-align: baseline;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 2.5rem;
+  padding-block: 1.5rem;
+  border-block: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.detailsBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+}
+
+.detailsTitle {
+  opacity: 0.6;
 }
