@@ -1,10 +1,10 @@
 import useRichTextResolver, {
   RichTextVariantType,
 } from "@/hooks/useRichTextResolver";
+import { PropsWithChildren } from "react";
 import { useRemarkSync } from "react-remark";
 import { TextProps } from "../Text/Text";
 import { H1, H2, H3, H4, H5, H6, LI, P, UL } from "./RichTextPrimitives";
-import { PropsWithChildren } from "react";
 
 type PropsType = {
   children: string;

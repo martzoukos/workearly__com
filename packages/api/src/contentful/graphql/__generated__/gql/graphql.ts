@@ -2002,17 +2002,18 @@ export type CourseDetails = Entry & _Node & {
   __typename?: 'CourseDetails';
   _id: Scalars['ID']['output'];
   applicationDeadline?: Maybe<Scalars['String']['output']>;
+  applicationUrl?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   courseCount?: Maybe<Scalars['String']['output']>;
   duration?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   finalCost?: Maybe<Scalars['Float']['output']>;
+  id?: Maybe<Scalars['String']['output']>;
   language?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   level?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   linkedFrom?: Maybe<CourseDetailsLinkingCollections>;
   pace?: Maybe<Scalars['String']['output']>;
   programStarts?: Maybe<Scalars['String']['output']>;
-  purchaseUrl?: Maybe<Scalars['String']['output']>;
   shortDescription?: Maybe<Scalars['String']['output']>;
   startingCost?: Maybe<Scalars['Float']['output']>;
   studentsCount?: Maybe<Scalars['Int']['output']>;
@@ -2029,6 +2030,12 @@ export type CourseDetails = Entry & _Node & {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsApplicationDeadlineArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsApplicationUrlArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2053,6 +2060,12 @@ export type CourseDetailsDurationArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsFinalCostArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsIdArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2083,12 +2096,6 @@ export type CourseDetailsPaceArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsProgramStartsArgs = {
-  locale?: InputMaybe<Scalars['String']['input']>;
-};
-
-
-/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
-export type CourseDetailsPurchaseUrlArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2171,6 +2178,13 @@ export type CourseDetailsFilter = {
   applicationDeadline_not?: InputMaybe<Scalars['String']['input']>;
   applicationDeadline_not_contains?: InputMaybe<Scalars['String']['input']>;
   applicationDeadline_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  applicationUrl?: InputMaybe<Scalars['String']['input']>;
+  applicationUrl_contains?: InputMaybe<Scalars['String']['input']>;
+  applicationUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  applicationUrl_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  applicationUrl_not?: InputMaybe<Scalars['String']['input']>;
+  applicationUrl_not_contains?: InputMaybe<Scalars['String']['input']>;
+  applicationUrl_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   contentfulMetadata?: InputMaybe<ContentfulMetadataFilter>;
   contentfulName?: InputMaybe<Scalars['String']['input']>;
   contentfulName_contains?: InputMaybe<Scalars['String']['input']>;
@@ -2199,6 +2213,13 @@ export type CourseDetailsFilter = {
   finalCost_lte?: InputMaybe<Scalars['Float']['input']>;
   finalCost_not?: InputMaybe<Scalars['Float']['input']>;
   finalCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  id?: InputMaybe<Scalars['String']['input']>;
+  id_contains?: InputMaybe<Scalars['String']['input']>;
+  id_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  id_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  id_not?: InputMaybe<Scalars['String']['input']>;
+  id_not_contains?: InputMaybe<Scalars['String']['input']>;
+  id_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   language_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   language_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   language_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
@@ -2221,13 +2242,6 @@ export type CourseDetailsFilter = {
   programStarts_not?: InputMaybe<Scalars['String']['input']>;
   programStarts_not_contains?: InputMaybe<Scalars['String']['input']>;
   programStarts_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  purchaseUrl?: InputMaybe<Scalars['String']['input']>;
-  purchaseUrl_contains?: InputMaybe<Scalars['String']['input']>;
-  purchaseUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
-  purchaseUrl_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
-  purchaseUrl_not?: InputMaybe<Scalars['String']['input']>;
-  purchaseUrl_not_contains?: InputMaybe<Scalars['String']['input']>;
-  purchaseUrl_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   shortDescription?: InputMaybe<Scalars['String']['input']>;
   shortDescription_contains?: InputMaybe<Scalars['String']['input']>;
   shortDescription_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -2352,18 +2366,20 @@ export enum CourseDetailsLinkingCollectionsPageCollectionOrder {
 export enum CourseDetailsOrder {
   ApplicationDeadlineAsc = 'applicationDeadline_ASC',
   ApplicationDeadlineDesc = 'applicationDeadline_DESC',
+  ApplicationUrlAsc = 'applicationUrl_ASC',
+  ApplicationUrlDesc = 'applicationUrl_DESC',
   ContentfulNameAsc = 'contentfulName_ASC',
   ContentfulNameDesc = 'contentfulName_DESC',
   CourseCountAsc = 'courseCount_ASC',
   CourseCountDesc = 'courseCount_DESC',
   FinalCostAsc = 'finalCost_ASC',
   FinalCostDesc = 'finalCost_DESC',
+  IdAsc = 'id_ASC',
+  IdDesc = 'id_DESC',
   PaceAsc = 'pace_ASC',
   PaceDesc = 'pace_DESC',
   ProgramStartsAsc = 'programStarts_ASC',
   ProgramStartsDesc = 'programStarts_DESC',
-  PurchaseUrlAsc = 'purchaseUrl_ASC',
-  PurchaseUrlDesc = 'purchaseUrl_DESC',
   ShortDescriptionAsc = 'shortDescription_ASC',
   ShortDescriptionDesc = 'shortDescription_DESC',
   StartingCostAsc = 'startingCost_ASC',

@@ -1,5 +1,6 @@
 import Card from "@/components/Card";
 import Media from "@/components/Media";
+import Markdown from "@/components/RichText/Markdown";
 import Text from "@/components/Text";
 import { StarFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
@@ -38,7 +39,7 @@ export default function VideoTestimonialCard({
             )}
 
             {card.title && <Text>{card.title}</Text>}
-            {card.text && <Text>{card.text}</Text>}
+            {card.text && <Markdown>{card.text}</Markdown>}
           </div>
         </div>
       </div>
