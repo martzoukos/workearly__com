@@ -46,6 +46,7 @@ const DATA_MAP = {
     "Partners (No Filters)",
     "Courses",
     "Courses (No Filters)",
+    "Form",
   ],
 } as const;
 
