@@ -1,10 +1,12 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .card {
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
-  padding-inline: 2rem;
-  padding-bottom: 1.75rem;
-  padding-top: 1.35rem;
+  gap: fluid-rem(0.25rem, 1.25rem, ("md", "xxl"));
+  padding-inline: fluid-rem(1.5rem, 2rem, ("md", "xxl"));
+  padding-block: fluid-rem(1.38rem, 1.75rem, ("md", "xxl"));
   border-radius: 1rem;
   border: 1px solid hsl(var(--color-black-400));
 }

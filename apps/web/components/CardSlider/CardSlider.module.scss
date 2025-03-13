@@ -22,4 +22,9 @@
 .slide {
   padding: 2px;
   max-width: var(--column-width);
+  height: auto;
+
+  & > * {
+    height: 100%;
+  }
 }

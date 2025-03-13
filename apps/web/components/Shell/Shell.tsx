@@ -24,6 +24,7 @@ function ShellRoot({
   theme,
   className,
   children,
+  ...props
 }: ShellRootPropsType) {
   return (
     <Themed
@@ -35,6 +36,7 @@ function ShellRoot({
         styles[`alignment${alignment}`],
         className
       )}
+      {...props}
     >
       {children}
     </Themed>

@@ -1,4 +1,10 @@
 .root {
+  &[data-alignment="Centered"] {
+    text-align: center;
+    max-width: min(80ch, 100%);
+    margin-inline: auto;
+  }
+
   .h2,
   .h3,
   .h4 {

@@ -1,4 +1,5 @@
 @use "@/styles/_settings" as *;
+@use "@/styles/_functions" as *;
 
 .root {
   max-width: var(--container-width);
@@ -15,7 +16,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: fluid-rem(0.25rem, 0.75rem, ("md", "xxl"));
 }
 
 .footer {
@@ -42,6 +43,7 @@
 .alignmentLeft {
   .header {
     text-align: left;
+    padding-inline-start: 1.5rem;
   }
 
   .footer {
@@ -76,6 +78,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  gap: 0.75rem;
+  gap: fluid-rem(0.25rem, 0.75rem, ("md", "xxl"));
   width: 100%;
 }

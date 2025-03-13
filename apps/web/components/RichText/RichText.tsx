@@ -247,6 +247,7 @@ export default function RichText({ json, richText, className }: PropsType) {
   return (
     <Shell.Root
       {...shell}
+      data-alignment={shell.alignment}
       className={clsx(
         styles.root,
         resolver.renderListAsChips && styles.chipsContainer,
