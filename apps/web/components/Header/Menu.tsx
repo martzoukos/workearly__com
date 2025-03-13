@@ -6,8 +6,9 @@ import { ChevronDown } from "@carbon/icons-react";
 import { MenuGroupType, MenuType } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
+import { useRouter } from "next/router";
 import { DropdownMenu } from "radix-ui";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./Menu.module.scss";
 import MenuItem from "./MenuItem";
 
@@ -19,9 +20,21 @@ export default function Menu({ menu }: PropsType) {
   const [activeSub, setActiveSub] = useState<
     MenuGroupType["items"][number] | undefined
   >(undefined);
+  const router = useRouter();
+  const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    function onClose() {
+      setOpen(false);
+      setActiveSub(undefined);
+    }
+
+    router.events.on("routeChangeStart", onClose);
+    return () => router.events.off("routeChangeStart", onClose);
+  }, [router.events]);
 
   return (
-    <DropdownMenu.Root>
+    <DropdownMenu.Root open={open} onOpenChange={setOpen}>
       <DropdownMenu.Trigger asChild>
         <Button
           aria-label={menu.name}

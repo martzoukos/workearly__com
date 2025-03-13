@@ -92,17 +92,6 @@ async function getPageRelationships(
     mapItems: (data) => data?.sectionCollection?.items.filter(isDefined) || [],
   });
 
-  const contentTypeRichTextIds = extractPageDeepChildIds(
-    { pageCollection: [page], sectionCollection },
-    "ContentTypeRichText"
-  );
-  const contentTypeRichTextCollection = await fetchCollection(client, {
-    ids: contentTypeRichTextIds,
-    query: CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.contentTypeRichTextCollection?.items.filter(isDefined) || [],
-  });
-
   const uniqueComponentIds = extractPageDeepChildIds(
     { pageCollection: [page], sectionCollection },
     "UniqueComponent"
@@ -154,6 +143,17 @@ async function getPageRelationships(
     [page, ...childPageCollection, ...sectionTaggedPageCollection],
     (item) => item.sys.id
   );
+
+  const contentTypeRichTextIds = extractPageDeepChildIds(
+    { pageCollection: pageCollection, sectionCollection },
+    "ContentTypeRichText"
+  );
+  const contentTypeRichTextCollection = await fetchCollection(client, {
+    ids: contentTypeRichTextIds,
+    query: CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
+    mapItems: (data) =>
+      data?.contentTypeRichTextCollection?.items.filter(isDefined) || [],
+  });
 
   const peopleDetailsIds = extractPageDeepChildIds(
     { pageCollection, sectionCollection, contentTypeRichTextCollection },

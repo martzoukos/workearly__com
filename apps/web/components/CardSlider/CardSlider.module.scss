@@ -1,3 +1,6 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
 .root {
   --total-gap-width: calc(var(--gap) * (var(--column-count) - 1));
   --column-width: calc(
@@ -8,6 +11,12 @@
     calc(100vw - 4 * var(--container-padding)),
     var(--container-width)
   );
+
+  @include media(md) {
+    .slide {
+      padding: 0;
+    }
+  }
 }
 
 .slide {

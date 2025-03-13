@@ -19,25 +19,27 @@ export default function VideoTestimonialCard({
   className,
 }: PropsType) {
   return (
-    <Card.Root theme={theme} className={clsx(styles.card, className)}>
-      <div className={styles.content}>
-        {card.asset && (
-          <div className={styles.playerWrapper}>
-            <Media asset={card.asset} aspectRatio="auto" />
-          </div>
-        )}
-
-        <div className={styles.details}>
-          {card.rating && (
-            <div className={styles.stars}>
-              {Array.from({ length: card.rating }).map((_, index) => (
-                <StarFilled key={index} />
-              ))}
+    <Card.Root theme={theme} className={clsx(styles.root, className)}>
+      <div className={styles.card}>
+        <div className={styles.content}>
+          {card.asset && (
+            <div className={styles.playerWrapper}>
+              <Media asset={card.asset} aspectRatio="auto" />
             </div>
           )}
 
-          {card.title && <Text>{card.title}</Text>}
-          {card.text && <Text>{card.text}</Text>}
+          <div className={styles.details}>
+            {card.rating && (
+              <div className={styles.stars}>
+                {Array.from({ length: card.rating }).map((_, index) => (
+                  <StarFilled key={index} />
+                ))}
+              </div>
+            )}
+
+            {card.title && <Text>{card.title}</Text>}
+            {card.text && <Text>{card.text}</Text>}
+          </div>
         </div>
       </div>
     </Card.Root>

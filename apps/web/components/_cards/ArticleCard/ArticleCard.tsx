@@ -4,7 +4,6 @@ import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
-import { DateTime } from "luxon";
 import Link from "next/link";
 import styles from "./ArticleCard.module.scss";
 
@@ -54,11 +53,11 @@ export default function ArticleCard({ page }: PropsType) {
             />
           )}
 
-          <Text size="caption">
+          {/* <Text size="caption">
             {DateTime.fromISO(resourceDetails.publicationDate).toFormat(
               "MMM dd, yyyy"
             )}
-          </Text>
+          </Text> */}
 
           <ReadingTime time={readingTime} />
         </footer>

@@ -29,10 +29,15 @@ export default function CardSlider({
 
   return (
     <Swiper
-      slidesPerView="auto"
+      slidesPerView={1.25}
       spaceBetween={8}
       style={style}
       className={styles.root}
+      breakpoints={{
+        480: {
+          slidesPerView: "auto",
+        },
+      }}
     >
       {cards?.map((card) => (
         <SwiperSlide key={card.sys.id} className={styles.slide}>
