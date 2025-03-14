@@ -92,6 +92,7 @@ export const CARD_FIELDS = graphql(`
 export const COURSE_DETAILS_FIELDS = graphql(`
   fragment CourseDetailsFields on CourseDetails {
     ...EntryFields
+    h1Title
     title
     summary
     shortDescription

@@ -30,7 +30,10 @@ export default function CourseCover() {
         />
       </Viewport>
       <header className={styles.header}>
-        <Text as="h1">{page.name}</Text>
+        <Text as="h1" size="p">
+          {courseDetails?.h1Title}
+        </Text>
+        <Text as="h2">{page.name}</Text>
         <Text>{courseDetails?.summary}</Text>
       </header>
       {(courseDetails.studentsCount || courseDetails.userReviews) && (
