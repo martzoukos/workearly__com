@@ -4,7 +4,7 @@
 @use "@/styles/_settings" as *;
 
 .root {
-  padding: 3rem 3.2rem;
+  padding: 3rem fluid-rem(1.5rem, 3.2rem);
   border-radius: 1rem 1rem 0rem 0rem;
   color: hsl(var(--color-black-500));
   background: var(--color-sys-nav);
@@ -161,4 +161,8 @@
 
 .detailsTitle {
   opacity: 0.6;
+}
+
+.reviewButton {
+  margin-top: 1.5rem;
 }

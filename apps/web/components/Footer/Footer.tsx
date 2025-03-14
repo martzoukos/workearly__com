@@ -45,6 +45,20 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
 
               <Text size="caption">({json?.columnOne?.reviewNumber})</Text>
             </div>
+
+            {json?.columnOne?.button?.link && (
+              <Button
+                variant="Solid"
+                colorScheme="Black"
+                className={styles.reviewButton}
+                asChild
+              >
+                <a href={json?.columnOne?.button?.link} target="_blank">
+                  {" "}
+                  {json?.columnOne?.button?.title}
+                </a>
+              </Button>
+            )}
           </div>
         </div>
 
