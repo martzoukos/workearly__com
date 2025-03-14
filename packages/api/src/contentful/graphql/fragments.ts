@@ -76,6 +76,9 @@ export const CARD_FIELDS = graphql(`
     asset {
       ...AssetFields
     }
+    thumbnail {
+      ...AssetFields
+    }
     actionsCollection {
       items {
         ... on Entry {

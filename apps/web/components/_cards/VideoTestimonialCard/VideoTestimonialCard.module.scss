@@ -21,16 +21,56 @@
 }
 
 .playerWrapper {
+  position: relative;
   video {
     border-radius: 0.5rem 0.5rem 0 0;
     display: block;
   }
 }
 
-.asset {
+.placeholder {
+  min-height: 25.875rem;
+}
+
+.thumbnailWrapper {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.thumbnail {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.playIcon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 4.875rem !important;
+  height: 4.875rem !important;
+}
+
+.thumbnailWrapper::before {
+  content: "";
+  position: absolute;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.7),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 .details {
