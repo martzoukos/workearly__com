@@ -23,6 +23,7 @@ export default function VideoTestimonialCard({
   className,
 }: PropsType) {
   const [isThumbnail, setisThumbnail] = useState(Boolean(card?.thumbnail?.url));
+  const [videoClicked, setVideoClicked] = useState(false);
 
   return (
     <Card.Root theme={theme} className={clsx(styles.root, className)}>
@@ -34,12 +35,15 @@ export default function VideoTestimonialCard({
                 className={`${isThumbnail && styles.placeholder}`}
                 asset={card.asset}
                 aspectRatio="auto"
-                videoProps={{ playing: !isThumbnail, light: isThumbnail }}
+                videoProps={{ playing: videoClicked, light: isThumbnail }}
               />
               {isThumbnail && (
                 <div
                   className={styles.thumbnailWrapper}
-                  onClick={() => setisThumbnail(false)}
+                  onClick={() => {
+                    setVideoClicked(true);
+                    setisThumbnail(false);
+                  }}
                 >
                   <Image
                     src={card?.thumbnail?.url || ""}

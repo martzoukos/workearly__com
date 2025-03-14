@@ -2017,6 +2017,7 @@ export type CourseDetails = Entry & _Node & {
   courseCount?: Maybe<Scalars['String']['output']>;
   duration?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   finalCost?: Maybe<Scalars['Float']['output']>;
+  h1Title?: Maybe<Scalars['String']['output']>;
   id?: Maybe<Scalars['String']['output']>;
   language?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   level?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
@@ -2069,6 +2070,12 @@ export type CourseDetailsDurationArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsFinalCostArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsH1TitleArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2222,6 +2229,13 @@ export type CourseDetailsFilter = {
   finalCost_lte?: InputMaybe<Scalars['Float']['input']>;
   finalCost_not?: InputMaybe<Scalars['Float']['input']>;
   finalCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  h1Title?: InputMaybe<Scalars['String']['input']>;
+  h1Title_contains?: InputMaybe<Scalars['String']['input']>;
+  h1Title_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  h1Title_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  h1Title_not?: InputMaybe<Scalars['String']['input']>;
+  h1Title_not_contains?: InputMaybe<Scalars['String']['input']>;
+  h1Title_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   id?: InputMaybe<Scalars['String']['input']>;
   id_contains?: InputMaybe<Scalars['String']['input']>;
   id_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -2383,6 +2397,8 @@ export enum CourseDetailsOrder {
   CourseCountDesc = 'courseCount_DESC',
   FinalCostAsc = 'finalCost_ASC',
   FinalCostDesc = 'finalCost_DESC',
+  H1TitleAsc = 'h1Title_ASC',
+  H1TitleDesc = 'h1Title_DESC',
   IdAsc = 'id_ASC',
   IdDesc = 'id_DESC',
   PaceAsc = 'pace_ASC',
