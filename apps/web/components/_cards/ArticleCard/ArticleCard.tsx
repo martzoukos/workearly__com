@@ -18,6 +18,8 @@ export default function ArticleCard({ page }: PropsType) {
     return null;
   }
 
+  const topic = resourceDetails.topics?.at(0);
+
   return (
     <Link href={page.slug ?? "/"} className={styles.root}>
       {resourceDetails.asset?.url && (
@@ -42,9 +44,11 @@ export default function ArticleCard({ page }: PropsType) {
         </header>
 
         <footer className={styles.footer}>
-          <Text size="xsmall" className={styles.tag}>
-            {resourceDetails.topics?.at(0)}
-          </Text>
+          {topic && (
+            <Text size="xsmall" className={styles.tag}>
+              {topic}
+            </Text>
+          )}
 
           {peopleDetails.asset?.url && (
             <Person
