@@ -122,7 +122,7 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
             London
           </Text>
           <Text>156a Burnt Oak Broadway, Edgware, England, HA8 0AX</Text>
-          <Text as="span">London: +44 20 4579 3466</Text>
+          <Text as="span">+44 20 4579 3466</Text>
         </div>
       </div>
       <div className={styles.footer}>
