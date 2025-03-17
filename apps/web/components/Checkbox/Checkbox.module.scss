@@ -1,6 +1,6 @@
 .root {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 0.5rem;
 
   &:hover {
@@ -15,6 +15,10 @@
     .iconChecked {
       display: block;
       color: var(--color-sys-accent);
+
+      [data-icon-path="inner-path"] {
+        fill: var(--color-ink-default);
+      }
     }
   }
 

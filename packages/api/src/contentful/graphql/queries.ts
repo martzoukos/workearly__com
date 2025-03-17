@@ -17,7 +17,7 @@ export const PAGE_SLUGS_QUERY = graphql(`
   query PageSlugs {
     pageCollection(
       where: { slug_not_in: ["404"], variant_not_in: ["Playground"] }
-      limit: 100
+      limit: 1000
     ) {
       items {
         slug

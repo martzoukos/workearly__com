@@ -1,5 +1,6 @@
 import CardShowcase from "@/components/_sections/CardShowcase";
 import CourseIndex from "@/components/_sections/CourseIndex";
+import Form from "@/components/_sections/Form";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
 import Map from "@/components/_sections/Map";
@@ -155,6 +156,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
         <Map assets={assets} />
       </Shell.Section>
     );
+  } else if (variant === "Form") {
+    return <Form section={section} />;
   }
 
   return null;
