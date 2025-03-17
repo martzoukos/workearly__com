@@ -73,9 +73,18 @@ function getOptions(
       [BLOCKS.HEADING_6]: (_, children) => (
         <H6 resolver={resolver}>{children}</H6>
       ),
-      [BLOCKS.PARAGRAPH]: (_, children) => (
-        <P resolver={resolver}>{children}</P>
-      ),
+      [BLOCKS.PARAGRAPH]: (node, children) => {
+        if (
+          node &&
+          Array.isArray(node.content) &&
+          node.content.length === 1 &&
+          (node.content.at(0) as ContentfulText)?.value?.trim() === ""
+        ) {
+          return null;
+        }
+
+        return <P resolver={resolver}>{children}</P>;
+      },
       [BLOCKS.UL_LIST]: (_, children) => (
         <UL resolver={resolver}>{children}</UL>
       ),
