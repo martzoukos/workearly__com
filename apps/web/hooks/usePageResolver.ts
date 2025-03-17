@@ -2,6 +2,7 @@ import { documentToPlainTextString } from "@contentful/rich-text-plain-text-rend
 import { BLOCKS, Document } from "@contentful/rich-text-types";
 import { isDefined, QueryItem, RelationshipMap } from "@workearly/api";
 import { ThemeType } from "@workearly/theme";
+import { useRouter } from "next/router";
 import { useContentful } from "../stores/ContentfulStore";
 
 const DATA_MAP = {
@@ -23,8 +24,13 @@ const DATA_MAP = {
 export type PageVariantType = (typeof DATA_MAP)["variants"][number];
 
 export default function usePageResolver(page: QueryItem["Page"]) {
+  const router = useRouter();
   const { relationshipMap } = useContentful();
-  return getPageResolver(page, relationshipMap);
+
+  return {
+    isPaymentPage: router.query.pageSlugs?.at(-1) === "payment",
+    ...getPageResolver(page, relationshipMap),
+  };
 }
 
 function calculateReadingTime(documents: Document[]) {

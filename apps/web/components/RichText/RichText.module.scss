@@ -5,6 +5,14 @@
     margin-inline: auto;
   }
 
+  .a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
   .h2,
   .h3,
   .h4 {

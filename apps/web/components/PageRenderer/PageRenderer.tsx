@@ -3,6 +3,7 @@ import CoursePage from "@/components/_pages/CoursePage";
 import DefaultPage from "@/components/_pages/DefaultPage";
 import FramedPage from "@/components/_pages/FramedPage";
 import JobPage from "@/components/_pages/JobPage";
+import PaymentPage from "@/components/_pages/PaymentPage";
 import PersonPage from "@/components/_pages/PersonPage";
 import PlaygroundPage from "@/components/_pages/PlaygroundPage";
 import PostPage from "@/components/_pages/PostPage";
@@ -16,7 +17,7 @@ import styles from "./PageRenderer.module.scss";
 
 export default function PageRenderer() {
   const { page, footer, header } = useContentful();
-  const { variant, theme } = usePageResolver(page);
+  const { variant, theme, isPaymentPage } = usePageResolver(page);
 
   return (
     <ThemeProvider theme={theme}>
@@ -28,7 +29,12 @@ export default function PageRenderer() {
       )}
 
       {variant === "Default" && <DefaultPage className={styles.root} />}
-      {variant === "Course" && <CoursePage className={styles.root} />}
+      {variant === "Course" && !isPaymentPage && (
+        <CoursePage className={styles.root} />
+      )}
+      {variant === "Course" && isPaymentPage && (
+        <PaymentPage className={styles.root} />
+      )}
       {variant === "Playground" && <PlaygroundPage className={styles.root} />}
       {variant === "Post" && <PostPage className={styles.root} />}
       {variant === "Job" && <JobPage className={styles.root} />}

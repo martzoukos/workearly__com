@@ -22,6 +22,7 @@ import clsx from "clsx";
 import snakeCase from "lodash-es/snakeCase";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import { Fragment } from "react";
 import styles from "./RichText.module.scss";
 import {
   BlockQuote,
@@ -176,6 +177,13 @@ function getOptions(
 
         return null;
       },
+      [INLINES.HYPERLINK]: (node, children) => {
+        return (
+          <a className={styles.a} href={node.data.uri}>
+            {children}
+          </a>
+        );
+      },
       [INLINES.EMBEDDED_ENTRY]: (node) => {
         const inlineEntry = richText?.body?.links.entries.inline.find(
           (item) => item?.sys.id === node.data.target.sys.id
@@ -204,17 +212,11 @@ function getOptions(
       },
     },
     renderText: (text) => {
-      const parts = text.split("\n");
-
-      if (!parts.filter(Boolean).length) {
-        return null;
-      }
-
-      return text.split("\n").map((line, index) => (
-        <span key={index}>
+      return text.split("\n").map((line, index, arr) => (
+        <Fragment key={index}>
           {line}
-          <br />
-        </span>
+          {index < arr.length - 1 && <br />}
+        </Fragment>
       ));
     },
   };

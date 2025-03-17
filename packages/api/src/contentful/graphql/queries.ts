@@ -21,6 +21,7 @@ export const PAGE_SLUGS_QUERY = graphql(`
     ) {
       items {
         slug
+        variant
       }
     }
   }

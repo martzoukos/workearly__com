@@ -5,6 +5,7 @@ import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
 import Map from "@/components/_sections/Map";
 import MediaSlider from "@/components/_sections/MediaSlider";
+import PaymentSuccess from "@/components/_sections/PaymentSuccess";
 import PeopleIndex from "@/components/_sections/PeopleIndex";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
@@ -158,6 +159,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
     );
   } else if (variant === "Form") {
     return <Form section={section} />;
+  } else if (variant === "Payment Success") {
+    return <PaymentSuccess section={section} />;
   }
 
   return null;

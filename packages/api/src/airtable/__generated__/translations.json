@@ -1,7 +1,7 @@
 [
   {
     "code": "Apply",
-    "el": "",
+    "el": "Αίτηση Συμμετοχής",
     "en": "Apply"
   },
   {
@@ -15,6 +15,11 @@
     "en": "Personal"
   },
   {
+    "code": "afterContactDescription",
+    "el": "We’ve received your message and appreciate you getting in touch with us. Our team will review your inquiry and respond as soon as possible.",
+    "en": "We’ve received your message and appreciate you getting in touch with us. Our team will review your inquiry and respond as soon as possible."
+  },
+  {
     "code": "CourseCardShare",
     "el": "Κοινοποίηση",
     "en": "Share"
@@ -25,9 +30,19 @@
     "en": "Workearly provides customized training programs for companies looking to enhance their teams’ skills. The material is tailored to the needs and level of each team member, ensuring personalized development for all. With internationally recognized certifications and high-quality learning content, Workearly helps teams gain competitive advantages and perform at their best."
   },
   {
+    "code": "afterContactTitle",
+    "el": "Thank You for Reaching Out!",
+    "en": "Thank You for Reaching Out!"
+  },
+  {
     "code": "Team",
     "el": "Ομάδα",
     "en": "Team"
+  },
+  {
+    "code": "afterContactText",
+    "el": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses).",
+    "en": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses)."
   },
   {
     "code": "CourseCardCTA",

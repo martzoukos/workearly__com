@@ -47,6 +47,7 @@ const DATA_MAP = {
     "Courses",
     "Courses (No Filters)",
     "Form",
+    "Payment Success",
   ],
 } as const;
 

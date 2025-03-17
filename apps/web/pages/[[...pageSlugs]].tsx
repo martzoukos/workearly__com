@@ -63,11 +63,15 @@ export async function getStaticPaths() {
 
   const paths = data?.pageCollection?.items
     .filter((x) => x?.slug)
-    .map((item) => ({
-      params: {
-        pageSlugs: toPageSlugs(item?.slug || ""),
-      },
-    }));
+    .flatMap((item) => {
+      const paths = toPageSlugs(item?.slug || "", item?.variant || "");
+
+      return paths.map((path) => ({
+        params: {
+          pageSlugs: path,
+        },
+      }));
+    });
 
   return {
     paths,
