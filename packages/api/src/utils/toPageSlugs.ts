@@ -5,7 +5,7 @@ export default function toPageSlugs(
   const paths: Array<Array<string>> = [];
 
   if (slug === "home") {
-    return paths;
+    return [[]];
   }
 
   if (variant === "Course") {
