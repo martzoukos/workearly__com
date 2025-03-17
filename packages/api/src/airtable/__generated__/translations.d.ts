@@ -1,4 +1,6 @@
 export type TranslationTextType =
+  | "Apply"
+  | "Purchase"
   | "Personal"
   | "CourseCardShare"
   | "CourseCardTeam"

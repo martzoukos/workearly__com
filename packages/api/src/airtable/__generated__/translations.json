@@ -1,5 +1,15 @@
 [
   {
+    "code": "Apply",
+    "el": "",
+    "en": "Apply"
+  },
+  {
+    "code": "Purchase",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
     "code": "Personal",
     "el": "Προσωπικό",
     "en": "Personal"
