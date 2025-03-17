@@ -112,6 +112,10 @@
     width: 100%;
     background: hsl(var(--color-green-500));
 
+    .playerWrapper {
+      aspect-ratio: 16 / 9;
+    }
+
     .playerContainer {
       background: hsl(var(--color-neutral-400));
       padding: 0.5rem;

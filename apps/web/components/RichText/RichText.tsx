@@ -175,8 +175,8 @@ function getOptions(
         const uri = node.data.uri.trim();
 
         if (
-          (text === uri && uri.includes("youtube.com")) ||
-          uri.includes("vimeo.com")
+          text === uri &&
+          (uri.includes("youtube.com") || uri.includes("vimeo.com"))
         ) {
           return <Video url={uri} />;
         }
@@ -276,7 +276,9 @@ function Video({ url, caption }: VideoPropsType) {
   return (
     <div className={styles.videoContainer}>
       <div className={styles.playerContainer}>
-        <ReactPlayer url={url} width="100%" height="100%" controls={true} />
+        <div className={styles.playerWrapper}>
+          <ReactPlayer url={url} width="100%" height="100%" controls={true} />
+        </div>
         {caption && (
           <Text as="h4" className={styles.videoCaption}>
             {caption}
