@@ -112,23 +112,23 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
       <div className={styles.details}>
         <div className={styles.detailsBlock}>
           <Text size="caption" className={styles.detailsTitle}>
-            ΑΘΗΝΑ
+            Athens
           </Text>
           <Text>Ευριπίδου 16-18, Αθήνα 10561, Αττική</Text>
         </div>
         <div className={styles.detailsBlock}>
           <Text size="caption" className={styles.detailsTitle}>
-            ΛΟΝΔΙΝΟ
+            London
           </Text>
           <Text>156a Burnt Oak Broadway, Edgware, England, HA8 0AX</Text>
         </div>
         <div className={styles.detailsBlock}>
           <Text size="caption" className={styles.detailsTitle}>
-            ΤΗΛΕΦΩΝΑ
+            Phones
           </Text>
-          <div>
-            <Text as="span">Αθήνα: +30 2102209811</Text>
-            <Text as="span">Λονδίνο: +44 20 4579 3466</Text>
+          <div className={styles.phones}>
+            <Text as="span">Athens: +30 2102209811</Text>
+            <Text as="span">London: +44 20 4579 3466</Text>
           </div>
         </div>
       </div>
