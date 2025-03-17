@@ -54,8 +54,6 @@ export default async function handler(
     //   body: JSON.stringify(formData),
     // });
 
-    // console.log(response);
-
     // const data = await response.json();
 
     // if (!response.ok) {

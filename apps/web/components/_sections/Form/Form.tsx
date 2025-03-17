@@ -37,7 +37,7 @@ export default function Form({ section }: PropsType) {
   const router = useRouter();
   const shell = useShellResolver(section);
 
-  const { handleSubmit, control, getValues, formState } = useForm({
+  const { handleSubmit, control } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
       name: "",
@@ -58,18 +58,13 @@ export default function Form({ section }: PropsType) {
     });
   }
 
-  console.log(formState);
-
   return (
     <Shell.Root {...shell} className={styles.root}>
       <header className={styles.header}>
         <Text as="h2">{section.title}</Text>
         <Text>{section.text}</Text>
       </header>
-      <form
-        className={styles.form}
-        onSubmit={handleSubmit(onSubmit, (x) => console.log(x))}
-      >
+      <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
         <Input label="Name" placeholder="Name" name="name" control={control} />
         <Input
           label="Surname"

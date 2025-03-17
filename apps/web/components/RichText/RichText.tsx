@@ -122,23 +122,7 @@ function getOptions(
         }
 
         if (asset.contentType?.includes("video/")) {
-          return (
-            <div className={styles.videoContainer}>
-              <div className={styles.playerContainer}>
-                <ReactPlayer
-                  url={asset.url}
-                  width="100%"
-                  height="100%"
-                  controls={true}
-                />
-                {asset.title && (
-                  <Text as="h4" className={styles.videoCaption}>
-                    {asset.title}
-                  </Text>
-                )}
-              </div>
-            </div>
-          );
+          return <Video url={asset.url} caption={asset.title} />;
         }
       },
       [BLOCKS.TABLE]: (_, children) => {
@@ -187,6 +171,16 @@ function getOptions(
         return null;
       },
       [INLINES.HYPERLINK]: (node, children) => {
+        const text = (node.content.at(0) as ContentfulText)?.value.trim();
+        const uri = node.data.uri.trim();
+
+        if (
+          (text === uri && uri.includes("youtube.com")) ||
+          uri.includes("vimeo.com")
+        ) {
+          return <Video url={uri} />;
+        }
+
         return (
           <a className={styles.a} href={node.data.uri}>
             {children}
@@ -270,5 +264,25 @@ export default function RichText({ json, richText, className }: PropsType) {
         getOptions(resolver, richText)
       )}
     </Shell.Root>
+  );
+}
+
+type VideoPropsType = {
+  url: string;
+  caption?: string | null;
+};
+
+function Video({ url, caption }: VideoPropsType) {
+  return (
+    <div className={styles.videoContainer}>
+      <div className={styles.playerContainer}>
+        <ReactPlayer url={url} width="100%" height="100%" controls={true} />
+        {caption && (
+          <Text as="h4" className={styles.videoCaption}>
+            {caption}
+          </Text>
+        )}
+      </div>
+    </div>
   );
 }
