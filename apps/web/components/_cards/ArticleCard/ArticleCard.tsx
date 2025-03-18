@@ -6,6 +6,7 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import Link from "next/link";
 import styles from "./ArticleCard.module.scss";
+import Image from "next/image";
 
 type PropsType = {
   page: QueryItem["Page"];
@@ -23,16 +24,15 @@ export default function ArticleCard({ page }: PropsType) {
   return (
     <Link href={page.slug ?? "/"} className={styles.root}>
       {resourceDetails.asset?.url && (
-        <Media
-          aspectRatio="14 / 6"
-          asset={resourceDetails.asset}
-          imageProps={{
-            alt: resourceDetails.name || "",
-            quality: 100,
-            sizes: "30vw",
-          }}
-          className={styles.media}
-        />
+        <div className={styles.mediaWrapper}>
+          <Image
+            className={styles.media}
+            src={resourceDetails.asset.url}
+            alt=""
+            width={resourceDetails.asset.width || 0}
+            height={resourceDetails.asset.height || 0}
+          />
+        </div>
       )}
 
       <div className={styles.content}>
