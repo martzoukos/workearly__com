@@ -20,6 +20,10 @@
     .title {
       grid-area: title;
     }
+    .mediaWrapper {
+      grid-area: mediaWrapper;
+      width: 100%;
+    }
 
     .media {
       grid-area: media;
@@ -57,7 +61,7 @@
     grid-template-areas:
       "breadcrumbs breadcrumbs"
       "title title"
-      "media media"
+      "mediaWrapper mediaWrapper"
       "topics author"
       "publishDate readingTime"
       "share share";
@@ -76,9 +80,20 @@
   gap: 0.5rem;
 }
 
-.media {
+.mediaWrapper {
+  background-color: hsl(var(--color-green-500));
   border: 1px solid hsl(var(--color-black-500));
   border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.media {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 .topics {
@@ -97,7 +112,12 @@
   align-items: center;
 }
 
+.shareWrapper {
+  position: relative;
+}
+
 .shareButton {
   max-width: 50%;
   margin-block-start: auto;
+  cursor: pointer;
 }

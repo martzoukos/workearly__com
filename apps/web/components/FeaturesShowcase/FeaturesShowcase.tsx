@@ -7,9 +7,12 @@ import clsx from "clsx";
 import { useState } from "react";
 import Text from "../Text/Text";
 import styles from "./FeaturesShowcase.module.scss";
+import Shell from "@/components/Shell";
+import useShellResolver from "@/hooks/useShellResolver";
 
 type PropsType = {
   cards: QueryItem["Card"][];
+  section: QueryItem["Section"];
   title?: string;
   className?: string;
 };
@@ -17,14 +20,16 @@ type PropsType = {
 export default function FeaturesShowcase({
   title,
   cards,
+  section,
   className,
 }: PropsType) {
   const [activeCard, setActiveCard] = useState(cards[0]);
+  const shell = useShellResolver(section);
 
   return (
     <>
       <Viewport showAfter="md">
-        <div className={clsx(styles.root, className)}>
+        <Shell.Root className={clsx(styles.root, className)} {...shell}>
           <div className={styles.navigation}>
             {title && <Text size="h4">{title}</Text>}
 
@@ -59,10 +64,15 @@ export default function FeaturesShowcase({
               />
             )}
           </div>
-        </div>
+        </Shell.Root>
       </Viewport>
       <Viewport showUntil="md">
-        <FeaturesAccordion cards={cards} title={title} className={className} />
+        <FeaturesAccordion
+          cards={cards}
+          title={title}
+          className={className}
+          section={section}
+        />
       </Viewport>
     </>
   );

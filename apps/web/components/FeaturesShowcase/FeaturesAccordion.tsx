@@ -6,22 +6,26 @@ import clsx from "clsx";
 import { Accordion as RadixAccordion } from "radix-ui";
 import { useState } from "react";
 import styles from "./FeaturesAccordion.module.scss";
+import Shell from "@/components/Shell";
+import useShellResolver from "@/hooks/useShellResolver";
 
 type PropsType = {
   cards: QueryItem["Card"][];
+  section: QueryItem["Section"];
   title?: string;
   className?: string;
 };
 
 export default function FeaturesAccordion({
   cards,
+  section,
   title,
   className,
 }: PropsType) {
   const [value, setValue] = useState(cards[0]?.sys.id);
-
+  const shell = useShellResolver(section);
   return (
-    <section className={clsx(styles.root, className)}>
+    <Shell.Root className={clsx(styles.root, className)} {...shell}>
       {title && (
         <Text as="h2" className={styles.title}>
           {title}
@@ -60,6 +64,6 @@ export default function FeaturesAccordion({
           </RadixAccordion.Item>
         ))}
       </RadixAccordion.Root>
-    </section>
+    </Shell.Root>
   );
 }

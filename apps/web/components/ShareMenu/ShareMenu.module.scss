@@ -1,0 +1,22 @@
+.root {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  z-index: 1;
+  border: 1px solid hsl(var(--color-black-500));
+  border-radius: 0.5rem;
+  background-color: hsl(var(--color-neutral-200));
+  padding: 0.5rem;
+}
+
+.item {
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+
+  &:hover {
+    background-color: hsl(var(--color-neutral-400));
+  }
+}
