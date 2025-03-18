@@ -44,7 +44,11 @@ export default function CategoryCover({ className }: PropsType) {
       </div>
 
       {categoryOrJobDetails.asset?.url && (
-        <Media asset={categoryOrJobDetails.asset} aspectRatio="21 / 16" />
+        <Media
+          asset={categoryOrJobDetails.asset}
+          aspectRatio="21 / 16"
+          className={styles.svg}
+        />
       )}
     </div>
   );
