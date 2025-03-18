@@ -13,6 +13,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
+import ShareMenu from "@/components/ShareMenu/ShareMenu";
 
 interface PropsType {
   className?: string;
@@ -32,7 +33,7 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
 
   const [showBanner, setShowBanner] = useState(false);
   const [hasAppeared, setHasAppeared] = useState(false);
-
+  const [showMenu, setshowMenu] = useState(false);
   useEffect(() => {
     if (isIntersecting) {
       setHasAppeared(true);
@@ -120,11 +121,16 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
             </Link>
           </Button>
 
-          <Button asChild variant="Outlined" isFullWidth>
-            <Link href="https://www.holy.gd/">
+          <div className={styles.shareWrapper}>
+            <Button
+              variant="Outlined"
+              isFullWidth
+              onClick={() => setshowMenu((prev) => !prev)}
+            >
               <Share /> {translate("CourseCardShare")}
-            </Link>
-          </Button>
+            </Button>
+            {showMenu && <ShareMenu />}
+          </div>
 
           <Button asChild variant="Outlined" isFullWidth>
             <Link href="https://www.holy.gd/">

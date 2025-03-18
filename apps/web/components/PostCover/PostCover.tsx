@@ -1,6 +1,5 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import Button from "@/components/Button";
-import Media from "@/components/Media";
 import Person from "@/components/Person";
 import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
@@ -9,10 +8,14 @@ import { useContentful } from "@/stores/ContentfulStore";
 import { Share } from "@carbon/icons-react";
 import { DateTime } from "luxon";
 import styles from "./PostCover.module.scss";
+import Image from "next/image";
+import ShareMenu from "@/components/ShareMenu/ShareMenu";
+import { useState } from "react";
 
 export default function PostCover() {
   const { page } = useContentful();
   const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
+  const [showShare, setshowShare] = useState(false);
 
   if (!resourceDetails) {
     return null;
@@ -57,25 +60,31 @@ export default function PostCover() {
           </Text>
           <ReadingTime time={readingTime} className={styles.readingTime} />
         </div>
-        <Button
-          variant="Outlined"
-          size="medium"
-          isFullWidth
-          className={styles.shareButton}
-        >
-          <Share />
-          Share
-        </Button>
+        <div className={styles.shareWrapper}>
+          <Button
+            variant="Outlined"
+            size="medium"
+            isFullWidth
+            className={styles.shareButton}
+            onClick={() => setshowShare((prev) => !prev)}
+          >
+            <Share />
+            Share
+          </Button>
+
+          {showShare && <ShareMenu />}
+        </div>
       </div>
       {resourceDetails.asset?.url && (
-        <Media
-          asset={resourceDetails.asset}
-          className={styles.media}
-          height="25rem"
-          imageProps={{
-            sizes: "600px",
-          }}
-        />
+        <div className={styles.mediaWrapper}>
+          <Image
+            className={styles.media}
+            src={resourceDetails.asset.url}
+            alt=""
+            width={resourceDetails.asset.width || 0}
+            height={resourceDetails.asset.height || 0}
+          />
+        </div>
       )}
     </section>
   );
