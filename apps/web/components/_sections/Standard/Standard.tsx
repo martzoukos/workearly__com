@@ -8,9 +8,10 @@ import styles from "./Standard.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
+  className?: string;
 };
 
-export default function Standard({ section }: PropsType) {
+export default function Standard({ section, className }: PropsType) {
   const shell = useShellResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
@@ -18,7 +19,7 @@ export default function Standard({ section }: PropsType) {
 
   return (
     <Shell.Root
-      className={clsx(styles.root, isReversed && styles.isReversed)}
+      className={clsx(styles.root, isReversed && styles.isReversed, className)}
       {...shell}
     >
       {asset?.url && (

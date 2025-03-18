@@ -1,24 +1,22 @@
+import CardGrid from "@/components/_sections/CardGrid";
 import CardShowcase from "@/components/_sections/CardShowcase";
+import CardSlider from "@/components/_sections/CardSlider";
 import CourseIndex from "@/components/_sections/CourseIndex";
 import Form from "@/components/_sections/Form";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
 import Map from "@/components/_sections/Map";
 import MediaSlider from "@/components/_sections/MediaSlider";
-import PaymentSuccess from "@/components/_sections/PaymentSuccess";
 import PeopleIndex from "@/components/_sections/PeopleIndex";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
 import Accordion from "@/components/Accordion";
-import CardGrid from "@/components/CardGrid";
-import CardSlider from "@/components/CardSlider";
 import FeaturesShowcase from "@/components/FeaturesShowcase";
 import LogoCarousel from "@/components/LogoCarousel/LogoCarousel";
 import LogoShowcase from "@/components/LogoShowcase";
 import Shell from "@/components/Shell";
 import StepsShowcase from "@/components/StepsShowcase";
 import { useViewport } from "@/components/Viewport";
-import { CardVariantType } from "@/hooks/useCardResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import { QueryItem, isDefined } from "@workearly/api";
 
@@ -28,64 +26,22 @@ type PropsType = {
 };
 
 export default function SectionRenderer({ section, className }: PropsType) {
-  const { cardsCount, variant, getReferences, cardTheme } =
-    useSectionResolver(section);
+  const { cardsCount, variant, getReferences } = useSectionResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
 
   if (variant === "Card Grid") {
-    const cards = getReferences("Card");
-    const pages = getReferences("Page");
-
-    return (
-      <Shell.Section section={section} className={className}>
-        <CardGrid
-          cards={cards}
-          pages={pages}
-          fallbackVariant={section.cardVariant as CardVariantType}
-          fallbackTheme={cardTheme}
-          columnCount={cardsCount}
-        />
-      </Shell.Section>
-    );
+    return <CardGrid section={section} className={className} />;
   } else if (variant === "Card Slider") {
-    const cards = getReferences("Card");
-    const pages = getReferences("Page");
-
-    return (
-      <Shell.Section section={section} className={className}>
-        <CardSlider
-          cards={cards}
-          pages={pages}
-          fallbackVariant={section.cardVariant as CardVariantType}
-          fallbackTheme={cardTheme}
-          columnCount={cardsCount}
-        />
-      </Shell.Section>
-    );
+    return <CardSlider section={section} className={className} />;
   } else if (variant === "Card Hybrid") {
-    const cards = getReferences("Card");
-    const pages = getReferences("Page");
-
     return (
-      <Shell.Section section={section} className={className}>
+      <>
         {isUntilMd ? (
-          <CardSlider
-            cards={cards}
-            pages={pages}
-            fallbackVariant={section.cardVariant as CardVariantType}
-            fallbackTheme={cardTheme}
-            columnCount={cardsCount}
-          />
+          <CardSlider section={section} className={className} />
         ) : (
-          <CardGrid
-            cards={cards}
-            pages={pages}
-            fallbackVariant={section.cardVariant as CardVariantType}
-            fallbackTheme={cardTheme}
-            columnCount={cardsCount}
-          />
+          <CardGrid section={section} className={className} />
         )}
-      </Shell.Section>
+      </>
     );
   } else if (variant === "Accordion") {
     const accordionCards = getReferences("AccordionCard");
@@ -120,47 +76,46 @@ export default function SectionRenderer({ section, className }: PropsType) {
         title={section.title || ""}
         supertitle={section.supertitle || ""}
         description={section.text || ""}
+        className={className}
       />
     );
   } else if (variant === "Features Showcase") {
     const cards = getReferences("Card");
-    return <FeaturesShowcase cards={cards} title={section.title || ""} />;
-  } else if (variant === "Card Showcase") {
-    return <CardShowcase section={section} />;
-  } else if (variant === "Media Slider") {
-    return <MediaSlider section={section} />;
-  } else if (variant === "Hero") {
-    return <Hero section={section} />;
-  } else if (variant === "Standard Component Framed") {
-    return <StandardFramed section={section} />;
-  } else if (variant === "Standard Component") {
-    return <Standard section={section} />;
-  } else if (variant === "Hero With Background") {
-    return <HeroBackground section={section} />;
-  } else if (variant === "Mentors") {
-    return <PeopleIndex section={section} />;
-  } else if (variant === "Mentors (No Filters)") {
-    return <PeopleIndex section={section} hideFilters />;
-  } else if (variant === "Partners") {
-    return <PeopleIndex section={section} />;
-  } else if (variant === "Partners (No Filters)") {
-    return <PeopleIndex section={section} hideFilters />;
-  } else if (variant === "Courses") {
-    return <CourseIndex section={section} />;
-  } else if (variant === "Courses (No Filters)") {
-    return <CourseIndex section={section} />;
-  } else if (variant === "Map") {
-    const assets = section.assetsCollection?.items.filter(isDefined) || [];
-
     return (
-      <Shell.Section section={section} className={className}>
-        <Map assets={assets} />
-      </Shell.Section>
+      <FeaturesShowcase
+        cards={cards}
+        title={section.title || ""}
+        className={className}
+      />
     );
+  } else if (variant === "Card Showcase") {
+    return <CardShowcase section={section} className={className} />;
+  } else if (variant === "Media Slider") {
+    return <MediaSlider section={section} className={className} />;
+  } else if (variant === "Hero") {
+    return <Hero section={section} className={className} />;
+  } else if (variant === "Standard Component Framed") {
+    return <StandardFramed section={section} className={className} />;
+  } else if (variant === "Standard Component") {
+    return <Standard section={section} className={className} />;
+  } else if (variant === "Hero With Background") {
+    return <HeroBackground section={section} className={className} />;
+  } else if (variant === "Mentors") {
+    return <PeopleIndex section={section} className={className} />;
+  } else if (variant === "Mentors (No Filters)") {
+    return <PeopleIndex section={section} hideFilters className={className} />;
+  } else if (variant === "Partners") {
+    return <PeopleIndex section={section} className={className} />;
+  } else if (variant === "Partners (No Filters)") {
+    return <PeopleIndex section={section} hideFilters className={className} />;
+  } else if (variant === "Courses") {
+    return <CourseIndex section={section} className={className} />;
+  } else if (variant === "Courses (No Filters)") {
+    return <CourseIndex section={section} className={className} />;
+  } else if (variant === "Map") {
+    return <Map section={section} className={className} />;
   } else if (variant === "Form") {
-    return <Form section={section} />;
-  } else if (variant === "Payment Success") {
-    return <PaymentSuccess section={section} />;
+    return <Form section={section} className={className} />;
   }
 
   return null;

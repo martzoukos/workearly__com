@@ -1,7 +1,32 @@
 @use "./functions" as *;
 @use "./settings" as *;
 
-%container {
-  width: min($container, 100%);
+%margin-container {
+  --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
   margin-inline: auto;
+  width: min($container, (100% - (var(--padding-inline) * 2)));
+}
+
+%padding-container {
+  --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+  --vw-unit: 50%;
+  padding-inline: max(var(--padding-inline), var(--vw-unit) - $container / 2);
+
+  &-bleed-left {
+    --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+    --vw-unit: 50%;
+    padding-inline-end: max(
+      var(--padding-inline),
+      (var(--vw-unit) - $container / 2) * 2
+    );
+  }
+
+  &-bleed-right {
+    --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+    --vw-unit: 50%;
+    padding-inline-start: max(
+      var(--padding-inline),
+      (var(--vw-unit) - $container / 2) * 2
+    );
+  }
 }

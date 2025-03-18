@@ -1,12 +1,11 @@
 @use "@/styles/_settings" as *;
 @use "@/styles/_functions" as *;
+@use "@/styles/_helpers" as *;
 
 .root {
-  max-width: var(--container-width);
-  width: 100%;
+  @extend %margin-container;
   color: var(--color-ink-default);
   background: var(--color-sys-default);
-  margin-inline: auto;
 }
 
 .content {
@@ -51,15 +50,15 @@
 }
 
 .sizeNarrow {
-  --container-width: calc(48rem - (var(--container-padding) * 2));
+  --container-width: 48rem;
 }
 
 .sizeWide {
-  --container-width: calc(80rem - (var(--container-padding) * 2));
+  --container-width: 80rem;
 }
 
 .sizeFull {
-  --container-width: calc(90rem - (var(--container-padding) * 2));
+  --container-width: 90rem;
 }
 
 .compositeAlt,

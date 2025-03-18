@@ -1,4 +1,4 @@
-import PageRenderer from "@/components/PageRenderer/PageRenderer";
+import PageRenderer from "@/components/_renderers/PageRenderer";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   PLAYGROUND_PAGE_SLUGS_QUERY,

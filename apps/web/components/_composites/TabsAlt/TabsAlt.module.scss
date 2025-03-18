@@ -1,7 +1,9 @@
 @use "@/styles/_functions" as *;
 @use "@/styles/_breakpoints" as *;
+@use "@/styles/_helpers" as *;
 
 .root {
+  @extend %margin-container;
   display: flex;
   flex-direction: column;
   gap: 2rem;

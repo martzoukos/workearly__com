@@ -1,4 +1,7 @@
+@use "@/styles/_helpers" as *;
+
 .root {
+  @extend %margin-container;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
@@ -16,4 +19,8 @@
 .actions {
   display: flex;
   gap: 0.4rem;
+}
+
+.childSection {
+  --padding-inline: 0rem;
 }

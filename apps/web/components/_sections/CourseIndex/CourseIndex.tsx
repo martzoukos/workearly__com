@@ -19,6 +19,7 @@ import {
   QueryItem,
   YES_NO_OPTIONS,
 } from "@workearly/api";
+import clsx from "clsx";
 import { useEffect } from "react";
 import {
   DelimitedArrayParam,
@@ -31,11 +32,12 @@ import styles from "./CourseIndex.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
+  className?: string;
 };
 
 const MIN_PAGE_LIMIT = 15;
 
-export default function CourseIndex({ section }: PropsType) {
+export default function CourseIndex({ section, className }: PropsType) {
   const { getReferences } = useSectionResolver(section);
   const { page, relationshipMap } = useContentful();
   const { variant } = usePageResolver(page);
@@ -240,7 +242,7 @@ export default function CourseIndex({ section }: PropsType) {
   );
 
   return (
-    <section className={styles.root}>
+    <section className={clsx(styles.root, className)}>
       <Viewport showAfter="md">
         <aside className={styles.aside}>
           <Text as="h6">Filters</Text>

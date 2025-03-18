@@ -1,5 +1,7 @@
 @use "@/styles/_functions" as *;
 @use "@/styles/_breakpoints" as *;
+@use "@/styles/_helpers" as *;
+@use "@/styles/_settings" as *;
 
 .root {
   --gap-sidebar: #{fluid-rem(1.5rem, 3rem)};
@@ -10,19 +12,23 @@
   @include media(md) {
     .contentWrapper {
       grid-template-columns: 1fr;
-
-      .contentItem {
-        --container-width: 100vw;
-      }
     }
 
     .content {
       border: none;
+
+      .contentItem {
+        --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
+        --container-width: calc(100vw - (var(--padding-inline) * 2));
+        margin-inline: auto;
+        width: 100%;
+      }
     }
   }
 }
 
 .contentWrapper {
+  @extend %margin-container;
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: var(--gap-sidebar);
@@ -38,7 +44,8 @@
 
   .contentItem {
     --container-width: 100%;
-    padding-inline: fluid-rem(0rem, 1.88rem, ("md", "xxl"));
+    --padding-inline: 0rem;
+    padding-inline: fluid-rem(0.75rem, 1.88rem, ("md", "xxl"));
     padding-block: fluid-rem(1.5rem, 2.12rem);
 
     &:not(:first-child) {
@@ -49,7 +56,7 @@
 
 .sidebar {
   position: sticky;
-  top: var(--gap-sidebar);
+  top: var(--header-height);
   height: fit-content;
 }
 

@@ -56,7 +56,7 @@ export default function Tabs({ composite, className }: PropsType) {
       </nav>
       {sections.map((section) => (
         <RadixTabs.Content key={section.sys.id} value={section.sys.id}>
-          <SectionRenderer section={section} />
+          <SectionRenderer section={section} className={styles.childSection} />
         </RadixTabs.Content>
       ))}
     </RadixTabs.Root>

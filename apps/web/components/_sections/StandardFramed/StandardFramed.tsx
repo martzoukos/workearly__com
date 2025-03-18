@@ -10,9 +10,10 @@ import styles from "./StandardFramed.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
+  className?: string;
 };
 
-export default function StandardFramed({ section }: PropsType) {
+export default function StandardFramed({ section, className }: PropsType) {
   const { getReferences } = useSectionResolver(section);
   const shell = useShellResolver(section);
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
@@ -22,7 +23,7 @@ export default function StandardFramed({ section }: PropsType) {
 
   return (
     <Shell.Root
-      className={clsx(styles.root, isReversed && styles.isReversed)}
+      className={clsx(styles.root, isReversed && styles.isReversed, className)}
       {...shell}
     >
       {asset && (

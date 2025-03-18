@@ -1,4 +1,5 @@
 import { TextProps } from "@/components/Text/Text";
+import { CardVariantType } from "@/hooks/useCardResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { isDefined, QueryItem, SectionReferenceTypeName } from "@workearly/api";
@@ -47,7 +48,6 @@ const DATA_MAP = {
     "Courses",
     "Courses (No Filters)",
     "Form",
-    "Payment Success",
   ],
 } as const;
 
@@ -65,6 +65,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     "Default") as (typeof DATA_MAP.layout)[number];
   const cardTheme = (section.cardTheme?.toLowerCase() ??
     pageTheme) as ThemeType;
+  const cardVariant = section.cardVariant as CardVariantType;
   const metadata: MetadataType | undefined = section.metadata;
   const titleSize = section.titleSize as TextProps["size"];
 
@@ -123,5 +124,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     layout,
     cardTheme,
     tags,
+    cardVariant,
   };
 }

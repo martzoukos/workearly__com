@@ -19,30 +19,32 @@ export default function CoursePage({ className }: PropsType) {
   const { preDividerItems, postDividerItems } = usePageResolver(page);
 
   return (
-    <article className={clsx(styles.root, className)}>
-      <PostCover />
-      <section className={styles.content}>
-        <PostOutline />
-        <div className={styles.mainContent}>
-          {preDividerItems.map((item) => (
-            <PageItem key={item?.sys.id} item={item} />
-          ))}
-          <Button
-            asChild
-            variant="Underlined"
-            size="large"
-            className={styles.viewAllButton}
-          >
-            <Link href="/courses">
-              View All Success Stories <ArrowRight />
-            </Link>
-          </Button>
-        </div>
-        <PostAuthor />
-      </section>
+    <>
+      <article className={clsx(styles.root, className)}>
+        <PostCover />
+        <section className={styles.content}>
+          <PostOutline />
+          <div className={styles.mainContent}>
+            {preDividerItems.map((item) => (
+              <PageItem key={item?.sys.id} item={item} />
+            ))}
+            <Button
+              asChild
+              variant="Underlined"
+              size="large"
+              className={styles.viewAllButton}
+            >
+              <Link href="/courses">
+                View All Success Stories <ArrowRight />
+              </Link>
+            </Button>
+          </div>
+          <PostAuthor />
+        </section>
+      </article>
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />
       ))}
-    </article>
+    </>
   );
 }

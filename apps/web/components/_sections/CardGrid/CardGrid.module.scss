@@ -1,6 +1,6 @@
 @use "@/styles/_breakpoints" as *;
 
-.root {
+.grid {
   --gap: 0.5rem;
   --total-gap-width: calc(var(--gap) * (var(--column-count) - 1));
   --column-width: calc(

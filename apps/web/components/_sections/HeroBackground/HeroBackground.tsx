@@ -4,21 +4,27 @@ import Text from "@/components/Text";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useShellResolver from "@/hooks/useShellResolver";
 import { QueryItem } from "@workearly/api";
+import clsx from "clsx";
 import Image from "next/image";
 import styles from "./HeroBackground.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
+  className?: string;
 };
 
-export default function HeroBackground({ section }: PropsType) {
+export default function HeroBackground({ section, className }: PropsType) {
   const { getReferences, titleSize } = useSectionResolver(section);
   const shell = useShellResolver(section);
   const actions = getReferences("Action");
   const asset = section.assetsCollection?.items[0];
 
   return (
-    <Shell.Root as="section" className={styles.root} {...shell}>
+    <Shell.Root
+      as="section"
+      className={clsx(styles.root, className)}
+      {...shell}
+    >
       <header className={styles.header}>
         {section.title && <Text size={titleSize ?? "h1"}>{section.title}</Text>}
         {section.text && <Text size="h5">{section.text}</Text>}

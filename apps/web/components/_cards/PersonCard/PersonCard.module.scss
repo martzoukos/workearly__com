@@ -42,6 +42,7 @@
   padding: fluid-rem(0.33rem, 0.625rem);
   position: relative;
   text-align: center;
+  min-height: 6.25rem;
 
   svg {
     color: var(--color-sys-default);

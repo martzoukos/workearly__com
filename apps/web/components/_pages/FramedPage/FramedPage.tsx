@@ -14,19 +14,17 @@ export default function FramedPage({ className }: PropsType) {
   const { postDividerItems, preDividerItems } = usePageResolver(page);
 
   return (
-    <main className={clsx(className)}>
-      <div className={styles.content}>
-        <Breadcrumbs
-          items={[
-            { name: "Home", href: "/" },
-            { name: page.name || "", href: "/mentors" },
-          ]}
-        />
-        <div className={styles.contentItems}>
-          {[...preDividerItems, ...postDividerItems].map((item) => (
-            <PageItem key={item?.sys.id} item={item} />
-          ))}
-        </div>
+    <main className={clsx(styles.root, className)}>
+      <Breadcrumbs
+        items={[
+          { name: "Home", href: "/" },
+          { name: page.name || "", href: "/mentors" },
+        ]}
+      />
+      <div className={styles.contentItems}>
+        {[...preDividerItems, ...postDividerItems].map((item) => (
+          <PageItem key={item?.sys.id} item={item} />
+        ))}
       </div>
     </main>
   );

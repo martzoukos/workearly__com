@@ -1,4 +1,4 @@
-import PageRenderer from "@/components/PageRenderer";
+import PageRenderer from "@/components/_renderers/PageRenderer";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   PAGE_SLUGS_QUERY,
@@ -63,15 +63,11 @@ export async function getStaticPaths() {
 
   const paths = data?.pageCollection?.items
     .filter((x) => x?.slug)
-    .flatMap((item) => {
-      const paths = toPageSlugs(item?.slug || "", item?.variant || "");
-
-      return paths.map((path) => ({
-        params: {
-          pageSlugs: path,
-        },
-      }));
-    });
+    .map((item) => ({
+      params: {
+        pageSlugs: toPageSlugs(item?.slug || ""),
+      },
+    }));
 
   return {
     paths,

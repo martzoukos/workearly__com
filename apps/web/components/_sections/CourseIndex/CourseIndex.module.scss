@@ -1,7 +1,9 @@
 @use "@/styles/_functions" as *;
 @use "@/styles/_breakpoints" as *;
+@use "@/styles/_helpers" as *;
 
 .root {
+  @extend %margin-container;
   display: grid;
   grid-template-columns: 14.5rem 1fr;
   gap: fluid-rem(0.5rem, 4.5rem);

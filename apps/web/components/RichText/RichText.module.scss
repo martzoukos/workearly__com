@@ -209,6 +209,10 @@
     &:not(:first-child) {
       margin-block: 1.5rem;
     }
+
+    &:first-child {
+      margin-block-end: 1.5rem;
+    }
   }
 
   & > ul {
