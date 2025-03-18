@@ -1,18 +1,20 @@
-import PageRenderer from "@/components/_renderers/PageRenderer";
+import PaymentPage from "@/components/_pages/PaymentPage";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   fetchPageBySlug,
   getServerClient,
   PAGE_SLUGS_QUERY,
 } from "@workearly/api";
+import { ThemeProvider } from "@workearly/theme";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
-import { NextSeo } from "next-seo";
 
 export default function Page({
   page,
-  relationshipMap,
   footer,
   header,
+  relationshipMap,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   return (
     <ContentfulProvider
@@ -21,17 +23,20 @@ export default function Page({
       footer={footer}
       header={header}
     >
-      <NextSeo nofollow noindex />
-      <PageRenderer />
+      <ThemeProvider theme="light">
+        {header && <Header uniqueComponent={header} />}
+        <PaymentPage />
+        {footer && <Footer uniqueComponent={footer} />}
+      </ThemeProvider>
     </ContentfulProvider>
   );
 }
 
 export async function getStaticProps(
-  context: GetStaticPropsContext<{ playgroundSlug: string }>
+  context: GetStaticPropsContext<{ courseSlug: string }>
 ) {
-  const [client] = getServerClient({ playground: { isEnabled: true } });
-  const pageSlug = context.params?.playgroundSlug || "";
+  const [client] = getServerClient();
+  const pageSlug = context.params?.courseSlug || "";
 
   try {
     const { page, relationshipMap, footer, header } = await fetchPageBySlug(
@@ -57,11 +62,12 @@ export async function getStaticProps(
 }
 
 export async function getStaticPaths() {
-  const [client] = getServerClient({ playground: { isEnabled: true } });
+  const [client] = getServerClient();
 
   const { data } = await client
     .query(PAGE_SLUGS_QUERY, {
-      where: { slug_not_in: ["404"], variant_in: ["Playground"] },
+      where: { slug_not_in: ["404"], variant_in: ["Course"] },
+      limit: 1000,
     })
     .toPromise();
 
@@ -69,7 +75,7 @@ export async function getStaticPaths() {
     .filter((x) => x?.slug)
     .map((item) => ({
       params: {
-        playgroundSlug: item?.slug,
+        courseSlug: item?.slug,
       },
     }));
 

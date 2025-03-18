@@ -33,6 +33,9 @@ const variants = cva(styles.root, {
     isRounded: {
       true: styles.featureIsRounded,
     },
+    isLoading: {
+      true: styles.featureIsLoading,
+    },
   },
   defaultVariants: {
     size: "small",
@@ -70,6 +73,7 @@ export const Button = forwardRef<ButtonElement, ButtonProps>(
       colorSchemes,
       isInverted,
       as: Tag = "button",
+      isLoading,
       ...rest
     } = props;
 
@@ -97,6 +101,7 @@ export const Button = forwardRef<ButtonElement, ButtonProps>(
             size,
             isFullWidth,
             isRounded,
+            isLoading,
           }),
           className
         )}

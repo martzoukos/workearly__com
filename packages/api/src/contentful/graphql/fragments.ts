@@ -96,6 +96,8 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     title
     summary
     shortDescription
+    applicationFormUrl
+    id
     duration
     language
     pace

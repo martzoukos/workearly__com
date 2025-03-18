@@ -1,6 +1,7 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import Media from "@/components/Media";
+import ShareMenu from "@/components/ShareMenu";
 import Text from "@/components/Text";
 import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -13,14 +14,22 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
-import ShareMenu from "@/components/ShareMenu/ShareMenu";
 
 interface PropsType {
   className?: string;
   hideMedia?: boolean;
+  hideFooter?: boolean;
+  hideQuickPurchase?: boolean;
+  isInverted: boolean;
 }
 
-export default function PurchaseCourse({ className, hideMedia }: PropsType) {
+export default function PurchaseCourse({
+  className,
+  hideMedia,
+  isInverted,
+  hideFooter,
+  hideQuickPurchase,
+}: PropsType) {
   const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
     "Personal"
   );
@@ -33,7 +42,8 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
 
   const [showBanner, setShowBanner] = useState(false);
   const [hasAppeared, setHasAppeared] = useState(false);
-  const [showMenu, setshowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
+
   useEffect(() => {
     if (isIntersecting) {
       setHasAppeared(true);
@@ -51,7 +61,7 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
   return (
     <Themed
       className={clsx(styles.root, className)}
-      isInverted={true}
+      isInverted={isInverted}
       ref={ref}
     >
       {!hideMedia && (
@@ -114,40 +124,56 @@ export default function PurchaseCourse({ className, hideMedia }: PropsType) {
           )}
         </div>
 
-        <footer className={styles.footer}>
-          <Button asChild isFullWidth size="large">
-            <Link href="https://www.holy.gd/">
-              {translate("CourseCardCTA")}
-            </Link>
-          </Button>
-
-          <div className={styles.shareWrapper}>
-            <Button
-              variant="Outlined"
-              isFullWidth
-              onClick={() => setshowMenu((prev) => !prev)}
-            >
-              <Share /> {translate("CourseCardShare")}
+        {!hideFooter && (
+          <footer className={styles.footer}>
+            <Button asChild isFullWidth size="large">
+              <Link
+                href={
+                  courseDetails.applicationFormUrl || `/payment/${page.slug}`
+                }
+              >
+                {courseDetails.applicationFormUrl
+                  ? translate("Apply")
+                  : translate("Purchase")}
+              </Link>
             </Button>
-            {showMenu && <ShareMenu />}
-          </div>
 
-          <Button asChild variant="Outlined" isFullWidth>
-            <Link href="https://www.holy.gd/">
-              <Gift /> Gift this Course
-            </Link>
-          </Button>
-        </footer>
+            <div className={styles.shareWrapper}>
+              <Button
+                variant="Outlined"
+                isFullWidth
+                onClick={() => setShowMenu((prev) => !prev)}
+              >
+                <Share /> {translate("CourseCardShare")}
+              </Button>
+              {showMenu && <ShareMenu />}
+            </div>
+
+            <Button asChild variant="Outlined" isFullWidth>
+              <Link href="https://www.holy.gd/">
+                <Gift /> Gift this Course
+              </Link>
+            </Button>
+          </footer>
+        )}
       </div>
-      {hasAppeared && (
+      {!hideQuickPurchase && hasAppeared && (
         <Viewport showUntil="md">
           <aside className={clsx(styles.banner, showBanner && styles.visible)}>
             <CoursePrices
               courseDetails={courseDetails}
               orientation="vertical"
             />
-            <Button isFullWidth size="large">
-              {translate("CourseCardCTA")}
+            <Button asChild isFullWidth size="large">
+              <Link
+                href={
+                  courseDetails.applicationFormUrl || `/payment/${page.slug}`
+                }
+              >
+                {courseDetails.applicationFormUrl
+                  ? translate("Apply")
+                  : translate("Purchase")}
+              </Link>
             </Button>
           </aside>
         </Viewport>

@@ -59,7 +59,12 @@ export async function getStaticProps(
 export async function getStaticPaths() {
   const [client] = getServerClient();
 
-  const { data } = await client.query(PAGE_SLUGS_QUERY, {}).toPromise();
+  const { data } = await client
+    .query(PAGE_SLUGS_QUERY, {
+      where: { slug_not_in: ["404"], variant_not_in: ["Playground"] },
+      limit: 1000,
+    })
+    .toPromise();
 
   const paths = data?.pageCollection?.items
     .filter((x) => x?.slug)

@@ -30,7 +30,7 @@ export default function CoursePage({ className }: PropsType) {
           />
           <CourseCover />
           <Viewport showUntil="md">
-            <PurchaseCourse hideMedia />
+            <PurchaseCourse hideMedia isInverted />
           </Viewport>
           {preDividerItems.map((item) => (
             <PageItem
@@ -42,7 +42,7 @@ export default function CoursePage({ className }: PropsType) {
         </div>
         <Viewport showAfter="md">
           <aside className={styles.sidebar}>
-            <PurchaseCourse />
+            <PurchaseCourse isInverted />
           </aside>
         </Viewport>
       </div>
