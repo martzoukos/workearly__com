@@ -16,6 +16,12 @@
   &:active {
     outline-color: var(--color-sys-border);
   }
+
+  @include media(md) {
+    .mediaWrapper {
+      max-height: 13rem;
+    }
+  }
 }
 
 .mediaWrapper {
