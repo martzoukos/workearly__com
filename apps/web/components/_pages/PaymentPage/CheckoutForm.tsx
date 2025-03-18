@@ -7,7 +7,7 @@ import {
   useStripe,
 } from "@stripe/react-stripe-js";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { FormEvent, useState } from "react";
 import styles from "./CheckoutForm.module.scss";
 
 export default function CheckoutForm() {
@@ -17,8 +17,11 @@ export default function CheckoutForm() {
   const stripe = useStripe();
   const elements = useElements();
 
-  async function onSubmit() {
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
     setIsSubmitting(true);
+
     if (!stripe || !elements) {
       return;
     }
@@ -31,7 +34,9 @@ export default function CheckoutForm() {
     });
 
     if (error) {
-      router.push("/payment/failure");
+      if (error.type !== "validation_error") {
+        router.push("/payment/failure");
+      }
     }
 
     setIsSubmitting(false);
