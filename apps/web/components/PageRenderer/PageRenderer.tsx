@@ -10,6 +10,7 @@ import PostPage from "@/components/_pages/PostPage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import PreviewPanel from "@/components/PreviewPanel";
+import useHeaderHeight from "@/hooks/useHeaderHeight";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ThemeProvider } from "@workearly/theme";
@@ -18,12 +19,13 @@ import styles from "./PageRenderer.module.scss";
 export default function PageRenderer() {
   const { page, footer, header } = useContentful();
   const { variant, theme, isPaymentPage } = usePageResolver(page);
+  const headerRef = useHeaderHeight();
 
   return (
     <ThemeProvider theme={theme}>
       <PreviewPanel />
       {header && (
-        <div className={styles.header}>
+        <div className={styles.header} ref={headerRef}>
           <Header uniqueComponent={header} />
         </div>
       )}

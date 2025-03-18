@@ -7,7 +7,7 @@
   border-radius: 1rem;
   height: fit-content;
   position: sticky;
-  top: 4.5rem;
+  top: var(--header-height);
 
   @include media(md) {
     border-radius: 0.5rem;
