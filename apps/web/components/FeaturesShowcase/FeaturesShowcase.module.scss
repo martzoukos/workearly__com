@@ -17,6 +17,32 @@
       flex-direction: column;
     }
   }
+
+  &[data-theme="light"] {
+    color: hsl(var(--color-black-500));
+
+    .navigation {
+      background-color: hsl(var(--color-neutral-450));
+    }
+
+    .navigationButton {
+      color: hsl(var(--color-black-500));
+      border-left-color: hsl(var(--color-black-500) / 0.4);
+      opacity: 0.4;
+      &[data-active="true"] {
+        border-color: hsl(var(--color-black-500));
+        opacity: 1;
+      }
+    }
+
+    .content {
+      background-color: hsl(var(--color-neutral-450));
+    }
+
+    .title {
+      color: hsl(var(--color-black-500));
+    }
+  }
 }
 
 .navigation {

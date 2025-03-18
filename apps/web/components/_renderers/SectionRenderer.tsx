@@ -86,6 +86,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
         cards={cards}
         title={section.title || ""}
         className={className}
+        section={section}
       />
     );
   } else if (variant === "Card Showcase") {
