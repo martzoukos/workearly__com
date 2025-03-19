@@ -35,7 +35,7 @@ export default function StepsShowcase({
             </Text>
           )}
           {description && (
-            <Text size="h6" className={styles.description}>
+            <Text size="h6" as="h1" className={styles.description}>
               {description}
             </Text>
           )}
