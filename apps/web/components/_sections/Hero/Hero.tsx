@@ -24,7 +24,7 @@ export default function Hero({ section, className }: PropsType) {
   return (
     <Shell.Root className={clsx(styles.root, className)} {...shell}>
       <div className={styles.content}>
-        <Text as="h1" size={titleSize ?? "d2"}>
+        <Text as="h2" size={titleSize ?? "d2"}>
           {section.title}
         </Text>
         <Text size={"h6"}>{section.text}</Text>
