@@ -9,6 +9,7 @@ const VARIANTS = [
   "Single Column Plain Card",
   "Double Column Plain Card",
   "Chips",
+  "Text Callout",
 ] as const;
 
 export type RichTextVariantType = (typeof VARIANTS)[number];

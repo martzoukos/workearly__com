@@ -249,6 +249,22 @@ export default function RichText({ json, richText, className }: PropsType) {
   );
   const shell = useShellResolver(richText);
 
+  let options = getOptions(resolver, richText);
+
+  if (resolver.variant === "Text Callout") {
+    options = {
+      ...options,
+      renderNode: {
+        ...options.renderNode,
+        [BLOCKS.HEADING_1]: (_, children) => (
+          <H2 size="h1" resolver={resolver}>
+            {children}
+          </H2>
+        ),
+      },
+    };
+  }
+
   return (
     <Shell.Root
       {...shell}
@@ -259,10 +275,7 @@ export default function RichText({ json, richText, className }: PropsType) {
         className
       )}
     >
-      {documentToReactComponents(
-        richText?.body?.json || json,
-        getOptions(resolver, richText)
-      )}
+      {documentToReactComponents(richText?.body?.json || json, options)}
     </Shell.Root>
   );
 }
