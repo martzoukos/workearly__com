@@ -1,4 +1,3 @@
-import Media from "@/components/Media";
 import StatCard from "@/components/StatCard";
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
@@ -7,6 +6,7 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
 import styles from "./CourseCover.module.scss";
+import Image from "next/image";
 
 export default function CourseCover() {
   const { page } = useContentful();
@@ -19,15 +19,15 @@ export default function CourseCover() {
   return (
     <section className={styles.root}>
       <Viewport showUntil="md">
-        <Media
-          canHoldPlace={true}
-          asset={courseDetails.videoThumbnail}
-          aspectRatio="16 / 9"
-          imageProps={{
-            quality: 100,
-            sizes: "30vw",
-          }}
-        />
+        <div className={styles.mediaWrapper}>
+          <Image
+            src={courseDetails?.videoThumbnail?.url || ""}
+            alt={page.name || ""}
+            width={courseDetails?.videoThumbnail?.width || 0}
+            height={courseDetails?.videoThumbnail?.height || 0}
+            className={styles.media}
+          />
+        </div>
       </Viewport>
       <header className={styles.header}>
         <Text as="h1" size="p">

@@ -48,10 +48,9 @@ const CourseCard = ({ page, size = "normal", className }: PropsType) => {
         <div className={styles.media}>
           <Image
             src={courseDetails.videoThumbnail.url}
-            fill={true}
+            width={courseDetails?.videoThumbnail?.width || 0}
+            height={courseDetails?.videoThumbnail?.height || 0}
             alt={page.name || ""}
-            quality={100}
-            sizes="30vw"
           />
         </div>
       )}

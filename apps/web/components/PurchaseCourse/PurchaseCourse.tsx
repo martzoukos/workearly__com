@@ -1,6 +1,5 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
-import Media from "@/components/Media";
 import ShareMenu from "@/components/ShareMenu";
 import Text from "@/components/Text";
 import Viewport from "@/components/Viewport";
@@ -14,6 +13,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
+import Image from "next/image";
 
 interface PropsType {
   className?: string;
@@ -64,16 +64,16 @@ export default function PurchaseCourse({
       isInverted={isInverted}
       ref={ref}
     >
-      {!hideMedia && (
-        <Media
-          canHoldPlace={true}
-          asset={courseDetails.videoThumbnail}
-          aspectRatio="16 / 9"
-          imageProps={{
-            quality: 100,
-            sizes: "30vw",
-          }}
-        />
+      {!hideMedia && courseDetails?.videoThumbnail && (
+        <div className={styles.mediaWrapper}>
+          <Image
+            src={courseDetails.videoThumbnail?.url || ""}
+            alt={page.name || ""}
+            width={courseDetails?.videoThumbnail?.width || 0}
+            height={courseDetails?.videoThumbnail?.height || 0}
+            className={styles.media}
+          />
+        </div>
       )}
 
       <div className={styles.contentWrapper}>

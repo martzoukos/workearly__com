@@ -2017,6 +2017,7 @@ export type CourseDetails = Entry & _Node & {
   courseCount?: Maybe<Scalars['String']['output']>;
   duration?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   finalCost?: Maybe<Scalars['Float']['output']>;
+  group?: Maybe<Scalars['Int']['output']>;
   h1Title?: Maybe<Scalars['String']['output']>;
   id?: Maybe<Scalars['String']['output']>;
   language?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
@@ -2070,6 +2071,12 @@ export type CourseDetailsDurationArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsFinalCostArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsGroupArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2229,6 +2236,15 @@ export type CourseDetailsFilter = {
   finalCost_lte?: InputMaybe<Scalars['Float']['input']>;
   finalCost_not?: InputMaybe<Scalars['Float']['input']>;
   finalCost_not_in?: InputMaybe<Array<InputMaybe<Scalars['Float']['input']>>>;
+  group?: InputMaybe<Scalars['Int']['input']>;
+  group_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  group_gt?: InputMaybe<Scalars['Int']['input']>;
+  group_gte?: InputMaybe<Scalars['Int']['input']>;
+  group_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
+  group_lt?: InputMaybe<Scalars['Int']['input']>;
+  group_lte?: InputMaybe<Scalars['Int']['input']>;
+  group_not?: InputMaybe<Scalars['Int']['input']>;
+  group_not_in?: InputMaybe<Array<InputMaybe<Scalars['Int']['input']>>>;
   h1Title?: InputMaybe<Scalars['String']['input']>;
   h1Title_contains?: InputMaybe<Scalars['String']['input']>;
   h1Title_exists?: InputMaybe<Scalars['Boolean']['input']>;
@@ -2397,6 +2413,8 @@ export enum CourseDetailsOrder {
   CourseCountDesc = 'courseCount_DESC',
   FinalCostAsc = 'finalCost_ASC',
   FinalCostDesc = 'finalCost_DESC',
+  GroupAsc = 'group_ASC',
+  GroupDesc = 'group_DESC',
   H1TitleAsc = 'h1Title_ASC',
   H1TitleDesc = 'h1Title_DESC',
   IdAsc = 'id_ASC',
