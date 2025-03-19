@@ -63,9 +63,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
     const assets = section.assetsCollection?.items.filter(isDefined) || [];
 
     return (
-      <Shell.Section section={section} className={className}>
-        <LogoCarousel assets={assets} />
-      </Shell.Section>
+      <LogoCarousel assets={assets} section={section} className={className} />
     );
   } else if (variant === "Steps Showcase") {
     const cards = getReferences("Card");

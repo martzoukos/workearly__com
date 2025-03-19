@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.section {
+  &[data-theme="light"] {
+    .border {
+      color: hsl(var(--color-black-500));
+    }
+  }
+}
+
 .mediaRow {
   display: flex;
   justify-content: center;
