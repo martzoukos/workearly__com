@@ -6,12 +6,10 @@ import {
   useElements,
   useStripe,
 } from "@stripe/react-stripe-js";
-import { useRouter } from "next/router";
 import { FormEvent, useState } from "react";
 import styles from "./CheckoutForm.module.scss";
 
 export default function CheckoutForm() {
-  const router = useRouter();
   const [agree, setAgree] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const stripe = useStripe();
@@ -34,9 +32,7 @@ export default function CheckoutForm() {
     });
 
     if (error) {
-      if (error.type !== "validation_error") {
-        router.push("/payment/failure");
-      }
+      console.error(error);
     }
 
     setIsSubmitting(false);
