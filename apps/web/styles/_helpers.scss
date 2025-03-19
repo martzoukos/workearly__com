@@ -2,9 +2,10 @@
 @use "./settings" as *;
 
 %margin-container {
+  --container-width: #{$container};
   --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
   margin-inline: auto;
-  width: min($container, (100% - (var(--padding-inline) * 2)));
+  width: min(var(--container-width), (100% - (var(--padding-inline) * 2)));
 }
 
 %padding-container {

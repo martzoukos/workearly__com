@@ -1,3 +1,5 @@
+@use "@/styles/_breakpoints" as *;
+
 .root {
   list-style-type: none;
   padding: 0;
@@ -5,4 +7,8 @@
   display: grid;
   grid-template-columns: repeat(var(--column-count), 1fr);
   gap: 0.8rem;
+
+  @include media(sm) {
+    grid-template-columns: 1fr;
+  }
 }

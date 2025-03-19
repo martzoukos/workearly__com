@@ -49,6 +49,7 @@ export default async function handler(
         email,
         courseId: courseDetailsEntity.id || "",
         contentfulId: courseDetailsId,
+        courseTitle: courseDetailsEntity.title || "",
       },
       receipt_email: email,
     });
