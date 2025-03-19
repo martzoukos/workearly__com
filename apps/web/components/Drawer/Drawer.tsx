@@ -2,12 +2,14 @@ import Button from "@/components/Button";
 import Text from "@/components/Text";
 import { Close } from "@carbon/icons-react";
 import clsx from "clsx";
+import { VisuallyHidden } from "radix-ui";
 import { PropsWithChildren } from "react";
 import { DialogProps, Drawer as VaulDrawer } from "vaul";
 import styles from "./Drawer.module.scss";
 
 type PropsType = PropsWithChildren<{
-  title?: string;
+  hideTitle?: boolean;
+  title: string;
   trigger: React.ReactNode;
   contentClassName?: string;
   handleClassName?: string;
@@ -22,8 +24,22 @@ export default function Drawer({
   contentClassName,
   handleClassName,
   contentInnerClassName,
+  hideTitle = false,
   ...props
 }: PropsType) {
+  const headerElement = (
+    <header className={styles.header}>
+      <VaulDrawer.Title>
+        <Text as="span">{title}</Text>
+      </VaulDrawer.Title>
+      <VaulDrawer.Close className={styles.close} asChild>
+        <Button variant="Ghost">
+          <Close className={styles.closeIcon} />
+        </Button>
+      </VaulDrawer.Close>
+    </header>
+  );
+
   return (
     <VaulDrawer.Root {...props}>
       <VaulDrawer.Trigger asChild>{trigger}</VaulDrawer.Trigger>
@@ -31,17 +47,10 @@ export default function Drawer({
         <VaulDrawer.Overlay className={styles.overlay} />
         <VaulDrawer.Content className={clsx(styles.content, contentClassName)}>
           <VaulDrawer.Handle className={clsx(styles.handle, handleClassName)} />
-          {title && (
-            <header className={styles.header}>
-              <VaulDrawer.Title>
-                <Text as="h3">{title}</Text>
-              </VaulDrawer.Title>
-              <VaulDrawer.Close className={styles.close} asChild>
-                <Button variant="Ghost">
-                  <Close className={styles.closeIcon} />
-                </Button>
-              </VaulDrawer.Close>
-            </header>
+          {!hideTitle ? (
+            headerElement
+          ) : (
+            <VisuallyHidden.Root>{headerElement}</VisuallyHidden.Root>
           )}
           <div className={clsx(styles.contentInner, contentInnerClassName)}>
             {children}

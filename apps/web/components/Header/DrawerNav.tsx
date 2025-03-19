@@ -36,6 +36,7 @@ export default function DrawerNav({ menus, className }: PropsType) {
               </Button>
             }
             itemGroups={firstMenu.itemGroups}
+            title={firstMenu.name}
           />
         )}
         <DrawerMenu
@@ -44,6 +45,7 @@ export default function DrawerNav({ menus, className }: PropsType) {
               <MenuIcon />
             </Button>
           }
+          title="Menu"
         >
           {menus.slice(1).map((menu) => {
             if (menu.itemGroups) {
@@ -52,6 +54,7 @@ export default function DrawerNav({ menus, className }: PropsType) {
                   key={menu.name}
                   itemGroups={menu.itemGroups}
                   trigger={<MenuItem item={menu} />}
+                  title={menu.name}
                 />
               );
             }

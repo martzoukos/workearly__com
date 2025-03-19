@@ -3,6 +3,10 @@
   border-inline-start: 1px solid hsl(var(--color-black-500));
   display: flex;
   max-width: 40rem;
+
+  &[data-state-open="false"] {
+    display: none;
+  }
 }
 
 .header {

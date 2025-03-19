@@ -14,9 +14,10 @@ import styles from "./NormalSubMenu.module.scss";
 
 type PropsType = {
   menu: NormalSubItemType;
+  isOpen?: boolean;
 };
 
-export default function NormalSubMenu({ menu }: PropsType) {
+export default function NormalSubMenu({ menu, isOpen }: PropsType) {
   const [activeSubItem, setActiveSubItem] = useState<
     DecorativeItemType | LinkItemType | NormalSubItemType | undefined
   >(undefined);
@@ -27,7 +28,7 @@ export default function NormalSubMenu({ menu }: PropsType) {
       : undefined;
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root} data-state-open={isOpen}>
       <div className={styles.content}>
         <DropdownMenu.Label asChild>
           <Text size="h5" className={clsx(styles.label, styles.item)}>
@@ -43,9 +44,15 @@ export default function NormalSubMenu({ menu }: PropsType) {
           </DropdownMenu.Item>
         ))}
       </div>
-      {activeSubItem && activeSubItem.type === "normal-sub" && (
-        <NormalSubMenu menu={activeSubItem} />
-      )}
+      {menu.items
+        .filter((item) => item.type === "normal-sub")
+        .map((subItem) => (
+          <NormalSubMenu
+            key={subItem.name}
+            menu={subItem}
+            isOpen={activeSubItem?.name === subItem.name}
+          />
+        ))}
       {decorativeReference && (
         <div className={styles.decorativeReference}>
           <CardRenderer card={decorativeReference} fallbackTheme="light" />

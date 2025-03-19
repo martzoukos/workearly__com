@@ -13,12 +13,14 @@ import MenuItem from "./MenuItem";
 type PropsType = PropsWithChildren<{
   trigger: React.ReactNode;
   itemGroups?: Array<MenuGroupType>;
+  title: string;
 }> &
   DialogProps;
 
 export default function DrawerMenu({
   itemGroups,
   children,
+  title,
   ...props
 }: PropsType) {
   const router = useRouter();
@@ -32,6 +34,8 @@ export default function DrawerMenu({
 
   return (
     <Drawer
+      title={title}
+      hideTitle={true}
       contentClassName={styles.drawerContent}
       handleClassName={styles.drawerHandle}
       contentInnerClassName={styles.drawerContentInner}
@@ -70,6 +74,7 @@ export default function DrawerMenu({
                       trigger={<MenuItem item={item} />}
                       itemGroups={[{ name: item.name, items: item.items }]}
                       onClose={() => setOpen(false)}
+                      title={item.name}
                     />
                   );
                 } else if (item.type === "category-sub") {
@@ -79,6 +84,7 @@ export default function DrawerMenu({
                       trigger={<MenuItem item={item} />}
                       itemGroups={item.itemGroups}
                       onClose={() => setOpen(false)}
+                      title={item.name}
                     />
                   );
                 }

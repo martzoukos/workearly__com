@@ -4,6 +4,12 @@
   }
 }
 
+.contentWrapper {
+  &[data-state-open="false"] {
+    display: none;
+  }
+}
+
 .content {
   border: 1px solid hsl(var(--color-black-500));
   border-radius: 0.5rem;

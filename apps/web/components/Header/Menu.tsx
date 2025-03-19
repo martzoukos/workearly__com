@@ -14,14 +14,15 @@ import MenuItem from "./MenuItem";
 
 type PropsType = {
   menu: MenuType;
+  defaultOpen?: boolean;
 };
 
-export default function Menu({ menu }: PropsType) {
+export default function Menu({ menu, defaultOpen = false }: PropsType) {
   const [activeSub, setActiveSub] = useState<
     MenuGroupType["items"][number] | undefined
   >(undefined);
   const router = useRouter();
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(defaultOpen);
 
   useEffect(() => {
     function onClose() {
@@ -34,58 +35,83 @@ export default function Menu({ menu }: PropsType) {
   }, [router.events]);
 
   return (
-    <DropdownMenu.Root open={open} onOpenChange={setOpen}>
+    <DropdownMenu.Root open onOpenChange={setOpen} modal={false}>
       <DropdownMenu.Trigger asChild>
         <Button
           aria-label={menu.name}
           variant={(menu.variant ?? "Outlined") as ButtonProps["variant"]}
+          onClick={() => setOpen((prev) => !prev)}
         >
           {menu.name}
           <ChevronDown />
         </Button>
       </DropdownMenu.Trigger>
-      <DropdownMenu.Portal>
-        <DropdownMenu.Content asChild sideOffset={8} align="start">
-          <Themed theme="light" className={styles.content}>
-            <div className={styles.contentInner}>
-              {menu.itemGroups.map((group, index) => {
-                return (
-                  <div
-                    key={index}
-                    className={clsx(
-                      styles.group,
-                      group.name && styles.groupHasLabel
-                    )}
-                  >
-                    {group.name && (
-                      <DropdownMenu.Label asChild>
-                        <Text as="label" size="h6" className={styles.label}>
-                          {group.name}
-                        </Text>
-                      </DropdownMenu.Label>
-                    )}
+      <DropdownMenu.Content
+        asChild
+        sideOffset={8}
+        align="start"
+        data-state-open={open}
+        className={styles.contentWrapper}
+      >
+        <Themed theme="light" className={styles.content}>
+          <div className={styles.contentInner}>
+            {menu.itemGroups.map((group, index) => {
+              return (
+                <div
+                  key={index}
+                  className={clsx(
+                    styles.group,
+                    group.name && styles.groupHasLabel
+                  )}
+                >
+                  {group.name && (
+                    <DropdownMenu.Label asChild>
+                      <Text as="label" size="h6" className={styles.label}>
+                        {group.name}
+                      </Text>
+                    </DropdownMenu.Label>
+                  )}
 
-                    {group.items.map((item) => (
-                      <DropdownMenu.Item key={item.name} asChild>
-                        <MenuItem
-                          item={item}
-                          onMouseEnter={() => setActiveSub(item)}
-                        />
-                      </DropdownMenu.Item>
-                    ))}
-                  </div>
+                  {group.items.map((item) => (
+                    <DropdownMenu.Item key={item.name} asChild>
+                      <MenuItem
+                        item={item}
+                        onMouseEnter={() => setActiveSub(item)}
+                      />
+                    </DropdownMenu.Item>
+                  ))}
+                </div>
+              );
+            })}
+          </div>
+          {menu.itemGroups.map((group) => {
+            return group.items
+              .filter((item) => item.type === "normal-sub")
+              .map((item) => {
+                return (
+                  <NormalSubMenu
+                    key={item.name}
+                    menu={item}
+                    isOpen={activeSub?.name === item.name}
+                  />
                 );
-              })}
-            </div>
-            {activeSub && activeSub.type === "normal-sub" && (
-              <NormalSubMenu menu={activeSub} />
-            )}
-            {activeSub && activeSub.type === "category-sub" && (
-              <CategorySubMenu menu={activeSub} />
-            )}
-          </Themed>
-        </DropdownMenu.Content>
-      </DropdownMenu.Portal>
+              });
+          })}
+          {menu.itemGroups.map((group) => {
+            return group.items
+              .filter((item) => item.type === "category-sub")
+              .map((item) => {
+                return (
+                  <CategorySubMenu
+                    key={item.name}
+                    menu={item}
+                    isOpen={activeSub?.name === item.name}
+                  />
+                );
+              });
+          })}
+        </Themed>
+      </DropdownMenu.Content>
     </DropdownMenu.Root>
   );
 }

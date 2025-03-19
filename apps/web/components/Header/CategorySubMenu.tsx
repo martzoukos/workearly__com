@@ -9,13 +9,14 @@ import MenuItem from "./MenuItem";
 
 type PropsType = {
   menu: CategorySubItemType;
+  isOpen?: boolean;
 };
 
-export default function CategorySubMenu({ menu }: PropsType) {
+export default function CategorySubMenu({ menu, isOpen }: PropsType) {
   const { getReference } = useContentful();
 
   return (
-    <div className={styles.root}>
+    <div className={styles.root} data-state-open={isOpen}>
       <div>
         <header className={styles.header}>
           <Text size="h4">{menu.name}</Text>
