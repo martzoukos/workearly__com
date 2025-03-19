@@ -8,6 +8,8 @@ import {
   toPageSlugs,
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import { NextSeo } from "next-seo";
+import { useRouter } from "next/router";
 
 export default function Page({
   page,
@@ -15,6 +17,9 @@ export default function Page({
   header,
   relationshipMap,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
+  const router = useRouter();
+  const canonicalUrl = `https://workearly.gr/${page.slug}`;
+
   return (
     <ContentfulProvider
       page={page}
@@ -22,6 +27,27 @@ export default function Page({
       footer={footer}
       header={header}
     >
+      <NextSeo
+        title={page.seoTitle || ""}
+        description={page.seoDescription || ""}
+        canonical={canonicalUrl}
+        openGraph={{
+          title: page.seoTitle || "",
+          description: page.seoDescription || "",
+          url: canonicalUrl,
+          locale: router.locale,
+          images: page.seoImage
+            ? [
+                {
+                  url: page.seoImage.url || "",
+                  width: page.seoImage.width || 1024,
+                  height: page.seoImage.height || 1024,
+                  alt: page.seoImage.description || "",
+                },
+              ]
+            : [],
+        }}
+      />
       <PageRenderer />
     </ContentfulProvider>
   );

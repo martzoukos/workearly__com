@@ -18,7 +18,7 @@ export default function DefaultPage({ className }: PropsType) {
   const isHome = router.asPath === "/";
 
   return (
-    <main className={clsx(styles.root, styles.isHome, className)}>
+    <main className={clsx(styles.root, className)}>
       {!isHome && (
         <Breadcrumbs
           className={styles.breadcrumbs}

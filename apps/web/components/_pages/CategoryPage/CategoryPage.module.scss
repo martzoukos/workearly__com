@@ -2,8 +2,8 @@
 @use "@/styles/_helpers" as *;
 
 .root {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: fluid-rem(1.5rem, 8rem);
 }
 

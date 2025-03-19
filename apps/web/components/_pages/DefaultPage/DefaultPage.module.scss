@@ -9,6 +9,10 @@
   & > .breadcrumbs {
     @extend %margin-container;
     padding-inline: 0;
-    margin-block-end: 0;
+    margin-block: 1rem;
+  }
+
+  & > *:first-child {
+    margin-block-start: 1rem;
   }
 }

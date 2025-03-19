@@ -19,7 +19,7 @@ type PropsType = {
   className?: string;
 };
 
-export default function Slider({ section, className }: PropsType) {
+export default function CardShowcase({ section, className }: PropsType) {
   const { getReference } = useContentful();
   const { cardTheme } = useSectionResolver(section);
   const shell = useShellResolver(section);
