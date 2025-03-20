@@ -1,31 +1,16 @@
 [
   {
-    "code": "Group3Choice_2",
-    "el": "4-6 Months",
-    "en": "4-6 Months"
-  },
-  {
-    "code": "Level",
-    "el": "",
-    "en": ""
-  },
-  {
-    "code": "Group1Choice_1",
-    "el": "Instructor Assisted",
-    "en": "Instructor Assisted"
-  },
-  {
     "code": "Apply",
     "el": "Αίτηση Συμμετοχής",
     "en": "Apply"
   },
   {
-    "code": "UpTo50",
+    "code": "priceRange1",
     "el": "έως €50",
     "en": "Up to €50"
   },
   {
-    "code": "50To100",
+    "code": "priceRange2",
     "el": "From €51 to €100",
     "en": "From €51 to €100"
   },
@@ -40,49 +25,29 @@
     "en": "Personal"
   },
   {
-    "code": "Group3Choice_3",
+    "code": "mentorship2",
     "el": "Dedicated Top Mentor",
     "en": "Dedicated Top Mentor"
   },
   {
-    "code": "Skills",
-    "el": "",
-    "en": ""
-  },
-  {
-    "code": "Mentoring",
-    "el": "",
-    "en": ""
-  },
-  {
-    "code": "Group2Title_2",
-    "el": "DURATION",
-    "en": "DURATION"
-  },
-  {
-    "code": "Group1Title_3",
-    "el": "MENTORSHIP",
-    "en": "MENTORSHIP"
+    "code": "Application Deadline",
+    "el": "Application Deadline",
+    "en": "Application Deadline"
   },
   {
     "code": "Category",
-    "el": "",
-    "en": ""
+    "el": "Category",
+    "en": "Category"
   },
   {
     "code": "Filters",
-    "el": "",
-    "en": ""
+    "el": "Filters",
+    "en": "Filters"
   },
   {
-    "code": "Group2Choice_2",
-    "el": "4-6 Months",
-    "en": "4-6 Months"
-  },
-  {
-    "code": "Group1Title_2",
-    "el": "DURATION",
-    "en": "DURATION"
+    "code": "No",
+    "el": "No",
+    "en": "No"
   },
   {
     "code": "afterContactDescription",
@@ -95,29 +60,24 @@
     "en": "Share"
   },
   {
-    "code": "Group2Title_1",
-    "el": "PACE",
-    "en": "PACE"
+    "code": "Mentorship",
+    "el": "Mentorship",
+    "en": "Mentorship"
   },
   {
-    "code": "Group1Choice_2",
-    "el": "4-6 Months",
-    "en": "4-6 Months"
+    "code": "Program Starts",
+    "el": "Program Starts",
+    "en": "Program Starts"
   },
   {
-    "code": "Group2Choice_1",
+    "code": "Yes",
+    "el": "Yes",
+    "en": "Yes"
+  },
+  {
+    "code": "pace2",
     "el": "Instructor Assisted",
     "en": "Instructor Assisted"
-  },
-  {
-    "code": "Group2Title_3",
-    "el": "MENTORSHIP",
-    "en": "MENTORSHIP"
-  },
-  {
-    "code": "Group3Title_1",
-    "el": "PACE",
-    "en": "PACE"
   },
   {
     "code": "CourseCardTeam",
@@ -125,9 +85,9 @@
     "en": "Workearly provides customized training programs for companies looking to enhance their teams’ skills. The material is tailored to the needs and level of each team member, ensuring personalized development for all. With internationally recognized certifications and high-quality learning content, Workearly helps teams gain competitive advantages and perform at their best."
   },
   {
-    "code": "Group2Choice_3",
-    "el": "Dedicated Top Mentor",
-    "en": "Dedicated Top Mentor"
+    "code": "Language",
+    "el": "Language",
+    "en": "Language"
   },
   {
     "code": "PriceRange",
@@ -165,44 +125,29 @@
     "en": "4,97 Average Rating"
   },
   {
-    "code": "Group1Choice_3",
-    "el": "Dedicated Top Mentor",
-    "en": "Dedicated Top Mentor"
-  },
-  {
-    "code": "CourseDuration",
+    "code": "duration2",
     "el": "4-8 weeks",
     "en": "4-8 weeks"
   },
   {
-    "code": "Group1Title_1",
-    "el": "PACE",
-    "en": "PACE"
-  },
-  {
-    "code": "MicroDuration",
-    "el": "1 week or Less",
+    "code": "duration1",
+    "el": "1 Week or Less",
     "en": "1 week or Less"
   },
   {
-    "code": "Group3Title_3",
-    "el": "MENTORSHIP",
-    "en": "MENTORSHIP"
+    "code": "pace1",
+    "el": "Self-Paced",
+    "en": "Self-Paced"
   },
   {
-    "code": "Group3Choice_1",
-    "el": "Instructor Assisted",
-    "en": "Instructor Assisted"
-  },
-  {
-    "code": "Group3Title_2",
-    "el": "DURATION",
-    "en": "DURATION"
-  },
-  {
-    "code": "101Plus",
+    "code": "priceRange3",
     "el": "€101 +",
     "en": "€101 +"
+  },
+  {
+    "code": "Pace",
+    "el": "Pace",
+    "en": "Pace"
   },
   {
     "code": "CourseLearners",
@@ -210,12 +155,17 @@
     "en": "25.000+ Learners"
   },
   {
+    "code": "mentorship1",
+    "el": "Self Served with Resources",
+    "en": "Self Served with Resources"
+  },
+  {
     "code": "CourseCardPersonal",
     "el": "Το Workearly είναι η κορυφαία εκπαιδευτική πλατφόρμα που προσαρμόζει το εκπαιδευτικό υλικό στο επίπεδο κάθε εκπαιδευόμενου, προσφέροντας εξατομικευμένη εμπειρία μάθησης. Με πάνω από 1000 κριτικές και την υψηλότερη βαθμολογία στην Ελλάδα, εξασφαλίζει εμπιστοσύνη και ποιότητα. Τα προγράμματα συνοδεύονται από αναγνωρισμένες διεθνείς πιστοποιήσεις, ενισχύοντας το επαγγελματικό σας προφίλ.",
     "en": "Workearly is the leading educational platform that tailors learning materials to the level of each trainee, offering a personalized learning experience. With over 1,000 reviews and the highest rating in Greece, it ensures trust and quality. The programs are accompanied by internationally recognized certifications, enhancing your professional profile."
   },
   {
-    "code": "BootcampDuration",
+    "code": "duration3",
     "el": "4-6 months",
     "en": "4-6 months"
   }

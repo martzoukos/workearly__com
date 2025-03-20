@@ -1,14 +1,21 @@
 import StatCard from "@/components/StatCard";
+import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import Viewport from "@/components/Viewport";
+import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
+import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
+import { StarFilled, UserFilled } from "@carbon/icons-react";
 import Image from "next/image";
 import styles from "./CourseCover.module.scss";
 
 export default function CourseCover() {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
+  const { translate } = useTranslate();
+  const { duration, mentorship, pace, cardWidth } =
+    useCourseDetailsResolver(courseDetails);
 
   if (!courseDetails) {
     return null;
@@ -34,60 +41,44 @@ export default function CourseCover() {
         <Text as="h2">{page.name}</Text>
         <Text>{courseDetails?.summary}</Text>
       </header>
-      {/* {(courseDetails.studentsCount || courseDetails.userReviews) && (
-        <div className={styles.statLabels}>
-          {courseDetails?.studentsCount && (
-            <StatLabel
-              icon={<UserFilled />}
-              label={`${courseDetails.studentsCount} Students`}
-            />
-          )}
-          {courseDetails?.userReviews && (
-            <StatLabel
-              icon={<StarFilled />}
-              label={`${courseDetails.userReviews} Reviews`}
-            />
-          )}
-        </div>
-      )} */}
-      <div className={styles.statCards}>
-        {courseDetails?.duration && (
+      <div className={styles.statLabels}>
+        <StatLabel icon={<UserFilled />} label={translate("CourseLearners")} />
+        <StatLabel
+          icon={<StarFilled />}
+          label={translate("CourseAverageRating")}
+        />
+      </div>
+      <div
+        className={styles.statCards}
+        style={{ "--min-card-width": cardWidth } as React.CSSProperties}
+      >
+        {duration && (
+          <StatCard label={translate("Duration")} value={translate(duration)} />
+        )}
+        {pace && <StatCard label={translate("Pace")} value={translate(pace)} />}
+        {mentorship && (
           <StatCard
-            label="Duration"
-            value={courseDetails.duration.toString()}
+            label={translate("Mentorship")}
+            value={translate(mentorship)}
           />
         )}
-        {courseDetails?.language && (
-          <StatCard
-            label="Language"
-            value={courseDetails.language.toString()}
-          />
-        )}
-        {courseDetails?.pace && (
-          <StatCard label="Pace" value={courseDetails.pace.toString()} />
-        )}
-        {/* {courseDetails?.level && (
-          <StatCard label="Level" value={courseDetails.level.toString()} />
-        )} */}
-        {courseDetails?.style && (
-          <StatCard label="Style" value={courseDetails.style.toString()} />
-        )}
-        {/* {courseDetails?.courseCount && (
-          <StatCard
-            label="Content"
-            value={courseDetails.courseCount.toString()}
-          />
-        )} */}
+
         {courseDetails?.programStarts && (
           <StatCard
-            label="Program Starts"
+            label={translate("Program Starts")}
             value={courseDetails.programStarts.toString()}
           />
         )}
         {courseDetails?.applicationDeadline && (
           <StatCard
-            label="Application Deadline"
+            label={translate("Application Deadline")}
             value={courseDetails.applicationDeadline.toString()}
+          />
+        )}
+        {courseDetails?.language && (
+          <StatCard
+            label={translate("Language")}
+            value={courseDetails.language.toString()}
           />
         )}
       </div>

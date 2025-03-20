@@ -93,15 +93,13 @@ export const COURSE_DETAILS_FIELDS = graphql(`
   fragment CourseDetailsFields on CourseDetails {
     ...EntryFields
     h1Title
+    group
     title
     summary
     shortDescription
     applicationFormUrl
     id
-    duration
     language
-    pace
-    style
     programStarts
     applicationDeadline
     startingCost

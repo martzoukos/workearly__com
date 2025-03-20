@@ -1,5 +1,8 @@
 import Text from "@/components/Text";
+import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
+import useTranslate from "@/hooks/useTranslate";
+import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import Link from "next/link";
 import styles from "./MenuCourseCard.module.scss";
@@ -10,6 +13,8 @@ type PropsType = {
 
 export default function MenuCourseCard({ page }: PropsType) {
   const { courseDetails } = usePageResolver(page);
+  const { duration } = useCourseDetailsResolver(courseDetails);
+  const { translate } = useTranslate();
 
   if (!courseDetails) {
     return null;
@@ -20,10 +25,10 @@ export default function MenuCourseCard({ page }: PropsType) {
       <Text>{page.name}</Text>
 
       <div className={styles.details}>
-        <Text size="caption">{courseDetails.duration}</Text>
-        {/* <Text size="caption">
-          <UserFilled size={12} /> {courseDetails.studentsCount} Students
-        </Text> */}
+        {duration && <Text size="caption">{translate(duration)}</Text>}
+        <Text size="caption">
+          <UserFilled size={12} /> {translate("CourseLearners")} Students
+        </Text>
       </div>
     </Link>
   );

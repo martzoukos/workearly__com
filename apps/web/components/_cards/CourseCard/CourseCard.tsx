@@ -1,6 +1,10 @@
 import CoursePrices from "@/components/CoursePrices";
+import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
+import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
+import useTranslate from "@/hooks/useTranslate";
+import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
@@ -27,6 +31,8 @@ interface PropsType extends VariantProps<typeof variants> {
 
 const CourseCard = ({ page, size = "normal", className }: PropsType) => {
   const { courseDetails } = usePageResolver(page);
+  const { translate } = useTranslate();
+  const { duration } = useCourseDetailsResolver(courseDetails);
 
   if (!courseDetails) {
     return null;
@@ -65,16 +71,12 @@ const CourseCard = ({ page, size = "normal", className }: PropsType) => {
         )}
 
         <div className={styles.stats}>
-          {courseDetails?.duration && (
-            <Text size="caption">{courseDetails.duration}</Text>
-          )}
-          {/* {courseDetails?.studentsCount && (
-            <StatLabel
-              icon={<UserFilled />}
-              label={`${courseDetails.studentsCount} Students`}
-              className={styles.statLabel}
-            />
-          )} */}
+          {duration && <Text size="caption">{translate(duration)}</Text>}
+          <StatLabel
+            icon={<UserFilled />}
+            label={translate("CourseLearners")}
+            className={styles.statLabel}
+          />
         </div>
 
         {courseDetails && (

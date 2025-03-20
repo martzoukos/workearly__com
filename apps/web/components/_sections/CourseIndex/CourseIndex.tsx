@@ -5,14 +5,17 @@ import FilterList from "@/components/FilterList";
 import Select from "@/components/Select";
 import Text from "@/components/Text";
 import Viewport, { useViewport } from "@/components/Viewport";
+import {
+  DATA_MAP,
+  getCourseDetailsResolver,
+} from "@/hooks/useCourseDetailsResolver";
 import usePageResolver, { getPageResolver } from "@/hooks/usePageResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
+import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
 import { ChevronLeft, ChevronRight, Close, Filter } from "@carbon/icons-react";
 import {
   COURSE_CATEGORIES,
-  COURSE_DURATIONS,
-  COURSE_PRICE_RANGES,
   isDefined,
   QueryItem,
   YES_NO_OPTIONS,
@@ -36,6 +39,7 @@ type PropsType = {
 const MIN_PAGE_LIMIT = 15;
 
 export default function CourseIndex({ section, className }: PropsType) {
+  const { translate } = useTranslate();
   const { getReferences } = useSectionResolver(section);
   const { page, relationshipMap } = useContentful();
   const { variant } = usePageResolver(page);
@@ -93,14 +97,13 @@ export default function CourseIndex({ section, className }: PropsType) {
   if (durations.length) {
     filteredPages = filteredPages.filter((page) => {
       const { courseDetails } = getPageResolver(page, relationshipMap);
+      const { duration } = getCourseDetailsResolver(courseDetails);
 
-      if (!courseDetails?.duration?.length) {
+      if (!duration) {
         return false;
       }
 
-      return courseDetails.duration.some((duration) =>
-        durations.filter(isDefined).includes(duration)
-      );
+      return durations.filter(isDefined).includes(duration);
     });
   }
 
@@ -108,19 +111,33 @@ export default function CourseIndex({ section, className }: PropsType) {
     filteredPages = filteredPages.filter((page) => {
       const { courseDetails } = getPageResolver(page, relationshipMap);
 
-      let coursePriceRange = "Free";
+      let coursePriceRange: (typeof DATA_MAP.priceRanges)[number] | undefined =
+        undefined;
 
       if (!courseDetails?.finalCost) {
-        coursePriceRange = "Free";
+        return false;
       } else if (courseDetails?.finalCost <= 50) {
-        coursePriceRange = "Upto 50";
+        coursePriceRange = "priceRange1";
       } else if (courseDetails?.finalCost <= 100) {
-        coursePriceRange = "From 51 to 100";
+        coursePriceRange = "priceRange2";
       } else if (courseDetails?.finalCost > 100) {
-        coursePriceRange = "101+";
+        coursePriceRange = "priceRange3";
       }
 
-      return priceRanges.filter(isDefined).includes(coursePriceRange);
+      return priceRanges.filter(isDefined).includes(coursePriceRange || "");
+    });
+  }
+
+  if (mentoring) {
+    filteredPages = filteredPages.filter((page) => {
+      const { courseDetails } = getPageResolver(page, relationshipMap);
+      const { mentorship } = getCourseDetailsResolver(courseDetails);
+
+      if (mentoring === "Yes") {
+        return Boolean(mentorship);
+      }
+
+      return !mentorship;
     });
   }
 
@@ -143,13 +160,11 @@ export default function CourseIndex({ section, className }: PropsType) {
         <>
           <FilterList
             type="checkbox"
-            title="Category"
-            items={COURSE_CATEGORIES.map((category) => category.name).map(
-              (category) => ({
-                title: category as string,
-                value: category as string,
-              })
-            )}
+            title={translate("Category")}
+            items={COURSE_CATEGORIES.map((category) => ({
+              title: category.name as string,
+              value: category.id as string,
+            }))}
             selected={categories.filter(isDefined) as string[]}
             onChange={setCategories}
           />
@@ -158,9 +173,9 @@ export default function CourseIndex({ section, className }: PropsType) {
       )}
       <FilterList
         type="checkbox"
-        title="Duration"
-        items={COURSE_DURATIONS.map((duration) => ({
-          title: duration,
+        title={translate("Duration")}
+        items={DATA_MAP.durations.map((duration) => ({
+          title: translate(duration),
           value: duration,
         }))}
         selected={durations.filter(isDefined) as string[]}
@@ -169,9 +184,9 @@ export default function CourseIndex({ section, className }: PropsType) {
       <Divider />
       <FilterList
         type="checkbox"
-        title="Price Range"
-        items={COURSE_PRICE_RANGES.map((priceRange) => ({
-          title: priceRange,
+        title={translate("PriceRange")}
+        items={DATA_MAP.priceRanges.map((priceRange) => ({
+          title: translate(priceRange),
           value: priceRange,
         }))}
         selected={priceRanges.filter(isDefined) as string[]}
@@ -180,9 +195,9 @@ export default function CourseIndex({ section, className }: PropsType) {
       <Divider />
       <FilterList
         type="radio"
-        title="Mentoring"
+        title={translate("Mentorship")}
         items={YES_NO_OPTIONS.map((option) => ({
-          title: option,
+          title: translate(option),
           value: option,
         }))}
         selected={mentoring}
@@ -195,7 +210,7 @@ export default function CourseIndex({ section, className }: PropsType) {
     <section className={clsx(styles.root, className)}>
       <Viewport showAfter="md">
         <aside className={styles.aside}>
-          <Text as="h6">Filters</Text>
+          <Text as="h6">{translate("Filters")}</Text>
           {filtersElement}
         </aside>
       </Viewport>
@@ -209,7 +224,7 @@ export default function CourseIndex({ section, className }: PropsType) {
             <Viewport showUntil="md">
               <div className={styles.headerActions}>
                 <Drawer
-                  title="Filters"
+                  title={translate("Filters")}
                   trigger={
                     <Button variant="Outlined">
                       <Filter />
@@ -233,7 +248,8 @@ export default function CourseIndex({ section, className }: PropsType) {
                   setCategories(categories.filter((c) => c !== category))
                 }
               >
-                {category} <Close />
+                {COURSE_CATEGORIES.find((tag) => tag.id === category)?.name}{" "}
+                <Close />
               </Button>
             ))}
             {durations.map((duration) => (
@@ -245,7 +261,8 @@ export default function CourseIndex({ section, className }: PropsType) {
                   setDurations(durations.filter((c) => c !== duration))
                 }
               >
-                {duration} <Close />
+                {translate(duration as (typeof DATA_MAP.durations)[number])}{" "}
+                <Close />
               </Button>
             ))}
             {priceRanges.map((range) => (
@@ -257,7 +274,8 @@ export default function CourseIndex({ section, className }: PropsType) {
                   setPriceRanges(priceRanges.filter((c) => c !== range))
                 }
               >
-                {range} <Close />
+                {translate(range as (typeof DATA_MAP.priceRanges)[number])}
+                <Close />
               </Button>
             ))}
             {mentoring && (
@@ -266,7 +284,8 @@ export default function CourseIndex({ section, className }: PropsType) {
                 colorScheme="Surface"
                 onClick={() => setMentoring("")}
               >
-                {mentoring} <Close />
+                {translate(mentoring as (typeof YES_NO_OPTIONS)[number])}{" "}
+                <Close />
               </Button>
             )}
           </div>
