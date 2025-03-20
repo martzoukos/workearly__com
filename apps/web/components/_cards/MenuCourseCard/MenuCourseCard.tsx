@@ -1,6 +1,5 @@
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
-import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import Link from "next/link";
 import styles from "./MenuCourseCard.module.scss";
@@ -22,9 +21,9 @@ export default function MenuCourseCard({ page }: PropsType) {
 
       <div className={styles.details}>
         <Text size="caption">{courseDetails.duration}</Text>
-        <Text size="caption">
+        {/* <Text size="caption">
           <UserFilled size={12} /> {courseDetails.studentsCount} Students
-        </Text>
+        </Text> */}
       </div>
     </Link>
   );

@@ -12,9 +12,7 @@ import { ChevronLeft, ChevronRight, Close, Filter } from "@carbon/icons-react";
 import {
   COURSE_CATEGORIES,
   COURSE_DURATIONS,
-  COURSE_LEVELS,
   COURSE_PRICE_RANGES,
-  COURSE_SKILLS,
   isDefined,
   QueryItem,
   YES_NO_OPTIONS,
@@ -61,14 +59,6 @@ export default function CourseIndex({ section, className }: PropsType) {
     "price",
     withDefault(DelimitedArrayParam, [])
   );
-  const [skills, setSkills] = useQueryParam(
-    "skills",
-    withDefault(DelimitedArrayParam, [])
-  );
-  const [levels, setLevels] = useQueryParam(
-    "levels",
-    withDefault(DelimitedArrayParam, [])
-  );
   const [mentoring, setMentoring] = useQueryParam(
     "mentoring",
     withDefault(StringParam, "")
@@ -94,7 +84,9 @@ export default function CourseIndex({ section, className }: PropsType) {
   if (categories.length) {
     filteredPages = filteredPages.filter((page) => {
       const { tags } = getPageResolver(page, relationshipMap);
-      return tags.some((tag) => categories.filter(isDefined).includes(tag));
+      return tags.some((tag) =>
+        categories.filter(isDefined).includes(tag.id as string)
+      );
     });
   }
 
@@ -132,20 +124,6 @@ export default function CourseIndex({ section, className }: PropsType) {
     });
   }
 
-  if (levels.length) {
-    filteredPages = filteredPages.filter((page) => {
-      const { courseDetails } = getPageResolver(page, relationshipMap);
-
-      if (!courseDetails?.level?.length) {
-        return false;
-      }
-
-      return courseDetails.level.some((level) =>
-        levels.filter(isDefined).includes(level)
-      );
-    });
-  }
-
   const pageCount = Math.ceil(filteredPages.length / pageLimit);
 
   function getCurrentPageItems() {
@@ -155,29 +133,23 @@ export default function CourseIndex({ section, className }: PropsType) {
     return filteredPages.slice(startIndex, endIndex);
   }
 
-  const hasFilters = [
-    categories,
-    durations,
-    priceRanges,
-    skills,
-    levels,
-    [mentoring],
-  ]
+  const hasFilters = [categories, durations, priceRanges, [mentoring]]
     .map((group) => group.filter(isDefined))
     .some((group) => group.length);
 
   const filtersElement = (
     <>
-      {" "}
       {variant !== "Category" && (
         <>
           <FilterList
             type="checkbox"
             title="Category"
-            items={COURSE_CATEGORIES.map((category) => ({
-              title: category,
-              value: category,
-            }))}
+            items={COURSE_CATEGORIES.map((category) => category.name).map(
+              (category) => ({
+                title: category as string,
+                value: category as string,
+              })
+            )}
             selected={categories.filter(isDefined) as string[]}
             onChange={setCategories}
           />
@@ -204,28 +176,6 @@ export default function CourseIndex({ section, className }: PropsType) {
         }))}
         selected={priceRanges.filter(isDefined) as string[]}
         onChange={setPriceRanges}
-      />
-      <Divider />
-      <FilterList
-        type="checkbox"
-        title="Skills"
-        items={COURSE_SKILLS.map((skill) => ({
-          title: skill,
-          value: skill,
-        }))}
-        selected={skills.filter(isDefined) as string[]}
-        onChange={setSkills}
-      />
-      <Divider />
-      <FilterList
-        type="checkbox"
-        title="Level"
-        items={COURSE_LEVELS.map((level) => ({
-          title: level,
-          value: level,
-        }))}
-        selected={levels.filter(isDefined) as string[]}
-        onChange={setLevels}
       />
       <Divider />
       <FilterList
@@ -308,26 +258,6 @@ export default function CourseIndex({ section, className }: PropsType) {
                 }
               >
                 {range} <Close />
-              </Button>
-            ))}
-            {skills.map((skill) => (
-              <Button
-                key={skill}
-                isRounded
-                colorScheme="Surface"
-                onClick={() => setSkills(skills.filter((c) => c !== skill))}
-              >
-                {skill} <Close />
-              </Button>
-            ))}
-            {levels.map((level) => (
-              <Button
-                key={level}
-                isRounded
-                colorScheme="Surface"
-                onClick={() => setLevels(levels.filter((c) => c !== level))}
-              >
-                {level} <Close />
               </Button>
             ))}
             {mentoring && (

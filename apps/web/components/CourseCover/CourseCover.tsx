@@ -1,12 +1,10 @@
 import StatCard from "@/components/StatCard";
-import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text/Text";
 import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
-import { StarFilled, UserFilled } from "@carbon/icons-react";
-import styles from "./CourseCover.module.scss";
 import Image from "next/image";
+import styles from "./CourseCover.module.scss";
 
 export default function CourseCover() {
   const { page } = useContentful();
@@ -36,7 +34,7 @@ export default function CourseCover() {
         <Text as="h2">{page.name}</Text>
         <Text>{courseDetails?.summary}</Text>
       </header>
-      {(courseDetails.studentsCount || courseDetails.userReviews) && (
+      {/* {(courseDetails.studentsCount || courseDetails.userReviews) && (
         <div className={styles.statLabels}>
           {courseDetails?.studentsCount && (
             <StatLabel
@@ -51,7 +49,7 @@ export default function CourseCover() {
             />
           )}
         </div>
-      )}
+      )} */}
       <div className={styles.statCards}>
         {courseDetails?.duration && (
           <StatCard
@@ -68,18 +66,18 @@ export default function CourseCover() {
         {courseDetails?.pace && (
           <StatCard label="Pace" value={courseDetails.pace.toString()} />
         )}
-        {courseDetails?.level && (
+        {/* {courseDetails?.level && (
           <StatCard label="Level" value={courseDetails.level.toString()} />
-        )}
+        )} */}
         {courseDetails?.style && (
           <StatCard label="Style" value={courseDetails.style.toString()} />
         )}
-        {courseDetails?.courseCount && (
+        {/* {courseDetails?.courseCount && (
           <StatCard
             label="Content"
             value={courseDetails.courseCount.toString()}
           />
-        )}
+        )} */}
         {courseDetails?.programStarts && (
           <StatCard
             label="Program Starts"

@@ -1,8 +1,6 @@
 import CoursePrices from "@/components/CoursePrices";
-import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
-import { UserFilled } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
@@ -70,13 +68,13 @@ const CourseCard = ({ page, size = "normal", className }: PropsType) => {
           {courseDetails?.duration && (
             <Text size="caption">{courseDetails.duration}</Text>
           )}
-          {courseDetails?.studentsCount && (
+          {/* {courseDetails?.studentsCount && (
             <StatLabel
               icon={<UserFilled />}
               label={`${courseDetails.studentsCount} Students`}
               className={styles.statLabel}
             />
-          )}
+          )} */}
         </div>
 
         {courseDetails && (
