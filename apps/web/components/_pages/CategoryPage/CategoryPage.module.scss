@@ -1,10 +1,17 @@
 @use "@/styles/_functions" as *;
 @use "@/styles/_helpers" as *;
+@use "@/styles/_breakpoints" as *;
 
 .root {
   display: flex;
   flex-direction: column;
   gap: fluid-rem(1.5rem, 8rem);
+
+  @include media(md) {
+    .breadcrumbs {
+      width: 100%;
+    }
+  }
 }
 
 .header {
@@ -18,4 +25,5 @@
 .breadcrumbs {
   border: 1px solid var(--color-sys-border-muted);
   width: fit-content;
+  margin-block: 1rem;
 }

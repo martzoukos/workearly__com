@@ -17,10 +17,7 @@
       border: none;
 
       .contentItem {
-        --padding-inline: #{fluid-rem(0.75rem, 1.5rem)};
-        --container-width: calc(100vw - (var(--padding-inline) * 2));
-        margin-inline: auto;
-        width: 100%;
+        --container-width: 100vw;
       }
     }
   }
@@ -43,8 +40,8 @@
 
   .contentItem {
     --container-width: 100%;
-    --padding-inline: 0rem;
-    padding-inline: fluid-rem(0.75rem, 1.88rem, ("md", "xxl"));
+    width: 100%;
+    padding-inline: fluid-rem(0rem, 1.88rem, ("md", "xxl"));
     padding-block: fluid-rem(1.5rem, 2.12rem);
 
     &:not(:first-child) {

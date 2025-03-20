@@ -4,6 +4,7 @@
 
 .root {
   @extend %margin-container;
+  max-width: var(--container-width);
   color: var(--color-ink-default);
   background: var(--color-sys-default);
 }

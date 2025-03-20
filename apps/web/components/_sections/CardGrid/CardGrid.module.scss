@@ -4,7 +4,11 @@
   --gap: 0.5rem;
   --total-gap-width: calc(var(--gap) * (var(--column-count) - 1));
   --column-width: calc(
-    (var(--container-width) - var(--total-gap-width)) / var(--column-count)
+    (
+        var(--container-width) - (var(--padding-inline) * 2) - var(
+            --total-gap-width
+          )
+      ) / var(--column-count)
   );
 
   display: grid;

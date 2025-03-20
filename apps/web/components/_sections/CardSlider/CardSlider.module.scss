@@ -8,13 +8,7 @@
   );
   margin-inline: calc(-1 * var(--padding-inline));
   padding-inline: var(--padding-inline);
-  width: min(var(--container-width), 100vw);
-
-  @include media(md) {
-    .slide {
-      padding: 0;
-    }
-  }
+  width: min(var(--container-width) + var(--padding-inline) * 2, 100vw);
 
   @include media(sm) {
     .slide {
