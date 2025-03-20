@@ -43,6 +43,10 @@
   position: relative;
   text-align: center;
   min-height: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   svg {
     color: var(--color-sys-default);

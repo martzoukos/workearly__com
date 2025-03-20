@@ -10,7 +10,6 @@
   --card-width: 14.85rem;
 
   @include media(md) {
-    --card-height: 11rem;
     --card-width: 9.25rem;
   }
 }
