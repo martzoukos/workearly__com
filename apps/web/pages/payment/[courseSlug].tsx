@@ -9,6 +9,7 @@ import {
 } from "@workearly/api";
 import { ThemeProvider } from "@workearly/theme";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
+import { NextSeo } from "next-seo";
 
 export default function Page({
   page,
@@ -23,6 +24,12 @@ export default function Page({
       footer={footer}
       header={header}
     >
+      <NextSeo
+        nofollow
+        noindex
+        title={page.seoTitle || ""}
+        description={page.seoDescription || ""}
+      />
       <ThemeProvider theme="light">
         {header && <Header uniqueComponent={header} />}
         <PaymentPage />

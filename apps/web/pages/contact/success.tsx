@@ -5,6 +5,7 @@ import { ContentfulProvider } from "@/stores/ContentfulStore";
 import { fetchPageBySlug, getServerClient } from "@workearly/api";
 import { ThemeProvider } from "@workearly/theme";
 import { InferGetStaticPropsType } from "next";
+import { NextSeo } from "next-seo";
 
 export default function Page({
   footer,
@@ -19,6 +20,12 @@ export default function Page({
       page={page}
       relationshipMap={relationshipMap}
     >
+      <NextSeo
+        nofollow
+        noindex
+        title={page.seoTitle || ""}
+        description={page.seoDescription || ""}
+      />
       <ThemeProvider theme="dark">
         {header && <Header uniqueComponent={header} />}
         <ContactSuccess />
@@ -34,7 +41,7 @@ export async function getStaticProps() {
   try {
     const { page, relationshipMap, footer, header } = await fetchPageBySlug(
       client,
-      "payment/success" // Just a stub slug that actually exists, we don't need any page info here
+      "contact" // Just a stub slug that actually exists, we don't need any page info here
     );
 
     return {

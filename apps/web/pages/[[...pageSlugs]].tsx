@@ -19,6 +19,7 @@ export default function Page({
 }: InferGetStaticPropsType<typeof getStaticProps>) {
   const router = useRouter();
   const canonicalUrl = `https://workearly.gr/${page.slug}`;
+  const noIndex = page.features?.includes("No Index");
 
   return (
     <ContentfulProvider
@@ -28,6 +29,8 @@ export default function Page({
       header={header}
     >
       <NextSeo
+        noindex={noIndex}
+        nofollow={noIndex}
         title={page.seoTitle || ""}
         description={page.seoDescription || ""}
         canonical={canonicalUrl}

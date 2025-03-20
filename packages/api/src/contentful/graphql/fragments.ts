@@ -270,6 +270,7 @@ export const PAGE_FIELDS = graphql(`
     ...EntryFields
     variant
     name
+    features
     slug
     seoTitle
     seoDescription
