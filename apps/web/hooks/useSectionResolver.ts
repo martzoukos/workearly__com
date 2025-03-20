@@ -111,7 +111,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   }
 
   const tags = section.contentfulMetadata.tags
-    .map((tag) => tag?.name)
+    .map((tag) => ({ ...tag, name: tag?.name?.split(":").at(0)?.trim() }))
     .filter(isDefined);
 
   return {

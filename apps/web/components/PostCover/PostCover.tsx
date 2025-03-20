@@ -2,19 +2,20 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import Button from "@/components/Button";
 import Person from "@/components/Person";
 import ReadingTime from "@/components/ReadingTime";
+import ShareMenu from "@/components/ShareMenu/ShareMenu";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Share } from "@carbon/icons-react";
 import { DateTime } from "luxon";
-import styles from "./PostCover.module.scss";
 import Image from "next/image";
-import ShareMenu from "@/components/ShareMenu/ShareMenu";
 import { useState } from "react";
+import styles from "./PostCover.module.scss";
 
 export default function PostCover() {
   const { page } = useContentful();
-  const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
+  const { resourceDetails, peopleDetails, readingTime, tags } =
+    usePageResolver(page);
   const [showShare, setshowShare] = useState(false);
 
   if (!resourceDetails) {
@@ -33,13 +34,15 @@ export default function PostCover() {
           className={styles.breadcrumbs}
         />
         <div className={styles.content}>
-          <div className={styles.topics}>
-            {resourceDetails.topics?.map((topic) => (
-              <Button key={topic} variant="Outlined" size="xsmall">
-                {topic}
-              </Button>
-            ))}
-          </div>
+          {tags.length > 0 && (
+            <div className={styles.topics}>
+              {tags.map((tag) => (
+                <Button key={tag.id} variant="Outlined" size="xsmall">
+                  {tag.name}
+                </Button>
+              ))}
+            </div>
+          )}
           <Text as="h1" className={styles.title}>
             {resourceDetails.name}
           </Text>

@@ -37,7 +37,11 @@ export default function Form({ section }: PropsType) {
   const router = useRouter();
   const shell = useShellResolver(section);
 
-  const { handleSubmit, control } = useForm({
+  const {
+    handleSubmit,
+    control,
+    formState: { isValid, isSubmitting },
+  } = useForm({
     resolver: yupResolver(schema),
     defaultValues: {
       name: "",
@@ -51,11 +55,19 @@ export default function Form({ section }: PropsType) {
   });
 
   async function onSubmit(data: SchemaType) {
-    await fetch("/api/contact", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ ...data, pageName: router.asPath }),
-    });
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ...data, pageName: router.asPath }),
+      });
+
+      if (response.ok) {
+        router.push("/contact/success");
+      }
+    } catch (error) {
+      console.error(error);
+    }
   }
 
   return (
@@ -110,6 +122,8 @@ export default function Form({ section }: PropsType) {
           isFullWidth
           className={styles.submitButton}
           size="medium"
+          isLoading={isSubmitting}
+          disabled={!isValid}
         >
           Submit Message
         </Button>

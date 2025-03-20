@@ -1,10 +1,12 @@
 import PersonCard from "@/components/_cards/PersonCard";
 import Button from "@/components/Button";
+import Select from "@/components/Select";
 import Shell from "@/components/Shell";
+import Viewport from "@/components/Viewport";
 import useFilterTabs from "@/hooks/useFilterTabs";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useShellResolver from "@/hooks/useShellResolver";
-import { CONTENTFUL_TAGS, QueryItem } from "@workearly/api";
+import { MENTOR_TAGS, QueryItem } from "@workearly/api";
 import clsx from "clsx";
 import styles from "./PeopleIndex.module.scss";
 
@@ -34,7 +36,7 @@ export default function PeopleIndex({
 
   const FILTER_TAGS = [
     { id: "all", name: "All" },
-    ...CONTENTFUL_TAGS.filter((tag) => pageTagIds.includes(tag.id)),
+    ...MENTOR_TAGS.filter((tag) => pageTagIds.includes(tag.id)),
   ];
 
   const filteredPages = pages.filter((page) => {
@@ -55,26 +57,43 @@ export default function PeopleIndex({
           className={clsx(!hideFilters && styles.header)}
         >
           {!hideFilters && (
-            <div className={styles.filterTabs}>
-              {FILTER_TAGS.map((tag) => (
-                <Button
-                  key={tag.id}
-                  className={styles.filterButton}
-                  size="xsmall"
-                  variant={
-                    categoryTabs.selected.includes(tag.id)
-                      ? "Solid"
-                      : "Outlined"
-                  }
-                  onClick={() => {
-                    const newCategories = categoryTabs.onSelect(tag.id);
-                    categoryTabs.setSelected(newCategories);
-                  }}
+            <>
+              <Viewport showAfter="md">
+                <div className={styles.filterTabs}>
+                  {FILTER_TAGS.map((tag) => (
+                    <Button
+                      key={tag.id}
+                      className={styles.filterButton}
+                      size="xsmall"
+                      variant={
+                        categoryTabs.selected.includes(tag.id)
+                          ? "Solid"
+                          : "Outlined"
+                      }
+                      onClick={() => {
+                        const newCategories = categoryTabs.onSelect(tag.id);
+                        categoryTabs.setSelected(newCategories);
+                      }}
+                    >
+                      {tag.name}
+                    </Button>
+                  ))}
+                </div>
+              </Viewport>
+              <Viewport showUntil="md">
+                <Select
+                  className={styles.filterSelect}
+                  value={categoryTabs.selected.at(0) as string}
+                  onValueChange={(value) => categoryTabs.setSelected([value])}
                 >
-                  {tag.name}
-                </Button>
-              ))}
-            </div>
+                  {FILTER_TAGS.map((tag) => (
+                    <Select.Item key={tag.id} value={tag.id}>
+                      {tag.name}
+                    </Select.Item>
+                  ))}
+                </Select>
+              </Viewport>
+            </>
           )}
         </Shell.Header>
       )}

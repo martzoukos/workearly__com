@@ -61,13 +61,13 @@ export default function PersonCover({ className }: PropsType) {
                     return (
                       <Button
                         as="span"
-                        key={tag}
+                        key={tag.id}
                         size="xsmall"
                         colorScheme="Black"
                         variant="Outlined"
                         className={styles.tag}
                       >
-                        {tag}
+                        {tag.name}
                       </Button>
                     );
                   })}

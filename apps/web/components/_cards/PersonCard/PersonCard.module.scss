@@ -61,10 +61,10 @@
 
 .personName {
   padding-inline: 1rem;
-  padding-block-start: fluid-rem(0.5rem, 0.25rem);
+  padding-block-start: reverse-fluid-rem(0.75rem, 0.25rem);
 }
 
 .personRole {
   padding-inline: 1rem;
-  padding-block-end: fluid-rem(0.5rem, 0.25rem);
+  padding-block-end: reverse-fluid-rem(0.75rem, 0.25rem);
 }

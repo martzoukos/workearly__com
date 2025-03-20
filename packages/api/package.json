@@ -5,8 +5,9 @@
   "types": "./src/index.tsx",
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
-    "dev": "pnpm generate-translations && graphql-codegen --config ./src/contentful/codegen.ts --watch \"./src/**/*.ts\"",
-    "generate-translations": "ts-node ./src/airtable/generateTranslations.ts"
+    "dev": "pnpm generate-tags && pnpm generate-translations && graphql-codegen --config ./src/contentful/codegen.ts --watch \"./src/**/*.ts\"",
+    "generate-translations": "ts-node ./src/airtable/generateTranslations.ts",
+    "generate-tags": "ts-node ./src/contentful/generateTags.ts"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^5.0.0",
@@ -21,6 +22,7 @@
     "@types/react-dom": "^18.2.18",
     "@urql/core": "^5.1.0",
     "airtable": "^0.12.2",
+    "contentful-management": "^11.48.0",
     "graphql": "^16.8.0",
     "lodash": "^4.17.21",
     "next": "^14.0.4",

@@ -11,17 +11,14 @@
 
   @include media(md) {
     --card-width: 9.25rem;
-    .header {
-      grid-template-columns: 1fr;
-    }
   }
 }
 
 .header {
   all: unset;
   display: grid;
-  gap: reverse-fluid-rem(1.5rem, 0.5rem);
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
+  gap: fluid-rem(1.5rem, 2rem);
+  grid-template-columns: 1fr;
   align-items: end;
 }
 
@@ -40,6 +37,11 @@
   flex-wrap: wrap;
   gap: 0.25rem;
   height: fit-content;
+}
+
+.filterSelect {
+  width: 100%;
+  overflow: hidden;
 }
 
 .cardGrid {

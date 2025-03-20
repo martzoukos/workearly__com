@@ -4,6 +4,7 @@
   color: var(--color-sys-default);
   border-radius: 0.5rem;
   border: 1px solid var(--color-sys-border);
+  z-index: var(--z-select);
 }
 
 .item {

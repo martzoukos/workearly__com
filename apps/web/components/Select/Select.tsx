@@ -7,17 +7,19 @@ import styles from "./Select.module.scss";
 
 type PropsType = {
   placeholder?: string;
+  className?: string;
 } & RadixSelect.SelectProps;
 
 export default function Select({
   children,
   placeholder = "Select",
+  className,
   ...props
 }: PropsType) {
   return (
     <RadixSelect.Root {...props}>
       <RadixSelect.Trigger asChild>
-        <Button variant="Outlined">
+        <Button variant="Outlined" className={className}>
           <RadixSelect.Value placeholder={placeholder} />
           <RadixSelect.Icon>
             <ChevronDown />

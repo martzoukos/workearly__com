@@ -131,8 +131,7 @@ export function getPageResolver(
   const variant = page.variant as PageVariantType;
   const theme = page.theme?.toLowerCase() as ThemeType;
   const tags = page.contentfulMetadata.tags
-    .map((tag) => tag?.name)
-    .map((tag) => tag?.split(":").at(1)?.trim())
+    .map((tag) => ({ ...tag, name: tag?.name?.split(":").at(1)?.trim() }))
     .filter(isDefined);
 
   return {

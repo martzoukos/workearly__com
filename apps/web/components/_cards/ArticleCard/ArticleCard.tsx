@@ -1,25 +1,27 @@
-import Media from "@/components/Media";
 import Person from "@/components/Person";
 import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
+import Image from "next/image";
 import Link from "next/link";
 import styles from "./ArticleCard.module.scss";
-import Image from "next/image";
 
 type PropsType = {
   page: QueryItem["Page"];
 };
 
 export default function ArticleCard({ page }: PropsType) {
-  const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
+  const { resourceDetails, peopleDetails, readingTime, tags } =
+    usePageResolver(page);
 
   if (!resourceDetails) {
     return null;
   }
 
-  const topic = resourceDetails.topics?.at(0);
+  const category = tags.find((tag) =>
+    tag?.id?.startsWith("articleCategory")
+  )?.name;
 
   return (
     <Link href={page.slug ?? "/"} className={styles.root}>
@@ -44,9 +46,9 @@ export default function ArticleCard({ page }: PropsType) {
         </header>
 
         <footer className={styles.footer}>
-          {topic && (
+          {category && (
             <Text size="xsmall" className={styles.tag}>
-              {topic}
+              {category}
             </Text>
           )}
 

@@ -1,0 +1,170 @@
+[
+  {
+    "name": "Article Category: General",
+    "id": "articleCategoryGeneral"
+  },
+  {
+    "name": "Course Category: AI",
+    "id": "courseCategoryAi"
+  },
+  {
+    "name": "Course Category: Sports",
+    "id": "courseCategorySports"
+  },
+  {
+    "name": "Course Category: Business",
+    "id": "courseCategoryBusinessAnalytics"
+  },
+  {
+    "name": "Mentors: Public Relations & Communication",
+    "id": "mentorsPublicRelationsCommunication"
+  },
+  {
+    "name": "Mentors: Healthcare & Biotech",
+    "id": "mentorsHealthcareBiotech"
+  },
+  {
+    "name": "Mentors: Personal Branding & Career Development",
+    "id": "mentorsPersonalBrandingCareerDevelopment"
+  },
+  {
+    "name": "Mentors: Sports Analytics",
+    "id": "mentorsSportsAnalytics"
+  },
+  {
+    "name": "Mentors: Corporate Law & Compliance",
+    "id": "mentorsCorporateLawCompliance"
+  },
+  {
+    "name": "Mentors: E-commerce & Retail",
+    "id": "mentorsECommerceRetail"
+  },
+  {
+    "name": "Mentors: Technology & Software Development",
+    "id": "mentorsTechnologySoftwareDevelopment"
+  },
+  {
+    "name": "Mentors: Artificial Intelligence & Machine Learning",
+    "id": "mentorsArtificialIntelligenceMachineLearning"
+  },
+  {
+    "name": "Mentors: Marketing & Growth Strategy",
+    "id": "mentorsMarketingGrowthStrategy"
+  },
+  {
+    "name": "Mentors: Sales & Business Development",
+    "id": "mentorsSalesBusinessDevelopment"
+  },
+  {
+    "name": "Mentors: Leadership & Management",
+    "id": "mentorsLeadershipManagement"
+  },
+  {
+    "name": "Mentors: HR & Talent Acquisition",
+    "id": "mentorsHrTalentAcquisition"
+  },
+  {
+    "name": "Mentors: Startups & Fundraising",
+    "id": "mentorsStartupsFundraising"
+  },
+  {
+    "name": "Mentors: Data Science & Analytics",
+    "id": "mentorsDataScienceAnalytics"
+  },
+  {
+    "name": "Mentors: Business & Entrepreneurship",
+    "id": "mentorsBusinessEntrepreneurship"
+  },
+  {
+    "name": "Mentors: Finance & Investments",
+    "id": "mentorsFinanceInvestments"
+  },
+  {
+    "name": "Job Page",
+    "id": "job-page"
+  },
+  {
+    "name": "Article Topic: AI",
+    "id": "articleTopicAi"
+  },
+  {
+    "name": "Article Topic: IT",
+    "id": "articleTopicIt"
+  },
+  {
+    "name": "Article Topic: Entrepreneurship",
+    "id": "articleTopicEntrepreneurship"
+  },
+  {
+    "name": "Article Topic: Human Skills",
+    "id": "articleTopicHumanSkills"
+  },
+  {
+    "name": "Article Topic: Business",
+    "id": "articleTopicBusiness"
+  },
+  {
+    "name": "Article Topic: HR",
+    "id": "articleTopicHr"
+  },
+  {
+    "name": "Article Topic: Sports Analytics",
+    "id": "articleTopicSportsAnalytics"
+  },
+  {
+    "name": "Article Category: Interviews",
+    "id": "articleCategoryInterviews"
+  },
+  {
+    "name": "Article Category: Testimonial",
+    "id": "articleCategoryTestimonial"
+  },
+  {
+    "name": "Article Category: Learning Tips",
+    "id": "articleCategoryLearningTips"
+  },
+  {
+    "name": "Mentors: Founders",
+    "id": "mentorsFounders"
+  },
+  {
+    "name": "Mentors: Careers",
+    "id": "mentorsCareers"
+  },
+  {
+    "name": "Mentors: IT",
+    "id": "mentorsIt"
+  },
+  {
+    "name": "Mentors: HR",
+    "id": "mentorsHr"
+  },
+  {
+    "name": "Mentors: Finance",
+    "id": "mentorsFinance"
+  },
+  {
+    "name": "Course Category: Finance",
+    "id": "courseCategoryFinance"
+  },
+  {
+    "name": "Course Category: Data Science",
+    "id": "courseCategoryDataScience"
+  },
+  {
+    "name": "Course Category: HR",
+    "id": "courseCategoryHr"
+  },
+  {
+    "name": "Course Category: IT",
+    "id": "courseCategoryIt"
+  },
+  {
+    "name": "Course Category: Digital Marketing",
+    "id": "courseCategoryDigitalMarketing"
+  },
+  {
+    "name": "in_progress",
+    "id": "inProgress"
+  }
+]

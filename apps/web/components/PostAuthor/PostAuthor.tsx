@@ -7,7 +7,7 @@ import styles from "./PostAuthor.module.scss";
 
 export default function PostAuthor() {
   const { page } = useContentful();
-  const { peopleDetails, resourceDetails } = usePageResolver(page);
+  const { peopleDetails, tags } = usePageResolver(page);
 
   return (
     <aside className={styles.root}>
@@ -21,16 +21,18 @@ export default function PostAuthor() {
           />
         </div>
       </div>
-      <div className={styles.topicsContainer}>
-        <Text size="small">Related Topics</Text>
-        <div className={styles.topics}>
-          {resourceDetails.topics?.map((topic) => (
-            <Button key={topic} size="xsmall" isInverted={true}>
-              {topic}
-            </Button>
-          ))}
+      {tags.length > 0 && (
+        <div className={styles.topicsContainer}>
+          <Text size="small">Related Topics</Text>
+          <div className={styles.topics}>
+            {tags.map((tag) => (
+              <Button key={tag.id} size="xsmall" isInverted={true}>
+                {tag.name}
+              </Button>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </aside>
   );
 }

@@ -3,7 +3,6 @@ import ReadingTime from "@/components/ReadingTime";
 import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
-import { DateTime } from "luxon";
 import Image from "next/image";
 import styles from "./WideArticleCard.module.scss";
 
@@ -12,11 +11,16 @@ type PropsType = {
 };
 
 export default function WideArticleCard({ page }: PropsType) {
-  const { resourceDetails, peopleDetails, readingTime } = usePageResolver(page);
+  const { resourceDetails, peopleDetails, readingTime, tags } =
+    usePageResolver(page);
 
   if (!resourceDetails) {
     return null;
   }
+
+  const category = tags.find((tag) =>
+    tag?.id?.startsWith("articleCategory")
+  )?.name;
 
   return (
     <div className={styles.root}>
@@ -41,9 +45,11 @@ export default function WideArticleCard({ page }: PropsType) {
         </header>
 
         <footer className={styles.footer}>
-          <Text size="xsmall" className={styles.tag}>
-            {resourceDetails.topics?.at(0)}
-          </Text>
+          {category && (
+            <Text size="xsmall" className={styles.tag}>
+              {category}
+            </Text>
+          )}
 
           {peopleDetails.asset?.url && (
             <Person
@@ -52,11 +58,11 @@ export default function WideArticleCard({ page }: PropsType) {
             />
           )}
 
-          <Text size="caption">
+          {/* <Text size="caption">
             {DateTime.fromISO(resourceDetails.publicationDate).toFormat(
               "MMM dd, yyyy"
             )}
-          </Text>
+          </Text> */}
 
           <ReadingTime time={readingTime} />
         </footer>

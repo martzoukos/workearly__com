@@ -6,6 +6,7 @@ import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
+import { Course, WithContext } from "schema-dts";
 import styles from "./CoursePage.module.scss";
 
 type PropsType = {
@@ -14,10 +15,30 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { preDividerItems, postDividerItems } = usePageResolver(page);
+  const { courseDetails, preDividerItems, postDividerItems } =
+    usePageResolver(page);
+
+  let jsonLd: WithContext<Course> | undefined = undefined;
+
+  if (courseDetails) {
+    jsonLd = {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      name: courseDetails.h1Title || "",
+      image: courseDetails.videoThumbnail?.url || "",
+      description: courseDetails.summary || "",
+      courseCode: courseDetails.id || "",
+    };
+  }
 
   return (
     <main className={clsx(styles.root, className)}>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
           <Breadcrumbs

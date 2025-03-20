@@ -6,6 +6,7 @@
   --z-purchase-course-banner: 1000;
   --z-header-menu: 1001;
   --z-drawer: 1002;
+  --z-select: 1002;
 
   @each $name, $color in $colors {
     --color-#{$name}: #{$color};

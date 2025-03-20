@@ -28,13 +28,16 @@ export default async function handler(
           lastname: surname,
           phone: mobile,
           message,
-          reference: pageName,
         },
       });
 
-    res.status(200).json(createContactResponse);
+    return res.status(200).json(createContactResponse);
   } catch (error) {
+    if ((error as any).code === 409) {
+      return res.status(200).json({ message: "Contact already exists" });
+    }
+
     console.error(JSON.stringify(error));
-    res.status(500).json(error);
+    return res.status(500).json(error);
   }
 }

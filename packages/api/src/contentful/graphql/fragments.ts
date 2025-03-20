@@ -101,13 +101,9 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     duration
     language
     pace
-    level
     style
-    courseCount
     programStarts
     applicationDeadline
-    studentsCount
-    userReviews
     startingCost
     finalCost
     timeLeft
@@ -157,7 +153,6 @@ export const RESOURCE_DETAILS_FIELDS = graphql(`
     ...EntryFields
     name
     description
-    topics
     publicationDate
     asset {
       ...AssetFields
