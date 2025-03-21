@@ -41,7 +41,7 @@ export default function PersonCover({ className }: PropsType) {
           </Text>
 
           <div className={styles.cardContent}>
-            {peopleDetails.asset?.url && (
+            {peopleDetails.asset?.url && peopleDetails.variant === "Mentor" && (
               <div className={styles.cardMedia}>
                 <Image
                   src={peopleDetails.asset.url}
@@ -51,6 +51,17 @@ export default function PersonCover({ className }: PropsType) {
                 />
               </div>
             )}
+            {peopleDetails.asset?.url &&
+              peopleDetails.variant === "Certificate" && (
+                <div className={styles.certificateMedia}>
+                  <Image
+                    src={peopleDetails.asset.url}
+                    alt={peopleDetails.asset.title || peopleDetails.name || ""}
+                    width={peopleDetails.asset.width || 0}
+                    height={peopleDetails.asset.height || 0}
+                  />
+                </div>
+              )}
 
             {Boolean(tags.length) && (
               <div className={styles.tagsContainer}>
