@@ -9,7 +9,6 @@ import {
 } from "@workearly/api";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
-import { useRouter } from "next/router";
 
 export default function Page({
   page,
@@ -17,7 +16,6 @@ export default function Page({
   header,
   relationshipMap,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  const router = useRouter();
   const canonicalUrl = `https://workearly.gr/${page.slug}`;
   const noIndex = page.features?.includes("No Index");
 
@@ -38,7 +36,6 @@ export default function Page({
           title: page.seoTitle || "",
           description: page.seoDescription || "",
           url: canonicalUrl,
-          locale: router.locale,
           images: page.seoImage
             ? [
                 {
