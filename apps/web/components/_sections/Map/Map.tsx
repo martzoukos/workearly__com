@@ -3,6 +3,7 @@ import Shell from "@/components/Shell";
 import Text from "@/components/Text";
 import { isDefined, QueryItem } from "@workearly/api";
 import styles from "./Map.module.scss";
+import useSectionResolver from "@/hooks/useSectionResolver";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -12,7 +13,8 @@ type PropsType = {
 export default function Map({ section, className }: PropsType) {
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const asset = assets.at(0);
-  const icons = assets.slice(1);
+  const { getReferences } = useSectionResolver(section);
+  const icons = getReferences("Card");
 
   return (
     <Shell.Section section={section} className={className}>
@@ -31,18 +33,22 @@ export default function Map({ section, className }: PropsType) {
 }
 
 type AssetCardPropsType = {
-  icon: QueryItem["Asset"];
+  icon: QueryItem["Card"];
 };
 
 function AssetCard({ icon }: AssetCardPropsType) {
   return (
     <div className={styles.icon}>
-      {icon.url && (
-        <Media asset={icon} aspectRatio="1:1" className={styles.iconMedia} />
+      {icon?.asset?.url && (
+        <Media
+          asset={icon.asset}
+          aspectRatio="1:1"
+          className={styles.iconMedia}
+        />
       )}
       <div>
         <Text className={styles.iconTitle}>{icon.title}</Text>
-        <Text size="caption">{icon.description}</Text>
+        <Text size="caption">{icon.text}</Text>
       </div>
     </div>
   );
