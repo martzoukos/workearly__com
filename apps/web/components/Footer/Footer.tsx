@@ -82,7 +82,7 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
                       key={link.link}
                       colorScheme="White"
                     >
-                      <a href={link.link} target="_blank" rel="noreferrer">
+                      <a href={link.link} rel="noreferrer">
                         {link?.title}
                       </a>
                     </Button>
@@ -104,7 +104,7 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
                       key={link.link}
                       colorScheme="White"
                     >
-                      <a href={link.link} target="_blank" rel="noreferrer">
+                      <a href={link.link} rel="noreferrer">
                         {link?.title}
                       </a>
                     </Button>
@@ -146,12 +146,7 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
             {json?.footer?.map((link) => {
               return (
                 <Button asChild key={link.link} colorScheme="White">
-                  <a
-                    href={link.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className={styles.link}
-                  >
+                  <a href={link.link} rel="noreferrer" className={styles.link}>
                     <Text>{link?.title}</Text>
                   </a>
                 </Button>
