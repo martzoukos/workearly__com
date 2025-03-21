@@ -6,7 +6,8 @@
   flex-direction: column;
   background-color: var(--color-sys-default);
   color: var(--color-ink-default);
-  border: 0.5rem solid var(--color-sys-default);
+  border: 1px solid var(--color-sys-border);
+  padding: 0.5rem;
   border-radius: 1rem;
 
   &:hover {

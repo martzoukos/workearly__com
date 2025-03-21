@@ -1,3 +1,4 @@
+import ArticleIndex from "@/components/_sections/ArticleIndex";
 import CardGrid from "@/components/_sections/CardGrid";
 import CardShowcase from "@/components/_sections/CardShowcase";
 import CardSlider from "@/components/_sections/CardSlider";
@@ -116,9 +117,9 @@ export default function SectionRenderer({ section, className }: PropsType) {
   } else if (variant === "Form") {
     return <Form section={section} className={className} />;
   } else if (variant === "Articles") {
-    return <CardGrid section={section} className={className} />;
+    return <ArticleIndex section={section} className={className} />;
   } else if (variant === "Articles (No Filters)") {
-    return <CardGrid section={section} className={className} />;
+    return <ArticleIndex section={section} className={className} hideFilters />;
   }
 
   return null;

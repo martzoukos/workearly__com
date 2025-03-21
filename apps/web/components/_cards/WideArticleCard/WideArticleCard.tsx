@@ -4,6 +4,7 @@ import Text from "@/components/Text";
 import usePageResolver from "@/hooks/usePageResolver";
 import { QueryItem } from "@workearly/api";
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./WideArticleCard.module.scss";
 
 type PropsType = {
@@ -23,19 +24,18 @@ export default function WideArticleCard({ page }: PropsType) {
   )?.name;
 
   return (
-    <div className={styles.root}>
+    <Link href={page.slug ?? "/"} className={styles.root}>
       {resourceDetails.asset?.url && (
-        <div className={styles.media}>
+        <div className={styles.mediaWrapper}>
           <Image
+            className={styles.media}
             src={resourceDetails.asset.url}
-            fill={true}
             alt={resourceDetails.name || ""}
-            quality={100}
-            sizes="30vw"
+            width={resourceDetails.asset.width || 0}
+            height={resourceDetails.asset.height || 0}
           />
         </div>
       )}
-
       <div className={styles.content}>
         <header className={styles.header}>
           {resourceDetails.name && <Text as="h3">{resourceDetails.name}</Text>}
@@ -67,6 +67,6 @@ export default function WideArticleCard({ page }: PropsType) {
           <ReadingTime time={readingTime} />
         </footer>
       </div>
-    </div>
+    </Link>
   );
 }
