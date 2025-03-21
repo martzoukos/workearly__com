@@ -4,8 +4,10 @@ import Header from "@/components/Header";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   fetchPageBySlug,
+  getPageSlug,
   getServerClient,
   PAGE_SLUGS_QUERY,
+  toPageSlugs,
 } from "@workearly/api";
 import { ThemeProvider } from "@workearly/theme";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
@@ -40,10 +42,10 @@ export default function Page({
 }
 
 export async function getStaticProps(
-  context: GetStaticPropsContext<{ courseSlug: string }>
+  context: GetStaticPropsContext<{ courseSlugs: string[] }>
 ) {
   const [client] = getServerClient();
-  const pageSlug = context.params?.courseSlug || "";
+  const pageSlug = getPageSlug(context.params?.courseSlugs);
 
   try {
     const { page, relationshipMap, footer, header } = await fetchPageBySlug(
@@ -82,7 +84,7 @@ export async function getStaticPaths() {
     .filter((x) => x?.slug)
     .map((item) => ({
       params: {
-        courseSlug: item?.slug,
+        courseSlugs: toPageSlugs(item?.slug || ""),
       },
     }));
 
