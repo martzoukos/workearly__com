@@ -6,6 +6,11 @@ export const LOCALES = [DEFAULT_LOCALE, "en"] as const;
 
 export const YES_NO_OPTIONS = ["Yes", "No"] as const;
 
+export const ALL_TAGS = CONTENTFUL_TAGS.map((tag) => ({
+  ...tag,
+  name: tag.name.split(":").at(1)?.trim(),
+})).filter(isDefined);
+
 export const COURSE_CATEGORIES = CONTENTFUL_TAGS.filter((tag) =>
   tag.id.startsWith("courseCategory")
 )

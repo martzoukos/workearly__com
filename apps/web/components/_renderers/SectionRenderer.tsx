@@ -115,6 +115,10 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <Map section={section} className={className} />;
   } else if (variant === "Form") {
     return <Form section={section} className={className} />;
+  } else if (variant === "Articles") {
+    return <CardGrid section={section} className={className} />;
+  } else if (variant === "Articles (No Filters)") {
+    return <CardGrid section={section} className={className} />;
   }
 
   return null;

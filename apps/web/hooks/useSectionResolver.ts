@@ -48,6 +48,8 @@ const DATA_MAP = {
     "Courses",
     "Courses (No Filters)",
     "Form",
+    "Articles",
+    "Articles (No Filters)",
   ],
 } as const;
 
@@ -58,7 +60,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     page,
   } = useContentful();
   const { theme: pageTheme } = usePageResolver(page);
-  const cardsCount = section.cardsCount ?? 1;
+  const cardsCount = section.cardsCount ?? 3;
   const variant = (section.variant ??
     "Default") as (typeof DATA_MAP.variants)[number];
   const layout = (section.layout ??
