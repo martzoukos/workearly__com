@@ -38,6 +38,10 @@ export default function Breadcrumbs({
     "--divider-char": `"${dividerChar}"`,
   } as React.CSSProperties;
 
+  if (page.slug === "404") {
+    return null;
+  }
+
   return (
     <nav className={clsx(styles.root, className)} style={style}>
       <ul>
