@@ -15,7 +15,7 @@
   gap: var(--gap);
   grid-template-columns: repeat(
     auto-fit,
-    minmax(min(var(--column-width) * 0.75, 100%), 1fr)
+    minmax(min(var(--column-width), 100%), 1fr)
   );
 
   // grid-template-columns: repeat(var(--column-count), 1fr);
