@@ -11,7 +11,8 @@
     "STRIPE_SECRET_KEY",
     "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY",
     "CONTENTFUL_SPACE_ID",
-    "CONTENTFUL_MANAGEMENT_TOKEN"
+    "CONTENTFUL_MANAGEMENT_TOKEN",
+    "SITE_URL"
   ],
   "globalDependencies": ["**/.env.*local", ".env"],
   "tasks": {

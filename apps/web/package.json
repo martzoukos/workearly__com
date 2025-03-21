@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next dev -p 3313",
     "build": "next build",
+    "postbuild": "next-sitemap",
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
   },
@@ -37,6 +38,7 @@
     "next": "^14.0.4",
     "next-query-params": "^5.1.0",
     "next-seo": "^6.6.0",
+    "next-sitemap": "^4.2.3",
     "nextjs-progressbar": "^0.0.16",
     "postcss": "^8.4.32",
     "postcss-functions": "^4.0.2",
