@@ -3,11 +3,12 @@ import Text from "@/components/Text";
 import clsx from "clsx";
 import { Control, Controller, FieldValues, Path } from "react-hook-form";
 import styles from "./FormPrimitives.module.scss";
+import { ReactNode } from "react";
 
 interface FormProps<T extends FieldValues> {
   control: Control<T>;
   name: Path<T>;
-  label: string;
+  label: ReactNode;
   className?: string;
   placeholder?: string;
 }

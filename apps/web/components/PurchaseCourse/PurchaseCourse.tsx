@@ -126,7 +126,7 @@ export default function PurchaseCourse({
 
         {!hideFooter && (
           <footer className={styles.footer}>
-            <Button asChild isFullWidth size="large">
+            <Button asChild isFullWidth size="medium">
               <Link
                 href={
                   courseDetails.applicationFormUrl || `/payment/${page.slug}`
@@ -142,7 +142,7 @@ export default function PurchaseCourse({
               <Button
                 variant="Outlined"
                 isFullWidth
-                size="large"
+                size="medium"
                 onClick={() => setShowMenu((prev) => !prev)}
               >
                 <Share size="24" /> {translate("CourseCardShare")}

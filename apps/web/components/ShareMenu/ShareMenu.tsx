@@ -2,8 +2,13 @@ import Text from "@/components/Text";
 import styles from "./ShareMenu.module.scss";
 import { Link, LogoFacebook, LogoLinkedin, LogoX } from "@carbon/icons-react";
 import { useState } from "react";
+import clsx from "clsx";
 
-export default function ShareMenu() {
+type PropsType = {
+  className?: string;
+};
+
+export default function ShareMenu({ className }: PropsType) {
   const [copied, setCopied] = useState(false);
 
   const shareOnFacebook = () => {
@@ -32,7 +37,7 @@ export default function ShareMenu() {
   };
 
   return (
-    <div className={styles.root}>
+    <div className={clsx(styles.root, className)}>
       <div className={styles.item} onClick={copyToClipboard}>
         <Link size={24} />
         <Text>{copied ? "Link Copied!" : "Copy Link"}</Text>

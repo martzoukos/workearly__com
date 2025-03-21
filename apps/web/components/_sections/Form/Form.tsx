@@ -9,6 +9,7 @@ import { useForm } from "react-hook-form";
 import * as Yup from "yup";
 import styles from "./Form.module.scss";
 import { Checkbox, Input, Textarea } from "./FormPrimitives";
+import Link from "next/link";
 
 type PropsType = {
   className?: string;
@@ -107,10 +108,18 @@ export default function Form({ section }: PropsType) {
         />
         <div className={styles.checkboxContainer}>
           <Checkbox
-            label="You agree with our Privacy Policy"
             name="agreePrivacy"
             control={control}
+            label={
+              <>
+                You agree with our{" "}
+                <Button variant="Underlined" asChild>
+                  <Link href="/data-policy">Privacy Policy</Link>
+                </Button>
+              </>
+            }
           />
+
           <Checkbox
             label="You agree that your data will be used for marketing purposes"
             name="agreeMarketing"
