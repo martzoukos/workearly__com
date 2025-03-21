@@ -25,7 +25,6 @@ export default function RichCard({ card, theme, className }: PropsType) {
 
       <div className={styles.content}>
         <div className={styles.richText}>
-          <Text size="h3">Unlock your full career potential</Text>
           {card.text && (
             <Markdown variant="Single Column Checkmark">{card.text}</Markdown>
           )}

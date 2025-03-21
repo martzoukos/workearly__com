@@ -1,6 +1,7 @@
 export type TranslationTextType =
   | "Apply"
   | "priceRange1"
+  | "Greek"
   | "priceRange2"
   | "Purchase"
   | "Personal"
@@ -32,4 +33,5 @@ export type TranslationTextType =
   | "CourseLearners"
   | "mentorship1"
   | "CourseCardPersonal"
-  | "duration3";
+  | "duration3"
+  | "English";
