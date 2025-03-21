@@ -1,3 +1,4 @@
+import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -26,9 +27,11 @@ export default function MenuCourseCard({ page }: PropsType) {
 
       <div className={styles.details}>
         {duration && <Text size="caption">{translate(duration)}</Text>}
-        <Text size="caption">
-          <UserFilled size={12} /> {translate("CourseLearners")} Students
-        </Text>
+        <StatLabel
+          icon={<UserFilled />}
+          label={translate("CourseLearners")}
+          className={styles.statLabel}
+        />
       </div>
     </Link>
   );
