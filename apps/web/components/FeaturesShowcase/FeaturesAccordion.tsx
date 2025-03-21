@@ -1,13 +1,13 @@
-import Media from "@/components/Media";
+import Shell from "@/components/Shell";
 import Text from "@/components/Text";
+import useShellResolver from "@/hooks/useShellResolver";
 import { ChevronDown } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
+import Image from "next/image";
 import { Accordion as RadixAccordion } from "radix-ui";
 import { useState } from "react";
 import styles from "./FeaturesAccordion.module.scss";
-import Shell from "@/components/Shell";
-import useShellResolver from "@/hooks/useShellResolver";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -58,7 +58,20 @@ export default function FeaturesAccordion({
                   </Text>
                   <Text size="h5">{card?.text}</Text>
                 </div>
-                {card?.asset && <Media asset={card.asset} height="12.5rem" />}
+                {card?.asset?.url && (
+                  <Image
+                    src={card.asset.url}
+                    alt={card.title || ""}
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      maxHeight: "24rem",
+                      objectFit: "contain",
+                    }}
+                    width={card.asset.width || 400}
+                    height={card.asset.height || 400}
+                  />
+                )}
               </div>
             </RadixAccordion.Content>
           </RadixAccordion.Item>

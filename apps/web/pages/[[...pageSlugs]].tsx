@@ -31,7 +31,7 @@ export default function Page({
       <NextSeo
         noindex={noIndex}
         nofollow={noIndex}
-        title={page.seoTitle || ""}
+        title={page.seoTitle || page.name || ""}
         description={page.seoDescription || ""}
         canonical={canonicalUrl}
         openGraph={{

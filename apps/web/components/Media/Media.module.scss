@@ -6,6 +6,15 @@
   position: relative;
   aspect-ratio: var(--aspect-ratio);
   height: var(--height);
+}
+
+.videoContainer {
+  video {
+    border-radius: 0.5rem;
+  }
+}
+
+.imageContainer {
   width: 100%;
 
   img {
@@ -14,13 +23,17 @@
     object-fit: cover;
     border-radius: 0.5rem;
   }
+}
 
-  video {
-    border-radius: 0.5rem;
-  }
-
+.svgContainer {
   svg {
     height: 100%;
     width: 100%;
   }
+}
+
+.lottieContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }

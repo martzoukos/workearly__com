@@ -1,14 +1,14 @@
 import FeaturesAccordion from "@/components/FeaturesShowcase/FeaturesAccordion";
-import Media from "@/components/Media";
+import Shell from "@/components/Shell";
 import Viewport from "@/components/Viewport";
+import useShellResolver from "@/hooks/useShellResolver";
 import { ArrowRight } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import clsx from "clsx";
+import Image from "next/image";
 import { useState } from "react";
 import Text from "../Text/Text";
 import styles from "./FeaturesShowcase.module.scss";
-import Shell from "@/components/Shell";
-import useShellResolver from "@/hooks/useShellResolver";
 
 type PropsType = {
   cards: QueryItem["Card"][];
@@ -56,11 +56,16 @@ export default function FeaturesShowcase({
               </Text>
               <Text size="h5">{activeCard?.text}</Text>
             </div>
-            {activeCard?.asset && (
-              <Media
-                asset={activeCard.asset}
-                height="24rem"
-                className={styles.contentMedia}
+            {activeCard?.asset?.url && (
+              <Image
+                src={activeCard.asset.url}
+                alt={activeCard.title || ""}
+                style={{
+                  width: "100%",
+                  height: "auto",
+                }}
+                width={activeCard.asset.width || 400}
+                height={activeCard.asset.height || 400}
               />
             )}
           </div>

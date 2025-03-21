@@ -1,4 +1,3 @@
-import Media from "@/components/Media";
 import StatCard from "@/components/StatCard";
 import StatLabel from "@/components/StatLabel";
 import Text from "@/components/Text";
@@ -7,6 +6,7 @@ import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
 import clsx from "clsx";
+import Image from "next/image";
 import styles from "./JobCover.module.scss";
 
 type PropsType = {
@@ -23,16 +23,19 @@ export default function JobCover({ className }: PropsType) {
 
   return (
     <section className={clsx(styles.root, className)}>
-      <Viewport showUntil="md">
-        <Media
-          asset={categoryOrJobDetails.asset}
-          imageProps={{
-            alt: categoryOrJobDetails.title || "",
-          }}
-          aspectRatio="auto"
-          className={styles.media}
-        />
-      </Viewport>
+      {categoryOrJobDetails.asset?.url && (
+        <Viewport showUntil="md">
+          <div className={styles.imageContainer}>
+            <Image
+              src={categoryOrJobDetails.asset.url}
+              alt={categoryOrJobDetails.title || ""}
+              fill
+              sizes="600px"
+            />
+          </div>
+        </Viewport>
+      )}
+
       <header className={styles.header}>
         <Text as="h1">{page.name}</Text>
         <Text>{categoryOrJobDetails?.summary}</Text>

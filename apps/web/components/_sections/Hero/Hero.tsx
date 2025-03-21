@@ -1,11 +1,12 @@
 import ActionButton from "@/components/ActionButton";
+import Media from "@/components/Media";
 import Shell from "@/components/Shell";
 import Text from "@/components/Text";
+import Viewport from "@/components/Viewport";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useShellResolver from "@/hooks/useShellResolver";
 import { isDefined, QueryItem } from "@workearly/api";
 import clsx from "clsx";
-import Image from "next/image";
 import styles from "./Hero.module.scss";
 
 type PropsType = {
@@ -19,7 +20,13 @@ export default function Hero({ section, className }: PropsType) {
   const actions = getReferences("Action");
 
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
-  const asset = assets.at(0);
+  const desktopAsset = assets.at(0);
+  const mobileAsset = assets.at(1) || desktopAsset;
+
+  const style = {
+    "--asset-width": section.metadata?.assetWidth ?? "30%",
+    "--min-height": section.metadata?.height ?? "480px",
+  } as React.CSSProperties;
 
   return (
     <Shell.Root className={clsx(styles.root, className)} {...shell}>
@@ -37,22 +44,16 @@ export default function Hero({ section, className }: PropsType) {
         )}
       </div>
 
-      {asset?.url && (
-        <div className={styles.media}>
-          <Image
-            src={asset.url}
-            alt={asset.title || section.title || ""}
-            style={{
-              width: "100%",
-              height: "auto",
-              objectFit: "contain",
-              objectPosition: "right bottom",
-              borderRadius: "1rem",
-            }}
-            width={672}
-            height={512}
-          />
-        </div>
+      {desktopAsset?.url && (
+        <Viewport showAfter="md">
+          <Media asset={desktopAsset} className={styles.media} style={style} />
+        </Viewport>
+      )}
+
+      {mobileAsset?.url && (
+        <Viewport showUntil="md">
+          <Media asset={mobileAsset} className={styles.media} style={style} />
+        </Viewport>
       )}
     </Shell.Root>
   );

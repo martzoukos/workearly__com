@@ -1,8 +1,8 @@
 import { graphql } from "./__generated__/gql";
 
 export const PAGE_SLUGS_QUERY = graphql(`
-  query PageSlugs($where: PageFilter, $limit: Int) {
-    pageCollection(where: $where, limit: $limit) {
+  query PageSlugs($where: PageFilter, $limit: Int, $skip: Int) {
+    pageCollection(where: $where, limit: $limit, skip: $skip) {
       items {
         slug
       }
@@ -11,8 +11,8 @@ export const PAGE_SLUGS_QUERY = graphql(`
 `);
 
 export const PAGE_COLLECTION_QUERY = graphql(`
-  query PageCollection($where: PageFilter, $limit: Int) {
-    pageCollection(where: $where, limit: $limit) {
+  query PageCollection($where: PageFilter, $limit: Int, $skip: Int) {
+    pageCollection(where: $where, limit: $limit, skip: $skip) {
       total
       skip
       limit

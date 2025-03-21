@@ -28,11 +28,3 @@
   align-items: center;
   margin-block-start: 1rem;
 }
-
-.svg {
-  height: 33rem;
-
-  @include media(md) {
-    height: unset;
-  }
-}

@@ -75,7 +75,8 @@
 }
 
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 15rem;
   background-color: var(--color-sys-surface);
   align-items: center;
   border-radius: 1rem;
@@ -85,12 +86,6 @@
 
 .contentText {
   padding-inline-start: fluid-rem(0rem, 3rem, ("md", "xxl"));
-}
-
-.contentMedia {
-  img {
-    object-fit: contain;
-  }
 }
 
 .title {

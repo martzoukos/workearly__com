@@ -321,12 +321,12 @@ export default function CourseIndex({ section, className }: PropsType) {
                 value={pageLimit.toString()}
                 onValueChange={(count) => setPageLimit(Number(count))}
               >
-                {Array.from({ length: 5 }, (_, i) => i).map((count) => (
+                {Array.from({ length: 3 }, (_, i) => i).map((count) => (
                   <Select.Item
                     key={count}
-                    value={(count * 3 + MIN_PAGE_LIMIT).toString()}
+                    value={(count * 15 + MIN_PAGE_LIMIT).toString()}
                   >
-                    {count * 3 + MIN_PAGE_LIMIT}
+                    {count * 15 + MIN_PAGE_LIMIT}
                   </Select.Item>
                 ))}
               </Select>

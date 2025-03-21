@@ -16,8 +16,8 @@
     }
 
     .media {
-      align-self: unset;
-      justify-self: unset;
+      min-height: unset;
+      width: unset;
     }
   }
 }
@@ -37,6 +37,6 @@
 }
 
 .media {
-  align-self: flex-end;
-  justify-self: flex-end;
+  min-height: var(--min-height);
+  width: var(--asset-width);
 }
