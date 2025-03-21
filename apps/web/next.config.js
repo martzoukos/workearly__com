@@ -67,6 +67,11 @@ const nextConfig = {
       includePaths: ["./node_modules"],
     },
   },
+  i18n: {
+    locales: ["en", "el"],
+    defaultLocale: "el",
+    localeDetection: false,
+  },
 };
 
 export default nextConfig;
