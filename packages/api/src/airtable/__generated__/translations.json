@@ -56,7 +56,7 @@
   },
   {
     "code": "afterContactDescription",
-    "el": "We’ve received your message and appreciate you getting in touch with us. Our team will review your inquiry and respond as soon as possible.",
+    "el": "Λάβαμε το μήνυμά σας και σας ευχαριστούμε που ήρθατε σε επαφή μαζί μας. Η ομάδα μας θα εξετάσει το αίτημά σας και θα σας απαντήσει το συντομότερο δυνατό.",
     "en": "We’ve received your message and appreciate you getting in touch with us. Our team will review your inquiry and respond as soon as possible."
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "code": "afterContactTitle",
-    "el": "Thank You for Reaching Out!",
+    "el": "Ευχαριστούμε για την επικοινωνία!",
     "en": "Thank You for Reaching Out!"
   },
   {
@@ -116,7 +116,7 @@
   },
   {
     "code": "afterContactText",
-    "el": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses).",
+    "el": "Μέχρι τότε, ρίξτε μια ματιά στα νέα μας [προγράμματα εκπαίδευσης](https://www.workearly.gr/courses).",
     "en": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses)."
   },
   {

@@ -20,7 +20,43 @@ export default async function handler(
       return res.status(400).json({ error: "Missing required fields" });
     }
 
-    const createContactResponse =
+    const formSubmissionResponse = await fetch(
+      `https://api.hsforms.com/submissions/v3/integration/submit/26637090/5fa1e491-f301-4c10-b809-57cacc762f14`,
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          fields: [
+            {
+              name: "email",
+              value: email,
+            },
+            {
+              name: "firstname",
+              value: name,
+            },
+            {
+              name: "lastname",
+              value: surname,
+            },
+            {
+              name: "mobilephone",
+              value: mobile,
+            },
+            {
+              name: "message",
+              value: message,
+            },
+          ],
+        }),
+      }
+    );
+
+    const data = await formSubmissionResponse.json();
+
+    try {
       await hubspotClient.crm.contacts.basicApi.create({
         properties: {
           email,
@@ -30,13 +66,14 @@ export default async function handler(
           message,
         },
       });
-
-    return res.status(200).json(createContactResponse);
-  } catch (error) {
-    if ((error as any).code === 409) {
-      return res.status(200).json({ message: "Contact already exists" });
+    } catch (error) {
+      if ((error as any).code === 409) {
+        return res.status(200).json(data);
+      }
     }
 
+    return res.status(200).json(data);
+  } catch (error) {
     console.error(JSON.stringify(error));
     return res.status(500).json(error);
   }
