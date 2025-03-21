@@ -21,14 +21,7 @@ export default function JobPage({ className }: PropsType) {
     <main className={clsx(styles.root, className)}>
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
-          <Breadcrumbs
-            className={styles.breadcrumbs}
-            items={[
-              { name: "Home", href: "/" },
-              { name: "Career Path", href: "/career" },
-              { name: page.name || "" },
-            ]}
-          />
+          <Breadcrumbs className={styles.breadcrumbs} />
           <JobCover />
           {preDividerItems.map((item) => (
             <PageItem
