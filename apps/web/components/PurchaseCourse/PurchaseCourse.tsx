@@ -142,18 +142,13 @@ export default function PurchaseCourse({
               <Button
                 variant="Outlined"
                 isFullWidth
+                size="large"
                 onClick={() => setShowMenu((prev) => !prev)}
               >
-                <Share /> {translate("CourseCardShare")}
+                <Share size="24" /> {translate("CourseCardShare")}
               </Button>
               {showMenu && <ShareMenu />}
             </div>
-
-            <Button asChild variant="Outlined" isFullWidth>
-              <Link href="https://www.holy.gd/">
-                <Gift /> Gift this Course
-              </Link>
-            </Button>
           </footer>
         )}
       </div>
