@@ -44,10 +44,6 @@
     "to": "/courses"
   },
   {
-    "from": "/courses",
-    "to": "/courses"
-  },
-  {
     "from": "/summer-schools",
     "to": "/"
   },

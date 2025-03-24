@@ -467,6 +467,7 @@ export type ActionLinkingCollections = {
   compositeCollection?: Maybe<CompositeCollection>;
   entryCollection?: Maybe<EntryCollection>;
   menuCollection?: Maybe<MenuCollection>;
+  peopleDetailsCollection?: Maybe<PeopleDetailsCollection>;
   sectionCollection?: Maybe<SectionCollection>;
 };
 
@@ -492,6 +493,15 @@ export type ActionLinkingCollectionsMenuCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
   order?: InputMaybe<Array<InputMaybe<ActionLinkingCollectionsMenuCollectionOrder>>>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
+};
+
+
+export type ActionLinkingCollectionsPeopleDetailsCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<ActionLinkingCollectionsPeopleDetailsCollectionOrder>>>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
 };
@@ -545,6 +555,33 @@ export enum ActionLinkingCollectionsMenuCollectionOrder {
   SysPublishedAtDesc = 'sys_publishedAt_DESC',
   SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
   SysPublishedVersionDesc = 'sys_publishedVersion_DESC'
+}
+
+export enum ActionLinkingCollectionsPeopleDetailsCollectionOrder {
+  CompanyAsc = 'company_ASC',
+  CompanyDesc = 'company_DESC',
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  CourseCountAsc = 'courseCount_ASC',
+  CourseCountDesc = 'courseCount_DESC',
+  LinkedInAsc = 'linkedIn_ASC',
+  LinkedInDesc = 'linkedIn_DESC',
+  NameAsc = 'name_ASC',
+  NameDesc = 'name_DESC',
+  RoleAsc = 'role_ASC',
+  RoleDesc = 'role_DESC',
+  ShortDescriptionAsc = 'shortDescription_ASC',
+  ShortDescriptionDesc = 'shortDescription_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
 }
 
 export enum ActionLinkingCollectionsSectionCollectionOrder {
@@ -3086,8 +3123,10 @@ export type PeopleDetails = Entry & _Node & {
 export type PeopleDetailsActionsCollectionArgs = {
   limit?: InputMaybe<Scalars['Int']['input']>;
   locale?: InputMaybe<Scalars['String']['input']>;
+  order?: InputMaybe<Array<InputMaybe<PeopleDetailsActionsCollectionOrder>>>;
   preview?: InputMaybe<Scalars['Boolean']['input']>;
   skip?: InputMaybe<Scalars['Int']['input']>;
+  where?: InputMaybe<ActionFilter>;
 };
 
 
@@ -3165,11 +3204,36 @@ export type PeopleDetailsVariantArgs = {
 
 export type PeopleDetailsActionsCollection = {
   __typename?: 'PeopleDetailsActionsCollection';
-  items: Array<Maybe<Entry>>;
+  items: Array<Maybe<Action>>;
   limit: Scalars['Int']['output'];
   skip: Scalars['Int']['output'];
   total: Scalars['Int']['output'];
 };
+
+export enum PeopleDetailsActionsCollectionOrder {
+  BehaviourAsc = 'behaviour_ASC',
+  BehaviourDesc = 'behaviour_DESC',
+  ColorSchemeAsc = 'colorScheme_ASC',
+  ColorSchemeDesc = 'colorScheme_DESC',
+  ContentfulNameAsc = 'contentfulName_ASC',
+  ContentfulNameDesc = 'contentfulName_DESC',
+  ExternalAsc = 'external_ASC',
+  ExternalDesc = 'external_DESC',
+  IconPlacementAsc = 'iconPlacement_ASC',
+  IconPlacementDesc = 'iconPlacement_DESC',
+  NameAsc = 'name_ASC',
+  NameDesc = 'name_DESC',
+  SysFirstPublishedAtAsc = 'sys_firstPublishedAt_ASC',
+  SysFirstPublishedAtDesc = 'sys_firstPublishedAt_DESC',
+  SysIdAsc = 'sys_id_ASC',
+  SysIdDesc = 'sys_id_DESC',
+  SysPublishedAtAsc = 'sys_publishedAt_ASC',
+  SysPublishedAtDesc = 'sys_publishedAt_DESC',
+  SysPublishedVersionAsc = 'sys_publishedVersion_ASC',
+  SysPublishedVersionDesc = 'sys_publishedVersion_DESC',
+  VariantAsc = 'variant_ASC',
+  VariantDesc = 'variant_DESC'
+}
 
 export type PeopleDetailsCollection = {
   __typename?: 'PeopleDetailsCollection';
@@ -3182,6 +3246,7 @@ export type PeopleDetailsCollection = {
 export type PeopleDetailsFilter = {
   AND?: InputMaybe<Array<InputMaybe<PeopleDetailsFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<PeopleDetailsFilter>>>;
+  actions?: InputMaybe<CfActionNestedFilter>;
   actionsCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
   company?: InputMaybe<Scalars['String']['input']>;
@@ -4706,7 +4771,7 @@ export type CourseDetailsFieldsFragment = { __typename?: 'CourseDetails', h1Titl
 
 export type CategoryOrJobDetailsFieldsFragment = { __typename?: 'CategoryOrJobDetails', title?: string | null, summary?: string | null, shortDescription?: string | null, studentsCount?: number | null, userReviews?: number | null, averageUsSalary?: string | null, averageEuSalary?: string | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
-export type PeopleDetailsFieldsFragment = { __typename?: 'PeopleDetails', name?: string | null, variant?: string | null, role?: string | null, company?: string | null, shortDescription?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, actionsCollection?: { __typename?: 'PeopleDetailsActionsCollection', items: Array<{ __typename?: 'AccordionCard', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Card', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'CategoryOrJobDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Composite', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'ContentTypeRichText', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'CourseDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Menu', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'PeopleDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'ResourceDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Section', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'UniqueComponent', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
+export type PeopleDetailsFieldsFragment = { __typename?: 'PeopleDetails', name?: string | null, variant?: string | null, role?: string | null, company?: string | null, shortDescription?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, actionsCollection?: { __typename?: 'PeopleDetailsActionsCollection', items: Array<{ __typename?: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
 export type ResourceDetailsFieldsFragment = { __typename?: 'ResourceDetails', name?: string | null, description?: string | null, publicationDate?: any | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } };
 
@@ -4760,7 +4825,7 @@ export type PeopleDetailsCollectionQueryVariables = Exact<{
 }>;
 
 
-export type PeopleDetailsCollectionQuery = { __typename?: 'Query', peopleDetailsCollection?: { __typename?: 'PeopleDetailsCollection', items: Array<{ __typename?: 'PeopleDetails', name?: string | null, variant?: string | null, role?: string | null, company?: string | null, shortDescription?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, actionsCollection?: { __typename?: 'PeopleDetailsActionsCollection', items: Array<{ __typename?: 'AccordionCard', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Card', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'CategoryOrJobDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Composite', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'ContentTypeRichText', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'CourseDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Menu', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Page', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'PeopleDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'ResourceDetails', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'Section', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | { __typename?: 'UniqueComponent', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null };
+export type PeopleDetailsCollectionQuery = { __typename?: 'Query', peopleDetailsCollection?: { __typename?: 'PeopleDetailsCollection', items: Array<{ __typename?: 'PeopleDetails', name?: string | null, variant?: string | null, role?: string | null, company?: string | null, shortDescription?: string | null, expertise?: Array<string | null> | null, linkedIn?: string | null, text?: { __typename?: 'PeopleDetailsText', json: any } | null, asset?: { __typename?: 'Asset', url?: string | null, width?: number | null, height?: number | null, title?: string | null, description?: string | null, contentType?: string | null, sys: { __typename?: 'Sys', id: string } } | null, actionsCollection?: { __typename?: 'PeopleDetailsActionsCollection', items: Array<{ __typename?: 'Action', sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null, sys: { __typename?: 'Sys', id: string }, contentfulMetadata: { __typename?: 'ContentfulMetadata', tags: Array<{ __typename?: 'ContentfulTag', id?: string | null, name?: string | null } | null> } } | null> } | null };
 
 export type ResourceDetailsCollectionQueryVariables = Exact<{
   where?: InputMaybe<ResourceDetailsFilter>;

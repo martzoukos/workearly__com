@@ -4,12 +4,13 @@ import { Drawer } from "@/components/Drawer";
 import FilterList from "@/components/FilterList";
 import Select from "@/components/Select";
 import Text from "@/components/Text";
-import Viewport, { useViewport } from "@/components/Viewport";
+import Viewport from "@/components/Viewport";
 import {
   DATA_MAP,
   getCourseDetailsResolver,
 } from "@/hooks/useCourseDetailsResolver";
 import usePageResolver, { getPageResolver } from "@/hooks/usePageResolver";
+import usePagination, { MIN_PAGE_LIMIT } from "@/hooks/usePagination";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
@@ -21,10 +22,8 @@ import {
   YES_NO_OPTIONS,
 } from "@workearly/api";
 import clsx from "clsx";
-import { useEffect } from "react";
 import {
   DelimitedArrayParam,
-  NumberParam,
   StringParam,
   useQueryParam,
   withDefault,
@@ -36,21 +35,27 @@ type PropsType = {
   className?: string;
 };
 
-const MIN_PAGE_LIMIT = 15;
-
 export default function CourseIndex({ section, className }: PropsType) {
   const { translate } = useTranslate();
   const { getReferences } = useSectionResolver(section);
   const { page, relationshipMap } = useContentful();
   const { variant } = usePageResolver(page);
-  const [pageLimit, setPageLimit] = useQueryParam(
-    "pageLimit",
-    withDefault(NumberParam, MIN_PAGE_LIMIT)
+  let filteredPages = getReferences("Page").filter((page) =>
+    page.contentCollection?.items.some(
+      (item) => item?.__typename === "CourseDetails"
+    )
   );
-  const [pageIndex, setPageIndex] = useQueryParam(
-    "pageIndex",
-    withDefault(NumberParam, 1)
-  );
+  const {
+    getCurrentPageItems,
+    pageCount,
+    pageIndex,
+    pageLimit,
+    setPageIndex,
+    setPageLimit,
+  } = usePagination({
+    pages: filteredPages,
+  });
+
   const [categories, setCategories] = useQueryParam(
     "category",
     withDefault(DelimitedArrayParam, [])
@@ -66,23 +71,6 @@ export default function CourseIndex({ section, className }: PropsType) {
   const [mentoring, setMentoring] = useQueryParam(
     "mentoring",
     withDefault(StringParam, "")
-  );
-  const isUntilMd = useViewport({ showUntil: "md" });
-
-  useEffect(() => {
-    if (isUntilMd) {
-      setPageLimit(4);
-      setPageIndex(1);
-    } else {
-      setPageLimit(MIN_PAGE_LIMIT);
-      setPageIndex(1);
-    }
-  }, [isUntilMd, setPageIndex, setPageLimit]);
-
-  let filteredPages = getReferences("Page").filter((page) =>
-    page.contentCollection?.items.some(
-      (item) => item?.__typename === "CourseDetails"
-    )
   );
 
   if (categories.length) {
@@ -139,15 +127,6 @@ export default function CourseIndex({ section, className }: PropsType) {
 
       return !mentorship;
     });
-  }
-
-  const pageCount = Math.ceil(filteredPages.length / pageLimit);
-
-  function getCurrentPageItems() {
-    const startIndex = (pageIndex - 1) * pageLimit;
-    const endIndex = startIndex + pageLimit;
-
-    return filteredPages.slice(startIndex, endIndex);
   }
 
   const hasFilters = [categories, durations, priceRanges, [mentoring]]

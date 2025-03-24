@@ -1,5 +1,49 @@
 [
   {
+    "name": "Certificate Level: Diploma",
+    "id": "certificateLevelDiploma"
+  },
+  {
+    "name": "Certificate Level: Certificate",
+    "id": "certificateLevelCertificate"
+  },
+  {
+    "name": "Certificate Level: Micro-credentials",
+    "id": "certificateLevelMicroCredentials"
+  },
+  {
+    "name": "Certificate Category: Digital Marketing",
+    "id": "certificateCategoryDigitalMarketing"
+  },
+  {
+    "name": "Certificate Category: IT",
+    "id": "certificateCategoryIt"
+  },
+  {
+    "name": "Certificate Category: HR",
+    "id": "certificateCategoryHr"
+  },
+  {
+    "name": "Certificate Category: Data Science",
+    "id": "certificateCategoryDataScience"
+  },
+  {
+    "name": "Certificate Category: Finance",
+    "id": "certificateCategoryFinance"
+  },
+  {
+    "name": "Certificate Category: Business",
+    "id": "certificateCategoryBusiness"
+  },
+  {
+    "name": "Certificate Category: Sports",
+    "id": "certificateCategorySports"
+  },
+  {
+    "name": "Certificate Category: AI",
+    "id": "certificateCategoryAi"
+  },
+  {
     "name": "Article Category: General",
     "id": "articleCategoryGeneral"
   },
