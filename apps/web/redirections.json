@@ -1,0 +1,298 @@
+[
+  {
+    "from": "/sxetika-me-emas",
+    "to": "/about"
+  },
+  {
+    "from": "/dimitris-kyriakatis",
+    "to": "/about"
+  },
+  {
+    "from": "/efthymios-vafeiadis",
+    "to": "/about"
+  },
+  {
+    "from": "/gen-z-career-navigator",
+    "to": "/"
+  },
+  {
+    "from": "/free-session-foitites",
+    "to": "/"
+  },
+  {
+    "from": "/workearly-gnorimia",
+    "to": "/reskilling"
+  },
+  {
+    "from": "/training-programs",
+    "to": "/courses?pageIndex=1"
+  },
+  {
+    "from": "/offers",
+    "to": "/"
+  },
+  {
+    "from": "/aksiologisi-profil",
+    "to": "/reskilling"
+  },
+  {
+    "from": "/pay-smarter-with-klarna",
+    "to": "/"
+  },
+  {
+    "from": "/remote-schools",
+    "to": "/courses"
+  },
+  {
+    "from": "/courses",
+    "to": "/courses"
+  },
+  {
+    "from": "/summer-schools",
+    "to": "/"
+  },
+  {
+    "from": "/ai-business-management-school",
+    "to": "/course/ai-business-school"
+  },
+  {
+    "from": "/hr-micro-credentials-humanvue",
+    "to": "/category/human-resources"
+  },
+  {
+    "from": "/xmas-gift-card",
+    "to": "/"
+  },
+  {
+    "from": "/mundial-2022",
+    "to": "/category/sports-analytics"
+  },
+  {
+    "from": "/champions-league-final",
+    "to": "/category/sports-analytics"
+  },
+  {
+    "from": "/voucher-offer",
+    "to": "/"
+  },
+  {
+    "from": "/refer-a-friend",
+    "to": "/"
+  },
+  {
+    "from": "/micro-credentials",
+    "to": "/certificates"
+  },
+  {
+    "from": "/data-science-training",
+    "to": "/category/data-science"
+  },
+  {
+    "from": "/sports-analytics-data-science-for-sports",
+    "to": "/course/data-science-with-sports"
+  },
+  {
+    "from": "/hr-training",
+    "to": "/category/human-resources"
+  },
+  {
+    "from": "/it-recruitment-school",
+    "to": "/course/it-tech-recruitment"
+  },
+  {
+    "from": "/healthcare-it-training",
+    "to": "/course/healthcare-analytics-school"
+  },
+  {
+    "from": "/digital-marketing-analytics-training",
+    "to": "/category/digital-marketing"
+  },
+  {
+    "from": "/finance-and-fintech-training",
+    "to": "/course/fintech-data-science-for-finance-bootcamp"
+  },
+  {
+    "from": "/business-management-training",
+    "to": "/course/leadership-and-management-school"
+  },
+  {
+    "from": "/it-and-software-engineering",
+    "to": "/category/it"
+  },
+  {
+    "from": "/kapodistrias-nikolaos-workearly-interviews",
+    "to": "/blog"
+  },
+  {
+    "from": "/korifaia-stelexi-hr",
+    "to": "/blog"
+  },
+  {
+    "from": "/gerasimos-marketos-workearly-interviews",
+    "to": "/blog"
+  },
+  {
+    "from": "/careers",
+    "to": "/blog"
+  },
+  {
+    "from": "/lamda-demo",
+    "to": "/"
+  },
+  {
+    "from": "/working-mothers-upskilling",
+    "to": "/"
+  },
+  {
+    "from": "/healthcare-data-analysis",
+    "to": "/course/healthcare-analytics-school"
+  },
+  {
+    "from": "/hr-generalist",
+    "to": "/reskilling/hr-generalist"
+  },
+  {
+    "from": "/hr-payroll",
+    "to": "/category/human-resources"
+  },
+  {
+    "from": "/upskilling-for-managers",
+    "to": "/course/leadership-and-management-school"
+  },
+  {
+    "from": "/data-science-summer-school",
+    "to": "/"
+  },
+  {
+    "from": "/data-science-school",
+    "to": "/course/data-analyst-bootcamp"
+  },
+  {
+    "from": "/hr-school",
+    "to": "/course/hr-school-for-beginners"
+  },
+  {
+    "from": "/healthcare-data-science-school",
+    "to": "/course/healthcare-analytics-school"
+  },
+  {
+    "from": "/fintech-data-science-school",
+    "to": "/course/fintech-data-science-for-finance-bootcamp"
+  },
+  {
+    "from": "/remote-training",
+    "to": "/reskilling"
+  },
+  {
+    "from": "/virtual-work-experience",
+    "to": "/"
+  },
+  {
+    "from": "/business-school",
+    "to": "/course/ai-business-school"
+  },
+  {
+    "from": "/data-analyst-bootcamp-2022-greece",
+    "to": "/course/data-analyst-bootcamp"
+  },
+  {
+    "from": "/data-analytics-finance",
+    "to": "/course/fintech-data-science-for-finance-bootcamp"
+  },
+  {
+    "from": "/hr-analytics",
+    "to": "/course/hr-analytics"
+  },
+  {
+    "from": "/python-developer-certified-training",
+    "to": "/course/python-web-development-bootcamp"
+  },
+  {
+    "from": "/front-end-developer-certification",
+    "to": "/course/programming-school-for-beginners"
+  },
+  {
+    "from": "/python-courses",
+    "to": "/course/python-web-development-bootcamp"
+  },
+  {
+    "from": "/business-analytics-intelligence",
+    "to": "/course/business-intelligence-bi-analyst"
+  },
+  {
+    "from": "/analytics-sql-python",
+    "to": "/course/data-analytics-with-sql-and-python"
+  },
+  {
+    "from": "/digital-marketing-analytics-school",
+    "to": "/category/digital-marketing"
+  },
+  {
+    "from": "/qa-automation-software-testing-school",
+    "to": "/course/ai-software-testing-qa"
+  },
+  {
+    "from": "/the-school-of-programming",
+    "to": "/course/programming-school-for-beginners"
+  },
+  {
+    "from": "/hr-recruiter",
+    "to": "/course/talent-acquisition"
+  },
+  {
+    "from": "/it-engineering-remote-school",
+    "to": "/category/it"
+  },
+  {
+    "from": "/employee-loyalty",
+    "to": "/business"
+  },
+  {
+    "from": "/e-learning",
+    "to": "/"
+  },
+  {
+    "from": "/gine-data-analyst",
+    "to": "/course/data-analyst-bootcamp"
+  },
+  {
+    "from": "/gine-software-developer",
+    "to": "/category/it"
+  },
+  {
+    "from": "/online-coaching",
+    "to": "/"
+  },
+  {
+    "from": "/workearly-reviews",
+    "to": "/testimonials"
+  },
+  {
+    "from": "/aitisi-hr-training",
+    "to": "/category/human-resources"
+  },
+  {
+    "from": "/methodologia-workearly",
+    "to": "/about"
+  },
+  {
+    "from": "/oroi-xrisis",
+    "to": "/terms"
+  },
+  {
+    "from": "/oroi-xrisis-kai-pliromis",
+    "to": "/terms"
+  },
+  {
+    "from": "/privacy-policy",
+    "to": "/data-policy"
+  },
+  {
+    "from": "/blog",
+    "to": "/blog"
+  },
+  {
+    "from": "/faqs",
+    "to": "/about"
+  }
+]

@@ -1,7 +1,15 @@
 import path from "path";
+import redirections from "./redirections.json";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  async redirects() {
+    return redirections.map(({ from, to }) => ({
+      source: from,
+      destination: to,
+      permanent: true,
+    }));
+  },
   async headers() {
     return [
       {
