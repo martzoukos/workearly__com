@@ -1,13 +1,17 @@
+import fs from "fs";
 import path from "path";
-import redirections from "./redirections.json";
+import process from "process";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async redirects() {
+    const redirectionsPath = path.join(process.cwd(), "redirections.json");
+    const redirections = JSON.parse(fs.readFileSync(redirectionsPath, "utf8"));
+
     return redirections.map(({ from, to }) => ({
       source: from,
       destination: to,
-      permanent: true,
+      permanent: true, // Set to false for temporary redirects
     }));
   },
   async headers() {
