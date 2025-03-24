@@ -2,6 +2,7 @@ import ArticleIndex from "@/components/_sections/ArticleIndex";
 import CardGrid from "@/components/_sections/CardGrid";
 import CardShowcase from "@/components/_sections/CardShowcase";
 import CardSlider from "@/components/_sections/CardSlider";
+import CertificateIndex from "@/components/_sections/CertificateIndex";
 import CourseIndex from "@/components/_sections/CourseIndex";
 import Form from "@/components/_sections/Form";
 import Hero from "@/components/_sections/Hero";
@@ -126,6 +127,14 @@ export default function SectionRenderer({ section, className }: PropsType) {
   } else if (variant === "Articles") {
     return (
       <ArticleIndex
+        section={section}
+        hideFilters={noFilters}
+        className={className}
+      />
+    );
+  } else if (variant === "Certificates") {
+    return (
+      <CertificateIndex
         section={section}
         hideFilters={noFilters}
         className={className}

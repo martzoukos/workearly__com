@@ -2,7 +2,7 @@ import ActionButton from "@/components/ActionButton";
 import Media from "@/components/Media";
 import Shell from "@/components/Shell";
 import Text from "@/components/Text";
-import Viewport from "@/components/Viewport";
+import { useViewport } from "@/components/Viewport";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useShellResolver from "@/hooks/useShellResolver";
 import { isDefined, QueryItem } from "@workearly/api";
@@ -18,6 +18,7 @@ export default function Hero({ section, className }: PropsType) {
   const { getReferences, titleSize } = useSectionResolver(section);
   const shell = useShellResolver(section);
   const actions = getReferences("Action");
+  const isUntilMd = useViewport({ showUntil: "md" });
 
   const assets = section.assetsCollection?.items.filter(isDefined) || [];
   const desktopAsset = assets.at(0);
@@ -44,16 +45,12 @@ export default function Hero({ section, className }: PropsType) {
         )}
       </div>
 
-      {desktopAsset?.url && (
-        <Viewport showAfter="md">
-          <Media asset={desktopAsset} className={styles.media} style={style} />
-        </Viewport>
+      {desktopAsset?.url && !isUntilMd && (
+        <Media asset={desktopAsset} className={styles.media} style={style} />
       )}
 
-      {mobileAsset?.url && (
-        <Viewport showUntil="md">
-          <Media asset={mobileAsset} className={styles.media} style={style} />
-        </Viewport>
+      {mobileAsset?.url && isUntilMd && (
+        <Media asset={mobileAsset} className={styles.media} style={style} />
       )}
     </Shell.Root>
   );

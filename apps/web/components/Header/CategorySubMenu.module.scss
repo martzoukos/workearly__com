@@ -3,6 +3,8 @@
   border-inline-start: 1px solid hsl(var(--color-black-500));
   display: flex;
   max-width: 40rem;
+  overflow-y: auto;
+  max-height: calc(100vh - var(--header-height));
 
   &[data-state-open="false"] {
     display: none;
@@ -21,9 +23,10 @@
   gap: 1.5rem;
   margin-block-start: 1.5rem;
 
-  & > div {
-    display: flex;
-    flex-direction: column;
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto repeat(var(--cards-count), 1fr);
     gap: 0.5rem;
   }
 }

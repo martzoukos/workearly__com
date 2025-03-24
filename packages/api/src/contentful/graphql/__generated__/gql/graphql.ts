@@ -3064,6 +3064,7 @@ export enum PageOrder {
 export type PeopleDetails = Entry & _Node & {
   __typename?: 'PeopleDetails';
   _id: Scalars['ID']['output'];
+  actionsCollection?: Maybe<PeopleDetailsActionsCollection>;
   asset?: Maybe<Asset>;
   company?: Maybe<Scalars['String']['output']>;
   contentfulMetadata: ContentfulMetadata;
@@ -3078,6 +3079,15 @@ export type PeopleDetails = Entry & _Node & {
   sys: Sys;
   text?: Maybe<PeopleDetailsText>;
   variant?: Maybe<Scalars['String']['output']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/peopleDetails) */
+export type PeopleDetailsActionsCollectionArgs = {
+  limit?: InputMaybe<Scalars['Int']['input']>;
+  locale?: InputMaybe<Scalars['String']['input']>;
+  preview?: InputMaybe<Scalars['Boolean']['input']>;
+  skip?: InputMaybe<Scalars['Int']['input']>;
 };
 
 
@@ -3153,6 +3163,14 @@ export type PeopleDetailsVariantArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
+export type PeopleDetailsActionsCollection = {
+  __typename?: 'PeopleDetailsActionsCollection';
+  items: Array<Maybe<Entry>>;
+  limit: Scalars['Int']['output'];
+  skip: Scalars['Int']['output'];
+  total: Scalars['Int']['output'];
+};
+
 export type PeopleDetailsCollection = {
   __typename?: 'PeopleDetailsCollection';
   items: Array<Maybe<PeopleDetails>>;
@@ -3164,6 +3182,7 @@ export type PeopleDetailsCollection = {
 export type PeopleDetailsFilter = {
   AND?: InputMaybe<Array<InputMaybe<PeopleDetailsFilter>>>;
   OR?: InputMaybe<Array<InputMaybe<PeopleDetailsFilter>>>;
+  actionsCollection_exists?: InputMaybe<Scalars['Boolean']['input']>;
   asset_exists?: InputMaybe<Scalars['Boolean']['input']>;
   company?: InputMaybe<Scalars['String']['input']>;
   company_contains?: InputMaybe<Scalars['String']['input']>;
