@@ -34,9 +34,9 @@ export default function MenuCertificateCard({ page }: PropsType) {
 
       <div>
         <Text>{page.name}</Text>
-        <Text size="caption">
+        {/* <Text size="caption">
           {peopleDetails.shortDescription?.substring(0, 48)}...
-        </Text>
+        </Text> */}
       </div>
     </Link>
   );

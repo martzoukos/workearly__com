@@ -17,21 +17,20 @@ export default function AltCertificateCard({ page, className }: PropsType) {
   return (
     <Link href={page.slug || "/"} className={clsx(styles.card, className)}>
       {peopleDetails?.asset?.url && (
-        <Image
-          src={peopleDetails.asset.url}
-          alt={peopleDetails.asset.title || peopleDetails.name || ""}
-          width={141}
-          height={100}
-          style={{
-            objectFit: "contain",
-          }}
-        />
+        <div className={styles.imageContainer}>
+          <Image
+            src={peopleDetails.asset.url}
+            alt={peopleDetails.asset.title || peopleDetails.name || ""}
+            width={192}
+            height={192}
+            style={{
+              objectFit: "contain",
+            }}
+          />
+        </div>
       )}
       <div className={styles.content}>
         {peopleDetails.name && <Text size="h6">{peopleDetails.name}</Text>}
-        {peopleDetails.shortDescription && (
-          <Text>{peopleDetails.shortDescription}</Text>
-        )}
       </div>
     </Link>
   );

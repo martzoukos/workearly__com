@@ -106,34 +106,40 @@ export default function CertificateIndex({
   );
 
   return (
-    <section className={clsx(styles.root, className)}>
-      <Viewport showAfter="md">
-        <aside className={styles.aside}>
-          <Text as="h6">{translate("Filters")}</Text>
-          {filtersElement}
-        </aside>
-      </Viewport>
+    <section
+      className={clsx(styles.root, hideFilters && styles.noFilters, className)}
+    >
+      {!hideFilters && (
+        <Viewport showAfter="md">
+          <aside className={styles.aside}>
+            <Text as="h6">{translate("Filters")}</Text>
+            {filtersElement}
+          </aside>
+        </Viewport>
+      )}
       <div className={styles.content}>
-        {(section.title || section.text) && (
+        {(section.title || section.text || !hideFilters) && (
           <header className={styles.header}>
             <div className={styles.titleContainer}>
               {section.title && <Text as="h2">{section.title}</Text>}
               {section.text && <Text>{section.text}</Text>}
             </div>
-            <Viewport showUntil="md">
-              <div className={styles.headerActions}>
-                <Drawer
-                  title={translate("Filters")}
-                  trigger={
-                    <Button variant="Outlined">
-                      <Filter />
-                    </Button>
-                  }
-                >
-                  <aside className={styles.aside}>{filtersElement}</aside>
-                </Drawer>
-              </div>
-            </Viewport>
+            {!hideFilters && (
+              <Viewport showUntil="md">
+                <div className={styles.headerActions}>
+                  <Drawer
+                    title={translate("Filters")}
+                    trigger={
+                      <Button variant="Outlined">
+                        <Filter />
+                      </Button>
+                    }
+                  >
+                    <aside className={styles.aside}>{filtersElement}</aside>
+                  </Drawer>
+                </div>
+              </Viewport>
+            )}
           </header>
         )}
         {hasFilters && !hideFilters && (

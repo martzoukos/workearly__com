@@ -11,6 +11,10 @@
   @include media(md) {
     grid-template-columns: 1fr;
   }
+
+  &.noFilters {
+    grid-template-columns: 1fr;
+  }
 }
 
 .grid {
