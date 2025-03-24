@@ -41,15 +41,12 @@ const DATA_MAP = {
     "Standard Component",
     "Standard Component Framed",
     "Map",
-    "Mentors",
-    "Mentors (No Filters)",
-    "Partners",
-    "Partners (No Filters)",
-    "Courses",
-    "Courses (No Filters)",
     "Form",
+    "Mentors",
+    "Partners",
+    "Courses",
     "Articles",
-    "Articles (No Filters)",
+    "Certificates",
   ],
 } as const;
 
@@ -115,6 +112,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   const tags = section.contentfulMetadata.tags
     .map((tag) => ({ ...tag, name: tag?.name?.split(":").at(0)?.trim() }))
     .filter(isDefined);
+  const noFilters = Boolean(section.features?.includes("No Filters"));
 
   return {
     cardsCount,
@@ -127,5 +125,6 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     cardTheme,
     tags,
     cardVariant,
+    noFilters,
   };
 }

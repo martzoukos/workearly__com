@@ -27,7 +27,8 @@ type PropsType = {
 };
 
 export default function SectionRenderer({ section, className }: PropsType) {
-  const { cardsCount, variant, getReferences } = useSectionResolver(section);
+  const { cardsCount, variant, getReferences, noFilters } =
+    useSectionResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
 
   if (variant === "Card Grid") {
@@ -101,25 +102,35 @@ export default function SectionRenderer({ section, className }: PropsType) {
   } else if (variant === "Hero With Background") {
     return <HeroBackground section={section} className={className} />;
   } else if (variant === "Mentors") {
-    return <PeopleIndex section={section} className={className} />;
-  } else if (variant === "Mentors (No Filters)") {
-    return <PeopleIndex section={section} hideFilters className={className} />;
+    return (
+      <PeopleIndex
+        section={section}
+        hideFilters={noFilters}
+        className={className}
+      />
+    );
   } else if (variant === "Partners") {
-    return <PeopleIndex section={section} className={className} />;
-  } else if (variant === "Partners (No Filters)") {
-    return <PeopleIndex section={section} hideFilters className={className} />;
+    return (
+      <PeopleIndex
+        section={section}
+        hideFilters={noFilters}
+        className={className}
+      />
+    );
   } else if (variant === "Courses") {
-    return <CourseIndex section={section} className={className} />;
-  } else if (variant === "Courses (No Filters)") {
     return <CourseIndex section={section} className={className} />;
   } else if (variant === "Map") {
     return <Map section={section} className={className} />;
   } else if (variant === "Form") {
     return <Form section={section} className={className} />;
   } else if (variant === "Articles") {
-    return <ArticleIndex section={section} className={className} />;
-  } else if (variant === "Articles (No Filters)") {
-    return <ArticleIndex section={section} className={className} hideFilters />;
+    return (
+      <ArticleIndex
+        section={section}
+        hideFilters={noFilters}
+        className={className}
+      />
+    );
   }
 
   return null;
