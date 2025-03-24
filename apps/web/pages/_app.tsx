@@ -4,6 +4,7 @@ import NextAdapterPages from "next-query-params/pages";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
+import Script from "next/script";
 import NextNProgress from "nextjs-progressbar";
 import { QueryParamProvider } from "use-query-params";
 
@@ -37,6 +38,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         height={3}
         showOnShallow={false}
         options={{ showSpinner: false }}
+      />
+      <Script
+        id="Cookiebot"
+        src="https://consent.cookiebot.com/uc.js"
+        data-cbid="1397552c-f526-4982-9897-b2dfe41acea7"
+        data-blockingmode="auto"
       />
       <Component {...pageProps} />
     </QueryParamProvider>
