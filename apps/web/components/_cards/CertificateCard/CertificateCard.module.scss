@@ -3,6 +3,8 @@
 
 .card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-sys-surface);
   color: var(--color-ink-default);
   padding: 1rem fluid-rem(0.75rem, 1rem);
@@ -19,6 +21,10 @@
 
   @include media(lg) {
     flex-direction: column;
+    align-items: unset;
+    img {
+      width: fit-content;
+    }
   }
 }
 

@@ -23,7 +23,7 @@ export default function CertificateCard({ page, className }: PropsType) {
           width={141}
           height={100}
           style={{
-            objectFit: "cover",
+            objectFit: "contain",
           }}
         />
       )}
