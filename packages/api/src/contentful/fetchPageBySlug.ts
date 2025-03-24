@@ -217,7 +217,12 @@ async function getPageRelationships(
   });
 
   const actionIds = extractPageDeepChildIds(
-    { pageCollection: [page], sectionCollection, cardCollection },
+    {
+      pageCollection: [page],
+      sectionCollection,
+      cardCollection,
+      peopleDetailsCollection,
+    },
     "Action"
   );
   const actionCollection = await fetchCollection(client, {
@@ -252,6 +257,7 @@ function extractPageDeepChildIds(
     cardCollection?: QueryItem["Card"][];
     uniqueComponentCollection?: QueryItem["UniqueComponent"][];
     contentTypeRichTextCollection?: QueryItem["ContentTypeRichText"][];
+    peopleDetailsCollection?: QueryItem["PeopleDetails"][];
   },
   contentTypeName: RelationshipMapTypeName
 ) {
@@ -297,6 +303,14 @@ function extractPageDeepChildIds(
       )
     ) || [];
 
+  const peopleDetailsChildIds =
+    entities.peopleDetailsCollection?.flatMap((details) =>
+      extractPeopleDetailsChildIds(
+        details,
+        contentTypeName as RelationshipMapTypeName
+      )
+    ) || [];
+
   return [
     ...new Set([
       ...pageChildIds,
@@ -305,6 +319,7 @@ function extractPageDeepChildIds(
       ...cardChildIds,
       ...contentTypeRichTextChildIds,
       ...uniqueComponentChildIds,
+      ...peopleDetailsChildIds,
     ]),
   ];
 }
@@ -432,4 +447,19 @@ function extractContentTypeRichTextChildIds(
       .filter(isDefined) || [];
 
   return [...blockIds, ...inlineIds];
+}
+
+function extractPeopleDetailsChildIds(
+  peopleDetails: QueryItem["PeopleDetails"],
+  contentTypeName: RelationshipMapTypeName
+) {
+  if (contentTypeName === "Action") {
+    return (
+      peopleDetails.actionsCollection?.items.map(
+        (item) => item?.sys.id as string
+      ) || []
+    );
+  }
+
+  return [];
 }

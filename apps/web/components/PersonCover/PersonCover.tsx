@@ -1,3 +1,4 @@
+import ActionButton from "@/components/ActionButton";
 import Button from "@/components/Button";
 import RichText from "@/components/RichText/RichText";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -17,7 +18,7 @@ type PropsType = {
 export default function PersonCover({ className }: PropsType) {
   const { page } = useContentful();
   const { peopleDetails, tags } = usePageResolver(page);
-  const { entityLabel, indexLabel, indexLink } =
+  const { entityLabel, indexLabel, indexLink, actions } =
     usePeopleDetailsResolver(peopleDetails);
 
   return (
@@ -102,6 +103,11 @@ export default function PersonCover({ className }: PropsType) {
                 </a>
               </Button>
             )}
+            <div className={styles.actions}>
+              {actions.map((action) => (
+                <ActionButton key={action.sys.id} action={action} />
+              ))}
+            </div>
           </div>
         </div>
 

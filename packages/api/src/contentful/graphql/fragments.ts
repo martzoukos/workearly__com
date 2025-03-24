@@ -143,6 +143,13 @@ export const PEOPLE_DETAILS_FIELDS = graphql(`
     asset {
       ...AssetFields
     }
+    actionsCollection {
+      items {
+        ... on Entry {
+          ...EntryFields
+        }
+      }
+    }
   }
 `);
 

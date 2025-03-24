@@ -123,3 +123,9 @@
   background: transparent;
   width: 100%;
 }
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
