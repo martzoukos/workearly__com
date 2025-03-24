@@ -2,7 +2,7 @@ import CourseCard from "@/components/_cards/CourseCard";
 import Button from "@/components/Button";
 import { Drawer } from "@/components/Drawer";
 import FilterList from "@/components/FilterList";
-import Select from "@/components/Select";
+import Pagination from "@/components/Pagination";
 import Text from "@/components/Text";
 import Viewport from "@/components/Viewport";
 import {
@@ -10,11 +10,11 @@ import {
   getCourseDetailsResolver,
 } from "@/hooks/useCourseDetailsResolver";
 import usePageResolver, { getPageResolver } from "@/hooks/usePageResolver";
-import usePagination, { MIN_PAGE_LIMIT } from "@/hooks/usePagination";
+import usePagination from "@/hooks/usePagination";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
-import { ChevronLeft, ChevronRight, Close, Filter } from "@carbon/icons-react";
+import { Close, Filter } from "@carbon/icons-react";
 import {
   COURSE_CATEGORIES,
   isDefined,
@@ -40,21 +40,8 @@ export default function CourseIndex({ section, className }: PropsType) {
   const { getReferences } = useSectionResolver(section);
   const { page, relationshipMap } = useContentful();
   const { variant } = usePageResolver(page);
-  let filteredPages = getReferences("Page").filter((page) =>
-    page.contentCollection?.items.some(
-      (item) => item?.__typename === "CourseDetails"
-    )
-  );
-  const {
-    getCurrentPageItems,
-    pageCount,
-    pageIndex,
-    pageLimit,
-    setPageIndex,
-    setPageLimit,
-  } = usePagination({
-    pages: filteredPages,
-  });
+
+  const pagination = usePagination();
 
   const [categories, setCategories] = useQueryParam(
     "category",
@@ -71,6 +58,12 @@ export default function CourseIndex({ section, className }: PropsType) {
   const [mentoring, setMentoring] = useQueryParam(
     "mentoring",
     withDefault(StringParam, "")
+  );
+
+  let filteredPages = getReferences("Page").filter((page) =>
+    page.contentCollection?.items.some(
+      (item) => item?.__typename === "CourseDetails"
+    )
   );
 
   if (categories.length) {
@@ -270,79 +263,16 @@ export default function CourseIndex({ section, className }: PropsType) {
           </div>
         )}
         <div className={styles.grid}>
-          {getCurrentPageItems().map((page) => (
+          {pagination.getCurrentPageItems(filteredPages).map((page) => (
             <CourseCard key={page.sys.id} page={page} />
           ))}
-          {getCurrentPageItems().length === 0 && (
+          {pagination.getCurrentPageItems(filteredPages).length === 0 && (
             <Text size="h3" className={styles.noResults}>
               No results found
             </Text>
           )}
         </div>
-        <Viewport showUntil="md">
-          <footer className={styles.footer}>
-            {pageIndex !== pageCount && (
-              <Button
-                isFullWidth
-                variant="Outlined"
-                onClick={() => setPageLimit(pageLimit + 4)}
-              >
-                Load More
-              </Button>
-            )}
-          </footer>
-        </Viewport>
-        <Viewport showAfter="md">
-          <footer className={styles.footer}>
-            <label className={styles.pageCount}>
-              Results per view
-              <Select
-                value={pageLimit.toString()}
-                onValueChange={(count) => setPageLimit(Number(count))}
-              >
-                {Array.from({ length: 3 }, (_, i) => i).map((count) => (
-                  <Select.Item
-                    key={count}
-                    value={(count * 15 + MIN_PAGE_LIMIT).toString()}
-                  >
-                    {count * 15 + MIN_PAGE_LIMIT}
-                  </Select.Item>
-                ))}
-              </Select>
-            </label>
-            <div className={styles.pagination}>
-              <Button
-                variant="Outlined"
-                onClick={() => setPageIndex(pageIndex - 1)}
-                disabled={pageIndex === 1}
-              >
-                <ChevronLeft />
-              </Button>
-              {Array.from({ length: pageCount }, (_, i) => i + 1).map(
-                (index) => (
-                  <Button
-                    key={index}
-                    variant="Solid"
-                    onClick={() => setPageIndex(index)}
-                    colorSchemes={{
-                      light: index === pageIndex ? "Green" : "Surface",
-                      dark: index === pageIndex ? "Green" : "Surface",
-                    }}
-                  >
-                    {index}
-                  </Button>
-                )
-              )}
-              <Button
-                variant="Outlined"
-                onClick={() => setPageIndex(pageIndex + 1)}
-                disabled={pageIndex === pageCount}
-              >
-                <ChevronRight />
-              </Button>
-            </div>
-          </footer>
-        </Viewport>
+        <Pagination pages={filteredPages} {...pagination} />
       </div>
     </section>
   );

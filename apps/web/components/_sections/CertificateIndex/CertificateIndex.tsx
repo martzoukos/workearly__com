@@ -1,115 +1,186 @@
-import WideArticleCard from "@/components/_cards/WideArticleCard";
-import PageCardRenderer from "@/components/_renderers/PageCardRenderer";
+import AltCertificateCard from "@/components/_cards/AltCertificateCard";
 import Button from "@/components/Button";
-import Select from "@/components/Select";
-import Shell from "@/components/Shell";
-import Viewport, { useViewport } from "@/components/Viewport";
-import useFilterTabs from "@/hooks/useFilterTabs";
+import { Drawer } from "@/components/Drawer";
+import FilterList from "@/components/FilterList";
+import Pagination from "@/components/Pagination";
+import Text from "@/components/Text";
+import Viewport from "@/components/Viewport";
+import { getPageResolver } from "@/hooks/usePageResolver";
+import usePagination from "@/hooks/usePagination";
 import useSectionResolver from "@/hooks/useSectionResolver";
-import { ALL_TAGS, QueryItem } from "@workearly/api";
+import useTranslate from "@/hooks/useTranslate";
+import { useContentful } from "@/stores/ContentfulStore";
+import { Close, Filter } from "@carbon/icons-react";
+import {
+  CERTIFICATE_CATEGORIES,
+  CERTIFICATE_LEVELS,
+  isDefined,
+  QueryItem,
+} from "@workearly/api";
 import clsx from "clsx";
-import { camelCase } from "lodash-es";
+import {
+  DelimitedArrayParam,
+  useQueryParam,
+  withDefault,
+} from "use-query-params";
 import styles from "./CertificateIndex.module.scss";
 
 type PropsType = {
   section: QueryItem["Section"];
-  className?: string;
   hideFilters?: boolean;
+  className?: string;
 };
 
 export default function CertificateIndex({
   section,
-  className,
   hideFilters,
+  className,
 }: PropsType) {
-  const isUntilMd = useViewport({ showUntil: "md" });
-  const { cardsCount, getReferences } = useSectionResolver(section);
-  const pages = getReferences("Page");
-  const style = {
-    "--column-count": cardsCount,
-  } as React.CSSProperties;
+  const { translate } = useTranslate();
+  const { getReferences } = useSectionResolver(section);
+  const { relationshipMap } = useContentful();
+  const pagination = usePagination();
 
-  const tabs = useFilterTabs(camelCase(section.title || "tags"));
+  const [categories, setCategories] = useQueryParam(
+    "category",
+    withDefault(DelimitedArrayParam, [])
+  );
+  const [levels, setLevels] = useQueryParam(
+    "level",
+    withDefault(DelimitedArrayParam, [])
+  );
 
-  const pageTagIds = [
-    ...new Set(
-      pages.flatMap((page) =>
-        page.contentfulMetadata.tags.map((tag) => tag?.id as string)
-      )
-    ),
-  ];
+  let filteredPages = getReferences("Page").filter((page) =>
+    page.contentCollection?.items.some(
+      (item) => item?.__typename === "PeopleDetails"
+    )
+  );
 
-  const FILTER_TAGS = [
-    { id: "all", name: "All" },
-    ...ALL_TAGS.filter((tag) => pageTagIds.includes(tag.id)),
-  ];
+  if (categories.length) {
+    filteredPages = filteredPages.filter((page) => {
+      const { tags } = getPageResolver(page, relationshipMap);
 
-  const filteredPages = pages.filter((page) => {
-    if (tabs.selected.includes("all")) return true;
-    return page.contentfulMetadata.tags.some((tag) =>
-      tabs.selected.includes(tag?.id as string)
-    );
-  });
+      return tags.some((tag) =>
+        categories.filter(isDefined).includes(tag.id as string)
+      );
+    });
+  }
 
-  const hasFilters = tabs.selected.filter((item) => item !== "all").length > 0;
-  const hasFeatured =
-    !hasFilters &&
-    !isUntilMd &&
-    section.features?.includes("First Post as Featured");
-  const featuredPost = filteredPages.at(0);
-  const restPosts = hasFeatured ? filteredPages.slice(1) : filteredPages;
+  if (levels.length) {
+    filteredPages = filteredPages.filter((page) => {
+      const { tags } = getPageResolver(page, relationshipMap);
+      return tags.some((tag) =>
+        levels.filter(isDefined).includes(tag.id as string)
+      );
+    });
+  }
+
+  const hasFilters = [categories, levels]
+    .map((group) => group.filter(isDefined))
+    .some((group) => group.length);
+
+  const filtersElement = (
+    <>
+      <FilterList
+        type="checkbox"
+        title={translate("Category")}
+        items={CERTIFICATE_CATEGORIES.map((category) => ({
+          title: category.name as string,
+          value: category.id as string,
+        }))}
+        selected={categories.filter(isDefined) as string[]}
+        onChange={setCategories}
+      />
+      <Divider />
+      <FilterList
+        type="checkbox"
+        title={translate("Level")}
+        items={CERTIFICATE_LEVELS.map((level) => ({
+          title: level.name as string,
+          value: level.id as string,
+        }))}
+        selected={levels.filter(isDefined) as string[]}
+        onChange={setLevels}
+      />
+    </>
+  );
 
   return (
-    <Shell.Section section={section} className={className}>
-      <div className={styles.root}>
-        {!hideFilters && (
-          <>
-            <Viewport showAfter="md">
-              <div className={styles.filterTabs}>
-                {FILTER_TAGS.map((tag) => (
-                  <Button
-                    key={tag.id}
-                    className={styles.filterButton}
-                    size="xsmall"
-                    variant={
-                      tabs.selected.includes(tag.id) ? "Solid" : "Outlined"
-                    }
-                    onClick={() => {
-                      const newCategories = tabs.onSelect(tag.id);
-                      tabs.setSelected(newCategories);
-                    }}
-                  >
-                    {tag.name}
-                  </Button>
-                ))}
+    <section className={clsx(styles.root, className)}>
+      <Viewport showAfter="md">
+        <aside className={styles.aside}>
+          <Text as="h6">{translate("Filters")}</Text>
+          {filtersElement}
+        </aside>
+      </Viewport>
+      <div className={styles.content}>
+        {(section.title || section.text) && (
+          <header className={styles.header}>
+            <div className={styles.titleContainer}>
+              {section.title && <Text as="h2">{section.title}</Text>}
+              {section.text && <Text>{section.text}</Text>}
+            </div>
+            <Viewport showUntil="md">
+              <div className={styles.headerActions}>
+                <Drawer
+                  title={translate("Filters")}
+                  trigger={
+                    <Button variant="Outlined">
+                      <Filter />
+                    </Button>
+                  }
+                >
+                  <aside className={styles.aside}>{filtersElement}</aside>
+                </Drawer>
               </div>
             </Viewport>
-            <Viewport showUntil="md">
-              <Select
-                className={styles.filterSelect}
-                value={tabs.selected.at(0) as string}
-                onValueChange={(value) => tabs.setSelected([value])}
-              >
-                {FILTER_TAGS.map((tag) => (
-                  <Select.Item key={tag.id} value={tag.id}>
-                    {tag.name}
-                  </Select.Item>
-                ))}
-              </Select>
-            </Viewport>
-          </>
+          </header>
         )}
-
-        {hasFeatured && featuredPost && <WideArticleCard page={featuredPost} />}
-        <div
-          className={clsx(styles.grid, hasFeatured && styles.hasFeatured)}
-          style={style}
-        >
-          {restPosts?.map((page) => (
-            <PageCardRenderer key={page.sys.id} page={page} />
+        {hasFilters && !hideFilters && (
+          <div className={styles.filters}>
+            {categories.map((category) => (
+              <Button
+                key={category}
+                isRounded
+                colorScheme="Surface"
+                onClick={() =>
+                  setCategories(categories.filter((c) => c !== category))
+                }
+              >
+                {
+                  CERTIFICATE_CATEGORIES.find((tag) => tag.id === category)
+                    ?.name
+                }{" "}
+                <Close />
+              </Button>
+            ))}
+            {levels.map((level) => (
+              <Button
+                key={level}
+                isRounded
+                colorScheme="Surface"
+                onClick={() => setLevels(levels.filter((c) => c !== level))}
+              >
+                {CERTIFICATE_LEVELS.find((tag) => tag.id === level)?.name}{" "}
+                <Close />
+              </Button>
+            ))}
+          </div>
+        )}
+        <div className={styles.grid}>
+          {pagination.getCurrentPageItems(filteredPages).map((page) => (
+            <AltCertificateCard key={page.sys.id} page={page} />
           ))}
+          {pagination.getCurrentPageItems(filteredPages).length === 0 && (
+            <Text size="h3" className={styles.noResults}>
+              No results found
+            </Text>
+          )}
         </div>
+        <Pagination pages={filteredPages} {...pagination} />
       </div>
-    </Shell.Section>
+    </section>
   );
 }
+
+const Divider = () => <hr className={styles.divider} />;

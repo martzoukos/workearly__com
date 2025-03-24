@@ -3,6 +3,7 @@ export type TranslationTextType =
   | "priceRange1"
   | "Greek"
   | "priceRange2"
+  | "Level"
   | "Purchase"
   | "Personal"
   | "mentorship2"

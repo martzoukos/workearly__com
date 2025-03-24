@@ -5,11 +5,7 @@ import { NumberParam, useQueryParam, withDefault } from "use-query-params";
 
 export const MIN_PAGE_LIMIT = 15;
 
-type PropsType = {
-  pages: QueryItem["Page"][];
-};
-
-export default function usePagination({ pages }: PropsType) {
+export default function usePagination() {
   const isUntilMd = useViewport({ showUntil: "md" });
 
   const [pageLimit, setPageLimit] = useQueryParam(
@@ -31,17 +27,14 @@ export default function usePagination({ pages }: PropsType) {
     }
   }, [isUntilMd, setPageIndex, setPageLimit]);
 
-  const pageCount = Math.ceil(pages.length / pageLimit);
-
-  function getCurrentPageItems() {
+  function getCurrentPageItems(filteredPages: QueryItem["Page"][]) {
     const startIndex = (pageIndex - 1) * pageLimit;
     const endIndex = startIndex + pageLimit;
 
-    return pages.slice(startIndex, endIndex);
+    return filteredPages.slice(startIndex, endIndex);
   }
 
   return {
-    pageCount,
     pageIndex,
     pageLimit,
     setPageIndex,

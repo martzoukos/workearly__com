@@ -1,0 +1,36 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-sys-surface);
+  color: var(--color-ink-default);
+  padding: 1rem fluid-rem(0.75rem, 1rem);
+  border-radius: 0.75rem;
+  gap: 1rem;
+
+  &:hover {
+    outline: 2px solid var(--color-sys-border-muted);
+  }
+
+  &:active {
+    outline-color: var(--color-sys-border);
+  }
+
+  @include media(lg) {
+    flex-direction: column;
+    align-items: unset;
+    img {
+      width: fit-content;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+}

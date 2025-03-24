@@ -20,6 +20,24 @@ export const COURSE_CATEGORIES = CONTENTFUL_TAGS.filter((tag) =>
   }))
   .filter(isDefined);
 
+export const CERTIFICATE_CATEGORIES = CONTENTFUL_TAGS.filter((tag) =>
+  tag.id.startsWith("certificateCategory")
+)
+  .map((tag) => ({
+    ...tag,
+    name: tag.name.split(":").at(1)?.trim(),
+  }))
+  .filter(isDefined);
+
+export const CERTIFICATE_LEVELS = CONTENTFUL_TAGS.filter((tag) =>
+  tag.id.startsWith("certificateLevel")
+)
+  .map((tag) => ({
+    ...tag,
+    name: tag.name.split(":").at(1)?.trim(),
+  }))
+  .filter(isDefined);
+
 export const ARTICLE_CATEGORIES = CONTENTFUL_TAGS.filter((tag) =>
   tag.id.startsWith("articleCategory")
 )
