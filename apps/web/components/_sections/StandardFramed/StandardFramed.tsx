@@ -37,7 +37,7 @@ export default function StandardFramed({ section, className }: PropsType) {
       )}
 
       <div className={styles.content}>
-        {section.supertitle && (
+        {section?.supertitle && (
           <Text size="caption" className={styles.supertitle}>
             {section.supertitle}
           </Text>

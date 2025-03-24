@@ -1,10 +1,15 @@
 .root {
   display: flex;
   gap: 0.5rem;
-  background: var(--color-sys-surface-3);
   border-radius: 1rem;
   padding: 0.5rem;
   min-height: 20rem;
+  background-color: hsl(var(--color-black-450));
+
+  &[data-theme="light"] {
+    background-color: hsl(var(--color-neutral-200));
+    color: hsl(var(--color-black-500));
+  }
 }
 
 .isReversed {
@@ -29,8 +34,11 @@
 
 .main {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   gap: 1.5rem;
+  margin-top: auto;
+  flex: 1;
 }
 
 .supertitle {
