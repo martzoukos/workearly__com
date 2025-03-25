@@ -284,10 +284,6 @@
     "to": "/data-policy"
   },
   {
-    "from": "/blog",
-    "to": "/blog"
-  },
-  {
     "from": "/faqs",
     "to": "/about"
   }
