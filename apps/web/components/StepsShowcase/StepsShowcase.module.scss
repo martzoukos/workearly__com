@@ -12,6 +12,18 @@
   padding: fluid-rem(1.5rem, 2.5rem) fluid-rem(0.75rem, 3rem);
   min-height: 36rem;
 
+  &[data-theme="light"] {
+    background-color: hsl(var(--color-black-500));
+    color: hsl(var(--color-black-100));
+    .number {
+      background-color: hsl(var(--color-neutral-500));
+      color: hsl(var(--color-black-500));
+    }
+    .border {
+      border-color: hsl(var(--color-neutral-500));
+    }
+  }
+
   @include media(md) {
     flex-direction: column;
 
@@ -68,8 +80,8 @@
 .number {
   width: 1.5rem;
   height: 1.5rem;
-  background-color: black;
-  color: white;
+  background-color: hsl(var(--color-black-500));
+  color: hsl(var(--color-neutral-500));
   border-radius: 50%;
   display: flex;
   align-items: center;
