@@ -49,6 +49,7 @@ export const ACTION_FIELDS = graphql(`
     ...EntryFields
     name
     features
+    dynamicActionType
     internal {
       slug
     }
@@ -287,6 +288,24 @@ export const PAGE_FIELDS = graphql(`
       items {
         ... on Entry {
           ...EntryFields
+        }
+      }
+    }
+    linkedFrom {
+      entryCollection(limit: 1) {
+        items {
+          ... on Section {
+            sys {
+              id
+            }
+            linkedFrom {
+              pageCollection(limit: 1) {
+                items {
+                  slug
+                }
+              }
+            }
+          }
         }
       }
     }
