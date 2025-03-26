@@ -82,9 +82,11 @@ export default function PostOutline() {
 
       <Viewport showAfter="md">
         <aside className={styles.root}>
-          <Text as="h6" className={styles.title}>
-            {resourceDetails.name}
-          </Text>
+          {resourceDetails?.name && (
+            <Text as="h6" className={styles.title}>
+              {resourceDetails.name}
+            </Text>
+          )}
           <ul className={styles.list}>
             {documentToReactComponents(headingsDoc, options)}
           </ul>

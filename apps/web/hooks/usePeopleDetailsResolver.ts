@@ -17,16 +17,16 @@ const DATA_MAP = {
 type VariantType = keyof typeof DATA_MAP.labels;
 
 export default function usePeopleDetailsResolver(
-  peopleDetails: QueryItem["PeopleDetails"]
+  peopleDetails: QueryItem["PeopleDetails"] | undefined
 ) {
   const { getReferences } = useContentful();
-  const variant = (peopleDetails.variant ?? "Mentor") as VariantType;
+  const variant = (peopleDetails?.variant ?? "Mentor") as VariantType;
   const indexLabel = DATA_MAP.labels[variant] ?? DATA_MAP.labels.Mentor;
   const indexLink = DATA_MAP.links[variant] ?? DATA_MAP.links.Mentor;
   const entityLabel = `Workearly ${variant}`;
   const actions = getReferences(
     "Action",
-    peopleDetails.actionsCollection?.items.map(
+    peopleDetails?.actionsCollection?.items.map(
       (item) => item?.sys.id as string
     ) ?? []
   );

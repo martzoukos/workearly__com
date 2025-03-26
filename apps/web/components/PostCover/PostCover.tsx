@@ -48,7 +48,7 @@ export default function PostCover() {
           </Text>
         </div>
         <div className={styles.publishingDetails}>
-          {peopleDetails.asset?.url && (
+          {peopleDetails?.asset?.url && (
             <Person
               imageUrl={peopleDetails.asset.url}
               name={peopleDetails.name || ""}

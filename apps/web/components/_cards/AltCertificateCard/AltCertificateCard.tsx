@@ -14,6 +14,10 @@ type PropsType = {
 export default function AltCertificateCard({ page, className }: PropsType) {
   const { peopleDetails } = usePageResolver(page);
 
+  if (!peopleDetails) {
+    return null;
+  }
+
   return (
     <Link href={page.slug || "/"} className={clsx(styles.card, className)}>
       {peopleDetails?.asset?.url && (

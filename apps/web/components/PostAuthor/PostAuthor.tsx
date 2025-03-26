@@ -9,6 +9,10 @@ export default function PostAuthor() {
   const { page } = useContentful();
   const { peopleDetails, tags } = usePageResolver(page);
 
+  if (!peopleDetails) {
+    return null;
+  }
+
   return (
     <aside className={styles.root}>
       <div className={styles.authorContainer}>

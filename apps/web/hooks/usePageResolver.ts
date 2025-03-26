@@ -92,16 +92,16 @@ export function getPageResolver(
 
   const courseDetails = items.find(
     (item) => item?.__typename === "CourseDetails"
-  ) as QueryItem["CourseDetails"];
+  ) as QueryItem["CourseDetails"] | undefined;
   const peopleDetails = items.find(
     (item) => item?.__typename === "PeopleDetails"
-  ) as QueryItem["PeopleDetails"];
+  ) as QueryItem["PeopleDetails"] | undefined;
   const resourceDetails = items.find(
     (item) => item?.__typename === "ResourceDetails"
-  ) as QueryItem["ResourceDetails"];
+  ) as QueryItem["ResourceDetails"] | undefined;
   const categoryOrJobDetails = items.find(
     (item) => item?.__typename === "CategoryOrJobDetails"
-  ) as QueryItem["CategoryOrJobDetails"];
+  ) as QueryItem["CategoryOrJobDetails"] | undefined;
 
   const richTexts = items.filter(
     (item) => item?.__typename === "ContentTypeRichText"
@@ -114,9 +114,9 @@ export function getPageResolver(
   function getHeadingsDoc() {
     const richText = preDividerItems
       .filter((x) => x?.__typename === "ContentTypeRichText")
-      .at(0) as QueryItem["ContentTypeRichText"];
+      .at(0) as QueryItem["ContentTypeRichText"] | undefined;
 
-    const headingsDoc = richText.body
+    const headingsDoc = richText?.body
       ? {
           ...(richText.body.json as Document),
           content: (richText.body.json as Document).content.filter((node) =>

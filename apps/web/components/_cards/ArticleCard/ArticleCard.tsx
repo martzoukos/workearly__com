@@ -52,7 +52,7 @@ export default function ArticleCard({ page }: PropsType) {
             </Text>
           )}
 
-          {peopleDetails.asset?.url && (
+          {peopleDetails?.asset?.url && (
             <Person
               imageUrl={peopleDetails.asset.url}
               name={peopleDetails.name || ""}

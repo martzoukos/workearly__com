@@ -21,6 +21,10 @@ export default function PersonCover({ className }: PropsType) {
   const { entityLabel, indexLabel, indexLink, actions } =
     usePeopleDetailsResolver(peopleDetails);
 
+  if (!peopleDetails) {
+    return null;
+  }
+
   return (
     <div className={clsx(styles.root, className)}>
       <Button

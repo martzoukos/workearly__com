@@ -34,6 +34,10 @@ export default function IntentForm({ onSuccess }: PropsType) {
 
   const onSubmit = async (data: SchemaType) => {
     try {
+      if (!courseDetails) {
+        throw new Error("Course details not found");
+      }
+
       const response = await fetch("/api/create-payment-intent", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
