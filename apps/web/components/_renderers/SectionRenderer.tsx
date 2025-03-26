@@ -69,17 +69,7 @@ export default function SectionRenderer({ section, className }: PropsType) {
       <LogoCarousel assets={assets} section={section} className={className} />
     );
   } else if (variant === "Steps Showcase") {
-    const cards = getReferences("Card");
-
-    return (
-      <StepsShowcase
-        cards={cards}
-        title={section.title || ""}
-        supertitle={section.supertitle || ""}
-        description={section.text || ""}
-        className={className}
-      />
-    );
+    return <StepsShowcase section={section} className={className} />;
   } else if (variant === "Features Showcase") {
     const cards = getReferences("Card");
     return (
