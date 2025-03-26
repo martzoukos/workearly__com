@@ -1,4 +1,5 @@
 export type TranslationTextType =
+  | "endingAfter"
   | "Apply"
   | "priceRange1"
   | "Greek"
@@ -10,6 +11,7 @@ export type TranslationTextType =
   | "Application Deadline"
   | "Category"
   | "Filters"
+  | "endingBefore"
   | "No"
   | "afterContactDescription"
   | "CourseCardShare"
@@ -20,6 +22,7 @@ export type TranslationTextType =
   | "CourseCardTeam"
   | "Language"
   | "PriceRange"
+  | "endingToday"
   | "Duration"
   | "afterContactTitle"
   | "Team"

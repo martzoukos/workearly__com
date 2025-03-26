@@ -1,5 +1,10 @@
 [
   {
+    "code": "endingAfter",
+    "el": "ημέρες απέμειναν",
+    "en": "dates left for this offer"
+  },
+  {
     "code": "Apply",
     "el": "Αίτηση Συμμετοχής",
     "en": "Apply"
@@ -55,6 +60,11 @@
     "en": "Filters"
   },
   {
+    "code": "endingBefore",
+    "el": "Μόνο",
+    "en": "Only"
+  },
+  {
     "code": "No",
     "el": "No",
     "en": "No"
@@ -103,6 +113,11 @@
     "code": "PriceRange",
     "el": "Τιμή",
     "en": "Price Range"
+  },
+  {
+    "code": "endingToday",
+    "el": "Η προσφορά ισχύει έως σήμερα",
+    "en": "Today is the last day for this offer"
   },
   {
     "code": "Duration",
