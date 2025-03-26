@@ -1,10 +1,11 @@
 import { Head, Html, Main, NextScript } from "next/document";
+import Script from "next/script";
 
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="stylesheet" href="https://use.typekit.net/xjn5wgp.css" />
+        <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="57x57"
@@ -115,6 +116,20 @@ export default function Document() {
       <body>
         <Main />
         <NextScript />
+        <Script
+          id="typekit"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function() {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = 'https://use.typekit.net/xjn5wgp.css';
+                document.head.appendChild(link);
+              })();
+            `,
+          }}
+        />
       </body>
     </Html>
   );

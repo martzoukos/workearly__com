@@ -12,7 +12,8 @@
     "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY",
     "CONTENTFUL_SPACE_ID",
     "CONTENTFUL_MANAGEMENT_TOKEN",
-    "SITE_URL"
+    "SITE_URL",
+    "ANALYZE"
   ],
   "globalDependencies": ["**/.env.*local", ".env"],
   "tasks": {

@@ -1,3 +1,4 @@
+import withBundleAnalyzer from "@next/bundle-analyzer";
 import fs from "fs";
 import path from "path";
 import process from "process";
@@ -84,6 +85,9 @@ const nextConfig = {
     defaultLocale: "el",
     localeDetection: false,
   },
+  reactStrictMode: true,
 };
 
-export default nextConfig;
+export default withBundleAnalyzer({ enabled: process.env.ANALYZE === "true" })(
+  nextConfig
+);

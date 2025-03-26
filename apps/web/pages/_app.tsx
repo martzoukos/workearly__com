@@ -1,4 +1,3 @@
-import "@/styles/fonts.scss";
 import "@/styles/global.scss";
 import NextAdapterPages from "next-query-params/pages";
 import { DefaultSeo } from "next-seo";

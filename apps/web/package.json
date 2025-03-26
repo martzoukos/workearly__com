@@ -61,6 +61,7 @@
     "yup": "^1.6.1"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^15.2.4",
     "typescript-plugin-css-modules": "^5.1.0"
   }
 }
