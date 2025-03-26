@@ -36,7 +36,9 @@ export default function StepsShowcase({ section, className }: PropsType) {
 
       <div className={styles.cardsContainer}>
         {cards.map((card, index) => {
-          return <StepsCard card={card} cardNumber={index + 1} />;
+          return (
+            <StepsCard key={card.sys.id} card={card} cardNumber={index + 1} />
+          );
         })}
       </div>
     </Shell.Root>
