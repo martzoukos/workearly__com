@@ -3,17 +3,18 @@ import CoursePrices from "@/components/CoursePrices";
 import ShareMenu from "@/components/ShareMenu";
 import Text from "@/components/Text";
 import Viewport from "@/components/Viewport";
+import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
-import { Gift, Share, Time } from "@carbon/icons-react";
+import { Share, Time } from "@carbon/icons-react";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
-import Image from "next/image";
 
 interface PropsType {
   className?: string;
@@ -35,6 +36,7 @@ export default function PurchaseCourse({
   );
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
+  const { timeLeft } = useCourseDetailsResolver(courseDetails);
   const { translate } = useTranslate();
   const { isIntersecting, ref } = useIntersectionObserver({
     threshold: 0.5,
@@ -111,10 +113,12 @@ export default function PurchaseCourse({
             )}
           </Text>
 
-          <div className={styles.timeLeft}>
-            <Time />
-            <Text size="caption">{courseDetails?.timeLeft}</Text>
-          </div>
+          {timeLeft && (
+            <div className={styles.timeLeft}>
+              <Time />
+              <Text size="caption">{timeLeft}</Text>
+            </div>
+          )}
 
           {courseDetails && (
             <CoursePrices

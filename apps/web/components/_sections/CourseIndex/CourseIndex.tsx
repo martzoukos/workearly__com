@@ -7,9 +7,13 @@ import Text from "@/components/Text";
 import Viewport from "@/components/Viewport";
 import {
   DATA_MAP,
-  getCourseDetailsResolver,
+  getCourseDuration,
+  getCourseMentorship,
 } from "@/hooks/useCourseDetailsResolver";
-import usePageResolver, { getPageResolver } from "@/hooks/usePageResolver";
+import usePageResolver, {
+  getPageResolver,
+  getPageTags,
+} from "@/hooks/usePageResolver";
 import usePagination from "@/hooks/usePagination";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useTranslate from "@/hooks/useTranslate";
@@ -68,7 +72,8 @@ export default function CourseIndex({ section, className }: PropsType) {
 
   if (categories.length) {
     filteredPages = filteredPages.filter((page) => {
-      const { tags } = getPageResolver(page, relationshipMap);
+      const tags = getPageTags(page);
+
       return tags.some((tag) =>
         categories.filter(isDefined).includes(tag.id as string)
       );
@@ -78,7 +83,7 @@ export default function CourseIndex({ section, className }: PropsType) {
   if (durations.length) {
     filteredPages = filteredPages.filter((page) => {
       const { courseDetails } = getPageResolver(page, relationshipMap);
-      const { duration } = getCourseDetailsResolver(courseDetails);
+      const duration = getCourseDuration(courseDetails);
 
       if (!duration) {
         return false;
@@ -112,7 +117,7 @@ export default function CourseIndex({ section, className }: PropsType) {
   if (mentoring) {
     filteredPages = filteredPages.filter((page) => {
       const { courseDetails } = getPageResolver(page, relationshipMap);
-      const { mentorship } = getCourseDetailsResolver(courseDetails);
+      const mentorship = getCourseMentorship(courseDetails);
 
       if (mentoring === "Yes") {
         return Boolean(mentorship);

@@ -13,29 +13,21 @@ import { ThemeProvider } from "@workearly/theme";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
-export default function Page({
-  page,
-  footer,
-  header,
-  relationshipMap,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Page(
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) {
   return (
-    <ContentfulProvider
-      page={page}
-      relationshipMap={relationshipMap}
-      footer={footer}
-      header={header}
-    >
+    <ContentfulProvider {...props}>
       <NextSeo
         nofollow
         noindex
-        title={page.seoTitle || ""}
-        description={page.seoDescription || ""}
+        title={props.page.seoTitle || ""}
+        description={props.page.seoDescription || ""}
       />
       <ThemeProvider theme="light">
-        {header && <Header uniqueComponent={header} />}
+        {props.header && <Header uniqueComponent={props.header} />}
         <PaymentPage />
-        {footer && <Footer uniqueComponent={footer} />}
+        {props.footer && <Footer uniqueComponent={props.footer} />}
       </ThemeProvider>
     </ContentfulProvider>
   );
@@ -48,18 +40,10 @@ export async function getStaticProps(
   const pageSlug = getPageSlug(context.params?.courseSlugs);
 
   try {
-    const { page, relationshipMap, footer, header } = await fetchPageBySlug(
-      client,
-      pageSlug
-    );
+    const props = await fetchPageBySlug(client, pageSlug);
 
     return {
-      props: {
-        page,
-        header,
-        relationshipMap,
-        footer,
-      },
+      props,
     };
   } catch (error) {
     console.error(error);

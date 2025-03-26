@@ -10,39 +10,31 @@ import {
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
-export default function Page({
-  page,
-  footer,
-  header,
-  relationshipMap,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
-  const canonicalUrl = `https://workearly.gr/${page.slug}`;
-  const noIndex = page.features?.includes("No Index");
+export default function Page(
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) {
+  const canonicalUrl = `https://workearly.gr/${props.page.slug}`;
+  const noIndex = props.page.features?.includes("No Index");
 
   return (
-    <ContentfulProvider
-      page={page}
-      relationshipMap={relationshipMap}
-      footer={footer}
-      header={header}
-    >
+    <ContentfulProvider {...props}>
       <NextSeo
         noindex={noIndex}
         nofollow={noIndex}
-        title={page.seoTitle || page.name || ""}
-        description={page.seoDescription || ""}
+        title={props.page.seoTitle || props.page.name || ""}
+        description={props.page.seoDescription || ""}
         canonical={canonicalUrl}
         openGraph={{
-          title: page.seoTitle || "",
-          description: page.seoDescription || "",
+          title: props.page.seoTitle || "",
+          description: props.page.seoDescription || "",
           url: canonicalUrl,
-          images: page.seoImage
+          images: props.page.seoImage
             ? [
                 {
-                  url: page.seoImage.url || "",
-                  width: page.seoImage.width || 1024,
-                  height: page.seoImage.height || 1024,
-                  alt: page.seoImage.description || "",
+                  url: props.page.seoImage.url || "",
+                  width: props.page.seoImage.width || 1024,
+                  height: props.page.seoImage.height || 1024,
+                  alt: props.page.seoImage.description || "",
                 },
               ]
             : [],
@@ -60,18 +52,10 @@ export async function getStaticProps(
   const pageSlug = getPageSlug(context.params?.pageSlugs);
 
   try {
-    const { page, relationshipMap, footer, header } = await fetchPageBySlug(
-      client,
-      pageSlug
-    );
+    const props = await fetchPageBySlug(client, pageSlug);
 
     return {
-      props: {
-        page,
-        footer,
-        header,
-        relationshipMap,
-      },
+      props,
     };
   } catch (error) {
     console.error(error);

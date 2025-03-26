@@ -5,11 +5,10 @@ import FilterList from "@/components/FilterList";
 import Pagination from "@/components/Pagination";
 import Text from "@/components/Text";
 import Viewport from "@/components/Viewport";
-import { getPageResolver } from "@/hooks/usePageResolver";
+import { getPageTags } from "@/hooks/usePageResolver";
 import usePagination from "@/hooks/usePagination";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useTranslate from "@/hooks/useTranslate";
-import { useContentful } from "@/stores/ContentfulStore";
 import { Close, Filter } from "@carbon/icons-react";
 import {
   CERTIFICATE_CATEGORIES,
@@ -38,7 +37,6 @@ export default function CertificateIndex({
 }: PropsType) {
   const { translate } = useTranslate();
   const { getReferences } = useSectionResolver(section);
-  const { relationshipMap } = useContentful();
   const pagination = usePagination();
 
   const [categories, setCategories] = useQueryParam(
@@ -58,7 +56,7 @@ export default function CertificateIndex({
 
   if (categories.length) {
     filteredPages = filteredPages.filter((page) => {
-      const { tags } = getPageResolver(page, relationshipMap);
+      const tags = getPageTags(page);
 
       return tags.some((tag) =>
         categories.filter(isDefined).includes(tag.id as string)
@@ -68,7 +66,8 @@ export default function CertificateIndex({
 
   if (levels.length) {
     filteredPages = filteredPages.filter((page) => {
-      const { tags } = getPageResolver(page, relationshipMap);
+      const tags = getPageTags(page);
+
       return tags.some((tag) =>
         levels.filter(isDefined).includes(tag.id as string)
       );

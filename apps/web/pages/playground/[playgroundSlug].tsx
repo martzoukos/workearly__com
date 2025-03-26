@@ -8,19 +8,11 @@ import {
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
-export default function Page({
-  page,
-  relationshipMap,
-  footer,
-  header,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Page(
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) {
   return (
-    <ContentfulProvider
-      page={page}
-      relationshipMap={relationshipMap}
-      footer={footer}
-      header={header}
-    >
+    <ContentfulProvider {...props}>
       <NextSeo nofollow noindex />
       <PageRenderer />
     </ContentfulProvider>
@@ -34,18 +26,10 @@ export async function getStaticProps(
   const pageSlug = context.params?.playgroundSlug || "";
 
   try {
-    const { page, relationshipMap, footer, header } = await fetchPageBySlug(
-      client,
-      pageSlug
-    );
+    const props = await fetchPageBySlug(client, pageSlug);
 
     return {
-      props: {
-        page,
-        header,
-        relationshipMap,
-        footer,
-      },
+      props,
     };
   } catch (error) {
     console.error(error);

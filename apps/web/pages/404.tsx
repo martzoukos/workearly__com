@@ -4,22 +4,14 @@ import { fetchPageBySlug, getServerClient } from "@workearly/api";
 import { InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
-export default function Page({
-  footer,
-  header,
-  page,
-  relationshipMap,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Page(
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) {
   return (
-    <ContentfulProvider
-      page={page}
-      relationshipMap={relationshipMap}
-      footer={footer}
-      header={header}
-    >
+    <ContentfulProvider {...props}>
       <NextSeo
-        title={page.seoTitle || page.name || ""}
-        description={page.seoDescription || ""}
+        title={props.page.seoTitle || props.page.name || ""}
+        description={props.page.seoDescription || ""}
       />
       <PageRenderer />
     </ContentfulProvider>
@@ -30,18 +22,10 @@ export async function getStaticProps() {
   const [client] = getServerClient();
 
   try {
-    const { page, relationshipMap, footer, header } = await fetchPageBySlug(
-      client,
-      "404"
-    );
+    const props = await fetchPageBySlug(client, "404");
 
     return {
-      props: {
-        page,
-        footer,
-        header,
-        relationshipMap,
-      },
+      props,
     };
   } catch (error) {
     console.error(error);

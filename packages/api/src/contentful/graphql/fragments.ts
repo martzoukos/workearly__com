@@ -105,7 +105,6 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     applicationDeadline
     startingCost
     finalCost
-    timeLeft
     videoThumbnail {
       ...AssetFields
     }

@@ -130,9 +130,7 @@ export function getPageResolver(
 
   const variant = page.variant as PageVariantType;
   const theme = page.theme?.toLowerCase() as ThemeType;
-  const tags = page.contentfulMetadata.tags
-    .map((tag) => ({ ...tag, name: tag?.name?.split(":").at(1)?.trim() }))
-    .filter(isDefined);
+  const tags = getPageTags(page);
 
   return {
     courseDetails,
@@ -148,4 +146,10 @@ export function getPageResolver(
     theme,
     tags,
   };
+}
+
+export function getPageTags(page: QueryItem["Page"]) {
+  return page.contentfulMetadata.tags
+    .map((tag) => ({ ...tag, name: tag?.name?.split(":").at(1)?.trim() }))
+    .filter(isDefined);
 }

@@ -1,5 +1,6 @@
 import { Client } from "@urql/core";
 import { uniqBy } from "lodash";
+import fetchEndDates from "../airtable/fetchEndDates";
 import {
   CardReferenceTypeName,
   CompositeReferenceTypeName,
@@ -37,6 +38,7 @@ type FuncReturnType = {
   footer: QueryItem["UniqueComponent"];
   header: QueryItem["UniqueComponent"];
   relationshipMap: RelationshipMap;
+  endDates: Array<{ name: string; date: string }>;
 };
 
 export default async function fetchPageBySlug(
@@ -57,12 +59,14 @@ export default async function fetchPageBySlug(
   ]);
   const page = data?.pageCollection?.items[0] as QueryItem["Page"];
   const relationshipMap = await getPageRelationships(client, page, header);
+  const endDates = await fetchEndDates();
 
   return {
     page,
     footer,
     header,
     relationshipMap,
+    endDates,
   };
 }
 
