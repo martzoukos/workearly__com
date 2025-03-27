@@ -12,7 +12,7 @@ const nextConfig = {
     return redirections.map(({ from, to }) => ({
       source: from,
       destination: to,
-      permanent: true, // Set to false for temporary redirects
+      permanent: true,
     }));
   },
   async headers() {

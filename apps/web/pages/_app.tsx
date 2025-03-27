@@ -1,4 +1,5 @@
 import "@/styles/global.scss";
+import { GoogleTagManager } from "@next/third-parties/google";
 import NextAdapterPages from "next-query-params/pages";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
@@ -44,6 +45,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         data-cbid="1397552c-f526-4982-9897-b2dfe41acea7"
         data-blockingmode="auto"
       />
+      <GoogleTagManager gtmId="G-2SYHRH9Z7N" />
       <Component {...pageProps} />
     </QueryParamProvider>
   );
