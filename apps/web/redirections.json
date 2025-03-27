@@ -25,7 +25,7 @@
   },
   {
     "from": "/training-programs",
-    "to": "/courses?pageIndex=1"
+    "to": "/courses"
   },
   {
     "from": "/offers",
@@ -286,5 +286,101 @@
   {
     "from": "/faqs",
     "to": "/about"
+  },
+  {
+    "from": "/post/data-analyst-ti-apaitei-i-sugkektimeni-thesi-ergasias",
+    "to": "/blog/data-analyst-ti-apaitei-i-sugkektimeni-thesi-ergasias"
+  },
+  {
+    "from": "/post/poia-einai-ta-kathikonta-enos-hr-recruiter-mathe-pos-na-ksekinisis",
+    "to": "/blog/poia-einai-ta-kathikonta-enos-hr-recruiter-mathe-pos-na-ksekinisis"
+  },
+  {
+    "from": "/post/giati-to-quality-assurance-qa-einai-mia-kali-epilogi-karieras",
+    "to": "/blog/giati-to-quality-assurance-qa-einai-mia-kali-epilogi-karieras"
+  },
+  {
+    "from": "/post/pos-tha-gino-data-analyst",
+    "to": "/blog/pos-tha-gino-data-analyst"
+  },
+  {
+    "from": "/post/asxolisai-me-to-management-mathe-gia-to-scrum-kai-gia-to-rolo-tou-scrum-master",
+    "to": "/blog/asxolisai-me-to-management-mathe-gia-to-scrum-kai-gia-to-rolo-tou-scrum-master"
+  },
+  {
+    "from": "/post/poies-einai-oi-theseis-ergasias-ptuxio-mathimatikwn",
+    "to": "/blog/poies-einai-oi-theseis-ergasias-ptuxio-mathimatikwn"
+  },
+  {
+    "from": "/post/pos-na-gineis-front-end-developer-1",
+    "to": "/blog/pos-na-gineis-front-end-developer-1"
+  },
+  {
+    "from": "/post/poso-kostizei-to-metaptyxiako-sou",
+    "to": "/blog/poso-kostizei-to-metaptyxiako-sou"
+  },
+  {
+    "from": "/post/thes-na-gineis-front-end-i-back-end-developer",
+    "to": "/blog/thes-na-gineis-front-end-i-back-end-developer"
+  },
+  {
+    "from": "/post/data-analyst-xoris-proupiresia-osa-prep`e-na-gnorizeis",
+    "to": "/blog/data-analyst-xoris-proupiresia-osa-prepe-na-gnorizeis"
+  },
+  {
+    "from": "/post/pos-na-gineis-football-data-analyst",
+    "to": "/blog/pos-na-gineis-football-data-analyst"
+  },
+  {
+    "from": "/post/kariera-sto-hr-mathe-pos-na-ksekiniseis",
+    "to": "/blog/kariera-sto-hr-mathe-pos-na-ksekiniseis"
+  },
+  {
+    "from": "/post/pos-tha-gineis-backend-developer",
+    "to": "/blog/pos-tha-gineis-backend-developer"
+  },
+  {
+    "from": "/post/allagi-karieras-sta-30",
+    "to": "/blog/allagi-karieras-sta-30"
+  },
+  {
+    "from": "/post/data-analyst-o-misthos-kai-ta-skills",
+    "to": "/blog/data-analyst-o-misthos-kai-ta-skills"
+  },
+  {
+    "from": "/post/data-analyst-xoris-proupiresia-ti-prepei-na-kaneis",
+    "to": "/blog/data-analyst-xoris-proupiresia-ti-prepei-na-kaneis"
+  },
+  {
+    "from": "/post/4-logoi-gia-na-ftiakseis-profile-sto-linkedin",
+    "to": "/blog/4-logoi-gia-na-ftiakseis-profile-sto-linkedin"
+  },
+  {
+    "from": "/post/python-developer-bootcamp-greece-2023",
+    "to": "/blog/python-developer-bootcamp-greece-2023"
+  },
+  {
+    "from": "/post/6-logoi-gia-na-gineis-software-tester-qa",
+    "to": "/blog/6-logoi-gia-na-gineis-software-tester-qa"
+  },
+  {
+    "from": "/post/ti-einai-to-data-science",
+    "to": "/blog/ti-einai-to-data-science"
+  },
+  {
+    "from": "/post/software-tester-qa-ergasia-ex-apostaseos-proptikes",
+    "to": "/blog/software-tester-qa-ergasia-ex-apostaseos-proptikes"
+  },
+  {
+    "from": "/post/hr-talent-acquisition",
+    "to": "/blog/hr-talent-acquisition"
+  },
+  {
+    "from": "/post/theleis-na-gineis-business-intelligence-bi-analyst-osa-prepei-na-gnorizeis",
+    "to": "/blog/theleis-na-gineis-business-intelligence-bi-analyst-osa-prepei-na-gnorizeis"
+  },
+  {
+    "from": "/oroi-kai-proypotheseis",
+    "to": "/terms"
   }
 ]
