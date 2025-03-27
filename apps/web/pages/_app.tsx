@@ -29,7 +29,9 @@ export default function MyApp({ Component, pageProps }: AppProps) {
             },
           ],
         }}
-        additionalLinkTags={[{ rel: "shortcut icon", href: "/favicon.png" }]}
+        additionalLinkTags={[
+          { rel: "shortcut icon", href: "/favicons/favicon-32x32.png" },
+        ]}
       />
       <NextNProgress
         color="#C1FF72"
