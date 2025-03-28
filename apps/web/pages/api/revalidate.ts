@@ -15,14 +15,15 @@ export default async function handler(
   }
 
   try {
-    const { sys } = req.body;
-    const entryId = sys?.id;
+    const entryId = req.body.entityId;
 
-    console.log(req.body);
+    console.log(entryId, req.body);
 
     if (!entryId) {
       return res.status(400).json({ message: "Missing entry ID" });
     }
+
+    console.log("Success");
 
     const slugs = await getLinkedPages(entryId);
 
