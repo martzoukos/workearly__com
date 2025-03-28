@@ -17,10 +17,13 @@
   background-color: hsl(var(--color-green-500));
   padding: 1.8rem 2.5rem;
   border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .media {
-  max-width: 80%;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
