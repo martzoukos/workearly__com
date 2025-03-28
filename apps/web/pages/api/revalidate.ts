@@ -18,6 +18,8 @@ export default async function handler(
     const { sys } = req.body;
     const entryId = sys?.id;
 
+    console.log(JSON.stringify(req.body));
+
     if (!entryId) {
       return res.status(400).json({ message: "Missing entry ID" });
     }
