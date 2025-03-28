@@ -158,6 +158,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
           }
@@ -167,6 +168,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
           }
@@ -176,6 +178,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
           }
@@ -185,6 +188,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
           }
@@ -194,6 +198,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
             sectionCollection {
@@ -210,6 +215,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
           }
@@ -219,6 +225,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
           }
@@ -228,6 +235,7 @@ export const REVALIDATE_QUERY = graphql(`
             pageCollection {
               items {
                 slug
+                variant
               }
             }
             compositeCollection {

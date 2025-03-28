@@ -18,7 +18,7 @@ export default async function handler(
     const { sys } = req.body;
     const entryId = sys?.id;
 
-    console.log(JSON.stringify(req.body));
+    console.log(req.body);
 
     if (!entryId) {
       return res.status(400).json({ message: "Missing entry ID" });
@@ -141,12 +141,16 @@ async function getLinkedPages(entryId: string): Promise<string[]> {
 
 function getPageSlugs(
   pageCollection:
-    | { items: Array<{ slug?: string | null } | null> }
+    | { items: Array<{ slug?: string | null; variant?: string | null } | null> }
     | undefined
     | null
 ): string[] {
   return (
-    pageCollection?.items.map((item) => item?.slug).filter(isDefined) ?? []
+    pageCollection?.items
+      .filter((item) => item?.slug !== "404")
+      .filter((item) => item?.variant !== "Playground")
+      .map((item) => item?.slug)
+      .filter(isDefined) ?? []
   ).map((slug) => (slug === "home" ? "/" : `/${slug}`));
 }
 
