@@ -13,7 +13,7 @@ import { NextSeo } from "next-seo";
 export default function Page(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
-  const canonicalUrl = `https://workearly.gr/${props.page.slug}`;
+  const canonicalUrl = `https://workearly.gr/${props.page.slug === "home" ? "" : props.page.slug}`;
   const noIndex = props.page.features?.includes("No Index");
 
   return (
