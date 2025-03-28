@@ -148,3 +148,170 @@ export const ACTION_COLLECTION_QUERY = graphql(`
     }
   }
 `);
+
+export const REVALIDATE_QUERY = graphql(`
+  query Revalidate($entryId: String!) {
+    entryCollection(where: { sys: { id: $entryId } }, limit: 1) {
+      items {
+        ... on CourseDetails {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+          }
+        }
+        ... on PeopleDetails {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+          }
+        }
+        ... on CategoryOrJobDetails {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+          }
+        }
+        ... on ResourceDetails {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+          }
+        }
+        ... on ContentTypeRichText {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+            sectionCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+        ... on UniqueComponent {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+          }
+        }
+        ... on Composite {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+          }
+        }
+        ... on Section {
+          linkedFrom {
+            pageCollection {
+              items {
+                slug
+              }
+            }
+            compositeCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+        ... on AccordionCard {
+          linkedFrom {
+            sectionCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+        ... on Card {
+          linkedFrom {
+            sectionCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+        ... on Page {
+          linkedFrom {
+            uniqueComponentCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+            sectionCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+            actionCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+        ... on Action {
+          linkedFrom {
+            peopleDetailsCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+            compositeCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+            sectionCollection {
+              items {
+                sys {
+                  id
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`);
