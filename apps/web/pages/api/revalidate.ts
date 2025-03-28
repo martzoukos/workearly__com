@@ -1,5 +1,8 @@
 import { getServerClient, isDefined, REVALIDATE_QUERY } from "@workearly/api";
+import { RevalidateQuery } from "@workearly/api/src/contentful/graphql/__generated__/gql/graphql";
 import { NextApiRequest, NextApiResponse } from "next";
+
+const MAX_DEPTH = 5;
 
 export default async function handler(
   req: NextApiRequest,
@@ -22,15 +25,14 @@ export default async function handler(
       return res.status(400).json({ message: "Missing entry ID" });
     }
 
-    const slugs = await getLinkedPages(entryId);
+    const visitedEntries = new Set<string>();
+    const slugs = await getLinkedPages(entryId, visitedEntries, 0);
 
     if (slugs.length === 0) {
       return res.status(200).json({ message: "No linked pages found" });
     }
 
-    for (const url of slugs) {
-      await res.revalidate(url);
-    }
+    await Promise.all(slugs.map((url) => res.revalidate(url)));
 
     return res.json({ revalidated: true, slugs });
   } catch (error) {
@@ -39,102 +41,71 @@ export default async function handler(
   }
 }
 
-async function getLinkedPages(entryId: string): Promise<string[]> {
-  const [client] = getServerClient();
+async function getLinkedPages(
+  entryId: string,
+  visitedEntries: Set<string>,
+  depth: number
+): Promise<string[]> {
+  if (depth > MAX_DEPTH || visitedEntries.has(entryId)) {
+    return [];
+  }
 
+  visitedEntries.add(entryId);
+  const [client] = getServerClient();
   const { data } = await client.query(REVALIDATE_QUERY, { entryId });
 
   const entry = data?.entryCollection?.items.at(0);
-
   if (!entry?.__typename) {
     return [];
   }
 
-  if (entry.__typename === "CourseDetails") {
-    return getPageSlugs(entry.linkedFrom?.pageCollection);
-  } else if (entry.__typename === "PeopleDetails") {
-    return getPageSlugs(entry.linkedFrom?.pageCollection);
-  } else if (entry.__typename === "CategoryOrJobDetails") {
-    return getPageSlugs(entry.linkedFrom?.pageCollection);
-  } else if (entry.__typename === "ResourceDetails") {
-    return getPageSlugs(entry.linkedFrom?.pageCollection);
-  } else if (entry.__typename === "UniqueComponent") {
-    return getPageSlugs(entry.linkedFrom?.pageCollection);
-  } else if (entry.__typename === "Composite") {
-    return getPageSlugs(entry.linkedFrom?.pageCollection);
-  } else if (entry.__typename === "ContentTypeRichText") {
-    const pageSlugs = getPageSlugs(entry.linkedFrom?.pageCollection);
-    const sectionIds = getEntryIds(entry.linkedFrom?.sectionCollection);
+  let pageSlugs: string[] = [];
 
-    for (const id of sectionIds) {
-      const slugs = await getLinkedPages(id);
-      pageSlugs.push(...slugs);
-    }
-
-    return pageSlugs;
-  } else if (entry.__typename === "Section") {
-    const pageSlugs = getPageSlugs(entry.linkedFrom?.pageCollection);
-    const compositeIds = getEntryIds(entry.linkedFrom?.compositeCollection);
-
-    for (const id of compositeIds) {
-      const slugs = await getLinkedPages(id);
-      pageSlugs.push(...slugs);
-    }
-
-    return pageSlugs;
-  } else if (entry.__typename === "AccordionCard") {
-    const pageSlugs: string[] = [];
-    const sectionIds = getEntryIds(entry.linkedFrom?.sectionCollection);
-
-    for (const id of sectionIds) {
-      const slugs = await getLinkedPages(id);
-      pageSlugs.push(...slugs);
-    }
-
-    return pageSlugs;
-  } else if (entry.__typename === "Card") {
-    const pageSlugs: string[] = [];
-    const sectionIds = getEntryIds(entry.linkedFrom?.sectionCollection);
-
-    for (const id of sectionIds) {
-      const slugs = await getLinkedPages(id);
-      pageSlugs.push(...slugs);
-    }
-
-    return pageSlugs;
-  } else if (entry.__typename === "Page") {
-    const pageSlugs: string[] = [];
-    const uniqueComponentIds = getEntryIds(
-      entry.linkedFrom?.uniqueComponentCollection
-    );
-    const sectionIds = getEntryIds(entry.linkedFrom?.sectionCollection);
-    const actionIds = getEntryIds(entry.linkedFrom?.actionCollection);
-    const ids = [uniqueComponentIds, sectionIds, actionIds].flat();
-
-    for (const id of ids) {
-      const slugs = await getLinkedPages(id);
-      pageSlugs.push(...slugs);
-    }
-
-    return pageSlugs;
-  } else if (entry.__typename === "Action") {
-    const pageSlugs: string[] = [];
-    const peopleDetailsIds = getEntryIds(
-      entry.linkedFrom?.peopleDetailsCollection
-    );
-    const sectionIds = getEntryIds(entry.linkedFrom?.sectionCollection);
-    const compositeIds = getEntryIds(entry.linkedFrom?.compositeCollection);
-    const ids = [peopleDetailsIds, sectionIds, compositeIds].flat();
-
-    for (const id of ids) {
-      const slugs = await getLinkedPages(id);
-      pageSlugs.push(...slugs);
-    }
-
-    return pageSlugs;
+  if (entry.linkedFrom && "pageCollection" in entry.linkedFrom) {
+    pageSlugs = getPageSlugs(entry.linkedFrom.pageCollection);
   }
 
-  return [];
+  const linkedIds = getLinkedIds(entry);
+  const nestedSlugs = await Promise.all(
+    linkedIds.map((id) => getLinkedPages(id, visitedEntries, depth + 1))
+  );
+
+  return [...pageSlugs, ...nestedSlugs.flat()];
+}
+
+type CollectionType =
+  | { items: Array<{ sys: { id: string } | null } | null> }
+  | undefined
+  | null;
+
+type LinkedFrom = NonNullable<
+  NonNullable<RevalidateQuery["entryCollection"]>["items"][number]
+>["linkedFrom"];
+
+function getLinkedIds(entry: { linkedFrom?: LinkedFrom }): string[] {
+  if (!entry.linkedFrom) {
+    return [];
+  }
+
+  const collections: Array<CollectionType> = [];
+
+  if ("sectionCollection" in entry.linkedFrom) {
+    collections.push(entry.linkedFrom.sectionCollection);
+  }
+  if ("compositeCollection" in entry.linkedFrom) {
+    collections.push(entry.linkedFrom.compositeCollection);
+  }
+  if ("uniqueComponentCollection" in entry.linkedFrom) {
+    collections.push(entry.linkedFrom.uniqueComponentCollection);
+  }
+  if ("actionCollection" in entry.linkedFrom) {
+    collections.push(entry.linkedFrom.actionCollection);
+  }
+  if ("peopleDetailsCollection" in entry.linkedFrom) {
+    collections.push(entry.linkedFrom.peopleDetailsCollection);
+  }
+
+  return collections.flatMap(getEntryIds);
 }
 
 function getPageSlugs(
@@ -152,12 +123,7 @@ function getPageSlugs(
   ).map((slug) => (slug === "home" ? "/" : `/${slug}`));
 }
 
-function getEntryIds(
-  entryCollection:
-    | { items: Array<{ sys: { id: string } | null } | null> }
-    | undefined
-    | null
-): string[] {
+function getEntryIds(entryCollection: CollectionType): string[] {
   return (
     entryCollection?.items.map((item) => item?.sys?.id).filter(isDefined) ?? []
   );
