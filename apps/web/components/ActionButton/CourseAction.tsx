@@ -16,8 +16,9 @@ export default function CourseAction({ action, className }: PropsType) {
   const linkedEntry = page.linkedFrom?.entryCollection?.items.at(0);
 
   if (linkedEntry?.__typename === "Section") {
-    const linkedPageSlug =
-      linkedEntry.linkedFrom?.pageCollection?.items.at(0)?.slug;
+    const linkedPageSlug = linkedEntry.linkedFrom?.pageCollection?.items
+      .filter((item) => item?.variant === "Course")
+      .at(0)?.slug;
 
     if (linkedPageSlug) {
       return (

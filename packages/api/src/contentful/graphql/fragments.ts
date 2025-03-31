@@ -298,9 +298,10 @@ export const PAGE_FIELDS = graphql(`
               id
             }
             linkedFrom {
-              pageCollection(limit: 1) {
+              pageCollection(limit: 5) {
                 items {
                   slug
+                  variant
                 }
               }
             }
