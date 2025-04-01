@@ -108,7 +108,7 @@ function getLinkedIds(entry: { linkedFrom?: LinkedFrom }): string[] {
   return collections.flatMap(getEntryIds);
 }
 
-function getPageSlugs(
+export function getPageSlugs(
   pageCollection:
     | { items: Array<{ slug?: string | null; variant?: string | null } | null> }
     | undefined
