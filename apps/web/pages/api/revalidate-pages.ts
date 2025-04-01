@@ -19,6 +19,7 @@ export default async function handler(
     const [client] = getServerClient();
     const { data } = await client.query(PAGE_SLUGS_QUERY, {
       where: { variant: req.body?.variant },
+      limit: 1000,
     });
     const slugs = getPageSlugs(data?.pageCollection);
 
