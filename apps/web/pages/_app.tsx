@@ -1,5 +1,4 @@
 import "@/styles/global.scss";
-import { GoogleTagManager } from "@next/third-parties/google";
 import NextAdapterPages from "next-query-params/pages";
 import { DefaultSeo } from "next-seo";
 import type { AppProps } from "next/app";
@@ -47,7 +46,22 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         data-cbid="1397552c-f526-4982-9897-b2dfe41acea7"
         data-blockingmode="auto"
       />
-      <GoogleTagManager gtmId="G-2SYHRH9Z7N" />
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-2SYHRH9Z7N"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2SYHRH9Z7N', { page_path: window.location.pathname });
+          `,
+        }}
+      />
       <Component {...pageProps} />
     </QueryParamProvider>
   );
