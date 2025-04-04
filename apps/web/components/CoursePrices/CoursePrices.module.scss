@@ -1,6 +1,7 @@
 .root {
   display: flex;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
 
   .price {
     &::before {
@@ -25,4 +26,23 @@
 
 .orientationHorizontal {
   flex-direction: row;
+}
+
+.priceContainer {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.klarna {
+  display: flex;
+  width: fit-content;
+  gap: 0.4rem;
+  background-color: hsl(var(--color-neutral-300));
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+
+  .translate {
+    opacity: 0.5;
+  }
 }

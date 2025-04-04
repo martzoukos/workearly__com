@@ -1,9 +1,9 @@
 .arrow {
-  fill: white;
+  fill: hsl(var(--color-black-500));
 }
 
 .content {
   padding: 0.5rem;
-  background: var(--color-ink-default);
-  color: var(--color-sys-default);
+  background: hsl(var(--color-black-500));
+  color: hsl(64 27% 90%);
 }

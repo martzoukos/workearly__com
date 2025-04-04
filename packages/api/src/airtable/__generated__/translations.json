@@ -45,9 +45,19 @@
     "en": "Dedicated Top Mentor"
   },
   {
+    "code": "3Times",
+    "el": "x 3 δόσεις",
+    "en": "x 3 instalments"
+  },
+  {
     "code": "Application Deadline",
     "el": "Application Deadline",
     "en": "Application Deadline"
+  },
+  {
+    "code": "1plus1",
+    "el": "1 + 1 Δώρο",
+    "en": "1 + 1 Gift"
   },
   {
     "code": "Category",
@@ -98,6 +108,11 @@
     "code": "pace2",
     "el": "Instructor Assisted",
     "en": "Instructor Assisted"
+  },
+  {
+    "code": "1plus1InfoBox",
+    "el": "Θα επικοινωνήσουμε μαζί σου για να επιλέξεις το δώρο σου",
+    "en": "We will contact you in order for you to select your gift"
   },
   {
     "code": "CourseCardTeam",

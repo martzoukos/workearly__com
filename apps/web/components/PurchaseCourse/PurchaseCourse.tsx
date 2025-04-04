@@ -7,7 +7,7 @@ import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
-import { Share, Time } from "@carbon/icons-react";
+import { Gift, Share, Time } from "@carbon/icons-react";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
@@ -15,6 +15,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
+import Tooltip from "@/components/Tooltip";
 
 interface PropsType {
   className?: string;
@@ -36,7 +37,8 @@ export default function PurchaseCourse({
   );
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
-  const { timeLeft } = useCourseDetailsResolver(courseDetails);
+  const { timeLeft, gift } = useCourseDetailsResolver(courseDetails);
+
   const { translate } = useTranslate();
   const { isIntersecting, ref } = useIntersectionObserver({
     threshold: 0.5,
@@ -113,17 +115,30 @@ export default function PurchaseCourse({
             )}
           </Text>
 
-          {timeLeft && (
-            <div className={styles.timeLeft}>
-              <Time />
-              <Text size="caption">{timeLeft}</Text>
-            </div>
-          )}
+          <div className={styles.giftAndTimeleft}>
+            {gift && (
+              <div className={styles.gift}>
+                <Gift />
+                <Text>{translate("1plus1")}</Text>
+                <Tooltip className={styles.infoBox}>
+                  <Text size="caption"> {translate("1plus1InfoBox")}</Text>
+                </Tooltip>
+              </div>
+            )}
+
+            {timeLeft && (
+              <div className={styles.timeLeft}>
+                <Time />
+                <Text size="caption">{timeLeft}</Text>
+              </div>
+            )}
+          </div>
 
           {courseDetails && (
             <CoursePrices
               courseDetails={courseDetails}
               className={styles.prices}
+              showKlarna
             />
           )}
         </div>

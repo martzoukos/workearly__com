@@ -38,7 +38,7 @@ type FuncReturnType = {
   footer: QueryItem["UniqueComponent"];
   header: QueryItem["UniqueComponent"];
   relationshipMap: RelationshipMap;
-  endDates: Array<{ name: string; date: string }>;
+  endDates: Array<{ name: string; date: string; gift: string }>;
 };
 
 export default async function fetchPageBySlug(

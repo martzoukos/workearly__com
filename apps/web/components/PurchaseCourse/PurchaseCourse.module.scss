@@ -61,6 +61,28 @@
   opacity: 0.6;
 }
 
+.giftAndTimeleft {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gift {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+  width: fit-content;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.infoBox {
+  max-width: 12rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
 .timeLeft {
   display: flex;
   align-items: center;

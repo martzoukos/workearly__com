@@ -21,17 +21,21 @@ export default function useCourseDetailsResolver(
   let pace = undefined;
   let cardWidth = "15rem";
   let timeLeft = undefined;
+  let gift = undefined;
 
   if (courseDetails?.group === 1) {
     pace = DATA_MAP.paces[1];
     timeLeft = getTimeLeft(1);
+    gift = getGift(1);
   } else if (courseDetails?.group === 2) {
     pace = DATA_MAP.paces[1];
     timeLeft = getTimeLeft(2);
+    gift = getGift(2);
   } else if (courseDetails?.group === 3) {
     pace = DATA_MAP.paces[0];
     cardWidth = "22rem";
     timeLeft = getTimeLeft(3);
+    gift = getGift(3);
   }
 
   function getTimeLeft(groupNumber: number) {
@@ -51,6 +55,13 @@ export default function useCourseDetailsResolver(
       }
     }
   }
+  function getGift(groupNumber: number) {
+    const groupGift = endDates.find(
+      (endDate) => endDate.name === `group${groupNumber}`
+    )?.gift;
+
+    return groupGift;
+  }
 
   return {
     pace,
@@ -58,6 +69,7 @@ export default function useCourseDetailsResolver(
     mentorship,
     cardWidth,
     timeLeft,
+    gift,
   };
 }
 

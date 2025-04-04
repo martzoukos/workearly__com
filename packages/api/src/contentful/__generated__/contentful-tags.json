@@ -1,5 +1,9 @@
 [
   {
+    "name": "Course Category: Human skills",
+    "id": "courseCategoryHumanSkills"
+  },
+  {
     "name": "Certificate Level: Diploma",
     "id": "certificateLevelDiploma"
   },
