@@ -1,5 +1,9 @@
 [
   {
+    "name": "Certificate Category: Human skills",
+    "id": "certificateCategoryHumanSkills"
+  },
+  {
     "name": "Course Category: Human skills",
     "id": "courseCategoryHumanSkills"
   },

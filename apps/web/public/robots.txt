@@ -6,6 +6,6 @@ Allow: /
 Host: https://workearly.gr
 
 # Sitemaps
-Sitemap: https://workearly.gr/sitemap.xml
-Sitemap: https://workearly.gr/en/sitemap.xml
-Sitemap: https://workearly.gr/el/sitemap.xml
+Sitemap: undefined/sitemap.xml
+Sitemap: undefined/en/sitemap.xml
+Sitemap: undefined/el/sitemap.xml
