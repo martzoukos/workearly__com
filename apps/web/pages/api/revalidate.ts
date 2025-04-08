@@ -1,5 +1,6 @@
 import { getServerClient, isDefined, REVALIDATE_QUERY } from "@workearly/api";
 import { RevalidateQuery } from "@workearly/api/src/contentful/graphql/__generated__/gql/graphql";
+import uniq from "lodash-es/uniq";
 import { NextApiRequest, NextApiResponse } from "next";
 
 const MAX_DEPTH = 5;
@@ -114,13 +115,25 @@ export function getPageSlugs(
     | undefined
     | null
 ): string[] {
-  return (
+  const directReferences = (
     pageCollection?.items
       .filter((item) => item?.slug !== "404")
       .filter((item) => item?.variant !== "Playground")
       .map((item) => item?.slug)
       .filter(isDefined) ?? []
   ).map((slug) => (slug === "home" ? "/" : `/${slug}`));
+
+  if (directReferences.some((slug) => slug.startsWith("/course"))) {
+    directReferences.push("/courses");
+  } else if (directReferences.some((slug) => slug.startsWith("/blog"))) {
+    directReferences.push("/blog");
+  } else if (directReferences.some((slug) => slug.startsWith("/mentors"))) {
+    directReferences.push("/mentors");
+  } else if (directReferences.some((slug) => slug.startsWith("/partners"))) {
+    directReferences.push("/partners");
+  }
+
+  return uniq(directReferences);
 }
 
 function getEntryIds(entryCollection: CollectionType): string[] {
