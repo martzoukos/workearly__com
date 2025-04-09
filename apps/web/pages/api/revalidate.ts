@@ -131,6 +131,10 @@ export function getPageSlugs(
     directReferences.push("/mentors");
   } else if (directReferences.some((slug) => slug.startsWith("/partners"))) {
     directReferences.push("/partners");
+  } else if (
+    directReferences.some((slug) => slug.startsWith("/certificates"))
+  ) {
+    directReferences.push("/certificates");
   }
 
   return uniq(directReferences);
