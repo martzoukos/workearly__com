@@ -116,11 +116,15 @@ export default function PersonCover({ className }: PropsType) {
         </div>
 
         <div className={styles.textContainer}>
-          <Text size="h2">
-            {peopleDetails.name}
-            {peopleDetails.role && <span>, {peopleDetails.role}</span>}
-            {peopleDetails.company && <span>, {peopleDetails.company}</span>}
-          </Text>
+          <div>
+            <Text size="h2" as="h1">
+              {peopleDetails.name}
+            </Text>
+            <Text size="h2">
+              {peopleDetails.role && <span>{peopleDetails.role}</span>}
+              {peopleDetails.company && <span>, {peopleDetails.company}</span>}
+            </Text>
+          </div>
 
           <RichText
             json={peopleDetails.text?.json}
