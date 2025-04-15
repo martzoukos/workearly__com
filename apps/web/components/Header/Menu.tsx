@@ -64,13 +64,26 @@ export default function Menu({ menu, defaultOpen = false }: PropsType) {
                     group.name && styles.groupHasLabel
                   )}
                 >
-                  {group.name && (
-                    <DropdownMenu.Label asChild>
-                      <Text as="label" size="h6" className={styles.label}>
-                        {group.name}
-                      </Text>
-                    </DropdownMenu.Label>
-                  )}
+                  <div className={styles.labelContainer}>
+                    {group.label && (
+                      <DropdownMenu.Label asChild>
+                        <Text
+                          as="label"
+                          size="small"
+                          className={styles.greenLabel}
+                        >
+                          {group.label}
+                        </Text>
+                      </DropdownMenu.Label>
+                    )}
+                    {group.name && (
+                      <DropdownMenu.Label asChild>
+                        <Text as="label" size="h6" className={styles.label}>
+                          {group.name}
+                        </Text>
+                      </DropdownMenu.Label>
+                    )}
+                  </div>
 
                   {group.items.map((item) => (
                     <DropdownMenu.Item key={item.name} asChild>

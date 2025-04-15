@@ -265,6 +265,7 @@ export type CategorySubItemType = {
 
 export type MenuGroupType = {
   name?: string;
+  label?: string;
   items: Array<
     | LinkItemType
     | NormalSubItemType
