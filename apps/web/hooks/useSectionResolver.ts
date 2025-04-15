@@ -34,6 +34,7 @@ const DATA_MAP = {
     "Accordion",
     "Logo Showcase",
     "Logo Carousel",
+    "Advanced Logo Carousel",
     "Steps Showcase",
     "Features Showcase",
     "Hero",

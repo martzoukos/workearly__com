@@ -28,8 +28,6 @@ export default function HeroDetails({ section, className }: PropsType) {
   const desktopAsset = assets.at(0);
   const mobileAsset = assets.at(1) || desktopAsset;
 
-  console.log(mobileAsset, "xx");
-
   const details = section?.metadata as HeroDetailsType;
 
   const style = {

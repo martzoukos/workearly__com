@@ -1,0 +1,61 @@
+@use "@/styles/_functions" as *;
+@use "@/styles/_breakpoints" as *;
+
+.root {
+  text-align: center;
+}
+
+.section {
+  @include media(md) {
+    .mediaRow {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+}
+
+.card {
+  background-color: var(--color-sys-surface);
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+  cursor: pointer;
+  text-align: left;
+
+  &:hover {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+    p {
+      display: block;
+    }
+
+    img {
+      display: none;
+    }
+  }
+  p {
+    display: none;
+  }
+}
+
+.mediaRow {
+  display: grid;
+  grid-template-columns: repeat(var(--count), 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.media {
+  width: 50%;
+  height: auto;
+  object-fit: contain;
+}
+
+.slider {
+  width: 100%;
+  cursor: pointer;
+}

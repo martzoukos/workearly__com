@@ -14,6 +14,7 @@ import PeopleIndex from "@/components/_sections/PeopleIndex";
 import Standard from "@/components/_sections/Standard";
 import StandardFramed from "@/components/_sections/StandardFramed";
 import Accordion from "@/components/Accordion";
+import AdvancedLogoCarousel from "@/components/AdvancedLogoCarousel/AdvancedLogoCarousel";
 import FeaturesShowcase from "@/components/FeaturesShowcase";
 import LogoCarousel from "@/components/LogoCarousel/LogoCarousel";
 import LogoShowcase from "@/components/LogoShowcase";
@@ -69,6 +70,10 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return (
       <LogoCarousel assets={assets} section={section} className={className} />
     );
+  } else if (variant === "Advanced Logo Carousel") {
+    const assets = section.assetsCollection?.items.filter(isDefined) || [];
+
+    return <AdvancedLogoCarousel section={section} className={className} />;
   } else if (variant === "Steps Showcase") {
     return <StepsShowcase section={section} className={className} />;
   } else if (variant === "Features Showcase") {

@@ -16,9 +16,6 @@
     z-index: 1;
   }
   color: var(--color-ink-default);
-
-  @include media(md) {
-  }
 }
 
 .content {
