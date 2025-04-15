@@ -38,6 +38,7 @@ const DATA_MAP = {
     "Features Showcase",
     "Hero",
     "Hero With Background",
+    "Hero With Details",
     "Standard Component",
     "Standard Component Framed",
     "Map",

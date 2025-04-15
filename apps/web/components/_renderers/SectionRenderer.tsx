@@ -7,6 +7,7 @@ import CourseIndex from "@/components/_sections/CourseIndex";
 import Form from "@/components/_sections/Form";
 import Hero from "@/components/_sections/Hero";
 import HeroBackground from "@/components/_sections/HeroBackground";
+import HeroDetails from "@/components/_sections/HeroDetails";
 import Map from "@/components/_sections/Map";
 import MediaSlider from "@/components/_sections/MediaSlider";
 import PeopleIndex from "@/components/_sections/PeopleIndex";
@@ -92,6 +93,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <Standard section={section} className={className} />;
   } else if (variant === "Hero With Background") {
     return <HeroBackground section={section} className={className} />;
+  } else if (variant === "Hero With Details") {
+    return <HeroDetails section={section} className={className} />;
   } else if (variant === "Mentors") {
     return (
       <PeopleIndex

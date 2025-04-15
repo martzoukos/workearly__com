@@ -283,3 +283,11 @@ export type MenuType = {
   type: "menu";
   itemGroups: Array<MenuGroupType>;
 };
+
+export type HeroDetails = {
+  height?: string;
+  items?: {
+    label: string;
+    value: string;
+  }[];
+};
