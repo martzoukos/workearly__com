@@ -1,0 +1,5214 @@
+{
+  "__timestamp": 1744726304735,
+  "total": 170,
+  "items": [
+    {
+      "sys": {
+        "id": "1NCd6jivZyfwZ1hHE4Q393",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Land Your Dream Job",
+      "text": "Χρησιμοποίησε τις νέες σου δεξιότητες για να επιταχύνεις την καριέρα σου και να αποκτήσεις πρόσβαση σε κορυφαίες επαγγελματικές ευκαιρίες.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5cQGE8Xm2KmlPAHiRPSlFb",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Earn Certifications",
+      "text": "Επιβεβαίωσε τις ικανότητές σου με πιστοποιήσεις αναγνωρισμένες από την αγορά.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7kxqivz1JJAhdp5pYVTZfv",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Learn through Role-Playing",
+      "text": "Μπες σε immersive, role-playing εμπειρίες και ανάπτυξε δεξιότητες που ενισχύουν το προφίλ σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "43gwGahCFvrjudqrSsPXv9",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "title": "Start with your goal",
+      "text": "Οραματίσου την καριέρα που θέλεις και επίλεξε τον στόχο σου. Εμείς θα σου δείξουμε τη διαδρομή.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1w37DMwASiAICeSZo1MQfG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5UdU3x8VOIaC3TauH29V8B",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Κleopatra Κolokytha | Digital Marketer",
+      "text": "Η Κλεοπάτρα είναι απόφοιτη του τμήματος Εφαρμογών Πληροφορικής στην Οικονομία και τη Διοίκηση και εργάζεται ως επαγγελματίας φωτογράφος. Μέσα από το Digital Marketing Bootcamp, ενίσχυσε σημαντικά τις γνώσεις της στο digital marketing και απέκτησε πρακτικές δεξιότητες. Ολοκληρώνοντας το πρόγραμμα μέσα σε 4 μήνες, κατάφερε να βρει την πρώτη της δουλειά στον χώρο του digital marketing, ξεκινώντας ως Social Media Manager.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6SMNnsKvzDK9CUlprUQ8Yi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/6SMNnsKvzDK9CUlprUQ8Yi/33742ba31984d858be264aa5245f027a/kleopatra_testimonial.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Κleopatra Κolokytha | Digital Marketer",
+        "description": ""
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "1P7KfR5PbLb6rxkktSLIk9",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1P7KfR5PbLb6rxkktSLIk9/caa66e4e281ed41b6407ef24c279cc4f/chrome_NYf7yHwYJA.png",
+        "width": 578,
+        "height": 772,
+        "contentType": "image/png",
+        "title": "Κleopatra Κolokytha | Digital Marketer",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "4FZCTyXetVqsCGOFOgjILN",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Fortune Greece",
+      "text": "\"Οι μεγαλύτερες εταιρείες της αγοράς στρέφονται στην πλατφόρμα του Workearly, για πιο πρακτικές και ευέλικτες λύσεις reskilling και στελέχωσης, που εδώ και πολλά χρόνια είναι καθιερωμένες στο εξωτερικό.\"\n",
+      "variant": "Business Testimonial",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5GvbEyxJnPrtdKVgegm3Cz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5GvbEyxJnPrtdKVgegm3Cz/11cded89109f62d70d10de8f2dd5cfb9/workearly___15_.png",
+        "width": 1200,
+        "height": 1200,
+        "contentType": "image/png",
+        "title": "Fortune Greece",
+        "description": "Fortune Greece"
+      }
+    },
+    {
+      "sys": {
+        "id": "21KDEQN8jqIQKqcr3BXllF",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "insider",
+      "text": "\"Πριν το Workearly, η αλλαγή κλάδου δεν ήταν μία εύκολη υπόθεση. Οι επαγγελματίες δεν ήξεραν από πού έπρεπε να ξεκινήσουν ούτε αν θα μπορέσουν να τα καταφέρουν. Αυτό άλλαξε με τo Workearly.\"",
+      "variant": "Business Testimonial",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3iMqW0YHOeQ4ONYWNj5Kwa",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3iMqW0YHOeQ4ONYWNj5Kwa/985d81d75c1ce30329b65cb891166fd8/workearly___18_.png",
+        "width": 1200,
+        "height": 1200,
+        "contentType": "image/png",
+        "title": "insider",
+        "description": "insider"
+      }
+    },
+    {
+      "sys": {
+        "id": "1hK7QVFtLE7W3YgJhCAS7p",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "startupper.gr",
+      "text": "\"Χάρη στον μηχανισμό του Workearly, υπάρχουν αμέτρητες επιλογές παραγωγής περιεχομένου, το οποίο μπορεί να δημιουργήσει γρήγορα νέες μαθησιακές εμπειρίες, όπως professional skill labs.\"",
+      "variant": "Business Testimonial",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6kpKtsqNKidFv7cfXV7PVf",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6kpKtsqNKidFv7cfXV7PVf/f722c5925730ca162587664caa4e417c/workearly___16_.png",
+        "width": 1200,
+        "height": 1200,
+        "contentType": "image/png",
+        "title": "StartUpper",
+        "description": "StartUpper"
+      }
+    },
+    {
+      "sys": {
+        "id": "6Y0rZMm01jeD4jho56mjZV",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "News 24/7",
+      "text": "\"Το Workearly έχει καθιερωθεί ως η κορυφαία πλατφόρμα για upskilling και reskilling σε τεχνολογικούς τομείς, τόσο στην Ελλάδα όσο και σε διεθνή tech hubs. Από το 2021, έχει εκπαιδεύσει πάνω από 20.000 επαγγελματίες\"\n",
+      "variant": "Business Testimonial",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5qdoVVkgCl0F8jD1d21LYM",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5qdoVVkgCl0F8jD1d21LYM/5a907059eefdd7cfdceeecf8a385c08a/workearly___17_.png",
+        "width": 1200,
+        "height": 1200,
+        "contentType": "image/png",
+        "title": "news 24 7",
+        "description": "News 24x7"
+      }
+    },
+    {
+      "sys": {
+        "id": "6OVsiynmKjFTw0FyIJfb1t",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Maria Lopez | Marketing Specialist at GrowthWorks",
+      "text": "Maria moved from retail to marketing with WorkEarly’s digital marketing program, building a portfolio and landing her first role in content strategy.",
+      "variant": "Business Testimonial",
+      "studentsCount": null,
+      "rating": null,
+      "tags": ["RETAIL BRAND"],
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5GvbEyxJnPrtdKVgegm3Cz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5GvbEyxJnPrtdKVgegm3Cz/11cded89109f62d70d10de8f2dd5cfb9/workearly___15_.png",
+        "width": 1200,
+        "height": 1200,
+        "contentType": "image/png",
+        "title": "Fortune Greece",
+        "description": "Fortune Greece"
+      }
+    },
+    {
+      "sys": {
+        "id": "5GcYGzZtaWyGC6OxTYa4OU",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "title": "Ορίστε Στόχους Ανάπτυξης",
+      "text": "Καθορίστε τις δεξιότητες που χρειάζεται η ομάδα σας. Εμείς διαμορφώνουμε το κατάλληλο εκπαιδευτικό πλάνο.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1w37DMwASiAICeSZo1MQfG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "47XdBe9jPkrWjhvPQwupGz",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Μάθηση μέσω Role-Playing",
+      "text": "Οι εργαζόμενοί σας συμμετέχουν σε ρεαλιστικά σενάρια με χρήση AI & διαδραστικής τεχνολογίας — για πρακτική, βιωματική εκπαίδευση.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "GoaFwRqPzdHPfAsDzcHZ3",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Απόκτηση Πιστοποιήσεων",
+      "text": "Η ομάδα σας αποκτά επίσημες, αναγνωρισμένες πιστοποιήσεις που αντανακλούν πραγματικές δεξιότητες.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "e5yhOToVqvbLAjgHdxag5",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Ενίσχυση Απόδοσης",
+      "text": "Μετρήσιμα αποτελέσματα στην καθημερινή απόδοση, την παραγωγικότητα και τη συνεργασία της ομάδας σας.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "19FmQRN6wPVWVYzdYHEtrl",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Tech & Coding",
+      "text": "Εταιρική εκπαίδευση στην Τεχνητή Νοημοσύνη (AI), το Software Development και τον Προγραμματισμό, με role-playing training και πρακτικές προσομοιώσεις. Εξοπλίστε την ομάδα σας με προηγμένες τεχνολογικές δεξιότητες και ενισχύστε την καινοτομία και την αποτελεσματικότητα των έργων σας.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "tHgSnHxFGipC9GATpTF1p",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/tHgSnHxFGipC9GATpTF1p/5b684812ad681ca47b04bcaeb83d5d71/Gamified.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Gamified",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "55GJDWD0REBo5SsFKZyrvm",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Data & Analytics",
+      "text": "Εταιρική εκπαίδευση στην Τεχνητή Νοημοσύνη (AI), το Business Intelligence και τα Data Analytics, με role-playing training και πρακτικές προσομοιώσεις. Εξοπλίστε την ομάδα σας με προηγμένες δεξιότητες ανάλυσης δεδομένων και βελτιστοποιήστε τη λήψη επιχειρηματικών αποφάσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5HqTvqqshkX8ynuvJMwW71",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "HR & People Analytics",
+      "text": "Εταιρική εκπαίδευση στις AI Solutions for HR, τα Data-Driven HR Analytics και τη Διαχείριση Ταλέντων, με role-playing training και πρακτικές προσομοιώσεις. Αναβαθμίστε τις στρατηγικές ανθρώπινου δυναμικού, αξιοποιώντας δεδομένα και AI για πιο αποτελεσματικές αποφάσεις.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1aFJWT2CGz8DFPJ5hLHSuH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Leadership & Management",
+      "text": "Εταιρική εκπαίδευση στην ηγεσία και τη διοίκηση ομάδων με role-playing training και πρακτικές προσομοιώσεις. Αναπτύξτε τις ηγετικές δεξιότητες της ομάδας σας και ενισχύστε τη λήψη στρατηγικών αποφάσεων μέσα από βιωματική μάθηση.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6J0JWv0U0SEK7Rnb6mEmaG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6J0JWv0U0SEK7Rnb6mEmaG/8bf25d5cff71f76e3a06474f2daff558/Solo_-_Enterpreneurhip.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Entrepreneurhip",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "52JFKmyH4v487IuFZArUAx",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Sales & Customer Success",
+      "text": "Εταιρική εκπαίδευση στις πωλήσεις με AI, δεξιότητες διαπραγμάτευσης και στρατηγικές διαχείρισης πελατών. Ενισχύστε την απόδοση της ομάδας σας και βελτιώστε την εμπειρία των πελατών σας με εξειδικευμένη εκπαίδευση.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5W6pxmyTbKfB3zdpqxHdZI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5W6pxmyTbKfB3zdpqxHdZI/7213d9542efb5346787e8de1fee2b122/AI.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2pPznM29SXj9o8lJ6kN499",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "SQL",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3OgYYE0UxtQLM1IJy0TkmB",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3OgYYE0UxtQLM1IJy0TkmB/94cd4f93f99899bcd77d53008193a415/images-removebg-preview.png",
+        "width": 134,
+        "height": 171,
+        "contentType": "image/png",
+        "title": "SQL",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "1UqMxSirh0l6goMsw8qpnv",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "1.000+",
+      "text": "Tech & AI Professionals",
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4YwL0t8JqTUpaViOpXQmIl",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "1.000+",
+      "text": "Freelancers & Consultants",
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2oWBvrrSOmwVhpjBUyykD4",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "2.000+ ",
+      "text": "Global Companies",
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1sZGHEIhq9TsYvkQdX0rid",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Verified Certifications",
+      "text": "Αναγνωρισμένες πιστοποιήσεις που ενισχύουν το επαγγελματικό σου προφίλ και σε κάνουν πιο ανταγωνιστικό στην αγορά εργασίας.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1sSB33Cs3rgT99Nj5eBP9z",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1sSB33Cs3rgT99Nj5eBP9z/b677244193d29905a6d035f455e53707/Certifications.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Certifications",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1o3urgVfQrLFxQw0t4Uh7N",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Industry-Specific Training",
+      "text": "Εξειδικευμένη εκπαίδευση με real-world case studies, προσαρμοσμένη στις απαιτήσεις της αγοράς και του κλάδου σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "36MEm55wDXKYkQV4AB2cTw",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/36MEm55wDXKYkQV4AB2cTw/ae81e38cd1499d42ea928562f1e34570/Training.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Training",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3qQuYFNPTTRZWtXPG92zkh",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Tailor-Made Courses",
+      "text": "Εκπαιδευτικά προγράμματα σχεδιασμένα αποκλειστικά για εσένα, με βάση τους επαγγελματικούς σου στόχους.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6CwsxIZR1OWVkdm87CTh1j",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6CwsxIZR1OWVkdm87CTh1j/c5afc598fe86c3f7ced31dd2ec1659d5/Tailor.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Tailor",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6cSw0fXU7X34JO4hNDxZFz",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Gamified Learning Modules",
+      "text": "Διαδραστικές ενότητες μάθησης με Gamification για μια πιο αποδοτική και ευχάριστη εκπαιδευτική εμπειρία.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "tHgSnHxFGipC9GATpTF1p",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/tHgSnHxFGipC9GATpTF1p/5b684812ad681ca47b04bcaeb83d5d71/Gamified.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Gamified",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "659JUDaA7EeskcdpnfpiSb",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "AI-Powered Personalization",
+      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5W6pxmyTbKfB3zdpqxHdZI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5W6pxmyTbKfB3zdpqxHdZI/7213d9542efb5346787e8de1fee2b122/AI.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5r2gdDgQQjkvpQhlRku7Sp",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Δημήτρης Μαυρίδης | Healthcare Data Analyst",
+      "text": null,
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6PDLO1pltXkNUbHHvBOLEY",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/6PDLO1pltXkNUbHHvBOLEY/7d5215d5d1484e82e6a7cf0133464425/Δημήτρης_Μαυρίδης.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Δημήτρης Μαυρίδης",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "y6pqrvGtNWPbX3L1J5AYb",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/y6pqrvGtNWPbX3L1J5AYb/6783b22eeb87a0b8759e15b6b44fd897/thumbnail-mavridis-d-67d86536f166b.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-mavridis-d-67d86536f166b",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7JKGAOrU8XJmRXEqhwE5oW",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Φωτεινή Παντελοπούλου | HR Professional",
+      "text": null,
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "11sqAmwhXWfCGMb22b9A6d",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/11sqAmwhXWfCGMb22b9A6d/390e3e688e33c20fae7e4c742af034f4/Φωτεινη_Παντελοπούλου.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Φωτεινή Παντελοπούλου",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "4A8J599ls3HKS6tgmx1QkI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4A8J599ls3HKS6tgmx1QkI/6efccddb652f2d33e2a272fc8f8fbfb5/thumbnail-pantelopoulou-67d8653a4ae74.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-pantelopoulou-67d8653a4ae74",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1VJqtop0Q2RBxEebnS4d2q",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Zoi Chatziathanasiou | Data Analyst",
+      "text": null,
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1aCQJg51qCcuPEUIsT871M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/1aCQJg51qCcuPEUIsT871M/80b9278c81f458873642b33e93b2b37f/Zoi_Chatziathanasiou.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Zoi Chatziathanasiou",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "6UpUZPqnK8XsBPSykkTJ10",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6UpUZPqnK8XsBPSykkTJ10/6a78d6bdcd24b1923968f90e7062e8ac/thumbnail-chatziathanasiou-67d86534ac567.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-chatziathanasiou-67d86534ac567",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7hrEDtNBcZZdXs1niIHoV5",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Παναγιώτης Παντελίδης | HR Professional",
+      "text": null,
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "65T1Fr1bCGgu2OoWxh9opw",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/65T1Fr1bCGgu2OoWxh9opw/b77525fcffab843b06946bc8343d3c27/Παναγιώτης_Παντελίδης.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Παναγιώτης Παντελίδης",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "4bouuTn5HIdtVSZcyNTVK5",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4bouuTn5HIdtVSZcyNTVK5/2ee7e7d64f777787d4f9a9a88848a107/thumbnail-pantelidis-67d8653a3bfa2.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-pantelidis-67d8653a3bfa2",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5fSwCVyajpVn6HJpJdQLIf",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "2.500",
+      "text": "Career Transitions",
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1YYjzQ5fAHSqzySV0cwfPJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "3.500",
+      "text": "Remote Professionals",
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5j2PR66qh5Pcc5Ai6BzKJS",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Finance",
+      "text": null,
+      "variant": "Category",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1BcMGS4Ih2iNKxmFJme654",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance Clear",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6Ill9AR7aVTzNf47x3QR30",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Digital Marketing",
+      "text": null,
+      "variant": "Category",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing Clear",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4TeLHGsReMLbyyEyCxaQP9",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3lVyyR5PuQ0uG0tPl5vOcg",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Faster, Measurable Results",
+      "text": "Μάθε έξυπνα, αναβάθμισε δεξιότητες γρηγορότερα και δες τη διαφορά.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5Ar9qz57ibvD82QBxizciF",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Interactive Role-Playing",
+      "text": "Μάθηση που μοιάζει αληθινή—γιατί είναι.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1H1qTXNKC1Day5YsscOaRF",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "AI-Powered Personalization",
+      "text": "Δώστε σε κάθε εργαζόμενο μια μαθησιακή διαδρομή κομμένη και ραμμένη στα μέτρα του.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6JY4JWwctffFTvlZFVILdf",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Μαρία Μαρκαντώνη | Healthcare Data Analyst",
+      "text": "Η Μαρία αξιολόγησε το πρόγραμμα ως μια σημαντική ευκαιρία για να εμβαθύνει στον τομέα των Data Analytics, αξιοποιώντας μια πλατφόρμα που της παρείχε τόσο εκπαιδευτικό υλικό όσο και υποστήριξη όποτε ήταν απαραίτητο. Έχοντας αποκομίσει πολύτιμες γνώσεις και εμπειρίες, έχει συστήσει την εταιρεία στο επαγγελματικό και φιλικό της περιβάλλον, ενώ στοχεύει στην εξασφάλιση μιας θέσης εργασίας ως Data Analyst, που θα της επιτρέψει να εφαρμόσει τις νέες της δεξιότητες.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2MbzyiLvEty90GMRWtxo4g",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/2MbzyiLvEty90GMRWtxo4g/6a07a9dc3bff53c20f37aec0403eef98/Μαρία_Μαρκαντώνη.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Μαρία Μαρκαντώνη",
+        "description": ""
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "5wteFJwyKStNXRAzj9QIYU",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5wteFJwyKStNXRAzj9QIYU/891efdab7dd12004cc99acd8f6a3d073/thumbnail-markantoni-67d86536dd75b.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-markantoni-67d86536dd75b",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "50vU1e49TX6ghy5xHS6hda",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "HR",
+      "text": null,
+      "variant": "Category",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "41SIiSVTDJrGUNJ0bQRDVj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR Clear",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "63Bz4SeHtpGUoeU3ybQsor",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4wOkYisM2fdPRDrLxiIaQI",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Data Science",
+      "text": null,
+      "variant": "Category",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "416vehayqrV4g3o1z74ohQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science Clear",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4PTyorx9g5xCALSbXAHdSq",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3NaAqSnFokaPH2Y71x65JM",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Ατομική μάθηση",
+      "text": "### Ξεκλείδωσε την καριέρα σου\nΤο Workearly αξιοποιεί τη δύναμη του role-playing και των interactive εργαλείων για να προσφέρει εξατομικευμένα μαθήματα, άμεσο feedback και μια interactive μαθησιακή εμπειρία προσαρμοσμένη στους στόχους σου.\n- 25,000 Learners\n- 120+ Courses\n- 1000+ Reviews",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2Szo5RC5RDqo36YRKAG4cG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5cZ1P1903EUC5nhTDQy9QP",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Αναβάθμισε τις δεξιότητες της ομάδας σου",
+      "text": "### Αναβάθμισε τις δεξιότητες της ομάδας σου \nΤο Workearly αλλάζει το παιχνίδι στo reskilling με AI και διαδραστικά εργαλεία, προσφέροντας εξατομικευμένη εκπαίδευση, real-time feedback και εργαλεία που κρατούν την ομάδα σου engaged και έτοιμη για επιτυχία.\n- 25,000 Learners\n- 120+ Courses\n- 1000+ Reviews\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": ["For Businesses"],
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "XcaFTDoGIWHoLCC82CExr",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6yL5YsKpSn9kXcQBIcpvw3",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Power BI",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "47JtSRSAQKcJQtnB6Vv3vJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/47JtSRSAQKcJQtnB6Vv3vJ/ea37abf6978882c683f8485dffc3a1fb/Icon_-_PowerBI_-_Color.png",
+        "width": 97,
+        "height": 96,
+        "contentType": "image/png",
+        "title": "Icon - PowerBI - Color",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "134xufO8wxzuuscvDvWbdq",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Python",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2IyUbvKIRUnzKu7jfzQFfG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2IyUbvKIRUnzKu7jfzQFfG/1e468c0732840de644f6a2a6782dbf72/Icon_-_Python_-_Color.png",
+        "width": 96,
+        "height": 96,
+        "contentType": "image/png",
+        "title": "Icon - Python - Color",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7j7cadYxYoVDyA2nfhknjz",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "1k+",
+      "text": "Κριτικές",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5yrW6JycUIXu7dSErg2Kyl",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "70+",
+      "text": "Μαθήματα",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4HUFk9vzgRgFOMPI7alqcz",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "100+",
+      "text": "Συνεργασίες",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "cqYV01T0CBW3ImKLZ7dP7",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "25k+",
+      "text": "Απόφοιτοι",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1hbitagH4ujGOoaRCXa4TN",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Tableau",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "71VIMk8KhlHpVJojNGtxT5",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/71VIMk8KhlHpVJojNGtxT5/36a53c2ac844fcff5125e5fca0a5268e/Icon_-_Tableau_-_Color.png",
+        "width": 96,
+        "height": 96,
+        "contentType": "image/png",
+        "title": "Icon - Tableau - Color",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4kCSNZtCmw8I2CYoISRxyo",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Health Analytics – Predicting Disease Risks",
+      "text": "Χρησιμοποίησε ιατρικά δεδομένα για την πρόβλεψη κινδύνων ασθενειών, εφαρμόζοντας data science μεθόδους και deep learning.",
+      "variant": null,
+      "studentsCount": 890,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1V2sxC66DyOKuSIwh1Ucjw",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Stock Market Prediction with Python",
+      "text": "Ανάπτυξε αλγορίθμους μηχανικής μάθησης για την πρόβλεψη τάσεων στο χρηματιστήριο χρησιμοποιώντας ιστορικά δεδομένα και τεχνική ανάλυση.",
+      "variant": null,
+      "studentsCount": 850,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3vAE9I9kpKCNW8s2LmduvY",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Predicting Employee Attrition with Machine Learning",
+      "text": "Χρησιμοποίησε δεδομένα HR για να προβλέψεις ποιοι εργαζόμενοι είναι πιθανό να αποχωρήσουν, αναλύοντας παράγοντες όπως μισθός, ικανοποίηση και εργασιακό περιβάλλον.",
+      "variant": null,
+      "studentsCount": 900,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2a2JZP8x0ck1nD04VVxm8p",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Time Management & Productivity Optimization",
+      "text": "Ανάλυση προτύπων εργασίας και δημιουργία data-driven στρατηγικών για τη βελτίωση της διαχείρισης χρόνου, εστιάζοντας σε τεχνικές όπως Pomodoro, Eisenhower Matrix & Task Automation.",
+      "variant": null,
+      "studentsCount": 910,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6DEbEuovMixQiLgT5FbXbm",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Effective Communication & Public Speaking with AI Feedback",
+      "text": "Χρήση AI-powered speech analysis tools για τη βελτίωση της παρουσίασης, του τόνου φωνής και της αποτελεσματικότητας στην επικοινωνία σε επαγγελματικές περιστάσεις.",
+      "variant": null,
+      "studentsCount": 880,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3eMfcwBqMVqhVMJcgLwwK",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Emotional Intelligence in Leadership & Team Management",
+      "text": "Ανάλυση δεδομένων απόδοσης ομάδων και αυτοαξιολόγησης συναισθηματικής νοημοσύνης (EQ) για τη βελτίωση της επικοινωνίας και της ηγεσίας στον χώρο εργασίας.",
+      "variant": null,
+      "studentsCount": 900,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2U8jRDpGS780cNcYfFBGUh",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "AI-Driven Fraud Detection in Financial Transactions",
+      "text": "Εφαρμογή AI αλγορίθμων ανίχνευσης απάτης, που αναλύουν πρότυπα συναλλαγών και εντοπίζουν ύποπτες δραστηριότητες μέσω Anomaly Detection & Deep Learning.",
+      "variant": null,
+      "studentsCount": 930,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5d69XcLu3mAeUAfZyipTbc",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "AI Chatbot for Employee Support & HR Automation",
+      "text": "Δημιουργία ενός HR Chatbot με Machine Learning & NLP, που απαντά σε ερωτήσεις εργαζομένων, διαχειρίζεται αιτήσεις αδειών και βοηθά στην onboarding διαδικασία.",
+      "variant": null,
+      "studentsCount": 920,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1gkALhceV9CTunpiqFezrV",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "AI-Powered Resume Screening for Recruitment",
+      "text": "Ανάπτυξη ενός AI μοντέλου που αυτοματοποιεί την ανάλυση βιογραφικών, ταξινομώντας υποψήφιους βάσει δεξιοτήτων και εμπειρίας, χρησιμοποιώντας Natural Language Processing (NLP) & Python.",
+      "variant": null,
+      "studentsCount": 940,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6bt94v00h8GEN2naOSsz9c",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Risk Management & Credit Scoring with SQL & Python",
+      "text": "Ανάλυση δεδομένων τραπεζικών δανείων και ανάπτυξη ενός credit risk model χρησιμοποιώντας SQL και Python, αξιολογώντας παραμέτρους όπως εισόδημα, ιστορικό δανείων και πληρωμές.",
+      "variant": null,
+      "studentsCount": 920,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "gYKX2jIGpDFASXPfpguKg",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Cryptocurrency Market Analysis",
+      "text": "Ανάλυση των τάσεων και μεταβολών των κρυπτονομισμάτων με χρήση Python (NumPy, Matplotlib, Plotly), αξιοποιώντας τεχνικούς δείκτες και δεδομένα συναλλαγών.",
+      "variant": null,
+      "studentsCount": 910,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2z0KQCe9iRK7lay7HPbS88",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Stock Price Prediction with Machine Learning",
+      "text": "Ανάπτυξη μοντέλου Machine Learning για την πρόβλεψη τιμών μετοχών, χρησιμοποιώντας Python (Pandas, Scikit-Learn, TensorFlow) και ιστορικά δεδομένα αγοράς.",
+      "variant": null,
+      "studentsCount": 950,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5qDff8Hpshi12UaxqRRRBz",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Fan Engagement & Social Media Sentiment Analysis",
+      "text": "Ανάλυση σχολίων και αντιδράσεων φιλάθλων στα social media (Twitter, Instagram) μέσω Natural Language Processing (NLP), εντοπίζοντας τάσεις και προτιμήσεις.",
+      "variant": null,
+      "studentsCount": 880,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5DMSmKOHt6KyTZ8FSwajDR",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Predicting Match Outcomes with Machine Learning",
+      "text": "Ανάπτυξη μοντέλου πρόβλεψης αποτελεσμάτων αγώνων χρησιμοποιώντας Machine Learning (Scikit-Learn, TensorFlow) και δεδομένα από προηγούμενους αγώνες, όπως κατοχή μπάλας, επιθέσεις και άμυνες.",
+      "variant": null,
+      "studentsCount": 890,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6JaUzgWmPpnLHGxTqkFQTy",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Performance Analysis in Basketball with Python",
+      "text": "Ανάλυση στατιστικών απόδοσης παικτών μπάσκετ χρησιμοποιώντας Python (Pandas, Matplotlib, Seaborn), αξιολογώντας μετρήσεις όπως πόντοι, ριμπάουντ και ασίστ για τη βελτίωση της στρατηγικής της ομάδας.",
+      "variant": null,
+      "studentsCount": 920,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3O00tYDL9e2jSCBV2WLJW",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Email Marketing & Conversion Rate Optimization (CRO)",
+      "text": "Σχεδιασμός και αυτοματοποίηση email καμπανιών με Mailchimp ή HubSpot, ανάλυση open & click rates και βελτίωση του conversion funnel μέσω data-driven στρατηγικών.",
+      "variant": null,
+      "studentsCount": 880,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "41jn6cTtXBnAxdG9KamwJO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Social Media Ads Performance Tracking",
+      "text": "Δημιουργία, εκτέλεση και ανάλυση διαφημιστικών καμπανιών σε Facebook, Instagram & LinkedIn Ads, αξιοποιώντας A/B testing και δεδομένα μετατροπών για βελτιστοποίηση.",
+      "variant": null,
+      "studentsCount": 870,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5Ud7tKNFTcVrTtJOi85V4D",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "SEO Optimization & Web Traffic Analysis",
+      "text": "Ανάλυση δεδομένων επισκεψιμότητας ενός website, βελτιστοποίηση περιεχομένου για SEO και χρήση εργαλείων όπως Google Analytics & Ahrefs για αύξηση της οργανικής αναζήτησης.",
+      "variant": null,
+      "studentsCount": 900,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "8uVgoSkc6nzTUrbayiFnH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Automating Data Pipelines with Python & SQL",
+      "text": "Δημιουργία αυτοματοποιημένων ETL (Extract, Transform, Load) pipelines που επεξεργάζονται δεδομένα από SQL βάσεις και τα μετασχηματίζουν χρησιμοποιώντας Python scripts.",
+      "variant": null,
+      "studentsCount": 870,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2s7YrbZ0hWAhS1ywcT0hcj",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Full-Stack Web App with Flask & SQL",
+      "text": "Ανάπτυξη μιας full-stack web εφαρμογής χρησιμοποιώντας Flask (Python) για το backend, SQL για τη βάση δεδομένων και HTML/CSS/JavaScript για το frontend.",
+      "variant": null,
+      "studentsCount": 890,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "40YaP366jfsGtqe0eYnGCT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Data Analysis & Visualization with Python & SQL",
+      "text": "Σχεδιασμός και εκτέλεση SQL queries για ανάλυση δεδομένων, σε συνδυασμό με Python (Pandas, Matplotlib, Seaborn) για δημιουργία οπτικοποιήσεων και αναφορών.",
+      "variant": null,
+      "studentsCount": 920,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4uxLha3ZR0gOWfzSD2pxJ2",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Health Analytics – Predicting Disease Risks",
+      "text": "Χρησιμοποίησε ιατρικά δεδομένα για την πρόβλεψη κινδύνων ασθενειών, εφαρμόζοντας data science μεθόδους και deep learning.",
+      "variant": null,
+      "studentsCount": 890,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3di9TGyToxRVaJtT7qJp0g",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Stock Market Prediction with Python",
+      "text": "Ανάπτυξε αλγορίθμους μηχανικής μάθησης για την πρόβλεψη τάσεων στο χρηματιστήριο χρησιμοποιώντας ιστορικά δεδομένα και τεχνική ανάλυση.",
+      "variant": null,
+      "studentsCount": 850,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1nFmtGdRqu3Ii9XeopEdPz",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Predicting Employee Attrition with Machine Learning",
+      "text": "Χρησιμοποίησε δεδομένα HR για να προβλέψεις ποιοι εργαζόμενοι είναι πιθανό να αποχωρήσουν, αναλύοντας παράγοντες όπως μισθός, ικανοποίηση και εργασιακό περιβάλλον.",
+      "variant": null,
+      "studentsCount": 900,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "720WXZnqODxmzCQ6Cv8Vl6",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Diversity & Inclusion in the Workplace",
+      "text": "Ανάλυση δεδομένων για τη μέτρηση της προόδου στη διαφορετικότητα, την ισότητα και την ένταξη στις εταιρείες.",
+      "variant": null,
+      "studentsCount": 550,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2JhRbOGLK6KoTyKgpXLK6o",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Employee Retention & Workplace Satisfaction",
+      "text": "Διερεύνηση των παραγόντων που επηρεάζουν τη διατήρηση ταλέντων και τη δημιουργία θετικής εταιρικής κουλτούρας.",
+      "variant": null,
+      "studentsCount": 600,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5o5r7WKjk23URaLwUgrGiR",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Optimizing Recruitment Strategies with Data",
+      "text": "Ανάλυση δεδομένων πρόσληψης για την πρόβλεψη επιτυχημένων υποψηφίων και βελτίωση της διαδικασίας πρόσληψης μέσω AI & Analytics.",
+      "variant": null,
+      "studentsCount": 800,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1VSbAHFVLmaalzyduWv2Ih",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Agile Project Planning & Performance Tracking",
+      "text": "Σχεδιασμός και διαχείριση έργων χρησιμοποιώντας Agile μεθοδολογίες (Scrum, Kanban) και ανάλυση δεδομένων για την παρακολούθηση της απόδοσης και της προόδου των tasks.",
+      "variant": null,
+      "studentsCount": 800,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3oyLAwuOIhLyMWq7LpHWZa",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Supply Chain Optimization with Data Analytics",
+      "text": "Βελτιστοποίηση της εφοδιαστικής αλυσίδας μέσω ανάλυσης δεδομένων, μείωσης κόστους και αύξησης αποδοτικότητας.",
+      "variant": null,
+      "studentsCount": 820,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1BecOc1g6tCPsODDGyiliC",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Market Analysis & Competitive Intelligence",
+      "text": "Ανάλυση δεδομένων αγοράς για τον εντοπισμό ανταγωνιστικών στρατηγικών, τάσεων και ευκαιριών ανάπτυξης στον κλάδο.",
+      "variant": null,
+      "studentsCount": 850,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1ZnESqFfQWtED4DsUNfhkD",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Business",
+      "text": null,
+      "variant": "Category",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7Ljw0kstHEPmqTWCjhgb6O",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "6IMm6C3PYJ8O8486MTGMg0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business Clear",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7uMZDhCZde0W8ENs4hLdeP",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Εξετάσεις & αξιολογήσεις",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2IZ8BEsjdnbPLxYwLdbIQG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2IZ8BEsjdnbPLxYwLdbIQG/e48cb4d77f5f2b5970a631da8322613e/Exams.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Exams",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7KS6X6duJm7yCq7HtxTLtF",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Support & mentoring ",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4XoVATyPR9uR30RsTPPhfB",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4XoVATyPR9uR30RsTPPhfB/99db452231119ca65871f41162a4fdbf/Interactive.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "1.000+",
+        "description": "Tech & AI Professionals"
+      }
+    },
+    {
+      "sys": {
+        "id": "47SQm0kzGweL6RuYnlMc63",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Case studies",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4rAKnJCr7hZUUzUEuIQmfN",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4rAKnJCr7hZUUzUEuIQmfN/53c172ec44bfa727467a111f8e14886f/Document_-_Case_Study.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "1.000+",
+        "description": "Freelancers & Consultants"
+      }
+    },
+    {
+      "sys": {
+        "id": "uVJi90nj4SOo3KNKvdVK5",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Role-playing scenarios ",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2QCzY4qMhlU8Mls0m68hOx",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2QCzY4qMhlU8Mls0m68hOx/6d311c6c7bbba523fab4dde660e07363/Video.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "2.500",
+        "description": "Career Transitions"
+      }
+    },
+    {
+      "sys": {
+        "id": "6Mc25waYi1uiYAwr4AucfM",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Certified Results – Αναγνωρισμένες πιστοποιήσεις.",
+      "text": null,
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "6ZFgaWasq5xgJ5qyXSxMUv",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Hands-On Skills – Πρακτική γνώση για άμεση εφαρμογή.",
+      "text": null,
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "5vfRL3rEDTUZ0PluSs1eiQ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Personalized Training – Μάθε με τον δικό σου ρυθμό.",
+      "text": null,
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "2Ymv7Yy9py9sbY5pDFTYLL",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Γιώργος Γεωργακόπουλος | HR Professional",
+      "text": "Ο Γιώργος είναι επαγγελματίας στον τομέα του Ανθρώπινου Δυναμικού (HR) και \nολοκλήρωσε το πρόγραμμα της Workearly σε πέντε μήνες, αξιοποιώντας την ευελιξία της εκπαίδευσης. Η εμπειρία του ξεπέρασε τις προσδοκίες του, λαμβάνοντας άμεση υποστήριξη και επαγγελματική καθοδήγηση. Στοχεύει σε δημιουργικούς ρόλους σε οργανωμένο HR τμήμα, θεωρώντας ότι το πρόγραμμα τού παρείχε τα κατάλληλα εφόδια για την εξέλιξή του.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4OUcUpHhlx9p4v2yPcznUH",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/4OUcUpHhlx9p4v2yPcznUH/904679831e003a12ce50d6cc519b9d83/Γιώργος_Γεωργακόπουλος.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Γιώργος Γεωργακόπουλος",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "3NO13YUrIIUeAJq5GH92If",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3NO13YUrIIUeAJq5GH92If/25cc780ba27606449ec971a649fdcf4b/thumbnail-georgakopoulos-67d86535cff85.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-georgakopoulos-67d86535cff85",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4q81XROvbFZBYvbHVUqHhy",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Φωτεινή Παντελοπούλου | HR Professional",
+      "text": "Η Φωτεινή εργάζεται ως Operations Administrator και ολοκλήρωσε ένα HR course για να διευρύνει τις γνώσεις της στον χώρο του Ανθρώπινου Δυναμικού. Αξιολογεί τη συνεργασία της με την Workearly ως εξαιρετική και τη συστήνει ανεπιφύλακτα. Στόχος της είναι η επαγγελματική της ανάπτυξη, είτε εντός της τρέχουσας εταιρείας της είτε σε έναν οργανισμό που θα της προσφέρει νέες προοπτικές.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "11sqAmwhXWfCGMb22b9A6d",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/11sqAmwhXWfCGMb22b9A6d/390e3e688e33c20fae7e4c742af034f4/Φωτεινη_Παντελοπούλου.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Φωτεινή Παντελοπούλου",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "4A8J599ls3HKS6tgmx1QkI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4A8J599ls3HKS6tgmx1QkI/6efccddb652f2d33e2a272fc8f8fbfb5/thumbnail-pantelopoulou-67d8653a4ae74.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-pantelopoulou-67d8653a4ae74",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4BmIJkOSLlu0x22EI9j2MO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Δημήτρης Μαυρίδης | Healthcare Data Analyst",
+      "text": "Ο Δημήτρης, ως Διευθυντής Ανάπτυξης, αναγνωρίζει τη συνεχή υποστήριξη και την ενεργή παρουσία της ομάδας της Workearly. Η εξειδικευμένη γνώση που απέκτησε μέσα από το πρόγραμμα συνέβαλε στην ενίσχυση της στρατηγικής του σκέψης και στη βελτιστοποίηση της λήψης αποφάσεων. Πλέον, αντιμετωπίζει τις προκλήσεις του ρόλου του με μεγαλύτερη αυτοπεποίθηση και αποτελεσματικότητα.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6PDLO1pltXkNUbHHvBOLEY",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/6PDLO1pltXkNUbHHvBOLEY/7d5215d5d1484e82e6a7cf0133464425/Δημήτρης_Μαυρίδης.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Δημήτρης Μαυρίδης",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "y6pqrvGtNWPbX3L1J5AYb",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/y6pqrvGtNWPbX3L1J5AYb/6783b22eeb87a0b8759e15b6b44fd897/thumbnail-mavridis-d-67d86536f166b.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-mavridis-d-67d86536f166b",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3yhQuBMkCvZvW22v1ID90d",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Ευθύμης Μαυρίδης | Data Analyst ",
+      "text": "Ο Ευθύμης είναι Τοπογράφος Μηχανικός και Γεωπληροφορικός. Ολοκληρώνοντας το Data Analyst Course, ανέπτυξε γνώσεις σε εργαλεία όπως Python, Power BI, SQL και Tableau. Η εκπαίδευση αυτή του παρείχε πολύτιμες δεξιότητες, διευρύνοντας τις επαγγελματικές του προοπτικές. Πλέον, στοχεύει στην περαιτέρω εξέλιξή του στον τομέα της ανάλυσης δεδομένων, αξιοποιώντας τις νέες του γνώσεις.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "52aM2GF2wVCddPC97bSDI3",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/52aM2GF2wVCddPC97bSDI3/a04f371378b22c70fda35a3dc82b8c84/Ευθύμης_Μαυρίδης.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Ευθύμης Μαυρίδης",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "3CgcM34y4gWD4Df6p1IfKl",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3CgcM34y4gWD4Df6p1IfKl/692ea74c9bf6ca7195f7e31071dddf7a/thumbnail-mavridis-e-67d865380ef81.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-mavridis-e-67d865380ef81",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1GHaHDIngqzyLPWsP8cCgR",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Xρήστος Μαυρόπουλος | Tech Recruiter",
+      "text": "Ο Χρήστος ήθελε να διευρύνει τις γνώσεις του στο IT Recruitment. Ολοκληρώνοντας το πρόγραμμα Tech Recruitment, απέκτησε εξειδικευμένες γνώσεις και ανέπτυξε νέες δεξιότητες στον χώρο του HR. Η εκπαίδευση αυτή ενίσχυσε την ικανότητά του να εντοπίζει και να προσελκύει ταλέντα στον τεχνολογικό κλάδο, βελτιώνοντας τις προοπτικές του στον τομέα της στελέχωσης και διαχείρισης ανθρώπινου δυναμικού.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5il5WMceqqucW2LCB3cvfx",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/5il5WMceqqucW2LCB3cvfx/e87f4a3a287a5075fc7c8c6be905aa58/Christos_Mavropoulos.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Christos Mavropoulos",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "2AXwAOvO79oXl0wIrLoze",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AXwAOvO79oXl0wIrLoze/9042f3c96ff5f4c1b8b0a2c2db00e400/thumbnail-mavropoulos-67d8653813b2e.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-mavropoulos-67d8653813b2e",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5H3Ti6psk45cz1aVYZMi2U",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Ειρήνη Μπελεκίου | HR Professional",
+      "text": "Η Ειρήνη διαθέτει πολυετή εμπειρία στην εταιρική επικοινωνία και την εξυπηρέτηση πελατών. Ολοκληρώνοντας εξειδικευμένα HR Courses, ανέπτυξε περαιτέρω τις δεξιότητές της στον τομέα του Ανθρώπινου Δυναμικού. Πλέον, επιδιώκει να εξελιχθεί επαγγελματικά, αναλαμβάνοντας έναν ρόλο όπου θα μπορεί να αξιοποιήσει τις γνώσεις της στη Διαχείριση Ανθρώπινου Δυναμικού, συμβάλλοντας στην ανάπτυξη ενός οργανισμού.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5ESIhMDebpV8VeiefRWrU4",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/5ESIhMDebpV8VeiefRWrU4/abfb1ef5607f620930acc7881749eb77/Eirini_Belekiou.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Eirini Belekiou",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "626DMNJpQqHXDfnG06VAyN",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/626DMNJpQqHXDfnG06VAyN/f1ad95ef0f5caa885e7432f368c64dc5/thumbnail-mpelekiou-67d86539269e0.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-mpelekiou-67d86539269e0",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1gMKhSDXtrX0EbkcLVUEKx",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Chatzizisi Maria | Digital Marketer",
+      "text": "Η Μαρία είναι επαγγελματίας αισθητικός με ισχυρό επιχειρηματικό προσανατολισμό. Ολοκληρώνοντας το πρόγραμμα Digital Marketing Analytics, ανέπτυξε πολύτιμες γνώσεις που εφάρμοσε στην επιχείρησή της. Η εκπαίδευση αυτή της επέτρεψε να εξελιχθεί επαγγελματικά και να συμβάλει στην ανάπτυξη της επιχείρησής της, αξιοποιώντας σύγχρονες στρατηγικές digital marketing και ανάλυσης δεδομένων.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1wmzEpC5Yo7ZqTmhXLFv7Z",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/1wmzEpC5Yo7ZqTmhXLFv7Z/56f37befcc1647b64488376f3fc11082/Chatzizisi_Maria.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Chatzizisi Maria",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "2KRuqU3aE4gzSD17WIWBVz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2KRuqU3aE4gzSD17WIWBVz/8fda88eb0fc92b9ac7213e4060b28549/thumbnail-chatzizisi-67d86534b4271.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-chatzizisi-67d86534b4271",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4eVB2JHkmfcn0G2cBQEGXM",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Γρηγόρης Μητσαλας | Data Analyst",
+      "text": "Ο Γρηγόρης αναζητούσε μια αλλαγή καριέρας και μέσω της ολοκλήρωσης του προγράμματος Data Analyst, κατάφερε να μεταβεί επιτυχημένα στον χώρο της ανάλυσης δεδομένων. Η εκπαίδευση αυτή του παρείχε τις απαραίτητες δεξιότητες και αυτοπεποίθηση για να ξεκινήσει τη νέα του διαδρομή. Σήμερα εργάζεται ως Junior Data Analyst, εφαρμόζοντας τις γνώσεις του στον κλάδο και εξελίσσοντας συνεχώς τις ικανότητές του.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3jcA5qoHo37IVpXKYamoTG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/3jcA5qoHo37IVpXKYamoTG/03e02d6fb240548144318d598ebaef64/Γρηγόρης_Μητσαλας.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Γρηγόρης Μητσαλας",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "6ULt70C6PVeCl6P8kfmfEX",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6ULt70C6PVeCl6P8kfmfEX/d705a2e77a7cbc7258b5f5001b202297/thumbnail-mitsalas-67d865391ed1a.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-mitsalas-67d865391ed1a",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7vW46Bf7HsHgGzG70f23bO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Zoi Chatziathanasiou | Data Analyst",
+      "text": "Η Ζωή είναι απόφοιτος Μαθηματικών του ΑΠΘ και φοιτά σε μεταπτυχιακό πρόγραμμα Health Statistics & Data Analytics. Συμμετέχοντας στο Data Science Summer School, απέκτησε πολύτιμες γνώσεις και ανέπτυξε δεξιότητες στην ανάλυση δεδομένων. Η εκπαίδευση αυτή της επέτρεψε να εξοικειωθεί με εργαλεία όπως Python, SQL, Power BI και Tableau, ενισχύοντας την πορεία της στον τομέα των δεδομένων.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1aCQJg51qCcuPEUIsT871M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/1aCQJg51qCcuPEUIsT871M/80b9278c81f458873642b33e93b2b37f/Zoi_Chatziathanasiou.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Zoi Chatziathanasiou",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "6UpUZPqnK8XsBPSykkTJ10",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6UpUZPqnK8XsBPSykkTJ10/6a78d6bdcd24b1923968f90e7062e8ac/thumbnail-chatziathanasiou-67d86534ac567.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-chatziathanasiou-67d86534ac567",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4KxNsGl4hdzIjSt7LK2l2G",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Amvrosios Roukis | Data Analyst",
+      "text": "Ο Αμβρόσιος επέλεξε να αλλάξει επαγγελματική κατεύθυνση και να σταδιοδρομήσει ως Data Analyst. Ολοκληρώνοντας το Data Analyst Bootcamp, απέκτησε εξειδικευμένες γνώσεις και δεξιότητες στην ανάλυση δεδομένων. Σήμερα αναζητά ενεργά εργασία ως Junior Data Analyst, αξιοποιώντας τις ακαδημαϊκές του σπουδές και τις νέες του γνώσεις σε ένα δυναμικό και αναπτυσσόμενο επαγγελματικό πεδίο.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5yUP2y2kcb1Sk2tbcRHhGU",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/5yUP2y2kcb1Sk2tbcRHhGU/fab4458365f7fa836857b1cfe531c376/Amvrosios_Roukis.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Amvrosios Roukis",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "VPmpjOqKmMzQhbnP4aW1G",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/VPmpjOqKmMzQhbnP4aW1G/ab7c2564b25f23b43259b2e9e1abe156/thumbnail-roukis-67d8653b38c63.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-roukis-67d8653b38c63",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6ifcgCIFMMIyyt20tgAaaL",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Γρηγόριος Εμμανουηλίδης | Business Analyst",
+      "text": "Ο Γρηγόρης είναι απόφοιτος Λογιστικής και Χρηματοοικονομικών του ΠΑΜΑΚ. Συμμετέχοντας στο Business Analyst Bootcamp, απέκτησε εξειδικευμένες γνώσεις και εξοικειώθηκε με εργαλεία όπως Power BI, Tableau και SQL. Οι δεξιότητες που ανέπτυξε τού επέτρεψαν να γίνει δεκτός σε μεταπτυχιακό πρόγραμμα Business & Data Analytics, ενισχύοντας την ακαδημαϊκή και επαγγελματική του εξέλιξη.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6rmzk4xFEEjax2FCZ0cChm",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/6rmzk4xFEEjax2FCZ0cChm/5e3a782f2fd9052de6a3bc79b9bdeb63/Γρηγόριος_Εμμανουηλίδης.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Γρηγόριος Εμμανουηλίδης",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "40Kub3idmM0XkDgWgVN1FN",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/40Kub3idmM0XkDgWgVN1FN/4627012d2574e6f81ecbedf8fbbd8250/thumbnail-emmanouilidis-67d86535bcb52.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-emmanouilidis-67d86535bcb52",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5w3xLEQQ90b4tvCtSar07o",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Θωμάς Τζώρτζης | Sports Data Analyst",
+      "text": "Ο Θωμάς εργάζεται ως Data Analyst και ολοκλήρωσε το πρόγραμμα Sports Data Analytics School με στόχο την περαιτέρω εμβάθυνση των γνώσεών του στον τομέα της ανάλυσης αθλητικών δεδομένων.\n\nΗ εκπαίδευση αυτή του παρείχε πολύτιμο υλικό και υποστήριξη, συμβάλλοντας στην επαγγελματική του εξέλιξη. Έχοντας ενισχύσει τις δεξιότητές του στη διαχείριση δεδομένων, στοχεύει στην εφαρμογή τους στον αθλητικό κλάδο.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5LmLii8C8u69bjmFPKrhEI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/5LmLii8C8u69bjmFPKrhEI/e6fbbe753c4fd6d23af199f8288ec1ec/Thomas_Tzortzis.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Thomas Tzortzis",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "3pieG9Xe2HHdj2pDIJqGZL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3pieG9Xe2HHdj2pDIJqGZL/2648e23b60f78abfd1f9e51f002daace/thumbnail-tzortzis-67d8653b6bb0a.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-tzortzis-67d8653b6bb0a",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1LSOJV5hbRGHz0F3mSGz9V",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Παναγιώτης Παντελίδης | HR Professional",
+      "text": "Ο Παναγιώτης είναι απόφοιτος Κοινωνικής Εργασίας του Δημοκριτίου Πανεπιστημίου Θράκης.\n\nΗ εμπειρία του με την ομάδα και την πλατφόρμα της Workearly ήταν εξαιρετική, καθώς του προσέφερε ευελιξία και ποιοτική εκπαίδευση. Συνιστά την Workearly σε όσους θέλουν να αναπτύξουν τις δεξιότητές τους. Φιλοδοξεί να ενταχθεί σε έναν οργανισμό που θα του δώσει προοπτικές επαγγελματικής και προσωπικής εξέλιξης.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 5,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "65T1Fr1bCGgu2OoWxh9opw",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/65T1Fr1bCGgu2OoWxh9opw/b77525fcffab843b06946bc8343d3c27/Παναγιώτης_Παντελίδης.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Παναγιώτης Παντελίδης",
+        "description": null
+      },
+      "thumbnail": {
+        "sys": {
+          "id": "4bouuTn5HIdtVSZcyNTVK5",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4bouuTn5HIdtVSZcyNTVK5/2ee7e7d64f777787d4f9a9a88848a107/thumbnail-pantelidis-67d8653a3bfa2.webp",
+        "width": 480,
+        "height": 642,
+        "contentType": "image/webp",
+        "title": "thumbnail-pantelidis-67d8653a3bfa2",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3GzMx0C4av77x8OaNvSUVy",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "400% ROI from SEO",
+      "text": "Οι εταιρείες που επενδύουν στο SEO βλέπουν 400% απόδοση επένδυσης κατά μέσο όρο.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3ZHNMxn13jD9NXmvOs47Il",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$92 Billion Spent on Ads",
+      "text": "Η ψηφιακή διαφημιστική δαπάνη αναμένεται να φτάσει τα $92 δισεκατομμύρια φέτος.\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "PzvMALDOPilvlvaBrixtS",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "70% of Budgets Go Digital",
+      "text": "Οι επιχειρήσεις διαθέτουν 70% του marketing budget τους σε ψηφιακά κανάλια.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2ul5XEhnMUWu88d8AFSJ1F",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$1 Trillion Industry",
+      "text": "Ο κλάδος του Digital Marketing αναμένεται να ξεπεράσει το $1 τρισεκατομμύριο έως το 2030.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1TzqtwNrTOEekiUNXYzdad",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "30% Increase in Productivity",
+      "text": "Η AI-powered αυτοματοποίηση αυξάνει την παραγωγικότητα των επιχειρήσεων κατά 30%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3gOjbE9KrsW7oXlE3kUqH1",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "80% of Enterprises Use AI",
+      "text": "Η υιοθέτηση AI μεταξύ των επιχειρήσεων έχει φτάσει το 80% παγκοσμίως.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6UijzSwbrhTr5ItBQmpFus",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "97 Million AI Jobs",
+      "text": " Το AI θα δημιουργήσει 97 εκατομμύρια νέες θέσεις εργασίας παγκοσμίως έως το 2025.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6sfhMewmEs4mhyCYkJAyWa",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$15.7 Trillion Contribution",
+      "text": "Η τεχνητή νοημοσύνη (AI) προβλέπεται να συνεισφέρει $15.7 τρισεκατομμύρια στην παγκόσμια οικονομία έως το 2030.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3d1wOSsZjyAn3tYSdSXs9K",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "85% of Breaches Due to Human Error",
+      "text": "Τα AI-powered security solutions μπορούν να αποτρέψουν το 85% των κυβερνοεπιθέσεων που οφείλονται σε ανθρώπινα λάθη.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2TQVL0y88s63HPrhWuALdX",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "70% Increase in IT Demand",
+      "text": "Οι ρόλοι σε Cloud Computing και Cybersecurity αναπτύσσονται 70% ταχύτερα από άλλους IT τομείς.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2UQZ84kaneUlaOQz1PUVPx",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "3.5 Million Job Openings",
+      "text": "Αναμένεται έλλειψη 3.5 εκατομμυρίων θέσεων εργασίας στον τομέα της κυβερνοασφάλειας έως το 2025.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2EuU1rAHeFH9aRACmkVlnI",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$10 Trillion Cybercrime Cost",
+      "text": "Μέχρι το 2025, οι ζημιές από κυβερνοεγκλήματα θα φτάσουν τα $10 τρισεκατομμύρια ετησίως.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2wzj2MDfftfJfbFCUwtaVd",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "60% More Innovation",
+      "text": "Οι startups συμβάλλουν στο 60% της παγκόσμιας τεχνολογικής καινοτομίας.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "75CD8eCsfd8TJnec02gTkk",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "42% Growth in VC Funding",
+      "text": "Οι επενδύσεις venture capital αυξήθηκαν κατά 42% τα τελευταία πέντε χρόνια.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5RXiWoi1Ea5kAiyVz83fo5",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "90% of Startups Fail",
+      "text": "Το 90% των startups αποτυγχάνει, με βασικό λόγο την έλλειψη αγοραστικής ζήτησης.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2neUX8r8OKmUsCWWTgE3zv",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$5.4 Trillion Market",
+      "text": "Το παγκόσμιο οικοσύστημα νεοφυών επιχειρήσεων αποτιμάται στα $5.4 τρισεκατομμύρια.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4gv6na5RLwFb3yWHbk4j4f",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$1.4 Million Higher Earnings",
+      "text": "Ηγέτες με υψηλή επικοινωνιακή ικανότητα και συναισθηματική νοημοσύνη κερδίζουν $1.4 εκατομμύρια περισσότερα κατά τη διάρκεια της καριέρας τους.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1Wy9qQ8PBkJWd5lmF4SOzg",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "92% of Companies Seek Soft Skills",
+      "text": "Το 92% των εργοδοτών δηλώνει ότι οι υποψήφιοι στερούνται βασικών soft skills.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "31AawnxhLOPb6lRh7Jo6UJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "85% of Career Success",
+      "text": "Έρευνες δείχνουν ότι το 85% της επαγγελματικής επιτυχίας προέρχεται από ισχυρές ανθρώπινες δεξιότητες.\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2TfM7UISd9RxxOHjtGj2MX",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$290 Billion Industry",
+      "text": "Η αγορά εταιρικής εκπαίδευσης για Soft Skills προβλέπεται να φτάσει τα $290 δισεκατομμύρια έως το 2030.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2eLRtJSMovnCBETBDdw3Yt",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "88% of Businesses Adopt AI",
+      "text": "Οι AI-driven επιχειρηματικές στρατηγικές εφαρμόζονται από το 88% των εταιρειών παγκοσμίως.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1bB9u1wK1oMI2nxHnXPHoh",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "50% Increase in Business Efficiency",
+      "text": "Η λήψη αποφάσεων βάσει δεδομένων αυξάνει την αποτελεσματικότητα των επιχειρήσεων κατά 50%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5HdjM6hGRAMo59oC2K3UTc",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$10 Trillion in Digital Transformation",
+      "text": "Οι επιχειρήσεις θα επενδύσουν $10 τρισεκατομμύρια στον ψηφιακό μετασχηματισμό έως το 2030.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7iQuq6DISQ05B52TU7qmfO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "95% of CEOs Prioritize Strategy",
+      "text": "Το 95% των στελεχών δηλώνει ότι η επιχειρηματική στρατηγική είναι ο βασικός τους στόχος.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2cIvRw4I7YuGUpVoEx8nwl",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "90% of Banks Use AI",
+      "text": "Οι AI-driven λύσεις χρηματοοικονομικών υπηρεσιών υιοθετούνται από το 90% των παγκόσμιων τραπεζών.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7EgzTJZTbSRRhv1tN6dwvm",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$150 Billion AI Impact",
+      "text": "Το AI στη χρηματοοικονομική αναμένεται να εξοικονομήσει $150 δισεκατομμύρια έως το 2025.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2j5Ce0fhD9MMNX2ynQOM5R",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "75% of Transactions Digital",
+      "text": "Πάνω από 75% των οικονομικών συναλλαγών γίνονται ψηφιακά.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "W5SxlDeBerTW4ulBgKp7l",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$26.5 Trillion Industry",
+      "text": "Η παγκόσμια αγορά χρηματοοικονομικών υπηρεσιών αποτιμάται στα $26.5 τρισεκατομμύρια.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "J5vD2WKavhzuEGmaSBhdT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "85% of Companies Use AI in HR",
+      "text": "Τα AI-driven HR tools υιοθετούνται από το 85% των εταιρειών.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2LMSznClHE8qC9IhwTXro3",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "60% Higher Employee Retention",
+      "text": "Τα AI-powered hiring tools βελτιώνουν τη διατήρηση προσωπικού κατά 60%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6LJajkXEVh58etjyXEH2KH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "35% Reduction in Turnover",
+      "text": "Οι εταιρείες που χρησιμοποιούν predictive HR analytics μειώνουν τις αποχωρήσεις κατά 35%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1qukZONXUTp4dzimJwxlKS",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$3.6 Billion Market",
+      "text": "Η αγορά των HR Analytics αναμένεται να φτάσει τα $3.6 δισεκατομμύρια έως το 2028.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3NcykM50lfNeEHkY9KhrEk",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "30% Increase in Fan Engagement",
+      "text": "Τα δεδομένα αυξάνουν την αλληλεπίδραση των φιλάθλων και τις πωλήσεις εισιτηρίων κατά 30%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4HSC0eFOnZ3efmP5OuYOeI",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "70% of Teams Use AI",
+      "text": "Τα AI-driven analytics εφαρμόζονται από το 70% των επαγγελματικών αθλητικών ομάδων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3bVGoD3YZmMIFWlYoefMWV",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "20% Performance Improvement",
+      "text": "Οι ομάδες που χρησιμοποιούν αναλύσεις βελτιώνουν την απόδοσή τους κατά 20% κατά μέσο όρο.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5BftzzGe8sR55xRyeLVAy1",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$4.6 Billion Market",
+      "text": "Η αγορά των Sports Analytics αναμένεται να ξεπεράσει τα $4.6 δισεκατομμύρια έως το 2025.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "69DQ6EtGtbygyIaRXzhCUO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "90% of Companies Invest in Data",
+      "text": "Πάνω από 90% των οργανισμών δίνουν προτεραιότητα στη λήψη αποφάσεων βάσει δεδομένων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5RZt868QbM8Vzg9x9U5JB7",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "30% Faster Growth",
+      "text": "Οι ρόλοι στο Data Science αναπτύσσονται 30% ταχύτερα από τον μέσο όρο της αγοράς εργασίας.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "72WOUXcPoUHUh3xMyABYyb",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$3.1 Trillion Impact",
+      "text": "Το AI και το Data Science θα προσθέσουν $3.1 τρισεκατομμύρια ετησίως στην παγκόσμια οικονομία.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4kwxoBNP8dU96zO9X4eQj8",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "11.5 Million Jobs",
+      "text": "Μέχρι το 2026, η ζήτηση για Data Scientists αναμένεται να φτάσει τα 11.5 εκατομμύρια παγκοσμίως.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1pfVVWX3aFWnn42r1tWG9e",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Γιώργος Σκουρλής | Sports Data Analyst",
+      "text": "O Γιώργος ολοκλήρωσε το Sports Analytics School. Το συγκεκρίμενο Course αποτέλεσε βαρόμετρο στην εκπαίδευση του καθώς με την ολοκλήρωση του ξεκινησε την πρακτική του ως Football Data Analyst και ένα απο τα βασικά στοιχεία στο βιογραφικό του που τον ξεσώρησαν ήταν το Sports Analytics School. ",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 4,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7kIrUReMIaa3LuFvY6hK1Z",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/7kIrUReMIaa3LuFvY6hK1Z/cae4c15159a74534902379488574bc0a/Giorgos_Skourlis.mp4",
+        "width": null,
+        "height": null,
+        "contentType": "video/mp4",
+        "title": "Testimonial - Giorgos Skourlis",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1dfXK3Zi8iEdWa1pomazKo",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "71% of Companies Use Agile",
+      "text": "Agile is now the go-to methodology for 71% of organizations worldwide.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2B4tBQIQ9ko9uzO2HRMsbu",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "22% Higher Earnings",
+      "text": "Certified project managers earn 22% more than their non-certified peers.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2fr3zWKQnfsupmOWTmSIIm",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$122 Million Lost",
+      "text": "Companies lose $122 million for every $1 billion invested due to poor project performance.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7JA6f9KeZM7vec1CkL77Cn",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "87.7 Million Jobs",
+      "text": "By 2027, there will be a global demand for 87.7 million project management professionals.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4j5M4G3QWMv6kO0tjqUQ90",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Microsoft Excel",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5hzqcejEdCV8RBLJ9hx2cG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5hzqcejEdCV8RBLJ9hx2cG/fe8043ac7eeb5257473e766cd8287aa4/icon_excel.png",
+        "width": 72,
+        "height": 72,
+        "contentType": "image/png",
+        "title": "icon excel",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7K7Nq6NAfyMpCQsmntMhnT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Πιστοποίηση",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4hjfB5THJG02XOCLTfEUYA",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4hjfB5THJG02XOCLTfEUYA/f18a0c099ba7e843b1c554e82f5c06f0/Certificate.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "3.500",
+        "description": "Remote Professionals"
+      }
+    },
+    {
+      "sys": {
+        "id": "1UXv1ajaUIBzz59UUGnZb7",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Job projects",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4VE0wr9flxAGHQa3c8RCKh",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4VE0wr9flxAGHQa3c8RCKh/f8419af6ffd0740d3406ea4ab6f2a275/Portfolio_Job_Prospects.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Portfolio Job Prospects",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2ffXAfYDfzE2Zlvj9pab9P",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "title": "$78,208 was the average yearly salary of students* who took workearly courses",
+      "text": "Why don't you check them out to find the course that will elevate your career?",
+      "variant": "Call Out",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1w37DMwASiAICeSZo1MQfG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "kc3QS7BuvhTnSz1yHThV0",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Jamie Lee",
+      "text": "Director of Services\nVortex",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2U4gZJhVEDzJVFlOab1Jui",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2U4gZJhVEDzJVFlOab1Jui/97014f519013cfd37e893ce6e43f8a6b/people.png",
+        "width": 383,
+        "height": 525,
+        "contentType": "image/png",
+        "title": "people",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "3jkC69QePDWtwOk5IS3WRw",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Maria Lopez | Marketing Specialist at GrowthWorks",
+      "text": "Maria moved from retail to marketing with WorkEarly’s digital marketing program, building a portfolio and landing her first role in content strategy.",
+      "variant": "Video Testimonial",
+      "studentsCount": null,
+      "rating": 4,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2sz53LVitkaSOKiVkQGMRS",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://videos.ctfassets.net/fmxc36tvwra3/2sz53LVitkaSOKiVkQGMRS/2d112a7427a966fdfed21eb3e98febad/Lucia.mov",
+        "width": null,
+        "height": null,
+        "contentType": "video/quicktime",
+        "title": "Lúcia Lu Sample Video",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "7ugmSeyjJX6xy56RVJJJYP",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Maria Lopez | Marketing Specialist at GrowthWorks",
+      "text": "Maria moved from retail to marketing with WorkEarly’s digital marketing program, building a portfolio and landing her first role in content strategy.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": ["RETAIL BRAND", "CONSUMER"],
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2fPiAVVIE0h516ycWaf4Zl",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2fPiAVVIE0h516ycWaf4Zl/a743400f05b4b70aa86561c7db8c6529/Frame_48096896.png",
+        "width": 239,
+        "height": 93,
+        "contentType": "image/png",
+        "title": "Business Testimonial Image - tbdeleted",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "3kOhf6YEJkeQE9578nMBnF",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Personalized Experience",
+      "text": "AI ensures your learning is tailored to your goals.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "5oNTEZlh0gMVMIZcqODbOV",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Real Results",
+      "text": "Certifications that open doors to new opportunities.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "oGF8sYG99Ongv3ylvFC2s",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Community Support",
+      "text": "Mentors and peers are with you every step of the way.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "1PMuljURDhZFBQGgjh1QzU",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Gamification",
+      "text": "Learning that feels like playing.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "66OIqUPGiCTthPdQ4UfAGN",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Meta Ads Manager",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7adw3n0Afmy5I1ybJIP3Ec",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7adw3n0Afmy5I1ybJIP3Ec/3e973d819c7a03f41a3ce1d1948aa4e7/c31566130735783.6186962073880.png",
+        "width": 1400,
+        "height": 788,
+        "contentType": "image/png",
+        "title": "Meta Ads Manager",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "5VUR5GUN6Q6MeaSOTRjmMQ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Google Analytics",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1mG21mzc0SBEznbSOSLmSN",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1mG21mzc0SBEznbSOSLmSN/b1781d5b1f69a94de79512f9430417ba/Clip_path_group.png",
+        "width": 96,
+        "height": 96,
+        "contentType": "image/png",
+        "title": "Google Analytics",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "4kQ0zFW8rSMsOzjUcHZP4c",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "20+",
+      "text": "Awards",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "qZBjqwrOxFAnCgPCuoI5P",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Exploring London’s Travel Network",
+      "text": "Master data-driven insights to improve healthcare systems, patient outcomes, and decision-making in the medical field.",
+      "variant": null,
+      "studentsCount": 563,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3a0SDHwG9MCtAN2aaPD1tA",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "20k+",
+      "text": "Graduates",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2NUk7h3oWAE3iu5ZzMuk62",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Exploring London’s Travel Network",
+      "text": "Master data-driven insights to improve healthcare systems, patient outcomes, and decision-making in the medical field.",
+      "variant": "Project",
+      "studentsCount": 500,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "27Lied89h4WwubMnLDo3Qf",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Νέους Επαγγελματίες και Αρχάριους στη Διαχείριση Έργων",
+      "text": "Για όσους θέλουν να αποκτήσουν βασικές γνώσεις και δεξιότητες στη διαχείριση έργων από το μηδέν. 1239824092384082304932",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "GfVqHshKrNX1PwxctHR9V",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Εισαγωγή στο Project Management",
+      "text": "Τι θα μάθετε: Ρόλος και ευθύνες του Project Manager, κύκλος ζωής διαχείρισης έργων, βασικές έννοιες.\nΓιατί το χρειάζεστε: Στερεές βάσεις στη διαχείριση έργων και κατανόηση κάθε φάσης ενός project.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "I9w74lMzeer0umGNccHFK",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Βασικά Στοιχεία Project Management",
+      "text": "Τι θα μάθετε: Στόχοι, εύρος έργων, project charter, Work Breakdown Structure (WBS).\nΓιατί το χρειάζεστε: Ξεκάθαροι στόχοι και σαφές σχέδιο υλοποίησης.\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3saWXkIVXG94mcZffHnJzv",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Εταιρείες που Θέλουν να Εκπαιδεύσουν το Προσωπικό τους",
+      "text": "Ένα ιδανικό πρόγραμμα για εταιρείες που επιθυμούν να ενισχύσουν τις δεξιότητες των ομάδων τους, βελτιώνοντας την αποδοτικότητα και την οργάνωση των projects σε κάθε επίπεδο.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "23ibCfiE6UJSkkPRfzeFRZ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Επιχειρηματίες και Startuppers",
+      "text": "Για όσους χρειάζονται ένα δομημένο σύστημα διαχείρισης έργων που θα τους βοηθήσει να οργανώσουν καλύτερα τα projects τους και να επιτύχουν τους στόχους τους.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7jmzLbWskDelXcegXoeleY",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Επαγγελματίες που Θέλουν να Εξελίξουν τις Δεξιότητές τους",
+      "text": "Ιδανικό για όσους επιθυμούν να μάθουν σύγχρονες μεθόδους όπως Agile, Scrum, και Waterfall, εφαρμόζοντας πρακτικές διαχείρισης έργων στην εργασία τους.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    }
+  ]
+}

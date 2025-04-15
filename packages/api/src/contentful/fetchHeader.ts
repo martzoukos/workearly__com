@@ -1,21 +1,17 @@
-import { Client } from "@urql/core";
 import { QueryItem } from "../types";
+import fetchLocalCollection from "./fetchLocalCollection";
 import { UNIQUE_COMPONENT_COLLECTION_QUERY } from "./graphql/queries";
 
-export default async function fetchHeader(client: Client) {
-  const { data } = await client
-    .query(UNIQUE_COMPONENT_COLLECTION_QUERY, {
-      where: { variant: "Header" },
-      limit: 1,
-    })
-    .toPromise();
+export default function fetchHeader() {
+  const items = fetchLocalCollection<QueryItem["UniqueComponent"]>(
+    UNIQUE_COMPONENT_COLLECTION_QUERY,
+    (item) => item.variant === "Header"
+  );
+  const header = items.at(0);
 
-  if (!data?.uniqueComponentCollection?.items.at(0)) {
+  if (!header) {
     throw new Error(`Header not found`);
   }
-
-  const header = data?.uniqueComponentCollection
-    ?.items[0] as QueryItem["UniqueComponent"];
 
   return header;
 }

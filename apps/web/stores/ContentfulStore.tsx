@@ -1,7 +1,7 @@
 import {
-  fetchPageBySlug,
   isDefined,
   QueryItem,
+  RelationshipMap,
   RelationshipMapTypeName,
 } from "@workearly/api";
 import { camelCase } from "lodash-es";
@@ -12,7 +12,13 @@ import {
   useContext,
 } from "react";
 
-type PropsType = PropsWithChildren<Awaited<ReturnType<typeof fetchPageBySlug>>>;
+type PropsType = PropsWithChildren<{
+  page: QueryItem["Page"];
+  footer: QueryItem["UniqueComponent"];
+  header: QueryItem["UniqueComponent"];
+  relationshipMap: RelationshipMap;
+  endDates: Array<{ name: string; date: string; gift: string }>;
+}>;
 
 type ContextType = PropsType & {
   getReferences: <T extends RelationshipMapTypeName>(
@@ -77,8 +83,8 @@ export const ContentfulProvider = ({
     return collection
       ?.filter((entry) =>
         entry?.contentfulMetadata.tags
-          .map((tag) => tag?.id as string)
-          .some((id) => tagIds.includes(id))
+          .map((tag: any) => tag?.id as string)
+          .some((id: any) => tagIds.includes(id))
       )
       .filter(isDefined) as Pick<QueryItem, RelationshipMapTypeName>[T][];
   }

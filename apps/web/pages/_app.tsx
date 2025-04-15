@@ -18,12 +18,12 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         openGraph={{
           type: "website",
           locale: router.locale,
-          url: `https://workearly.gr/`,
+          url: `https://www.workearly.gr/`,
           siteName: "Workearly",
           title: "Home | Workearly",
           images: [
             {
-              url: "https://workearly.gr/images/og-image.png",
+              url: "https://www.workearly.gr/images/og-image.png",
               width: 1200,
               height: 630,
             },

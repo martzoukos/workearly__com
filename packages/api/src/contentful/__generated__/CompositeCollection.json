@@ -1,0 +1,412 @@
+{
+  "__timestamp": 1744726306613,
+  "total": 7,
+  "items": [
+    {
+      "sys": {
+        "id": "1xG3D7VOmcgGhhGL304hGc",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs Alt",
+      "alignment": null,
+      "layout": null,
+      "size": null,
+      "theme": null,
+      "title": "Learn Smarter. Grow Faster!",
+      "supertitle": null,
+      "text": null,
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "Y99voP4fl3OELh9SameT9",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3xt07mEK12PoofS53DtRyL",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Default",
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Εξελίξτε την ομάδα σας με role-playing και Τεχνητή Νοημοσύνη.",
+      "supertitle": "Αλλάζουμε την εταιρική εκπαίδευση",
+      "text": null,
+      "spacing": "Small",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "665B1Rds7Vzj6vNFZhzYfD",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1JOG1dkI1Kksg1dcqUzh7d",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "38Ne20BvHxYlPrZb0GCga9",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Default",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": "Small",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7fFSzkB4a7J2n9uHUHYHEp",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4wQ10fqQz7nLV4dffwWFwu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "U4M0ygXqWsOsm870BmT3w",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs",
+      "alignment": null,
+      "layout": null,
+      "size": null,
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7806hsWKKyTfL1aGFulMKd",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1MfORl4ELDy9X5KQ89MVUW",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2YGjJUQXtP7HwWblobkCQR",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5ltDZzefEC3uecE697aCYh",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3qlEexNCdjgadEjqUzGC3L",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1t4kdVJgRujEr7lmomO7gR",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5Xf5QEWRtJMHAGp2zd7HXI",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1w37DMwASiAICeSZo1MQfG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "LzEyB0cdmVOJinOt8eXvf",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs Alt",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": null,
+      "theme": null,
+      "title": "Interactive and AI-Enhanced Learning",
+      "supertitle": null,
+      "text": "WorkEarly transforms the learning experience with cutting-edge AI technology and interactive features. Our platform adapts to your individual goals, offering personalized lessons, real-time feedback, and engaging tools to keep you motivated and help you succeed faster.",
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "Y99voP4fl3OELh9SameT9",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1D6XUm0JvqueUfY81xN9KJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1w37DMwASiAICeSZo1MQfG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "kPQ7SMFWEeuLxyBjNz80i",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Default",
+      "alignment": null,
+      "layout": null,
+      "size": null,
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": "Small",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4iwXt3DnrKX3opKB1Q4CaU",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4wQ10fqQz7nLV4dffwWFwu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7e5MmgN4yEAPbjtzZ2Pt2B",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs",
+      "alignment": null,
+      "layout": null,
+      "size": null,
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7hMY6gvOQOCMo39V7ibV4u",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5Euuyz02hFBlHwRzP7m8kn",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4mKFaUIOOhRA3migXTIbyU",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

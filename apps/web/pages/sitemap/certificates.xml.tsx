@@ -1,23 +1,18 @@
-import { getServerClient, PAGE_SLUGS_QUERY } from "@workearly/api";
+import { PAGE_COLLECTION_QUERY, QueryItem } from "@workearly/api";
+import { fetchLocalCollection } from "@workearly/api/server";
 import { GetServerSideProps } from "next";
 import { getServerSideSitemapLegacy } from "next-sitemap";
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
-  const [client] = getServerClient();
+  const items = fetchLocalCollection<QueryItem["Page"]>(
+    PAGE_COLLECTION_QUERY,
+    (page) =>
+      page.slug !== "404" &&
+      page.variant === "Certificate" &&
+      !page.features?.includes("No Index")
+  );
 
-  const { data } = await client
-    .query(PAGE_SLUGS_QUERY, {
-      where: {
-        slug_not_in: ["404"],
-        variant_in: ["Certificate"],
-        features_contains_none: ["No Index"],
-      },
-      limit: 1000,
-    })
-    .toPromise();
-
-  const slugs =
-    data?.pageCollection?.items.map((item) => item?.slug || "") || [];
+  const slugs = items.map((item) => item?.slug || "") || [];
 
   const urls = slugs.map((slug) => ({
     loc: `${process.env.SITE_URL}/${slug}`,

@@ -1,9 +1,9 @@
-import fs from "fs/promises";
-import fetchTranslations from "./fetchTranslations";
-import path from "path";
-import { TranslationType } from "../types";
 import { exec } from "child_process";
+import fs from "fs/promises";
+import path from "path";
 import { promisify } from "util";
+import { TranslationType } from "../types";
+import fetchTranslations from "./fetchTranslations";
 
 const execAsync = promisify(exec);
 const OUTPUT_DIR = "./src/airtable/__generated__";

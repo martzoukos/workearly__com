@@ -1,15 +1,5 @@
 import { graphql } from "./__generated__/gql";
 
-export const PAGE_SLUGS_QUERY = graphql(`
-  query PageSlugs($where: PageFilter, $limit: Int, $skip: Int) {
-    pageCollection(where: $where, limit: $limit, skip: $skip) {
-      items {
-        slug
-      }
-    }
-  }
-`);
-
 export const PAGE_COLLECTION_QUERY = graphql(`
   query PageCollection($where: PageFilter, $limit: Int, $skip: Int) {
     pageCollection(where: $where, limit: $limit, skip: $skip) {
@@ -24,8 +14,15 @@ export const PAGE_COLLECTION_QUERY = graphql(`
 `);
 
 export const COURSE_DETAILS_COLLECTION_QUERY = graphql(`
-  query CourseDetailsCollection($where: CourseDetailsFilter, $limit: Int) {
-    courseDetailsCollection(where: $where, limit: $limit) {
+  query CourseDetailsCollection(
+    $where: CourseDetailsFilter
+    $limit: Int
+    $skip: Int
+  ) {
+    courseDetailsCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...CourseDetailsFields
       }
@@ -34,11 +31,15 @@ export const COURSE_DETAILS_COLLECTION_QUERY = graphql(`
 `);
 
 export const CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY = graphql(`
-  query CateogoryOrJobDetailsCollection(
+  query CategoryOrJobDetailsCollection(
     $where: CategoryOrJobDetailsFilter
     $limit: Int
+    $skip: Int
   ) {
-    categoryOrJobDetailsCollection(where: $where, limit: $limit) {
+    categoryOrJobDetailsCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...CategoryOrJobDetailsFields
       }
@@ -47,8 +48,15 @@ export const CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY = graphql(`
 `);
 
 export const PEOPLE_DETAILS_COLLECTION_QUERY = graphql(`
-  query PeopleDetailsCollection($where: PeopleDetailsFilter, $limit: Int) {
-    peopleDetailsCollection(where: $where, limit: $limit) {
+  query PeopleDetailsCollection(
+    $where: PeopleDetailsFilter
+    $limit: Int
+    $skip: Int
+  ) {
+    peopleDetailsCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...PeopleDetailsFields
       }
@@ -57,8 +65,15 @@ export const PEOPLE_DETAILS_COLLECTION_QUERY = graphql(`
 `);
 
 export const RESOURCE_DETAILS_COLLECTION_QUERY = graphql(`
-  query ResourceDetailsCollection($where: ResourceDetailsFilter, $limit: Int) {
-    resourceDetailsCollection(where: $where, limit: $limit) {
+  query ResourceDetailsCollection(
+    $where: ResourceDetailsFilter
+    $limit: Int
+    $skip: Int
+  ) {
+    resourceDetailsCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...ResourceDetailsFields
       }
@@ -70,8 +85,12 @@ export const CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY = graphql(`
   query ContentTypeRichTextCollection(
     $where: ContentTypeRichTextFilter
     $limit: Int
+    $skip: Int
   ) {
-    contentTypeRichTextCollection(where: $where, limit: $limit) {
+    contentTypeRichTextCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...ContentTypeRichTextFields
       }
@@ -80,8 +99,15 @@ export const CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY = graphql(`
 `);
 
 export const UNIQUE_COMPONENT_COLLECTION_QUERY = graphql(`
-  query UniqueComponentCollection($where: UniqueComponentFilter, $limit: Int) {
-    uniqueComponentCollection(where: $where, limit: $limit) {
+  query UniqueComponentCollection(
+    $where: UniqueComponentFilter
+    $limit: Int
+    $skip: Int
+  ) {
+    uniqueComponentCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...UniqueComponentFields
       }
@@ -90,8 +116,15 @@ export const UNIQUE_COMPONENT_COLLECTION_QUERY = graphql(`
 `);
 
 export const ACCORDION_CARD_COLLECTION_QUERY = graphql(`
-  query AccordionCardCollection($where: AccordionCardFilter, $limit: Int) {
-    accordionCardCollection(where: $where, limit: $limit) {
+  query AccordionCardCollection(
+    $where: AccordionCardFilter
+    $limit: Int
+    $skip: Int
+  ) {
+    accordionCardCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...AccordionCardFields
       }
@@ -100,8 +133,11 @@ export const ACCORDION_CARD_COLLECTION_QUERY = graphql(`
 `);
 
 export const CARD_COLLECTION_QUERY = graphql(`
-  query CardCollection($where: CardFilter, $limit: Int) {
-    cardCollection(where: $where, limit: $limit) {
+  query CardCollection($where: CardFilter, $limit: Int, $skip: Int) {
+    cardCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...CardFields
       }
@@ -110,8 +146,11 @@ export const CARD_COLLECTION_QUERY = graphql(`
 `);
 
 export const SECTION_COLLECTION_QUERY = graphql(`
-  query SectionCollection($where: SectionFilter, $limit: Int) {
-    sectionCollection(where: $where, limit: $limit) {
+  query SectionCollection($where: SectionFilter, $limit: Int, $skip: Int) {
+    sectionCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...SectionFields
       }
@@ -120,8 +159,11 @@ export const SECTION_COLLECTION_QUERY = graphql(`
 `);
 
 export const COMPOSITE_COLLECTION_QUERY = graphql(`
-  query CompositeCollection($where: CompositeFilter, $limit: Int) {
-    compositeCollection(where: $where, limit: $limit) {
+  query CompositeCollection($where: CompositeFilter, $limit: Int, $skip: Int) {
+    compositeCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...CompositeFields
       }
@@ -129,19 +171,12 @@ export const COMPOSITE_COLLECTION_QUERY = graphql(`
   }
 `);
 
-export const ASSET_COLLECTION_QUERY = graphql(`
-  query AssetCollection($where: AssetFilter, $limit: Int) {
-    assetCollection(where: $where, limit: $limit) {
-      items {
-        ...AssetFields
-      }
-    }
-  }
-`);
-
 export const ACTION_COLLECTION_QUERY = graphql(`
-  query ActionCollection($where: ActionFilter, $limit: Int) {
-    actionCollection(where: $where, limit: $limit) {
+  query ActionCollection($where: ActionFilter, $limit: Int, $skip: Int) {
+    actionCollection(where: $where, limit: $limit, skip: $skip) {
+      total
+      skip
+      limit
       items {
         ...ActionFields
       }

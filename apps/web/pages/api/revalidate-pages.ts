@@ -1,4 +1,5 @@
-import { getServerClient, PAGE_SLUGS_QUERY } from "@workearly/api";
+import { PAGE_COLLECTION_QUERY, QueryItem } from "@workearly/api";
+import { fetchLocalCollection } from "@workearly/api/server";
 import { NextApiRequest, NextApiResponse } from "next";
 import { getPageSlugs } from "./revalidate";
 
@@ -16,12 +17,11 @@ export default async function handler(
   }
 
   try {
-    const [client] = getServerClient();
-    const { data } = await client.query(PAGE_SLUGS_QUERY, {
-      where: { variant: req.body?.variant },
-      limit: 1000,
-    });
-    const slugs = getPageSlugs(data?.pageCollection);
+    const items = fetchLocalCollection<QueryItem["Page"]>(
+      PAGE_COLLECTION_QUERY,
+      (page) => page.variant === req.body?.variant
+    );
+    const slugs = getPageSlugs({ items });
 
     await Promise.all(slugs.map((url) => res.revalidate(url)));
 
