@@ -18,6 +18,7 @@ import AdvancedLogoCarousel from "@/components/AdvancedLogoCarousel/AdvancedLogo
 import FeaturesShowcase from "@/components/FeaturesShowcase";
 import LogoCarousel from "@/components/LogoCarousel/LogoCarousel";
 import LogoShowcase from "@/components/LogoShowcase";
+import MentorsSpotlight from "@/components/MentorsSpotlight/MentorsSpotlight";
 import Shell from "@/components/Shell";
 import StepsShowcase from "@/components/StepsShowcase";
 import { useViewport } from "@/components/Viewport";
@@ -108,6 +109,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
         className={className}
       />
     );
+  } else if (variant === "Mentors Spotlight") {
+    return <MentorsSpotlight section={section} className={className} />;
   } else if (variant === "Partners") {
     return (
       <PeopleIndex

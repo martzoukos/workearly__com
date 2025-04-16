@@ -45,6 +45,7 @@ const DATA_MAP = {
     "Map",
     "Form",
     "Mentors",
+    "Mentors Spotlight",
     "Partners",
     "Courses",
     "Articles",
