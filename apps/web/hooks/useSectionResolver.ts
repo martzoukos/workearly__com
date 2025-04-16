@@ -50,6 +50,7 @@ const DATA_MAP = {
     "Courses",
     "Articles",
     "Certificates",
+    "Photo And Text",
   ],
 } as const;
 

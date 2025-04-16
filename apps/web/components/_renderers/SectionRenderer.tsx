@@ -19,6 +19,7 @@ import FeaturesShowcase from "@/components/FeaturesShowcase";
 import LogoCarousel from "@/components/LogoCarousel/LogoCarousel";
 import LogoShowcase from "@/components/LogoShowcase";
 import MentorsSpotlight from "@/components/MentorsSpotlight/MentorsSpotlight";
+import PhotoAndText from "@/components/PhotoAndText/PhotoAndText";
 import Shell from "@/components/Shell";
 import StepsShowcase from "@/components/StepsShowcase";
 import { useViewport } from "@/components/Viewport";
@@ -101,6 +102,8 @@ export default function SectionRenderer({ section, className }: PropsType) {
     return <HeroBackground section={section} className={className} />;
   } else if (variant === "Hero With Details") {
     return <HeroDetails section={section} className={className} />;
+  } else if (variant === "Photo And Text") {
+    return <PhotoAndText section={section} className={className} />;
   } else if (variant === "Mentors") {
     return (
       <PeopleIndex
