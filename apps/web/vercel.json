@@ -2,10 +2,7 @@
   "cron": [
     {
       "path": "/api/cron/generate-contentful",
-      "schedule": "0 * * * *",
-      "headers": {
-        "Authorization": "Bearer ${CRON_SECRET_TOKEN}"
-      }
+      "schedule": "0 */6 * * *"
     }
   ]
 }
