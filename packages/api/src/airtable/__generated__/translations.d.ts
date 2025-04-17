@@ -14,6 +14,7 @@ export type TranslationTextType =
   | "group2_gift"
   | "1plus1"
   | "Category"
+  | "duration4"
   | "Filters"
   | "group4_gift"
   | "endingBefore"

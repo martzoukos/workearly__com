@@ -71,6 +71,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
   const cardVariant = section.cardVariant as CardVariantType;
   const metadata: MetadataType | undefined = section.metadata;
   const titleSize = section.titleSize as TextProps["size"];
+  const titleTagOverride = section.titleTagOverride;
 
   function getReferences<T extends SectionReferenceTypeName>(
     typename: T
@@ -125,6 +126,7 @@ export default function useSectionResolver(section: QueryItem["Section"]) {
     hasReferences,
     metadata,
     titleSize,
+    titleTagOverride,
     layout,
     cardTheme,
     tags,

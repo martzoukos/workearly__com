@@ -1,7 +1,170 @@
 {
-  "__timestamp": 1744883063376,
-  "total": 241,
+  "__timestamp": 1744916476491,
+  "total": 245,
   "items": [
+    {
+      "sys": {
+        "id": "6rUNCTGZ8BziwfsLDoH9O9",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Playground",
+      "name": "Summer Course Template",
+      "features": ["No Index"],
+      "slug": "summer-course-template",
+      "seoTitle": "Workable - Learn the Fun Way",
+      "seoDescription": "Project Management Bootcamp",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2KTMUNuWwSnJ61YiWoVGbh",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4INbBwAJEGwuKzzVlGnlwl",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2DlxHMKouaRzCVJawIHMY7",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2isAxbAiAryFb40DavQTKT",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "YP5VBwCfW2YxiTvV1AyCG",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4pq7OvK2FygPRN3lWqVGY1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
     {
       "sys": {
         "id": "15ri2Uu24oQ6Blhm93nO29",
@@ -11,7 +174,7 @@
       "seoImage": null,
       "variant": "Playground",
       "name": "Project Management Bootcamp 1",
-      "features": null,
+      "features": ["No Index"],
       "slug": "playground-dev",
       "seoTitle": "Workable - Learn the Fun Way",
       "seoDescription": "Project Management Bootcamp",
@@ -23,6 +186,28 @@
       "contentCollection": {
         "__typename": "PageContentCollection",
         "items": [
+          {
+            "sys": {
+              "id": "2KTMUNuWwSnJ61YiWoVGbh",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
           {
             "sys": {
               "id": "2isAxbAiAryFb40DavQTKT",
@@ -88,28 +273,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          },
-          {
-            "sys": {
-              "id": "7JBVL0px1TManXwQaYbTmA",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1yfc9A2T1jIw5jIVOsy5tK",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       },
@@ -121,6 +284,326 @@
               "__typename": "Action"
             }
           ],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4Oe5xffouyKM2ezG03ASqh",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Default",
+      "name": "Summer Schools",
+      "features": null,
+      "slug": "summer-schools",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4pq7OvK2FygPRN3lWqVGY1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "YP5VBwCfW2YxiTvV1AyCG",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4INbBwAJEGwuKzzVlGnlwl",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2isAxbAiAryFb40DavQTKT",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7np6xEEbSQPMSHamqwMVXC",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Person",
+      "name": "Nikos Foros",
+      "features": null,
+      "slug": "mentors/nikos-foros",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "mentorsHrTalentAcquisition",
+            "name": "Mentors: HR & Talent Acquisition",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsLeadershipManagement",
+            "name": "Mentors: Leadership & Management",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPersonalBrandingCareerDevelopment",
+            "name": "Mentors: Personal Branding & Career Development",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPublicRelationsCommunication",
+            "name": "Mentors: Public Relations & Communication",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3j2gug94WwgGamBHxgs3gn",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "U4M0ygXqWsOsm870BmT3w",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7sQASuNa3kobvXhX6thl9L",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Person",
+      "name": "Theofilos Vasileiadis",
+      "features": null,
+      "slug": "mentors/theofilos-vasileiadis",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "mentorsBusinessEntrepreneurship",
+            "name": "Mentors: Business & Entrepreneurship",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsFinanceInvestments",
+            "name": "Mentors: Finance & Investments",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsHrTalentAcquisition",
+            "name": "Mentors: HR & Talent Acquisition",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsLeadershipManagement",
+            "name": "Mentors: Leadership & Management",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsMarketingGrowthStrategy",
+            "name": "Mentors: Marketing & Growth Strategy",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPublicRelationsCommunication",
+            "name": "Mentors: Public Relations & Communication",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsSalesBusinessDevelopment",
+            "name": "Mentors: Sales & Business Development",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsStartupsFundraising",
+            "name": "Mentors: Startups & Fundraising",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3Kc8T8a7PLBJOq9qjCKkCX",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "U4M0ygXqWsOsm870BmT3w",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
           "__typename": "EntryCollection"
         }
       }
@@ -511,6 +994,16 @@
                       "__typename": "Page",
                       "slug": "playground-dev",
                       "variant": "Playground"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-schools",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-course-template",
+                      "variant": "Playground"
                     }
                   ]
                 }
@@ -617,6 +1110,16 @@
                       "__typename": "Page",
                       "slug": "playground-dev",
                       "variant": "Playground"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-schools",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-course-template",
+                      "variant": "Playground"
                     }
                   ]
                 }
@@ -707,6 +1210,16 @@
                     {
                       "__typename": "Page",
                       "slug": "playground-dev",
+                      "variant": "Playground"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-schools",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-course-template",
                       "variant": "Playground"
                     }
                   ]
@@ -4735,7 +5248,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "3uRMCvzanFDM79zFbuOeyw",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -4746,8 +5259,13 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "course/openai-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/ai",
+                      "variant": "Category"
                     }
                   ]
                 }
@@ -13569,6 +14087,16 @@
                       "__typename": "Page",
                       "slug": "playground-dev",
                       "variant": "Playground"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-schools",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-course-template",
+                      "variant": "Playground"
                     }
                   ]
                 }
@@ -13669,6 +14197,16 @@
                     {
                       "__typename": "Page",
                       "slug": "playground-dev",
+                      "variant": "Playground"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-schools",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-course-template",
                       "variant": "Playground"
                     }
                   ]
@@ -13780,6 +14318,16 @@
                     {
                       "__typename": "Page",
                       "slug": "playground-dev",
+                      "variant": "Playground"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-schools",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "summer-course-template",
                       "variant": "Playground"
                     }
                   ]

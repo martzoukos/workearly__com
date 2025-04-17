@@ -221,6 +221,7 @@ export const SECTION_FIELDS = graphql(`
     supertitle
     text
     titleSize
+    titleTagOverride
     cardVariant
     cardsCount
     cardTheme

@@ -46,6 +46,7 @@ function ShellRoot({
 type ShellHeaderPropsType = PropsWithChildren<{
   supertitle?: string | null;
   title?: string | null;
+  titleTagOverride?: string | null;
   text?: string | null;
   titleSize?: ReturnType<typeof useSectionResolver>["titleSize"];
   className?: string;
@@ -58,6 +59,7 @@ function ShellHeader({
   title,
   text,
   titleSize,
+  titleTagOverride,
   className,
   children,
 }: ShellHeaderPropsType) {
@@ -72,12 +74,27 @@ function ShellHeader({
       {children ? (
         <>
           <div>
-            {supertitle && <Text>{supertitle}</Text>}
-            {title && (
-              <Text as="h4" size={titleSize}>
-                {title}
-              </Text>
+            {titleTagOverride ? (
+              <div className={styles.titleOverride}>
+                {supertitle && <Text as="h4">{supertitle}</Text>}
+                <Text
+                  as={titleTagOverride as keyof JSX.IntrinsicElements}
+                  size={"h4"}
+                >
+                  {title}
+                </Text>
+              </div>
+            ) : (
+              <>
+                {supertitle && <Text>{supertitle}</Text>}
+                {title && (
+                  <Text as="h4" size={titleSize}>
+                    {title}
+                  </Text>
+                )}
+              </>
             )}
+
             {text && <Text>{text}</Text>}
           </div>
           {children}
@@ -154,6 +171,7 @@ function SectionDefaultLayout({
       <ShellHeader
         supertitle={section.supertitle}
         title={section.title}
+        titleTagOverride={section.titleTagOverride}
         text={section.text}
         titleSize={titleSize}
       />
@@ -178,6 +196,7 @@ function SectionAltLayout({
       <ShellHeader
         supertitle={section.supertitle}
         title={section.title}
+        titleTagOverride={section.titleTagOverride}
         text={section.text}
         titleSize={titleSize}
         className={styles.headerAlt}
