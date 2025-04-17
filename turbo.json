@@ -13,8 +13,7 @@
     "CONTENTFUL_SPACE_ID",
     "CONTENTFUL_MANAGEMENT_TOKEN",
     "SITE_URL",
-    "ANALYZE",
-    "CRON_SECRET"
+    "ANALYZE"
   ],
   "globalDependencies": ["**/.env.*local", ".env"],
   "tasks": {
