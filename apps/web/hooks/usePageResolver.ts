@@ -17,6 +17,7 @@ const DATA_MAP = {
     "Framed",
     "Person",
     "Certificate",
+    "Course | Summer",
   ],
 } as const;
 

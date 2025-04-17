@@ -73,8 +73,6 @@ export default function SectionRenderer({ section, className }: PropsType) {
       <LogoCarousel assets={assets} section={section} className={className} />
     );
   } else if (variant === "Advanced Logo Carousel") {
-    const assets = section.assetsCollection?.items.filter(isDefined) || [];
-
     return <AdvancedLogoCarousel section={section} className={className} />;
   } else if (variant === "Steps Showcase") {
     return <StepsShowcase section={section} className={className} />;

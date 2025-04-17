@@ -1,5 +1,6 @@
 import CategoryPage from "@/components/_pages/CategoryPage";
 import CoursePage from "@/components/_pages/CoursePage";
+import CourseSummerPage from "@/components/_pages/CourseSummerPage";
 import DefaultPage from "@/components/_pages/DefaultPage";
 import FramedPage from "@/components/_pages/FramedPage";
 import JobPage from "@/components/_pages/JobPage";
@@ -23,6 +24,7 @@ export default function PageRenderer() {
       {header && <Header uniqueComponent={header} />}
       {variant === "Default" && <DefaultPage />}
       {variant === "Course" && <CoursePage />}
+      {variant === "Course | Summer" && <CourseSummerPage />}
       {variant === "Job" && <JobPage />}
       {variant === "Category" && <CategoryPage />}
       {variant === "Post" && <PostPage />}
