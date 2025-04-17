@@ -13,6 +13,16 @@ export const PAGE_COLLECTION_QUERY = graphql(`
   }
 `);
 
+export const ASSET_COLLECTION_QUERY = graphql(`
+  query AssetCollection($where: AssetFilter, $limit: Int) {
+    assetCollection(where: $where, limit: $limit) {
+      items {
+        ...AssetFields
+      }
+    }
+  }
+`);
+
 export const COURSE_DETAILS_COLLECTION_QUERY = graphql(`
   query CourseDetailsCollection(
     $where: CourseDetailsFilter

@@ -6,7 +6,7 @@ import {
   ActionCollectionQuery,
   AssetCollectionQuery,
   CardCollectionQuery,
-  CateogoryOrJobDetailsCollectionQuery,
+  CategoryOrJobDetailsCollectionQuery,
   CompositeCollectionQuery,
   ContentTypeRichTextCollectionQuery,
   CourseDetailsCollectionQuery,
@@ -72,7 +72,7 @@ export type QueryItem = {
   >;
   CategoryOrJobDetails: NonNullable<
     NonNullable<
-      CateogoryOrJobDetailsCollectionQuery["categoryOrJobDetailsCollection"]
+      CategoryOrJobDetailsCollectionQuery["categoryOrJobDetailsCollection"]
     >["items"]
   >[number];
   Composite: NonNullable<
@@ -187,42 +187,6 @@ export type RelationshipMap = ToRelationshipMap<
   RelationshipMapTypeName,
   QueryItem
 >;
-
-// Experimental
-type NestedRelationship = {
-  page: Omit<QueryItem["Page"], "contentCollection"> & {
-    contentCollection?: {
-      __typename?: `PageContentCollection`;
-      items: Array<
-        | (Omit<
-            QueryItem["Section"],
-            "contentCollection" | "actionsCollection" | "assetsCollection"
-          > & {
-            contentCollection?: {
-              __typename?: `SectionContentCollection`;
-              items: Array<
-                QueryItem["ContentTypeRichText"] | QueryItem["UniqueComponent"]
-              >;
-            };
-            actionsCollection?: {
-              __typename?: `SectionActionsCollection`;
-              items: Array<QueryItem["Action"]>;
-            };
-            assetsCollection?: {
-              __typename?: `SectionAssetsCollection`;
-              items: Array<QueryItem["Asset"]>;
-            };
-          })
-        | QueryItem["ContentTypeRichText"]
-        | QueryItem["UniqueComponent"]
-      >;
-    };
-    details:
-      | QueryItem["CourseDetails"]
-      | QueryItem["PeopleDetails"]
-      | QueryItem["ResourceDetails"];
-  };
-};
 
 export type LinkItemType = {
   name: string;
