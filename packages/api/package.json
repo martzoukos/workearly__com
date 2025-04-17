@@ -15,8 +15,8 @@
   },
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
-    "dev": "graphql-codegen --config ./src/contentful/codegen.ts",
-    "build": "pnpm generate-translations",
+    "dev": "pnpm generate-translations && pnpm generate-contentful && graphql-codegen --config ./src/contentful/codegen.ts",
+    "build": "pnpm generate-translations && pnpm generate-contentful",
     "generate-translations": "ts-node ./src/airtable/generateTranslations.ts",
     "generate-tags": "ts-node ./src/contentful/scripts/generateTags.ts",
     "generate-contentful": "ts-node ./src/contentful/scripts/generateContentful.ts"

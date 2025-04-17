@@ -11,6 +11,7 @@ import {
 import { getServerClient } from "../graphql/client";
 
 const INTERVAL = 6 * 60 * 60 * 1000;
+const OUTPUT_DIR = "./src/contentful/__generated__";
 
 type ContentTypeVariables = {
   where?: {
@@ -26,7 +27,6 @@ type OptionsType<TData, TVariables> = {
   variables?: TVariables;
   mapItems: (data: TData | undefined) => any[] | null | undefined;
   mapTotal: (data: TData | undefined) => number | null | undefined;
-  outputDir: string;
 };
 
 export default async function generateCollection<TData>({
@@ -34,10 +34,9 @@ export default async function generateCollection<TData>({
   variables,
   mapItems,
   mapTotal,
-  outputDir,
 }: OptionsType<TData, ContentTypeVariables>) {
   const name = getOperationName(query) ?? "unknown";
-  const outputFile = path.resolve(`${outputDir}/${name}.json`);
+  const outputFile = path.resolve(`${OUTPUT_DIR}/${name}.json`);
   const sixHoursAgo = Date.now() - INTERVAL;
 
   if (fs.existsSync(outputFile)) {
