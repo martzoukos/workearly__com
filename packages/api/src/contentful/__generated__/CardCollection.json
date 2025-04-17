@@ -1,7 +1,151 @@
 {
-  "__timestamp": 1744865688363,
-  "total": 172,
+  "__timestamp": 1744891396452,
+  "total": 176,
   "items": [
+    {
+      "sys": {
+        "id": "5rs5cITJACttAe7kCGk91Q",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Community",
+      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4KDGD830cb7fhecG1jJeNy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4KDGD830cb7fhecG1jJeNy/51ad9f0ce1a28b3ca875c74dd04fed67/Community.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Community",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2wkwdHCZeXct9TLd0yKmNg",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Εκδήλωση",
+      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2tq2yBI6Ito0FZM0ISVuv1",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2tq2yBI6Ito0FZM0ISVuv1/8a3c067e038f5ecf93bbe1199f43bb10/Event.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Event",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5F5cZsLwezQCf3UnW9SAEH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Mentorship",
+      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3fe8JI1v4bspiw892qVY84",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3fe8JI1v4bspiw892qVY84/ab52296f555f21a0cf7aa01f5bcc69ed/Mentorship.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Mentorship",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4OW8QkIvbkc1Xy2p5h4O7n",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Εκπαίδευση",
+      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "HPpiq1xfrcgKnsJQadUhz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/HPpiq1xfrcgKnsJQadUhz/932d5bafd6f23d9fe568920f28051e44/Education_Graduation.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Education Graduation",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "FMeu02857tEIbjpQpbJ3D",
@@ -20,19 +164,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -48,6 +179,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
       }
     },
     {
@@ -1256,19 +1400,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "1BcMGS4Ih2iNKxmFJme654",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Finance Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1284,6 +1415,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1BcMGS4Ih2iNKxmFJme654",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance Clear",
+        "description": null
       }
     },
     {
@@ -1304,19 +1448,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Digital Marketing Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1332,6 +1463,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing Clear",
+        "description": null
       }
     },
     {
@@ -1472,19 +1616,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "41SIiSVTDJrGUNJ0bQRDVj",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
-        "width": 449,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card HR Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1500,6 +1631,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "41SIiSVTDJrGUNJ0bQRDVj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR Clear",
+        "description": null
       }
     },
     {
@@ -1520,19 +1664,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "416vehayqrV4g3o1z74ohQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Data Science Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1548,6 +1679,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "416vehayqrV4g3o1z74ohQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science Clear",
+        "description": null
       }
     },
     {
@@ -1568,19 +1712,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1596,6 +1727,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
       }
     },
     {
@@ -1616,19 +1760,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1644,6 +1775,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
       }
     },
     {
@@ -2588,6 +2732,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "6IMm6C3PYJ8O8486MTGMg0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business Clear",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2603,19 +2760,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "6IMm6C3PYJ8O8486MTGMg0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Business Clear",
-        "description": null
       }
     },
     {

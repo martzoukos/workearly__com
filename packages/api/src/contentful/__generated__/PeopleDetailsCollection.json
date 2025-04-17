@@ -1,7 +1,155 @@
 {
-  "__timestamp": 1744865703821,
-  "total": 105,
+  "__timestamp": 1744891404540,
+  "total": 107,
   "items": [
+    {
+      "sys": {
+        "id": "3j2gug94WwgGamBHxgs3gn",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Nikos has expertise in developing strategies for Employer Branding, Talent Intelligence and Brand Communication at kariera.gr and has worked with some of the biggest employers in the country. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Nikos and his team provide tailored solutions for various components of employer brandinga and data-driven decision making, including employee value proposition building, career site optimization, onboarding & culture evaluation and candidate experience transformation. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "actionsCollection": {
+        "items": [],
+        "__typename": "PeopleDetailsActionsCollection"
+      },
+      "name": "Nikos Foros",
+      "variant": "Mentor",
+      "role": "Head of Talent Intelligence",
+      "company": "kariera.gr",
+      "shortDescription": null,
+      "expertise": null,
+      "linkedIn": "https://www.linkedin.com/in/nikoforo/",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1SfS5jKetDOnNyZHQxVEFG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1SfS5jKetDOnNyZHQxVEFG/9cb117ef8203a8cb649f673b09550bcb/image_26.png",
+        "width": 1521,
+        "height": 851,
+        "contentType": "image/png",
+        "title": "Nikos Foros",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "3Kc8T8a7PLBJOq9qjCKkCX",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Theo Vasileiadis is a serial entrepreneur with 20+ years of experience in technology, human capital, and innovation. He co-founded Kariera Group, a leading HR tech company in Southeastern Europe, and has launched over ten ventures across Europe and Asia. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Known for building high-performing teams and scaling businesses, Theo is also an educator, mentor, and author. He teaches Entrepreneurship at BCA / University of West London and speaks regularly on leadership and the future of work. A committed YPO member, he served on the Greek Chapter Board and is part of the YPO Presidents’ Program at Harvard Business School. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "As a facilitator, Theo creates safe spaces for reflection and growth, blending empathy with momentum. He holds degrees in Economics & Finance and has completed executive programs at HBS and Singularity University. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "actionsCollection": {
+        "items": [],
+        "__typename": "PeopleDetailsActionsCollection"
+      },
+      "name": "Theofilos Vasileiadis",
+      "variant": "Mentor",
+      "role": "Founder",
+      "company": "Kariera Group",
+      "shortDescription": null,
+      "expertise": null,
+      "linkedIn": "https://www.linkedin.com/in/theofilosvasiliadis/",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6KTbyElrkxIl1tqCZ3iPy8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6KTbyElrkxIl1tqCZ3iPy8/d86e0c9a8e54ef28b0793b2d75b839ab/Copy_of_Theofilos_Vasileiadis_kariera_1.jpg",
+        "width": 3023,
+        "height": 2615,
+        "contentType": "image/jpeg",
+        "title": "Theofilos Vasileiadis",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "6AG5xwwl9SIgJmwckeiXxR",

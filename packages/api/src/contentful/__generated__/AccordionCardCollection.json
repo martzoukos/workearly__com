@@ -1,7 +1,45 @@
 {
-  "__timestamp": 1744865716691,
-  "total": 546,
+  "__timestamp": 1744891393068,
+  "total": 548,
   "items": [
+    {
+      "sys": {
+        "id": "179YC3cUAZAt5062jRx3k3",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Course Content 2",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Θεμελιώδεις αρχές ηγεσίας, στυλ ηγεσίας, στρατηγική σκέψη και τρόποι διαχείρισης ομάδων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Θα αποκτήσετε τις βασικές δεξιότητες που απαιτούνται για να καθοδηγείτε αποτελεσματικά ομάδες και να ενισχύετε την απόδοση του οργανισμού σας.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5UAH4SYoj6Wf9lQZkjcBGo",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Course Content 1",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Θεμελιώδεις αρχές ηγεσίας, στυλ ηγεσίας, στρατηγική σκέψη και τρόποι διαχείρισης ομάδων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Θα αποκτήσετε τις βασικές δεξιότητες που απαιτούνται για να καθοδηγείτε αποτελεσματικά ομάδες και να ενισχύετε την απόδοση του οργανισμού σας.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "5g0JDALYh9rDUK7rnamYcf",

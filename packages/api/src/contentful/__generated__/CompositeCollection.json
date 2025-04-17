@@ -1,7 +1,79 @@
 {
-  "__timestamp": 1744865690608,
-  "total": 7,
+  "__timestamp": 1744891398670,
+  "total": 9,
   "items": [
+    {
+      "sys": {
+        "id": "7JBVL0px1TManXwQaYbTmA",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Summer Course",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5wtlCwUhjiVgCTQDy2t6OH",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs Alt",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Ενακτήρια Εκδήλωση - Αθήνα ",
+      "supertitle": null,
+      "text": "Αυτό είναι το κείμενο για την εκδήλωση",
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "Y99voP4fl3OELh9SameT9",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "1xG3D7VOmcgGhhGL304hGc",

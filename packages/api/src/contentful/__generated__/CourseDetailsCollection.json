@@ -1,7 +1,43 @@
 {
-  "__timestamp": 1744865697269,
-  "total": 154,
+  "__timestamp": 1744891402877,
+  "total": 155,
   "items": [
+    {
+      "sys": {
+        "id": "2KTMUNuWwSnJ61YiWoVGbh",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Project Management Summer Bootcamp",
+      "group": 3,
+      "title": "Project Management Summer Bootcamp",
+      "summary": "WorkEarly uses AI and interactive tools to deliver personalized lessons, real-time feedback, and an engaging learning experience tailored to your goals.",
+      "shortDescription": "WorkEarly uses AI and interactive tools to deliver personalized lessons, real-time feedback, and an engaging learning experience tailored to your goals.",
+      "applicationFormUrl": null,
+      "id": "global-hr-management",
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 400,
+      "finalCost": 40,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "8I17AgLQb9paqByd5GQjm",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/8I17AgLQb9paqByd5GQjm/2498c52c028c3cfcc9de706c518f500b/Rectangle_2105.png",
+        "width": 516,
+        "height": 568,
+        "contentType": "image/png",
+        "title": "iStock Placeholder",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "5a2pKXk3iJjj9ngLgxUpDC",

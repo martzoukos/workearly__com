@@ -1,5 +1,5 @@
 {
-  "__timestamp": 1744865695643,
+  "__timestamp": 1744891401314,
   "total": 129,
   "items": [
     {
@@ -31427,6 +31427,23 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "inline": [],
+            "block": [
+              {
+                "__typename": "Card",
+                "sys": {
+                  "id": "2ffXAfYDfzE2Zlvj9pab9P",
+                  "__typename": "Sys"
+                },
+                "contentfulMetadata": {
+                  "__typename": "ContentfulMetadata",
+                  "tags": []
+                }
+              }
+            ]
+          },
           "assets": {
             "__typename": "ContentTypeRichTextBodyAssets",
             "block": [
@@ -31455,23 +31472,6 @@
                 "contentType": "video/quicktime",
                 "title": "Lúcia Lu Sample Video",
                 "description": ""
-              }
-            ]
-          },
-          "entries": {
-            "__typename": "ContentTypeRichTextBodyEntries",
-            "inline": [],
-            "block": [
-              {
-                "__typename": "Card",
-                "sys": {
-                  "id": "2ffXAfYDfzE2Zlvj9pab9P",
-                  "__typename": "Sys"
-                },
-                "contentfulMetadata": {
-                  "__typename": "ContentfulMetadata",
-                  "tags": []
-                }
               }
             ]
           }
@@ -31745,14 +31745,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -32609,14 +32609,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -33183,14 +33183,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -33567,14 +33567,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -34311,14 +34311,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -34903,14 +34903,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -36013,14 +36013,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -36895,14 +36895,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }
@@ -37705,14 +37705,14 @@
         "__typename": "ContentTypeRichTextBody",
         "links": {
           "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
           "entries": {
             "__typename": "ContentTypeRichTextBodyEntries",
             "block": [],
             "inline": []
+          },
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
           }
         }
       }

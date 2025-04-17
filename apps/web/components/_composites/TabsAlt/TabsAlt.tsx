@@ -68,10 +68,12 @@ export default function TabsAlt({ composite, className }: PropsType) {
                 value={section.sys.id}
                 asChild
               >
-                <button className={styles.trigger}>
-                  <Text as="h4">{section.title}</Text>
-                  <Text as="small">{section.text}</Text>
-                </button>
+                {section.text && (
+                  <button className={styles.trigger}>
+                    <Text as="h4">{section.title}</Text>
+                    <Text as="small">{section.text}</Text>
+                  </button>
+                )}
               </RadixTabs.Trigger>
             ))}
           </RadixTabs.List>
