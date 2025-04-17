@@ -1,19 +1,19 @@
 import PageRenderer from "@/components/_renderers/PageRenderer";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
-  PAGE_SLUGS_QUERY,
-  fetchPageBySlug,
+  PAGE_COLLECTION_QUERY,
+  QueryItem,
   getPageSlug,
-  getServerClient,
   toPageSlugs,
 } from "@workearly/api";
+import { fetchLocalCollection, fetchPageBySlug } from "@workearly/api/server";
 import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
 export default function Page(
   props: InferGetStaticPropsType<typeof getStaticProps>
 ) {
-  const canonicalUrl = `https://workearly.gr/${props.page.slug === "home" ? "" : props.page.slug}`;
+  const canonicalUrl = `https://www.workearly.gr/${props.page.slug === "home" ? "" : props.page.slug}`;
   const noIndex = props.page.features?.includes("No Index");
 
   return (
@@ -48,11 +48,10 @@ export default function Page(
 export async function getStaticProps(
   context: GetStaticPropsContext<{ pageSlugs: string[] }>
 ) {
-  const [client] = getServerClient();
   const pageSlug = getPageSlug(context.params?.pageSlugs);
 
   try {
-    const props = await fetchPageBySlug(client, pageSlug);
+    const props = await fetchPageBySlug(pageSlug);
 
     return {
       props,
@@ -67,20 +66,16 @@ export async function getStaticProps(
 }
 
 export async function getStaticPaths() {
-  const [client] = getServerClient();
+  const pages = fetchLocalCollection<QueryItem["Page"]>(
+    PAGE_COLLECTION_QUERY,
+    (page) => page.slug !== "404" && page.variant !== "Playground"
+  );
 
-  const { data } = await client
-    .query(PAGE_SLUGS_QUERY, {
-      where: { slug_not_in: ["404"], variant_not_in: ["Playground"] },
-      limit: 1000,
-    })
-    .toPromise();
-
-  const paths = data?.pageCollection?.items
-    .filter((x) => x?.slug)
+  const paths = pages
+    .filter((x) => x.slug)
     .map((item) => ({
       params: {
-        pageSlugs: toPageSlugs(item?.slug || ""),
+        pageSlugs: toPageSlugs(item.slug || ""),
       },
     }));
 

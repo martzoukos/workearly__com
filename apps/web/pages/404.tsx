@@ -1,6 +1,6 @@
 import PageRenderer from "@/components/_renderers/PageRenderer";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
-import { fetchPageBySlug, getServerClient } from "@workearly/api";
+import { fetchPageBySlug } from "@workearly/api/server";
 import { InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
@@ -19,19 +19,13 @@ export default function Page(
 }
 
 export async function getStaticProps() {
-  const [client] = getServerClient();
-
   try {
-    const props = await fetchPageBySlug(client, "404");
+    const props = await fetchPageBySlug("404");
 
     return {
       props,
     };
   } catch (error) {
     console.error(error);
-
-    return {
-      notFound: true,
-    };
   }
 }

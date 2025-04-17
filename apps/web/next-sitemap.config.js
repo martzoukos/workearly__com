@@ -1,7 +1,7 @@
 import process from "process";
 
 const config = {
-  siteUrl: process.env.SITE_URL || "https://workearly.gr",
+  siteUrl: process.env.SITE_URL || "https://www.workearly.gr",
   generateRobotsTxt: true,
   generateIndexSitemap: false,
   exclude: ["**/*"],

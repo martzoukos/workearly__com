@@ -1,0 +1,941 @@
+{
+  "__timestamp": 1744865715086,
+  "total": 3,
+  "items": [
+    {
+      "sys": {
+        "id": "2OD3ypyGyQvtILUH2vsmob",
+        "__typename": "Sys"
+      },
+      "__typename": "UniqueComponent",
+      "contentCollection": {
+        "items": [],
+        "__typename": "UniqueComponentContentCollection"
+      },
+      "variant": "Header",
+      "json": [
+        {
+          "name": "Learn",
+          "type": "menu",
+          "itemGroups": [
+            {
+              "label": "Summer Schools 2025",
+              "name": "By Goal",
+              "items": [
+                {
+                  "to": "/courses",
+                  "name": "Take a course",
+                  "type": "link"
+                },
+                {
+                  "to": "/certificates",
+                  "name": "Earn a Certification",
+                  "type": "link"
+                },
+                {
+                  "name": "Achieve a Diploma",
+                  "type": "normal-sub",
+                  "items": [
+                    {
+                      "to": "/course/data-analyst-bootcamp",
+                      "name": "Data Analytics",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/course/project-management-bootcamp",
+                      "name": "Project Management",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/course/hr-bootcamp",
+                      "name": "HR",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/course/python-web-development-bootcamp",
+                      "name": "Python Web Development",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/course/finance-bootcamp",
+                      "name": "Finance",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/course/digital-marketing-bootcamp",
+                      "name": "Digital Marketing",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/course/data-science-with-sports",
+                      "name": "Sports Analytics",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    }
+                  ]
+                },
+                {
+                  "name": "Land your Dream of",
+                  "type": "normal-sub",
+                  "items": [
+                    {
+                      "to": "/reskilling/data-analyst",
+                      "name": "Data Analyst",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/financial-data-analyst",
+                      "name": "Financial Data Analyst",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/healthcare-data-analyst",
+                      "name": "Healthcare Data Analyst",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/hr-generalist",
+                      "name": "HR Generalist",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/hr-manager",
+                      "name": "HR Manager",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/sports-data-analyst",
+                      "name": "Sports Data Analyst",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/auditor",
+                      "name": "Auditor",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/business-intelligence-analyst",
+                      "name": "Business Intelligence Analyst",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/project-manager",
+                      "name": "Project Manager",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/web-developer",
+                      "name": "Web Developer",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    },
+                    {
+                      "to": "/reskilling/digital-marketing-manager",
+                      "name": "Digital Marketing Manager",
+                      "type": "decorative",
+                      "referenceId": "4yVClfvSMN1tAoqXeL2Su0",
+                      "referenceType": "Card"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "By Topic",
+              "items": [
+                {
+                  "name": "Data Science",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "b52aCJfDG0Iv3sFm0LtYD",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "1h4b839lswffiAFx0g2mHy",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7CvQkwnJc8Iw9RSkJfu6rv",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/data-science",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "2Gm9jX6AdSyMq6GDvI14WK",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "39894WtNOpQCX4geQJt2P4",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "5ImXa1NRpiC4oHNHjKhvx9",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στον τομέα του Data Science και αποκτήστε πρακτικές δεξιότητες στην ανάλυση δεδομένων."
+                },
+                {
+                  "name": "Business",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "4bEtc73Re6Ev65VAxVlpze",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "780bkgNCiByBmuIEIElLOf",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "58JIDAlHOtAnaJh3hz4tlE",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/business",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "b7A9RLS9kQuvGb0RZgieg",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "4b9hrv6PxwXDkDQKSKXg1V",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "4WFmaOz7Tru9nWtMvH44Wk",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στον τομέα του Business, εστιάζοντας στη στρατηγική διοίκηση, την επιχειρηματική ανάλυση και τη λήψη αποφάσεων βάσει δεδομένων."
+                },
+                {
+                  "name": "HR",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "6H1pVq9Bnxjo7P2sbS5g15",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "2T5ABOw9vtvaqjrMYJnluc",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "4sEBPJ0KItkGV3ICn91VHr",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/human-resources",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "53HtoB2YIZ9HVBInBTy36p",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "5onMEdhgknZyZ4V8QaETbP",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7yotOTqX0zkp3L3X8sx85w",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στον τομέα του HR, αποκτώντας δεξιότητες στη διαχείριση ανθρώπινου δυναμικού, το HR analytics και τις σύγχρονες στρατηγικές πρόσληψης."
+                },
+                {
+                  "name": "Finance",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "3QvCKloUjfWuZuAS8dDRMz",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "6MGVrSQgOjVhsiLUx6d4nQ",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "19QATCHWwVoh73vwjuVARr",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/finance",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "3LCsWt31wW0aPX58jz4o8c",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "6b0gXHPS8IvxhRhrfZlAsC",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στον τομέα των Χρηματοοικονομικών (Finance), αναπτύσσοντας δεξιότητες στη χρηματοοικονομική ανάλυση, τις επενδύσεις και το budgeting."
+                },
+                {
+                  "name": "Marketing",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "M0sgJIb4U3q80jPlJSAsl",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "4WowaFWrlPbapcgr8JfBU7",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7BzJWzjydBobYmY64ZcWP6",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/digital-marketing",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "5ImXa1NRpiC4oHNHjKhvx9",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "b7A9RLS9kQuvGb0RZgieg",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "4WFmaOz7Tru9nWtMvH44Wk",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στην Τεχνητή Νοημοσύνη (AI), αποκτώντας πρακτικές δεξιότητες."
+                },
+                {
+                  "name": "AI",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7h2vStHAqnpN2x58Voo3ED",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "2T5ABOw9vtvaqjrMYJnluc",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "5wSiZMtYoRHypfDY9D2pjW",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/ai",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "3230kFaf3772dw4l4WcdBG",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "42otw8OFuy0JuFdmtwZZ90",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7DkKhghBi8qSHy59F6wkz2",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στην Τεχνητή Νοημοσύνη (AI), αποκτώντας πρακτικές δεξιότητες."
+                },
+                {
+                  "name": "Soft Skills",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "58JIDAlHOtAnaJh3hz4tlE",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "jgQVwV0Ze15Ud3PMFGEIP",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "6jIKSjthdk89A9lkpEuehH",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/human-skills",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "31DrFAaFXhQt2a0ei69kxD",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "b7A9RLS9kQuvGb0RZgieg",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "1EVmawd8e855nCWCNfoKIU",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Αναπτύξτε απαραίτητα soft skills, όπως επικοινωνία, συνεργασία, ηγεσία και συναισθηματική νοημοσύνη. Ενισχύστε τις διαπροσωπικές σας δεξιότητες και δημιουργήστε τις προϋποθέσεις για επιτυχημένη πορεία σε κάθε σύγχρονο εργασιακό περιβάλλον."
+                },
+                {
+                  "name": "IT",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7htn4efe7NCMY7e62K3FRR",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "1zIE1TpHcxVSDCxyXQ0Wiy",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7h2vStHAqnpN2x58Voo3ED",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/it",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "6vr5x51QFmMCqNVwwXRLO7",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "39894WtNOpQCX4geQJt2P4",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "5yzuKQsOBiusuBL7hYqseE",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στον τομέα του IT, αποκτώντας δεξιότητες στον προγραμματισμό, την κυβερνοασφάλεια, το cloud computing και την ανάπτυξη λογισμικού."
+                },
+                {
+                  "name": "Sports",
+                  "type": "category-sub",
+                  "itemGroups": [
+                    {
+                      "name": "Courses",
+                      "items": [
+                        {
+                          "name": "Courses",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "7CvQkwnJc8Iw9RSkJfu6rv",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "1wQnUOM7qyq9eovgfiUhmU",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "2QmApfGmEPhhPrGqwBjjR",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/category/sports-analytics",
+                          "name": "View All Courses",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Certificates",
+                      "items": [
+                        {
+                          "name": "Certificates",
+                          "type": "label"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "27cwxvDnLwFWYzXKA2KjVq",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "3TEyxBgKXXEzMEDkZWJBVe",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "type": "reference",
+                          "referenceId": "5czZlu7JprqgufNAyMgHYf",
+                          "referenceType": "Page"
+                        },
+                        {
+                          "to": "/certificates",
+                          "name": "View All Certificates",
+                          "type": "link",
+                          "variant": "Outlined"
+                        }
+                      ]
+                    }
+                  ],
+                  "description": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στο πεδίο των Sports Analytics, μαθαίνοντας να αναλύετε αθλητικά δεδομένα, να χρησιμοποιείτε στατιστικά μοντέλα και να εφαρμόζετε τεχνολογίες AI για τη βελτίωση της αθλητικής απόδοσης."
+                }
+              ]
+            },
+            {
+              "items": [
+                {
+                  "to": "/reskilling",
+                  "name": "Rediscover Yourself",
+                  "type": "link",
+                  "variant": "Outlined"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "to": "/blog",
+          "name": "Resources",
+          "type": "menu"
+        },
+        {
+          "to": "/testimonials",
+          "name": "Community",
+          "type": "menu"
+        },
+        {
+          "to": "/mentors",
+          "name": "Mentors",
+          "type": "menu"
+        },
+        {
+          "to": "/about",
+          "name": "About",
+          "type": "menu"
+        },
+        {
+          "to": "/contact",
+          "name": "Contact",
+          "type": "menu"
+        }
+      ],
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2mD5rZq6zbQUnPFp3g7Ucf",
+        "__typename": "Sys"
+      },
+      "__typename": "UniqueComponent",
+      "contentCollection": {
+        "items": [],
+        "__typename": "UniqueComponentContentCollection"
+      },
+      "variant": "Footer",
+      "json": {
+        "footer": [
+          {
+            "link": "/cookies",
+            "title": "Cookies"
+          },
+          {
+            "link": "/terms",
+            "title": "Όροι Χρήσης"
+          },
+          {
+            "link": "/data-policy",
+            "title": "Προσωπικά Δεδομένα"
+          }
+        ],
+        "columnOne": {
+          "button": {
+            "link": "https://g.co/kgs/scMBg4f",
+            "title": "Review us on Google"
+          },
+          "reviewNumber": "840+"
+        },
+        "columnTwo": {
+          "title": "COURSES",
+          "content": [
+            {
+              "link": "/category/business",
+              "title": "Business"
+            },
+            {
+              "link": "/category/ai",
+              "title": "AI"
+            },
+            {
+              "link": "/category/digital-marketing",
+              "title": "Digital Marketing"
+            },
+            {
+              "link": "/category/data-science",
+              "title": "Data Science"
+            },
+            {
+              "link": "/category/finance",
+              "title": "Finance"
+            },
+            {
+              "link": "/category/human-resources",
+              "title": "HR"
+            },
+            {
+              "link": "/category/it",
+              "title": "IT"
+            },
+            {
+              "link": "/category/human-skills",
+              "title": "Human Skills"
+            },
+            {
+              "link": "/category/sports-analytics",
+              "title": "Sports Analytics"
+            }
+          ]
+        },
+        "columnThree": {
+          "title": "PAGES",
+          "content": [
+            {
+              "link": "/about",
+              "title": "About Us"
+            },
+            {
+              "link": "/blog",
+              "title": "Resources"
+            },
+            {
+              "link": "/business",
+              "title": "For Businesses"
+            }
+          ]
+        },
+        "socialMedia": {
+          "facebook": "https://www.facebook.com/workearlygr/",
+          "linkedin": "https://www.linkedin.com/company/workearlygr/?",
+          "instagram": "https://www.instagram.com/workearly.gr"
+        }
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2lPUdFLT8BUhFdrEG8vTNI",
+        "__typename": "Sys"
+      },
+      "__typename": "UniqueComponent",
+      "contentCollection": {
+        "items": [],
+        "__typename": "UniqueComponentContentCollection"
+      },
+      "variant": "Full Width Divider",
+      "json": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    }
+  ]
+}

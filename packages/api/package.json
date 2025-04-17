@@ -3,11 +3,23 @@
   "version": "0.0.0",
   "main": "./src/index.tsx",
   "types": "./src/index.tsx",
+  "exports": {
+    ".": {
+      "import": "./src/index.tsx",
+      "require": "./src/index.tsx"
+    },
+    "./server": {
+      "import": "./src/server.ts",
+      "require": "./src/server.ts"
+    }
+  },
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.ts*\"",
-    "dev": "pnpm generate-tags && pnpm generate-translations && graphql-codegen --config ./src/contentful/codegen.ts --watch \"./src/**/*.ts\"",
+    "dev": "pnpm generate-translations && pnpm generate-contentful && graphql-codegen --config ./src/contentful/codegen.ts",
+    "build": "pnpm generate-translations && pnpm generate-contentful",
     "generate-translations": "ts-node ./src/airtable/generateTranslations.ts",
-    "generate-tags": "ts-node ./src/contentful/generateTags.ts"
+    "generate-tags": "ts-node ./src/contentful/scripts/generateTags.ts",
+    "generate-contentful": "ts-node ./src/contentful/scripts/generateContentful.ts"
   },
   "devDependencies": {
     "@graphql-codegen/cli": "^5.0.0",

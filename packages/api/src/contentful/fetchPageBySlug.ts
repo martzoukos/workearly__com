@@ -1,4 +1,3 @@
-import { Client } from "@urql/core";
 import { uniqBy } from "lodash";
 import fetchEndDates from "../airtable/fetchEndDates";
 import {
@@ -15,9 +14,9 @@ import {
   UniqueComponentReferenceTypeName,
 } from "../types";
 import { isDefined } from "../utils";
-import fetchCollection from "./fetchCollection";
 import fetchFooter from "./fetchFooter";
 import fetchHeader from "./fetchHeader";
+import fetchLocalCollection from "./fetchLocalCollection";
 import {
   ACCORDION_CARD_COLLECTION_QUERY,
   ACTION_COLLECTION_QUERY,
@@ -42,23 +41,21 @@ type FuncReturnType = {
 };
 
 export default async function fetchPageBySlug(
-  client: Client,
   slug: string
 ): Promise<FuncReturnType> {
-  const { data } = await client
-    .query(PAGE_COLLECTION_QUERY, { where: { slug }, limit: 1 })
-    .toPromise();
+  const pages = fetchLocalCollection<QueryItem["Page"]>(
+    PAGE_COLLECTION_QUERY,
+    (item) => item.slug === slug
+  );
+  const page = pages.at(0);
 
-  if (!data?.pageCollection?.items.at(0)) {
+  if (!page) {
     throw new Error(`Page with slug ${slug} not found`);
   }
 
-  const [footer, header] = await Promise.all([
-    fetchFooter(client),
-    fetchHeader(client),
-  ]);
-  const page = data?.pageCollection?.items[0] as QueryItem["Page"];
-  const relationshipMap = await getPageRelationships(client, page, header);
+  const footer = fetchFooter();
+  const header = fetchHeader();
+  const relationshipMap = getPageRelationships(page, header);
   const endDates = await fetchEndDates();
 
   return {
@@ -70,55 +67,49 @@ export default async function fetchPageBySlug(
   };
 }
 
-async function getPageRelationships(
-  client: Client,
+function getPageRelationships(
   page: QueryItem["Page"],
   header: QueryItem["UniqueComponent"]
-): Promise<RelationshipMap> {
+): RelationshipMap {
   const compositeIds = extractPageDeepChildIds(
     { pageCollection: [page] },
     "Composite"
   );
-  const compositeCollection = await fetchCollection(client, {
-    ids: compositeIds,
-    query: COMPOSITE_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.compositeCollection?.items.filter(isDefined) || [],
-  });
+  const compositeCollection = fetchLocalCollection<QueryItem["Composite"]>(
+    COMPOSITE_COLLECTION_QUERY,
+    (item) => compositeIds.includes(item.sys.id)
+  );
 
   const sectionIds = extractPageDeepChildIds(
     { pageCollection: [page], compositeCollection },
     "Section"
   );
-  const sectionCollection = await fetchCollection(client, {
-    ids: sectionIds,
-    query: SECTION_COLLECTION_QUERY,
-    mapItems: (data) => data?.sectionCollection?.items.filter(isDefined) || [],
-  });
+  const sectionCollection = fetchLocalCollection<QueryItem["Section"]>(
+    SECTION_COLLECTION_QUERY,
+    (item) => sectionIds.includes(item.sys.id)
+  );
 
   const uniqueComponentIds = extractPageDeepChildIds(
     { pageCollection: [page], sectionCollection },
     "UniqueComponent"
   );
-  const uniqueComponentCollection = await fetchCollection(client, {
-    ids: uniqueComponentIds,
-    query: UNIQUE_COMPONENT_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.uniqueComponentCollection?.items.filter(isDefined) || [],
-  });
+  const uniqueComponentCollection = fetchLocalCollection<
+    QueryItem["UniqueComponent"]
+  >(UNIQUE_COMPONENT_COLLECTION_QUERY, (item) =>
+    uniqueComponentIds.includes(item.sys.id)
+  );
 
   const accordionCardIds = extractPageDeepChildIds(
     { pageCollection: [page], sectionCollection },
     "AccordionCard"
   );
-  const accordionCardCollection = await fetchCollection(client, {
-    ids: accordionCardIds,
-    query: ACCORDION_CARD_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.accordionCardCollection?.items.filter(isDefined) || [],
-  });
+  const accordionCardCollection = fetchLocalCollection<
+    QueryItem["AccordionCard"]
+  >(ACCORDION_CARD_COLLECTION_QUERY, (item) =>
+    accordionCardIds.includes(item.sys.id)
+  );
 
-  const childPageIds = extractPageDeepChildIds(
+  const childPageCardIds = extractPageDeepChildIds(
     {
       pageCollection: [page],
       sectionCollection,
@@ -126,22 +117,21 @@ async function getPageRelationships(
     },
     "Page"
   );
-  const childPageCollection = await fetchCollection(client, {
-    ids: childPageIds,
-    query: PAGE_COLLECTION_QUERY,
-    mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
-  });
+  const childPageCollection = fetchLocalCollection<QueryItem["Page"]>(
+    PAGE_COLLECTION_QUERY,
+    (item) => childPageCardIds.includes(item.sys.id)
+  );
   const sectionTagIds =
     sectionCollection.flatMap((item) =>
       item.contentfulMetadata.tags.map((tag) => tag?.id as string)
     ) || [];
-  const sectionTaggedPageCollection = await fetchCollection(client, {
-    tagIds: sectionTagIds,
-    query: PAGE_COLLECTION_QUERY,
-    limit: 20,
-    mapTotal: (data) => data?.pageCollection?.total || 0,
-    mapItems: (data) => data?.pageCollection?.items.filter(isDefined) || [],
-  });
+  const sectionTaggedPageCollection = fetchLocalCollection<QueryItem["Page"]>(
+    PAGE_COLLECTION_QUERY,
+    (item) =>
+      item?.contentfulMetadata?.tags?.some((tag) =>
+        sectionTagIds.includes(tag?.id as string)
+      ) && !childPageCardIds.includes(item.sys.id)
+  );
 
   const pageCollection = uniqBy(
     [page, ...childPageCollection, ...sectionTaggedPageCollection],
@@ -152,58 +142,51 @@ async function getPageRelationships(
     { pageCollection: pageCollection, sectionCollection },
     "ContentTypeRichText"
   );
-  const contentTypeRichTextCollection = await fetchCollection(client, {
-    ids: contentTypeRichTextIds,
-    query: CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.contentTypeRichTextCollection?.items.filter(isDefined) || [],
-  });
+  const contentTypeRichTextCollection = fetchLocalCollection<
+    QueryItem["ContentTypeRichText"]
+  >(CONTENT_TYPE_RICH_TEXT_COLLECTION_QUERY, (item) =>
+    contentTypeRichTextIds.includes(item.sys.id)
+  );
 
   const peopleDetailsIds = extractPageDeepChildIds(
     { pageCollection, sectionCollection, contentTypeRichTextCollection },
     "PeopleDetails"
   );
-  const peopleDetailsCollection = await fetchCollection(client, {
-    ids: peopleDetailsIds,
-    query: PEOPLE_DETAILS_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.peopleDetailsCollection?.items.filter(isDefined) || [],
-  });
+  const peopleDetailsCollection = fetchLocalCollection<
+    QueryItem["PeopleDetails"]
+  >(PEOPLE_DETAILS_COLLECTION_QUERY, (item) =>
+    peopleDetailsIds.includes(item.sys.id)
+  );
 
   const courseDetailsIds = extractPageDeepChildIds(
     { pageCollection, sectionCollection },
     "CourseDetails"
   );
-  const courseDetailsCollection = await fetchCollection(client, {
-    ids: courseDetailsIds,
-    query: COURSE_DETAILS_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.courseDetailsCollection?.items.filter(isDefined) || [],
-  });
+  const courseDetailsCollection = fetchLocalCollection<
+    QueryItem["CourseDetails"]
+  >(COURSE_DETAILS_COLLECTION_QUERY, (item) =>
+    courseDetailsIds.includes(item.sys.id)
+  );
 
   const resourceDetailsIds = extractPageDeepChildIds(
     { pageCollection, sectionCollection },
     "ResourceDetails"
   );
-
-  const resourceDetailsCollection = await fetchCollection(client, {
-    ids: resourceDetailsIds,
-    query: RESOURCE_DETAILS_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.resourceDetailsCollection?.items.filter(isDefined) || [],
-  });
+  const resourceDetailsCollection = fetchLocalCollection<
+    QueryItem["ResourceDetails"]
+  >(RESOURCE_DETAILS_COLLECTION_QUERY, (item) =>
+    resourceDetailsIds.includes(item.sys.id)
+  );
 
   const categoryOrJobDetailsIds = extractPageDeepChildIds(
     { pageCollection, sectionCollection },
     "CategoryOrJobDetails"
   );
-
-  const categoryOrJobDetailsCollection = await fetchCollection(client, {
-    ids: categoryOrJobDetailsIds,
-    query: CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY,
-    mapItems: (data) =>
-      data?.categoryOrJobDetailsCollection?.items.filter(isDefined) || [],
-  });
+  const categoryOrJobDetailsCollection = fetchLocalCollection<
+    QueryItem["CategoryOrJobDetails"]
+  >(CATEGORY_OR_JOB_DETAILS_COLLECTION_QUERY, (item) =>
+    categoryOrJobDetailsIds.includes(item?.sys.id as string)
+  );
 
   const cardIds = extractPageDeepChildIds(
     {
@@ -214,11 +197,10 @@ async function getPageRelationships(
     },
     "Card"
   );
-  const cardCollection = await fetchCollection(client, {
-    ids: cardIds,
-    query: CARD_COLLECTION_QUERY,
-    mapItems: (data) => data?.cardCollection?.items.filter(isDefined) || [],
-  });
+  const cardCollection = fetchLocalCollection<QueryItem["Card"]>(
+    CARD_COLLECTION_QUERY,
+    (item) => cardIds.includes(item.sys.id)
+  );
 
   const actionIds = extractPageDeepChildIds(
     {
@@ -229,11 +211,10 @@ async function getPageRelationships(
     },
     "Action"
   );
-  const actionCollection = await fetchCollection(client, {
-    ids: actionIds,
-    query: ACTION_COLLECTION_QUERY,
-    mapItems: (data) => data?.actionCollection?.items.filter(isDefined) || [],
-  });
+  const actionCollection = fetchLocalCollection<QueryItem["Action"]>(
+    ACTION_COLLECTION_QUERY,
+    (item) => actionIds.includes(item.sys.id)
+  );
 
   const relationshipMap: RelationshipMap = {
     courseDetailsCollection,

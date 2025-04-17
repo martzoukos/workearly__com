@@ -1,0 +1,516 @@
+{
+  "__timestamp": 1744865685226,
+  "total": 22,
+  "items": [
+    {
+      "sys": {
+        "id": "3wTeghKyBD15nDAeCucKUH",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Ζητήστε ένα demo",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://www.workearly.gr/contact",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "blog/poso-kostizei-to-metaptyxiako-sou"
+      }
+    },
+    {
+      "sys": {
+        "id": "13iOZgwNMNgz0V3f05rm68",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Go to Course",
+      "features": null,
+      "dynamicActionType": "Go to Associated Course",
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Flex",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1zYiNqo19kYoJZYbBg7dS5",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "For Businesses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Outlined",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "business"
+      }
+    },
+    {
+      "sys": {
+        "id": "5UkMkLzyqPrOCjdHPDt8Ij",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Get the Invoice",
+      "features": null,
+      "dynamicActionType": "Get Invoice",
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1w37DMwASiAICeSZo1MQfG",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Learn More",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": null,
+      "colorScheme": null,
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "4TeLHGsReMLbyyEyCxaQP9",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Digital Marketing",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": null,
+      "colorScheme": "Black",
+      "variant": "Chip",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/digital-marketing"
+      }
+    },
+    {
+      "sys": {
+        "id": "33kZeJ39E9c1DdgcWMzg1f",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Finance Courses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/finance"
+      }
+    },
+    {
+      "sys": {
+        "id": "3KTtHtGy7cm21uuXVgr2IU",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Explore Courses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "3lzfqWpy8QqxDuzSpAEd8z",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Επικοινωνήστε Μαζί Μας",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "contact"
+      }
+    },
+    {
+      "sys": {
+        "id": "6cBG7cSq8yy4Ue2NoXknRC",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Περισσότερα Άρθρα",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Underlined",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "blog"
+      }
+    },
+    {
+      "sys": {
+        "id": "3Glf1mTCPYTXQbJJId2d5z",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Περισσότερες ιστορίες επιτυχίας",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "White",
+      "variant": "Underlined",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "testimonials"
+      }
+    },
+    {
+      "sys": {
+        "id": "2Szo5RC5RDqo36YRKAG4cG",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Courses",
+      "features": ["Full Width in Mobile"],
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Flex",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "7kaO4eajRh6WT1bR3eMCSb",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Back to Course page",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "7Ljw0kstHEPmqTWCjhgb6O",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Finance Courses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/business"
+      }
+    },
+    {
+      "sys": {
+        "id": "63Bz4SeHtpGUoeU3ybQsor",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "HR Page",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/human-resources"
+      }
+    },
+    {
+      "sys": {
+        "id": "4PTyorx9g5xCALSbXAHdSq",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Data Science",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/data-science"
+      }
+    },
+    {
+      "sys": {
+        "id": "XcaFTDoGIWHoLCC82CExr",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Browse Courses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "White",
+      "variant": "Solid",
+      "behaviour": "Flex",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "2dz5v9Dum7uWCGuP1cTiiE",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "BLACK BUTTON",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "playground-dev"
+      }
+    },
+    {
+      "sys": {
+        "id": "7q37u0HmL1JqejXHRWOEkQ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Business Analytics",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://www.holy.gd/",
+      "iconPlacement": null,
+      "colorScheme": "Black",
+      "variant": "Chip",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "754qNsEf2cxXHPS0KELEoL",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "HR",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://www.holy.gd/",
+      "iconPlacement": null,
+      "colorScheme": "Black",
+      "variant": "Chip",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4L2TxndiB2LMhQ4g69lpwj",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Finance",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://www.holy.gd/",
+      "iconPlacement": null,
+      "colorScheme": "Black",
+      "variant": "Chip",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5VW6lkynnrRHtxhmYG6sD8",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "View Course",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Filled",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": null
+    }
+  ]
+}

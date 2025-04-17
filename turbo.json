@@ -14,7 +14,7 @@
     "CONTENTFUL_MANAGEMENT_TOKEN",
     "SITE_URL",
     "ANALYZE",
-    "REVALIDATION_SECRET"
+    "CRON_SECRET"
   ],
   "globalDependencies": ["**/.env.*local", ".env"],
   "tasks": {

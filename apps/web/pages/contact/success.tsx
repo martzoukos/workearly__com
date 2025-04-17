@@ -2,7 +2,7 @@ import ContactSuccess from "@/components/ContactSuccess";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
-import { fetchPageBySlug, getServerClient } from "@workearly/api";
+import { fetchPageBySlug } from "@workearly/api/server";
 import { ThemeProvider } from "@workearly/theme";
 import { InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
@@ -28,11 +28,8 @@ export default function Page(
 }
 
 export async function getStaticProps() {
-  const [client] = getServerClient();
-
   try {
     const props = await fetchPageBySlug(
-      client,
       "contact" // Just a stub slug that actually exists, we don't need any page info here
     );
 

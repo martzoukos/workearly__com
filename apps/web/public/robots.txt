@@ -3,9 +3,9 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://workearly.gr
+Host: https://www.workearly.gr
 
 # Sitemaps
-Sitemap: undefined/sitemap.xml
-Sitemap: undefined/en/sitemap.xml
-Sitemap: undefined/el/sitemap.xml
+Sitemap: https://www.workearly.gr/sitemap.xml
+Sitemap: https://www.workearly.gr/en/sitemap.xml
+Sitemap: https://www.workearly.gr/el/sitemap.xml

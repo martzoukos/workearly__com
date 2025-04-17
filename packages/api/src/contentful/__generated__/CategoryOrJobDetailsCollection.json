@@ -1,0 +1,1742 @@
+{
+  "__timestamp": 1744865689587,
+  "total": 56,
+  "items": [
+    {
+      "sys": {
+        "id": "1z7vgznPIYtyFQVg4Ka5jV",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Finance Courses",
+      "summary": "Αποκτήστε γερές βάσεις στα χρηματοοικονομικά με πρακτική εκπαίδευση στη λογιστική, budgeting και ανάλυση επενδύσεων. Μάθετε να αναλύετε οικονομικά δεδομένα και να υποστηρίζετε την ανάπτυξη επιχειρήσεων.",
+      "shortDescription": "Αποκτήστε γερές βάσεις στα χρηματοοικονομικά με πρακτική εκπαίδευση στη λογιστική, budgeting και ανάλυση επενδύσεων. Μάθετε να αναλύετε οικονομικά δεδομένα και να υποστηρίζετε την ανάπτυξη επιχειρήσεων.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6EskbOjdHbNslzwtsCfaoi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6EskbOjdHbNslzwtsCfaoi/48999e3fcc13393de5b8fd966b31c3a3/Front_Card_Finance.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2BTJOxB0EDA269Hwpyyvi0",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Sports Analytics Courses",
+      "summary": "Ανακαλύψτε τη δύναμη των δεδομένων στον αθλητισμό μέσα από πρακτικά μαθήματα Sports Analytics. Μάθετε να αναλύετε την απόδοση παικτών, να σχεδιάζετε στρατηγικές και να παίρνετε αποφάσεις βασισμένες σε δεδομένα.",
+      "shortDescription": "Ανακαλύψτε τη δύναμη των δεδομένων στον αθλητισμό μέσα από πρακτικά μαθήματα Sports Analytics. Μάθετε να αναλύετε την απόδοση παικτών, να σχεδιάζετε στρατηγικές και να παίρνετε αποφάσεις βασισμένες σε δεδομένα.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6eR9oFurU2azvk5pCwbWt0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6eR9oFurU2azvk5pCwbWt0/09407c9a1847978fd42ee0c13b3e6dca/Front_Card_Sports_Analytics.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5un7K1vNM4y4YBBI1CadW4",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "AI Courses",
+      "summary": "Ζούμε στην εποχή της Τεχνητής Νοημοσύνης, όπου η καινοτομία και η αυτοματοποίηση μεταμορφώνουν κάθε κλάδο. Από τα χρηματοοικονομικά και το marketing έως την υγειονομική περίθαλψη και τη βιομηχανία, οι AI δεξιότητες δεν είναι πλέον προαιρετικές – είναι απαραίτητες. Η κατανόηση και η εφαρμογή της AI σού δίνει ανταγωνιστικό πλεονέκτημα, ενισχύει την παραγωγικότητά σου και σε καθιστά τον επαγγελματία του μέλλοντος",
+      "shortDescription": "Η κατανόηση και η εφαρμογή της AI σού δίνει ανταγωνιστικό πλεονέκτημα, ενισχύει την παραγωγικότητά σου και σε καθιστά τον επαγγελματία του μέλλοντος",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "h2PQtJsP0nv8oHyJH4R7l",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/h2PQtJsP0nv8oHyJH4R7l/cce38e41490e67fae4f36dc650af0668/Front_Card_AI.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7kUE3SUSKhefIJtpn4FnxC",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Data Science Courses",
+      "summary": "Ανακαλύψτε μια ολοκληρωμένη εκπαιδευτική εμπειρία στον τομέα του Data Science, με πρακτική εξάσκηση στην Python, την SQL και την Τεχνητή Νοημοσύνη (AI). Αποκτήστε εξειδίκευση, αναπτύσσοντας δεξιότητες που ζητούνται στην αγορά εργασίας και μάθετε πώς να εφαρμόζετε τις γνώσεις σας για την ανάλυση δεδομένων, την επίλυση πραγματικών προβλημάτων και τη λήψη αποφάσεων.",
+      "shortDescription": "Αποκτήστε εξειδίκευση, αναπτύσσοντας δεξιότητες που ζητούνται στην αγορά εργασίας και μάθετε πώς να εφαρμόζετε τις γνώσεις σας για την ανάλυση δεδομένων, την επίλυση πραγματικών προβλημάτων και τη λήψη αποφάσεων.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "nhkMgFteUkWqRjMV4A99N",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/nhkMgFteUkWqRjMV4A99N/169678f69ed14516c58694c8949502cd/Front_Card_Data_Science.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "FHP7lNXdzapKs5rJ24sKc",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Human Resources Courses",
+      "summary": "Αναβαθμίστε την καριέρα σας στο HR με ολοκληρωμένα εκπαιδευτικά προγράμματα που εστιάζουν στο Recruiting, στο Talent Acquisition, στο HR Management και στο Employer Branding. Αποκτήστε σύγχρονες δεξιότήτες προσαρμοσμένες στις ανάγκες της αγοράς και ξεχωρίστε στον τομέα της διαχείρισης ανθρώπινου δυναμικού.",
+      "shortDescription": "Αποκτήστε σύγχρονες δεξιότήτες προσαρμοσμένες στις ανάγκες της αγοράς και ξεχωρίστε στον τομέα της διαχείρισης ανθρώπινου δυναμικού.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7hA91MNpYhH6Sy1sWvtDk7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7hA91MNpYhH6Sy1sWvtDk7/8545cc711a80ca24db5c9834b4a198bb/Front_Card_HR.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4qHhH2DW4zYcfW0vMcmmEv",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Human Skills Courses",
+      "summary": "Αναπτύξτε απαραίτητα soft skills, όπως επικοινωνία, συνεργασία, ηγεσία και συναισθηματική νοημοσύνη. Ενισχύστε τις διαπροσωπικές σας δεξιότητες και δημιουργήστε τις προϋποθέσεις για επιτυχημένη πορεία σε κάθε σύγχρονο εργασιακό περιβάλλον",
+      "shortDescription": "Αναπτύξτε απαραίτητα soft skills, όπως επικοινωνία, συνεργασία, ηγεσία και συναισθηματική νοημοσύνη. Ενισχύστε τις διαπροσωπικές σας δεξιότητες και δημιουργήστε τις προϋποθέσεις για επιτυχημένη πορεία σε κάθε σύγχρονο εργασιακό περιβάλλον",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1FyIh9mTZZzyMOemUXFYSO",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1FyIh9mTZZzyMOemUXFYSO/8d1317640d898c43afbc9c13a98dca88/Front_Card_Human_Skills.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Human Skills",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3jeUeEoOv1Ehr8M6zE6KDy",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "IT Courses",
+      "summary": "Απογειώστε τις τεχνολογικές σας δεξιότητες με εξειδικευμένα IT courses στον προγραμματισμό, την κυβερνοασφάλεια, τα δίκτυα, τη διαχείριση δεδομένων και το cloud computing. Γίνετε περιζήτητος επαγγελματίας και συμβάλετε δυναμικά στον ψηφιακό μετασχηματισμό κάθε επιχείρησης",
+      "shortDescription": "Απογειώστε τις τεχνολογικές σας δεξιότητες με εξειδικευμένα IT courses στον προγραμματισμό, την κυβερνοασφάλεια, τα δίκτυα, τη διαχείριση δεδομένων και το cloud computing. ",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4fbUuck7lCFQE4ccxM68vJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4fbUuck7lCFQE4ccxM68vJ/d87bb3b7c28f4d5bd9391a09a4e23bde/Front_Card_IT.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7uPGI7yddKM3XrPQQcscde",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Entrepreneurship Courses",
+      "summary": "Ξεκλειδώστε τις επιχειρηματικές σας δυνατότητες με μαθήματα σε startup strategy, καινοτομία και ανάπτυξη επιχειρηματικών ιδεών. Μετατρέψτε τη δημιουργικότητα σε επιχειρηματική επιτυχία.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "PQMJ2yFwrXAxXt4I364VL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/PQMJ2yFwrXAxXt4I364VL/4e41e3c68c8be775a536efe36c44124e/Front_Card_Entrepreneurship.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Entrepreneurship",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1XfBx4CXlFxvtAeFafq0cL",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Business Courses",
+      "summary": "Απογειώστε την καριέρα σας με δυναμικά Business Courses σε Στρατηγική, Ηγεσία, Business Analysis και Project Management. Αποκτήστε σύγχρονες δεξιότητες που σας κάνουν να ξεχωρίζετε, λάβετε στρατηγικές αποφάσεις με αυτοπεποίθηση και καθοδηγήστε ομάδες και επιχειρήσεις στην κορυφή.",
+      "shortDescription": "Αποκτήστε σύγχρονες δεξιότητες που σας κάνουν να ξεχωρίζετε, λάβετε στρατηγικές αποφάσεις με αυτοπεποίθηση και καθοδηγήστε ομάδες και επιχειρήσεις στην κορυφή.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "UPKwsdRfk1BJkVaTBnFV7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/UPKwsdRfk1BJkVaTBnFV7/a1b84f8b5f14a28f832ea0c6887dc947/Front_Card_Business.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "54aRiwwjetGye6Lg2IRK3v",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Digital Marketing Courses",
+      "summary": "Αναπτύξτε digital marketing δεξιότητες με πρακτική εξάσκηση σε SEO, περιεχόμενο, στρατηγική, αναλύσεις και social media. Μάθετε να αυξάνετε την απήχηση και την αναγνωρισιμότητα ενός brand.",
+      "shortDescription": "Αναπτύξτε digital marketing δεξιότητες με πρακτική εξάσκηση σε SEO, περιεχόμενο, στρατηγική, αναλύσεις και social media. Μάθετε να αυξάνετε την απήχηση και την αναγνωρισιμότητα ενός brand.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2A4fEpRq80sNNYfrfC6xu7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2A4fEpRq80sNNYfrfC6xu7/a47c29886f9014379c2326945947cf8a/Front_Card_Digital_Marketing.svg",
+        "width": 696,
+        "height": 530,
+        "contentType": "image/svg+xml",
+        "title": "Front Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2XH7qkX8uDbbZP8gxHhDuE",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Digital Marketing Manager",
+      "summary": "Γίνε Digital Marketing Manager και ηγήσου επιτυχημένες στρατηγικές ψηφιακού μάρκετινγκ. Ανάπτυξε δεξιότητες σε SEO, Google Ads, Social Media Marketing, Data Analytics, AI, Email Marketing, και Conversion Optimization. Μάθε πώς να δημιουργείς, να εκτελείς και να αναλύεις καμπάνιες ψηφιακού μάρκετινγκ, βελτιστοποιώντας την απόδοση και τη στρατηγική ανάπτυξης επιχειρήσεων..",
+      "shortDescription": "Γίνε Digital Marketing Manager και ηγήσου επιτυχημένες στρατηγικές ψηφιακού μάρκετινγκ. Ανάπτυξε δεξιότητες σε SEO, Google Ads, Social Media Marketing, Data Analytics, AI, Email Marketing, και Conversion Optimization.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "VUgwllkanKWXqAH8PcEPA",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Web Developer",
+      "summary": "Γίνε Python Web Developer και ανέπτυξε δυναμικές και αποδοτικές web εφαρμογές. Ανάπτυξε δεξιότητες σε Python, Django, SQL, API Development, Frontend Integration, και Cloud Deployment. Μάθε πώς να σχεδιάζεις, να αναπτύσσεις και να διαχειρίζεσαι σύγχρονες web εφαρμογές, εφαρμόζοντας βέλτιστες πρακτικές σε backend development και database management.",
+      "shortDescription": "Γίνε Python Web Developer και ανέπτυξε δυναμικές και αποδοτικές web εφαρμογές. Ανάπτυξε δεξιότητες σε Python, Django, SQL, API Development, Frontend Integration, και Cloud Deployment. ",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1wETZgxk2VP2dlldDn26rV",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Project Manager",
+      "summary": "Γίνε Project Manager και ηγήσου επιτυχημένα έργα με δεδομένα και στρατηγική σκέψη. Ανάπτυξε δεξιότητες σε Project Planning, Agile & Scrum Methodologies, Risk Management, Data Analytics. Μάθε πώς να διαχειρίζεσαι έργα αποτελεσματικά, να παρακολουθείς KPI και να λαμβάνεις αποφάσεις βασισμένες σε δεδομένα για τη βέλτιστη απόδοση των ομάδων και των επιχειρησιακών διαδικασιών.",
+      "shortDescription": "Γίνε Project Manager και ηγήσου επιτυχημένα έργα με δεδομένα και στρατηγική σκέψη. Ανάπτυξε δεξιότητες σε Project Planning, Agile & Scrum Methodologies, Risk Management, Data Analytics.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1fEQcDHTpLy7KNG2HG9Ob4",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Business Intelligence Analyst (BI)",
+      "summary": "Γίνε BI Analyst και αξιοποίησε τη δύναμη του Business Intelligence για στρατηγικές αποφάσεις. Ανάπτυξε δεξιότητες σε Data Analytics, SQL, AI, Data Visualization με Tableau & Power BI, και ETL & Data Pipeline Automation. Μάθε πώς να συλλέγεις, αναλύεις και παρουσιάζεις επιχειρηματικά δεδομένα, μετατρέποντάς τα σε actionable insights για βελτιστοποίηση διαδικασιών και ανάπτυξη επιχειρήσεων.",
+      "shortDescription": "Γίνε BI Analyst και αξιοποίησε τη δύναμη του Business Intelligence για στρατηγικές αποφάσεις. Ανάπτυξε δεξιότητες σε Data Analytics, SQL, AI, Data Visualization με Tableau & Power BI, και ETL & Data Pipeline Automation.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6bZy5h4sVsjV7XJKK4iqsN",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Auditor",
+      "summary": "Γίνε Auditor με εξειδίκευση στο Data Analytics και ενίσχυσε τον έλεγχο και τη διαχείριση κινδύνων μέσω δεδομένων. Ανάπτυξε δεξιότητες σε Audit Analytics, Fraud Detection, SQL, AI, Data Visualization με Tableau & Power BI, και Risk Management. Μάθε πώς να χρησιμοποιείς σύγχρονα εργαλεία ανάλυσης δεδομένων για την ανίχνευση ανωμαλιών, την αυτοματοποίηση ελέγχων και τη βελτίωση της συμμόρφωσης και της διαφάνειας στις επιχειρήσεις.",
+      "shortDescription": "Γίνε Auditor με εξειδίκευση στο Data Analytics και ενίσχυσε τον έλεγχο και τη διαχείριση κινδύνων μέσω δεδομένων. Ανάπτυξε δεξιότητες σε Audit Analytics, Fraud Detection, SQL, AI, Data Visualization με Tableau & Power BI, και Risk Management.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6bWtjM5HQIGE5lKBRWcCRC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6bWtjM5HQIGE5lKBRWcCRC/639ea59b61301ce21fb6f4c9eb2b995d/card_Finance.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5QHYVZIA7rq5lu60jFIyMz",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Sports Data Analyst",
+      "summary": "Γίνε Sports Data Analyst και αξιοποίησε τη δύναμη των δεδομένων στον αθλητισμό. Ανάπτυξε δεξιότητες σε Sports Analytics, Performance Data Analysis, SQL, AI, Data Visualization με Tableau & Power BI, και Predictive Modeling. Μάθε πώς να συλλέγεις, αναλύεις και παρουσιάζεις αθλητικά δεδομένα, βελτιστοποιώντας τη στρατηγική ομάδων, αθλητών και οργανισμών.",
+      "shortDescription": "Γίνε Sports Data Analyst και αξιοποίησε τη δύναμη των δεδομένων στον αθλητισμό. Ανάπτυξε δεξιότητες σε Sports Analytics, Performance Data Analysis, SQL, AI, Data Visualization με Tableau & Power BI, και Predictive Modeling.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "35FRRkGok2zIkHD4JkNpja",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/35FRRkGok2zIkHD4JkNpja/aa1fbed4f830b3e39ea92eee3d778299/card_Sports_Analytics.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Sport Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4wtn7L8fiGUtqX4ui3FjcK",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "HR Manager",
+      "summary": "Γίνε HR Manager και ηγήσου στη διαχείριση ανθρώπινου δυναμικού. Ανάπτυξε δεξιότητες σε HR Strategy, Talent Management, Employee Relations, Payroll & Compensation και AI. Μάθε πώς να αναπτύσσεις αποτελεσματικές HR στρατηγικές, να διαχειρίζεσαι ομάδες και να αξιοποιείς δεδομένα για τη λήψη στρατηγικών αποφάσεων.",
+      "shortDescription": "Γίνε HR Manager και ηγήσου στη διαχείριση ανθρώπινου δυναμικού. Ανάπτυξε δεξιότητες σε HR Strategy, Talent Management, Employee Relations, Payroll & Compensation και AI.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3Zyv9NilUkVJJBRC6RFUh",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "HR Generalist",
+      "summary": "Γίνε HR Generalist και διαμόρφωσε το μέλλον του ανθρώπινου δυναμικού. Ανάπτυξε δεξιότητες σε HR Analytics, Talent Acquisition, Employee Relations, Payroll και HR Management. Μάθε πώς να διαχειρίζεσαι αποτελεσματικά το ανθρώπινο δυναμικό, να αναλύεις δεδομένα εργαζομένων και να βελτιστοποιείς HR διαδικασίες με τη χρήση τεχνολογίας.",
+      "shortDescription": "Γίνε HR Generalist και διαμόρφωσε το μέλλον του ανθρώπινου δυναμικού. Ανάπτυξε δεξιότητες σε HR Analytics, Talent Acquisition, Employee Relations, Payroll και HR Management.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2dg3GeLBzZh0jdERu9qYej",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Healthcare Data Analyst",
+      "summary": "Γίνε Healthcare Data Analyst και αξιοποίησε τη δύναμη των δεδομένων στον τομέα της υγείας. Ανάπτυξε δεξιότητες σε Python, SQL, AI, Healthcare Analytics, Data Visualization με Tableau & Power BI, και Predictive Modeling. Μάθε πώς να συλλέγεις, αναλύεις και παρουσιάζεις δεδομένα υγειονομικής περίθαλψης, συμβάλλοντας στη βελτίωση των ιατρικών αποφάσεων και της αποτελεσματικότητας των συστημάτων υγείας.",
+      "shortDescription": "Γίνε Healthcare Data Analyst και αξιοποίησε τη δύναμη των δεδομένων στον τομέα της υγείας. Ανάπτυξε δεξιότητες σε Python, SQL, AI, Healthcare Analytics, Data Visualization με Tableau & Power BI, και Predictive Modeling.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "bTvSwqClHBELwtr3P9ifi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/bTvSwqClHBELwtr3P9ifi/d9c3d9dbe0d5d434727daf2ae9225442/card_Data_Science.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5JkfVykpQVdw4PQ3IgtIs2",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Financial Data Analyst",
+      "summary": "Γίνε Financial Data Analyst και αξιοποίησε τη δύναμη των δεδομένων στον χρηματοοικονομικό τομέα. Ανάπτυξε δεξιότητες σε Python, SQL, AI, Financial Modeling, Data Visualization με Tableau & Power BI, και Risk Analysis. Μάθε πώς να συλλέγεις, αναλύεις και παρουσιάζεις χρηματοοικονομικά δεδομένα, μετατρέποντάς τα σε στρατηγικές επιχειρησιακές αποφάσεις.",
+      "shortDescription": "Γίνε Financial Data Analyst και αξιοποίησε τη δύναμη των δεδομένων στον χρηματοοικονομικό τομέα. Ανάπτυξε δεξιότητες σε Python, SQL, AI, Financial Modeling, Data Visualization με Tableau & Power BI, και Risk Analysis.",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "bTvSwqClHBELwtr3P9ifi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/bTvSwqClHBELwtr3P9ifi/d9c3d9dbe0d5d434727daf2ae9225442/card_Data_Science.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4OsPxJjXY50owmscnSVFGZ",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Data Analyst",
+      "summary": "Γίνε Data Analyst και αξιοποίησε τη δύναμη των δεδομένων. Ανάπτυξε δεξιότητες σε Python, SQL, AI, Data Visualization με Tableau & Power BI, και Data Storytelling. Μάθε πώς να συλλέγεις, αναλύεις και παρουσιάζεις δεδομένα, μετατρέποντάς τα σε στρατηγικές επιχειρησιακές αποφάσεις.",
+      "shortDescription": "Γίνε Data Analyst και αξιοποίησε τη δύναμη των δεδομένων. Ανάπτυξε δεξιότητες σε Python, SQL, AI, Data Visualization με Tableau & Power BI, και Data Storytelling",
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "bTvSwqClHBELwtr3P9ifi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/bTvSwqClHBELwtr3P9ifi/d9c3d9dbe0d5d434727daf2ae9225442/card_Data_Science.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "pDfm0ighNuh9e4w6VTypw",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "HR Data Analyst",
+      "summary": "Αναπτύξτε HR analytics δεξιότητες και ερμηνεύστε δεδομένα προσωπικού. Μάθετε να αναλύετε trends, KPIs και δείκτες απόδοσης για στρατηγική HR υποστήριξη.",
+      "shortDescription": null,
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "68XQMtLVx47dJg20pscP6i",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Marketing Data Analyst",
+      "summary": "Αναπτύξτε εξειδίκευση στο marketing analytics. Μάθετε να παρακολουθείτε KPIs, να αξιολογείτε καμπάνιες και να αξιοποιείτε εργαλεία δεδομένων για στρατηγικές marketing αποφάσεις.",
+      "shortDescription": null,
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "43k9qfALsaROdJeCzxccJC",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Machine Learning Engineer",
+      "summary": "Γίνετε Machine Learning Engineer. Μάθετε ML αλγορίθμους, αξιολόγηση μοντέλων και deployment. Χρησιμοποιήστε Python και AI εργαλεία για καινοτόμες εφαρμογές.",
+      "shortDescription": null,
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "bTvSwqClHBELwtr3P9ifi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/bTvSwqClHBELwtr3P9ifi/d9c3d9dbe0d5d434727daf2ae9225442/card_Data_Science.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7dNtrN32SLlTpgRNzSX0L",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Data Scientist",
+      "summary": "Κατακτήστε τις τεχνικές του Data Scientist. Μάθετε Python, στατιστική, machine learning και data storytelling. Αναλύστε πολύπλοκα προβλήματα με predictive analytics και μοντέλα.",
+      "shortDescription": null,
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "bTvSwqClHBELwtr3P9ifi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/bTvSwqClHBELwtr3P9ifi/d9c3d9dbe0d5d434727daf2ae9225442/card_Data_Science.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "50RaqxctyjvXKhsTSlLE4i",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Data Engineer",
+      "summary": "Προετοιμαστείτε για μια επιτυχημένη καριέρα στο Data Engineering. Μάθετε να κατασκευάζετε pipelines, να διαχειρίζεστε βάσεις δεδομένων και να εργάζεστε με cloud εργαλεία. Υποστηρίξτε συστήματα ανάλυσης δεδομένων.",
+      "shortDescription": null,
+      "studentsCount": 25000,
+      "userReviews": 4.97,
+      "averageUsSalary": null,
+      "averageEuSalary": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "bTvSwqClHBELwtr3P9ifi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/bTvSwqClHBELwtr3P9ifi/d9c3d9dbe0d5d434727daf2ae9225442/card_Data_Science.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "ohQDSFK6ujVZzeHiNoLYn",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Content Writer",
+      "summary": "Κατακτήστε τη συγγραφή ψηφιακού περιεχομένου για web, blogs, email και SEO. Μάθετε storytelling που προσελκύει και μετατρέπει το κοινό σε πελάτες.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2ucB9dOrV87jBRDccq6AdV",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "AI & Automation Marketing Specialist",
+      "summary": "Αναπτύξτε τις δεξιότητες που απαιτούνται για να εξελιχθείτε σε AI & Automation Marketing Specialist. Μάθετε πώς να αξιοποιείτε τεχνολογίες τεχνητής νοημοσύνης και αυτοματοποίησης για να σχεδιάζετε αποδοτικές marketing στρατηγικές.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4S2EZPgg2YEpJoBAcSPt4",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Content Creator / Social Media Specialist",
+      "summary": "Δημιουργήστε περιεχόμενο που συνδέεται με το κοινό. Μάθετε copywriting, storytelling, video παραγωγή και τεχνικές social media για ισχυρή  παρουσία.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3JsgNG0QPCl3GxGiYOOCfu",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Social Media Manager",
+      "summary": "Αναπτύξτε τις δεξιότητες που χρειάζονται για μια καριέρα ως Social Media Manager. Μάθετε πώς να σχεδιάζετε στρατηγικές περιεχομένου, να ενισχύετε την αλληλεπίδραση με το κοινό και να υλοποιείτε αποδοτικές καμπάνιες.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6lU6xTzMaEVJPG1uE9qTRP",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "SEO Specialist",
+      "summary": "Κατακτήστε όλες τις κρίσιμες δεξιότητες του SEO. Μάθετε πώς να εντοπίζετε τις σωστές λέξεις-κλειδιά, να εφαρμόζετε τεχνική βελτιστοποίηση και να χτίζετε αποδοτικά backlinks. Αναπτύξτε στρατηγικές που ενισχύουν την ορατότητα, την οργανική επισκεψιμότητα και τη συνολική ψηφιακή παρουσία ενός brand.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5eY1WHYTBl6Rwl3vakfPbC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5eY1WHYTBl6Rwl3vakfPbC/4c963dfc905c83d25d0c11897f4c2899/card_Digital_Marketing.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7r4TyITgdnthvt8Ibm6cjE",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Startup Founder",
+      "summary": "Αναπτύξτε το επιχειρηματικό σας όραμα. Μάθετε business modeling, MVP ανάπτυξη και growth hacking, ώστε να χτίσετε και να κλιμακώσετε μια startup με επιτυχία.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1tUgQLFPkCFeDN7EFHUB9J",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1tUgQLFPkCFeDN7EFHUB9J/1bf063af8cd6dd7faa1b279623297133/card_Enterpreneurship.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Entrepreneurship",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6XP1abgTFrcjNZB2HambWL",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "AI Chatbot Developer (ChatGPT)",
+      "summary": "Μάθετε πώς να δημιουργείτε AI chatbots με ChatGPT και conversational AI τεχνολογίες. Εξειδικευτείτε σε σχεδιασμό διαλόγων, NLP τεχνικές και βελτιστοποίηση εμπειρίας χρήστη.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2T4B4djtEWK32OvjV4k3Ls",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2T4B4djtEWK32OvjV4k3Ls/146079c275a47480c390bfb852b14820/card_AI.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7yZWuIQ7xPFHoxUuuRxouz",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "AI Prompt Engineer",
+      "summary": "Κατακτήστε το prompt engineering. Μάθετε NLP τεχνικές και δημιουργήστε prompts που ενισχύουν την ποιότητα και ακρίβεια των AI απαντήσεων.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2T4B4djtEWK32OvjV4k3Ls",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2T4B4djtEWK32OvjV4k3Ls/146079c275a47480c390bfb852b14820/card_AI.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4gb34jDcz8PjX7iLS2Qc1t",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "AI Engineer",
+      "summary": "Μάθετε να σχεδιάζετε και να υλοποιείτε AI εφαρμογές. Χρησιμοποιήστε Python, μοντέλα μηχανικής μάθησης και AI τεχνολογίες για την επίλυση πραγματικών προβλημάτων.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6tDdmJxsz2E21JxohKBrSY",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "QA Engineer",
+      "summary": "Διασφαλίστε την ποιότητα λογισμικού με σύγχρονα testing frameworks, εργαλεία αυτοματοποίησης και πρακτικές debugging. Μάθετε να εντοπίζετε και να προλαμβάνετε σφάλματα αποτελεσματικά.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6SiNRETsqYn9trw3t0GYtE",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Backend Developer",
+      "summary": "Μάθετε backend development σε βάθος. Χτίστε APIs, εργαστείτε με βάσεις δεδομένων και σχεδιάστε server-side δομές για αποδοτικές, επεκτάσιμες εφαρμογές.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1E7Jtyp6e3fR61bTUs10vF",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Frontend Developer",
+      "summary": "Αναπτύξτε frontend εφαρμογές με HTML, CSS και JavaScript, αξιοποιώντας σύγχρονα UI frameworks. Μάθετε πώς να σχεδιάζετε λειτουργικά, responsive και ελκυστικά interfaces.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4mS72smxRecGhbTVDv1Tw9",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Python Developer",
+      "summary": "Κατακτήστε τις βασικές και πρακτικές δεξιότητες Python. Μάθετε scripting, αυτοματοποίηση και ανάπτυξη εφαρμογών με χρήση δεδομένων.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4KDo5hSkn7VB6t64NvTeHC",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Talent Acquisition Specialist",
+      "summary": "Αναπτύξτε δεξιότητες στρατολόγησης. Μάθετε τεχνικές sourcing, συνεντεύξεις και employer branding. Βελτιώστε την αποτελεσματικότητα του hiring process.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "58d23B0my6oVszZKMiH6nw",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Learning & Development Specialist",
+      "summary": "Σχεδιάστε και εφαρμόστε στρατηγικές μάθησης. Μάθετε training design, assessment και προγράμματα ανάπτυξης προσωπικού για οργανωσιακή εξέλιξη.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5Vn27EqNxIOtmcHpqg16tH",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "HR Digital Transformation Manager",
+      "summary": "Γίνετε ηγέτης ψηφιακού μετασχηματισμού HR. Μάθετε HR τεχνολογίες, αυτοματοποίηση και βελτιστοποίηση εμπειρίας εργαζομένων.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "Vr4W2OYUoHJjmpd0yDu5l",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "People Analytics Manager",
+      "summary": "Αξιοποιήστε HR δεδομένα για στρατηγικές αποφάσεις. Μάθετε people analytics, dashboards και performance insights.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "cpU2HeT6nZGwbK6GdnFv5",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "HR Business Partner",
+      "summary": "Γεφυρώστε HR στρατηγική και επιχειρησιακή εφαρμογή. Μάθετε workforce planning και ανάπτυξη ταλέντων σε ευθυγράμμιση με τους στόχους.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2AveUDzJW0Fp0ksBGKvzp7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2AveUDzJW0Fp0ksBGKvzp7/a61a2313d1e2af60814be435e28c0b18/card_HR.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "iNfqr04cvCqy5qN6ShfyF",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Financial Analyst",
+      "summary": "Αναπτύξτε δεξιότητες χρηματοοικονομικής ανάλυσης. Μάθετε forecasting, valuation, modeling και business finance.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6bWtjM5HQIGE5lKBRWcCRC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6bWtjM5HQIGE5lKBRWcCRC/639ea59b61301ce21fb6f4c9eb2b995d/card_Finance.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2PgTfYZVw1eROCe37pRS3l",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Risk Analyst / Risk Manager",
+      "summary": "Κατανοήστε το risk management. Μάθετε risk assessment, mitigation planning και εφαρμογή ελέγχων σε επιχειρησιακά και χρηματοοικονομικά περιβάλλοντα.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6bWtjM5HQIGE5lKBRWcCRC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6bWtjM5HQIGE5lKBRWcCRC/639ea59b61301ce21fb6f4c9eb2b995d/card_Finance.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6YCnDFCJcJqQH3gTw8RHPx",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Financial Software Developer",
+      "summary": "Μάθετε να σχεδιάζετε και να αναπτύσσετε finance εφαρμογές. Χρησιμοποιήστε γλώσσες προγραμματισμού και βάσεις δεδομένων για τραπεζικά και fintech περιβάλλοντα.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6bWtjM5HQIGE5lKBRWcCRC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6bWtjM5HQIGE5lKBRWcCRC/639ea59b61301ce21fb6f4c9eb2b995d/card_Finance.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6UgkEZc4YJdpa0xn92sgBw",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Business Analyst",
+      "summary": "Χτίστε καριέρα ως Business Analyst. Μάθετε καταγραφή απαιτήσεων, επικοινωνία με stakeholders, χαρτογράφηση διαδικασιών και agile πρακτικές.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2LtjRu4P8CMzZqufqYutTW",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Technical Project Manager",
+      "summary": "Συνδυάστε τεχνική κατάρτιση και ηγεσία. Μάθετε να διαχειρίζεστε ομάδες IT, να παραδίδετε έργα και να εφαρμόζετε agile μεθοδολογίες.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "78voFWjAgOudsurMHcsiH",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "IT Project Manager",
+      "summary": "Αναπτύξτε δεξιότητες project management στον IT κλάδο. Μάθετε σχεδιασμό έργου, τεχνολογική υλοποίηση και συνεργασία ομάδων.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3nNRtOPYQDRt1geCIxDiZg",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Change Manager",
+      "summary": "Γίνετε ειδικός στη διαχείριση αλλαγών. Μάθετε στρατηγικές αλλαγής, διαχείριση stakeholders και οργανωσιακό μετασχηματισμό.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3q1GZiRexSY3b1QsgYCuM7",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Business Development Manager",
+      "summary": "Μάθετε να εντοπίζετε ευκαιρίες, να χτίζετε σχέσεις και να αυξάνετε τα έσοδα με στρατηγικές business development.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2yDFF1Ni1QufulfqzB31AB",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Sales Director / Head of Sales",
+      "summary": "Ηγηθείτε ομάδων πωλήσεων με forecasting, coaching και στρατηγική. Αναπτύξτε δεξιότητες ηγεσίας και ανάπτυξης στόχων.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1666xgKBocdRFkO2slxhBX",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Customer Success Manager",
+      "summary": "Διασφαλίστε επιτυχία πελατών με onboarding, retention και CRM στρατηγικές. Βελτιώστε την ικανοποίηση και διατήρηση πελατών.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "141IqZLDJpMWGfx5HmKCfJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/141IqZLDJpMWGfx5HmKCfJ/cf5c16a704f39a180e13d91b2422a21a/card_Project_Management.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4oMVL8Cppl2PjrKjyOFxco",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Full Stack Developer",
+      "summary": "Γίνετε ολοκληρωμένος Full Stack Developer. Μάθετε JavaScript, React, Node.js και deployment πρακτικές.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7ooyEX1zimDmTmvm8GX1v8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7ooyEX1zimDmTmvm8GX1v8/898f6c7feb2bd033b8186ff316c2415d/card_IT.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "UtncfkNgvfTTrplGOIOoH",
+        "__typename": "Sys"
+      },
+      "__typename": "CategoryOrJobDetails",
+      "title": "Business Consultant",
+      "summary": "Αναπτύξτε συμβουλευτικές δεξιότητες. Μάθετε επιχειρηματικά μοντέλα, επίλυση προβλημάτων και ανάπτυξη πελατών.",
+      "shortDescription": null,
+      "studentsCount": 563,
+      "userReviews": 4.8,
+      "averageUsSalary": "$120,000",
+      "averageEuSalary": "€85,000",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1u9KuH75Fm5uxE2PPVid3m",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1u9KuH75Fm5uxE2PPVid3m/b71d54203a2988a010e453d842b170d3/card-animation.svg",
+        "width": 330,
+        "height": 480,
+        "contentType": "image/svg+xml",
+        "title": "Data Scientist Card",
+        "description": ""
+      }
+    }
+  ]
+}
