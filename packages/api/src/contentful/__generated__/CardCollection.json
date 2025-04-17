@@ -1,7 +1,91 @@
 {
-  "__timestamp": 1744726304735,
-  "total": 170,
+  "__timestamp": 1744865688363,
+  "total": 172,
   "items": [
+    {
+      "sys": {
+        "id": "FMeu02857tEIbjpQpbJ3D",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Data Science",
+      "text": "Emphasizing the importance of innovation in our approach is crucial for staying ahead in the competitive landscape. By fostering a culture of creativity and forward-thinking, we can ensure that our strategies remain effective and relevant.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4Cghi7JGWkfxSxh04h1XkR",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Eurobank",
+      "text": "Η Eurobank είναι μία από τις μεγαλύτερες τράπεζες στην Ελλάδα, προσφέροντας τραπεζικές και επενδυτικές υπηρεσίες σε ιδιώτες και επιχειρήσεις, με παρουσία και σε άλλες χώρες της Ευρώπης.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2yEeRp80DnpkefduD3IGJt",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2yEeRp80DnpkefduD3IGJt/4ba5262331142b183b20aea23c735a53/logo-klarna-white.webp",
+        "width": 1106,
+        "height": 558,
+        "contentType": "image/webp",
+        "title": "logo-klarna-white",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "1NCd6jivZyfwZ1hHE4Q393",

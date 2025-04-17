@@ -1,7 +1,606 @@
 {
-  "__timestamp": 1744726322982,
-  "total": 318,
+  "__timestamp": 1744865713649,
+  "total": 323,
   "items": [
+    {
+      "sys": {
+        "id": "2isAxbAiAryFb40DavQTKT",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Popular Categories",
+      "supertitle": "Choose from the most ",
+      "text": null,
+      "titleSize": "h4",
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "90€",
+          "value": "Μέχρι 30 Απριλίου (early bird)"
+        },
+        {
+          "label": "120€",
+          "value": "Normal Tickets"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "YP5VBwCfW2YxiTvV1AyCG",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Popular Categories",
+      "supertitle": "Choose from the most ",
+      "text": null,
+      "titleSize": "h4",
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4INbBwAJEGwuKzzVlGnlwl",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Top Mentors",
+      "supertitle": "Get taught by",
+      "text": null,
+      "titleSize": "h4",
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Mentors Spotlight",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6jAYmkqzSn38tC5ed12FbD",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6nUYoPAfMCiOOGO1xhsmfR",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsCorporateLawCompliance",
+                  "name": "Mentors: Corporate Law & Compliance",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7KMQ9swpV69lI5YEsaDLRn",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "30fPZdHzEfIwgpvKv8FuuX",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6SwV2JbxfI0xsX8K4bF6HS",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsDataScienceAnalytics",
+                  "name": "Mentors: Data Science & Analytics",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2ZyJZiJ49g9Cqm1Gse5nF7",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsDataScienceAnalytics",
+                  "name": "Mentors: Data Science & Analytics",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4rRkTeuBUrCAL1id7CCpgg",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Hiring Partners",
+      "supertitle": "Αυτοί οι οργανισμοί επενδύουν στους learners μας.",
+      "text": null,
+      "titleSize": "h4",
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Advanced Logo Carousel",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4Cghi7JGWkfxSxh04h1XkR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Cghi7JGWkfxSxh04h1XkR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Cghi7JGWkfxSxh04h1XkR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Cghi7JGWkfxSxh04h1XkR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Cghi7JGWkfxSxh04h1XkR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2aG4lmrhAIhK7nFdMC9oYY",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": null,
+      "size": null,
+      "theme": "Light",
+      "title": "Unlock Your Full Potential with Interactive, Role-Playing Learning",
+      "supertitle": null,
+      "text": "Η εκπαίδευση που προσαρμόζεται σε εσένα. Ζήσε τη γνώση, εφάρμοσε στην πράξη.",
+      "titleSize": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Hero",
+      "metadata": {
+        "height": "680px",
+        "assetWidth": "55%"
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1vBTUjVRP1Qd0ZH39IB6n4",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/1vBTUjVRP1Qd0ZH39IB6n4/cf5d4159c0f6e46da03efca07d42244f/Anim_Picking__1_.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Workearly Main Animation Desktop",
+            "description": ""
+          },
+          {
+            "sys": {
+              "id": "iVL2SOj98i7Kuk39yBYPm",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/iVL2SOj98i7Kuk39yBYPm/0dd19056f9d1e3f36ac616f5c0947450/Anim_Picking_Mobile.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Workearly Main Animation Mobile",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4pq7OvK2FygPRN3lWqVGY1",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Το μεγαλύτερο event του καλοκαιριού",
+      "supertitle": "Workearly Summer Schools 2025",
+      "text": null,
+      "titleSize": "h4",
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Hero With Details",
+      "metadata": {
+        "height": "640px",
+        "items": [
+          {
+            "label": "15 Ιουνίου",
+            "value": "Έναρξη"
+          },
+          {
+            "label": "6 εβδομάδες",
+            "value": "Διάρκεια"
+          }
+        ]
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2vUcGzaJEvks4ISVPUhkzU",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/2vUcGzaJEvks4ISVPUhkzU/7d17c9a6bb77762b6e2a0439a760a530/hero-with-details.png",
+            "width": 5504,
+            "height": 2560,
+            "contentType": "image/png",
+            "title": "hero-with-details",
+            "description": ""
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "Y99voP4fl3OELh9SameT9",
@@ -30,6 +629,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -45,22 +660,6 @@
             "contentType": "video/mp4",
             "title": "Workearly Promo Video",
             "description": null
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -2508,6 +3107,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3wTeghKyBD15nDAeCucKUH",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -2536,22 +3151,6 @@
             "contentType": "image/webp",
             "title": "Hero Business Background Image Mobile",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3wTeghKyBD15nDAeCucKUH",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -4056,24 +4655,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1ozZ1Djwhu1aOi0nx2gzei",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
-            "width": 695,
-            "height": 530,
-            "contentType": "image/svg+xml",
-            "title": "Failure",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -4100,94 +4681,22 @@
             }
           }
         ]
-      }
-    },
-    {
-      "sys": {
-        "id": "2aG4lmrhAIhK7nFdMC9oYY",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Left",
-      "layout": null,
-      "size": null,
-      "theme": "Light",
-      "title": "Unlock Your Full Potential with Interactive, Role-Playing Learning",
-      "supertitle": null,
-      "text": "Η εκπαίδευση που προσαρμόζεται σε εσένα. Ζήσε τη γνώση, εφάρμοσε στην πράξη.",
-      "titleSize": "h1",
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Hero",
-      "metadata": {
-        "height": "560px",
-        "assetWidth": "55%"
-      },
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
           {
             "sys": {
-              "id": "1vBTUjVRP1Qd0ZH39IB6n4",
+              "id": "1ozZ1Djwhu1aOi0nx2gzei",
               "__typename": "Sys"
             },
             "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/1vBTUjVRP1Qd0ZH39IB6n4/cf5d4159c0f6e46da03efca07d42244f/Anim_Picking__1_.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Workearly Main Animation Desktop",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
+            "width": 695,
+            "height": 530,
+            "contentType": "image/svg+xml",
+            "title": "Failure",
             "description": ""
-          },
-          {
-            "sys": {
-              "id": "iVL2SOj98i7Kuk39yBYPm",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/iVL2SOj98i7Kuk39yBYPm/0dd19056f9d1e3f36ac616f5c0947450/Anim_Picking_Mobile.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Workearly Main Animation Mobile",
-            "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -4663,24 +5172,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5PGyZeSFWDxLAe4EGzZlVN",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Anim Picking",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -4705,6 +5196,24 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5PGyZeSFWDxLAe4EGzZlVN",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Anim Picking",
+            "description": ""
           }
         ]
       }
@@ -8904,6 +9413,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3mB2Lzny8ZdRN5eir8367E",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
+            "width": 680,
+            "height": 407,
+            "contentType": "image/svg+xml",
+            "title": "Map",
+            "description": null
+          }
+        ]
+      },
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
@@ -8961,24 +9488,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3mB2Lzny8ZdRN5eir8367E",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
-            "width": 680,
-            "height": 407,
-            "contentType": "image/svg+xml",
-            "title": "Map",
-            "description": null
           }
         ]
       }
@@ -26598,22 +27107,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -26629,6 +27122,22 @@
             "contentType": "image/png",
             "title": "Pig",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
