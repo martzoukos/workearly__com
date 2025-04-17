@@ -37,7 +37,7 @@ export default function HeroDetails({ section, className }: PropsType) {
   return (
     <Shell.Root className={clsx(styles.root, className)} {...shell}>
       <div className={styles.content}>
-        <div>
+        <div className={styles.header}>
           <Text className={styles.superTitle}>{section.supertitle}</Text>
           <Text as="h2" size={titleSize ?? "h1"}>
             {section.title}

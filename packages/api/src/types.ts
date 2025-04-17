@@ -255,3 +255,8 @@ export type HeroDetails = {
     value: string;
   }[];
 };
+
+export type PhotoAndText = {
+  label?: string;
+  value?: string;
+};

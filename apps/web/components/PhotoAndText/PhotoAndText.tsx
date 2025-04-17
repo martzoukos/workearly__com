@@ -1,4 +1,4 @@
-import { QueryItem } from "@workearly/api";
+import { PhotoAndText as PhotoAndTextType, QueryItem } from "@workearly/api";
 import Image from "next/image";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -25,6 +25,7 @@ const PhotoAndText = ({ section, className }: PropsType) => {
   const cards = getReferences("Card");
   const shell = useShellResolver(section);
   const swiperRef = useRef<SwiperCore>();
+  const isGreen = section.metadata?.length > 0 || false;
 
   return (
     <Shell.Section
@@ -41,6 +42,7 @@ const PhotoAndText = ({ section, className }: PropsType) => {
         spaceBetween={24}
         centeredSlides={true}
         className={styles.slider}
+        data-green={isGreen}
       >
         {cards.map((card) => {
           const { getReferences } = useCardResolver(card);
@@ -61,10 +63,30 @@ const PhotoAndText = ({ section, className }: PropsType) => {
                   {card.title && <Text size="h4">{card.title}</Text>}
                   {card.text && <Text>{card.text}</Text>}
 
-                  <div className={styles.actions}>
-                    {actions.map((action) => (
-                      <ActionButton key={action?.sys.id} action={action} />
-                    ))}
+                  <div className={styles.footer}>
+                    {isGreen && (
+                      <div className={styles.table}>
+                        {isGreen &&
+                          section.metadata.map((item: PhotoAndTextType) => {
+                            return (
+                              <>
+                                <Text className={styles.label}>
+                                  {item.label}
+                                </Text>
+                                <Text className={styles.value}>
+                                  {item.value}
+                                </Text>
+                              </>
+                            );
+                          })}
+                      </div>
+                    )}
+
+                    <div className={styles.actions}>
+                      {actions.map((action) => (
+                        <ActionButton key={action?.sys.id} action={action} />
+                      ))}
+                    </div>
                   </div>
                 </div>
               </div>
