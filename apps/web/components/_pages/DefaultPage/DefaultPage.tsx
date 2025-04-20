@@ -5,6 +5,8 @@ import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import { useRouter } from "next/router";
 import styles from "./DefaultPage.module.scss";
+import { EducationalOrganization, WithContext } from "schema-dts";
+import { educationalOrganizationJsonLd } from "@/lib/jsonLdSchemas";
 
 type PropsType = {
   className?: string;
@@ -14,11 +16,22 @@ export default function DefaultPage({ className }: PropsType) {
   const router = useRouter();
   const { page } = useContentful();
   const { preDividerItems, postDividerItems } = usePageResolver(page);
+  let jsonLd: WithContext<EducationalOrganization> | undefined = undefined;
 
   const isHome = router.asPath === "/";
 
+  if (isHome) {
+    jsonLd = educationalOrganizationJsonLd;
+  }
+
   return (
     <main className={clsx(styles.root, className)}>
+      {jsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      )}
       {!isHome && (
         <Breadcrumbs
           className={styles.breadcrumbs}
