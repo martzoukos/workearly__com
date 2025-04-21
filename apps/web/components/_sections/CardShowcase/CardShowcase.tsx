@@ -76,8 +76,6 @@ export default function CardShowcase({ section, className }: PropsType) {
     };
   }
 
-  console.log(jsonLd);
-
   return (
     <Shell.Root className={clsx(styles.root, className)} {...shell}>
       {jsonLd && (
