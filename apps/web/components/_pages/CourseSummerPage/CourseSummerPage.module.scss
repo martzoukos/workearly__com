@@ -5,8 +5,8 @@
 
 .root {
   --gap-sidebar: #{fluid-rem(1.5rem, 3rem)};
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   gap: fluid-rem(1.5rem, 8rem);
 
   @include media(md) {

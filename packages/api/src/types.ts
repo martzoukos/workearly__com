@@ -229,7 +229,7 @@ export type CategorySubItemType = {
 
 export type MenuGroupType = {
   name?: string;
-  label?: string;
+  greenBtn?: { name?: string; to?: string };
   items: Array<
     | LinkItemType
     | NormalSubItemType

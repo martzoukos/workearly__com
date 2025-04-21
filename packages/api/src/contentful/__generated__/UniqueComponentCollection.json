@@ -1,5 +1,5 @@
 {
-  "__timestamp": 1744966958876,
+  "__timestamp": 1745220040298,
   "total": 3,
   "items": [
     {
@@ -20,6 +20,10 @@
           "itemGroups": [
             {
               "name": "By Goal",
+              "greenBtn": {
+                "name": "Summer Schools 2025",
+                "to": "/summer-course-template"
+              },
               "items": [
                 {
                   "to": "/courses",

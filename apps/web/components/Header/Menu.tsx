@@ -11,6 +11,7 @@ import { DropdownMenu } from "radix-ui";
 import { useEffect, useState } from "react";
 import styles from "./Menu.module.scss";
 import MenuItem from "./MenuItem";
+import Link from "next/link";
 
 type PropsType = {
   menu: MenuType;
@@ -65,15 +66,14 @@ export default function Menu({ menu, defaultOpen = false }: PropsType) {
                   )}
                 >
                   <div className={styles.labelContainer}>
-                    {group.label && (
+                    {group.greenBtn && (
                       <DropdownMenu.Label asChild>
-                        <Text
-                          as="label"
-                          size="small"
+                        <Link
+                          href={group.greenBtn.to || ""}
                           className={styles.greenLabel}
                         >
-                          {group.label}
-                        </Text>
+                          {group?.greenBtn.name}
+                        </Link>
                       </DropdownMenu.Label>
                     )}
                     {group.name && (

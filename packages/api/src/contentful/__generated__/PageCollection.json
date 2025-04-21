@@ -1,5 +1,5 @@
 {
-  "__timestamp": 1744966950378,
+  "__timestamp": 1745220213278,
   "total": 245,
   "items": [
     {
@@ -9,7 +9,7 @@
       },
       "__typename": "Page",
       "seoImage": null,
-      "variant": "Playground",
+      "variant": "Course | Summer",
       "name": "Summer Course Template",
       "features": ["No Index"],
       "slug": "summer-course-template",
@@ -498,8 +498,34 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "home",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "about",
+                      "variant": "Default"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -603,8 +629,34 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "home",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "about",
+                      "variant": "Default"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -981,7 +1033,7 @@
           "items": [
             {
               "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
+                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -992,18 +1044,13 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-schools",
+                      "slug": "home",
                       "variant": "Default"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "summer-course-template",
-                      "variant": "Playground"
+                      "slug": "about",
+                      "variant": "Default"
                     }
                   ]
                 }
@@ -1119,7 +1166,7 @@
                     {
                       "__typename": "Page",
                       "slug": "summer-course-template",
-                      "variant": "Playground"
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -1220,7 +1267,7 @@
                     {
                       "__typename": "Page",
                       "slug": "summer-course-template",
-                      "variant": "Playground"
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -14096,7 +14143,7 @@
                     {
                       "__typename": "Page",
                       "slug": "summer-course-template",
-                      "variant": "Playground"
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -14207,7 +14254,7 @@
                     {
                       "__typename": "Page",
                       "slug": "summer-course-template",
-                      "variant": "Playground"
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -14328,7 +14375,7 @@
                     {
                       "__typename": "Page",
                       "slug": "summer-course-template",
-                      "variant": "Playground"
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -14699,34 +14746,8 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -14926,34 +14947,8 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -15042,34 +15037,8 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -15260,34 +15229,8 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -15978,8 +15921,34 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "home",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "about",
+                      "variant": "Default"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
