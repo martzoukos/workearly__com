@@ -7,6 +7,7 @@
 }
 
 .section {
+  width: 100%;
   @include media(md) {
     .mediaRow {
       grid-template-columns: repeat(1, 1fr);

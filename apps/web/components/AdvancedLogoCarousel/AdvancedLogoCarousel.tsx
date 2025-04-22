@@ -62,7 +62,7 @@ const AdvancedLogoCarousel = ({ section, className }: PropsType) => {
               spaceBetween={24}
               centeredSlides={true}
               breakpoints={{
-                0: { slidesPerView: 1 },
+                0: { slidesPerView: 1.2 },
                 640: { slidesPerView: 2.2 },
               }}
               className={styles.slider}
