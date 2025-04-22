@@ -1,7 +1,43 @@
 {
-  "__timestamp": 1745310183215,
+  "__timestamp": 1745328123610,
   "total": 9,
   "items": [
+    {
+      "sys": {
+        "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs Alt",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Το κορυφαίο Summer Learning Event της χρονιάς",
+      "supertitle": null,
+      "text": "Τα Workearly Summer Schools είναι το κορυφαίο summer learning event της χρονιάς — η απόλυτη εμπειρία εκπαίδευσης και εξέλιξης για όσους θέλουν να ξεχωρίσουν. Με έμφαση στο πρακτικό upskilling, τη δικτύωση με real people και την πρόσβαση σε real επαγγελματικές ευκαιρίες, προσφέρουν τον πιο δυνατό συνδυασμό: καλοκαιρινό ρυθμό, real skills και impact που μένει. Είναι το πρόγραμμα που μετατρέπει το καλοκαίρι σου σε ευκαιρία ζωής — για την καριέρα, το βιογραφικό και το μέλλον σου.",
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "Y99voP4fl3OELh9SameT9",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "7JBVL0px1TManXwQaYbTmA",
@@ -27,42 +63,6 @@
           {
             "sys": {
               "id": "5wtlCwUhjiVgCTQDy2t6OH",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4NGRcdxLIt7pQ5OoOqFUwf",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Tabs Alt",
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Ενακτήρια Εκδήλωση - Αθήνα ",
-      "supertitle": null,
-      "text": "Αυτό είναι το κείμενο για την εκδήλωση",
-      "spacing": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "Y99voP4fl3OELh9SameT9",
               "__typename": "Sys"
             },
             "__typename": "Section",

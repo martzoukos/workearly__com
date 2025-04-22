@@ -1,20 +1,16 @@
 {
-  "__timestamp": 1745310181304,
-  "total": 176,
+  "__timestamp": 1745328121460,
+  "total": 192,
   "items": [
     {
       "sys": {
-        "id": "5rs5cITJACttAe7kCGk91Q",
+        "id": "5NbsLmvSToKVezaQXyM2UY",
         "__typename": "Sys"
       },
       "__typename": "Card",
       "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Community",
-      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "title": "HR Summer School",
+      "text": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα. Αν θέλεις να εξελίξεις τις δεξιότητές σου, να δικτυωθείς με κορυφαίους επαγγελματίες και να διεκδικήσεις ρόλους με προοπτική, το HR Summer School είναι η ευκαιρία που δεν πρέπει να χάσεις.",
       "variant": null,
       "studentsCount": null,
       "rating": null,
@@ -26,31 +22,43 @@
       },
       "asset": {
         "sys": {
-          "id": "4KDGD830cb7fhecG1jJeNy",
+          "id": "O4PwytiWuQiG2124AlTzD",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4KDGD830cb7fhecG1jJeNy/51ad9f0ce1a28b3ca875c74dd04fed67/Community.svg",
-        "width": 600,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Community",
-        "description": null
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
       }
     },
     {
       "sys": {
-        "id": "2wkwdHCZeXct9TLd0yKmNg",
+        "id": "2uoeqfg7XFYYVilSyTPFMk",
         "__typename": "Sys"
       },
       "__typename": "Card",
       "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Εκδήλωση",
-      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "title": "AI Data Science Summer School",
+      "text": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα. Είτε θέλεις να εξελίξεις τις δεξιότητές σου, να δικτυωθείς με επαγγελματίες του χώρου ή να κάνεις το επόμενο βήμα στην καριέρα σου, το AI Data Science Summer School είναι η ευκαιρία που δεν πρέπει να χάσεις. Κλείσε τη θέση σου σήμερα – και κάνε το καλοκαίρι σου το πιο καθοριστικό της επαγγελματικής σου πορείας.",
       "variant": null,
       "studentsCount": null,
       "rating": null,
@@ -62,15 +70,67 @@
       },
       "asset": {
         "sys": {
-          "id": "2tq2yBI6Ito0FZM0ISVuv1",
+          "id": "O4PwytiWuQiG2124AlTzD",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2tq2yBI6Ito0FZM0ISVuv1/8a3c067e038f5ecf93bbe1199f43bb10/Event.svg",
-        "width": 600,
-        "height": 750,
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "bZnjC6w1TF3t0oRldJpSw",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Θέσεις Εργασίας",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4VE0wr9flxAGHQa3c8RCKh",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4VE0wr9flxAGHQa3c8RCKh/f8419af6ffd0740d3406ea4ab6f2a275/Portfolio_Job_Prospects.svg",
+        "width": 24,
+        "height": 24,
         "contentType": "image/svg+xml",
-        "title": "Event",
+        "title": "Portfolio Job Prospects",
         "description": null
       }
     },
@@ -86,7 +146,7 @@
         "__typename": "CardActionsCollection"
       },
       "title": "Mentorship",
-      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "text": "Ένα καλοκαίρι με ανθρώπους που δεν διδάσκουν απλώς — σε καταλαβαίνουν. Το mentoring δεν είναι απλώς μια συμβουλή. Είναι ο πιο γρήγορος τρόπος να φτάσεις εκεί που θες — χωρίς να περπατήσεις μόνος σου.",
       "variant": null,
       "studentsCount": null,
       "rating": null,
@@ -112,6 +172,78 @@
     },
     {
       "sys": {
+        "id": "2wkwdHCZeXct9TLd0yKmNg",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Live Event",
+      "text": "Οι ευκαιρίες ξεκινούν με μια γνωριμία. Το networking event είναι το καλύτερο σημείο για να γνωρίσεις mentors, επαγγελματίες και πιθανώς… τον επόμενο εργοδότη σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2tq2yBI6Ito0FZM0ISVuv1",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2tq2yBI6Ito0FZM0ISVuv1/8a3c067e038f5ecf93bbe1199f43bb10/Event.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Event",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5rs5cITJACttAe7kCGk91Q",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Community",
+      "text": "Η καριέρα σου δεν είναι solo project. Δούλεψε, αντάλλαξε ιδέες και δικτυώσου με άλλους learners που εξελίσσονται μαζί σου.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "4KDGD830cb7fhecG1jJeNy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4KDGD830cb7fhecG1jJeNy/51ad9f0ce1a28b3ca875c74dd04fed67/Community.svg",
+        "width": 600,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Community",
+        "description": null
+      }
+    },
+    {
+      "sys": {
         "id": "4OW8QkIvbkc1Xy2p5h4O7n",
         "__typename": "Sys"
       },
@@ -121,8 +253,8 @@
         "items": [],
         "__typename": "CardActionsCollection"
       },
-      "title": "Εκπαίδευση",
-      "text": "Εξατομικευμένη εκπαίδευση βασισμένη στην Τεχνητή Νοημοσύνη, που προσαρμόζεται στις ανάγκες και το επίπεδό σου.",
+      "title": "Training",
+      "text": "Καλοκαίρι και μάθηση πάνε μαζί — με απόλυτη ευελιξία. Μάθε με τον δικό σου ρυθμό, από τον υπολογιστή… ή και από την ξαπλώστρα.",
       "variant": null,
       "studentsCount": null,
       "rating": null,
@@ -148,13 +280,13 @@
     },
     {
       "sys": {
-        "id": "FMeu02857tEIbjpQpbJ3D",
+        "id": "GOsNBcoVElSHXWFufo63y",
         "__typename": "Sys"
       },
       "__typename": "Card",
       "thumbnail": null,
-      "title": "Data Science",
-      "text": "Emphasizing the importance of innovation in our approach is crucial for staying ahead in the competitive landscape. By fostering a culture of creativity and forward-thinking, we can ensure that our strategies remain effective and relevant.",
+      "title": "Summer Schools 2025",
+      "text": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα. Αν θέλεις να αναβαθμίσεις τις δεξιότητές σου, να συνδεθείς με κορυφαίους επαγγελματίες και να διεκδικήσεις ρόλους με πραγματική προοπτική, τα Workearly Summer Schools είναι η ευκαιρία που δεν πρέπει να χάσεις.",
       "variant": null,
       "studentsCount": null,
       "rating": null,
@@ -163,6 +295,19 @@
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
       },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
@@ -179,6 +324,313 @@
             }
           }
         ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6etXfvfUnsAuHnUJlcZS5j",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "ATCOM",
+      "text": "Η ATCOM θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5R5yRycXCj0dzXsieozvj8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5R5yRycXCj0dzXsieozvj8/c2905b7ddfe99ab78bd4ddd305851bcf/Atcom_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Atcom Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "34OQjvrqtMrbPqo15wahsR",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Doctoranytime",
+      "text": "Το Doctoranytime θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "ThY3bCs7dH80HfL6OO80g",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/ThY3bCs7dH80HfL6OO80g/1fe96b612037b4ff241da4b80f0e0f1e/Doctor_Anytime_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Doctor Anytime Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5mAlZoYbizrHXqIaOGh4D",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Interamerican",
+      "text": "Η Interamerican θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "50jQe1661nAZRoYsrWSrDW",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/50jQe1661nAZRoYsrWSrDW/406ff8534b7d4255c13a209cc479d688/Interamerican_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Interamerican Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1RPQt2Qb1RUmyxnLwHqsTY",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "More.com",
+      "text": "Η More.com θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5rdFxorDF2QcmUDNHJcllK",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5rdFxorDF2QcmUDNHJcllK/5bd80677fd420e33da51a2f65283fcf0/More_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "More Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5eMdXhh5SjlFalICzqX1oV",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Douleutaras",
+      "text": "Ο Douleutaras θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3CZcuB8AZjoQjy3GdcVYmb",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3CZcuB8AZjoQjy3GdcVYmb/23d50c2d8707d508e6011fc59fc2d8a9/Douleutaras_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Douleutaras Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1ASU4whJ49fXzqnjdXdyE4",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Alpha Bank",
+      "text": "Η Alpha Bank θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7M1rqQWF5g4nSIADiDznJa",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7M1rqQWF5g4nSIADiDznJa/e25a4d0fa2a85211c3a23cc38b71c789/Alpha_Bank_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Alphabank Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "ExTEdXihh1cIh4Favj2SH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Public",
+      "text": "To \"Public Group\" θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6mGvzuAua0CDxoX17xxoId",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6mGvzuAua0CDxoX17xxoId/b85c41566b5c3427b6a52656e44e144a/Public_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Public Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1ZIKjRFoUgTGoiuRxpGTwJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Novibet",
+      "text": "Η Novibet θα συμμετέχει ενεργά στα Summer Schools, γνωρίζοντας προσωπικά τους υποψήφιους και αναζητώντας ταλέντα που ανταποκρίνονται στις ανάγκες των ανοιχτών της θέσεων.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2UluIhp9Rxpu9R7ZELZPAp",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2UluIhp9Rxpu9R7ZELZPAp/0bb39c3a89f755ff525df97525d4fe94/Novibet_Logo.svg",
+        "width": 170,
+        "height": 96,
+        "contentType": "image/svg+xml",
+        "title": "Novibet Logo",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1Pj06jALF8jYrdsVG7ckmq",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Startup Summer School",
+      "text": "Το Startup Summer School έρχεται για να προσφέρει την απόλυτη καλοκαιρινή εμπειρία σε όσους θέλουν να κάνουν τα πρώτα τους βήματα στον κόσμο της επιχειρηματικότητας και των startups. Μέσα σε 6-8 εβδομάδες, θα χτίσεις το δικό σου επιχειρηματικό concept, θα δουλέψεις πάνω σε πραγματικό business model, θα λάβεις καθοδήγηση από έμπειρους founders και επενδυτές, ενώ θα συμμετάσχεις σε ένα live pitch event που θα σου δώσει την ευκαιρία να παρουσιάσεις την ιδέα σου και να συνδεθείς με ανθρώπους του οικοσυστήματος.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       },
       "asset": {
         "sys": {
@@ -192,6 +644,250 @@
         "contentType": "image/png",
         "title": "test photo and text",
         "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1U5DHrTY910EgSOZidssvA",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "AI Marketing Summer School",
+      "text": "Το AI Marketing Summer School από το Workearly κάνει πρεμιέρα αυτό το καλοκαίρι και φέρνει την απόλυτη εμπειρία για marketers κάθε επιπέδου που θέλουν να παραμείνουν relevant στην εποχή της Τεχνητής Νοημοσύνης. Ιδανικό για junior marketers, επαγγελματίες που χρειάζονται επανεκκίνηση και όσους θέλουν να μπουν στον κόσμο του marketing με σύγχρονα εργαλεία και skills. Συνδυάζει hands-on εκπαίδευση, real case εφαρμογές, mentoring, πρόσβαση σε θέσεις εργασίας, και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις επαγγελματίες, agencies και brands που κινούν την αγορά.\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7uIrdxbGAsO1df1oZqft4m",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "HR Summer School",
+      "text": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού Για πρώτη φορά στην Ελλάδα, το πρόγραμμα είναι εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδεύεται από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs). Συνδυάζει hands-on εκπαίδευση, mentoring από top HR experts, πρόσβαση σε θέσεις εργασίας και ένα live networking event όπου έρχεσαι σε επαφή με decision-makers και ανοίγεις νέες επαγγελματικές πόρτες.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7qk6OjKIR5xOCK1dLfYpf",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "AI Data Science Summer School",
+      "text": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science. Συνδυάζει πρακτική εκπαίδευση, mentoring από κορυφαίους επαγγελματίες, ευκαιρίες απασχόλησης μέσω hiring partners και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις από κοντά ανθρώπους του κλάδου και να διευρύνεις το επαγγελματικό σου δίκτυο.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7K7Nq6NAfyMpCQsmntMhnT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Πιστοποίηση",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3xNaPPznMseASKXMC6F4ed/e86d99a0d453a3f51a08fafdbbb7dbcb/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "FMeu02857tEIbjpQpbJ3D",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Data Science",
+      "text": "Emphasizing the importance of innovation in our approach is crucial for staying ahead in the competitive landscape. By fostering a culture of creativity and forward-thinking, we can ensure that our strategies remain effective and relevant.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
       }
     },
     {
@@ -1400,6 +2096,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1BcMGS4Ih2iNKxmFJme654",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance Clear",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1415,19 +2124,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1BcMGS4Ih2iNKxmFJme654",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Finance Clear",
-        "description": null
       }
     },
     {
@@ -1448,6 +2144,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing Clear",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1463,19 +2172,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Digital Marketing Clear",
-        "description": null
       }
     },
     {
@@ -1616,6 +2312,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "41SIiSVTDJrGUNJ0bQRDVj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR Clear",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1631,19 +2340,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "41SIiSVTDJrGUNJ0bQRDVj",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
-        "width": 449,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card HR Clear",
-        "description": null
       }
     },
     {
@@ -1664,6 +2360,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "416vehayqrV4g3o1z74ohQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science Clear",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1679,19 +2388,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "416vehayqrV4g3o1z74ohQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Data Science Clear",
-        "description": null
       }
     },
     {
@@ -1712,6 +2408,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1727,19 +2436,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
       }
     },
     {
@@ -1760,6 +2456,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1775,19 +2484,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
       }
     },
     {
@@ -4764,42 +5460,6 @@
         "contentType": "image/png",
         "title": "icon excel",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7K7Nq6NAfyMpCQsmntMhnT",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Πιστοποίηση",
-      "text": null,
-      "variant": "Icon and Text",
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "4hjfB5THJG02XOCLTfEUYA",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4hjfB5THJG02XOCLTfEUYA/f18a0c099ba7e843b1c554e82f5c06f0/Certificate.svg",
-        "width": 24,
-        "height": 24,
-        "contentType": "image/svg+xml",
-        "title": "3.500",
-        "description": "Remote Professionals"
       }
     },
     {

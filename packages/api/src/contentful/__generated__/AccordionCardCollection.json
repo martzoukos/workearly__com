@@ -1,7 +1,293 @@
 {
-  "__timestamp": 1745310178471,
-  "total": 548,
+  "__timestamp": 1745328118384,
+  "total": 562,
   "items": [
+    {
+      "sys": {
+        "id": "iEvtkheH0T724MackqOeF",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Όχι απαραίτητα. Τα προγράμματα έχουν σχεδιαστεί τόσο για αρχάριους όσο και για επαγγελματίες που επιθυμούν να αναβαθμίσουν τις δεξιότητές τους. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "FAQ - Πρέπει να έχω προηγούμενη εμπειρία για να συμμετάσχω σε κάποιο Summer School;",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "reLeLTnQcl0nCD6J6PrXD",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Final Project: Από τη γνώση στην πράξη – μαζί",
+      "column1Title": "Τι θα κάνεις:",
+      "column1Text": "Θα συμμετάσχεις σε ένα ομαδικό HR project, όπου θα εφαρμόσεις όλα τα skills που απέκτησες: από talent acquisition και HR analytics μέχρι employer branding και DEI στρατηγικές. Μαζί με άλλους συμμετέχοντες, θα σχεδιάσετε την HR στρατηγική ενός οργανισμού και θα την παρουσιάσετε σε επαγγελματίες του χώρου. Η διαδικασία θα περιλαμβάνει συνεργασία, ανταλλαγή ιδεών, mentoring και ανατροφοδότηση, με στόχο να δεις πώς λειτουργεί το HR στην πράξη — μέσα σε μια κοινότητα που μαθαίνει και δημιουργεί μαζί.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Το HR είναι ομαδικό σπορ. Μέσα από αυτό το project θα δεις πώς όλα όσα έμαθες αποκτούν ουσία, πώς λειτουργείς σε ρεαλιστικό επαγγελματικό πλαίσιο και πώς μπορείς να εξελιχθείς όταν συνεργάζεσαι με άλλους. Και το σημαντικότερο; Θα χτίσεις εμπιστοσύνη, σχέσεις και αυτοπεποίθηση μέσα σε μια κοινότητα που θέλει το ίδιο με εσένα: να κάνει τη διαφορά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "xTZPM0In7qlbzzb1sbnEU",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "HR Analytics & Metrics",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Ποια KPIs μετρούν στο HR, πώς να κάνεις reporting με data, και πώς να δείχνεις την αξία της δουλειάς σου με αριθμούς.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Τα δεδομένα μιλούν – κι εσύ πρέπει να ξέρεις να τα ερμηνεύεις. Αυτό είναι το μέλλον του HR.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2LpXZoKxlJvrhIIdw6l1aa",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Employer Branding & DEI in Practice",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να δημιουργήσεις ισχυρό employer brand και πώς να σχεδιάσεις πολιτικές ένταξης και διαφορετικότητας με ουσία, όχι για τα μάτια του κόσμου.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Οι υποψήφιοι και οι εργαζόμενοι επιλέγουν κουλτούρα. Μάθε να την καλλιεργείς και να την προβάλλεις αυθεντικά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1VY3xZjUHm083o75uL4qHt",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Soft Skills for HR Professionals",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Ενσυναίσθηση, επικοινωνία, coaching, επίλυση συγκρούσεων, feedback, παρουσίαση σε stakeholders. Όλα μέσα από πρακτικά σενάρια.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Το HR είναι ανθρώπινη επαφή. Οι δεξιότητες αυτές είναι το εργαλείο σου για να χτίσεις σχέσεις και εμπιστοσύνη.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4NbB2y2VTQ6WYDv9Nfl0Ix",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI for HR",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πρακτική χρήση AI εργαλείων στο HR. Από το writing με ChatGPT, μέχρι resume screening, performance prediction και automations. Θα μιλήσουμε και για ethics & bias.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η Τεχνητή Νοημοσύνη δεν είναι το μέλλον του HR – είναι το παρόν. Μάθε να την αξιοποιείς υπεύθυνα και αποδοτικά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "MYDk0hg6as1tMZ3UUCWkV",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Talent Acquisition & Recruiting",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να εντοπίζεις και να επιλέγεις τα κατάλληλα ταλέντα. Θα μάθεις sourcing τεχνικές, αξιολόγηση υποψηφίων, χρήση ATS, candidate experience και onboarding.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Το ταλέντο είναι το πιο δυνατό asset μιας εταιρείας. Η σωστή στρατηγική προσλήψεων σε ξεχωρίζει.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "0NGHGo4RjIxJrgpqJbwgG",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "HR Management (Local & Global)",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα κατανοήσεις πώς δομείται ένα HR τμήμα, πώς συνδέεται με το business, αλλά και πώς λειτουργεί σε διεθνές περιβάλλον.\nΘα καλύψεις HR policy, εργατικό δίκαιο (GR & global), HRBP ρόλους και στρατηγική διαχείριση ανθρώπινου δυναμικού.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να αποκτήσεις εικόνα leadership και να εξελιχθείς σε HR επαγγελματία με στρατηγική οπτική.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4BnELQO6ydYXW2CqBW2777",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Final Project: Από τη θεωρία στην πράξη",
+      "column1Title": "Τι θα κάνεις:",
+      "column1Text": "Θα δουλέψεις πάνω σε ένα πραγματικό project, συνδυάζοντας όλα τα skills που απέκτησες κατά τη διάρκεια του προγράμματος — από data ανάλυση και οπτικοποίηση μέχρι AI εργαλεία και storytelling.\nΘα αναλύσεις δεδομένα, θα δημιουργήσεις dashboards, θα εξάγεις συμπεράσματα και θα παρουσιάσεις τη δουλειά σου σε mentors και συμμετέχοντες.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Είναι η στιγμή που η γνώση γίνεται πράξη.\nΤο project σε βοηθά να συνθέσεις όσα έμαθες, να δείξεις τι μπορείς να κάνεις και να πάρεις ουσιαστικό feedback από επαγγελματίες του χώρου — σε ένα περιβάλλον που μοιάζει περισσότερο με τη δουλειά, παρά με εξετάσεις.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1yjtC26mhGqSjbxoQovNFU",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Soft Skills for Data Science Professionals",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα αναπτύξεις δεξιότητες όπως το πώς να παρουσιάζεις δεδομένα με σαφήνεια, να αφηγείσαι ιστορίες με insights (data storytelling), να συνεργάζεσαι με stakeholders και να δουλεύεις αποτελεσματικά μέσα σε data teams. Θα μάθεις πώς να χτίζεις επαγγελματική παρουσία στο LinkedIn και πώς να ξεχωρίζεις με αυτοπεποίθηση σε συνεντεύξεις και συναντήσεις.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Τα soft skills είναι αυτό που διαφοροποιεί έναν καλό data analyst από έναν επαγγελματία που κάνει impact. Οι εταιρείες αναζητούν ανθρώπους που δεν αναλύουν απλώς δεδομένα — αλλά μπορούν να τα επικοινωνήσουν και να τα μετατρέψουν σε δράση.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "u5bi1fTSrmOmcLGAz1X1u",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Microsoft Power BI",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα δημιουργήσεις διαδραστικά dashboards, γραφήματα και reports με Power BI, θα μάθεις να χρησιμοποιείς DAX για υπολογισμούς και να παρουσιάζεις δεδομένα με τρόπο οπτικά ελκυστικό και κατανοητό, ακόμα και σε μη τεχνικά κοινά.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η οπτικοποίηση δεδομένων είναι απαραίτητη δεξιότητα για την επικοινωνία της δουλειάς σου, ιδιαίτερα σε ομάδες που παίρνουν αποφάσεις βάσει data.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3AltcZWMNTIHhhR40fmuoj",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Python for Data Analysis (Pandas & Numpy)",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα μάθεις να χρησιμοποιείς τη γλώσσα Python στην πράξη. και θα μάθεις πώς να διαχειρίζεσαι, να καθαρίζεις και να επεξεργάζεσαι δεδομένα με Pandas. Θα χρησιμοποιήσεις Numpy για αριθμητικές πράξεις και arrays, ενώ θα δεις και πώς να αυτοματοποιείς επαναλαμβανόμενες εργασίες μέσα από scripts.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η Python είναι το πιο δυνατό εργαλείο για κάθε data scientist ή analyst — πρακτική, ευέλικτη και απαραίτητη σε κάθε επαγγελματικό περιβάλλον.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "dNs0i2UE0pFOFKhD2PdeP",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "SQL for Data Analysis",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα εξοικειωθείς με τη γλώσσα SQL και θα μάθεις να αναζητάς, να φιλτράρεις και να συνδυάζεις δεδομένα από βάσεις δεδομένων. Θα δουλέψεις με πραγματικά datasets και θα μάθεις να γράφεις queries που απαντούν σε συγκεκριμένες ανάγκες ανάλυσης.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η SQL είναι βασικό εργαλείο για κάθε ρόλο που σχετίζεται με δεδομένα, και είναι απαραίτητη δεξιότητα στις περισσότερες αγγελίες εργασίας.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2gg8LPoSDbO1QvtdquUYpv",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI Concepts for Data Science",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα κατανοήσεις τι είναι η Τεχνητή Νοημοσύνη και πώς εφαρμόζεται στον χώρο του Data Science, ποια είναι η διαφορά μεταξύ Machine Learning και Deep Learning, πότε έχει νόημα να αξιοποιούνται, αλλά και θέματα όπως το ethical AI και το bias στα δεδομένα. Θα γνωρίσεις επίσης πώς χρησιμοποιούμε Generative AI για καθαρισμό, παρουσίαση και ερμηνεία δεδομένων.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η κατανόηση των AI concepts θα σου επιτρέψει να δουλεύεις σε πραγματικά data projects και να συνεργάζεσαι αποτελεσματικά με τεχνικές ομάδες.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "179YC3cUAZAt5062jRx3k3",

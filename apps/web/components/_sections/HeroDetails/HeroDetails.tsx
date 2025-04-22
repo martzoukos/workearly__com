@@ -66,11 +66,31 @@ export default function HeroDetails({ section, className }: PropsType) {
       </div>
 
       {desktopAsset?.url && !isUntilMd && (
-        <Media asset={desktopAsset} className={styles.media} style={style} />
+        <Media
+          asset={desktopAsset}
+          className={styles.media}
+          style={style}
+          videoProps={{
+            controls: false,
+            loop: true,
+            playing: true,
+            muted: true,
+          }}
+        />
       )}
 
       {mobileAsset?.url && isUntilMd && (
-        <Media asset={mobileAsset} className={styles.media} style={style} />
+        <Media
+          asset={mobileAsset}
+          className={styles.media}
+          style={style}
+          videoProps={{
+            controls: false,
+            loop: true,
+            playing: true,
+            muted: true,
+          }}
+        />
       )}
     </Shell.Root>
   );

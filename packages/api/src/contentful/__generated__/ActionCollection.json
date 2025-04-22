@@ -1,7 +1,31 @@
 {
-  "__timestamp": 1745310179736,
-  "total": 22,
+  "__timestamp": 1745328119646,
+  "total": 23,
   "items": [
+    {
+      "sys": {
+        "id": "4yL7m5nlHbSq3w0xHBpfst",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/finance"
+      }
+    },
     {
       "sys": {
         "id": "3wTeghKyBD15nDAeCucKUH",

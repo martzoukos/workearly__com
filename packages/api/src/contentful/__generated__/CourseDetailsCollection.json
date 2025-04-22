@@ -1,7 +1,79 @@
 {
-  "__timestamp": 1745310187892,
-  "total": 155,
+  "__timestamp": 1745328126967,
+  "total": 157,
   "items": [
+    {
+      "sys": {
+        "id": "rhEhkrCVwu20Z9Pea5dNF",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Καλοκαιρινό Πρόγραμμα HR με Πιστοποίηση",
+      "group": 4,
+      "title": "HR Summer School",
+      "summary": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού. Για πρώτη φορά στην Ελλάδα, το πρόγραμμα είναι εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδεύεται από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs). Συνδυάζει hands-on εκπαίδευση, mentoring από top HR experts, πρόσβαση σε θέσεις εργασίας και ένα live networking event όπου έρχεσαι σε επαφή με decision-makers και ανοίγεις νέες επαγγελματικές πόρτες.",
+      "shortDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
+      "applicationFormUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 400,
+      "finalCost": 40,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "8I17AgLQb9paqByd5GQjm",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/8I17AgLQb9paqByd5GQjm/2498c52c028c3cfcc9de706c518f500b/Rectangle_2105.png",
+        "width": 516,
+        "height": 568,
+        "contentType": "image/png",
+        "title": "iStock Placeholder",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "6MoH5vInhxwQFN4cQq62CE",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Data Science Summer Course με Πιστοποίηση",
+      "group": 4,
+      "title": "AI Data Science Summer School",
+      "summary": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science. Συνδυάζει πρακτική εκπαίδευση, mentoring από κορυφαίους επαγγελματίες, ευκαιρίες απασχόλησης μέσω hiring partners και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις από κοντά ανθρώπους του κλάδου και να διευρύνεις το επαγγελματικό σου δίκτυο.",
+      "shortDescription": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science.",
+      "applicationFormUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 400,
+      "finalCost": 40,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "8I17AgLQb9paqByd5GQjm",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/8I17AgLQb9paqByd5GQjm/2498c52c028c3cfcc9de706c518f500b/Rectangle_2105.png",
+        "width": 516,
+        "height": 568,
+        "contentType": "image/png",
+        "title": "iStock Placeholder",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "2KTMUNuWwSnJ61YiWoVGbh",
