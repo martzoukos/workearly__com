@@ -95,14 +95,16 @@ const PhotoAndText = ({ section, className }: PropsType) => {
         })}
       </Swiper>
 
-      <div className={styles.arrows}>
-        <button onClick={() => swiperRef.current?.slidePrev()}>
-          <ChevronLeft size={24} />
-        </button>
-        <button onClick={() => swiperRef.current?.slideNext()}>
-          <ChevronRight size={24} />
-        </button>
-      </div>
+      {cards.length > 1 && (
+        <div className={styles.arrows}>
+          <button onClick={() => swiperRef.current?.slidePrev()}>
+            <ChevronLeft size={24} />
+          </button>
+          <button onClick={() => swiperRef.current?.slideNext()}>
+            <ChevronRight size={24} />
+          </button>
+        </div>
+      )}
     </Shell.Section>
   );
 };

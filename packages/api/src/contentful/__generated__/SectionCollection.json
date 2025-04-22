@@ -1,7 +1,208 @@
 {
-  "__timestamp": 1745310209726,
-  "total": 327,
+  "__timestamp": 1745320421695,
+  "total": 328,
   "items": [
+    {
+      "sys": {
+        "id": "2DlxHMKouaRzCVJawIHMY7",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Narrow",
+      "theme": null,
+      "title": "7 ενότητες σε 1 School",
+      "supertitle": null,
+      "text": "Το πρόγραμμα αποτελείται από 7 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5UAH4SYoj6Wf9lQZkjcBGo",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "179YC3cUAZAt5062jRx3k3",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2isAxbAiAryFb40DavQTKT",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Don't snooze it",
+      "supertitle": "Sign up now",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "90€",
+          "value": "Μέχρι 30 Απριλίου (early bird)"
+        },
+        {
+          "label": "120€",
+          "value": "Normal Tickets"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1mRnsPaXqH1bOp0ATDwuGH",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Don't snooze it",
+      "supertitle": "Sign up now",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "90€",
+          "value": "Μέχρι 30 Απριλίου (early bird)"
+        },
+        {
+          "label": "120€",
+          "value": "Normal Tickets"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "FMeu02857tEIbjpQpbJ3D",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "2SFJoLN6gtJkYB6ZJfpIM1",
@@ -945,148 +1146,6 @@
     },
     {
       "sys": {
-        "id": "2isAxbAiAryFb40DavQTKT",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Don't snooze it",
-      "supertitle": "Sign up now",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "90€",
-          "value": "Μέχρι 30 Απριλίου (early bird)"
-        },
-        {
-          "label": "120€",
-          "value": "Normal Tickets"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "FMeu02857tEIbjpQpbJ3D",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "FMeu02857tEIbjpQpbJ3D",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "FMeu02857tEIbjpQpbJ3D",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "2DlxHMKouaRzCVJawIHMY7",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "7 ενότητες σε 1 School",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 7 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5UAH4SYoj6Wf9lQZkjcBGo",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "179YC3cUAZAt5062jRx3k3",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "2OhTAJ6vkVw1l2GqtqYwph",
         "__typename": "Sys"
       },
@@ -1438,6 +1497,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -1453,22 +1528,6 @@
             "contentType": "image/png",
             "title": "hero-with-details",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -1790,6 +1849,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -1818,33 +1904,6 @@
             "contentType": "application/json",
             "title": "Workearly Main Animation Mobile",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -1878,6 +1937,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -1893,22 +1968,6 @@
             "contentType": "video/mp4",
             "title": "Workearly Promo Video",
             "description": null
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -4380,6 +4439,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3wTeghKyBD15nDAeCucKUH",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -4408,22 +4483,6 @@
             "contentType": "image/webp",
             "title": "Hero Business Background Image Mobile",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3wTeghKyBD15nDAeCucKUH",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -5012,24 +5071,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1ozZ1Djwhu1aOi0nx2gzei",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
-            "width": 695,
-            "height": 530,
-            "contentType": "image/svg+xml",
-            "title": "Failure",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -5054,6 +5095,24 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1ozZ1Djwhu1aOi0nx2gzei",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
+            "width": 695,
+            "height": 530,
+            "contentType": "image/svg+xml",
+            "title": "Failure",
+            "description": ""
           }
         ]
       }
@@ -5536,24 +5595,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5PGyZeSFWDxLAe4EGzZlVN",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Anim Picking",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -5578,6 +5619,24 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5PGyZeSFWDxLAe4EGzZlVN",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Anim Picking",
+            "description": ""
           }
         ]
       }
@@ -11000,6 +11059,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -11028,33 +11114,6 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -11091,6 +11150,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -11119,33 +11205,6 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -11182,6 +11241,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -11210,33 +11296,6 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
