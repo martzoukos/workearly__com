@@ -5,7 +5,7 @@ import { DateTime } from "luxon";
 
 export const DATA_MAP = {
   paces: ["pace1", "pace2"],
-  durations: ["duration1", "duration2", "duration3"],
+  durations: ["duration1", "duration2", "duration3", "duration4"],
   priceRanges: ["priceRange1", "priceRange2", "priceRange3"],
   mentorships: ["mentorship1", "mentorship2"],
 } as const;
@@ -20,22 +20,20 @@ export default function useCourseDetailsResolver(
   const mentorship = getCourseMentorship(courseDetails);
   let pace = undefined;
   let cardWidth = "15rem";
-  let timeLeft = undefined;
-  let gift = undefined;
+  const timeLeft = courseDetails?.group
+    ? getTimeLeft(courseDetails.group)
+    : undefined;
+  const gift = courseDetails?.group ? getGift(courseDetails.group) : undefined;
 
   if (courseDetails?.group === 1) {
     pace = DATA_MAP.paces[1];
-    timeLeft = getTimeLeft(1);
-    gift = getGift(1);
   } else if (courseDetails?.group === 2) {
     pace = DATA_MAP.paces[1];
-    timeLeft = getTimeLeft(2);
-    gift = getGift(2);
   } else if (courseDetails?.group === 3) {
     pace = DATA_MAP.paces[0];
     cardWidth = "22rem";
-    timeLeft = getTimeLeft(3);
-    gift = getGift(3);
+  } else if (courseDetails?.group === 4) {
+    pace = DATA_MAP.paces[1];
   }
 
   function getTimeLeft(groupNumber: number) {
@@ -55,6 +53,7 @@ export default function useCourseDetailsResolver(
       }
     }
   }
+
   function getGift(groupNumber: number) {
     const groupGift = endDates.find(
       (endDate) => endDate.name === `group${groupNumber}`
@@ -84,6 +83,8 @@ export function getCourseDuration(
     duration = DATA_MAP.durations[1];
   } else if (courseDetails?.group === 3) {
     duration = DATA_MAP.durations[0];
+  } else if (courseDetails?.group === 4) {
+    duration = DATA_MAP.durations[3];
   }
 
   return duration;

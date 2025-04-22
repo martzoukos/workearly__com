@@ -24,6 +24,12 @@ export default function SummerCourseCover() {
     return null;
   }
 
+  const group4Label1 = translate("group4_label1");
+  const group4Label2 = translate("group4_label2");
+  const group4Label3 = translate("group4_label3");
+  const group4Label4 = translate("group4_label4");
+  const group4Label5 = translate("group4_label5");
+
   return (
     <section className={styles.root}>
       <Viewport showUntil="lg">
@@ -68,25 +74,38 @@ export default function SummerCourseCover() {
               className={styles.statCard}
             />
           )}
-
-          {courseDetails?.programStarts && (
+          {group4Label1 && (
             <StatCard
-              label={translate("Program Starts")}
-              value={courseDetails.programStarts.toString()}
+              label={group4Label1}
+              value={translate("group4_value1")}
               className={styles.statCard}
             />
           )}
-          {courseDetails?.applicationDeadline && (
+          {group4Label2 && (
             <StatCard
-              label={translate("Application Deadline")}
-              value={courseDetails.applicationDeadline.toString()}
+              label={group4Label2}
+              value={translate("group4_value2")}
               className={styles.statCard}
             />
           )}
-          {courseDetails?.language && (
+          {group4Label3 && (
             <StatCard
-              label={translate("Language")}
-              value={courseDetails.language.toString()}
+              label={group4Label3}
+              value={translate("group4_value3")}
+              className={styles.statCard}
+            />
+          )}
+          {group4Label4 && (
+            <StatCard
+              label={group4Label4}
+              value={translate("group4_value4")}
+              className={styles.statCard}
+            />
+          )}
+          {group4Label5 && (
+            <StatCard
+              label={group4Label5}
+              value={translate("group4_value5")}
               className={styles.statCard}
             />
           )}
