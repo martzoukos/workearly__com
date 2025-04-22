@@ -1,3 +1,5 @@
+import Button from "@/components/Button";
+import CoursePrices from "@/components/CoursePrices";
 import StatCard from "@/components/StatCard";
 import Text from "@/components/Text/Text";
 import Viewport from "@/components/Viewport";
@@ -6,10 +8,9 @@ import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
 import Image from "next/image";
-import styles from "./SummerCourseCover.module.scss";
-import Button from "@/components/Button";
 import Link from "next/link";
-import CoursePrices from "@/components/CoursePrices";
+import { useRouter } from "next/router";
+import styles from "./SummerCourseCover.module.scss";
 
 export default function SummerCourseCover() {
   const { page } = useContentful();
@@ -17,6 +18,7 @@ export default function SummerCourseCover() {
   const { translate } = useTranslate();
   const { duration, mentorship, pace, cardWidth } =
     useCourseDetailsResolver(courseDetails);
+  const router = useRouter();
 
   if (!courseDetails) {
     return null;
@@ -91,22 +93,27 @@ export default function SummerCourseCover() {
         </div>
 
         <div className={styles.payments}>
-          <Button asChild size="medium" colorScheme="Black">
-            <Link
-              href={courseDetails.applicationFormUrl || `/payment/${page.slug}`}
+          {courseDetails.applicationFormUrl ? (
+            <Button asChild size="medium" colorScheme="Black">
+              <Link href={courseDetails.applicationFormUrl}>
+                {translate("Apply")}
+              </Link>
+            </Button>
+          ) : (
+            <Button
+              id={`purchase-button-${courseDetails.id}`}
+              size="medium"
+              colorScheme="Black"
+              onClick={() => {
+                router.push(`/payment/${page.slug}`);
+              }}
             >
-              {courseDetails.applicationFormUrl
-                ? translate("Apply")
-                : translate("Purchase")}
-            </Link>
-          </Button>
+              {translate("Purchase")}
+            </Button>
+          )}
 
           {courseDetails && (
-            <CoursePrices
-              courseDetails={courseDetails}
-              className={styles.prices}
-              showKlarna
-            />
+            <CoursePrices courseDetails={courseDetails} showKlarna />
           )}
         </div>
       </div>

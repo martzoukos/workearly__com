@@ -2,6 +2,7 @@ import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import ShareMenu from "@/components/ShareMenu";
 import Text from "@/components/Text";
+import Tooltip from "@/components/Tooltip";
 import Viewport from "@/components/Viewport";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -12,10 +13,10 @@ import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
-import Tooltip from "@/components/Tooltip";
 
 interface PropsType {
   className?: string;
@@ -32,6 +33,7 @@ export default function PurchaseCourse({
   hideFooter,
   hideQuickPurchase,
 }: PropsType) {
+  const router = useRouter();
   const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
     "Personal"
   );
@@ -145,17 +147,24 @@ export default function PurchaseCourse({
 
         {!hideFooter && (
           <footer className={styles.footer}>
-            <Button asChild isFullWidth size="medium">
-              <Link
-                href={
-                  courseDetails.applicationFormUrl || `/payment/${page.slug}`
-                }
+            {courseDetails.applicationFormUrl ? (
+              <Button asChild isFullWidth size="medium">
+                <Link href={courseDetails.applicationFormUrl}>
+                  {translate("Apply")}
+                </Link>
+              </Button>
+            ) : (
+              <Button
+                id={`purchase-button-${courseDetails.id}`}
+                isFullWidth
+                size="medium"
+                onClick={() => {
+                  router.push(`/payment/${page.slug}`);
+                }}
               >
-                {courseDetails.applicationFormUrl
-                  ? translate("Apply")
-                  : translate("Purchase")}
-              </Link>
-            </Button>
+                {translate("Purchase")}
+              </Button>
+            )}
 
             <div className={styles.shareWrapper}>
               <Button

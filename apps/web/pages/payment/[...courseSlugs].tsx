@@ -1,11 +1,13 @@
 import PaymentPage from "@/components/_pages/PaymentPage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
+import { getPageResolver } from "@/hooks/usePageResolver";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
 import {
   getPageSlug,
   PAGE_COLLECTION_QUERY,
   QueryItem,
+  RelationshipMap,
   toPageSlugs,
 } from "@workearly/api";
 import { fetchLocalCollection, fetchPageBySlug } from "@workearly/api/server";
@@ -41,6 +43,12 @@ export async function getStaticProps(
   try {
     const props = await fetchPageBySlug(pageSlug);
 
+    if (hasApplicationFormUrl(props.page, props.relationshipMap)) {
+      return {
+        notFound: true,
+      };
+    }
+
     return {
       props,
     };
@@ -71,4 +79,12 @@ export async function getStaticPaths() {
     paths,
     fallback: "blocking",
   };
+}
+
+function hasApplicationFormUrl(
+  page: QueryItem["Page"],
+  relationshipMap: RelationshipMap
+) {
+  const { courseDetails } = getPageResolver(page, relationshipMap);
+  return Boolean(courseDetails?.applicationFormUrl);
 }
