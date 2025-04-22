@@ -9,6 +9,8 @@ import { PropsWithChildren, useEffect, useState } from "react";
 import { DialogProps, Drawer as VaulDrawer } from "vaul";
 import styles from "./DrawerMenu.module.scss";
 import MenuItem from "./MenuItem";
+import { DropdownMenu } from "radix-ui";
+import Link from "next/link";
 
 type PropsType = PropsWithChildren<{
   trigger: React.ReactNode;
@@ -47,22 +49,41 @@ export default function DrawerMenu({
         return (
           <div key={index}>
             <header className={styles.header}>
-              {index === 0 && (
-                <VaulDrawer.Close asChild>
-                  <Button variant="Ghost" colorScheme="Black">
-                    <ChevronLeft className={styles.icon} />
-                  </Button>
-                </VaulDrawer.Close>
-              )}
-              {group.name && (
-                <Text
-                  as="label"
-                  size="h4"
-                  className={clsx(index > 0 && styles.label)}
-                >
-                  {group.name}
-                </Text>
-              )}
+              <div className={styles.labelContainer}>
+                {group.greenBtn && (
+                  <DropdownMenu.Label asChild>
+                    <Button
+                      asChild
+                      variant={"Outlined"}
+                      isFullWidth
+                      colorScheme="Black"
+                      className={styles.greenLabel}
+                    >
+                      <Link href={group.greenBtn.to || ""}>
+                        {group.greenBtn.name}
+                      </Link>
+                    </Button>
+                  </DropdownMenu.Label>
+                )}
+                <div>
+                  {index === 0 && (
+                    <VaulDrawer.Close asChild>
+                      <Button variant="Ghost" colorScheme="Black">
+                        <ChevronLeft className={styles.icon} />
+                      </Button>
+                    </VaulDrawer.Close>
+                  )}
+                  {group.name && (
+                    <Text
+                      as="label"
+                      size="h4"
+                      className={clsx(index > 0 && styles.label)}
+                    >
+                      {group.name}
+                    </Text>
+                  )}
+                </div>
+              </div>
             </header>
 
             <div className={styles.items}>

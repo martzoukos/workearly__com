@@ -68,12 +68,18 @@ export default function Menu({ menu, defaultOpen = false }: PropsType) {
                   <div className={styles.labelContainer}>
                     {group.greenBtn && (
                       <DropdownMenu.Label asChild>
-                        <Link
-                          href={group.greenBtn.to || ""}
+                        <Button
+                          asChild
+                          variant={"Outlined"}
+                          isFullWidth
+                          size="medium"
+                          colorScheme="Black"
                           className={styles.greenLabel}
                         >
-                          {group?.greenBtn.name}
-                        </Link>
+                          <Link href={group.greenBtn.to || ""}>
+                            {group.greenBtn.name}
+                          </Link>
+                        </Button>
                       </DropdownMenu.Label>
                     )}
                     {group.name && (
