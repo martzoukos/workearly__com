@@ -9,8 +9,19 @@
 .section {
   width: 100%;
   @include media(md) {
+    .card {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+      .text {
+        display: block;
+      }
+    }
     .mediaRow {
       grid-template-columns: repeat(1, 1fr);
+    }
+
+    .media {
+      width: unset;
     }
   }
 }
@@ -25,21 +36,22 @@
   cursor: pointer;
   text-align: left;
 
+  .text {
+    display: none;
+  }
+
   &:hover {
     justify-content: space-between;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: column-reverse;
 
-    p {
+    .text {
       display: block;
     }
 
     img {
-      display: none;
+      max-width: 11.25rem;
     }
-  }
-  p {
-    display: none;
   }
 }
 

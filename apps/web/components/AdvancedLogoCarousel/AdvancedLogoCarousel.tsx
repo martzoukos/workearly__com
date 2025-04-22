@@ -39,8 +39,7 @@ const AdvancedLogoCarousel = ({ section, className }: PropsType) => {
           <div className={styles.mediaRow} style={style}>
             {cards.map((card) => (
               <div className={styles.card} key={card.sys.id}>
-                {card.title && <Text size="h5">{card.title}</Text>}
-                {card.text && <Text>{card.text}</Text>}
+                {card.text && <Text className={styles.text}>{card.text}</Text>}
                 <Image
                   src={card.asset?.url || ""}
                   alt=""
@@ -71,8 +70,9 @@ const AdvancedLogoCarousel = ({ section, className }: PropsType) => {
               {cards.map((card) => (
                 <SwiperSlide key={card.sys.id}>
                   <div className={styles.card}>
-                    {card.title && <Text size="h5">{card.title}</Text>}
-                    {card.text && <Text>{card.text}</Text>}
+                    {card.text && (
+                      <Text className={styles.text}>{card.text}</Text>
+                    )}
                     <Image
                       src={card.asset?.url || ""}
                       alt=""
