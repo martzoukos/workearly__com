@@ -1,7 +1,112 @@
 {
-  "__timestamp": 1745328119646,
-  "total": 23,
+  "__timestamp": 1745351803693,
+  "total": 28,
   "items": [
+    {
+      "sys": {
+        "id": "2cQgXCpnpDt4g0pvEGsgI2",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836330/ai-marketing-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "FWJIC2Pb8WFmHPJ4ShkAP",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836323/hr-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4IkmV1RK1sgXQJ2hBDwaOJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836328/ai-data-science-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5VBSCXc35p3tiu50mFPUi5",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836331/startup-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1QGee3mXmo8ATaG2ywPj2e",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836334/workearly-summer-schools-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "4yL7m5nlHbSq3w0xHBpfst",

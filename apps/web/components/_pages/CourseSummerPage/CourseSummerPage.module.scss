@@ -1,46 +1,18 @@
 @use "@/styles/_functions" as *;
-@use "@/styles/_breakpoints" as *;
 @use "@/styles/_helpers" as *;
-@use "@/styles/_settings" as *;
 
 .root {
-  --gap-sidebar: #{fluid-rem(1.5rem, 3rem)};
-  display: flex;
-  flex-direction: column;
-  gap: fluid-rem(1.5rem, 8rem);
-
-  @include media(md) {
-    .content {
-      border: none;
-
-      .contentItem {
-        --container-width: 100vw;
-      }
-    }
+  & > *:not(:last-child) {
+    margin-block-end: fluid-rem(4rem, 8.75rem, ("md", "xxl"));
   }
-}
 
-.content {
-  @extend %margin-container;
-  border: 1px solid var(--color-sys-border-muted);
-  padding: fluid-rem(0rem, 0.88rem);
-  display: flex;
-  flex-direction: column;
-  gap: reverse-fluid-rem(1.5rem, 0.75rem);
-  height: fit-content;
-
-  .contentItem {
-    --container-width: 100%;
-    width: 100%;
-    padding-inline: fluid-rem(0rem, 1.88rem, ("md", "xxl"));
-    padding-block: fluid-rem(1.5rem, 2.12rem);
-
-    &:not(:first-child) {
-      border-top: 1px solid var(--color-sys-border-muted);
-    }
+  & > .breadcrumbs {
+    @extend %margin-container;
+    padding-inline: 0;
+    margin-block: 1rem;
   }
-}
 
-.breadcrumbs {
-  border: 1px solid var(--color-sys-border-muted);
+  & > *:first-child {
+    margin-block-start: 1rem;
+  }
 }

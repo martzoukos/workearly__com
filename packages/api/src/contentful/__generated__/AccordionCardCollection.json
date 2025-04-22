@@ -1,7 +1,371 @@
 {
-  "__timestamp": 1745328118384,
-  "total": 562,
+  "__timestamp": 1745351802394,
+  "total": 578,
   "items": [
+    {
+      "sys": {
+        "id": "6PKnskfkzfxIAL3LfZSU8w",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Τα μαθήματα είναι 100% online και ασύγχρονα, ώστε να μπορείς να τα παρακολουθείς στον δικό σου ρυθμό, όποτε και από όπου σε βολεύει. Σε κάποια προγράμματα περιλαμβάνονται 1–2 live events ή webinars (προαιρετικά), τα οποία όμως προσφέρουν σημαντική αξία.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Πώς παρακολουθώ τα μαθήματα; Υπάρχουν live υποχρεώσεις;",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1SD634SWfkL0uU1YZGaIWY",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Ναι! Όλα τα Summer Schools περιλαμβάνουν mentoring sessions με επαγγελματίες του χώρου, καθώς και συνεχή υποστήριξη από την ομάδα του Workearly για κάθε σου απορία.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Υπάρχει υποστήριξη ή mentoring κατά τη διάρκεια του προγράμματος;",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "E36bjA3mzPQy7hLC9ccof",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Ναι. Μέσω των Hiring Partners του Workearly, πολλοί συμμετέχοντες συνδέονται με εταιρείες και αποκτούν πρόσβαση σε πραγματικές επαγγελματικές ευκαιρίες.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Υπάρχουν επαγγελματικές ευκαιρίες μετά το πρόγραμμα;",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6gl6H0wriBMfkqcLwiHiWS",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Demo Day & Final Pitch",
+      "column1Title": "Τι θα κάνεις:",
+      "column1Text": "Θα ετοιμάσεις και θα παρουσιάσεις την τελική εκδοχή της startup ιδέας σου, βασισμένη σε όλα όσα έχεις δουλέψει κατά τη διάρκεια του προγράμματος: από market research, business model και GTM strategy, μέχρι branding, traction και οικονομικά στοιχεία. Η παρουσίαση θα γίνει μπροστά σε πραγματικούς επενδυτές, startup founders και mentors, με στόχο να λάβεις feedback υψηλής αξίας σε ένα live demo day που μοιάζει περισσότερο με πραγματική επαγγελματική εμπειρία παρά με «τελική εργασία».",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Γιατί το επιχειρείν δεν είναι solo mission. Αυτό το project σου δίνει την ευκαιρία να δείξεις τι μπορείς να χτίσεις, να λάβεις ειλικρινή ανατροφοδότηση και να μπεις ουσιαστικά στον ρυθμό του startup οικοσυστήματος. Είναι η στιγμή που συνδέονται όλα τα κομμάτια — μπροστά σε κοινό που μπορεί να σου ανοίξει την επόμενη πόρτα.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2jMCNxXZqWoNof796wEjEG",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Team, Founder Skills & Pitching",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα δεις πώς χτίζεται μια startup ομάδα, πώς καθορίζεις ρόλους, και πώς αναπτύσσεις founder resilience. Θα προετοιμαστείς για να παρουσιάσεις το startup σου με σαφήνεια, εμπιστοσύνη και επαγγελματισμό.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Ο τρόπος που παρουσιάζεις την ιδέα σου μπορεί να την απογειώσει — ή να τη θάψει. Το pitching και η ηγεσία είναι δεξιότητες που καλλιεργούνται, και εδώ ξεκινάει αυτή η διαδρομή.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "cQ5xY2gKazA2tw14gNE8g",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Fundraising & Financials",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα αποκτήσεις βασική γνώση γύρω από fundraising (VCs, angels, grants) και θα μάθεις να μιλάς τη \"γλώσσα\" του επενδυτή: cap tables, dilution, valuations και pitching metrics. Θα δουλέψεις το πρώτο σου pitch deck & financial sketch.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Αν σκέφτεσαι να αναζητήσεις επένδυση ή απλά θέλεις να παρουσιάζεις με αυτοπεποίθηση την αξία του startup σου, αυτή η ενότητα σου δείχνει πώς να το κάνεις σωστά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "70radVBzPVhyPEw5mejGqw",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Go-To-Market & Marketing Strategy",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα μάθεις πώς χτίζεις την πρώτη σου GTM στρατηγική, πώς αξιοποιείς τα κατάλληλα κανάλια (SEO, email, social) και πώς αναγνωρίζεις τα πρώτα σημάδια Product-Market Fit. Θα δουλέψεις πάνω σε plan προσέγγισης χρηστών.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Μια ιδέα χωρίς χρήστες δεν έχει αξία. Αυτή η ενότητα σε μαθαίνει πώς να βρίσκεις, να προσεγγίζεις και να πείθεις τους πρώτους σου χρήστες.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5ztt0Uhwlyxy1MoCpRG2Wr",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Branding, Storytelling & Early Growth",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα ασχοληθείς με τη δημιουργία ενός brand με νόημα: naming, positioning, tone of voice, value proposition. Θα φτιάξεις το πρώτο σου landing page ή waitlist και θα σχεδιάσεις τις πρώτες στρατηγικές για να τραβήξεις ενδιαφέρον χωρίς διαφημιστικό budget.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Το storytelling είναι το πιο ισχυρό εργαλείο του founder. Πρέπει να μπορείς να εξηγείς τι κάνεις — απλά, ξεκάθαρα και με πάθος.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5w9ZTJ5NsEsog4ZmPG2o8n",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Building a Business Model",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα δουλέψεις με το Business Model Canvas και θα κατανοήσεις τη διαφορά μεταξύ lean και traditional μοντέλων. Θα μάθεις να υπολογίζεις βασικά οικονομικά στοιχεία, να σχεδιάζεις revenue streams και να φτιάχνεις το αρχικό cost structure του startup σου.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Χωρίς δυνατό business model, ακόμα και η καλύτερη ιδέα δεν θα πάει μακριά. Αυτή η ενότητα σε βοηθά να “κουμπώσεις” την ιδέα σου με ένα βιώσιμο σχέδιο.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "392nvP8FkrpCYKff2WTquZ",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "From Idea to Validation",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα κατανοήσεις τι είναι ένα startup, πώς διαφέρει από μια παραδοσιακή επιχείρηση και τι σημαίνει να έχεις founder mindset. Θα μάθεις πώς εντοπίζεις προβλήματα που αξίζουν να λυθούν και πώς τα επιβεβαιώνεις μέσα από εργαλεία όπως personas, surveys, no-code MVPs και user interviews.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η σωστή αρχή είναι το μισό επιχειρείν. Θα αποκτήσεις τα θεμέλια για να κρίνεις αν η ιδέα σου \"στέκεται\", αν υπάρχει ανάγκη στην αγορά και αν αξίζει να επενδύσεις χρόνο και πόρους.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1rMuQXCSbUF1kFJoOidvmM",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Final Project: Το AI-powered Brand Plan σου",
+      "column1Title": "Τι θα κάνεις:",
+      "column1Text": "Θα δημιουργήσεις, μαζί με άλλους συμμετέχοντες, ένα πλήρες AI-powered Brand Strategy Plan για ένα προϊόν ή υπηρεσία — συνδυάζοντας όλα όσα έμαθες: από consumer insights, brand voice και content creation με AI, μέχρι performance καμπάνιες και αυτοματισμούς CRM. Θα δουλέψεις σε ομάδες, θα χρησιμοποιήσεις πραγματικά AI εργαλεία (π.χ. ChatGPT, Midjourney, Looker Studio) και θα παρουσιάσεις το πλάνο σας σε ειδικούς της αγοράς και mentors.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Γιατί το marketing του σήμερα απαιτεί συνδυασμό τεχνολογίας, δημιουργίας και στρατηγικής σκέψης. Μέσα από αυτό το project θα δεις πώς εφαρμόζεις όσα έμαθες, θα λάβεις στοχευμένο feedback και θα έχεις έτοιμο ένα portfolio project που αποδεικνύει τις δυνατότητές σου — όχι στα λόγια, αλλά στην πράξη.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3S6Eiba9ITFyGPNR0FSXtU",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Soft Skills for Marketers",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Επικοινωνία, παρουσίαση, συνεργασία σε hybrid περιβάλλον, LinkedIn παρουσία.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Γιατί τα εργαλεία αλλάζουν, αλλά οι άνθρωποι συνεχίζουν να κάνουν τη διαφορά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6IFZPzYi7XF8I1om5qMQfd",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI-Powered Campaigns & Brand Strategy",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να χτίζεις brand strategy με AI, να δημιουργείς περιεχόμενο, να σχεδιάζεις καμπάνιες με AI support.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Γιατί το AI δεν είναι απειλή — είναι εργαλείο. Μάθε να το αξιοποιείς δημιουργικά και στρατηγικά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3nL2rzWIiwfR4mLVLlzNC7",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Content, SEO & Performance Marketing",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Δημιουργία content στρατηγικής, SEO για content creators, ads δημιουργία & optimization.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να μπορείς να φέρνεις μετρήσιμο αποτέλεσμα — από το post μέχρι την καμπάνια.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6OjinY2efYSLFT5CwK3Yh3",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Marketing Analytics & Consumer Insights",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Data interpretation, customer personas, social listening και χρήση εργαλείων όπως Looker Studio.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Γιατί ο σύγχρονος marketer παίρνει αποφάσεις βάσει δεδομένων — όχι ενστίκτου.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3oqyHpW7rgLbEvtRK6OQb",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "The Modern Marketer: Εργαλεία, Ρόλοι & Μετασχηματισμός",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Ο νέος ρόλος του marketer, productivity tools, basic prompting & digital thinking.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να οργανώνεις καλύτερα τη δουλειά σου και να ανταποκρίνεσαι στις απαιτήσεις της νέας εποχής.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "iEvtkheH0T724MackqOeF",
@@ -29,7 +393,7 @@
         },
         "__typename": "AccordionCardText"
       },
-      "title": "FAQ - Πρέπει να έχω προηγούμενη εμπειρία για να συμμετάσχω σε κάποιο Summer School;",
+      "title": "Πρέπει να έχω προηγούμενη εμπειρία για να συμμετάσχω σε κάποιο Summer School;",
       "column1Title": null,
       "column1Text": null,
       "column2Title": null,

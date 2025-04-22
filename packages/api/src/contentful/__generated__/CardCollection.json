@@ -1,7 +1,247 @@
 {
-  "__timestamp": 1745328121460,
-  "total": 192,
+  "__timestamp": 1745351805112,
+  "total": 194,
   "items": [
+    {
+      "sys": {
+        "id": "1Pj06jALF8jYrdsVG7ckmq",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Startup Summer School",
+      "text": "Το Startup Summer School έρχεται για να προσφέρει την απόλυτη καλοκαιρινή εμπειρία σε όσους θέλουν να κάνουν τα πρώτα τους βήματα στον κόσμο της επιχειρηματικότητας και των startups. Μέσα σε 6-8 εβδομάδες, θα χτίσεις το δικό σου επιχειρηματικό concept, θα δουλέψεις πάνω σε πραγματικό business model, θα λάβεις καθοδήγηση από έμπειρους founders και επενδυτές, ενώ θα συμμετάσχεις σε ένα live pitch event που θα σου δώσει την ευκαιρία να παρουσιάσεις την ιδέα σου και να συνδεθείς με ανθρώπους του οικοσυστήματος.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5VBSCXc35p3tiu50mFPUi5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "7FepQfbjm8zyANWQbc51Jp",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7FepQfbjm8zyANWQbc51Jp/31445f8957fcdba0e117d7f3d1df81d4/summer-entrepreneur-6807b5df38228.webp",
+        "width": 1282,
+        "height": 662,
+        "contentType": "image/webp",
+        "title": "summer-entrepreneur-6807b5df38228",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1U5DHrTY910EgSOZidssvA",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "AI Marketing Summer School",
+      "text": "Το AI Marketing Summer School από το Workearly κάνει πρεμιέρα αυτό το καλοκαίρι και φέρνει την απόλυτη εμπειρία για marketers κάθε επιπέδου που θέλουν να παραμείνουν relevant στην εποχή της Τεχνητής Νοημοσύνης. Ιδανικό για junior marketers, επαγγελματίες που χρειάζονται επανεκκίνηση και όσους θέλουν να μπουν στον κόσμο του marketing με σύγχρονα εργαλεία και skills. Συνδυάζει hands-on εκπαίδευση, real case εφαρμογές, mentoring, πρόσβαση σε θέσεις εργασίας, και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις επαγγελματίες, agencies και brands που κινούν την αγορά.\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2cQgXCpnpDt4g0pvEGsgI2",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1ynlfWGdkw7T8T8Xdrh4S0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1ynlfWGdkw7T8T8Xdrh4S0/a01441be64d38805c6752f5a2148f96e/summer-marketing-6807b5df3fdf3.webp",
+        "width": 1282,
+        "height": 662,
+        "contentType": "image/webp",
+        "title": "summer-marketing-6807b5df3fdf3",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7uIrdxbGAsO1df1oZqft4m",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "HR Summer School",
+      "text": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού Για πρώτη φορά στην Ελλάδα, το πρόγραμμα είναι εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδεύεται από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs). Συνδυάζει hands-on εκπαίδευση, mentoring από top HR experts, πρόσβαση σε θέσεις εργασίας και ένα live networking event όπου έρχεσαι σε επαφή με decision-makers και ανοίγεις νέες επαγγελματικές πόρτες.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "FWJIC2Pb8WFmHPJ4ShkAP",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "4xGRyuFGcBheg9YeAwPZtR",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xGRyuFGcBheg9YeAwPZtR/69a38e31c380240f8a09446ebf979baf/summer-hr-6807b5e2bfc88.webp",
+        "width": 1282,
+        "height": 662,
+        "contentType": "image/webp",
+        "title": "summer-hr-6807b5e2bfc88",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7qk6OjKIR5xOCK1dLfYpf",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "AI Data Science Summer School",
+      "text": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science. Συνδυάζει πρακτική εκπαίδευση, mentoring από κορυφαίους επαγγελματίες, ευκαιρίες απασχόλησης μέσω hiring partners και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις από κοντά ανθρώπους του κλάδου και να διευρύνεις το επαγγελματικό σου δίκτυο.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4IkmV1RK1sgXQJ2hBDwaOJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5cawmySttFqxT2Uu9QrRT7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5cawmySttFqxT2Uu9QrRT7/b11b37a971205a2d660e89c102b972ec/summer-data-science-6807b5e289710.webp",
+        "width": 1282,
+        "height": 662,
+        "contentType": "image/webp",
+        "title": "summer-data-science-6807b5e289710",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "64Sj17Gd1mK7HX9NODGvFy",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "AI Marketing Summer School 2025",
+      "text": "Το AI Marketing Summer School είναι κάτι περισσότερο από ένα μάθημα. Είναι η ευκαιρία να μπεις στην καρδιά του σύγχρονου marketing, να συνδεθείς με ανθρώπους του χώρου και να γίνεις μέρος μιας κοινότητας που εξελίσσεται, δημιουργεί και συνεργάζεται. Ζήσε μια καλοκαιρινή εμπειρία μάθησης και δικτύωσης, με mentoring, live networking και πρόσβαση σε επιλεγμένες θέσεις εργασίας μέσω του Workearly. Όλα, στον δικό σου ρυθμό — όπου κι αν βρίσκεσαι.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2cQgXCpnpDt4g0pvEGsgI2",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5TPuDAbLJsbgjpw6ujMkGy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
+        "width": 5616,
+        "height": 3744,
+        "contentType": "image/jpeg",
+        "title": "sign up marketing summer school",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "5NbsLmvSToKVezaQXyM2UY",
@@ -20,25 +260,12 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
           {
             "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
+              "id": "FWJIC2Pb8WFmHPJ4ShkAP",
               "__typename": "Sys"
             },
             "__typename": "Action",
@@ -48,6 +275,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1o17uqXtSoG2TxFtmLSo9T",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
+        "width": 4493,
+        "height": 2995,
+        "contentType": "image/jpeg",
+        "title": "sign up hr summer school",
+        "description": ""
       }
     },
     {
@@ -68,6 +308,118 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4IkmV1RK1sgXQJ2hBDwaOJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "7mQtcJJIbR0LjzHatOA3AQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
+        "width": 6000,
+        "height": 4000,
+        "contentType": "image/jpeg",
+        "title": "sign up photo data science summer",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "6sMuxolRlTrDNCr91xydvj",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Startup Summer School 2025",
+      "text": "Φέτος το καλοκαίρι, μπορείς να κάνεις το όνειρό σου πραγματικότητα. Πέρασε από την ιδέα στην πράξη. Χτίσε το δικό σου startup, δούλεψε με ανθρώπους που σκέφτονται όπως εσύ και παρουσίασε την πρότασή σου μπροστά σε εκείνους που μπορούν να την υποστηρίξουν. Αυτό το καλοκαίρι, δεν μαθαίνεις απλώς – δημιουργείς. Κλείσε τη θέση σου τώρα στο Startup Summer School.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5VBSCXc35p3tiu50mFPUi5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "GOsNBcoVElSHXWFufo63y",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Summer Schools 2025",
+      "text": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα. Αν θέλεις να αναβαθμίσεις τις δεξιότητές σου, να συνδεθείς με κορυφαίους επαγγελματίες και να διεκδικήσεις ρόλους με πραγματική προοπτική, τα Workearly Summer Schools είναι η ευκαιρία που δεν πρέπει να χάσεις.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1QGee3mXmo8ATaG2ywPj2e",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "asset": {
         "sys": {
           "id": "O4PwytiWuQiG2124AlTzD",
@@ -80,22 +432,6 @@
         "contentType": "image/png",
         "title": "test photo and text",
         "description": ""
-      },
-      "actionsCollection": {
-        "__typename": "CardActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
       }
     },
     {
@@ -276,54 +612,6 @@
         "contentType": "image/svg+xml",
         "title": "Education Graduation",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "GOsNBcoVElSHXWFufo63y",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "title": "Summer Schools 2025",
-      "text": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα. Αν θέλεις να αναβαθμίσεις τις δεξιότητές σου, να συνδεθείς με κορυφαίους επαγγελματίες και να διεκδικήσεις ρόλους με πραγματική προοπτική, τα Workearly Summer Schools είναι η ευκαιρία που δεν πρέπει να χάσεις.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
-      "actionsCollection": {
-        "__typename": "CardActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
       }
     },
     {
@@ -616,198 +904,6 @@
     },
     {
       "sys": {
-        "id": "1Pj06jALF8jYrdsVG7ckmq",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "title": "Startup Summer School",
-      "text": "Το Startup Summer School έρχεται για να προσφέρει την απόλυτη καλοκαιρινή εμπειρία σε όσους θέλουν να κάνουν τα πρώτα τους βήματα στον κόσμο της επιχειρηματικότητας και των startups. Μέσα σε 6-8 εβδομάδες, θα χτίσεις το δικό σου επιχειρηματικό concept, θα δουλέψεις πάνω σε πραγματικό business model, θα λάβεις καθοδήγηση από έμπειρους founders και επενδυτές, ενώ θα συμμετάσχεις σε ένα live pitch event που θα σου δώσει την ευκαιρία να παρουσιάσεις την ιδέα σου και να συνδεθείς με ανθρώπους του οικοσυστήματος.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
-      "actionsCollection": {
-        "__typename": "CardActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "1U5DHrTY910EgSOZidssvA",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "title": "AI Marketing Summer School",
-      "text": "Το AI Marketing Summer School από το Workearly κάνει πρεμιέρα αυτό το καλοκαίρι και φέρνει την απόλυτη εμπειρία για marketers κάθε επιπέδου που θέλουν να παραμείνουν relevant στην εποχή της Τεχνητής Νοημοσύνης. Ιδανικό για junior marketers, επαγγελματίες που χρειάζονται επανεκκίνηση και όσους θέλουν να μπουν στον κόσμο του marketing με σύγχρονα εργαλεία και skills. Συνδυάζει hands-on εκπαίδευση, real case εφαρμογές, mentoring, πρόσβαση σε θέσεις εργασίας, και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις επαγγελματίες, agencies και brands που κινούν την αγορά.\n",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
-      "actionsCollection": {
-        "__typename": "CardActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "7uIrdxbGAsO1df1oZqft4m",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "title": "HR Summer School",
-      "text": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού Για πρώτη φορά στην Ελλάδα, το πρόγραμμα είναι εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδεύεται από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs). Συνδυάζει hands-on εκπαίδευση, mentoring από top HR experts, πρόσβαση σε θέσεις εργασίας και ένα live networking event όπου έρχεσαι σε επαφή με decision-makers και ανοίγεις νέες επαγγελματικές πόρτες.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
-      "actionsCollection": {
-        "__typename": "CardActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "7qk6OjKIR5xOCK1dLfYpf",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "title": "AI Data Science Summer School",
-      "text": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science. Συνδυάζει πρακτική εκπαίδευση, mentoring από κορυφαίους επαγγελματίες, ευκαιρίες απασχόλησης μέσω hiring partners και ένα live networking event που σου δίνει τη δυνατότητα να γνωρίσεις από κοντά ανθρώπους του κλάδου και να διευρύνεις το επαγγελματικό σου δίκτυο.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
-      "actionsCollection": {
-        "__typename": "CardActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "33kZeJ39E9c1DdgcWMzg1f",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "7K7Nq6NAfyMpCQsmntMhnT",
         "__typename": "Sys"
       },
@@ -860,19 +956,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -888,6 +971,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
       }
     },
     {
@@ -2096,19 +2192,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "1BcMGS4Ih2iNKxmFJme654",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Finance Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2124,6 +2207,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1BcMGS4Ih2iNKxmFJme654",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance Clear",
+        "description": null
       }
     },
     {
@@ -2144,19 +2240,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Digital Marketing Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2172,6 +2255,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing Clear",
+        "description": null
       }
     },
     {
@@ -2312,19 +2408,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "41SIiSVTDJrGUNJ0bQRDVj",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
-        "width": 449,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card HR Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2340,6 +2423,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "41SIiSVTDJrGUNJ0bQRDVj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR Clear",
+        "description": null
       }
     },
     {
@@ -2360,19 +2456,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "416vehayqrV4g3o1z74ohQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Data Science Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2388,6 +2471,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "416vehayqrV4g3o1z74ohQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science Clear",
+        "description": null
       }
     },
     {
@@ -2408,19 +2504,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2436,6 +2519,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
       }
     },
     {
@@ -2456,19 +2552,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2484,6 +2567,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
       }
     },
     {
@@ -3428,19 +3524,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "6IMm6C3PYJ8O8486MTGMg0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Business Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -3456,6 +3539,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "6IMm6C3PYJ8O8486MTGMg0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business Clear",
+        "description": null
       }
     },
     {

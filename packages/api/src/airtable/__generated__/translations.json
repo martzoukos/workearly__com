@@ -1,12 +1,12 @@
 [
   {
     "code": "group4_label1",
-    "el": "Language",
+    "el": "LANGUAGE",
     "en": "Language"
   },
   {
     "code": "group4_label2",
-    "el": "Hiring Network",
+    "el": "HIRING NETWORK",
     "en": "Hiring Network"
   },
   {
@@ -81,7 +81,7 @@
   },
   {
     "code": "group4_label4",
-    "el": "Career Support",
+    "el": "CAREER SUPPORT",
     "en": "Career Support"
   },
   {
@@ -106,7 +106,7 @@
   },
   {
     "code": "duration4",
-    "el": "6-8 weeks",
+    "el": "6-8 εβδομάδες",
     "en": "6-8 weeks"
   },
   {
@@ -125,6 +125,11 @@
     "en": "Only"
   },
   {
+    "code": "group4_value5",
+    "el": "30 Απριλίου",
+    "en": "30 Απριλίου"
+  },
+  {
     "code": "No",
     "el": "No",
     "en": "No"
@@ -136,8 +141,13 @@
   },
   {
     "code": "group4_value5",
-    "el": "20+ ώρες Training & 1:1 coaching",
+    "el": "16 Ιουνίου",
     "en": "20+ ώρες Training & 1:1 coaching"
+  },
+  {
+    "code": "group4_label5",
+    "el": "ΑΙΤΗΣΕΙΣ ΕΩΣ",
+    "en": "ΑΙΤΗΣΕΙΣ ΕΩΣ"
   },
   {
     "code": "CourseCardShare",
@@ -156,7 +166,7 @@
   },
   {
     "code": "group4_label5",
-    "el": "Training",
+    "el": "ΕΝΑΡΞΗ",
     "en": "Training"
   },
   {
@@ -226,7 +236,7 @@
   },
   {
     "code": "group4_label3",
-    "el": "Community",
+    "el": "COMMUNITY",
     "en": "Community"
   },
   {

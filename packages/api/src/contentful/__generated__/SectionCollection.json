@@ -1,7 +1,1605 @@
 {
-  "__timestamp": 1745328141806,
-  "total": 335,
+  "__timestamp": 1745351827096,
+  "total": 346,
   "items": [
+    {
+      "sys": {
+        "id": "3wbxMAUaCqIBqhC0qu6uOB",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Premier Hiring Partner",
+      "supertitle": null,
+      "text": "Premier Hiring Partner των Workearly Summer Schools 2025 είναι η kariera.gr, με στόχο την ουσιαστική σύνδεση των συμμετεχόντων με την αγορά εργασίας, την προώθηση αποφοίτων σε θέσεις απασχόλησης και την ενίσχυση της επαγγελματικής τους εξέλιξης μέσα από στρατηγική συνεργασία και δικτύωση.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Standard Component Framed",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "NZSMrGWzKrceDNR4BP4ee",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/NZSMrGWzKrceDNR4BP4ee/31ac3f89883e2f9e4a12f8d52a6eb841/karierra.png",
+            "width": 1000,
+            "height": 1000,
+            "contentType": "image/png",
+            "title": "kariera",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2sp9bRLKzwgcC65oRCQkGh",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα. Αν θέλεις να αναβαθμίσεις τις δεξιότητές σου, να συνδεθείς με κορυφαίους επαγγελματίες και να διεκδικήσεις ρόλους με πραγματική προοπτική, τα Workearly Summer Schools είναι η ευκαιρία που δεν πρέπει να χάσεις.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Media Slider",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1LkDW5fEzI6OiZZrBoTLeV",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://videos.ctfassets.net/fmxc36tvwra3/1LkDW5fEzI6OiZZrBoTLeV/eabdc3239059d3fc50d38b5d4a3e98f9/shutterstock_1036841222-2.mov",
+            "width": null,
+            "height": null,
+            "contentType": "video/quicktime",
+            "title": "Workearly Summer Events",
+            "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2OhTAJ6vkVw1l2GqtqYwph",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Summer Schools",
+      "supertitle": "Summer School",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Features Showcase",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4OW8QkIvbkc1Xy2p5h4O7n",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5rs5cITJACttAe7kCGk91Q",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2wkwdHCZeXct9TLd0yKmNg",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5F5cZsLwezQCf3UnW9SAEH",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5dQJmIRxkeKgxBlFrJyfOa",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "57VB2CQjQURxA9fNTYKIia",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1DSO3kMmaSMtutY1SgTIg1",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4vjyxabfHtUGMsK62huqyr",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6hUdQnqDPjut0A1W2FqpB6",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7KMcCGgSl2q8XkJDH5VhHE",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2darHWu13M7GluDyctjoht",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "50DKPLp5oX9QIsUKHLWinc",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4mEd3vakSrGhFW5Ys2dkKo",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "159€",
+          "value": "Μέχρι 30 Απριλίου (super early bird)"
+        },
+        {
+          "label": "265€",
+          "value": "Αρχική Τιμή"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6sMuxolRlTrDNCr91xydvj",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1MTXfOWFyP68oefPzPMsVl",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Narrow",
+      "theme": null,
+      "title": "Πρόγραμμα Σπουδών",
+      "supertitle": null,
+      "text": "Το Startup Summer School σου δίνει τη δυνατότητα να μετατρέψεις μια ιδέα σε πραγματικό επιχειρηματικό πλάνο, να αναπτύξεις δεξιότητες που χρειάζεται ένας σύγχρονος founder και να παρουσιάσεις το project σου μπροστά σε επαγγελματίες του startup οικοσυστήματος.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "392nvP8FkrpCYKff2WTquZ",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5w9ZTJ5NsEsog4ZmPG2o8n",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5ztt0Uhwlyxy1MoCpRG2Wr",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "70radVBzPVhyPEw5mejGqw",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "cQ5xY2gKazA2tw14gNE8g",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2jMCNxXZqWoNof796wEjEG",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6gl6H0wriBMfkqcLwiHiWS",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5iFf1HIDakBj0SARSBBTwQ",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Top Mentors",
+      "supertitle": "Mentoring από ανθρώπους της αγοράς",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Mentors Spotlight",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7wpUWaIMN7X4rBqe0o3S5M",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinance",
+                  "name": "Mentors: Finance",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "AIwz1YgD3moT6inhE6ZGc",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "60bUVReKxUkS91DEOVJ8Cw",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinanceInvestments",
+                  "name": "Mentors: Finance & Investments",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsHealthcareBiotech",
+                  "name": "Mentors: Healthcare & Biotech",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsTechnologySoftwareDevelopment",
+                  "name": "Mentors: Technology & Software Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7sQASuNa3kobvXhX6thl9L",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinanceInvestments",
+                  "name": "Mentors: Finance & Investments",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2tNktKgKP0E0XcsymIgzMl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5ryDg0k9v9ILzp98auZSNw",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsTechnologySoftwareDevelopment",
+                  "name": "Mentors: Technology & Software Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6CSbwrtY7IUGuscNyS4PzW",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsArtificialIntelligenceMachineLearning",
+                  "name": "Mentors: Artificial Intelligence & Machine Learning",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5i3T82654WkR9XrISuGdBL",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "129€",
+          "value": "Μέχρι 30 Απριλίου (super early bird)"
+        },
+        {
+          "label": "215€",
+          "value": "Αρχική Τιμή"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "64Sj17Gd1mK7HX9NODGvFy",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4tOlKm7xHyQzGY8pbMdfXq",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Narrow",
+      "theme": null,
+      "title": "Πρόγραμμα Σπουδών",
+      "supertitle": null,
+      "text": "Το AI Marketing Summer School σου δίνει τη δυνατότητα να χτίσεις πρακτικές δεξιότητες σε σύγχρονα εργαλεία όπως ChatGPT, Canva, Google & Meta Ads, Looker Studio και να κατανοήσεις πώς η Τεχνητή Νοημοσύνη αλλάζει τον ρόλο του marketer. Όλα αυτά, στον δικό σου ρυθμό — ακόμα και από την ξαπλώστρα σου!",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3oqyHpW7rgLbEvtRK6OQb",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6OjinY2efYSLFT5CwK3Yh3",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3nL2rzWIiwfR4mLVLlzNC7",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6IFZPzYi7XF8I1om5qMQfd",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3S6Eiba9ITFyGPNR0FSXtU",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1rMuQXCSbUF1kFJoOidvmM",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1JXwtY1vGXeHBWy43cxY4a",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Top Mentors",
+      "supertitle": "Mentoring από ανθρώπους της αγοράς",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Mentors Spotlight",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2tNktKgKP0E0XcsymIgzMl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "AIwz1YgD3moT6inhE6ZGc",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7sQASuNa3kobvXhX6thl9L",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinanceInvestments",
+                  "name": "Mentors: Finance & Investments",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "4dVkApHSGSTtIPaZrBbugI",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2ZyJZiJ49g9Cqm1Gse5nF7",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsDataScienceAnalytics",
+                  "name": "Mentors: Data Science & Analytics",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "28igcPwBlqw7A3OzndWx3h",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "ukk57Allo1Y9tlF7iUyUg",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsDataScienceAnalytics",
+                  "name": "Mentors: Data Science & Analytics",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "4FjO7z2fYmTyBn5lb6NXdb",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsDataScienceAnalytics",
+                  "name": "Mentors: Data Science & Analytics",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4VrG2VGX7GsuXYNetycmBo",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": null,
+      "size": "Narrow",
+      "theme": null,
+      "title": "Συχνές Ερωτήσεις",
+      "supertitle": "Workearly Summer Schools 2025",
+      "text": null,
+      "titleSize": null,
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "iEvtkheH0T724MackqOeF",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6PKnskfkzfxIAL3LfZSU8w",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1SD634SWfkL0uU1YZGaIWY",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "E36bjA3mzPQy7hLC9ccof",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1304hLhrtkDPwNLYxAOxL9",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1a0THIOSHIwSxrFwjzctVW",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1PXvaehygWdiDKiJiK0i3s",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "SSEo2GbQQo4MapwqFmp2U",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2QGPMkL6aUo8J8C35OgmcD",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "73cqwWfdFOA9cMU4c5UgDH",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1yxdcgrlqCEl5UJvVQkD45",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6HId8era7rOxwM67TctGDf",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1eTJOYtXnQpecZvsrnTI70",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "SfoYkU3wkLn7Y10Lwpbq2",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "hRrGUzpBtKMOcpjjWz5Fh",
@@ -656,89 +2254,6 @@
           {
             "sys": {
               "id": "7K7Nq6NAfyMpCQsmntMhnT",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "2OhTAJ6vkVw1l2GqtqYwph",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Τι Περιλαμβάνει",
-      "supertitle": "Summer School",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Features Showcase",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4OW8QkIvbkc1Xy2p5h4O7n",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5rs5cITJACttAe7kCGk91Q",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2wkwdHCZeXct9TLd0yKmNg",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5F5cZsLwezQCf3UnW9SAEH",
               "__typename": "Sys"
             },
             "__typename": "Card",
@@ -1817,166 +3332,6 @@
     },
     {
       "sys": {
-        "id": "4VrG2VGX7GsuXYNetycmBo",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": null,
-      "size": "Narrow",
-      "theme": null,
-      "title": "Συχνές Ερωτήσεις",
-      "supertitle": "Workearly Summer Schools 2025",
-      "text": null,
-      "titleSize": null,
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1304hLhrtkDPwNLYxAOxL9",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1a0THIOSHIwSxrFwjzctVW",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1PXvaehygWdiDKiJiK0i3s",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "SSEo2GbQQo4MapwqFmp2U",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2QGPMkL6aUo8J8C35OgmcD",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "73cqwWfdFOA9cMU4c5UgDH",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1yxdcgrlqCEl5UJvVQkD45",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6HId8era7rOxwM67TctGDf",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1eTJOYtXnQpecZvsrnTI70",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "SfoYkU3wkLn7Y10Lwpbq2",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "25tHg2VUFRdiiOoZ74zUiZ",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "Y99voP4fl3OELh9SameT9",
         "__typename": "Sys"
       },
@@ -2035,58 +3390,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "3wbxMAUaCqIBqhC0qu6uOB",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Premier Hiring Partner",
-      "supertitle": null,
-      "text": "Premier Hiring Partner των Workearly Summer Schools 2025 είναι η kariera.gr, με στόχο την ουσιαστική σύνδεση των συμμετεχόντων με την αγορά εργασίας, την προώθηση αποφοίτων σε θέσεις απασχόλησης και την ενίσχυση της επαγγελματικής τους εξέλιξης μέσα από στρατηγική συνεργασία και δικτύωση.",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Standard Component",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "NZSMrGWzKrceDNR4BP4ee",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/NZSMrGWzKrceDNR4BP4ee/b6b820c09146742031df668bfdb536e0/kariera.png",
-            "width": 1108,
-            "height": 893,
-            "contentType": "image/png",
-            "title": "kariera",
-            "description": ""
           }
         ]
       }

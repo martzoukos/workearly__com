@@ -1,7 +1,279 @@
 {
-  "__timestamp": 1745328136104,
-  "total": 107,
+  "__timestamp": 1745351821181,
+  "total": 111,
   "items": [
+    {
+      "sys": {
+        "id": "2O77WnI3dNr8WgXS8Fe9OL",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Οι κάτοχοι αυτής της πιστοποίησης είναι εξοικειωμένοι με τη χρήση σύγχρονων AI εργαλείων για δημιουργία περιεχομένου, καμπάνιες απόδοσης (Meta Ads, Google Performance Max), CRM Flows και Data-driven Marketing. Παράλληλα, έχουν εκπαιδευτεί σε Brand Strategy, Consumer Insights, και Marketing Automation, κατανοώντας πλήρως τη δυναμική του omnichannel marketing. Μέσα από ομαδικά projects, συνεργασία και live mentoring sessions, έχουν αναπτύξει δεξιότητες collaboration, παρουσίασης και στρατηγικής σκέψης, καθιστώντας τους έτοιμους για ρόλους σε Digital Marketing, Growth ή Content Strategy. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI Marketing Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης είναι εξοικειωμένοι με τη χρήση σύγχρονων AI εργαλείων για δημιουργία περιεχομένου, καμπάνιες απόδοσης (Meta Ads, Google Performance Max), CRM Flows και Data-driven Marketing.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "6wGkh4mtHHfeMhnMabK3fY",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6wGkh4mtHHfeMhnMabK3fY/3d2e9fc76fb65ce69194c7c7772ff61b/Badge_-_Summer_-_AI_Marketing_Summer_School_2025.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - AI Marketing Summer School 2025",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5SbeXuEZIbCVrHmgiEjbVG",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν πρακτική εμπειρία και ουσιαστική κατανόηση της επιχειρηματικότητας, έχοντας εργαστεί πάνω στη διαμόρφωση και αξιολόγηση startup ιδεών, την ανάπτυξη βιώσιμων business models, τη διερεύνηση product–market fit και τη δημιουργία ολοκληρωμένων pitch decks και Go-To-Market (GTM) στρατηγικών. Κατά τη διάρκεια του προγράμματος, συμμετείχαν σε ομαδικά projects, συνεργάστηκαν με mentors, founders και επενδυτές, και παρουσίασαν τις ιδέες τους σε πραγματικά επιχειρηματικά panels. Ανέπτυξαν δεξιότητες διαχείρισης κινδύνου, αβεβαιότητας και ταχεών αλλαγών, στοιχεία που χαρακτηρίζουν την startup κουλτούρα. Παράλληλα, καλλιέργησαν ικανότητες σε fundraising, startup storytelling, early-stage marketing και pitching, και είναι σε θέση να συνεισφέρουν ουσιαστικά είτε ως ιδρυτές, είτε ως βασικά στελέχη σε startup ή innovation-driven ομάδες. Η πιστοποίηση αυτή αποτελεί απόδειξη της επιχειρηματικής τους αντίληψης, της στρατηγικής τους σκέψης και της ικανότητάς τους να μετατρέπουν ιδέες σε πράξη.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "Startup Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν πρακτική εμπειρία και ουσιαστική κατανόηση της επιχειρηματικότητας, έχοντας εργαστεί πάνω στη διαμόρφωση και αξιολόγηση startup ιδεών.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "3XNnrmC1rh30FbK2GgKNCb",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3XNnrmC1rh30FbK2GgKNCb/bc300988796a3bdb538359cc2c790a09/Badge_-_Summer_-_Startup_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - Startup Summer School",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "8DUBiyeApmErg0fjEhZhx",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένες και σύγχρονες γνώσεις στο πεδίο του Human Resources, καλύπτοντας κρίσιμους τομείς όπως HR Strategy, Talent Acquisition, Employer Branding, Diversity, Equity & Inclusion (DEI), HR Analytics, καθώς και τη χρήση AI εργαλείων για screening, performance evaluation και αυτοματοποίηση HR διαδικασιών. Έχουν εκπαιδευτεί στην ηγεσία με ενσυναίσθηση, την επίλυση συγκρούσεων, την παροχή ουσιαστικής ανατροφοδότησης και την αποτελεσματική επικοινωνία με όλα τα επίπεδα ενός οργανισμού. Μέσα από collaborative projects και HR simulations, έχουν αναπτύξει επαγγελματική ωριμότητα, κατανόηση του επιχειρησιακού περιβάλλοντος και ικανότητα να συνεισφέρουν ουσιαστικά σε στρατηγικές HR ομάδες.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "HR Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένες και σύγχρονες γνώσεις στο πεδίο του Human Resources.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5SDhwtPIVwIP8PYQv6U2ft",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5SDhwtPIVwIP8PYQv6U2ft/5d93288a4463583e94f089f394d2a1b8/Badge_-_Summer_-_HR_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - HR Summer School",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3UL7VjrdfHWNnpsJat4YB3",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν πρακτικές και εφαρμοσμένες δεξιότητες στην ανάλυση δεδομένων, τον προγραμματισμό με Python (Pandas, Numpy), τη χρήση SQL και τη δημιουργία διαδραστικών dashboards μέσω Power BI. Επιπλέον, έχουν κατανοήσει βασικές έννοιες της Τεχνητής Νοημοσύνης και του Machine Learning, καθώς και τον τρόπο αξιοποίησης εργαλείων Generative AI σε ρεαλιστικά data projects.\nΈχουν εκπαιδευτεί να συνεργάζονται σε ομάδες, να παρουσιάζουν ευρήματα με σαφήνεια και να εφαρμόζουν τεχνικές data storytelling, μεταφράζοντας δεδομένα σε ουσιαστικές επιχειρηματικές αποφάσεις. Η πιστοποίηση αυτή επιβεβαιώνει την ετοιμότητά τους να συνεισφέρουν ενεργά σε data-driven οργανισμούς, αναλαμβάνοντας ρόλους όπως Data Analyst, Business Intelligence Analyst ή Data Scientist.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI & Data Science Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν πρακτικές και εφαρμοσμένες δεξιότητες στην ανάλυση δεδομένων, τον προγραμματισμό με Python (Pandas, Numpy), τη χρήση SQL και τη δημιουργία διαδραστικών dashboards μέσω Power BI.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "RVX3xQQuM5T6Zb2u8MWV0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/RVX3xQQuM5T6Zb2u8MWV0/7c75849f29c24d606df3b48ad2a7f5e8/Badge_-_Summer_-_AI_Data_Science_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - AI Data Science Summer School",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "6AG5xwwl9SIgJmwckeiXxR",

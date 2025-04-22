@@ -37,24 +37,24 @@ export default function CourseSummerPage({ className }: PropsType) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       )}
-      <div className={styles.content}>
-        <Breadcrumbs
-          className={styles.breadcrumbs}
-          items={[
-            { name: "Home", href: "/" },
-            { name: "Courses", href: "/courses" },
-            { name: page.name || "" },
-          ]}
+
+      <Breadcrumbs
+        className={styles.breadcrumbs}
+        items={[
+          { name: "Home", href: "/" },
+          { name: "Courses", href: "/courses" },
+          { name: page.name || "" },
+        ]}
+      />
+      <SummerCourseCover />
+      {preDividerItems.map((item) => (
+        <PageItem
+          key={item?.sys.id}
+          item={item}
+          className={styles.contentItem}
         />
-        <SummerCourseCover />
-        {preDividerItems.map((item) => (
-          <PageItem
-            key={item?.sys.id}
-            item={item}
-            className={styles.contentItem}
-          />
-        ))}
-      </div>
+      ))}
+
       {postDividerItems.map((item) => (
         <PageItem key={item?.sys.id} item={item} />
       ))}

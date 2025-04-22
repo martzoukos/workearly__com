@@ -1,20 +1,20 @@
 {
-  "__timestamp": 1745328134593,
-  "total": 247,
+  "__timestamp": 1745351819674,
+  "total": 253,
   "items": [
     {
       "sys": {
-        "id": "7Kg9qPPglj0KOXQUYNGQno",
+        "id": "i5d3bwWRYqBUb5hX4sgge",
         "__typename": "Sys"
       },
       "__typename": "Page",
       "seoImage": null,
       "variant": "Course | Summer",
-      "name": "HR Summer School",
+      "name": "AI Marketing Summer School 2025",
       "features": ["No Index"],
-      "slug": "courses/hr-summer-school",
-      "seoTitle": "Workearly - HR Summer School",
-      "seoDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
+      "slug": "courses/ai-marketing-summer-school",
+      "seoTitle": "Workearly - AI Marketing Summer School",
+      "seoDescription": "Το AI Marketing Summer School από το Workearly κάνει πρεμιέρα αυτό το καλοκαίρι και φέρνει την απόλυτη εμπειρία για marketers κάθε επιπέδου που θέλουν να παραμείνουν relevant στην εποχή της Τεχνητής Νοημοσύνης.",
       "theme": "Dark",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -25,10 +25,21 @@
         "items": [
           {
             "sys": {
-              "id": "rhEhkrCVwu20Z9Pea5dNF",
+              "id": "2mBH0bwx0rMB40Tt0q8fbu",
               "__typename": "Sys"
             },
             "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -80,7 +91,192 @@
           },
           {
             "sys": {
+              "id": "1JXwtY1vGXeHBWy43cxY4a",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4tOlKm7xHyQzGY8pbMdfXq",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5dQJmIRxkeKgxBlFrJyfOa",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
               "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6UDDoo8JprgUqr2KXyCwJx",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5i3T82654WkR9XrISuGdBL",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7Kg9qPPglj0KOXQUYNGQno",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "HR Summer School 2025",
+      "features": ["No Index"],
+      "slug": "courses/hr-summer-school",
+      "seoTitle": "Workearly - HR Summer School",
+      "seoDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "rhEhkrCVwu20Z9Pea5dNF",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -113,6 +309,50 @@
           },
           {
             "sys": {
+              "id": "6hUdQnqDPjut0A1W2FqpB6",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2f27WjGiz7GsH2toLrL5XG",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
               "id": "hRrGUzpBtKMOcpjjWz5Fh",
               "__typename": "Sys"
             },
@@ -125,6 +365,17 @@
           {
             "sys": {
               "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -145,17 +396,17 @@
     },
     {
       "sys": {
-        "id": "2talblHsoC05rAya7MHQ5D",
+        "id": "35PXS2BxwDnvlHiFHF9ryF",
         "__typename": "Sys"
       },
       "__typename": "Page",
       "seoImage": null,
       "variant": "Course | Summer",
-      "name": "AI Data Science Summer School",
+      "name": "Startup Summer School 2025",
       "features": ["No Index"],
-      "slug": "courses/ai-data-science-summer-school",
-      "seoTitle": "Workearly - AI Data Science Summer School",
-      "seoDescription": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science.",
+      "slug": "courses/startup-summer-school",
+      "seoTitle": "Workearly - Startup Summer School",
+      "seoDescription": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους.",
       "theme": "Dark",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -166,7 +417,7 @@
         "items": [
           {
             "sys": {
-              "id": "6MoH5vInhxwQFN4cQq62CE",
+              "id": "4oLP1CANy9BEl7r9sVMocS",
               "__typename": "Sys"
             },
             "__typename": "CourseDetails",
@@ -221,7 +472,192 @@
           },
           {
             "sys": {
+              "id": "5iFf1HIDakBj0SARSBBTwQ",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1MTXfOWFyP68oefPzPMsVl",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1DSO3kMmaSMtutY1SgTIg1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
               "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2rQOYoky5c3Q5F6uePEeAm",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4mEd3vakSrGhFW5Ys2dkKo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "2talblHsoC05rAya7MHQ5D",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "AI Data Science Summer School 2025",
+      "features": ["No Index"],
+      "slug": "courses/ai-data-science-summer-school",
+      "seoTitle": "Workearly - AI Data Science Summer School",
+      "seoDescription": "Το AI Data Science Summer School επιστρέφει για 4η συνεχόμενη χρονιά και αποτελεί την απόλυτη καλοκαιρινή εμπειρία για όσους θέλουν να μπουν δυναμικά στον κόσμο του Data Science.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6MoH5vInhxwQFN4cQq62CE",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -254,6 +690,50 @@
           },
           {
             "sys": {
+              "id": "2darHWu13M7GluDyctjoht",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "eFMvDzmShhGVbLss26ScK",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
               "id": "28F3V7sycorSDs6IhCdweO",
               "__typename": "Sys"
             },
@@ -273,6 +753,17 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       },
@@ -281,6 +772,302 @@
         "entryCollection": {
           "items": [],
           "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "57VB2CQjQURxA9fNTYKIia",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "AI Marketing Summer School Certification",
+      "features": null,
+      "slug": "certificates/ai-marketing-summer-school-certification",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryHumanSkills",
+            "name": "Certificate Category: Human skills",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelCertificate",
+            "name": "Certificate Level: Certificate",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2O77WnI3dNr8WgXS8Fe9OL",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "5dQJmIRxkeKgxBlFrJyfOa",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-marketing-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4vjyxabfHtUGMsK62huqyr",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "Startup Summer School Certification",
+      "features": null,
+      "slug": "certificates/startup-summer-school-certification",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryHumanSkills",
+            "name": "Certificate Category: Human skills",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelCertificate",
+            "name": "Certificate Level: Certificate",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5SbeXuEZIbCVrHmgiEjbVG",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "1DSO3kMmaSMtutY1SgTIg1",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/startup-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7KMcCGgSl2q8XkJDH5VhHE",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "HR Summer School Certification",
+      "features": null,
+      "slug": "certificates/hr-summer-school-certification",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryHumanSkills",
+            "name": "Certificate Category: Human skills",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelCertificate",
+            "name": "Certificate Level: Certificate",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "8DUBiyeApmErg0fjEhZhx",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "6hUdQnqDPjut0A1W2FqpB6",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/hr-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "50DKPLp5oX9QIsUKHLWinc",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "AI & Data Science Summer School Certification",
+      "features": null,
+      "slug": "certificates/ai-data-science-summer-school-certification",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryHumanSkills",
+            "name": "Certificate Category: Human skills",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelCertificate",
+            "name": "Certificate Level: Certificate",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3UL7VjrdfHWNnpsJat4YB3",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2darHWu13M7GluDyctjoht",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-data-science-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -5897,8 +6684,29 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "5iFf1HIDakBj0SARSBBTwQ",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/startup-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -15532,8 +16340,29 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "1JXwtY1vGXeHBWy43cxY4a",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-marketing-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
