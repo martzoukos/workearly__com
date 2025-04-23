@@ -29,6 +29,7 @@ export default function SummerCourseCover() {
   const group4Label3 = translate("group4_label3");
   const group4Label4 = translate("group4_label4");
   const group4Label5 = translate("group4_label5");
+  const group4Label6 = translate("group4_label6");
 
   return (
     <section className={styles.root}>
@@ -106,6 +107,13 @@ export default function SummerCourseCover() {
             <StatCard
               label={group4Label5}
               value={translate("group4_value5")}
+              className={styles.statCard}
+            />
+          )}
+          {group4Label6 && (
+            <StatCard
+              label={group4Label6}
+              value={translate("group4_value6")}
               className={styles.statCard}
             />
           )}

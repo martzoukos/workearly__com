@@ -126,8 +126,8 @@
   },
   {
     "code": "group4_value5",
-    "el": "30 Απριλίου",
-    "en": "30 Απριλίου"
+    "el": "16 Ιουνίου",
+    "en": "16 Ιουνίου"
   },
   {
     "code": "No",
@@ -141,13 +141,13 @@
   },
   {
     "code": "group4_value5",
-    "el": "16 Ιουνίου",
+    "el": "20+ ώρες Training & 1:1 coaching",
     "en": "20+ ώρες Training & 1:1 coaching"
   },
   {
     "code": "group4_label5",
-    "el": "ΑΙΤΗΣΕΙΣ ΕΩΣ",
-    "en": "ΑΙΤΗΣΕΙΣ ΕΩΣ"
+    "el": "ΕΝΑΡΞΗ",
+    "en": "ΕΝΑΡΞΗ"
   },
   {
     "code": "CourseCardShare",
@@ -160,14 +160,19 @@
     "en": "Mentorship"
   },
   {
+    "code": "group4_label6",
+    "el": "ΑΙΤΗΣΕΙΣ ΕΩΣ",
+    "en": "ΑΙΤΗΣΕΙΣ ΕΩΣ"
+  },
+  {
     "code": "Program Starts",
     "el": "Program Starts",
     "en": "Program Starts"
   },
   {
     "code": "group4_label5",
-    "el": "ΕΝΑΡΞΗ",
-    "en": "Training"
+    "el": "TRAINING",
+    "en": "TRAINING"
   },
   {
     "code": "Yes",
@@ -208,6 +213,11 @@
     "code": "CourseCardTeam",
     "el": "Εταιρική εκπαίδευση με role-playing training προσαρμοσμένη στις ανάγκες της ομάδας σας για μέγιστη ανάπτυξη και επαγγελματική εξέλιξη.",
     "en": "Workearly provides customized training programs for companies looking to enhance their teams’ skills. The material is tailored to the needs and level of each team member, ensuring personalized development for all. With internationally recognized certifications and high-quality learning content, Workearly helps teams gain competitive advantages and perform at their best."
+  },
+  {
+    "code": "group4_value6",
+    "el": "30 Απριλίου",
+    "en": "30 Απριλίου"
   },
   {
     "code": "Language",
