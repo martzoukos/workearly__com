@@ -1,7 +1,40 @@
 {
-  "__timestamp": 1745395363238,
-  "total": 29,
+  "__timestamp": 1745414306397,
+  "total": 30,
   "items": [
+    {
+      "sys": {
+        "id": "2LNlPWckbYV42b8yL5PzfR",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Workearly Summer Schools 2025: Ένας θεσμός που επιστρέφει – πιο δυναμικά από ποτέ",
+      "description": "Τα Summer Schools του Workearly επιστρέφουν για 4η συνεχόμενη χρονιά και έχουν πλέον καθιερωθεί ως θεσμός στην Ελλάδα για όσους θέλουν να επενδύσουν ουσιαστικά στον εαυτό τους κατά τη διάρκεια του καλοκαιριού.",
+      "publicationDate": "2025-04-23T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryGeneral",
+            "name": "Article Category: General",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "3jmMcgEAPNFcCLmfBu2px7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3jmMcgEAPNFcCLmfBu2px7/702abedb8e52a3a03ae1bdc46bf7bdf2/workearly_summer_schools_2025.png",
+        "width": 1080,
+        "height": 1080,
+        "contentType": "image/png",
+        "title": "Summer Blog photo",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "5Gxp1C5fjINSP8PUK1MAwR",

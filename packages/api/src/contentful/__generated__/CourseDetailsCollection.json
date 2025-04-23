@@ -1,5 +1,5 @@
 {
-  "__timestamp": 1745395355086,
+  "__timestamp": 1745414295024,
   "total": 159,
   "items": [
     {
@@ -26,16 +26,52 @@
       },
       "videoThumbnail": {
         "sys": {
-          "id": "1ynlfWGdkw7T8T8Xdrh4S0",
+          "id": "3tp3TEqglNkKX8B2wUF89K",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1ynlfWGdkw7T8T8Xdrh4S0/a01441be64d38805c6752f5a2148f96e/summer-marketing-6807b5df3fdf3.webp",
-        "width": 1282,
-        "height": 662,
-        "contentType": "image/webp",
-        "title": "summer-marketing-6807b5df3fdf3",
-        "description": null
+        "url": "https://downloads.ctfassets.net/fmxc36tvwra3/3tp3TEqglNkKX8B2wUF89K/1f6d2a459fdb0f29399f6ec64768964c/shutterstock_2377241983.jpg",
+        "width": 8256,
+        "height": 5504,
+        "contentType": "image/jpeg",
+        "title": "startup summer main photo",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "rhEhkrCVwu20Z9Pea5dNF",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Καλοκαιρινό Πρόγραμμα HR με Πιστοποίηση",
+      "group": 4,
+      "title": "HR Summer School 2025",
+      "summary": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού. Για πρώτη φορά στην Ελλάδα, το πρόγραμμα είναι εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδεύεται από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs). Συνδυάζει hands-on εκπαίδευση, mentoring από top HR experts, πρόσβαση σε θέσεις εργασίας και ένα live networking event όπου έρχεσαι σε επαφή με decision-makers και ανοίγεις νέες επαγγελματικές πόρτες.",
+      "shortDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6836323/hr-summer-school-2025",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 215,
+      "finalCost": 129,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "56ZUhSo0Pxxod0m7Gx3QsS",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/56ZUhSo0Pxxod0m7Gx3QsS/5265baf7e07592c83ae6be983b15084d/shutterstock_2486760435__1_.jpg",
+        "width": 6000,
+        "height": 4000,
+        "contentType": "image/jpeg",
+        "title": "HR Summer main photo",
+        "description": ""
       }
     },
     {
@@ -71,42 +107,6 @@
         "height": 662,
         "contentType": "image/webp",
         "title": "summer-marketing-6807b5df3fdf3",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "rhEhkrCVwu20Z9Pea5dNF",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Καλοκαιρινό Πρόγραμμα HR με Πιστοποίηση",
-      "group": 4,
-      "title": "HR Summer School 2025",
-      "summary": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού. Για πρώτη φορά στην Ελλάδα, το πρόγραμμα είναι εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδεύεται από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs). Συνδυάζει hands-on εκπαίδευση, mentoring από top HR experts, πρόσβαση σε θέσεις εργασίας και ένα live networking event όπου έρχεσαι σε επαφή με decision-makers και ανοίγεις νέες επαγγελματικές πόρτες.",
-      "shortDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6836323/hr-summer-school-2025",
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "-",
-      "applicationDeadline": "-",
-      "startingCost": 215,
-      "finalCost": 129,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4xGRyuFGcBheg9YeAwPZtR",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xGRyuFGcBheg9YeAwPZtR/69a38e31c380240f8a09446ebf979baf/summer-hr-6807b5e2bfc88.webp",
-        "width": 1282,
-        "height": 662,
-        "contentType": "image/webp",
-        "title": "summer-hr-6807b5e2bfc88",
         "description": null
       }
     },

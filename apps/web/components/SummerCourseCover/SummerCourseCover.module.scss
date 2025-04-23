@@ -21,12 +21,18 @@
 .content {
   display: flex;
   flex-direction: column;
+  overflow: hidden;
   gap: fluid-rem(1.5rem, 2rem);
 }
 
 .payments {
   display: flex;
   gap: 1rem;
+}
+
+.section {
+  color: hsl(var(--color-black-500));
+  background-color: unset;
 }
 
 .mediaWrapper {

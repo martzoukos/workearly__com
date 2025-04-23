@@ -11,8 +11,19 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./SummerCourseCover.module.scss";
+import { QueryItem } from "@workearly/api";
+import useCompositeResolver from "@/hooks/useCompositeResolver";
+import clsx from "clsx";
+import SectionRenderer from "@/components/_renderers/SectionRenderer";
 
-export default function SummerCourseCover() {
+type PropsType = {
+  composite: QueryItem["Composite"];
+  className?: string;
+};
+
+export default function SummerCourseCover({ composite, className }: PropsType) {
+  const { getReferences } = useCompositeResolver(composite);
+  const childSections = getReferences("Section");
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { translate } = useTranslate();
@@ -32,7 +43,7 @@ export default function SummerCourseCover() {
   const group4Label6 = translate("group4_label6");
 
   return (
-    <section className={styles.root}>
+    <section className={clsx(styles.root, className)}>
       <Viewport showUntil="lg">
         <div className={styles.mediaWrapper}>
           <Image
@@ -143,6 +154,13 @@ export default function SummerCourseCover() {
             <CoursePrices courseDetails={courseDetails} showKlarna />
           )}
         </div>
+        {childSections.map((section) => (
+          <SectionRenderer
+            key={section.sys.id}
+            section={section}
+            className={styles.section}
+          />
+        ))}
       </div>
 
       <Viewport showAfter="lg">

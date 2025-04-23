@@ -12,7 +12,7 @@ const DATA_MAP = {
     Section: "contentCollection",
     Action: "contentCollection",
   },
-  variants: ["Default", "Tabs", "Tabs Alt"],
+  variants: ["Default", "Tabs", "Tabs Alt", "Summer Course"],
 } as const;
 
 export default function useCompositeResolver(

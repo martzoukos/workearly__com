@@ -46,7 +46,6 @@ export default function CourseSummerPage({ className }: PropsType) {
           { name: page.name || "" },
         ]}
       />
-      <SummerCourseCover />
       {preDividerItems.map((item) => (
         <PageItem
           key={item?.sys.id}
