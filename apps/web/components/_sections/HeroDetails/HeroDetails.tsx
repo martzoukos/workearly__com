@@ -54,7 +54,7 @@ export default function HeroDetails({ section, className }: PropsType) {
         <div className={styles.labelContainer}>
           {details?.items?.filter(isDefined).map((item) => {
             return (
-              <div className={styles.labelCard}>
+              <div key={item.value} className={styles.labelCard}>
                 <div className={styles.label}>
                   <Text>{item.label}</Text>
                 </div>
@@ -75,6 +75,7 @@ export default function HeroDetails({ section, className }: PropsType) {
             loop: true,
             playing: true,
             muted: true,
+            playsinline: true,
           }}
         />
       )}
@@ -89,6 +90,7 @@ export default function HeroDetails({ section, className }: PropsType) {
             loop: true,
             playing: true,
             muted: true,
+            playsinline: true,
           }}
         />
       )}
