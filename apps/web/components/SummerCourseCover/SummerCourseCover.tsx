@@ -4,7 +4,7 @@ import CoursePrices from "@/components/CoursePrices";
 import StatCard from "@/components/StatCard";
 import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text/Text";
-import Viewport from "@/components/Viewport";
+import Viewport, { useViewport } from "@/components/Viewport";
 import useCompositeResolver from "@/hooks/useCompositeResolver";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
@@ -36,6 +36,7 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
   const { isIntersecting, ref } = useIntersectionObserver({
     threshold: 0.5,
   });
+  const isUntilMd = useViewport({ showUntil: "md" });
 
   if (!courseDetails) {
     return null;
@@ -138,7 +139,12 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
 
         <div className={styles.payments}>
           {courseDetails.applicationFormUrl ? (
-            <Button asChild size="medium" colorScheme="Black">
+            <Button
+              asChild
+              size="medium"
+              colorScheme="Black"
+              isFullWidth={isUntilMd}
+            >
               <Link href={courseDetails.applicationFormUrl}>
                 {translate(
                   `group${groupNumber}_form_cta` as TranslationTextType,

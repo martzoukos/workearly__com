@@ -1,7 +1,31 @@
 {
-  "__timestamp": 1745590654024,
-  "total": 33,
+  "__timestamp": 1745603007199,
+  "total": 34,
   "items": [
+    {
+      "sys": {
+        "id": "6Aoef1ikDRwCtsqesAbMiJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Learn More",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "blog/workearly-summer-schools-2025-enas-thesmos-poy-epistrefei-pio-dynamika-apo"
+      }
+    },
     {
       "sys": {
         "id": "6prYPVRtU8ucgEM3TFcYpn",

@@ -1,7 +1,170 @@
 {
-  "__timestamp": 1745590685606,
-  "total": 349,
+  "__timestamp": 1745603027975,
+  "total": 350,
   "items": [
+    {
+      "sys": {
+        "id": "lsnFWEAV9ghYTTFgCOVlb",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": "Light",
+      "title": "Summer Schools 2025",
+      "supertitle": null,
+      "text": "Τα Summer Schools του Workearly επιστρέφουν για 4η συνεχόμενη χρονιά και έχουν πλέον καθιερωθεί ως θεσμός στην Ελλάδα για όσους θέλουν να επενδύσουν ουσιαστικά στον εαυτό τους κατά τη διάρκεια του καλοκαιριού.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Showcase",
+      "metadata": {
+        "title": "Θέσεις Εργασίας",
+        "values": [
+          {
+            "title": "All Professionals:",
+            "amount": "6000+ Jobs",
+            "percentage": "100"
+          },
+          {
+            "title": "Junior Professionals",
+            "amount": "2000+ Jobs",
+            "percentage": "100"
+          }
+        ]
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6Aoef1ikDRwCtsqesAbMiJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7Kg9qPPglj0KOXQUYNGQno",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryHr",
+                  "name": "Course Category: HR",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2talblHsoC05rAya7MHQ5D",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryDataScience",
+                  "name": "Course Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "i5d3bwWRYqBUb5hX4sgge",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryDigitalMarketing",
+                  "name": "Course Category: Digital Marketing",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "35PXS2BxwDnvlHiFHF9ryF",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryEntrepreneurship",
+                  "name": "Course Category: Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "4pq7OvK2FygPRN3lWqVGY1",
@@ -7608,22 +7771,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3wTeghKyBD15nDAeCucKUH",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -7652,6 +7799,22 @@
             "contentType": "image/webp",
             "title": "Hero Business Background Image Mobile",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3wTeghKyBD15nDAeCucKUH",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -8240,6 +8403,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1ozZ1Djwhu1aOi0nx2gzei",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
+            "width": 695,
+            "height": 530,
+            "contentType": "image/svg+xml",
+            "title": "Failure",
+            "description": ""
+          }
+        ]
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -8264,24 +8445,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1ozZ1Djwhu1aOi0nx2gzei",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
-            "width": 695,
-            "height": 530,
-            "contentType": "image/svg+xml",
-            "title": "Failure",
-            "description": ""
           }
         ]
       }
@@ -8764,6 +8927,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5PGyZeSFWDxLAe4EGzZlVN",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Anim Picking",
+            "description": ""
+          }
+        ]
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -8788,24 +8969,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5PGyZeSFWDxLAe4EGzZlVN",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Anim Picking",
-            "description": ""
           }
         ]
       }
@@ -13067,6 +13230,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3mB2Lzny8ZdRN5eir8367E",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
+            "width": 680,
+            "height": 407,
+            "contentType": "image/svg+xml",
+            "title": "Map",
+            "description": null
+          }
+        ]
+      },
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
@@ -13124,24 +13305,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3mB2Lzny8ZdRN5eir8367E",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
-            "width": 680,
-            "height": 407,
-            "contentType": "image/svg+xml",
-            "title": "Map",
-            "description": null
           }
         ]
       }

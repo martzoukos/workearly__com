@@ -16,6 +16,13 @@
   @media (width < 1024px) {
     grid-template-columns: 1fr;
   }
+
+  @include media(md) {
+    .payments {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 }
 
 .content {
