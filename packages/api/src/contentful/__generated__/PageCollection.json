@@ -1,7 +1,792 @@
 {
-  "__timestamp": 1745414304081,
-  "total": 254,
+  "__timestamp": 1745590672371,
+  "total": 258,
   "items": [
+    {
+      "sys": {
+        "id": "21aA3sGZVmkqwqMcDyc3xl",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Person",
+      "name": "Katerina Valsamidi",
+      "features": null,
+      "slug": "mentors/katerina-valsamidi",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "mentorsBusinessEntrepreneurship",
+            "name": "Mentors: Business & Entrepreneurship",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsLeadershipManagement",
+            "name": "Mentors: Leadership & Management",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPersonalBrandingCareerDevelopment",
+            "name": "Mentors: Personal Branding & Career Development",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPublicRelationsCommunication",
+            "name": "Mentors: Public Relations & Communication",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4hZ7rJFKSkUOlgYZ3qhT0U",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "U4M0ygXqWsOsm870BmT3w",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1Q8RG3KWD9SDTA9CVfbALp",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Person",
+      "name": "Andreas Grammatis",
+      "features": null,
+      "slug": "mentors/andreas-grammatis",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "mentorsBusinessEntrepreneurship",
+            "name": "Mentors: Business & Entrepreneurship",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsHrTalentAcquisition",
+            "name": "Mentors: HR & Talent Acquisition",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsLeadershipManagement",
+            "name": "Mentors: Leadership & Management",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsStartupsFundraising",
+            "name": "Mentors: Startups & Fundraising",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5gCMNxypJS3zwnA7qeyPJE",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "U4M0ygXqWsOsm870BmT3w",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "35PXS2BxwDnvlHiFHF9ryF",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "Startup Summer School 2025",
+      "features": ["No Index"],
+      "slug": "courses/startup-summer-school",
+      "seoTitle": "Workearly - Startup Summer School",
+      "seoDescription": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryEntrepreneurship",
+            "name": "Course Category: Entrepreneurship",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategorySummerSchools",
+            "name": "Course Category: Summer Schools",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4oLP1CANy9BEl7r9sVMocS",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5iFf1HIDakBj0SARSBBTwQ",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1MTXfOWFyP68oefPzPMsVl",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1DSO3kMmaSMtutY1SgTIg1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6VGdpucvXdkxDo3IIMd20E",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2rQOYoky5c3Q5F6uePEeAm",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4mEd3vakSrGhFW5Ys2dkKo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [
+            {
+              "__typename": "Action"
+            }
+          ],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6H9nW24QffPxor8MQejPpz",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Post",
+      "name": "Αξιολόγησε το επαγγελματικό σου προφίλ – Δωρεάν!",
+      "features": null,
+      "slug": "blog/aksiologise-to-epaggelmatiko-soy-profil-dorean",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryGeneral",
+            "name": "Article Category: General",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2abRLPlE04BG1KbaM5G2Bv",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6wfJSrsIs1nDDYb7i4Tr1z",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "578RdSD2X0A0iBw6cl9CMU",
+              "__typename": "Sys"
+            },
+            "__typename": "ResourceDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "blog",
+                      "variant": "Default"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1Ml0CtMsZ414jGz8a32ikl",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "HR Summer School Certification by SHRM",
+      "features": null,
+      "slug": "certificates/hr-summer-school-certification-by-shrm",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryHr",
+            "name": "Certificate Category: HR",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelMicroCredentials",
+            "name": "Certificate Level: Micro-credentials",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5TLzP6VY1jteF1FbbJXM8X",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "6hUdQnqDPjut0A1W2FqpB6",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/hr-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7Kg9qPPglj0KOXQUYNGQno",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "HR Summer School 2025",
+      "features": ["No Index"],
+      "slug": "courses/hr-summer-school",
+      "seoTitle": "Workearly - HR Summer School",
+      "seoDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryHr",
+            "name": "Course Category: HR",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategorySummerSchools",
+            "name": "Course Category: Summer Schools",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "rhEhkrCVwu20Z9Pea5dNF",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1qoRnPXZWce6JfSdph9IGh",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1ibGHqzhyhjA3mcIywBSEW",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5lbdxHadzzWLFD9B71FgCL",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6hUdQnqDPjut0A1W2FqpB6",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2f27WjGiz7GsH2toLrL5XG",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "hRrGUzpBtKMOcpjjWz5Fh",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [
+            {
+              "__typename": "Action"
+            }
+          ],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
     {
       "sys": {
         "id": "1m31kOhvaQslHQoILYP9ME",
@@ -498,428 +1283,6 @@
           {
             "sys": {
               "id": "5i3T82654WkR9XrISuGdBL",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5YSClMAnTXtow3zVVytQYE",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4VrG2VGX7GsuXYNetycmBo",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [
-            {
-              "__typename": "Action"
-            }
-          ],
-          "__typename": "EntryCollection"
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "7Kg9qPPglj0KOXQUYNGQno",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course | Summer",
-      "name": "HR Summer School 2025",
-      "features": ["No Index"],
-      "slug": "courses/hr-summer-school",
-      "seoTitle": "Workearly - HR Summer School",
-      "seoDescription": "Το HR Summer School από το Workearly επιστρέφει για 4η συνεχόμενη χρονιά, φέρνοντας την απόλυτη καλοκαιρινή εμπειρία για επαγγελματίες και νέα στελέχη του Ανθρώπινου Δυναμικού.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryHr",
-            "name": "Course Category: HR",
-            "__typename": "ContentfulTag"
-          },
-          {
-            "id": "courseCategorySummerSchools",
-            "name": "Course Category: Summer Schools",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "rhEhkrCVwu20Z9Pea5dNF",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1qoRnPXZWce6JfSdph9IGh",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7JBVL0px1TManXwQaYbTmA",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2OhTAJ6vkVw1l2GqtqYwph",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3wbxMAUaCqIBqhC0qu6uOB",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4rRkTeuBUrCAL1id7CCpgg",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1ibGHqzhyhjA3mcIywBSEW",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5lbdxHadzzWLFD9B71FgCL",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6hUdQnqDPjut0A1W2FqpB6",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3Rn50Blc3Tf9QyROomubTw",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2f27WjGiz7GsH2toLrL5XG",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "hRrGUzpBtKMOcpjjWz5Fh",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5YSClMAnTXtow3zVVytQYE",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4VrG2VGX7GsuXYNetycmBo",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [
-            {
-              "__typename": "Action"
-            }
-          ],
-          "__typename": "EntryCollection"
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "35PXS2BxwDnvlHiFHF9ryF",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course | Summer",
-      "name": "Startup Summer School 2025",
-      "features": ["No Index"],
-      "slug": "courses/startup-summer-school",
-      "seoTitle": "Workearly - Startup Summer School",
-      "seoDescription": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryEntrepreneurship",
-            "name": "Course Category: Entrepreneurship",
-            "__typename": "ContentfulTag"
-          },
-          {
-            "id": "courseCategorySummerSchools",
-            "name": "Course Category: Summer Schools",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4oLP1CANy9BEl7r9sVMocS",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7JBVL0px1TManXwQaYbTmA",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2OhTAJ6vkVw1l2GqtqYwph",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4rRkTeuBUrCAL1id7CCpgg",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5iFf1HIDakBj0SARSBBTwQ",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1MTXfOWFyP68oefPzPMsVl",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1DSO3kMmaSMtutY1SgTIg1",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3Rn50Blc3Tf9QyROomubTw",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2rQOYoky5c3Q5F6uePEeAm",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4mEd3vakSrGhFW5Ys2dkKo",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -15601,7 +15964,7 @@
           "items": [
             {
               "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
+                "id": "1JXwtY1vGXeHBWy43cxY4a",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -15612,17 +15975,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-schools",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-course-template",
+                      "slug": "courses/ai-marketing-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -16015,39 +16368,8 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-schools",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-course-template",
-                      "variant": "Course | Summer"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -16247,8 +16569,29 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "1JXwtY1vGXeHBWy43cxY4a",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-marketing-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },

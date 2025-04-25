@@ -85,6 +85,11 @@
     "en": "Career Support"
   },
   {
+    "code": "group4_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
     "code": "1plus1",
     "el": "Sold out",
     "en": "1 + 1 Gift"
@@ -105,6 +110,11 @@
     "en": "6.000+ Εταιρείες"
   },
   {
+    "code": "group1_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
     "code": "duration4",
     "el": "6-8 εβδομάδες",
     "en": "6-8 weeks"
@@ -115,9 +125,19 @@
     "en": "Filters"
   },
   {
+    "code": "group3_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
     "code": "group4_gift",
     "el": "Sold out",
     "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "group2_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
   },
   {
     "code": "endingBefore",
@@ -145,6 +165,11 @@
     "en": "20+ ώρες Training & 1:1 coaching"
   },
   {
+    "code": "group1_form_cta",
+    "el": "Αίτηση Συμμετοχής",
+    "en": "Apply"
+  },
+  {
     "code": "group4_label5",
     "el": "ΕΝΑΡΞΗ",
     "en": "ΕΝΑΡΞΗ"
@@ -168,6 +193,11 @@
     "code": "Program Starts",
     "el": "Program Starts",
     "en": "Program Starts"
+  },
+  {
+    "code": "group4_form_cta",
+    "el": "Δωρεάν Ενημέρωση",
+    "en": "Apply"
   },
   {
     "code": "group4_label5",
@@ -218,6 +248,16 @@
     "code": "group4_value6",
     "el": "30 Απριλίου",
     "en": "30 Απριλίου"
+  },
+  {
+    "code": "group3_form_cta",
+    "el": "Αίτηση Συμμετοχής",
+    "en": "Apply"
+  },
+  {
+    "code": "group2_form_cta",
+    "el": "Αίτηση Συμμετοχής",
+    "en": "Apply"
   },
   {
     "code": "Language",

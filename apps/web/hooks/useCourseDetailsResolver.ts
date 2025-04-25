@@ -69,6 +69,7 @@ export default function useCourseDetailsResolver(
     cardWidth,
     timeLeft,
     gift,
+    groupNumber: courseDetails?.group || 1,
   };
 }
 

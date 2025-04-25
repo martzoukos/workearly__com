@@ -1,7 +1,103 @@
 {
-  "__timestamp": 1745414289516,
-  "total": 194,
+  "__timestamp": 1745590656223,
+  "total": 198,
   "items": [
+    {
+      "sys": {
+        "id": "7a8yCTQhvWAYOFOzFieGiH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Freelancers & δημιουργικά μυαλά",
+      "text": "Που αναζητούν μια πιο αυτόνομη επαγγελματική πορεία και θέλουν να μετατρέψουν τις δεξιότητές τους σε προϊόν ή υπηρεσία με προοπτική.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7mwwxFaup9VlAYE7asPhkI",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Άτομα που σκέφτονται να ξεκινήσουν κάτι δικό τους",
+      "text": "Ανεξάρτητα από τον τομέα ή την εμπειρία τους, θέλουν να αποκτήσουν επιχειρηματική σκέψη, να κατανοήσουν τη διαδικασία και να πάρουν το ρίσκο με σιγουριά.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2X1rM0Xe5lIE9AHP8BNMqM",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Νέους founders & aspiring entrepreneurs",
+      "text": "Που έχουν μια ιδέα (ή την ψάχνουν ακόμη) και θέλουν να μάθουν πώς να τη μετατρέψουν σε ένα βιώσιμο project, με καθοδήγηση και δοκιμασμένα εργαλεία.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "A2zmZakgv4ugTsU65ubro",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Μαθητές ηλικίας 15–18 ετών",
+      "text": "Που θέλουν να έρθουν σε επαφή με τον κόσμο των startups, της δημιουργίας και της καινοτομίας — ιδανικό για όσους σκέφτονται να ξεκινήσουν νωρίς τη δική τους πορεία.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "1U5DHrTY910EgSOZidssvA",
@@ -20,6 +116,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5TPuDAbLJsbgjpw6ujMkGy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
+        "width": 5616,
+        "height": 3744,
+        "contentType": "image/jpeg",
+        "title": "sign up marketing summer school",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -35,19 +144,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5TPuDAbLJsbgjpw6ujMkGy",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
-        "width": 5616,
-        "height": 3744,
-        "contentType": "image/jpeg",
-        "title": "sign up marketing summer school",
-        "description": ""
       }
     },
     {
@@ -68,6 +164,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -83,19 +192,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2OcWMzOGWuHMrFLWHhvwf6",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "sign up summer startup photo",
-        "description": ""
       }
     },
     {
@@ -116,6 +212,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -131,19 +240,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2OcWMzOGWuHMrFLWHhvwf6",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "sign up summer startup photo",
-        "description": ""
       }
     },
     {
@@ -164,6 +260,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "7mQtcJJIbR0LjzHatOA3AQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
+        "width": 6000,
+        "height": 4000,
+        "contentType": "image/jpeg",
+        "title": "sign up photo data science summer",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -179,19 +288,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "7mQtcJJIbR0LjzHatOA3AQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
-        "width": 6000,
-        "height": 4000,
-        "contentType": "image/jpeg",
-        "title": "sign up photo data science summer",
-        "description": ""
       }
     },
     {
@@ -212,6 +308,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1o17uqXtSoG2TxFtmLSo9T",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
+        "width": 4493,
+        "height": 2995,
+        "contentType": "image/jpeg",
+        "title": "sign up hr summer school",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -227,19 +336,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1o17uqXtSoG2TxFtmLSo9T",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
-        "width": 4493,
-        "height": 2995,
-        "contentType": "image/jpeg",
-        "title": "sign up hr summer school",
-        "description": ""
       }
     },
     {
@@ -260,6 +356,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5TPuDAbLJsbgjpw6ujMkGy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
+        "width": 5616,
+        "height": 3744,
+        "contentType": "image/jpeg",
+        "title": "sign up marketing summer school",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -275,19 +384,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5TPuDAbLJsbgjpw6ujMkGy",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
-        "width": 5616,
-        "height": 3744,
-        "contentType": "image/jpeg",
-        "title": "sign up marketing summer school",
-        "description": ""
       }
     },
     {
@@ -308,6 +404,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1o17uqXtSoG2TxFtmLSo9T",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
+        "width": 4493,
+        "height": 2995,
+        "contentType": "image/jpeg",
+        "title": "sign up hr summer school",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -323,19 +432,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1o17uqXtSoG2TxFtmLSo9T",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
-        "width": 4493,
-        "height": 2995,
-        "contentType": "image/jpeg",
-        "title": "sign up hr summer school",
-        "description": ""
       }
     },
     {
@@ -356,6 +452,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "7mQtcJJIbR0LjzHatOA3AQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
+        "width": 6000,
+        "height": 4000,
+        "contentType": "image/jpeg",
+        "title": "sign up photo data science summer",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -371,19 +480,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "7mQtcJJIbR0LjzHatOA3AQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
-        "width": 6000,
-        "height": 4000,
-        "contentType": "image/jpeg",
-        "title": "sign up photo data science summer",
-        "description": ""
       }
     },
     {
@@ -404,6 +500,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -419,19 +528,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2OcWMzOGWuHMrFLWHhvwf6",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "sign up summer startup photo",
-        "description": ""
       }
     },
     {
@@ -956,6 +1052,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -971,19 +1080,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
       }
     },
     {
@@ -3524,19 +3620,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "6IMm6C3PYJ8O8486MTGMg0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Business Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -3552,6 +3635,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "6IMm6C3PYJ8O8486MTGMg0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business Clear",
+        "description": null
       }
     },
     {

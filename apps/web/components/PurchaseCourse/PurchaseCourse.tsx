@@ -1,20 +1,21 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import ShareMenu from "@/components/ShareMenu";
+import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text";
 import Tooltip from "@/components/Tooltip";
-import Viewport from "@/components/Viewport";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Gift, Share, Time } from "@carbon/icons-react";
+import { TranslationTextType } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
 
@@ -39,26 +40,15 @@ export default function PurchaseCourse({
   );
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
-  const { timeLeft, gift } = useCourseDetailsResolver(courseDetails);
+  const { timeLeft, gift, groupNumber } =
+    useCourseDetailsResolver(courseDetails);
 
   const { translate } = useTranslate();
   const { isIntersecting, ref } = useIntersectionObserver({
     threshold: 0.5,
   });
 
-  const [showBanner, setShowBanner] = useState(false);
-  const [hasAppeared, setHasAppeared] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
-
-  useEffect(() => {
-    if (isIntersecting) {
-      setHasAppeared(true);
-    }
-
-    if (hasAppeared) {
-      setShowBanner(!isIntersecting);
-    }
-  }, [isIntersecting, hasAppeared]);
 
   if (!courseDetails) {
     return null;
@@ -150,7 +140,12 @@ export default function PurchaseCourse({
             {courseDetails.applicationFormUrl ? (
               <Button asChild isFullWidth size="medium">
                 <Link href={courseDetails.applicationFormUrl}>
-                  {translate("Apply")}
+                  {translate(
+                    `group${groupNumber}_form_cta` as TranslationTextType,
+                    {
+                      fallbackCode: "Apply",
+                    }
+                  )}
                 </Link>
               </Button>
             ) : (
@@ -162,7 +157,12 @@ export default function PurchaseCourse({
                   router.push(`/payment/${page.slug}`);
                 }}
               >
-                {translate("Purchase")}
+                {translate(
+                  `group${groupNumber}_purchase_cta` as TranslationTextType,
+                  {
+                    fallbackCode: "Purchase",
+                  }
+                )}
               </Button>
             )}
 
@@ -180,27 +180,7 @@ export default function PurchaseCourse({
           </footer>
         )}
       </div>
-      {!hideQuickPurchase && hasAppeared && (
-        <Viewport showUntil="md">
-          <aside className={clsx(styles.banner, showBanner && styles.visible)}>
-            <CoursePrices
-              courseDetails={courseDetails}
-              orientation="vertical"
-            />
-            <Button asChild isFullWidth size="large">
-              <Link
-                href={
-                  courseDetails.applicationFormUrl || `/payment/${page.slug}`
-                }
-              >
-                {courseDetails.applicationFormUrl
-                  ? translate("Apply")
-                  : translate("Purchase")}
-              </Link>
-            </Button>
-          </aside>
-        </Viewport>
-      )}
+      {!hideQuickPurchase && <StickyPurchase isIntersecting={isIntersecting} />}
     </Themed>
   );
 }

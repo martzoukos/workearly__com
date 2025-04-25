@@ -1,20 +1,23 @@
+import SectionRenderer from "@/components/_renderers/SectionRenderer";
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
 import StatCard from "@/components/StatCard";
+import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text/Text";
 import Viewport from "@/components/Viewport";
+import useCompositeResolver from "@/hooks/useCompositeResolver";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
+import { QueryItem, TranslationTextType } from "@workearly/api";
+import { Themed } from "@workearly/theme";
+import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./SummerCourseCover.module.scss";
-import { QueryItem } from "@workearly/api";
-import useCompositeResolver from "@/hooks/useCompositeResolver";
-import clsx from "clsx";
-import SectionRenderer from "@/components/_renderers/SectionRenderer";
 
 type PropsType = {
   composite: QueryItem["Composite"];
@@ -27,9 +30,12 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { translate } = useTranslate();
-  const { duration, mentorship, pace, cardWidth } =
+  const { duration, mentorship, pace, cardWidth, groupNumber } =
     useCourseDetailsResolver(courseDetails);
   const router = useRouter();
+  const { isIntersecting, ref } = useIntersectionObserver({
+    threshold: 0.5,
+  });
 
   if (!courseDetails) {
     return null;
@@ -43,7 +49,7 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
   const group4Label6 = translate("group4_label6");
 
   return (
-    <section className={clsx(styles.root, className)}>
+    <section ref={ref} className={clsx(styles.root, className)}>
       <Viewport showUntil="lg">
         <div className={styles.mediaWrapper}>
           <Image
@@ -134,7 +140,12 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
           {courseDetails.applicationFormUrl ? (
             <Button asChild size="medium" colorScheme="Black">
               <Link href={courseDetails.applicationFormUrl}>
-                {translate("Apply")}
+                {translate(
+                  `group${groupNumber}_form_cta` as TranslationTextType,
+                  {
+                    fallbackCode: "Apply",
+                  }
+                )}
               </Link>
             </Button>
           ) : (
@@ -146,7 +157,12 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
                 router.push(`/payment/${page.slug}`);
               }}
             >
-              {translate("Purchase")}
+              {translate(
+                `group${groupNumber}_purchase_cta` as TranslationTextType,
+                {
+                  fallbackCode: "Purchase",
+                }
+              )}
             </Button>
           )}
 
@@ -174,6 +190,9 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
           />
         </div>
       </Viewport>
+      <Themed isInverted>
+        <StickyPurchase isIntersecting={isIntersecting} />
+      </Themed>
     </section>
   );
 }

@@ -1,7 +1,40 @@
 {
-  "__timestamp": 1745414306397,
-  "total": 30,
+  "__timestamp": 1745590675886,
+  "total": 31,
   "items": [
+    {
+      "sys": {
+        "id": "578RdSD2X0A0iBw6cl9CMU",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Αξιολόγησε το επαγγελματικό σου προφίλ – Δωρεάν!",
+      "description": "Φέτος το καλοκαίρι, το Workearly και οι μεγαλύτερες ελληνικές εταιρείες διοργανώνουν το μεγαλύτερο Summer Learning Event της χρονιάς!",
+      "publicationDate": "2025-04-24T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryGeneral",
+            "name": "Article Category: General",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5q1UyDw9W3AihZnYc3lL0N",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5q1UyDw9W3AihZnYc3lL0N/539465e6d622d92c1322cd1d4e3227ab/sapmple88__32_.png",
+        "width": 1080,
+        "height": 1080,
+        "contentType": "image/png",
+        "title": "Αξιολόγηση προφίλ blog",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "2LNlPWckbYV42b8yL5PzfR",

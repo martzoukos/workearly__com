@@ -1,7 +1,749 @@
 {
-  "__timestamp": 1745414293731,
-  "total": 134,
+  "__timestamp": 1745590667118,
+  "total": 135,
   "items": [
+    {
+      "sys": {
+        "id": "6wfJSrsIs1nDDYb7i4Tr1z",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Default",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Φέτος το καλοκαίρι, το Workearly και οι μεγαλύτερες ελληνικές εταιρείες διοργανώνουν το μεγαλύτερο Summer Learning Event της χρονιάς!\n",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Ψάχνεις κάτι περισσότερο από απλές καλοκαιρινές μέρες;\n",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Αυτό το καλοκαίρι μπορεί να είναι η στιγμή που αλλάζει την καριέρα σου.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Το ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Workearly",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ", σε συνεργασία με τις μεγαλύτερες ελληνικές εταιρείες και το ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "kariera.gr",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ", σου δίνει την ευκαιρία να συμμετέχεις στα πιο ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "σύγχρονα και στοχευμένα Summer Schools",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ", αποκτώντας δεξιότητες με ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "πραγματικό αντίκρισμα στην αγορά εργασίας",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ".",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "blockquote",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.workearly.gr/summer-schools"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Summer Schools 2025",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Τι σε ενδιαφέρει;",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Να αποκτήσεις ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "AI skills",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " στην εποχή της Τεχνητής Νοημοσύνης;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Να χτίσεις ένα ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "ισχυρό προφίλ στο LinkedIn",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " και να ξεκινήσεις καριέρα;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Να μάθεις ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "Data Science, Προγραμματισμό ή Digital Marketing",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " από την αρχή;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Ή να εξελιχθείς σε ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "HR Professional",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " με ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "επίσημη πιστοποίηση από τον SHRM",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": ";",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Όποιος κι αν είναι ο στόχος σου, κάτι σε περιμένει φέτος στο Workearly Summer School.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Θες να δεις πού βρίσκεσαι επαγγελματικά; Ήρθε η ώρα να το μάθεις – Δωρεάν.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Θες να τεστάρεις τα skills σου;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Θες να δεις πώς τα πας με το AI;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Θες να ανακαλύψεις τι λείπει από το βιογραφικό σου;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Ή απλά δεν ξέρεις ακόμα ποιο είναι το επόμενο σωστό βήμα σου;",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Κάνε τώρα το ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "δωρεάν Career Assessment",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " του Workearly και:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Δες ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "πού βρίσκεσαι επαγγελματικά",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Λάβε ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "προσωποποιημένη πρόταση",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " για το πρόγραμμα που σου ταιριάζει",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": " Κατέβασε ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "δωρεάν demo course",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " για να δοκιμάσεις το Workearly στην πράξη",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "blockquote",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://form.123formbuilder.com/form-6837140/career-assessment-2025"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Κάνε την αξιολόγηση τώρα – Δωρεάν",
+                          "marks": [
+                            {
+                              "type": "underline"
+                            },
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Τ",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "ο καλοκαίρι σου φέτος έχει στόχο. Έχει ρυθμό. Έχει προοπτική.",
+                  "marks": [
+                    {
+                      "type": "italic"
+                    },
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "\n",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Θέλεις Δωρεάν demo course;",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "\n",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://form.123formbuilder.com/form-6837140/career-assessment-2025"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Κάνε αίτηση για να το λάβεις ",
+                      "marks": [
+                        {
+                          "type": "underline"
+                        }
+                      ],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": " ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
     {
       "sys": {
         "id": "7IF9J3i3DvCHjihRv1K1iX",
