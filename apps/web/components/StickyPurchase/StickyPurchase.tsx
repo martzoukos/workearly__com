@@ -11,40 +11,22 @@ import { TranslationTextType } from "@workearly/api";
 import clsx from "clsx";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
 import styles from "./StickyPurchase.module.scss";
 
-interface PropsType {
-  isIntersecting: boolean;
-}
-
-export default function StickyPurchase({ isIntersecting }: PropsType) {
+export default function StickyPurchase() {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { groupNumber, timeLeft } = useCourseDetailsResolver(courseDetails);
   const { translate } = useTranslate();
   const router = useRouter();
 
-  const [showBanner, setShowBanner] = useState(false);
-  const [hasAppeared, setHasAppeared] = useState(false);
-
-  useEffect(() => {
-    if (isIntersecting) {
-      setHasAppeared(true);
-    }
-
-    if (hasAppeared) {
-      setShowBanner(!isIntersecting);
-    }
-  }, [isIntersecting, hasAppeared]);
-
-  if (!courseDetails || !hasAppeared) {
+  if (!courseDetails) {
     return null;
   }
 
   return (
     <Viewport showUntil="md">
-      <aside className={clsx(styles.root, showBanner && styles.visible)}>
+      <aside className={clsx(styles.root)}>
         {timeLeft && (
           <div className={styles.timeLeft}>
             <Time />

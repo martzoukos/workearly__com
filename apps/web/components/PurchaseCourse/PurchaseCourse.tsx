@@ -16,7 +16,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./PurchaseCourse.module.scss";
 
 interface PropsType {
@@ -44,9 +43,6 @@ export default function PurchaseCourse({
     useCourseDetailsResolver(courseDetails);
 
   const { translate } = useTranslate();
-  const { isIntersecting, ref } = useIntersectionObserver({
-    threshold: 0.5,
-  });
 
   const [showMenu, setShowMenu] = useState(false);
 
@@ -55,11 +51,7 @@ export default function PurchaseCourse({
   }
 
   return (
-    <Themed
-      className={clsx(styles.root, className)}
-      isInverted={isInverted}
-      ref={ref}
-    >
+    <Themed className={clsx(styles.root, className)} isInverted={isInverted}>
       {!hideMedia && courseDetails?.videoThumbnail && (
         <div className={styles.mediaWrapper}>
           <Image
@@ -180,7 +172,7 @@ export default function PurchaseCourse({
           </footer>
         )}
       </div>
-      {!hideQuickPurchase && <StickyPurchase isIntersecting={isIntersecting} />}
+      {!hideQuickPurchase && <StickyPurchase />}
     </Themed>
   );
 }

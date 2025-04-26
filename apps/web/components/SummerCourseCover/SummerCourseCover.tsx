@@ -16,7 +16,6 @@ import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useIntersectionObserver } from "usehooks-ts";
 import styles from "./SummerCourseCover.module.scss";
 
 type PropsType = {
@@ -33,9 +32,6 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
   const { duration, mentorship, pace, cardWidth, groupNumber } =
     useCourseDetailsResolver(courseDetails);
   const router = useRouter();
-  const { isIntersecting, ref } = useIntersectionObserver({
-    threshold: 0.5,
-  });
   const isUntilMd = useViewport({ showUntil: "md" });
 
   if (!courseDetails) {
@@ -50,7 +46,7 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
   const group4Label6 = translate("group4_label6");
 
   return (
-    <section ref={ref} className={clsx(styles.root, className)}>
+    <section className={clsx(styles.root, className)}>
       <Viewport showUntil="lg">
         <div className={styles.mediaWrapper}>
           <Image
@@ -197,7 +193,7 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
         </div>
       </Viewport>
       <Themed isInverted>
-        <StickyPurchase isIntersecting={isIntersecting} />
+        <StickyPurchase />
       </Themed>
     </section>
   );
