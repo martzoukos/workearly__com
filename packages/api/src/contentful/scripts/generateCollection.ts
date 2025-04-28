@@ -10,7 +10,7 @@ import {
 } from "../graphql/__generated__/gql/graphql";
 import { getServerClient } from "../graphql/client";
 
-const INTERVAL = 30 * 60 * 1000;
+const INTERVAL = 5 * 60 * 1000;
 const OUTPUT_DIR = "./src/contentful/__generated__";
 
 type ContentTypeVariables = {
