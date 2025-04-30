@@ -1,7 +1,97 @@
 {
-  "__timestamp": 1745635354996,
-  "total": 34,
+  "__timestamp": 1745989932153,
+  "total": 38,
   "items": [
+    {
+      "sys": {
+        "id": "2McitWrq34JELPd95jB86G",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses/ai-business-summer-school-by-shrm"
+      }
+    },
+    {
+      "sys": {
+        "id": "12t3TeIZTGkDu8vU0SlVDX",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Δωρεάν ενημέρωση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6838899/ai-business-summer-school",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7k3yS8S3abzFYFHIoJybX1",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses/hack-the-football-data-and-programming-summer-school"
+      }
+    },
+    {
+      "sys": {
+        "id": "2RAjZsmZxJkdFWPQ4MZ7LJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Δωρεάν ενημέρωση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6838342/hack-the-football-data-programming-summer-school",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "6Aoef1ikDRwCtsqesAbMiJ",

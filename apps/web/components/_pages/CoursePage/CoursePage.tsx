@@ -6,6 +6,7 @@ import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
+import { NextSeo } from "next-seo";
 import { Course, WithContext } from "schema-dts";
 import styles from "./CoursePage.module.scss";
 
@@ -15,7 +16,7 @@ type PropsType = {
 
 export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
-  const { courseDetails, preDividerItems, postDividerItems } =
+  const { courseDetails, preDividerItems, postDividerItems, tags } =
     usePageResolver(page);
 
   let jsonLd: WithContext<Course> | undefined = undefined;
@@ -31,8 +32,26 @@ export default function CoursePage({ className }: PropsType) {
     };
   }
 
+  const category = tags.find((tag) => tag?.id?.startsWith("courseCategory"));
+
   return (
     <main className={clsx(styles.root, className)}>
+      <NextSeo
+        additionalMetaTags={[
+          {
+            name: "trackCourse",
+            content: courseDetails?.title || "",
+          },
+          {
+            name: "trackCategory",
+            content: category?.id || "",
+          },
+          {
+            name: "trackPrice",
+            content: courseDetails?.finalCost?.toString() || "",
+          },
+        ]}
+      />
       {jsonLd && (
         <script
           type="application/ld+json"

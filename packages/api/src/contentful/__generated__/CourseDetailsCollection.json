@@ -1,7 +1,115 @@
 {
-  "__timestamp": 1745635359349,
-  "total": 159,
+  "__timestamp": 1745989936588,
+  "total": 162,
   "items": [
+    {
+      "sys": {
+        "id": "1tYTSFsHKAe8Qgd9UZCNCv",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Summer School AI και Business Analytics - AI με Πιστοποίηση",
+      "group": 4,
+      "title": "AI Business Summer School",
+      "summary": "Το AI & Business Analytics Summer School, εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδευόμενο από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs), αποτελεί το ιδανικό καλοκαιρινό πρόγραμμα για όσους θέλουν να συνδυάσουν τεχνολογία, δεδομένα και στρατηγική επιχειρήσεων.\nΜέσα από εντατική πρακτική εκπαίδευση σε Business Analytics, Artificial Intelligence (AI), Project Management και Business Reporting, θα αποκτήσεις τις δεξιότητες που αναζητούν οι κορυφαίοι εργοδότες στον κλάδο του Business & Technology.",
+      "shortDescription": "Το AI & Business Analytics Summer School, εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδευόμενο από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs)",
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6838899/ai-business-summer-school",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 290,
+      "finalCost": 115,
+      "videoThumbnail": {
+        "sys": {
+          "id": "3KBPoruWpGfnGytnD3ByjY",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3KBPoruWpGfnGytnD3ByjY/e18286e10679b81b1f12c223b931786a/shutterstock_2306281377.jpg",
+        "width": 5097,
+        "height": 3398,
+        "contentType": "image/jpeg",
+        "title": "AI Business Summer School by SHRM - sign up",
+        "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3jrbh0lSvDryc8tftXL1ow",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Sample course summer",
+      "group": 4,
+      "title": "Sample course summer",
+      "summary": "Sample course summer",
+      "shortDescription": "Sample course summer",
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6838899/ai-business-summer-school",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 290,
+      "finalCost": 0,
+      "videoThumbnail": {
+        "sys": {
+          "id": "1P91ojxzPMIWBY5iRwIzWS",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1P91ojxzPMIWBY5iRwIzWS/def99083498a3970ba5b0f482adb3134/shutterstock_2326049231.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "AI Business Summer School by SHRM",
+        "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7wD6RzLaMNBddxXDzSDJKc",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Python, Data Analytics και AI: Μάθε μέσα από το ποδόσφαιρο, δούλεψε στα δεδομένα!",
+      "group": 4,
+      "title": "Hack the Football Data & Programming Summer School",
+      "summary": "Από τα data του γηπέδου... στα data της καριέρας σου! Φέτος το καλοκαίρι, γράψε τον δικό σου κώδικα επιτυχίας: Μάθε Python, Data Analytics και AI δουλεύοντας με δεδομένα ποδοσφαίρου, κτίσε το δυνατότερο portfolio με πραγματικά projects, γνώρισε κορυφαίους επαγγελματίες μέσα από live networking events και μπες δυναμικά στην αγορά εργασίας σε ρόλους IT, Data & Analytics.",
+      "shortDescription": "Από τα data του γηπέδου... στα data της καριέρας σου! Φέτος το καλοκαίρι, γράψε τον δικό σου κώδικα επιτυχίας: Μάθε Python, Data Analytics και AI δουλεύοντας με δεδομένα ποδοσφαίρου",
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6838342/hack-the-football-data-programming-summer-school",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 215,
+      "finalCost": 109,
+      "videoThumbnail": {
+        "sys": {
+          "id": "3Cd0uPyntNAf84XimExHdX",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3Cd0uPyntNAf84XimExHdX/b2f2f9327206a41cd8f78d20f4e8297e/shutterstock_424172656.jpg",
+        "width": 5472,
+        "height": 3648,
+        "contentType": "image/jpeg",
+        "title": "Hack the Football Data & Programming Summer School - Main photo",
+        "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "7jmLrCn2IFav4ZWOQfazhE",
@@ -20,10 +128,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 300,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -36,6 +140,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -56,10 +164,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -72,6 +176,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -92,10 +200,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "wDbpyo2rmPkrfivyfAAIL",
@@ -108,6 +212,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -128,10 +236,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -144,6 +248,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -164,10 +272,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 400,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -180,6 +284,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -200,16 +308,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 300,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryAi",
-            "name": "Course Category: AI",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
       "videoThumbnail": {
         "sys": {
           "id": "5IFXcmhunVAO8nA7yl3pFR",
@@ -222,6 +320,16 @@
         "contentType": "image/svg+xml",
         "title": "Solo - AI",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryAi",
+            "name": "Course Category: AI",
+            "__typename": "ContentfulTag"
+          }
+        ]
       }
     },
     {
@@ -242,10 +350,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "wDbpyo2rmPkrfivyfAAIL",
@@ -258,6 +362,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -278,10 +386,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1cwBEn1CkNM8mMIk8sHa7P",
@@ -294,6 +398,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -314,10 +422,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1cwBEn1CkNM8mMIk8sHa7P",
@@ -330,6 +434,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -350,10 +458,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1cwBEn1CkNM8mMIk8sHa7P",
@@ -366,6 +470,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -386,10 +494,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -402,6 +506,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -422,10 +530,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -438,6 +542,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -458,10 +566,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -474,6 +578,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -494,10 +602,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -510,6 +614,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -530,10 +638,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -546,6 +650,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -566,10 +674,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -582,6 +686,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -602,10 +710,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 200,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -618,6 +722,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -638,10 +746,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -654,6 +758,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -674,10 +782,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -690,6 +794,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -710,10 +818,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -726,6 +830,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -746,10 +854,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1cwBEn1CkNM8mMIk8sHa7P",
@@ -762,6 +866,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -782,10 +890,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -798,6 +902,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -818,10 +926,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 300,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -834,6 +938,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -854,10 +962,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -870,6 +974,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -890,10 +998,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -906,6 +1010,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -926,10 +1034,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -942,6 +1046,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -962,10 +1070,6 @@
       "applicationDeadline": "31 Μαΐου",
       "startingCost": 500,
       "finalCost": 180,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1cwBEn1CkNM8mMIk8sHa7P",
@@ -978,6 +1082,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -998,10 +1106,6 @@
       "applicationDeadline": "-",
       "startingCost": 265,
       "finalCost": 159,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "3tp3TEqglNkKX8B2wUF89K",
@@ -1014,6 +1118,10 @@
         "contentType": "image/jpeg",
         "title": "startup summer main photo",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1034,10 +1142,6 @@
       "applicationDeadline": "-",
       "startingCost": 215,
       "finalCost": 129,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "56ZUhSo0Pxxod0m7Gx3QsS",
@@ -1050,6 +1154,10 @@
         "contentType": "image/jpeg",
         "title": "HR Summer main photo",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1070,10 +1178,6 @@
       "applicationDeadline": "-",
       "startingCost": 215,
       "finalCost": 129,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1ynlfWGdkw7T8T8Xdrh4S0",
@@ -1086,6 +1190,10 @@
         "contentType": "image/webp",
         "title": "summer-marketing-6807b5df3fdf3",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1106,10 +1214,6 @@
       "applicationDeadline": "-",
       "startingCost": 215,
       "finalCost": 129,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "5cawmySttFqxT2Uu9QrRT7",
@@ -1122,6 +1226,10 @@
         "contentType": "image/webp",
         "title": "summer-data-science-6807b5e289710",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1142,10 +1250,6 @@
       "applicationDeadline": "-",
       "startingCost": 400,
       "finalCost": 40,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7FepQfbjm8zyANWQbc51Jp",
@@ -1158,6 +1262,10 @@
         "contentType": "image/webp",
         "title": "summer-entrepreneur-6807b5df38228",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1178,10 +1286,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1194,6 +1298,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1214,10 +1322,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1230,6 +1334,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1250,10 +1358,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1266,6 +1370,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1286,10 +1394,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1302,6 +1406,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1322,10 +1430,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1338,6 +1442,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1358,10 +1466,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1374,6 +1478,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1394,10 +1502,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1410,6 +1514,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1430,10 +1538,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1446,6 +1550,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1466,10 +1574,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1482,6 +1586,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1502,10 +1610,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 190,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -1518,6 +1622,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1538,10 +1646,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1554,6 +1658,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1574,10 +1682,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 200,
       "finalCost": 150,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -1590,6 +1694,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1610,10 +1718,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1626,6 +1730,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1646,10 +1754,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1662,6 +1766,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1682,10 +1790,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1698,6 +1802,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1718,10 +1826,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1734,6 +1838,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1754,10 +1862,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "6tMzF4jfPWiFtVPONIbhth",
@@ -1770,6 +1874,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Digital Marketing",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1790,10 +1898,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "6tMzF4jfPWiFtVPONIbhth",
@@ -1806,6 +1910,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Digital Marketing",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1826,10 +1934,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "wDbpyo2rmPkrfivyfAAIL",
@@ -1842,6 +1946,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1862,10 +1970,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "wDbpyo2rmPkrfivyfAAIL",
@@ -1878,6 +1982,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1898,10 +2006,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -1914,6 +2018,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -1934,16 +2042,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 150,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryHumanSkills",
-            "name": "Course Category: Human skills",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
       "videoThumbnail": {
         "sys": {
           "id": "h630dh0MEgEzIi5bVSlPm",
@@ -1956,6 +2054,16 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Skills",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryHumanSkills",
+            "name": "Course Category: Human skills",
+            "__typename": "ContentfulTag"
+          }
+        ]
       }
     },
     {
@@ -1976,16 +2084,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 150,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryHumanSkills",
-            "name": "Course Category: Human skills",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
       "videoThumbnail": {
         "sys": {
           "id": "h630dh0MEgEzIi5bVSlPm",
@@ -1998,6 +2096,16 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Skills",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryHumanSkills",
+            "name": "Course Category: Human skills",
+            "__typename": "ContentfulTag"
+          }
+        ]
       }
     },
     {
@@ -2018,10 +2126,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -2034,6 +2138,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2054,10 +2162,6 @@
       "applicationDeadline": "30 Απριλίου",
       "startingCost": 100,
       "finalCost": 39,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -2070,6 +2174,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2090,10 +2198,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 150,
       "finalCost": 100,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -2106,6 +2210,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2126,10 +2234,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "5IFXcmhunVAO8nA7yl3pFR",
@@ -2142,6 +2246,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - AI",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2162,10 +2270,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "wDbpyo2rmPkrfivyfAAIL",
@@ -2178,6 +2282,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2198,10 +2306,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -2214,6 +2318,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2234,10 +2342,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "1cwBEn1CkNM8mMIk8sHa7P",
@@ -2250,6 +2354,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2270,10 +2378,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "41D5SCyq7M0SO5OF5F3YtF",
@@ -2286,6 +2390,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2306,10 +2414,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -2322,6 +2426,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2342,10 +2450,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "6tMzF4jfPWiFtVPONIbhth",
@@ -2358,6 +2462,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Digital Marketing",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2378,10 +2486,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "wDbpyo2rmPkrfivyfAAIL",
@@ -2394,6 +2498,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2414,10 +2522,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "4gpPqjLaYroCrdsfl11xvk",
@@ -2430,6 +2534,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Sports Analytics",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2450,10 +2558,6 @@
       "applicationDeadline": "Sold Out",
       "startingCost": 600,
       "finalCost": 550,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "7bFr4xybcq8JBksdpDPHv",
@@ -2466,6 +2570,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2486,10 +2594,6 @@
       "applicationDeadline": "17 Απριλίου",
       "startingCost": 100,
       "finalCost": 2,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "H3GomFAlX0hebF5e1KkPi",
@@ -2502,6 +2606,10 @@
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
         "description": null
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2522,10 +2630,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2538,6 +2642,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2558,10 +2666,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2574,6 +2678,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2594,10 +2702,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2610,6 +2714,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2630,10 +2738,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2646,6 +2750,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2666,10 +2774,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2682,6 +2786,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2702,10 +2810,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2718,6 +2822,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2738,10 +2846,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2754,6 +2858,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2774,10 +2882,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2790,6 +2894,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2810,10 +2918,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2826,6 +2930,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2846,10 +2954,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2862,6 +2966,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2882,10 +2990,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2898,6 +3002,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2918,10 +3026,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2934,6 +3038,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2954,10 +3062,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -2970,6 +3074,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -2990,10 +3098,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3006,6 +3110,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3026,10 +3134,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3042,6 +3146,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3062,10 +3170,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3078,6 +3182,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3098,10 +3206,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3114,6 +3218,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3134,10 +3242,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3150,6 +3254,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3170,10 +3278,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3186,6 +3290,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3206,10 +3314,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3222,6 +3326,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3242,10 +3350,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3258,6 +3362,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3278,10 +3386,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3294,6 +3398,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3314,10 +3422,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3330,6 +3434,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3350,10 +3458,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3366,6 +3470,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3386,10 +3494,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3402,6 +3506,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3422,10 +3530,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3438,6 +3542,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3458,10 +3566,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3474,6 +3578,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3494,10 +3602,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3510,6 +3614,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3530,10 +3638,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3546,6 +3650,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3566,10 +3674,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3582,6 +3686,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3602,10 +3710,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3618,6 +3722,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3638,10 +3746,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3654,6 +3758,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3674,10 +3782,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3690,6 +3794,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3710,10 +3818,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3726,6 +3830,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3746,10 +3854,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3762,6 +3866,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3782,10 +3890,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3798,6 +3902,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3818,10 +3926,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3834,6 +3938,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3854,10 +3962,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3870,6 +3974,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3890,10 +3998,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3906,6 +4010,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3926,10 +4034,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3942,6 +4046,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3962,10 +4070,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -3978,6 +4082,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -3998,10 +4106,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4014,6 +4118,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4034,10 +4142,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4050,6 +4154,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4070,10 +4178,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4086,6 +4190,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4106,10 +4214,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4122,6 +4226,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4142,10 +4250,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4158,6 +4262,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4178,10 +4286,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4194,6 +4298,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4214,10 +4322,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4230,6 +4334,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4250,10 +4358,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4266,6 +4370,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4286,10 +4394,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4302,6 +4406,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4322,10 +4430,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4338,6 +4442,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4358,10 +4466,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4374,6 +4478,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4394,10 +4502,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4410,6 +4514,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4430,10 +4538,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4446,6 +4550,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4466,10 +4574,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4482,6 +4586,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4502,10 +4610,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4518,6 +4622,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4538,10 +4646,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4554,6 +4658,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4574,10 +4682,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4590,6 +4694,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4610,10 +4718,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4626,6 +4730,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4646,10 +4754,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4662,6 +4766,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4682,10 +4790,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4698,6 +4802,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4718,10 +4826,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4734,6 +4838,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4754,10 +4862,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4770,6 +4874,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4790,10 +4898,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4806,6 +4910,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4826,10 +4934,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4842,6 +4946,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4862,10 +4970,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4878,6 +4982,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4898,10 +5006,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4914,6 +5018,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4934,10 +5042,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4950,6 +5054,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -4970,10 +5078,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -4986,6 +5090,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5006,10 +5114,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5022,6 +5126,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5042,10 +5150,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5058,6 +5162,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5078,10 +5186,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5094,6 +5198,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5114,10 +5222,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5130,6 +5234,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5150,10 +5258,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5166,6 +5270,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5186,10 +5294,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5202,6 +5306,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5222,10 +5330,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5238,6 +5342,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5258,10 +5366,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5274,6 +5378,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5294,10 +5402,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5310,6 +5414,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {
@@ -5330,10 +5438,6 @@
       "applicationDeadline": "18 Ιανουαρίου",
       "startingCost": 20,
       "finalCost": 10,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
       "videoThumbnail": {
         "sys": {
           "id": "43YxwFV6jYCXrT62hGISbt",
@@ -5346,6 +5450,10 @@
         "contentType": "image/png",
         "title": "Pig",
         "description": ""
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       }
     },
     {

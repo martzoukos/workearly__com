@@ -1,7 +1,312 @@
 {
-  "__timestamp": 1745635354164,
-  "total": 578,
+  "__timestamp": 1745989931280,
+  "total": 593,
   "items": [
+    {
+      "sys": {
+        "id": "58y84IxmdrOFrGrznqduj6",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Πώς μπορώ να γράψω ένα email",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Θα μάθετε τη σωστή δομή ενός email (θέμα, προσφώνηση, κυρίως σώμα, κλείσιμο), πώς να προσαρμόζετε το ύφος ανάλογα με το κοινό, και ποια είναι τα απαραίτητα στοιχεία που δεν πρέπει να λείπουν από ένα ολοκληρωμένο μήνυμα.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η δυνατότητα να γράφετε καθαρά, δομημένα και με σαφήνεια σας επιτρέπει να αποφεύγετε παρεξηγήσεις, να διαχειρίζεστε τον χρόνο των παραληπτών σας με σεβασμό και να επιτυγχάνετε τους επικοινωνιακούς σας στόχους με μεγαλύτερη επιτυχία.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "IEDBNvdKrG63q26ucs8mo",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Κανόνες Ορθής Σύνταξης Email",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Θα εξοικειωθείτε με τους βασικούς κανόνες επαγγελματικής επικοινωνίας μέσω email, θα κατανοήσετε τις διαφορές μεταξύ επίσημου και ανεπίσημου ύφους και θα μάθετε πώς να αποφεύγετε τα συνηθισμένα λάθη που υποβαθμίζουν την αξιοπιστία ενός email.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η σωστή σύνταξη email είναι απαραίτητη για να μεταφέρετε τα μηνύματά σας με σαφήνεια, επαγγελματισμό και αποτελεσματικότητα. Ειδικά σε επαγγελματικά περιβάλλοντα, ένα καλογραμμένο email μπορεί να ενισχύσει την εικόνα σας, να διευκολύνει την επικοινωνία και να οδηγήσει σε καλύτερη συνεργασία και λήψη αποφάσεων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "45g2yUazOlYX84cSRpRJ5T",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Final Project: Από τη Θεωρία στην Πράξη",
+      "column1Title": "Τι θα κάνεις:",
+      "column1Text": "Θα αναλάβεις ένα πλήρες επιχειρηματικό project, στο οποίο θα εφαρμόσεις όλα τα εργαλεία και τις τεχνικές που διδάχθηκες, από Business Analytics και KPI analysis μέχρι AI εφαρμογές και Power BI visualizations.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Το Final Project θα αποτελέσει ένα ισχυρό δείγμα δουλειάς (portfolio project), έτοιμο να παρουσιαστεί σε recruiters και εταιρείες.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "32OfvADKP0RdnCrWJNtvPq",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI for Business Analysts",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Εισαγωγή στις βασικές αρχές της Τεχνητής Νοημοσύνης (AI) και πώς μπορεί να αξιοποιηθεί στην ανάλυση επιχειρησιακών δεδομένων, στο automation reporting και στην υποστήριξη στρατηγικών αποφάσεων.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η κατανόηση του AI και των εφαρμογών του θα σε καταστήσει ανταγωνιστικό σε σύγχρονες data-driven επιχειρήσεις.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5AEHoU9dvDppnA3s4lJyYG",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Microsoft Power BI",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να χρησιμοποιείς το Microsoft Power BI για να δημιουργείς δυναμικές visualizations, διαδραστικά dashboards και στρατηγικές αναφορές βασισμένες σε δεδομένα.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η οπτικοποίηση δεδομένων και η σωστή αφήγηση (data storytelling) είναι κρίσιμες για την υποστήριξη διοικητικών αποφάσεων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "BStnj2S3Rb7iECBioqD4i",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Project Management",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Τεχνικές Project Management και βασικές δεξιότητες οργάνωσης, εκτέλεσης και παρακολούθησης επιχειρηματικών έργων.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η σωστή διαχείριση έργων είναι κρίσιμη σε κάθε επιχειρησιακό περιβάλλον και απαραίτητη για να μπορείς να ηγείσαι ή να συμμετέχεις σε επιτυχημένα έργα.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "OYm9mIgbabuL8IHS0aULS",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "KPIs & Reporting Using Advanced Excel",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να διαχειρίζεσαι και να αναλύεις KPIs, να δημιουργείς advanced dashboards και να παράγεις business reports με προχωρημένες τεχνικές Excel.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η αποδοτική διαχείριση δεικτών απόδοσης και reporting είναι απαραίτητη για κάθε ρόλο σε Data Analytics και Business Strategy.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7wyusLbkm5zc3DvSnAbnIY",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Business Analytics & Business Intelligence",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να αναλύεις και να ερμηνεύεις επιχειρηματικά δεδομένα, χρησιμοποιώντας εργαλεία Business Intelligence για τη στρατηγική λήψη αποφάσεων.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Θα μπορείς να μετατρέπεις δεδομένα σε ουσιαστικές επιχειρηματικές πληροφορίες, ενισχύοντας την ανάπτυξη και την αποδοτικότητα κάθε οργανισμού.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2H30oMeTMDdxCgKokUMkeZ",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Ανεξάρτητα από το background τους, όσοι επιθυμούν να εισέλθουν σε ΙT/ Programming , Data Science ή data-driven θέσεις εργασίας και να κτίσουν ισχυρό portfolio.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Άτομα που επιθυμούν καριέρα στα Data, IT ή Business Analytics",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5MnrN8DxCIQRp9aAPbDdRV",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Final Project: Από τη Θεωρία στην Πράξη",
+      "column1Title": "Τι θα κάνεις:",
+      "column1Text": "Θα υλοποιήσεις ένα πλήρες project ανάλυσης δεδομένων, χρησιμοποιώντας δεδομένα ποδοσφαίρου. Θα εφαρμόσεις Python, Power BI, και AI τεχνικές, παρουσιάζοντας το έργο σου σε επαγγελματίες του χώρου.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να έχεις ένα ισχυρό, χειροπιαστό project στο portfolio σου για αιτήσεις σε data-driven θέσεις εργασίας.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4hfaFXl3M5UhQs7nDyZL6O",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Soft Skills for Developers & Data Analysts",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα καλλιεργήσεις επικοινωνιακές και επαγγελματικές δεξιότητες: παρουσίαση projects, συνεργασία σε ομάδες, pitching δεδομένων σε μη τεχνικούς.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Γιατί τα soft skills κάνουν τη διαφορά σε θέσεις εργασίας σε Data & IT ρόλους.\n",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3waGREFnLepthTxV6p4jiO",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Εφαρμογή Football Data (για Skills Ανάλυσης)",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα δουλέψεις σε προβλήματα δεδομένων που σχετίζονται με το ποδόσφαιρο, όπως expected goals (xG), player performance και event data, για να εξασκήσεις αναλυτική σκέψη.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να μπορείς να εφαρμόζεις τεχνικές ανάλυσης σε οποιοδήποτε dataset – το ποδόσφαιρο είναι απλά το παράδειγμα.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5Z602OTBJPcjOC5b8ndf6q",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Programming (Python)",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα μάθεις προγραμματισμό με  Python, με projects που χρησιμοποιούν δεδομένα από ποδοσφαιρικούς αγώνες για να γίνει η εκμάθηση πιο ενδιαφέρουσα και διαδραστική.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η Python είναι το must-have εργαλείο για οποιονδήποτε θέλει να ακολουθήσει καριέρα στα δεδομένα ή την τεχνολογία.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1a3EGAO9QrJHVH2f7JjmVq",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Data Analytics με Excel & Power BI (μέσα από ποδοσφαιρικά δεδομένα)",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα εξοικειωθείς με Excel και Power BI, δημιουργώντας dashboards και αναφορές, δουλεύοντας σε datasets με στατιστικά αγώνων και παικτών. Το ποδόσφαιρο χρησιμοποιείται ως πρακτικό παράδειγμα.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να αναπτύξεις δεξιότητες data visualization και business analytics, σε κάθε κλάδο που χρησιμοποιεί δεδομένα.\n",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6Ap4Kd7w5CWjvO55gF2Yn7",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI for Data & Programming",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Θα κατανοήσεις βασικές έννοιες της Τεχνητής Νοημοσύνης και τη χρήση της στον προγραμματισμό και την ανάλυση δεδομένων. Εισαγωγή σε Machine Learning, Deep Learning, Generative AI, ethical AI & bias.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Για να μπορείς να αξιοποιείς AI τεχνολογίες σε projects ανάλυσης δεδομένων, σε οποιονδήποτε κλάδο.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "6PKnskfkzfxIAL3LfZSU8w",

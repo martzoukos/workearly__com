@@ -1,7 +1,444 @@
 {
-  "__timestamp": 1745635360202,
-  "total": 258,
+  "__timestamp": 1745989937381,
+  "total": 260,
   "items": [
+    {
+      "sys": {
+        "id": "1Gs2UWd8vqiXAiYQHw9XOA",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "AI Business Summer School by SHRM",
+      "features": ["No Index"],
+      "slug": "courses/ai-business-summer-school-by-shrm",
+      "seoTitle": "Workearly - AI Business Summer School by SHRM",
+      "seoDescription": "Το AI & Business Analytics Summer School, εγκεκριμένο από τον SHRM (Society for Human Resource Management) και συνοδευόμενο από επίσημη πιστοποίηση με SHRM Professional Development Credits (PDCs)",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryAi",
+            "name": "Course Category: AI",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategoryBusinessAnalytics",
+            "name": "Course Category: Business",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategorySummerSchools",
+            "name": "Course Category: Summer Schools",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1tYTSFsHKAe8Qgd9UZCNCv",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3i2VOJ75Pe2ZKrcFOB78cb",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2TOGk5tCwoukVw6kzm41Qe",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3rBm7k10HQti5RcC7lMf6B",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6MLrNFZ9dN3fMIXXe1FrkI",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "18Ao5CWEf6etUkHWqRX3El",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [
+            {
+              "__typename": "Action"
+            }
+          ],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5vzH1cABhDiKh80s3HyhGh",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "Hack the Football Data & Programming Summer School",
+      "features": ["No Index"],
+      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+      "seoTitle": "Workearly - Hack the Football Data & Programming Summer School",
+      "seoDescription": "Από τα data του γηπέδου... στα data της καριέρας σου! Φέτος το καλοκαίρι, γράψε τον δικό σου κώδικα επιτυχίας: Μάθε Python, Data Analytics και AI δουλεύοντας με δεδομένα ποδοσφαίρου",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryDataScience",
+            "name": "Course Category: Data Science",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategoryIt",
+            "name": "Course Category: IT",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategorySports",
+            "name": "Course Category: Sports",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategorySummerSchools",
+            "name": "Course Category: Summer Schools",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7wD6RzLaMNBddxXDzSDJKc",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3wbxMAUaCqIBqhC0qu6uOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "46mYXSpntvpY0GAZMFUTPk",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5nayxFbUOCv9ZOvdl4bBkJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4ykWBqeqGMzhtM6F2rkW6H",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7lIwpLxW9iaCqOdXMiTlVj",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2nGOCMNicNrYvwM1hl4Ny0",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [
+            {
+              "__typename": "Action"
+            }
+          ],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
     {
       "sys": {
         "id": "4Oe5xffouyKM2ezG03ASqh",
@@ -308,8 +745,29 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "3i2VOJ75Pe2ZKrcFOB78cb",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-business-summer-school-by-shrm",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -16066,6 +16524,11 @@
                     {
                       "__typename": "Page",
                       "slug": "courses/ai-data-science-summer-school",
+                      "variant": "Course | Summer"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
