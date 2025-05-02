@@ -34,7 +34,12 @@ export default function StickyPurchase() {
           </div>
         )}
         <div className={styles.content}>
-          <CoursePrices courseDetails={courseDetails} orientation="vertical" />
+          {groupNumber !== 4 && (
+            <CoursePrices
+              courseDetails={courseDetails}
+              orientation="vertical"
+            />
+          )}
           {courseDetails.applicationFormUrl ? (
             <Button asChild isFullWidth size="large">
               <Link href={courseDetails.applicationFormUrl}>
