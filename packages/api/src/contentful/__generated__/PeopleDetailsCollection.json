@@ -1,7 +1,229 @@
 {
-  "__timestamp": 1745989938891,
-  "total": 114,
+  "__timestamp": 1746534951205,
+  "total": 117,
   "items": [
+    {
+      "sys": {
+        "id": "5ZqH5RAe3zE1HnwIzR6mYe",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Ο",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "ι κάτοχοι αυτής της πιστοποίησης έχουν εκπαιδευτεί πρακτικά σε Python, Data Analytics, AI και Business Intelligence εργαλεία όπως το Power BI και το Excel, εφαρμόζοντας τις γνώσεις τους σε πραγματικά projects με δεδομένα ποδοσφαίρου ως εκπαιδευτικό case study.\nΈχουν ολοκληρώσει ένα τελικό project ανάλυσης δεδομένων, αποκτώντας δεξιότητες στην επεξεργασία, οπτικοποίηση και παρουσίαση δεδομένων, καθώς και σε τεχνικές επικοινωνίας και συνεργασίας σε ομάδες.\nΗ πιστοποίηση αποδεικνύει την ικανότητά τους να υποστηρίζουν data-driven αποφάσεις και να ανταποκρίνονται σε απαιτήσεις ρόλων Data Analyst, BI Analyst, Football Data Analyst ή Software Developer σε κάθε industry.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "Hack the Football Data & Programming Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης έχουν εκπαιδευτεί πρακτικά σε Python, Data Analytics, AI και Business Intelligence εργαλεία όπως το Power BI και το Excel.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "4oxPIeDKuCGl1feZx4PYeh",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4oxPIeDKuCGl1feZx4PYeh/3518588de733f7fbb1099a560fe7de63/Badge_-_3_Stars_-_Data___Programming__Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Data & Programming Summer School",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4H0h4v7gBKDf8voiU7DMbN",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "By the end of this course, participants will be able to: (i) Understand the fundamentals of Business Analytics and how they support data-driven business decision-making, (ii) Apply Business Intelligence techniques to monitor performance and uncover insights, (iii) Develop and present KPI reports using Advanced Excel tools and formulas, (iv) Manage projects effectively by applying Project Management principles to real business contexts, (v) Create interactive dashboards and visual reports using Microsoft Power BI, (vi) Leverage Artificial Intelligence tools and techniques relevant to business analysis, and (vii) Integrate data analysis, project coordination, and AI capabilities to support strategic business goals. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "This program is valid for 6 PDCs for SHRM-CP or SHRM-SCP recertification. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI & Business Analytics Certification by SHRM",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "This program is valid for 6 PDCs for SHRM-CP or SHRM-SCP recertification. ",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1pCJYUUiVTyeVAHp2KbF2M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1pCJYUUiVTyeVAHp2KbF2M/fdc777149f9e170dc7459dde4ec3f8c5/shrm-recertification-provider__1_.png",
+        "width": 1002,
+        "height": 1002,
+        "contentType": "image/png",
+        "title": "SHRM Badge",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "7GBqWVPkCixPHS7RHkGohl",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Οι κάτοχοι της πιστοποίησης του AI & Business Analytics Summer School διαθέτουν ολοκληρωμένες δεξιότητες στην ανάλυση επιχειρηματικών δεδομένων, τη χρήση εργαλείων BI, και την εφαρμογή Τεχνητής Νοημοσύνης για στρατηγική υποστήριξη αποφάσεων.\nΈχουν εξασκηθεί σε Project Management, προχωρημένο Excel, Power BI dashboards, AI-driven analytics, και data storytelling, μέσα από case studies με πραγματικά επιχειρησιακά σενάρια.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI & Business Analytics Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Οι κάτοχοι της πιστοποίησης του AI & Business Analytics Summer School διαθέτουν ολοκληρωμένες δεξιότητες στην ανάλυση επιχειρηματικών δεδομένων",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dkaCmHJmceSTZWYyS8I6J",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dkaCmHJmceSTZWYyS8I6J/643fede3f51cc33de15f523e92ecc831/Badge_-_3_Stars_-_AI___Business_Analytics_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - AI & Business Analytics Summer School",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "4hZ7rJFKSkUOlgYZ3qhT0U",

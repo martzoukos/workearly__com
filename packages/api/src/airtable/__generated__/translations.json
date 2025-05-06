@@ -1,178 +1,13 @@
 [
   {
-    "code": "group4_label1",
-    "el": "LANGUAGE",
-    "en": "Language"
-  },
-  {
-    "code": "group4_label2",
-    "el": "HIRING NETWORK",
-    "en": "Hiring Network"
-  },
-  {
-    "code": "endingAfter",
-    "el": "ημέρες απέμειναν",
-    "en": "dates left for this offer"
-  },
-  {
-    "code": "Apply",
-    "el": "Αίτηση Συμμετοχής",
-    "en": "Apply"
-  },
-  {
-    "code": "group4_value3",
-    "el": "25.000+ Alumni",
-    "en": "25.000+ Alumni"
-  },
-  {
-    "code": "priceRange1",
-    "el": "έως €50",
-    "en": "Up to €50"
-  },
-  {
-    "code": "Greek",
-    "el": "Ελληνικά 🇬🇷",
-    "en": "Greek 🇬🇷"
-  },
-  {
-    "code": "priceRange2",
-    "el": "From €51 to €100",
-    "en": "From €51 to €100"
-  },
-  {
-    "code": "Level",
-    "el": "Level",
-    "en": "Level"
-  },
-  {
-    "code": "Purchase",
-    "el": "Αγορά",
-    "en": "Purchase"
-  },
-  {
-    "code": "Personal",
-    "el": "Προσωπικό",
-    "en": "Personal"
-  },
-  {
-    "code": "mentorship2",
-    "el": "Dedicated Top Mentor",
-    "en": "Dedicated Top Mentor"
-  },
-  {
-    "code": "3Times",
-    "el": "x 3 δόσεις",
-    "en": "x 3 instalments"
-  },
-  {
-    "code": "group1_gift",
-    "el": "Sold out",
-    "en": "1 + 1 Gift"
-  },
-  {
-    "code": "Application Deadline",
-    "el": "Application Deadline",
-    "en": "Application Deadline"
-  },
-  {
-    "code": "group2_gift",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
-  },
-  {
-    "code": "group4_label4",
-    "el": "CAREER SUPPORT",
-    "en": "Career Support"
-  },
-  {
-    "code": "group4_purchase_cta",
-    "el": "Αγορά",
-    "en": "Purchase"
-  },
-  {
-    "code": "1plus1",
-    "el": "Sold out",
-    "en": "1 + 1 Gift"
-  },
-  {
-    "code": "Category",
-    "el": "Category",
-    "en": "Category"
-  },
-  {
-    "code": "group4_value4",
-    "el": "Καθοδήγηση από mentors",
-    "en": "Καθοδήγηση από mentors"
-  },
-  {
-    "code": "group4_value2",
-    "el": "6.000+ Εταιρείες",
-    "en": "6.000+ Εταιρείες"
-  },
-  {
-    "code": "group1_purchase_cta",
-    "el": "Αγορά",
-    "en": "Purchase"
-  },
-  {
-    "code": "duration4",
-    "el": "6-8 εβδομάδες",
-    "en": "6-8 weeks"
-  },
-  {
-    "code": "Filters",
-    "el": "Filters",
-    "en": "Filters"
-  },
-  {
-    "code": "group3_purchase_cta",
-    "el": "Αγορά",
-    "en": "Purchase"
-  },
-  {
-    "code": "group4_gift",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
-  },
-  {
-    "code": "group2_purchase_cta",
-    "el": "Αγορά",
-    "en": "Purchase"
-  },
-  {
     "code": "endingBefore",
     "el": "Μόνο",
     "en": "Only"
   },
   {
-    "code": "group4_value5",
-    "el": "16 Ιουνίου",
-    "en": "16 Ιουνίου"
-  },
-  {
-    "code": "No",
-    "el": "No",
-    "en": "No"
-  },
-  {
-    "code": "afterContactDescription",
-    "el": "Λάβαμε το μήνυμά σας και σας ευχαριστούμε που ήρθατε σε επαφή μαζί μας. Η ομάδα μας θα εξετάσει το αίτημά σας και θα σας απαντήσει το συντομότερο δυνατό.",
-    "en": "We’ve received your message and appreciate you getting in touch with us. Our team will review your inquiry and respond as soon as possible."
-  },
-  {
-    "code": "group4_value5",
-    "el": "20+ ώρες Training & 1:1 coaching",
-    "en": "20+ ώρες Training & 1:1 coaching"
-  },
-  {
-    "code": "group1_form_cta",
-    "el": "Αίτηση Συμμετοχής",
-    "en": "Apply"
-  },
-  {
-    "code": "group4_label5",
-    "el": "ΕΝΑΡΞΗ",
-    "en": "ΕΝΑΡΞΗ"
+    "code": "Pace",
+    "el": "Pace",
+    "en": "Pace"
   },
   {
     "code": "CourseCardShare",
@@ -180,62 +15,102 @@
     "en": "Share"
   },
   {
-    "code": "Mentorship",
-    "el": "Mentorship",
-    "en": "Mentorship"
+    "code": "priceRange2",
+    "el": "From €51 to €100",
+    "en": "From €51 to €100"
   },
   {
-    "code": "group4_label6",
-    "el": "ΑΙΤΗΣΕΙΣ ΕΩΣ",
-    "en": "ΑΙΤΗΣΕΙΣ ΕΩΣ"
+    "code": "group4_value4",
+    "el": "Καθοδήγηση από mentors",
+    "en": "Καθοδήγηση από mentors"
   },
   {
-    "code": "Program Starts",
-    "el": "Program Starts",
-    "en": "Program Starts"
-  },
-  {
-    "code": "group4_form_cta",
-    "el": "Δωρεάν Ενημέρωση",
-    "en": "Apply"
+    "code": "Team",
+    "el": "Ομάδα",
+    "en": "Team"
   },
   {
     "code": "group4_label5",
-    "el": "TRAINING",
-    "en": "TRAINING"
+    "el": "ΕΝΑΡΞΗ",
+    "en": "ΕΝΑΡΞΗ"
   },
   {
-    "code": "Yes",
-    "el": "Yes",
-    "en": "Yes"
+    "code": "priceRange3",
+    "el": "€101 +",
+    "en": "€101 +"
   },
   {
-    "code": "group1_gift_infobox",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
+    "code": "English",
+    "el": "Αγγλικά 🇬🇧",
+    "en": "English 🇬🇧"
   },
   {
-    "code": "pace2",
-    "el": "Instructor Assisted",
-    "en": "Instructor Assisted"
+    "code": "duration3",
+    "el": "4-6 months",
+    "en": "4-6 months"
   },
   {
-    "code": "group3_gift",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
+    "code": "group4_value6",
+    "el": "9 Μαΐου",
+    "en": "9 Μαΐου"
+  },
+  {
+    "code": "group4_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
+    "code": "No",
+    "el": "No",
+    "en": "No"
+  },
+  {
+    "code": "afterContactTitle",
+    "el": "Ευχαριστούμε για την επικοινωνία!",
+    "en": "Thank You for Reaching Out!"
+  },
+  {
+    "code": "group1_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
+    "code": "duration2",
+    "el": "4-8 weeks",
+    "en": "4-8 weeks"
+  },
+  {
+    "code": "Language",
+    "el": "Language",
+    "en": "Language"
+  },
+  {
+    "code": "group3_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
+    "code": "group4_label2",
+    "el": "HIRING NETWORK",
+    "en": "Hiring Network"
+  },
+  {
+    "code": "group4_value5",
+    "el": "16 Ιουνίου",
+    "en": "16 Ιουνίου"
+  },
+  {
+    "code": "afterContactDescription",
+    "el": "Λάβαμε το μήνυμά σας και σας ευχαριστούμε που ήρθατε σε επαφή μαζί μας. Η ομάδα μας θα εξετάσει το αίτημά σας και θα σας απαντήσει το συντομότερο δυνατό.",
+    "en": "We’ve received your message and appreciate you getting in touch with us. Our team will review your inquiry and respond as soon as possible."
+  },
+  {
+    "code": "group4_value1",
+    "el": "Greek",
+    "en": "Greek"
   },
   {
     "code": "1plus1InfoBox",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
-  },
-  {
-    "code": "group3_gift_infobox",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
-  },
-  {
-    "code": "group4_gift_infobox",
     "el": "Sold out",
     "en": "We will contact you in order for you to select your gift"
   },
@@ -245,12 +120,227 @@
     "en": "Workearly provides customized training programs for companies looking to enhance their teams’ skills. The material is tailored to the needs and level of each team member, ensuring personalized development for all. With internationally recognized certifications and high-quality learning content, Workearly helps teams gain competitive advantages and perform at their best."
   },
   {
-    "code": "group4_value6",
-    "el": "30 Απριλίου",
-    "en": "30 Απριλίου"
+    "code": "group3_form_cta",
+    "el": "Αίτηση Συμμετοχής",
+    "en": "Apply"
   },
   {
-    "code": "group3_form_cta",
+    "code": "Level",
+    "el": "Level",
+    "en": "Level"
+  },
+  {
+    "code": "group4_gift_infobox",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "Filters",
+    "el": "Filters",
+    "en": "Filters"
+  },
+  {
+    "code": "Purchase",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
+    "code": "mentorship2",
+    "el": "Dedicated Top Mentor",
+    "en": "Dedicated Top Mentor"
+  },
+  {
+    "code": "CourseCardPersonal",
+    "el": "Προσαρμόζουμε τη μάθηση στο επίπεδό σου, προσφέροντας αναγνωρισμένες πιστοποιήσεις σε συνεργασία με κορυφαίους εκπαιδευτικούς φορείς και πανεπιστήμια.",
+    "en": "Workearly is the leading educational platform that tailors learning materials to the level of each trainee, offering a personalized learning experience. With over 1,000 reviews and the highest rating in Greece, it ensures trust and quality. The programs are accompanied by internationally recognized certifications, enhancing your professional profile."
+  },
+  {
+    "code": "group2_purchase_cta",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
+    "code": "CourseCardCTA",
+    "el": "Αγορά",
+    "en": "Purchase"
+  },
+  {
+    "code": "group4_label6",
+    "el": "Τελική ημερομηνία αιτήσεων:",
+    "en": "Τελική ημερομηνία αιτήσεων:"
+  },
+  {
+    "code": "group2_gift",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "group1_gift_infobox",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "group1_form_cta",
+    "el": "Αίτηση Συμμετοχής",
+    "en": "Apply"
+  },
+  {
+    "code": "group3_gift_infobox",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "group4_value2",
+    "el": "6.000+ Εταιρείες",
+    "en": "6.000+ Εταιρείες"
+  },
+  {
+    "code": "group2_gift_infobox",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "Category",
+    "el": "Category",
+    "en": "Category"
+  },
+  {
+    "code": "duration4",
+    "el": "6-8 εβδομάδες",
+    "en": "6-8 weeks"
+  },
+  {
+    "code": "Program Starts",
+    "el": "Program Starts",
+    "en": "Program Starts"
+  },
+  {
+    "code": "duration1",
+    "el": "1 Week or Less",
+    "en": "1 week or Less"
+  },
+  {
+    "code": "Mentorship",
+    "el": "Mentorship",
+    "en": "Mentorship"
+  },
+  {
+    "code": "pace2",
+    "el": "Instructor Assisted",
+    "en": "Instructor Assisted"
+  },
+  {
+    "code": "group4_label5",
+    "el": "TRAINING",
+    "en": "TRAINING"
+  },
+  {
+    "code": "Greek",
+    "el": "Ελληνικά 🇬🇷",
+    "en": "Greek 🇬🇷"
+  },
+  {
+    "code": "group4_label1",
+    "el": "LANGUAGE",
+    "en": "Language"
+  },
+  {
+    "code": "Personal",
+    "el": "Προσωπικό",
+    "en": "Personal"
+  },
+  {
+    "code": "Duration",
+    "el": "Διάρκεια",
+    "en": "Duration"
+  },
+  {
+    "code": "group1_gift",
+    "el": "Sold out",
+    "en": "1 + 1 Gift"
+  },
+  {
+    "code": "group4_gift",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "Yes",
+    "el": "Yes",
+    "en": "Yes"
+  },
+  {
+    "code": "group4_label4",
+    "el": "CAREER SUPPORT",
+    "en": "Career Support"
+  },
+  {
+    "code": "CourseAverageRating",
+    "el": "4,97 Average Rating",
+    "en": "4,97 Average Rating"
+  },
+  {
+    "code": "group4_value5",
+    "el": "20+ ώρες Training & 1:1 coaching",
+    "en": "20+ ώρες Training & 1:1 coaching"
+  },
+  {
+    "code": "priceRange1",
+    "el": "έως €50",
+    "en": "Up to €50"
+  },
+  {
+    "code": "pace1",
+    "el": "Self-Paced",
+    "en": "Self-Paced"
+  },
+  {
+    "code": "mentorship1",
+    "el": "Self Served with Resources",
+    "en": "Self Served with Resources"
+  },
+  {
+    "code": "endingToday",
+    "el": "Η προσφορά ισχύει έως σήμερα",
+    "en": "Today is the last day for this offer"
+  },
+  {
+    "code": "group4_form_cta",
+    "el": "Δωρεάν Ενημέρωση",
+    "en": "Apply"
+  },
+  {
+    "code": "group4_value3",
+    "el": "25.000+ Alumni",
+    "en": "25.000+ Alumni"
+  },
+  {
+    "code": "group4_label3",
+    "el": "COMMUNITY",
+    "en": "Community"
+  },
+  {
+    "code": "1plus1",
+    "el": "Sold out",
+    "en": "1 + 1 Gift"
+  },
+  {
+    "code": "endingAfter",
+    "el": "ημέρες απέμειναν",
+    "en": "dates left for this offer"
+  },
+  {
+    "code": "3Times",
+    "el": "x 3 δόσεις",
+    "en": "x 3 instalments"
+  },
+  {
+    "code": "Application Deadline",
+    "el": "Application Deadline",
+    "en": "Application Deadline"
+  },
+  {
+    "code": "Apply",
     "el": "Αίτηση Συμμετοχής",
     "en": "Apply"
   },
@@ -260,89 +350,9 @@
     "en": "Apply"
   },
   {
-    "code": "Language",
-    "el": "Language",
-    "en": "Language"
-  },
-  {
     "code": "PriceRange",
     "el": "Τιμή",
     "en": "Price Range"
-  },
-  {
-    "code": "endingToday",
-    "el": "Η προσφορά ισχύει έως σήμερα",
-    "en": "Today is the last day for this offer"
-  },
-  {
-    "code": "Duration",
-    "el": "Διάρκεια",
-    "en": "Duration"
-  },
-  {
-    "code": "group2_gift_infobox",
-    "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
-  },
-  {
-    "code": "group4_label3",
-    "el": "COMMUNITY",
-    "en": "Community"
-  },
-  {
-    "code": "afterContactTitle",
-    "el": "Ευχαριστούμε για την επικοινωνία!",
-    "en": "Thank You for Reaching Out!"
-  },
-  {
-    "code": "Team",
-    "el": "Ομάδα",
-    "en": "Team"
-  },
-  {
-    "code": "afterContactText",
-    "el": "Μέχρι τότε, ρίξτε μια ματιά στα νέα μας [προγράμματα εκπαίδευσης](https://www.workearly.gr/courses).",
-    "en": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses)."
-  },
-  {
-    "code": "CourseCardCTA",
-    "el": "Αγορά",
-    "en": "Purchase"
-  },
-  {
-    "code": "group4_value1",
-    "el": "Greek",
-    "en": "Greek"
-  },
-  {
-    "code": "CourseAverageRating",
-    "el": "4,97 Average Rating",
-    "en": "4,97 Average Rating"
-  },
-  {
-    "code": "duration2",
-    "el": "4-8 weeks",
-    "en": "4-8 weeks"
-  },
-  {
-    "code": "duration1",
-    "el": "1 Week or Less",
-    "en": "1 week or Less"
-  },
-  {
-    "code": "pace1",
-    "el": "Self-Paced",
-    "en": "Self-Paced"
-  },
-  {
-    "code": "priceRange3",
-    "el": "€101 +",
-    "en": "€101 +"
-  },
-  {
-    "code": "Pace",
-    "el": "Pace",
-    "en": "Pace"
   },
   {
     "code": "CourseLearners",
@@ -350,23 +360,13 @@
     "en": "25.000+ Learners"
   },
   {
-    "code": "mentorship1",
-    "el": "Self Served with Resources",
-    "en": "Self Served with Resources"
+    "code": "group3_gift",
+    "el": "Sold out",
+    "en": "We will contact you in order for you to select your gift"
   },
   {
-    "code": "CourseCardPersonal",
-    "el": "Προσαρμόζουμε τη μάθηση στο επίπεδό σου, προσφέροντας αναγνωρισμένες πιστοποιήσεις σε συνεργασία με κορυφαίους εκπαιδευτικούς φορείς και πανεπιστήμια.",
-    "en": "Workearly is the leading educational platform that tailors learning materials to the level of each trainee, offering a personalized learning experience. With over 1,000 reviews and the highest rating in Greece, it ensures trust and quality. The programs are accompanied by internationally recognized certifications, enhancing your professional profile."
-  },
-  {
-    "code": "duration3",
-    "el": "4-6 months",
-    "en": "4-6 months"
-  },
-  {
-    "code": "English",
-    "el": "Αγγλικά 🇬🇧",
-    "en": "English 🇬🇧"
+    "code": "afterContactText",
+    "el": "Μέχρι τότε, ρίξτε μια ματιά στα νέα μας [προγράμματα εκπαίδευσης](https://www.workearly.gr/courses).",
+    "en": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses)."
   }
 ]

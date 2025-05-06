@@ -1,7 +1,7 @@
 import airtable from "airtable";
 
 export default async function fetchEndDates() {
-  const base = airtable.base("app69jRES4jLiQ3WO");
+  const base = airtable.base("appyKZe9JgVB0T3s4");
 
   const records = await base
     .table("End Dates")

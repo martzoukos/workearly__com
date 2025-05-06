@@ -2,7 +2,7 @@ import airtable from "airtable";
 import { mapToTranslationItem } from "./mappers";
 
 export default async function fetchTranslations() {
-  const base = airtable.base("app69jRES4jLiQ3WO");
+  const base = airtable.base("appyKZe9JgVB0T3s4");
 
   const records = await base
     .table("Translations")

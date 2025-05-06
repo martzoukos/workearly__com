@@ -1,7 +1,453 @@
 {
-  "__timestamp": 1745989937381,
-  "total": 260,
+  "__timestamp": 1746534949927,
+  "total": 264,
   "items": [
+    {
+      "sys": {
+        "id": "4yVPu8qIronCjWwUBB9aCw",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course",
+      "name": "Δωρεάν Αξιολόγηση Δεξιοτήτων & Εκπαιδευτικό Demo",
+      "features": null,
+      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+      "seoTitle": "Αξιολόγηση Προφίλ",
+      "seoDescription": "Μέσα από αυτό το σύντομο demo course θα δοκιμάσεις ενότητες από δημοφιλή courses όπως Excel, Human Resources, Data Analytics, Public Speaking και Negotiation, Python ενώ θα μάθεις και πώς να φτιάχνεις ένα σωστό βιογραφικό.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryFree",
+            "name": "Course Category: Free",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5wtlCwUhjiVgCTQDy2t6OH",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3VKUYXBqNSe32Ma1eINRFR",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1FxAGERaPIKPEb1S0ygZRb",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3v7Q94cuPM05B0hBf0DzId",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2GrWnkwQEohE2quOPFrCQX",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6BrNRKWRMu7CgQ65bGaI7T",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7CFN9tfUOsbJAu9gDRITyk",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1eCPcN5TBMWlaVRSgqvjhR",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7hz3m9fcmiF4L4uL48wwVa",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Ygt2jeFevZYcS1Wq59unx",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "lsnFWEAV9ghYTTFgCOVlb",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "26DwWJiFr88OdpPJHyjxX6",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4X92qYWaL5SeWiDCjVLJDu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "35PXS2BxwDnvlHiFHF9ryF",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course | Summer",
+      "name": "Startup Summer School 2025",
+      "features": ["No Index"],
+      "slug": "courses/startup-summer-school",
+      "seoTitle": "Workearly - Startup Summer School",
+      "seoDescription": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryEntrepreneurship",
+            "name": "Course Category: Entrepreneurship",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "courseCategorySummerSchools",
+            "name": "Course Category: Summer Schools",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4oLP1CANy9BEl7r9sVMocS",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JBVL0px1TManXwQaYbTmA",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6rxuSYonSwy7vD66gsDVLx",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2OhTAJ6vkVw1l2GqtqYwph",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4rRkTeuBUrCAL1id7CCpgg",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5iFf1HIDakBj0SARSBBTwQ",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1MTXfOWFyP68oefPzPMsVl",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1DSO3kMmaSMtutY1SgTIg1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6VGdpucvXdkxDo3IIMd20E",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3Rn50Blc3Tf9QyROomubTw",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2rQOYoky5c3Q5F6uePEeAm",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4mEd3vakSrGhFW5Ys2dkKo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5YSClMAnTXtow3zVVytQYE",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4VrG2VGX7GsuXYNetycmBo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [
+            {
+              "__typename": "Action"
+            }
+          ],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
     {
       "sys": {
         "id": "1Gs2UWd8vqiXAiYQHw9XOA",
@@ -56,6 +502,17 @@
               "__typename": "Sys"
             },
             "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zKtleaSX2JycH2xGAG2Xv",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -119,6 +576,17 @@
           {
             "sys": {
               "id": "2TOGk5tCwoukVw6kzm41Qe",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2xIvCCkhMRvoNInXCorlpu",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -350,6 +818,17 @@
           },
           {
             "sys": {
+              "id": "qLcH2iUYFxPLPiwbbOY5S",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
               "id": "4ykWBqeqGMzhtM6F2rkW6H",
               "__typename": "Sys"
             },
@@ -436,6 +915,243 @@
             }
           ],
           "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7yEFuFgTGvocav9zgsvHgh",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "Hack the Football Data & Programming Summer School Certification",
+      "features": null,
+      "slug": "certificates/hack-the-football-data-and-programming-summer-school-certification",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryDataScience",
+            "name": "Certificate Category: Data Science",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateCategoryIt",
+            "name": "Certificate Category: IT",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelMicroCredentials",
+            "name": "Certificate Level: Micro-credentials",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5ZqH5RAe3zE1HnwIzR6mYe",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "qLcH2iUYFxPLPiwbbOY5S",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1bJtYwIeU47abSptn3pTx4",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "AI & Business Analytics Certification by SHRM",
+      "features": null,
+      "slug": "certificates/ai-and-business-analytics-certification-by-shrm",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryAi",
+            "name": "Certificate Category: AI",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateCategoryBusiness",
+            "name": "Certificate Category: Business",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelMicroCredentials",
+            "name": "Certificate Level: Micro-credentials",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4H0h4v7gBKDf8voiU7DMbN",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2xIvCCkhMRvoNInXCorlpu",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-business-summer-school-by-shrm",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "32iOcxTqo7riaynjIDvPHX",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "AI & Business Analytics Summer School Certification",
+      "features": null,
+      "slug": "certificates/ai-and-business-analytics-summer-school-certification",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryAi",
+            "name": "Certificate Category: AI",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateCategoryBusiness",
+            "name": "Certificate Category: Business",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelMicroCredentials",
+            "name": "Certificate Level: Micro-credentials",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7GBqWVPkCixPHS7RHkGohl",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "2xIvCCkhMRvoNInXCorlpu",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-business-summer-school-by-shrm",
+                      "variant": "Course | Summer"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
         }
       }
     },
@@ -768,217 +1484,6 @@
               }
             }
           ]
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "35PXS2BxwDnvlHiFHF9ryF",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course | Summer",
-      "name": "Startup Summer School 2025",
-      "features": ["No Index"],
-      "slug": "courses/startup-summer-school",
-      "seoTitle": "Workearly - Startup Summer School",
-      "seoDescription": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryEntrepreneurship",
-            "name": "Course Category: Entrepreneurship",
-            "__typename": "ContentfulTag"
-          },
-          {
-            "id": "courseCategorySummerSchools",
-            "name": "Course Category: Summer Schools",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4oLP1CANy9BEl7r9sVMocS",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7JBVL0px1TManXwQaYbTmA",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4NGRcdxLIt7pQ5OoOqFUwf",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2OhTAJ6vkVw1l2GqtqYwph",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4rRkTeuBUrCAL1id7CCpgg",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5iFf1HIDakBj0SARSBBTwQ",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1MTXfOWFyP68oefPzPMsVl",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1DSO3kMmaSMtutY1SgTIg1",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6VGdpucvXdkxDo3IIMd20E",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3Rn50Blc3Tf9QyROomubTw",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2rQOYoky5c3Q5F6uePEeAm",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4mEd3vakSrGhFW5Ys2dkKo",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5YSClMAnTXtow3zVVytQYE",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4VrG2VGX7GsuXYNetycmBo",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [
-            {
-              "__typename": "Action"
-            }
-          ],
-          "__typename": "EntryCollection"
         }
       }
     },
@@ -2593,6 +3098,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -2724,6 +3234,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -3124,6 +3639,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -7604,6 +8124,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -13135,6 +13660,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -16736,6 +17266,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -16942,6 +17477,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -17442,6 +17982,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -18095,6 +18640,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -18201,6 +18751,11 @@
                       "__typename": "Page",
                       "slug": "about",
                       "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -33848,7 +34403,7 @@
           "items": [
             {
               "sys": {
-                "id": "1KQw7XlhB0bS0vV0MdWvi0",
+                "id": "26DwWJiFr88OdpPJHyjxX6",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -33859,27 +34414,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "course/business-career-coaching",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/planning-and-resource-management",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/project-management-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-business-school",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/leadership-and-management-school",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
                       "variant": "Course"
                     }
                   ]
@@ -34340,7 +34875,7 @@
           "items": [
             {
               "sys": {
-                "id": "1KQw7XlhB0bS0vV0MdWvi0",
+                "id": "26DwWJiFr88OdpPJHyjxX6",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -34351,27 +34886,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "course/business-career-coaching",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/planning-and-resource-management",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/project-management-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-business-school",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/leadership-and-management-school",
+                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
                       "variant": "Course"
                     }
                   ]
@@ -35406,6 +35921,11 @@
                   "__typename": "ContentfulTag"
                 },
                 {
+                  "id": "courseCategoryFree",
+                  "name": "Course Category: Free",
+                  "__typename": "ContentfulTag"
+                },
+                {
                   "id": "courseCategoryHr",
                   "name": "Course Category: HR",
                   "__typename": "ContentfulTag"
@@ -35930,6 +36450,11 @@
                 {
                   "id": "courseCategoryFinance",
                   "name": "Course Category: Finance",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryFree",
+                  "name": "Course Category: Free",
                   "__typename": "ContentfulTag"
                 },
                 {

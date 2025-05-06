@@ -1,7 +1,113 @@
 {
-  "__timestamp": 1745989941861,
+  "__timestamp": 1746534954655,
   "total": 3,
   "items": [
+    {
+      "sys": {
+        "id": "2mD5rZq6zbQUnPFp3g7Ucf",
+        "__typename": "Sys"
+      },
+      "__typename": "UniqueComponent",
+      "contentCollection": {
+        "items": [],
+        "__typename": "UniqueComponentContentCollection"
+      },
+      "variant": "Footer",
+      "json": {
+        "footer": [
+          {
+            "link": "/cookies",
+            "title": "Cookies"
+          },
+          {
+            "link": "/terms",
+            "title": "Όροι Χρήσης"
+          },
+          {
+            "link": "/data-policy",
+            "title": "Προσωπικά Δεδομένα"
+          }
+        ],
+        "columnOne": {
+          "button": {
+            "link": "https://g.co/kgs/scMBg4f",
+            "title": "Review us on Google"
+          },
+          "reviewNumber": "840+"
+        },
+        "columnTwo": {
+          "title": "COURSES",
+          "content": [
+            {
+              "link": "/category/business",
+              "title": "Business"
+            },
+            {
+              "link": "/category/ai",
+              "title": "AI"
+            },
+            {
+              "link": "/category/digital-marketing",
+              "title": "Digital Marketing"
+            },
+            {
+              "link": "/category/data-science",
+              "title": "Data Science"
+            },
+            {
+              "link": "/category/finance",
+              "title": "Finance"
+            },
+            {
+              "link": "/category/human-resources",
+              "title": "HR"
+            },
+            {
+              "link": "/category/it",
+              "title": "IT"
+            },
+            {
+              "link": "/category/human-skills",
+              "title": "Human Skills"
+            },
+            {
+              "link": "/category/sports-analytics",
+              "title": "Sports Analytics"
+            }
+          ]
+        },
+        "columnThree": {
+          "title": "PAGES",
+          "content": [
+            {
+              "link": "/about",
+              "title": "About Us"
+            },
+            {
+              "link": "/blog",
+              "title": "Resources"
+            },
+            {
+              "link": "/business",
+              "title": "For Businesses"
+            },
+            {
+              "link": "https://scholarships.workearly.gr/",
+              "title": "Scholarships"
+            }
+          ]
+        },
+        "socialMedia": {
+          "facebook": "https://www.facebook.com/workearlygr/",
+          "linkedin": "https://www.linkedin.com/company/workearlygr/?",
+          "instagram": "https://www.instagram.com/workearly.gr"
+        }
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "2OD3ypyGyQvtILUH2vsmob",
@@ -816,108 +922,6 @@
           "type": "menu"
         }
       ],
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2mD5rZq6zbQUnPFp3g7Ucf",
-        "__typename": "Sys"
-      },
-      "__typename": "UniqueComponent",
-      "contentCollection": {
-        "items": [],
-        "__typename": "UniqueComponentContentCollection"
-      },
-      "variant": "Footer",
-      "json": {
-        "footer": [
-          {
-            "link": "/cookies",
-            "title": "Cookies"
-          },
-          {
-            "link": "/terms",
-            "title": "Όροι Χρήσης"
-          },
-          {
-            "link": "/data-policy",
-            "title": "Προσωπικά Δεδομένα"
-          }
-        ],
-        "columnOne": {
-          "button": {
-            "link": "https://g.co/kgs/scMBg4f",
-            "title": "Review us on Google"
-          },
-          "reviewNumber": "840+"
-        },
-        "columnTwo": {
-          "title": "COURSES",
-          "content": [
-            {
-              "link": "/category/business",
-              "title": "Business"
-            },
-            {
-              "link": "/category/ai",
-              "title": "AI"
-            },
-            {
-              "link": "/category/digital-marketing",
-              "title": "Digital Marketing"
-            },
-            {
-              "link": "/category/data-science",
-              "title": "Data Science"
-            },
-            {
-              "link": "/category/finance",
-              "title": "Finance"
-            },
-            {
-              "link": "/category/human-resources",
-              "title": "HR"
-            },
-            {
-              "link": "/category/it",
-              "title": "IT"
-            },
-            {
-              "link": "/category/human-skills",
-              "title": "Human Skills"
-            },
-            {
-              "link": "/category/sports-analytics",
-              "title": "Sports Analytics"
-            }
-          ]
-        },
-        "columnThree": {
-          "title": "PAGES",
-          "content": [
-            {
-              "link": "/about",
-              "title": "About Us"
-            },
-            {
-              "link": "/blog",
-              "title": "Resources"
-            },
-            {
-              "link": "/business",
-              "title": "For Businesses"
-            }
-          ]
-        },
-        "socialMedia": {
-          "facebook": "https://www.facebook.com/workearlygr/",
-          "linkedin": "https://www.linkedin.com/company/workearlygr/?",
-          "instagram": "https://www.instagram.com/workearly.gr"
-        }
-      },
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
