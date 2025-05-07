@@ -1,7 +1,63 @@
 {
-  "__timestamp": 1746534951205,
-  "total": 117,
+  "__timestamp": 1746617351901,
+  "total": 118,
   "items": [
+    {
+      "sys": {
+        "id": "2HiYeYNH7em1Y5pD83zUwM",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Alex is an expert in people and culture! With her expertise in leadership development and executive coaching, she's a seasoned pro at creating thriving workplaces. Her international experience in the FMCG and Professional Services sectors has honed her skills as a Chief People Officer, working with diverse leaders and managing large teams.\n\nAlex is passionate about building strong teams, fostering positive company cultures, and understanding what makes people tick. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "actionsCollection": {
+        "items": [],
+        "__typename": "PeopleDetailsActionsCollection"
+      },
+      "name": "Alexandra Klimi",
+      "variant": "Mentor",
+      "role": "People & Culture, Leadership Development expert",
+      "company": "Brave Owl Managing Partner",
+      "shortDescription": null,
+      "expertise": null,
+      "linkedIn": "https://www.linkedin.com/in/alexandra-klimi-a563801/",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6ywrmpMdrHIHmNiiI1E1mJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6ywrmpMdrHIHmNiiI1E1mJ/b772d75b053ebf58b1496bfbe4cc4446/5D3_8491.JPG",
+        "width": 3840,
+        "height": 5760,
+        "contentType": "image/jpeg",
+        "title": "Alexandra Klimi",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "5ZqH5RAe3zE1HnwIzR6mYe",

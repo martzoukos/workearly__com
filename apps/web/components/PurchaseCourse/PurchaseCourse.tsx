@@ -138,6 +138,14 @@ export default function PurchaseCourse({
                       fallbackCode: "Apply",
                     }
                   )}
+                  {groupNumber === 4 && (
+                    <Image
+                      src="/icons/klarna-mini.svg"
+                      alt=""
+                      width={24}
+                      height={24}
+                    />
+                  )}
                 </Link>
               </Button>
             ) : (
@@ -154,6 +162,14 @@ export default function PurchaseCourse({
                   {
                     fallbackCode: "Purchase",
                   }
+                )}
+                {groupNumber === 4 && (
+                  <Image
+                    src="/icons/klarna-mini.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
                 )}
               </Button>
             )}

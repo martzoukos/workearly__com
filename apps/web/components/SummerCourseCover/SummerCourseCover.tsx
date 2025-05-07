@@ -148,6 +148,14 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
                     fallbackCode: "Apply",
                   }
                 )}
+                {groupNumber === 4 && (
+                  <Image
+                    src="/icons/klarna-mini.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                )}
               </Link>
             </Button>
           ) : (
@@ -164,6 +172,14 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
                 {
                   fallbackCode: "Purchase",
                 }
+              )}
+              {groupNumber === 4 && (
+                <Image
+                  src="/icons/klarna-mini.svg"
+                  alt=""
+                  width={24}
+                  height={24}
+                />
               )}
             </Button>
           )}

@@ -9,6 +9,7 @@ import { useContentful } from "@/stores/ContentfulStore";
 import { Time } from "@carbon/icons-react";
 import { TranslationTextType } from "@workearly/api";
 import clsx from "clsx";
+import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import styles from "./StickyPurchase.module.scss";
@@ -49,6 +50,14 @@ export default function StickyPurchase() {
                     fallbackCode: "Apply",
                   }
                 )}
+                {groupNumber === 4 && (
+                  <Image
+                    src="/icons/klarna-mini.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                  />
+                )}
               </Link>
             </Button>
           ) : (
@@ -65,6 +74,14 @@ export default function StickyPurchase() {
                 {
                   fallbackCode: "Purchase",
                 }
+              )}
+              {groupNumber === 4 && (
+                <Image
+                  src="/icons/klarna-mini.svg"
+                  alt=""
+                  width={24}
+                  height={24}
+                />
               )}
             </Button>
           )}
