@@ -1,5 +1,6 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
+import { PurchaseButton } from "@/components/CoursePrices/CoursePrices";
 import ShareMenu from "@/components/ShareMenu";
 import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text";
@@ -9,12 +10,9 @@ import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Gift, Share, Time } from "@carbon/icons-react";
-import { TranslationTextType } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
 import { useState } from "react";
 import styles from "./PurchaseCourse.module.scss";
 
@@ -33,14 +31,12 @@ export default function PurchaseCourse({
   hideFooter,
   hideQuickPurchase,
 }: PropsType) {
-  const router = useRouter();
   const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
     "Personal"
   );
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
-  const { timeLeft, gift, groupNumber } =
-    useCourseDetailsResolver(courseDetails);
+  const { timeLeft, gift } = useCourseDetailsResolver(courseDetails);
 
   const { translate } = useTranslate();
 
@@ -129,50 +125,7 @@ export default function PurchaseCourse({
 
         {!hideFooter && (
           <footer className={styles.footer}>
-            {courseDetails.applicationFormUrl ? (
-              <Button asChild isFullWidth size="medium">
-                <Link href={courseDetails.applicationFormUrl}>
-                  {translate(
-                    `group${groupNumber}_form_cta` as TranslationTextType,
-                    {
-                      fallbackCode: "Apply",
-                    }
-                  )}
-                  {groupNumber === 4 && (
-                    <Image
-                      src="/icons/klarna-mini.svg"
-                      alt=""
-                      width={24}
-                      height={24}
-                    />
-                  )}
-                </Link>
-              </Button>
-            ) : (
-              <Button
-                id={`purchase-button-${courseDetails.id}`}
-                isFullWidth
-                size="medium"
-                onClick={() => {
-                  router.push(`/payment/${page.slug}`);
-                }}
-              >
-                {translate(
-                  `group${groupNumber}_purchase_cta` as TranslationTextType,
-                  {
-                    fallbackCode: "Purchase",
-                  }
-                )}
-                {groupNumber === 4 && (
-                  <Image
-                    src="/icons/klarna-mini.svg"
-                    alt=""
-                    width={24}
-                    height={24}
-                  />
-                )}
-              </Button>
-            )}
+            <PurchaseButton page={page} isFullWidth size="medium" />
 
             <div className={styles.shareWrapper}>
               <Button

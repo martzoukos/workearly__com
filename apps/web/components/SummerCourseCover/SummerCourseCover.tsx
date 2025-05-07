@@ -1,6 +1,6 @@
 import SectionRenderer from "@/components/_renderers/SectionRenderer";
-import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
+import { PurchaseButton } from "@/components/CoursePrices/CoursePrices";
 import StatCard from "@/components/StatCard";
 import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text/Text";
@@ -10,12 +10,10 @@ import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
-import { QueryItem, TranslationTextType } from "@workearly/api";
+import { QueryItem } from "@workearly/api";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
-import Link from "next/link";
-import { useRouter } from "next/router";
 import styles from "./SummerCourseCover.module.scss";
 
 type PropsType = {
@@ -29,9 +27,8 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { translate } = useTranslate();
-  const { duration, mentorship, pace, cardWidth, groupNumber } =
+  const { duration, mentorship, pace, cardWidth } =
     useCourseDetailsResolver(courseDetails);
-  const router = useRouter();
   const isUntilMd = useViewport({ showUntil: "md" });
 
   if (!courseDetails) {
@@ -134,55 +131,12 @@ export default function SummerCourseCover({ composite, className }: PropsType) {
         </div>
 
         <div className={styles.payments}>
-          {courseDetails.applicationFormUrl ? (
-            <Button
-              asChild
-              size="medium"
-              colorScheme="Black"
-              isFullWidth={isUntilMd}
-            >
-              <Link href={courseDetails.applicationFormUrl}>
-                {translate(
-                  `group${groupNumber}_form_cta` as TranslationTextType,
-                  {
-                    fallbackCode: "Apply",
-                  }
-                )}
-                {groupNumber === 4 && (
-                  <Image
-                    src="/icons/klarna-mini.svg"
-                    alt=""
-                    width={24}
-                    height={24}
-                  />
-                )}
-              </Link>
-            </Button>
-          ) : (
-            <Button
-              id={`purchase-button-${courseDetails.id}`}
-              size="medium"
-              colorScheme="Black"
-              onClick={() => {
-                router.push(`/payment/${page.slug}`);
-              }}
-            >
-              {translate(
-                `group${groupNumber}_purchase_cta` as TranslationTextType,
-                {
-                  fallbackCode: "Purchase",
-                }
-              )}
-              {groupNumber === 4 && (
-                <Image
-                  src="/icons/klarna-mini.svg"
-                  alt=""
-                  width={24}
-                  height={24}
-                />
-              )}
-            </Button>
-          )}
+          <PurchaseButton
+            page={page}
+            size="medium"
+            colorScheme="Black"
+            isFullWidth={isUntilMd}
+          />
 
           {courseDetails && (
             <CoursePrices courseDetails={courseDetails} showKlarna />
