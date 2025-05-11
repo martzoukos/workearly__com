@@ -114,7 +114,7 @@ export function PurchaseButton({ page, ...props }: PurchaseButtonProps) {
             {translate(`group${groupNumber}_form_cta` as TranslationTextType, {
               fallbackCode: "Apply",
             })}
-            {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />}
+            {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
           </Link>
         </Button>
       ) : (
@@ -131,7 +131,7 @@ export function PurchaseButton({ page, ...props }: PurchaseButtonProps) {
               fallbackCode: "Purchase",
             }
           )}
-          {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />}
+          {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
         </Button>
       )}
     </>
