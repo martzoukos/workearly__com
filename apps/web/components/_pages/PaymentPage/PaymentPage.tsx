@@ -97,7 +97,7 @@ export default function PaymentPage({ className }: PropsType) {
         items={[
           { name: "Home", href: "/" },
           { name: "Courses", href: "/courses" },
-          { name: page.name || "" },
+          { name: page.name || "", href: `/${page.slug}` },
         ]}
       />
       <div className={styles.content}>

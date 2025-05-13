@@ -25,7 +25,7 @@ export default function PersonPage({ className }: PropsType) {
           items={[
             { name: "Home", href: "/" },
             { name: indexLabel, href: indexLink },
-            { name: page.name || "" },
+            { name: page.name || "", href: `/${page.slug}` },
           ]}
         />
         <PersonCover className={styles.heroContent} />

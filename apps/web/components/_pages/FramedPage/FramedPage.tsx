@@ -18,7 +18,7 @@ export default function FramedPage({ className }: PropsType) {
       <Breadcrumbs
         items={[
           { name: "Home", href: "/" },
-          { name: page.name || "", href: "/mentors" },
+          { name: page.name || "", href: `/${page.slug}` },
         ]}
       />
       <div className={styles.contentItems}>

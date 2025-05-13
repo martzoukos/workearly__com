@@ -1,11 +1,10 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
 import PageItem from "@/components/PageItem";
 import usePageResolver from "@/hooks/usePageResolver";
+import { getCourseSchema } from "@/lib/jsonLdSchemas";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
-import { Course, WithContext } from "schema-dts";
 import styles from "./CourseSummerPage.module.scss";
-import SummerCourseCover from "@/components/SummerCourseCover";
 
 type PropsType = {
   className?: string;
@@ -16,25 +15,14 @@ export default function CourseSummerPage({ className }: PropsType) {
   const { courseDetails, preDividerItems, postDividerItems } =
     usePageResolver(page);
 
-  let jsonLd: WithContext<Course> | undefined = undefined;
-
-  if (courseDetails) {
-    jsonLd = {
-      "@context": "https://schema.org",
-      "@type": "Course",
-      name: courseDetails.h1Title || "",
-      image: courseDetails.videoThumbnail?.url || "",
-      description: courseDetails.summary || "",
-      courseCode: courseDetails.id || "",
-    };
-  }
-
   return (
     <main className={clsx(styles.root, className)}>
-      {jsonLd && (
+      {courseDetails && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getCourseSchema(courseDetails)),
+          }}
         />
       )}
 
@@ -43,7 +31,7 @@ export default function CourseSummerPage({ className }: PropsType) {
         items={[
           { name: "Home", href: "/" },
           { name: "Courses", href: "/courses" },
-          { name: page.name || "" },
+          { name: page.name || "", href: `/${page.slug}` },
         ]}
       />
       {preDividerItems.map((item) => (

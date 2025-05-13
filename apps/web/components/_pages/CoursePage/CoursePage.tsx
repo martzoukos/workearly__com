@@ -4,10 +4,10 @@ import PageItem from "@/components/PageItem";
 import PurchaseCourse from "@/components/PurchaseCourse";
 import Viewport from "@/components/Viewport";
 import usePageResolver from "@/hooks/usePageResolver";
+import { getCourseSchema } from "@/lib/jsonLdSchemas";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import { NextSeo } from "next-seo";
-import { Course, WithContext } from "schema-dts";
 import styles from "./CoursePage.module.scss";
 
 type PropsType = {
@@ -18,19 +18,6 @@ export default function CoursePage({ className }: PropsType) {
   const { page } = useContentful();
   const { courseDetails, preDividerItems, postDividerItems, tags } =
     usePageResolver(page);
-
-  let jsonLd: WithContext<Course> | undefined = undefined;
-
-  if (courseDetails) {
-    jsonLd = {
-      "@context": "https://schema.org",
-      "@type": "Course",
-      name: courseDetails.h1Title || "",
-      image: courseDetails.videoThumbnail?.url || "",
-      description: courseDetails.summary || "",
-      courseCode: courseDetails.id || "",
-    };
-  }
 
   const category = tags.find((tag) => tag?.id?.startsWith("courseCategory"));
 
@@ -52,10 +39,12 @@ export default function CoursePage({ className }: PropsType) {
           },
         ]}
       />
-      {jsonLd && (
+      {courseDetails && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getCourseSchema(courseDetails)),
+          }}
         />
       )}
       <div className={styles.contentWrapper}>
@@ -65,7 +54,7 @@ export default function CoursePage({ className }: PropsType) {
             items={[
               { name: "Home", href: "/" },
               { name: "Courses", href: "/courses" },
-              { name: page.name || "" },
+              { name: page.name || "", href: `/${page.slug}` },
             ]}
           />
           <CourseCover />

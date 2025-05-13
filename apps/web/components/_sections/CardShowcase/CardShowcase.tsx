@@ -5,16 +5,17 @@ import Shell from "@/components/Shell";
 import Text from "@/components/Text/Text";
 import { useViewport } from "@/components/Viewport";
 import { CardVariantType } from "@/hooks/useCardResolver";
+import usePageResolver from "@/hooks/usePageResolver";
 import useSectionResolver from "@/hooks/useSectionResolver";
 import useShellResolver from "@/hooks/useShellResolver";
+import { getCourseListSchema } from "@/lib/jsonLdSchemas";
 import { useContentful } from "@/stores/ContentfulStore";
 import { isDefined, QueryItem } from "@workearly/api";
 import clsx from "clsx";
+import { useRouter } from "next/router";
 import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./CardShowcase.module.scss";
-import usePageResolver from "@/hooks/usePageResolver";
-import { useRouter } from "next/router";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -22,66 +23,31 @@ type PropsType = {
 };
 
 export default function CardShowcase({ section, className }: PropsType) {
-  const { getReference } = useContentful();
+  const { getReference, relationshipMap } = useContentful();
   const { cardTheme } = useSectionResolver(section);
   const shell = useShellResolver(section);
   const isUntilMd = useViewport({ showUntil: "md" });
   const { page } = useContentful();
   const { categoryOrJobDetails } = usePageResolver(page);
   const router = useRouter();
-  let jsonLd = undefined;
-
-  if (page.variant === "Category") {
-    const itemListElement = section.contentCollection?.items
-      .map((item, n) => {
-        if (item?.__typename === "Page") {
-          const page = getReference("Page", item.sys.id);
-
-          if (!page) {
-            return null;
-          }
-          const { courseDetails } = usePageResolver(page);
-          return {
-            "@type": "Course",
-            position: n + 1,
-            name: courseDetails?.title,
-            description: courseDetails?.summary,
-            image: courseDetails?.videoThumbnail?.url,
-            provider: {
-              "@type": "EducationalOrganization",
-              name: "Workearly",
-            },
-            url: `https://www.workearly.gr/${page.slug}`,
-            offers: {
-              "@type": "Offer",
-              availability: "https://schema.org/InStock",
-              priceCurrency: "EUR",
-              price: courseDetails?.finalCost,
-            },
-          };
-        }
-        return null;
-      })
-      .filter(isDefined);
-
-    jsonLd = {
-      "@context": "https://schema.org",
-      "@type": "ItemList",
-      name: categoryOrJobDetails?.title || "",
-      image: categoryOrJobDetails?.asset?.url || "",
-      description: categoryOrJobDetails?.summary || "",
-      url: `https://www.workearly.gr${router?.asPath}`,
-      numberOfItems: itemListElement?.length,
-      itemListElement: itemListElement,
-    };
-  }
 
   return (
     <Shell.Root className={clsx(styles.root, className)} {...shell}>
-      {jsonLd && (
+      {categoryOrJobDetails && (
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(
+              getCourseListSchema(
+                router,
+                categoryOrJobDetails,
+                section.contentCollection?.items
+                  .map((item) => getReference("Page", item?.sys.id || ""))
+                  .filter(isDefined) || [],
+                relationshipMap
+              )
+            ),
+          }}
         />
       )}
       {isUntilMd && (

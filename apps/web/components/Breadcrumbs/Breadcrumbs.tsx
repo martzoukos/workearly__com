@@ -1,4 +1,5 @@
 import Text from "@/components/Text";
+import { getBreadcrumbsSchema } from "@/lib/jsonLdSchemas";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import startCase from "lodash-es/startCase";
@@ -31,7 +32,7 @@ export default function Breadcrumbs({
   const resolvedItems = items || [
     { name: "Home", href: "/" },
     ...itemsFromSlugs,
-    { name: page.name || "" },
+    { name: page.name || "", href: `/${page.slug}` },
   ];
 
   const style = {
@@ -44,6 +45,14 @@ export default function Breadcrumbs({
 
   return (
     <nav className={clsx(styles.root, className)} style={style}>
+      {resolvedItems.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getBreadcrumbsSchema(resolvedItems)),
+          }}
+        />
+      )}
       <ul>
         {resolvedItems.map((item) => (
           <li key={item.name}>

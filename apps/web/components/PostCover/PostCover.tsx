@@ -29,7 +29,7 @@ export default function PostCover() {
           items={[
             { name: "Home", href: "/" },
             { name: "Blog", href: "/blog" },
-            { name: page.name || "" },
+            { name: page.name || "", href: `/${page.slug}` },
           ]}
           className={styles.breadcrumbs}
         />
