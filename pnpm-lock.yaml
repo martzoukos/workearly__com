@@ -29,6 +29,15 @@ importers:
       '@repo/typescript-config':
         specifier: workspace:*
         version: link:../../packages/typescript-config
+      '@types/node':
+        specifier: ^20.10.6
+        version: 20.17.6
+      '@types/react':
+        specifier: ^18.2.46
+        version: 18.3.1
+      '@types/react-dom':
+        specifier: ^18.2.18
+        version: 18.3.0
       next:
         specifier: ^14.0.4
         version: 14.2.23(@babel/core@7.26.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.83.4)
