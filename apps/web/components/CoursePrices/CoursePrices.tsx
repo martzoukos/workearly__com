@@ -3,6 +3,7 @@ import Text from "@/components/Text";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
+import { sendGTMEvent } from "@next/third-parties/google";
 import { QueryItem, TranslationTextType } from "@workearly/api";
 import { cva, VariantProps } from "class-variance-authority";
 import clsx from "clsx";
@@ -121,6 +122,13 @@ export function PurchaseButton({ page, ...props }: PurchaseButtonProps) {
         <Button
           id={`purchase-button-${courseDetails.id}`}
           onClick={() => {
+            sendGTMEvent({
+              event: "purchaseButtonClick",
+              courseId: courseDetails.id,
+              pageSlug: page.slug,
+              groupNumber: groupNumber,
+            });
+
             router.push(`/payment/${page.slug}`);
           }}
           {...props}
