@@ -5,7 +5,7 @@ export async function middleware(request: NextRequest) {
   const fullUrl = request.nextUrl.href;
 
   const redirectEntry = redirections.find((entry) =>
-    fullUrl.startsWith(entry.from)
+    entry.from.startsWith(fullUrl)
   );
 
   if (redirectEntry) {
