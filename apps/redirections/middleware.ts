@@ -9,7 +9,7 @@ export async function middleware(request: NextRequest) {
   );
 
   if (redirectEntry) {
-    const redirectUrl = new URL(redirectEntry.to, request.url);
+    const redirectUrl = new URL(redirectEntry.to, "https://www.workearly.gr");
     return NextResponse.redirect(redirectUrl);
   }
 
