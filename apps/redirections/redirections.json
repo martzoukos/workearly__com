@@ -1,0 +1,223 @@
+[
+  { "from": "https://offers.workearly.gr/", "to": "/courses" },
+  { "from": "https://offers.workearly.gr/about", "to": "/about" },
+  { "from": "https://offers.workearly.gr/bootcamps", "to": "/courses" },
+  { "from": "https://offers.workearly.gr/press", "to": "/blog" },
+  { "from": "https://offers.workearly.gr/reviews", "to": "/testimonials" },
+  { "from": "https://offers.workearly.gr/partners", "to": "/mentors" },
+  {
+    "from": "https://offers.workearly.gr/data-science-summer-school",
+    "to": "/courses/ai-data-science-summer-school"
+  },
+  {
+    "from": "https://offers.workearly.gr/hr-summer-school",
+    "to": "/courses/hr-summer-school"
+  },
+  {
+    "from": "https://offers.workearly.gr/football-analytics-summer-school",
+    "to": "/courses/hack-the-football-data-and-programming-summer-school"
+  },
+  {
+    "from": "https://offers.workearly.gr/ai-programming-summer-school",
+    "to": "/courses/ai-business-summer-school-by-shrm"
+  },
+  { "from": "https://offers.workearly.gr/become-a-partner", "to": "/business" },
+  {
+    "from": "https://offers.workearly.gr/data-analyst-bootcamp",
+    "to": "/course/data-analyst-bootcamp"
+  },
+  {
+    "from": "https://offers.workearly.gr/hr-bootcamp",
+    "to": "/course/hr-bootcamp"
+  },
+  {
+    "from": "https://offers.workearly.gr/ai-business-analytics",
+    "to": "/course/ai-business-school"
+  },
+  {
+    "from": "https://offers.workearly.gr/healthcare-analytics",
+    "to": "/reskilling/healthcare-data-analyst"
+  },
+  {
+    "from": "https://offers.workearly.gr/fintech-data-science-for-finance",
+    "to": "/category/finance"
+  },
+  {
+    "from": "https://offers.workearly.gr/ai-coding-bootcamp",
+    "to": "/category/it"
+  },
+  {
+    "from": "https://offers.workearly.gr/data-analytics-in-digital-marketing",
+    "to": "/reskilling/digital-marketing-manager"
+  },
+  { "from": "https://offers.workearly.gr/career-olympics-2024", "to": "/" },
+  {
+    "from": "https://offers.workearly.gr/data-science-with-sports",
+    "to": "/course/data-science-with-sports"
+  },
+  {
+    "from": "https://offers.workearly.gr/python-developer-bootcamp",
+    "to": "/course/python-web-development-bootcamp"
+  },
+  {
+    "from": "https://offers.workearly.gr/data-science-for-beginners",
+    "to": "/course/data-science-for-beginners"
+  },
+  {
+    "from": "https://offers.workearly.gr/hr-for-beginners",
+    "to": "/course/hr-school-for-beginners"
+  },
+  {
+    "from": "https://offers.workearly.gr/programming-school-for-beginners",
+    "to": "/course/programming-school-for-beginners"
+  },
+  {
+    "from": "https://offers.workearly.gr/python-web-developer",
+    "to": "/course/python-web-development-bootcamp"
+  },
+  {
+    "from": "https://offers.workearly.gr/data-analytics-for-auditors",
+    "to": "/reskilling/auditor"
+  },
+  {
+    "from": "https://offers.workearly.gr/football-data-analyst",
+    "to": "/course/football-analytics-school"
+  },
+  {
+    "from": "https://offers.workearly.gr/bioinformatics-health-analytics",
+    "to": "/course/healthcare-analytics-school"
+  },
+  {
+    "from": "https://offers.workearly.gr/hr-management-hr-analytics",
+    "to": "/course/hr-management-and-analytics"
+  },
+  { "from": "https://offers.workearly.gr/scholarships", "to": "/" },
+  { "from": "https://offers.workearly.gr/halloween", "to": "/" },
+  {
+    "from": "https://offers.workearly.gr/data-analytics-with-formula1",
+    "to": "/course/sports-analytics-with-f1"
+  },
+  {
+    "from": "https://offers.workearly.gr/basketball-data-science",
+    "to": "/course/data-science-with-basketball"
+  },
+  {
+    "from": "https://offers.workearly.gr/project-management-bootcamp",
+    "to": "/course/project-management-bootcamp"
+  },
+  {
+    "from": "https://offers.workearly.gr/finance-bootcamp",
+    "to": "/course/finance-bootcamp"
+  },
+  {
+    "from": "https://offers.workearly.gr/digital-marketing-bootcamp",
+    "to": "/course/digital-marketing-bootcamp"
+  },
+  { "from": "https://masterclass.workearly.gr/", "to": "/courses" },
+  { "from": "https://masterclass.workearly.gr/about", "to": "/about" },
+  { "from": "https://masterclass.workearly.gr/contact", "to": "/contact" },
+  {
+    "from": "https://masterclass.workearly.gr/services/finance-bootcamp",
+    "to": "/course/finance-bootcamp"
+  },
+  {
+    "from": "https://masterclass.workearly.gr/services/project-management-bootcamp",
+    "to": "/course/project-management-bootcamp"
+  },
+  {
+    "from": "https://masterclass.workearly.gr/services/digital-marketing",
+    "to": "/course/digital-marketing-bootcamp"
+  },
+  {
+    "from": "https://masterclass.workearly.gr/bootcamps-offers",
+    "to": "/courses"
+  },
+  { "from": "https://masterclass.workearly.gr/new-courses", "to": "/courses" },
+  { "from": "https://business.workearly.gr/", "to": "/business" },
+  { "from": "https://business.workearly.gr/about", "to": "/business" },
+  { "from": "https://business.workearly.gr/press", "to": "/about" },
+  { "from": "https://business.workearly.gr/insights", "to": "/about" },
+  { "from": "https://business.workearly.gr/courses", "to": "/courses" },
+  { "from": "https://business.workearly.gr/contact", "to": "/contact" },
+  { "from": "https://business.workearly.gr/terms", "to": "/business" },
+  { "from": "https://business.workearly.gr/payment-terms", "to": "/business" },
+  { "from": "https://business.workearly.gr/privacy-policy", "to": "/business" },
+  { "from": "https://business.workearly.gr/ai-training", "to": "/category/ai" },
+  {
+    "from": "https://business.workearly.gr/corporateemailmastery",
+    "to": "/course/corporate-email-mastery"
+  },
+  { "from": "https://business.workearly.gr/become-a-partner", "to": "/about" },
+  {
+    "from": "https://business.workearly.gr/tech-recruitment-school",
+    "to": "/course/it-tech-recruitment"
+  },
+  { "from": "https://blackfriday.workearly.gr/courses-offers", "to": "/" },
+  {
+    "from": "https://blackfriday.workearly.gr/hiring-partners",
+    "to": "/about"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/workearly-reviews",
+    "to": "/testimonials"
+  },
+  { "from": "https://blackfriday.workearly.gr/contact", "to": "/contact" },
+  {
+    "from": "https://blackfriday.workearly.gr/data-analyst-bootcamp",
+    "to": "/course/data-analyst-bootcamp"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/hr-bootcamp",
+    "to": "/course/hr-bootcamp"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/digital-marketing-bootcamp",
+    "to": "/course/digital-marketing-bootcamp"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/project-management-bootcamp",
+    "to": "/course/project-management-bootcamp"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/finance-bootcamp",
+    "to": "/course/finance-bootcamp"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/sports-analytics-bootcamp",
+    "to": "/course/data-science-with-sports"
+  },
+  {
+    "from": "https://blackfriday.workearly.gr/python-web-development-bootcamp",
+    "to": "/course/python-web-development-bootcamp"
+  },
+  { "from": "https://summer.workearly.gr/", "to": "/summer-schools" },
+  { "from": "https://summer.workearly.gr/", "to": "/summer-schools" },
+  { "from": "https://summer.workearly.gr/about", "to": "/summer-schools" },
+  {
+    "from": "https://summer.workearly.gr/summer-schools",
+    "to": "/summer-schools"
+  },
+  { "from": "https://summer.workearly.gr/partners", "to": "/about" },
+  { "from": "https://summer.workearly.gr/reviews", "to": "/testimonials" },
+  {
+    "from": "https://summer.workearly.gr/data-science-summer-school",
+    "to": "/courses/ai-data-science-summer-school"
+  },
+  {
+    "from": "https://summer.workearly.gr/hr-summer-school",
+    "to": "/courses/hr-summer-school"
+  },
+  {
+    "from": "https://summer.workearly.gr/ai-programming-summer-school",
+    "to": "/courses/ai-data-science-summer-school"
+  },
+  {
+    "from": "https://summer.workearly.gr/football-analytics-summer-school",
+    "to": "/courses/hack-the-football-data-and-programming-summer-school"
+  },
+  { "from": "https://www.alumni.workearly.gr/", "to": "/" },
+  { "from": "https://www.alumni.workearly.gr/", "to": "/testimonials" },
+  { "from": "https://www.alumni.workearly.gr/about", "to": "/about" },
+  { "from": "https://www.alumni.workearly.gr/press", "to": "/testimonials" },
+  { "from": "https://www.alumni.workearly.gr/reviews", "to": "/testimonials" }
+]
