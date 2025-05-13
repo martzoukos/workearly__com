@@ -1,7 +1,420 @@
 {
-  "__timestamp": 1746626508680,
+  "__timestamp": 1747065114436,
   "total": 362,
   "items": [
+    {
+      "sys": {
+        "id": "4mEd3vakSrGhFW5Ys2dkKo",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "168€",
+          "value": "Παράταση εώς 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "265€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6sMuxolRlTrDNCr91xydvj",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5i3T82654WkR9XrISuGdBL",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "141€",
+          "value": "Παράταση εώς 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "64Sj17Gd1mK7HX9NODGvFy",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "hRrGUzpBtKMOcpjjWz5Fh",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "141€",
+          "value": "Παράταση εώς 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5NbsLmvSToKVezaQXyM2UY",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "28F3V7sycorSDs6IhCdweO",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "141€",
+          "value": "Παράταση εώς 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2uoeqfg7XFYYVilSyTPFMk",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2nGOCMNicNrYvwM1hl4Ny0",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "120€",
+          "value": "Παράταση εώς 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "64l81ZlGmuUtWQOkMTVPDA",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "39mrwsANHBwlCOAZHZgCx1",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "Από 120€",
+          "value": "Μέχρι 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "GOsNBcoVElSHXWFufo63y",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "18Ao5CWEf6etUkHWqRX3El",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "120€",
+          "value": "Παράταση εώς 16 Μαΐου (early bird)"
+        },
+        {
+          "label": "290€",
+          "value": "Από 17 Μαΐου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "yFbfGSMiPE1xjPgaQPbqR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "26DwWJiFr88OdpPJHyjxX6",
@@ -261,183 +674,6 @@
             "contentType": "image/png",
             "title": "SHRM Badge",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "5i3T82654WkR9XrISuGdBL",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "135€",
-          "value": "Παράταση εώς 9 Μαΐου (super early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 10 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "64Sj17Gd1mK7HX9NODGvFy",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "28F3V7sycorSDs6IhCdweO",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "135€",
-          "value": "Παράταση εώς 9 Μαΐου (super early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 10 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2uoeqfg7XFYYVilSyTPFMk",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "hRrGUzpBtKMOcpjjWz5Fh",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "135€",
-          "value": "Παράταση εώς 9 Μαΐου (super early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 10 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5NbsLmvSToKVezaQXyM2UY",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -867,183 +1103,6 @@
             "contentType": "image/png",
             "title": "Genesis Ventures",
             "description": ""
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4mEd3vakSrGhFW5Ys2dkKo",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "165€",
-          "value": "Παράταση εώς 9 Μαΐου (super early bird)"
-        },
-        {
-          "label": "265€",
-          "value": "Από 10 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6sMuxolRlTrDNCr91xydvj",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "18Ao5CWEf6etUkHWqRX3El",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "115€",
-          "value": "Παράταση εώς 9 Μαΐου (super early bird)"
-        },
-        {
-          "label": "290€",
-          "value": "Από 10 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "yFbfGSMiPE1xjPgaQPbqR",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "2nGOCMNicNrYvwM1hl4Ny0",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "115€",
-          "value": "Παράταση εώς 9 Μαΐου (super early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 10 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "64l81ZlGmuUtWQOkMTVPDA",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -2359,65 +2418,6 @@
               "__typename": "Sys"
             },
             "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "39mrwsANHBwlCOAZHZgCx1",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "Από 129€",
-          "value": "Μέχρι 30 Απριλίου (super early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 1η Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "GOsNBcoVElSHXWFufo63y",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -6109,22 +6109,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -6140,6 +6124,22 @@
             "contentType": "video/mp4",
             "title": "Workearly Promo Video",
             "description": null
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -6697,33 +6697,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -6752,6 +6725,33 @@
             "contentType": "application/json",
             "title": "Workearly Main Animation Mobile",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -9139,22 +9139,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3wTeghKyBD15nDAeCucKUH",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -9183,6 +9167,22 @@
             "contentType": "image/webp",
             "title": "Hero Business Background Image Mobile",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3wTeghKyBD15nDAeCucKUH",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -9771,6 +9771,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1ozZ1Djwhu1aOi0nx2gzei",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
+            "width": 695,
+            "height": 530,
+            "contentType": "image/svg+xml",
+            "title": "Failure",
+            "description": ""
+          }
+        ]
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -9795,24 +9813,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1ozZ1Djwhu1aOi0nx2gzei",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
-            "width": 695,
-            "height": 530,
-            "contentType": "image/svg+xml",
-            "title": "Failure",
-            "description": ""
           }
         ]
       }
@@ -10295,6 +10295,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5PGyZeSFWDxLAe4EGzZlVN",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Anim Picking",
+            "description": ""
+          }
+        ]
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -10319,24 +10337,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5PGyZeSFWDxLAe4EGzZlVN",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Anim Picking",
-            "description": ""
           }
         ]
       }
@@ -14598,6 +14598,24 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3mB2Lzny8ZdRN5eir8367E",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
+            "width": 680,
+            "height": 407,
+            "contentType": "image/svg+xml",
+            "title": "Map",
+            "description": null
+          }
+        ]
+      },
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
@@ -14655,24 +14673,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3mB2Lzny8ZdRN5eir8367E",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
-            "width": 680,
-            "height": 407,
-            "contentType": "image/svg+xml",
-            "title": "Map",
-            "description": null
           }
         ]
       }
@@ -15616,33 +15616,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -15671,6 +15644,33 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -15707,33 +15707,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -15762,6 +15735,33 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -15798,33 +15798,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -15853,6 +15826,33 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -29298,22 +29298,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7kaO4eajRh6WT1bR3eMCSb",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -29329,6 +29313,22 @@
             "contentType": "image/svg+xml",
             "title": "Failure",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7kaO4eajRh6WT1bR3eMCSb",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -29362,22 +29362,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5UkMkLzyqPrOCjdHPDt8Ij",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -29393,6 +29377,22 @@
             "contentType": "image/svg+xml",
             "title": "Sucess",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5UkMkLzyqPrOCjdHPDt8Ij",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -32181,22 +32181,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -32212,6 +32196,22 @@
             "contentType": "image/png",
             "title": "Pig",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
