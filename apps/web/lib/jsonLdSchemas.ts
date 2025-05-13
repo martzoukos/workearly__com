@@ -1,10 +1,12 @@
 import { getPageResolver } from "@/hooks/usePageResolver";
+import { documentToPlainTextString } from "@contentful/rich-text-plain-text-renderer";
 import { isDefined, QueryItem, RelationshipMap } from "@workearly/api";
 import { NextRouter } from "next/router";
 import {
   BreadcrumbList,
   Course,
   EducationalOrganization,
+  FAQPage,
   ItemList,
   ListItem,
   WithContext,
@@ -142,5 +144,22 @@ export function getCourseListSchema(
         return item;
       })
       .filter(isDefined) as ListItem[],
+  };
+}
+
+export function getFaqSchema(
+  cards: QueryItem["AccordionCard"][]
+): WithContext<FAQPage> {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: cards.map((card) => ({
+      "@type": "Question",
+      name: card.title || "",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: documentToPlainTextString(card.text?.json),
+      },
+    })),
   };
 }

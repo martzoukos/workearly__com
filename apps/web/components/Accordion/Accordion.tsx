@@ -1,5 +1,6 @@
 import RichText from "@/components/RichText";
 import Text from "@/components/Text";
+import { getFaqSchema } from "@/lib/jsonLdSchemas";
 import { ArrowUp, CircleOutline } from "@carbon/icons-react";
 import { QueryItem } from "@workearly/api";
 import { Accordion as RadixAccordion } from "radix-ui";
@@ -18,6 +19,14 @@ export default function Accordion({ accordionCards }: PropsType) {
       defaultValue={accordionCards[0]?.sys.id}
       collapsible
     >
+      {accordionCards.length > 0 && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(getFaqSchema(accordionCards)),
+          }}
+        />
+      )}
       {accordionCards.map((accordionCard, index) => (
         <AccordionCard
           key={accordionCard.sys.id}
