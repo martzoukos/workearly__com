@@ -1,7 +1,26 @@
 {
-  "__timestamp": 1747140435466,
+  "__timestamp": 1748262687445,
   "total": 593,
   "items": [
+    {
+      "sys": {
+        "id": "5g0JDALYh9rDUK7rnamYcf",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Functions & Object-Oriented Programming (OOP) in Python",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Δημιουργία συναρτήσεων, χρήση modules & packages, εισαγωγή στις βασικές αρχές αντικειμενοστραφούς προγραμματισμού (OOP).",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Ο modular κώδικας και οι αντικειμενοστραφείς δομές είναι απαραίτητες για την αποτελεσματική διαχείριση και ανάλυση δεδομένων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "58y84IxmdrOFrGrznqduj6",
@@ -988,25 +1007,6 @@
       "column1Text": "Θεμελιώδεις αρχές ηγεσίας, στυλ ηγεσίας, στρατηγική σκέψη και τρόποι διαχείρισης ομάδων.",
       "column2Title": "Γιατί το χρειάζεστε:",
       "column2Text": "Θα αποκτήσετε τις βασικές δεξιότητες που απαιτούνται για να καθοδηγείτε αποτελεσματικά ομάδες και να ενισχύετε την απόδοση του οργανισμού σας.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "5g0JDALYh9rDUK7rnamYcf",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Functions & Object-Oriented Programming (OOP) in Pytho",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Δημιουργία συναρτήσεων, χρήση modules & packages, εισαγωγή στις βασικές αρχές αντικειμενοστραφούς προγραμματισμού (OOP).",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Ο modular κώδικας και οι αντικειμενοστραφείς δομές είναι απαραίτητες για την αποτελεσματική διαχείριση και ανάλυση δεδομένων.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {

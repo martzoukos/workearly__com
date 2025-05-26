@@ -46,16 +46,18 @@ export default function PersonCover({ className }: PropsType) {
           </Text>
 
           <div className={styles.cardContent}>
-            {peopleDetails.asset?.url && peopleDetails.variant === "Mentor" && (
-              <div className={styles.cardMedia}>
-                <Image
-                  src={peopleDetails.asset.url}
-                  alt={peopleDetails.asset.title || peopleDetails.name || ""}
-                  fill={true}
-                  sizes="600px"
-                />
-              </div>
-            )}
+            {peopleDetails.asset?.url &&
+              peopleDetails.variant &&
+              ["Mentor", "Partner"].includes(peopleDetails.variant) && (
+                <div className={styles.cardMedia}>
+                  <Image
+                    src={peopleDetails.asset.url}
+                    alt={peopleDetails.asset.title || peopleDetails.name || ""}
+                    fill={true}
+                    sizes="600px"
+                  />
+                </div>
+              )}
             {peopleDetails.asset?.url &&
               peopleDetails.variant === "Certificate" && (
                 <div className={styles.certificateMedia}>

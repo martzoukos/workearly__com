@@ -1,10 +1,10 @@
 {
-  "__timestamp": 1747140445042,
-  "total": 362,
+  "__timestamp": 1748262718547,
+  "total": 367,
   "items": [
     {
       "sys": {
-        "id": "4mEd3vakSrGhFW5Ys2dkKo",
+        "id": "7xIiDkXAbTkhqlxUjXbzaj",
         "__typename": "Sys"
       },
       "__typename": "Section",
@@ -12,47 +12,90 @@
         "items": [],
         "__typename": "SectionActionsCollection"
       },
-      "assetsCollection": {
+      "contentCollection": {
         "items": [],
-        "__typename": "AssetCollection"
+        "__typename": "SectionContentCollection"
       },
-      "alignment": "Centered",
+      "alignment": "Left",
       "layout": "Default",
       "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
+      "theme": "Dark",
+      "title": "Summer Schools 2025 – Με Υποτροφία από το Public",
+      "supertitle": null,
+      "text": "Το κορυφαίο πρόγραμμα επαγγελματικής κατάρτισης Summer Schools 2025 επιστρέφει για 4η συνεχή χρονιά, προσφέροντάς σου μια μοναδική ευκαιρία να αξιοποιήσεις το καλοκαίρι σου ουσιαστικά. Μέσα από μια εμπειρία με πραγματική αξία για την καριέρα σου, μπορείς να αποκτήσεις σύγχρονες δεξιότητες και να αποκτήσεις πρόσβαση σε θέσεις εργασίας. Τα προγράμματα της Workearly σου δίνουν τη δυνατότητα να εξειδικευτείς σε τομείς όπως Τεχνητή Νοημοσύνη (AI), Business, Digital Marketing, Ανθρώπινο Δυναμικό (HR), Data Science, Προγραμματισμός ή ακόμη και να ξεκινήσεις τη δική σου επιχειρηματική ιδέα από το μηδέν. Φέτος, χάρη στη συνεργασία με το Public, προσφέρονται υποτροφίες που καλύπτουν το μεγαλύτερο μέρος των διδάκτρων — έως και 189€, ανάλογα με το πρόγραμμα. Για να αξιοποιήσεις την υποτροφία, χρησιμοποίησε τον κωδικό \"public-scholarship\" κατά την εγγραφή σου.",
       "titleSize": "h4",
       "titleTagOverride": null,
       "cardVariant": "None",
       "cardsCount": null,
       "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "168€",
-          "value": "Παράταση εώς 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "265€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
+      "variant": "Standard Component Framed",
+      "metadata": null,
       "features": null,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
+      "assetsCollection": {
+        "__typename": "AssetCollection",
         "items": [
           {
             "sys": {
-              "id": "6sMuxolRlTrDNCr91xydvj",
+              "id": "1W9OkrRFOHAmyErHpJAFzm",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/1W9OkrRFOHAmyErHpJAFzm/882dc2b6cbbc5b0d33e35b580411d1bc/summer_schools_2025__10_.png",
+            "width": 940,
+            "height": 788,
+            "contentType": "image/png",
+            "title": "summer schools 2025 - public gr",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6q2QEqEK8ZPRudvvcyQVqE",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Έτοιμοι για υποτροφία;",
+      "supertitle": null,
+      "text": "200 νέες υποτροφίες από το Public. Μην χάσεις την ευκαιρία! Κάνε την αίτηση σου τώρα με τον κωδικό \"public-scholarship\" έως 31 Μαΐου",
+      "titleSize": "h2",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5LomLM5ZEbU9XKH0ObP1kA",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -63,7 +106,306 @@
     },
     {
       "sys": {
-        "id": "5i3T82654WkR9XrISuGdBL",
+        "id": "5CLyW8mWePUZTHyXVUnT1i",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": "Light",
+      "title": "Προγράμματα με Υποτροφία",
+      "supertitle": null,
+      "text": "Μέσα από τις μερικές υποτροφίες που προσφέρει το Public, 200 συμμετέχοντες θα έχουν τη δυνατότητα να εκπαιδευτούν εντατικά σε σύγχρονες δεξιότητες και να αποκτήσουν άμεση πρόσβαση σε επαγγελματικές ευκαιρίες και ρόλους εργασίας. Η υποτροφία καλύπτει το 65% του κόστους συμμετοχής, ανάλογα με το πρόγραμμα. Διάλεξε από την παρακάτω λίστα το πρόγραμμα που σε ενδιαφέρει.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Showcase",
+      "metadata": {
+        "title": "Θέσεις Εργασίας",
+        "values": [
+          {
+            "title": "All Professionals:",
+            "amount": "6000+ Jobs",
+            "percentage": "100"
+          },
+          {
+            "title": "Junior Professionals",
+            "amount": "2000+ Jobs",
+            "percentage": "100"
+          }
+        ]
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4Cvg69XUBduWcaV2Yj3mGy",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7Kg9qPPglj0KOXQUYNGQno",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryHr",
+                  "name": "Course Category: HR",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5vzH1cABhDiKh80s3HyhGh",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryDataScience",
+                  "name": "Course Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryIt",
+                  "name": "Course Category: IT",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySports",
+                  "name": "Course Category: Sports",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2talblHsoC05rAya7MHQ5D",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryDataScience",
+                  "name": "Course Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "i5d3bwWRYqBUb5hX4sgge",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryDigitalMarketing",
+                  "name": "Course Category: Digital Marketing",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "35PXS2BxwDnvlHiFHF9ryF",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryEntrepreneurship",
+                  "name": "Course Category: Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "1Gs2UWd8vqiXAiYQHw9XOA",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryBusinessAnalytics",
+                  "name": "Course Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "657z5TUDI2BgUB0WUaKibg",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": "Dark",
+      "title": "200 Υποτροφίες από το Public – αξίας έως 30.000€",
+      "supertitle": null,
+      "text": "Το κορυφαίο Summer Reskilling / Upskilling πρόγραμμα για νέους επαγγελματίες επιστρέφει στην Ελλάδα για 4η συνεχόμενη χρονιά, προσφέροντας πραγματικές ευκαιρίες καριέρας και εξέλιξης.",
+      "titleSize": "h1",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Hero With Background",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5DSvWbLMMLHpo5clmCzuOQ",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7oCym9JZpf2Or0ZVzmoDkX",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/7oCym9JZpf2Or0ZVzmoDkX/72d54373273c978b40e6c9a09eeda20f/Rectangle_182.png",
+            "width": 1380,
+            "height": 523,
+            "contentType": "image/png",
+            "title": "Hero Background Image",
+            "description": ""
+          },
+          {
+            "sys": {
+              "id": "4S1QGIEWC377bGowFkKuYL",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/4S1QGIEWC377bGowFkKuYL/72b38ce6459ce68f331a62af46aa6f1f/rectangle-182-67e3e14526020.webp",
+            "width": 974,
+            "height": 1412,
+            "contentType": "image/webp",
+            "title": "Hero Business Background Image Mobile",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4VrG2VGX7GsuXYNetycmBo",
         "__typename": "Sys"
       },
       "__typename": "Section",
@@ -76,28 +418,19 @@
         "__typename": "AssetCollection"
       },
       "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
+      "layout": null,
+      "size": "Narrow",
+      "theme": "Dark",
+      "title": "Συχνές Ερωτήσεις",
+      "supertitle": "Workearly Summer Schools 2025",
       "text": null,
-      "titleSize": "h4",
+      "titleSize": null,
       "titleTagOverride": null,
       "cardVariant": "None",
       "cardsCount": null,
       "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "141€",
-          "value": "Παράταση εώς 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
+      "variant": "Accordion",
+      "metadata": null,
       "features": null,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -108,10 +441,153 @@
         "items": [
           {
             "sys": {
-              "id": "64Sj17Gd1mK7HX9NODGvFy",
+              "id": "iEvtkheH0T724MackqOeF",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6PKnskfkzfxIAL3LfZSU8w",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1SD634SWfkL0uU1YZGaIWY",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "E36bjA3mzPQy7hLC9ccof",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1304hLhrtkDPwNLYxAOxL9",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1a0THIOSHIwSxrFwjzctVW",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1PXvaehygWdiDKiJiK0i3s",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "SSEo2GbQQo4MapwqFmp2U",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2QGPMkL6aUo8J8C35OgmcD",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "73cqwWfdFOA9cMU4c5UgDH",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1yxdcgrlqCEl5UJvVQkD45",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6HId8era7rOxwM67TctGDf",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1eTJOYtXnQpecZvsrnTI70",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "SfoYkU3wkLn7Y10Lwpbq2",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -122,7 +598,7 @@
     },
     {
       "sys": {
-        "id": "hRrGUzpBtKMOcpjjWz5Fh",
+        "id": "4oo4H3X1d8HIzmXuZOSQ4M",
         "__typename": "Sys"
       },
       "__typename": "Section",
@@ -134,29 +610,20 @@
         "items": [],
         "__typename": "AssetCollection"
       },
-      "alignment": "Centered",
+      "alignment": "Left",
       "layout": "Default",
       "size": "Full",
       "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
+      "title": "Summer Schools 2025",
+      "supertitle": null,
       "text": null,
       "titleSize": "h4",
       "titleTagOverride": null,
       "cardVariant": "None",
       "cardsCount": null,
       "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "141€",
-          "value": "Παράταση εώς 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
+      "variant": "Card Grid",
+      "metadata": null,
       "features": null,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -167,249 +634,144 @@
         "items": [
           {
             "sys": {
-              "id": "5NbsLmvSToKVezaQXyM2UY",
+              "id": "7yEFuFgTGvocav9zgsvHgh",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "Page",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
-              "tags": []
+              "tags": [
+                {
+                  "id": "certificateCategoryDataScience",
+                  "name": "Certificate Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateCategoryIt",
+                  "name": "Certificate Category: IT",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelMicroCredentials",
+                  "name": "Certificate Level: Micro-credentials",
+                  "__typename": "ContentfulTag"
+                }
+              ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "28F3V7sycorSDs6IhCdweO",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "141€",
-          "value": "Παράταση εώς 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
+          },
           {
             "sys": {
-              "id": "2uoeqfg7XFYYVilSyTPFMk",
+              "id": "32iOcxTqo7riaynjIDvPHX",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "Page",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
-              "tags": []
+              "tags": [
+                {
+                  "id": "certificateCategoryAi",
+                  "name": "Certificate Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateCategoryBusiness",
+                  "name": "Certificate Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelMicroCredentials",
+                  "name": "Certificate Level: Micro-credentials",
+                  "__typename": "ContentfulTag"
+                }
+              ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "2nGOCMNicNrYvwM1hl4Ny0",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "120€",
-          "value": "Παράταση εώς 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
+          },
           {
             "sys": {
-              "id": "64l81ZlGmuUtWQOkMTVPDA",
+              "id": "57VB2CQjQURxA9fNTYKIia",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "Page",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
-              "tags": []
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "39mrwsANHBwlCOAZHZgCx1",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "Από 120€",
-          "value": "Μέχρι 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "215€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
+          },
           {
             "sys": {
-              "id": "GOsNBcoVElSHXWFufo63y",
+              "id": "4vjyxabfHtUGMsK62huqyr",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "Page",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
-              "tags": []
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
             }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "18Ao5CWEf6etUkHWqRX3El",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Αίτηση Συμμετοχής",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": [
-        {
-          "label": "120€",
-          "value": "Παράταση εώς 16 Μαΐου (early bird)"
-        },
-        {
-          "label": "290€",
-          "value": "Από 17 Μαΐου"
-        }
-      ],
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
+          },
           {
             "sys": {
-              "id": "yFbfGSMiPE1xjPgaQPbqR",
+              "id": "7KMcCGgSl2q8XkJDH5VhHE",
               "__typename": "Sys"
             },
-            "__typename": "Card",
+            "__typename": "Page",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
-              "tags": []
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "50DKPLp5oX9QIsUKHLWinc",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
             }
           }
         ]
@@ -522,6 +884,419 @@
                   "__typename": "ContentfulTag"
                 }
               ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4mEd3vakSrGhFW5Ys2dkKo",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "180€",
+          "value": "Παράταση εώς 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "265€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6sMuxolRlTrDNCr91xydvj",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5i3T82654WkR9XrISuGdBL",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "150€",
+          "value": "Παράταση εώς 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "64Sj17Gd1mK7HX9NODGvFy",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "hRrGUzpBtKMOcpjjWz5Fh",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "150€",
+          "value": "Παράταση εώς 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5NbsLmvSToKVezaQXyM2UY",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "28F3V7sycorSDs6IhCdweO",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "150€",
+          "value": "Παράταση εώς 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2uoeqfg7XFYYVilSyTPFMk",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2nGOCMNicNrYvwM1hl4Ny0",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "150€",
+          "value": "Παράταση εώς 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "64l81ZlGmuUtWQOkMTVPDA",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "18Ao5CWEf6etUkHWqRX3El",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "150€",
+          "value": "Παράταση εώς 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "290€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "yFbfGSMiPE1xjPgaQPbqR",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "39mrwsANHBwlCOAZHZgCx1",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Αίτηση Συμμετοχής",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": [
+        {
+          "label": "Από 150€",
+          "value": "Μέχρι 31 Μαΐου (regular offer)"
+        },
+        {
+          "label": "215€",
+          "value": "Από 1 Ιουνίου"
+        }
+      ],
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "GOsNBcoVElSHXWFufo63y",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
             }
           }
         ]
@@ -4957,199 +5732,6 @@
           {
             "sys": {
               "id": "1rMuQXCSbUF1kFJoOidvmM",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4VrG2VGX7GsuXYNetycmBo",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": null,
-      "size": "Narrow",
-      "theme": null,
-      "title": "Συχνές Ερωτήσεις",
-      "supertitle": "Workearly Summer Schools 2025",
-      "text": null,
-      "titleSize": null,
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "iEvtkheH0T724MackqOeF",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6PKnskfkzfxIAL3LfZSU8w",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1SD634SWfkL0uU1YZGaIWY",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "E36bjA3mzPQy7hLC9ccof",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1304hLhrtkDPwNLYxAOxL9",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1a0THIOSHIwSxrFwjzctVW",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1PXvaehygWdiDKiJiK0i3s",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "SSEo2GbQQo4MapwqFmp2U",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2QGPMkL6aUo8J8C35OgmcD",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "73cqwWfdFOA9cMU4c5UgDH",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1yxdcgrlqCEl5UJvVQkD45",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6HId8era7rOxwM67TctGDf",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1eTJOYtXnQpecZvsrnTI70",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "SfoYkU3wkLn7Y10Lwpbq2",
               "__typename": "Sys"
             },
             "__typename": "AccordionCard",

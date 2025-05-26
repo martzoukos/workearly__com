@@ -1,7 +1,112 @@
 {
-  "__timestamp": 1747140436314,
-  "total": 38,
+  "__timestamp": 1748262688744,
+  "total": 41,
   "items": [
+    {
+      "sys": {
+        "id": "6Aoef1ikDRwCtsqesAbMiJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Learn More",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://scholarships.workearly.gr/",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6prYPVRtU8ucgEM3TFcYpn",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Υποτροφίες by Public",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://scholarships.workearly.gr/",
+      "iconPlacement": "Right",
+      "colorScheme": "White",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5DSvWbLMMLHpo5clmCzuOQ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Υποτροφία: Κάνε Αίτηση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/6836334/workearly-summer-schools-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5LomLM5ZEbU9XKH0ObP1kA",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Κάνε Αίτηση για υποτροφία",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/6836334/workearly-summer-schools-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4Cvg69XUBduWcaV2Yj3mGy",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Learn More",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://scholarships.workearly.gr/",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "2cQgXCpnpDt4g0pvEGsgI2",
@@ -174,51 +279,6 @@
       "internal": {
         "__typename": "Page",
         "slug": "courses/hack-the-football-data-and-programming-summer-school"
-      }
-    },
-    {
-      "sys": {
-        "id": "6Aoef1ikDRwCtsqesAbMiJ",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Learn More",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "blog/workearly-summer-schools-2025-enas-thesmos-poy-epistrefei-pio-dynamika-apo"
-      }
-    },
-    {
-      "sys": {
-        "id": "6prYPVRtU8ucgEM3TFcYpn",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Δωρεάν Ενημέρωση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/6836334/workearly-summer-schools-2025",
-      "iconPlacement": "Right",
-      "colorScheme": "White",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       }
     },
     {
