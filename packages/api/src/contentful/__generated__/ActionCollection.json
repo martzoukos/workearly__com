@@ -1,7 +1,77 @@
 {
-  "__timestamp": 1748262688744,
-  "total": 41,
+  "__timestamp": 1748879213743,
+  "__hash": "fe5ace8da05ebc0f0c493c21c766a87431da9774e2ffcf0a46ce714bab04cd5c",
+  "total": 43,
   "items": [
+    {
+      "sys": {
+        "id": "6prYPVRtU8ucgEM3TFcYpn",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Υποτροφίες",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://kariera.workearly.gr/",
+      "iconPlacement": "Right",
+      "colorScheme": "White",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6Bpqdv1Aj4j6OiTQ0Pf292",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses/finance-summer-school-2025"
+      }
+    },
+    {
+      "sys": {
+        "id": "79RaKoFuRbpYqn9aBA9Nm4",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Αίτηση Συμμετοχής",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses/project-management-summer-school"
+      }
+    },
     {
       "sys": {
         "id": "6Aoef1ikDRwCtsqesAbMiJ",
@@ -16,27 +86,6 @@
       "external": "https://scholarships.workearly.gr/",
       "iconPlacement": "Right",
       "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "6prYPVRtU8ucgEM3TFcYpn",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Υποτροφίες by Public",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://scholarships.workearly.gr/",
-      "iconPlacement": "Right",
-      "colorScheme": "White",
       "variant": "Solid",
       "behaviour": "Wrap",
       "contentfulMetadata": {

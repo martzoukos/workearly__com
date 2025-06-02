@@ -1,7 +1,274 @@
 {
-  "__timestamp": 1748262687445,
-  "total": 593,
+  "__timestamp": 1748879210325,
+  "__hash": "f4f5305fa3cf2b316dd2af06775ca184179e37a94165824275b15cc08dd6d9dc",
+  "total": 607,
   "items": [
+    {
+      "sys": {
+        "id": "63VDyAANmvFH5r1Qrek5V3",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Project Completion & Evaluation",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Κλείσιμο έργου, post-project review, lessons learned και βασικά KPIs αξιολόγησης απόδοσης.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η επιτυχία κρίνεται στο τέλος – εδώ μαθαίνεις πώς να ολοκληρώνεις έργα με επαγγελματισμό και να αξιοποιείς την εμπειρία σου για τα επόμενα.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "DLhLLytdRp5BGKMSesajD",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Excel & AI Tools for Project Managers",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Χρήση Excel για χρονοδιαγράμματα, προϋπολογισμό και dashboards, καθώς και AI εργαλεία για αυτοματισμούς και αναλύσεις.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η τεχνολογία είναι σύμμαχος του Project Manager – μαθαίνεις να αξιοποιείς τα κατάλληλα εργαλεία για να εξοικονομείς χρόνο και να έχεις πληρέστερη εικόνα.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2v67cSwIeyYg9TIkpQyXI8",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Leadership & Team Management",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς ηγείσαι ομάδων, καλλιεργείς εμπιστοσύνη και αναθέτεις ρόλους αποτελεσματικά.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Ένα επιτυχημένο project απαιτεί έναν manager που εμπνέει και κινητοποιεί – εδώ καλλιεργείς τις απαραίτητες ηγετικές δεξιότητες.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "76Dancc2NQ05XsXZ81YGk4",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Stakeholder & Risk Management",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να χαρτογραφείς ενδιαφερόμενους, να προλαμβάνεις ρίσκα και να δημιουργείς πλάνο αντιμετώπισης κρίσεων.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η σωστή επικοινωνία και διαχείριση ρίσκου καθορίζει την πορεία ενός έργου – εδώ μαθαίνεις να διαχειρίζεσαι δυναμικά και στρατηγικά.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1qoMWQOJvl9jHSbntIf3Fb",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Agile & Scrum in Practice",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πότε και πώς εφαρμόζεται το Agile mindset, ποιος είναι ο ρόλος του Scrum Master και πώς λειτουργούν τα sprints.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Οι Agile μέθοδοι κυριαρχούν σε πολλά πεδία – θα μάθεις να τις εφαρμόζεις προσαρμοσμένα σε διαφορετικά περιβάλλοντα εργασίας.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3scgbdXfQWwfOdSmdkZgtM",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Time, Cost & Resource Management",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Πώς να θέτεις ρεαλιστικά χρονοδιαγράμματα, να προϋπολογίζεις και να κατανέμεις πόρους (ανθρώπινους και υλικούς) αποδοτικά.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Η επιτυχία ενός έργου εξαρτάται από την ορθή διαχείριση χρόνου και κόστους – εδώ θα αποκτήσεις πρακτικά εργαλεία για να τα ελέγχεις.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "feRrjJK4oZM6dlf74zd4h",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Project Management Fundamentals",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Βασικές έννοιες, ο ρόλος του Project Manager, στάδια κύκλου ζωής έργου, και τύποι projects.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Θα χτίσεις τις σωστές βάσεις για να κατανοείς, να σχεδιάζεις και να οργανώνεις αποτελεσματικά κάθε έργο, ανεξαρτήτως μεγέθους.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3g3yeigmEddkDuFQsCFKsx",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Οικονομική Επικοινωνία & Λήψη Αποφάσεων",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Παρουσίαση δεδομένων, storytelling με αριθμούς, δεοντολογία.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Ενισχύει τη στρατηγική σου παρουσία και καθιστά τις γνώσεις σου εφαρμόσιμες.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1hs8YY5S2EIfEAXfYvGfUX",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Reporting για Financial Analysts",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Δημιουργία οικονομικών αναφορών, dashboards και ανάλυση KPIs.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Είναι skill αιχμής για ρόλους σε finance & business analysis.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3yW92gtxLPDwTlmipqVBBU",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Βασικά Στοιχεία Επενδύσεων",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Ρίσκο/απόδοση, χαρτοφυλάκια, μετοχές και ομόλογα.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Κατανοείς την επενδυτική λογική και βελτιώνεις οικονομικές επιλογές.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3XeApFrI5XvqmOVL7RnTtx",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Βασικές Αρχές Εταιρικής Χρηματοδότησης",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Κόστος κεφαλαίου, επιλογές χρηματοδότησης, αποδόσεις.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Είναι απαραίτητα για κατανόηση της οικονομικής δομής κάθε εταιρείας.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1sCqLs24kCpGPX2PoTuEBZ",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Οικονομικές Καταστάσεις και Ανάλυση",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Ισολογισμός, λογαριασμός αποτελεσμάτων, ταμειακές ροές.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Βασικό skill για αξιολόγηση επιχειρήσεων και λήψη αποφάσεων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4TepACW2LkvM8zEFk5Aofd",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Διαχείριση Προσωπικών Οικονομικών",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Προϋπολογισμός, αποταμίευση, κατανόηση εξόδων και εσόδων.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Είναι η βάση για υπεύθυνες αποφάσεις και προσωπική ασφάλεια.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "30n5sVtPqk9xkVydYYmHfM",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Εισαγωγή στα Χρηματοοικονομικά",
+      "column1Title": "Τι θα μάθεις:",
+      "column1Text": "Βασικές έννοιες, αξία χρήματος, ρόλος αγορών.",
+      "column2Title": "Γιατί το χρειάζεσαι:",
+      "column2Text": "Χτίζεις τις βάσεις για κάθε χρηματοοικονομική κατεύθυνση.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "5g0JDALYh9rDUK7rnamYcf",

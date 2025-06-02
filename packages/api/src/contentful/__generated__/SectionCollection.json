@@ -1,7 +1,1954 @@
 {
-  "__timestamp": 1748262718547,
-  "total": 367,
+  "__timestamp": 1748879250055,
+  "__hash": "0e685c2d6b279a9dee6f568301838f240a2e6286017d1ec3e7a8766b1e64a820",
+  "total": 373,
   "items": [
+    {
+      "sys": {
+        "id": "3wbxMAUaCqIBqhC0qu6uOB",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "150 Υποτροφίες από το kariera.gr",
+      "supertitle": null,
+      "text": "Το kariera.gr αποτελεί τον Premier Hiring Partner των Workearly Summer Schools 2025, με στόχο τη δυναμική σύνδεση των συμμετεχόντων με την αγορά εργασίας. Μέσα από στρατηγική συνεργασία και ενεργό δίκτυο, το kariera.gr υποστηρίζει την επαγγελματική εξέλιξη των αποφοίτων, προωθώντας τους σε θέσεις απασχόλησης. Στο πλαίσιο αυτής της συνεργασίας, προσφέρει 150 υποτροφίες που καλύπτουν το μεγαλύτερο μέρος των διδάκτρων – με τελικό κόστος συμμετοχής από 140€ έως 189€, ανάλογα με το πρόγραμμα.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Standard Component Framed",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "NZSMrGWzKrceDNR4BP4ee",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/NZSMrGWzKrceDNR4BP4ee/31ac3f89883e2f9e4a12f8d52a6eb841/karierra.png",
+            "width": 1000,
+            "height": 1000,
+            "contentType": "image/png",
+            "title": "kariera",
+            "description": ""
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "YP5VBwCfW2YxiTvV1AyCG",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Workearly Summer Schools 2025",
+      "supertitle": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα.",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Photo And Text",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7qk6OjKIR5xOCK1dLfYpf",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2WAnIVF3VJItDRT7UCZAkA",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7uIrdxbGAsO1df1oZqft4m",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1U5DHrTY910EgSOZidssvA",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1Pj06jALF8jYrdsVG7ckmq",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3vOQlGn6ViM3fAjHFslrxA",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4D8tqOfM4TszhsCePC4RVk",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "28xwEmyEjIImFhkYqKHgea",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4VreIbBln2JLgTbLQX29Z2",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7zxzmObADRsJrL6AQO4lz6",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryBusiness",
+                  "name": "Certificate Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelMicroCredentials",
+                  "name": "Certificate Level: Micro-credentials",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "lsnFWEAV9ghYTTFgCOVlb",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": "Light",
+      "title": "Summer Schools 2025",
+      "supertitle": null,
+      "text": "Τα Summer Schools του Workearly επιστρέφουν για 4η συνεχόμενη χρονιά και έχουν πλέον καθιερωθεί ως θεσμός στην Ελλάδα για όσους θέλουν να επενδύσουν ουσιαστικά στον εαυτό τους κατά τη διάρκεια του καλοκαιριού.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Showcase",
+      "metadata": {
+        "title": "Θέσεις Εργασίας",
+        "values": [
+          {
+            "title": "All Professionals:",
+            "amount": "6000+ Jobs",
+            "percentage": "100"
+          },
+          {
+            "title": "Junior Professionals",
+            "amount": "2000+ Jobs",
+            "percentage": "100"
+          }
+        ]
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6Aoef1ikDRwCtsqesAbMiJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7Kg9qPPglj0KOXQUYNGQno",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryHr",
+                  "name": "Course Category: HR",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5vzH1cABhDiKh80s3HyhGh",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryDataScience",
+                  "name": "Course Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryIt",
+                  "name": "Course Category: IT",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySports",
+                  "name": "Course Category: Sports",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2talblHsoC05rAya7MHQ5D",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryDataScience",
+                  "name": "Course Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "i5d3bwWRYqBUb5hX4sgge",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryDigitalMarketing",
+                  "name": "Course Category: Digital Marketing",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "35PXS2BxwDnvlHiFHF9ryF",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryEntrepreneurship",
+                  "name": "Course Category: Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "1Gs2UWd8vqiXAiYQHw9XOA",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryAi",
+                  "name": "Course Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategoryBusinessAnalytics",
+                  "name": "Course Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "255ELHWqFMgp19b9HJVGas",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryBusinessAnalytics",
+                  "name": "Course Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "0lFjLOqQVcRw8W7h5mIRl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryFinance",
+                  "name": "Course Category: Finance",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "courseCategorySummerSchools",
+                  "name": "Course Category: Summer Schools",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "46op924EmcCCTf2C3Zo76C",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Narrow",
+      "theme": null,
+      "title": "Πρόγραμμα Σπουδών",
+      "supertitle": null,
+      "text": "Το Project Management Summer School σου δίνει την ευκαιρία να αποκτήσεις πρακτικές δεξιότητες σε όλες τις κρίσιμες πτυχές της διαχείρισης έργων: από τον σχεδιασμό και τη διαχείριση χρόνου/πόρων, μέχρι τα Agile/Scrum frameworks, την ανάλυση ρίσκου και την ηγεσία ομάδων. Θα δουλέψεις σε ρεαλιστικά σενάρια, θα εξασκηθείς με εργαλεία όπως Excel και AI assistants, και θα μάθεις πώς να παραδίδεις έργα στην ώρα τους — με επιτυχία και αποτελεσματικότητα. Κι όλα αυτά, στον δικό σου ρυθμό. Ακόμα και από την ξαπλώστρα σου.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "feRrjJK4oZM6dlf74zd4h",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3scgbdXfQWwfOdSmdkZgtM",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1qoMWQOJvl9jHSbntIf3Fb",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "76Dancc2NQ05XsXZ81YGk4",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2v67cSwIeyYg9TIkpQyXI8",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "DLhLLytdRp5BGKMSesajD",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "63VDyAANmvFH5r1Qrek5V3",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7IpufwJceWzSbYjzulgxc8",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Top Mentors",
+      "supertitle": "Mentoring από ανθρώπους της αγοράς",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Mentors Spotlight",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "28igcPwBlqw7A3OzndWx3h",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2tNktKgKP0E0XcsymIgzMl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "21aA3sGZVmkqwqMcDyc3xl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "AIwz1YgD3moT6inhE6ZGc",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7sQASuNa3kobvXhX6thl9L",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinanceInvestments",
+                  "name": "Mentors: Finance & Investments",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7np6xEEbSQPMSHamqwMVXC",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7eu6EsqMixwb0t6PGuqhEk",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3YI79uwD0ukfbjEMtSHPXT",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6NpxeUbjEsOiVFtofDGMkS",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryFinance",
+                  "name": "Certificate Category: Finance",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelMicroCredentials",
+                  "name": "Certificate Level: Micro-credentials",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3t2JYb8bKcjWNZt53aueu6",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Narrow",
+      "theme": null,
+      "title": "Πρόγραμμα Σπουδών",
+      "supertitle": null,
+      "text": "Μάθε χρηματοοικονομικά με πρακτικό τρόπο: από την ανάλυση οικονομικών καταστάσεων και επενδύσεων μέχρι τη χρήση Excel & Power BI για reporting. Σε 6–8 εβδομάδες, θα αποκτήσεις δεξιότητες που εφαρμόζονται άμεσα, με mentoring από επαγγελματίες και real-world σενάρια. Ιδανικό για φοιτητές & νέους επαγγελματίες που θέλουν να μπουν δυναμικά στον κόσμο των οικονομικών.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "30n5sVtPqk9xkVydYYmHfM",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4TepACW2LkvM8zEFk5Aofd",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1sCqLs24kCpGPX2PoTuEBZ",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3XeApFrI5XvqmOVL7RnTtx",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3yW92gtxLPDwTlmipqVBBU",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1hs8YY5S2EIfEAXfYvGfUX",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3g3yeigmEddkDuFQsCFKsx",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "tuoLI8ULJKfBDZAcK731x",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Top Mentors",
+      "supertitle": "Mentoring από ανθρώπους της αγοράς",
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Mentors Spotlight",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7sQASuNa3kobvXhX6thl9L",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinanceInvestments",
+                  "name": "Mentors: Finance & Investments",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsSalesBusinessDevelopment",
+                  "name": "Mentors: Sales & Business Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7wpUWaIMN7X4rBqe0o3S5M",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsFinance",
+                  "name": "Mentors: Finance",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2tNktKgKP0E0XcsymIgzMl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsECommerceRetail",
+                  "name": "Mentors: E-commerce & Retail",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsMarketingGrowthStrategy",
+                  "name": "Mentors: Marketing & Growth Strategy",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsStartupsFundraising",
+                  "name": "Mentors: Startups & Fundraising",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "28igcPwBlqw7A3OzndWx3h",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsBusinessEntrepreneurship",
+                  "name": "Mentors: Business & Entrepreneurship",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPublicRelationsCommunication",
+                  "name": "Mentors: Public Relations & Communication",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "KiHFY7sX76SRbyI1P7O5W",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsHrTalentAcquisition",
+                  "name": "Mentors: HR & Talent Acquisition",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsLeadershipManagement",
+                  "name": "Mentors: Leadership & Management",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "mentorsPersonalBrandingCareerDevelopment",
+                  "name": "Mentors: Personal Branding & Career Development",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "4FjO7z2fYmTyBn5lb6NXdb",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "mentorsDataScienceAnalytics",
+                  "name": "Mentors: Data Science & Analytics",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2vbSfk2kT7GHk3EykI7voE",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Alt",
+      "size": null,
+      "theme": null,
+      "title": "Blog",
+      "supertitle": "From Workearly",
+      "text": null,
+      "titleSize": null,
+      "titleTagOverride": "h1",
+      "cardVariant": "None",
+      "cardsCount": 3,
+      "cardTheme": null,
+      "variant": "Card Hybrid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5StPlFDdUZa5tzAp1AGW02",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6H9nW24QffPxor8MQejPpz",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "1m31kOhvaQslHQoILYP9ME",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6BP0IjsP8GKOPaMr57NmRo",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "1IYNIE7yikNePrqkm2Gulx",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "61KMZhIuumV9q2dpOpzNOK",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicBusiness",
+                  "name": "Article Topic: Business",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6C6GmHIAqvlXqZA94rFm6C",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicHr",
+                  "name": "Article Topic: HR",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "1BHN59azfcxhyOQZalmpzn",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicHr",
+                  "name": "Article Topic: HR",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2hgvlsb2RT0qdvBzmwPS33",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5GR5qqC6vbMifQ7Utj2sAr",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5TIrKMaagfsbNNekIhkfWM",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "4PYgFBFPJJHDNAKb6Zmnhx",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicHr",
+                  "name": "Article Topic: HR",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "525QScHzaGO3T2EunVgJ86",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "XZ5EBu6zblKMxCIFaRrni",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicSportsAnalytics",
+                  "name": "Article Topic: Sports Analytics",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "s00ElLLwovP1zhbatjOIL",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "zh4lkRwRCzOoTR6J9uaVI",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "oaJGWZ7ysgnE9Xgfur1Gz",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicBusiness",
+                  "name": "Article Topic: Business",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "7IqDhBAoJVvFw8UAto8DjT",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicHr",
+                  "name": "Article Topic: HR",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "MO2aHc97iuOLiivfpqOJe",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "2hxsbbVhZcacX1Cf4oGAlt",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "smpe5PscfeUHt6aevbdt1",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicBusiness",
+                  "name": "Article Topic: Business",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "3l6RVyLps5gLZDErgCQ5fr",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryGeneral",
+                  "name": "Article Category: General",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6DykUXln2sGewEfr93K82G",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryInterviews",
+                  "name": "Article Category: Interviews",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicAi",
+                  "name": "Article Topic: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicBusiness",
+                  "name": "Article Topic: Business",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "3xOMRmNoODMXoDUCX3j1dl",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryInterviews",
+                  "name": "Article Category: Interviews",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicHr",
+                  "name": "Article Topic: HR",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "3rHWY8Trh6dmi1lTq1ZHhv",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryInterviews",
+                  "name": "Article Category: Interviews",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicAi",
+                  "name": "Article Topic: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "4zZ4ZOofALei58EtJnDftC",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "articleCategoryInterviews",
+                  "name": "Article Category: Interviews",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "articleTopicIt",
+                  "name": "Article Topic: IT",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "7xIiDkXAbTkhqlxUjXbzaj",
@@ -2424,333 +4371,6 @@
     },
     {
       "sys": {
-        "id": "YP5VBwCfW2YxiTvV1AyCG",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Workearly Summer Schools 2025",
-      "supertitle": "Ένα καλοκαίρι μπορεί να αλλάξει τα πάντα.",
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Photo And Text",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7qk6OjKIR5xOCK1dLfYpf",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2WAnIVF3VJItDRT7UCZAkA",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7uIrdxbGAsO1df1oZqft4m",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1U5DHrTY910EgSOZidssvA",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1Pj06jALF8jYrdsVG7ckmq",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3vOQlGn6ViM3fAjHFslrxA",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "lsnFWEAV9ghYTTFgCOVlb",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": "Light",
-      "title": "Summer Schools 2025",
-      "supertitle": null,
-      "text": "Τα Summer Schools του Workearly επιστρέφουν για 4η συνεχόμενη χρονιά και έχουν πλέον καθιερωθεί ως θεσμός στην Ελλάδα για όσους θέλουν να επενδύσουν ουσιαστικά στον εαυτό τους κατά τη διάρκεια του καλοκαιριού.",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Showcase",
-      "metadata": {
-        "title": "Θέσεις Εργασίας",
-        "values": [
-          {
-            "title": "All Professionals:",
-            "amount": "6000+ Jobs",
-            "percentage": "100"
-          },
-          {
-            "title": "Junior Professionals",
-            "amount": "2000+ Jobs",
-            "percentage": "100"
-          }
-        ]
-      },
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6Aoef1ikDRwCtsqesAbMiJ",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7Kg9qPPglj0KOXQUYNGQno",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5vzH1cABhDiKh80s3HyhGh",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2talblHsoC05rAya7MHQ5D",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "i5d3bwWRYqBUb5hX4sgge",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryDigitalMarketing",
-                  "name": "Course Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "35PXS2BxwDnvlHiFHF9ryF",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryEntrepreneurship",
-                  "name": "Course Category: Entrepreneurship",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1Gs2UWd8vqiXAiYQHw9XOA",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "3rBm7k10HQti5RcC7lMf6B",
         "__typename": "Sys"
       },
@@ -3279,602 +4899,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "2vbSfk2kT7GHk3EykI7voE",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Alt",
-      "size": null,
-      "theme": null,
-      "title": "Blog",
-      "supertitle": "From Workearly",
-      "text": null,
-      "titleSize": null,
-      "titleTagOverride": "h1",
-      "cardVariant": "None",
-      "cardsCount": 3,
-      "cardTheme": null,
-      "variant": "Card Hybrid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6H9nW24QffPxor8MQejPpz",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1m31kOhvaQslHQoILYP9ME",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6BP0IjsP8GKOPaMr57NmRo",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1IYNIE7yikNePrqkm2Gulx",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "61KMZhIuumV9q2dpOpzNOK",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicBusiness",
-                  "name": "Article Topic: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6C6GmHIAqvlXqZA94rFm6C",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicHr",
-                  "name": "Article Topic: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1BHN59azfcxhyOQZalmpzn",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicHr",
-                  "name": "Article Topic: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2hgvlsb2RT0qdvBzmwPS33",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5GR5qqC6vbMifQ7Utj2sAr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5TIrKMaagfsbNNekIhkfWM",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "4PYgFBFPJJHDNAKb6Zmnhx",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicHr",
-                  "name": "Article Topic: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "525QScHzaGO3T2EunVgJ86",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "XZ5EBu6zblKMxCIFaRrni",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicSportsAnalytics",
-                  "name": "Article Topic: Sports Analytics",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "s00ElLLwovP1zhbatjOIL",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "zh4lkRwRCzOoTR6J9uaVI",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "oaJGWZ7ysgnE9Xgfur1Gz",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicBusiness",
-                  "name": "Article Topic: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7IqDhBAoJVvFw8UAto8DjT",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicHr",
-                  "name": "Article Topic: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "MO2aHc97iuOLiivfpqOJe",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2hxsbbVhZcacX1Cf4oGAlt",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "smpe5PscfeUHt6aevbdt1",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicBusiness",
-                  "name": "Article Topic: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "3l6RVyLps5gLZDErgCQ5fr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryGeneral",
-                  "name": "Article Category: General",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6DykUXln2sGewEfr93K82G",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryInterviews",
-                  "name": "Article Category: Interviews",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicAi",
-                  "name": "Article Topic: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicBusiness",
-                  "name": "Article Topic: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "3xOMRmNoODMXoDUCX3j1dl",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryInterviews",
-                  "name": "Article Category: Interviews",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicHr",
-                  "name": "Article Topic: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "3rHWY8Trh6dmi1lTq1ZHhv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryInterviews",
-                  "name": "Article Category: Interviews",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicAi",
-                  "name": "Article Topic: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "4zZ4ZOofALei58EtJnDftC",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "articleCategoryInterviews",
-                  "name": "Article Category: Interviews",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "articleTopicIt",
-                  "name": "Article Topic: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -5169,24 +6193,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "57MEqzXsLMK3YygNJ7a1VS",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://videos.ctfassets.net/fmxc36tvwra3/57MEqzXsLMK3YygNJ7a1VS/26d0f821de2f3887b853a488ed8d133c/shutterstock_1039048256.mov",
-            "width": null,
-            "height": null,
-            "contentType": "video/quicktime",
-            "title": "Summer Events - Workearly new video",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -5202,55 +6208,21 @@
             }
           }
         ]
-      }
-    },
-    {
-      "sys": {
-        "id": "3wbxMAUaCqIBqhC0qu6uOB",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Premier Hiring Partner",
-      "supertitle": null,
-      "text": "Premier Hiring Partner των Workearly Summer Schools 2025 είναι η kariera.gr, με στόχο την ουσιαστική σύνδεση των συμμετεχόντων με την αγορά εργασίας, την προώθηση αποφοίτων σε θέσεις απασχόλησης και την ενίσχυση της επαγγελματικής τους εξέλιξης μέσα από στρατηγική συνεργασία και δικτύωση.",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Standard Component Framed",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
           {
             "sys": {
-              "id": "NZSMrGWzKrceDNR4BP4ee",
+              "id": "57MEqzXsLMK3YygNJ7a1VS",
               "__typename": "Sys"
             },
             "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/NZSMrGWzKrceDNR4BP4ee/31ac3f89883e2f9e4a12f8d52a6eb841/karierra.png",
-            "width": 1000,
-            "height": 1000,
-            "contentType": "image/png",
-            "title": "kariera",
+            "url": "https://videos.ctfassets.net/fmxc36tvwra3/57MEqzXsLMK3YygNJ7a1VS/26d0f821de2f3887b853a488ed8d133c/shutterstock_1039048256.mov",
+            "width": null,
+            "height": null,
+            "contentType": "video/quicktime",
+            "title": "Summer Events - Workearly new video",
             "description": ""
           }
         ]
@@ -6691,6 +7663,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -6706,22 +7694,6 @@
             "contentType": "video/mp4",
             "title": "Workearly Promo Video",
             "description": null
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }

@@ -1,6 +1,7 @@
 {
-  "__timestamp": 1748262700277,
-  "total": 138,
+  "__timestamp": 1748879230059,
+  "__hash": "e96fdee05f3e0438fb52567d3e865962df3bab4ce277c80e0588190f3e7ad46f",
+  "total": 141,
   "items": [
     {
       "sys": {
@@ -1625,7 +1626,7 @@
                       "content": [
                         {
                           "nodeType": "text",
-                          "value": "Refer a friends",
+                          "value": "Refer a friend",
                           "marks": [],
                           "data": {}
                         }
@@ -1672,6 +1673,194 @@
                       ]
                     }
                   ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Η παρακολούθηση των προγραμμάτων της Εκπαιδευτικής Πλατφόρμας απευθύνεται σε ενήλικες καθώς και σε ανήλικους ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "ηλικίας 15 ετών και άνω",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ". Η χρήση της πλατφόρμας από ανήλικους ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "κάτω των 15 ετών",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " επιτρέπεται ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "μόνο κατόπιν ρητής και προηγούμενης συγκατάθεσης του γονέα ή του νόμιμου κηδεμόνα",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " και με ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "αποκλειστική ευθύνη",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " του τελευταίου. Χωρίς αυτή τη συναίνεση, η χρήση της πλατφόρμας δεν επιτρέπεται.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Η αγορά εκπαιδευτικών προγραμμάτων ή οποιωνδήποτε επί πληρωμή υπηρεσιών της Εταιρείας επιτρέπεται ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "αποκλειστικά σε άτομα ηλικίας 18 ετών και άνω.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " Με την πραγματοποίηση οποιασδήποτε αγοράς, ο χρήστης δηλώνει ρητά ότι είναι ενήλικος και ότι διαθέτει τη νομική ικανότητα να συνάψει δεσμευτική σύμβαση. Σε περίπτωση που η χρήση του προγράμματος προορίζεται για ανήλικο, η ευθύνη για την αγορά και την αποδοχή των όρων χρήσης βαρύνει αποκλειστικά τον ενήλικο που την πραγματοποιεί.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Αγοράζοντας πρόγραμμα για ανήλικο άτομο, ο γονέας ή κηδεμόνας:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "παρέχει ρητή συγκατάθεση για την εγγραφή και συμμετοχή του ανηλίκου στο πρόγραμμα·",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "δηλώνει ότι έχει διαβάσει και αποδέχεται πλήρως τους παρόντες Όρους Χρήσης εκ μέρους του ανηλίκου·",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "αναλαμβάνει πλήρως τη νομική και οικονομική ευθύνη για κάθε ενέργεια και συναλλαγή του ανηλίκου στο πλαίσιο της πλατφόρμας.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Σε περίπτωση που διαπιστώσετε ότι το παιδί σας χρησιμοποιεί τις Υπηρεσίες μας χωρίς την προηγούμενη γνώση και έγκρισή σας, παρακαλούμε ενημερώστε μας άμεσα. Η Εταιρεία διατηρεί το δικαίωμα να ζητήσει αποδεικτικά στοιχεία γονικής συναίνεσης ή να διακόψει τη συμμετοχή σε περίπτωση παραβίασης των παραπάνω όρων.",
+                  "marks": [],
+                  "data": {}
                 }
               ]
             },
@@ -2738,18 +2927,6 @@
                 {
                   "nodeType": "text",
                   "value": "Δεν επιτρέπεται να μοιράζεσαι τα διαπιστευτήρια σύνδεσής σου με άλλους. Το WORKEARLY δεν δύναται να παρέμβει σε τυχόν διαφορές που προκύπτουν από κοινή χρήση λογαριασμών, εκτός αν πλήττονται τα έννομα συμφέροντα της Εταιρείας. Πρέπει να μας ειδοποιήσεις αμέσως εάν αντιληφθείς ότι κάποιος άλλος χρησιμοποιεί τον λογαριασμό σου χωρίς την άδειά σου (ή αν υποψιάζεσαι οποιοδήποτε άλλο ζήτημα ασφαλείας), επικοινωνώντας με την Ομάδα Υποστήριξής μας. Ενδέχεται να σου ζητήσουμε κάποιες πληροφορίες για να επιβεβαιώσουμε ότι είσαι όντως ο κάτοχος του λογαριασμού.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Εάν διαπιστώσουμε ότι είσαι κάτω από 18 ετών, θα χρειαστεί να διαγράψουμε τον λογαριασμό σου.",
                   "marks": [],
                   "data": {}
                 }
@@ -5031,13 +5208,7 @@
                 },
                 {
                   "nodeType": "text",
-                  "value": ", διευκρινίζεται ότι η εταιρεία «PUBLIC RETAIL ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΜΠΟΡΙΚΗ ΕΤΑΙΡΕΙΑ ΠΡΟΪΟΝΤΩΝ & ΥΠΗΡΕΣΙΩΝ ΤΕΧΝΟΛΟΓΙΑΣ, ΟΙΚΙΑΚΩΝ ΣΥΣΚΕΥΩΝ, ΕΠΙΚΟΙΝΩΝΙΑΣ, ΨΥΧΑΓΩΓΙΑΣ & ΠΟΛΙΤΙΣΜΟΥ», με τον διακριτικό τίτλο «PUBLIC RETAIL Α.Ε.», δεν φέρει καμία ευθύνη για την επιλογή των υποψηφίων, τη διεξαγωγή των προγραμμάτων, ούτε για οποιαδήποτε άλλη ενέργεια σχετιζόμενη με την παροχή των εν λόγω υποτροφιών. Όλες οι σχετικές διαδικασίες διενεργούνται αποκλειστικά από το WORKEARLY. ",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "\n",
+                  "value": ", διευκρινίζεται ότι η εταιρεία «PUBLIC RETAIL ΜΟΝΟΠΡΟΣΩΠΗ ΑΝΩΝΥΜΗ ΕΜΠΟΡΙΚΗ ΕΤΑΙΡΕΙΑ ΠΡΟΪΟΝΤΩΝ & ΥΠΗΡΕΣΙΩΝ ΤΕΧΝΟΛΟΓΙΑΣ, ΟΙΚΙΑΚΩΝ ΣΥΣΚΕΥΩΝ, ΕΠΙΚΟΙΝΩΝΙΑΣ, ΨΥΧΑΓΩΓΙΑΣ & ΠΟΛΙΤΙΣΜΟΥ», με τον διακριτικό τίτλο «PUBLIC RETAIL Α.Ε.», δεν φέρει καμία ευθύνη για την επιλογή των υποψηφίων, τη διεξαγωγή των προγραμμάτων, ούτε για οποιαδήποτε άλλη ενέργεια σχετιζόμενη με την παροχή των εν λόγω υποτροφιών. Όλες οι σχετικές διαδικασίες διενεργούνται αποκλειστικά από το WORKEARLY. \n",
                   "marks": [],
                   "data": {}
                 }
@@ -5102,6 +5273,915 @@
                 {
                   "nodeType": "text",
                   "value": "\n\n",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4UtazkCThaSrq4KZEkY2k3",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Double Column Checkmark",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Skills Acquired",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Project Planning & Execution",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Time & Resource Management",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Risk & Stakeholder Management",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Agile & Scrum Methodologies",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Team Leadership & Collaboration",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Use of Excel for Project Management",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Communication & Conflict Resolution",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "AI Tools for Project Managers",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Project Closure & Evaluation",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "4SjLKSnBdVitJ8BVEccaiA",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Double Column Checkmark",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Skills Acquired",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Financial Literacy & Core Concepts",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Personal Budgeting & Planning",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Financial Statements Analysis",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Ιnvestment Evaluation & Risk",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Business Financing & ROI",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Financial Reporting & Dashboards",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Data-Driven Decision Making",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Financial Communication & Ethics",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "EORm7acNVfOZgmVLF42WA",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Default",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Ο μεγάλος τελικός του UEFA Champions League 2025 είναι εδώ! Παρί Σεν Ζερμέν ή Ίντερ;\n",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Η μάχη κορυφής πλησιάζει και… ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "η δική σου πρόβλεψη μετράει!",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "\n",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "Ψήφισε & Κέρδισε!",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Ποιος πιστεύεις ότι θα σηκώσει το τρόπαιο φέτος; Ψήφισε ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "δωρεάν",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " τον νικητή και αν προβλέψεις σωστά, ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "κερδίζεις κουπόνι",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " για οποιοδήποτε course τoυ Workearly!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Bonus Συμμετοχής\n",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Τι κερδίζεις με τη συμμετοχή σου",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " ",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Ανεξάρτητα από το αποτέλεσμα της ψηφοφορίας, με τη συμμετοχή σου κερδίζεις ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "δωρεάν demo course",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": " με ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "στατιστική ανάλυση ποδοσφαίρου",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": ", βασισμένο στο φετινό Champions League!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Δες το ποδόσφαιρο αλλιώς – ",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "μέσα από τα δεδομένα.",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Τι θα λάβεις μετά τη συμμετοχή σου:",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "text",
+                  "value": "\n",
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Email με ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "προσωπικούς κωδικούς πρόσβασης",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Δωρεάν είσοδο",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " στην εκπαιδευτική πλατφόρμα του Workearly",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Αν προβλέψεις σωστά τον νικητή; ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "Κουπόνι δώρου",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " για όποιο course της επιλογής σου\n ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Πώς συμμετέχεις:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Απλώς συμπλήρωσε την παρακάτω φόρμα:\n\n",
+                  "marks": [],
+                  "data": {}
+                },
+                {
+                  "nodeType": "hyperlink",
+                  "data": {
+                    "uri": "https://form.123formbuilder.com/form-6849195/football-poll"
+                  },
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Φόρμα Συμμετοχής",
+                      "marks": [
+                        {
+                          "type": "underline"
+                        },
+                        {
+                          "type": "bold"
+                        }
+                      ],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Μπες στο παιχνίδι – η γνώμη σου μετράει και κερδίζει!",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "blockquote",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://form.123formbuilder.com/form-6849195/football-poll"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Κάνε τη δική σου πρόβλεψη τώρα και κέρδισε.",
+                          "marks": [
+                            {
+                              "type": "underline"
+                            }
+                          ],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
                   "marks": [],
                   "data": {}
                 }

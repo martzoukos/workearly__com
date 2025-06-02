@@ -1,7 +1,80 @@
 {
-  "__timestamp": 1748262701775,
-  "total": 163,
+  "__timestamp": 1748879234565,
+  "__hash": "5387754a0bdeeddd6d44d1a86f0bec7b9c3bda4e9b5b0abc8ac241cd7c1828c6",
+  "total": 165,
   "items": [
+    {
+      "sys": {
+        "id": "HlfvPuiCbAE1hFmTB1qgj",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Project Management Summer School με Πιστοποίηση",
+      "group": 4,
+      "title": "Project Management Summer School",
+      "summary": "Το Project Management Summer School 2025 είναι μια πρακτική, σύγχρονη εκπαιδευτική εμπειρία για όσους θέλουν να αποκτήσουν ουσιαστικές δεξιότητες στη διαχείριση έργων. Μέσα σε 6–8 εβδομάδες θα μάθεις να σχεδιάζεις, να ηγείσαι και να ολοκληρώνεις έργα αποτελεσματικά, με βάση διεθνείς πρακτικές όπως Agile & Scrum. Θα εκπαιδευτείς σε κρίσιμα πεδία όπως διαχείριση χρόνου, κόστους, πόρων, ρίσκου και ομάδων, ενώ θα αξιοποιήσεις εργαλεία όπως Excel και AI. Περιλαμβάνει mentoring από επαγγελματίες, live δικτύωση και πρόσβαση σε ευκαιρίες απασχόλησης. Ιδανικό για φοιτητές και νέους επαγγελματίες όλων των κλάδων.",
+      "shortDescription": "Το Project Management Summer School 2025 είναι μια πρακτική, σύγχρονη εκπαιδευτική εμπειρία για όσους θέλουν να αποκτήσουν ουσιαστικές δεξιότητες στη διαχείριση έργων.",
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6851324/project-management-summer-school",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 275,
+      "finalCost": 87,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "69QM9E05NNCuzlv3OF88T7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/69QM9E05NNCuzlv3OF88T7/e9d78a62cbc60ecf6c2a6d2f5812aa2a/shutterstock_2476297007.jpg",
+        "width": 9504,
+        "height": 6336,
+        "contentType": "image/jpeg",
+        "title": "Project Management Summer School",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "52AlnZT1vuruUIVIXTwgg2",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Finance Summer School με Πιστοποίηση",
+      "group": 4,
+      "title": "Finance Summer School 2025",
+      "summary": "Το Finance Summer School 2025 εστιάζει στην πρακτική\nχρηματοοικονομική παιδεία για φοιτητές, επαγγελματίες και όσους θέλουν να αποκτήσουν\nουσιαστικές γνώσεις στη διαχείριση οικονομικών, λήψη αποφάσεων και ανάλυση\nεπενδύσεων. Σε 6–8 εβδομάδες, θα εκπαιδευτείς σε βασικές και προχωρημένες έννοιες των\nχρηματοοικονομικών, προσωπική και επιχειρησιακή διαχείριση, χρηματοοικονομική ανάλυση\nκαι χρηματιστηριακές αγορές. Περιλαμβάνει hands-on εφαρμογές με εργαλεία reporting και\nειδικές ενότητες για personal branding σε οικονομικά περιβάλλοντα. Με mentoring, live\nnetworking και πρόσβαση σε ευκαιρίες απασχόλησης, αποτελεί ιδανική επιλογή για όσους\nθέλουν να μπουν δυναμικά στον χώρο της οικονομίας.",
+      "shortDescription": "Το Finance Summer School 2025 εστιάζει στην πρακτική χρηματοοικονομική παιδεία για φοιτητές, επαγγελματίες και όσους θέλουν να αποκτήσουν ουσιαστικές γνώσεις στη διαχείριση οικονομικών, λήψη αποφάσεων και ανάλυση επενδύσεων.",
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6851323/finance-summer-school",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "-",
+      "applicationDeadline": "-",
+      "startingCost": 275,
+      "finalCost": 87,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "6q0E5uQpvNJHxsgD3LCZHn",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6q0E5uQpvNJHxsgD3LCZHn/bcd5f70863c4eff3bc921f1f1365789e/shutterstock_2458577685.jpg",
+        "width": 5510,
+        "height": 3673,
+        "contentType": "image/jpeg",
+        "title": "Finance Summer School 2025",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "4oLP1CANy9BEl7r9sVMocS",

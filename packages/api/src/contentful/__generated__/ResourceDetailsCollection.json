@@ -1,7 +1,41 @@
 {
-  "__timestamp": 1748262708545,
-  "total": 31,
+  "__timestamp": 1748879245638,
+  "__hash": "d3460fea7f5e0fdcc5377fc22c5946ea1379a61e5df53883270c4c8f920580c1",
+  "total": 32,
   "items": [
+    {
+      "sys": {
+        "id": "4cJCXauWF05D8JWEldopZq",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Τελικός Champions League 2025: Ποιος θα το σηκώσει;",
+      "description": "Ο μεγάλος τελικός του UEFA Champions League 2025 είναι εδώ! Παρί Σεν Ζερμέν ή Ίντερ;",
+      "publicationDate": "2025-05-26T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryGeneral",
+            "name": "Article Category: General",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5SBQCPchcSNNYLTWg6BeMl",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5SBQCPchcSNNYLTWg6BeMl/ba8698742782c613dedd2de6a6518667/workearly_summer_schools_2025__40_.png",
+        "width": 1080,
+        "height": 1080,
+        "contentType": "image/png",
+        "title": "Τελικός Champions League 2025",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "578RdSD2X0A0iBw6cl9CMU",

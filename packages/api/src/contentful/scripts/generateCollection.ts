@@ -1,5 +1,6 @@
 import { TypedDocumentNode } from "@urql/core";
 import { exec } from "child_process";
+import crypto from "crypto";
 import fs from "fs";
 import { DocumentNode, OperationDefinitionNode } from "graphql";
 import path from "path";
@@ -37,14 +38,15 @@ export default async function generateCollection<TData>({
 }: OptionsType<TData, ContentTypeVariables>) {
   const name = getOperationName(query) ?? "unknown";
   const outputFile = path.resolve(`${OUTPUT_DIR}/${name}.json`);
-  const sixHoursAgo = Date.now() - INTERVAL;
+  const difference = Date.now() - INTERVAL;
+  let cached;
 
   if (fs.existsSync(outputFile)) {
     try {
-      const cached = JSON.parse(fs.readFileSync(outputFile, "utf-8"));
+      cached = JSON.parse(fs.readFileSync(outputFile, "utf-8"));
       if (
         cached.__timestamp &&
-        cached.__timestamp > sixHoursAgo &&
+        cached.__timestamp > difference &&
         Array.isArray(cached.items) &&
         cached.items.length > 0
       ) {
@@ -90,8 +92,16 @@ export default async function generateCollection<TData>({
     skip += limit;
   } while (items.length < total);
 
+  const newHash = generateHash(items);
+
+  if (newHash === cached.__hash) {
+    console.log(`⏭️  Skipping ${name} (hash match, data unchanged)`);
+    return;
+  }
+
   const payload = {
     __timestamp: Date.now(),
+    __hash: newHash,
     total,
     items,
   };
@@ -117,4 +127,8 @@ function getOperationName(doc: DocumentNode): string | undefined {
     (def): def is OperationDefinitionNode => def.kind === "OperationDefinition"
   );
   return operationDef?.name?.value;
+}
+
+function generateHash(data: unknown): string {
+  return crypto.createHash("sha256").update(JSON.stringify(data)).digest("hex");
 }

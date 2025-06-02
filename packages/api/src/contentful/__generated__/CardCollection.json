@@ -1,7 +1,104 @@
 {
-  "__timestamp": 1748262691700,
-  "total": 210,
+  "__timestamp": 1748879216913,
+  "__hash": "565bd48cd7cc5ca8c3cfbc8bf2ea8cd30366c460e8840cc48fbbd615559a6bfd",
+  "total": 212,
   "items": [
+    {
+      "sys": {
+        "id": "4D8tqOfM4TszhsCePC4RVk",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Finance Summer School 2025",
+      "text": "Το Finance Summer School 2025 εστιάζει στην πρακτική χρηματοοικονομική παιδεία για φοιτητές, επαγγελματίες και όσους θέλουν να αποκτήσουν ουσιαστικές γνώσεις στη διαχείριση οικονομικών, λήψη αποφάσεων και ανάλυση επενδύσεων. Σε 6–8 εβδομάδες, θα εκπαιδευτείς σε βασικές και προχωρημένες έννοιες των χρηματοοικονομικών, προσωπική και επιχειρησιακή διαχείριση, χρηματοοικονομική ανάλυση και χρηματιστηριακές αγορές. Περιλαμβάνει hands-on εφαρμογές με εργαλεία reporting και ειδικές ενότητες για personal branding σε οικονομικά περιβάλλοντα. Με mentoring, live networking και πρόσβαση σε ευκαιρίες απασχόλησης, αποτελεί ιδανική επιλογή για όσους θέλουν να μπουν δυναμικά στον χώρο της οικονομίας.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6Bpqdv1Aj4j6OiTQ0Pf292",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "6q0E5uQpvNJHxsgD3LCZHn",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6q0E5uQpvNJHxsgD3LCZHn/bcd5f70863c4eff3bc921f1f1365789e/shutterstock_2458577685.jpg",
+        "width": 5510,
+        "height": 3673,
+        "contentType": "image/jpeg",
+        "title": "Finance Summer School 2025",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "28xwEmyEjIImFhkYqKHgea",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "title": "Project Management Summer School",
+      "text": "Το Project Management Summer School 2025 είναι μια πρακτική, σύγχρονη εκπαιδευτική εμπειρία για όσους θέλουν να αποκτήσουν ουσιαστικές δεξιότητες στη διαχείριση έργων. Μέσα σε 6–8 εβδομάδες θα μάθεις να σχεδιάζεις, να ηγείσαι και να ολοκληρώνεις έργα αποτελεσματικά, με βάση διεθνείς πρακτικές όπως Agile & Scrum. Θα εκπαιδευτείς σε κρίσιμα πεδία όπως διαχείριση χρόνου, κόστους, πόρων, ρίσκου και ομάδων, ενώ θα αξιοποιήσεις εργαλεία όπως Excel και AI. Περιλαμβάνει mentoring από επαγγελματίες, live δικτύωση και πρόσβαση σε ευκαιρίες απασχόλησης. Ιδανικό για φοιτητές και νέους επαγγελματίες όλων των κλάδων.\n",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "CardActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "79RaKoFuRbpYqn9aBA9Nm4",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "69QM9E05NNCuzlv3OF88T7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/69QM9E05NNCuzlv3OF88T7/e9d78a62cbc60ecf6c2a6d2f5812aa2a/shutterstock_2476297007.jpg",
+        "width": 9504,
+        "height": 6336,
+        "contentType": "image/jpeg",
+        "title": "Project Management Summer School",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "yFbfGSMiPE1xjPgaQPbqR",
@@ -20,19 +117,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "1P91ojxzPMIWBY5iRwIzWS",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1P91ojxzPMIWBY5iRwIzWS/def99083498a3970ba5b0f482adb3134/shutterstock_2326049231.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "AI Business Summer School by SHRM",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -48,6 +132,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1P91ojxzPMIWBY5iRwIzWS",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1P91ojxzPMIWBY5iRwIzWS/def99083498a3970ba5b0f482adb3134/shutterstock_2326049231.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "AI Business Summer School by SHRM",
+        "description": ""
       }
     },
     {
@@ -68,19 +165,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "3KBPoruWpGfnGytnD3ByjY",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/3KBPoruWpGfnGytnD3ByjY/e18286e10679b81b1f12c223b931786a/shutterstock_2306281377.jpg",
-        "width": 5097,
-        "height": 3398,
-        "contentType": "image/jpeg",
-        "title": "AI Business Summer School by SHRM - sign up",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -96,6 +180,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "3KBPoruWpGfnGytnD3ByjY",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3KBPoruWpGfnGytnD3ByjY/e18286e10679b81b1f12c223b931786a/shutterstock_2306281377.jpg",
+        "width": 5097,
+        "height": 3398,
+        "contentType": "image/jpeg",
+        "title": "AI Business Summer School by SHRM - sign up",
+        "description": ""
       }
     },
     {
@@ -212,19 +309,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "3Cd0uPyntNAf84XimExHdX",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/3Cd0uPyntNAf84XimExHdX/b2f2f9327206a41cd8f78d20f4e8297e/shutterstock_424172656.jpg",
-        "width": 5472,
-        "height": 3648,
-        "contentType": "image/jpeg",
-        "title": "Hack the Football Data & Programming Summer School - Main photo",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -240,6 +324,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "3Cd0uPyntNAf84XimExHdX",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3Cd0uPyntNAf84XimExHdX/b2f2f9327206a41cd8f78d20f4e8297e/shutterstock_424172656.jpg",
+        "width": 5472,
+        "height": 3648,
+        "contentType": "image/jpeg",
+        "title": "Hack the Football Data & Programming Summer School - Main photo",
+        "description": ""
       }
     },
     {
@@ -260,19 +357,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "3Cd0uPyntNAf84XimExHdX",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/3Cd0uPyntNAf84XimExHdX/b2f2f9327206a41cd8f78d20f4e8297e/shutterstock_424172656.jpg",
-        "width": 5472,
-        "height": 3648,
-        "contentType": "image/jpeg",
-        "title": "Hack the Football Data & Programming Summer School - Main photo",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -288,6 +372,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "3Cd0uPyntNAf84XimExHdX",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3Cd0uPyntNAf84XimExHdX/b2f2f9327206a41cd8f78d20f4e8297e/shutterstock_424172656.jpg",
+        "width": 5472,
+        "height": 3648,
+        "contentType": "image/jpeg",
+        "title": "Hack the Football Data & Programming Summer School - Main photo",
+        "description": ""
       }
     },
     {
@@ -500,19 +597,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5TPuDAbLJsbgjpw6ujMkGy",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
-        "width": 5616,
-        "height": 3744,
-        "contentType": "image/jpeg",
-        "title": "sign up marketing summer school",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -528,6 +612,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5TPuDAbLJsbgjpw6ujMkGy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
+        "width": 5616,
+        "height": 3744,
+        "contentType": "image/jpeg",
+        "title": "sign up marketing summer school",
+        "description": ""
       }
     },
     {
@@ -548,19 +645,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "2OcWMzOGWuHMrFLWHhvwf6",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "sign up summer startup photo",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -576,6 +660,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
       }
     },
     {
@@ -596,19 +693,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "2OcWMzOGWuHMrFLWHhvwf6",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "sign up summer startup photo",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -624,6 +708,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
       }
     },
     {
@@ -644,19 +741,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "7mQtcJJIbR0LjzHatOA3AQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
-        "width": 6000,
-        "height": 4000,
-        "contentType": "image/jpeg",
-        "title": "sign up photo data science summer",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -672,6 +756,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "7mQtcJJIbR0LjzHatOA3AQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
+        "width": 6000,
+        "height": 4000,
+        "contentType": "image/jpeg",
+        "title": "sign up photo data science summer",
+        "description": ""
       }
     },
     {
@@ -692,19 +789,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "1o17uqXtSoG2TxFtmLSo9T",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
-        "width": 4493,
-        "height": 2995,
-        "contentType": "image/jpeg",
-        "title": "sign up hr summer school",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -720,6 +804,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1o17uqXtSoG2TxFtmLSo9T",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
+        "width": 4493,
+        "height": 2995,
+        "contentType": "image/jpeg",
+        "title": "sign up hr summer school",
+        "description": ""
       }
     },
     {
@@ -740,19 +837,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5TPuDAbLJsbgjpw6ujMkGy",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
-        "width": 5616,
-        "height": 3744,
-        "contentType": "image/jpeg",
-        "title": "sign up marketing summer school",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -768,6 +852,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5TPuDAbLJsbgjpw6ujMkGy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5TPuDAbLJsbgjpw6ujMkGy/9de833121f44d3c0b74c4da9926cacc8/shutterstock_2458577683.jpg",
+        "width": 5616,
+        "height": 3744,
+        "contentType": "image/jpeg",
+        "title": "sign up marketing summer school",
+        "description": ""
       }
     },
     {
@@ -788,19 +885,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "1o17uqXtSoG2TxFtmLSo9T",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
-        "width": 4493,
-        "height": 2995,
-        "contentType": "image/jpeg",
-        "title": "sign up hr summer school",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -816,6 +900,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1o17uqXtSoG2TxFtmLSo9T",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1o17uqXtSoG2TxFtmLSo9T/c37e5d28fedf24f423c7e8d9e10aceca/shutterstock_2349887023.jpg",
+        "width": 4493,
+        "height": 2995,
+        "contentType": "image/jpeg",
+        "title": "sign up hr summer school",
+        "description": ""
       }
     },
     {
@@ -836,19 +933,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "7mQtcJJIbR0LjzHatOA3AQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
-        "width": 6000,
-        "height": 4000,
-        "contentType": "image/jpeg",
-        "title": "sign up photo data science summer",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -864,6 +948,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "7mQtcJJIbR0LjzHatOA3AQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7mQtcJJIbR0LjzHatOA3AQ/1be6f0c1518fe9afcd4e350ec2d157b5/shutterstock_2142135391.jpg",
+        "width": 6000,
+        "height": 4000,
+        "contentType": "image/jpeg",
+        "title": "sign up photo data science summer",
+        "description": ""
       }
     },
     {
@@ -884,19 +981,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "2OcWMzOGWuHMrFLWHhvwf6",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
-        "width": 5000,
-        "height": 3333,
-        "contentType": "image/jpeg",
-        "title": "sign up summer startup photo",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -912,6 +996,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "2OcWMzOGWuHMrFLWHhvwf6",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/2OcWMzOGWuHMrFLWHhvwf6/07f374dfd998a49da922736a43eca988/shutterstock_2160904153.jpg",
+        "width": 5000,
+        "height": 3333,
+        "contentType": "image/jpeg",
+        "title": "sign up summer startup photo",
+        "description": ""
       }
     },
     {
@@ -1436,19 +1533,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -1464,6 +1548,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/O4PwytiWuQiG2124AlTzD/586bee9362ed363572f6b41591fb9073/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
       }
     },
     {
