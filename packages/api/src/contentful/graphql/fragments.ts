@@ -99,6 +99,7 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     summary
     shortDescription
     applicationFormUrl
+    demoUrl
     id
     language
     programStarts

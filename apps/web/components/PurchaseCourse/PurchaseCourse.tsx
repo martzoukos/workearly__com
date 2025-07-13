@@ -9,7 +9,7 @@ import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useContentful } from "@/stores/ContentfulStore";
-import { Gift, Share, Time } from "@carbon/icons-react";
+import { Gift, Play, Share, Time } from "@carbon/icons-react";
 import { Themed } from "@workearly/theme";
 import clsx from "clsx";
 import Image from "next/image";
@@ -32,7 +32,7 @@ export default function PurchaseCourse({
   hideQuickPurchase,
 }: PropsType) {
   const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
-    "Personal"
+    "Personal",
   );
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
@@ -91,7 +91,7 @@ export default function PurchaseCourse({
             {translate(
               purchaseType === "Personal"
                 ? "CourseCardPersonal"
-                : "CourseCardTeam"
+                : "CourseCardTeam",
             )}
           </Text>
 
@@ -125,6 +125,26 @@ export default function PurchaseCourse({
 
         {!hideFooter && (
           <footer className={styles.footer}>
+            {/* {courseDetails?.demoUrl && ( */}
+            {courseDetails.applicationFormUrl && (
+              <Button
+                variant="Outlined"
+                isFullWidth
+                size="medium"
+                onClick={() =>
+                  window.open(
+                    "https://sql-demo.workearly.ai/chapter/3/slide/2",
+                    "_blank",
+                  )
+                }
+                // onClick={() => window.open(courseDetails.demoUrl, "_blank")}
+              >
+                <Play size="24" />
+                Δοκίμασέ το πριν το αγοράσεις
+                {/* {translate("CourseCardDemo")} */}
+              </Button>
+            )}
+
             <PurchaseButton page={page} isFullWidth size="medium" />
 
             <div className={styles.shareWrapper}>

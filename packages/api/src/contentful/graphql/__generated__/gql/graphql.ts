@@ -2053,6 +2053,7 @@ export type CourseDetails = Entry & _Node & {
   contentfulMetadata: ContentfulMetadata;
   contentfulName?: Maybe<Scalars['String']['output']>;
   courseCount?: Maybe<Scalars['String']['output']>;
+  demoUrl?: Maybe<Scalars['String']['output']>;
   duration?: Maybe<Array<Maybe<Scalars['String']['output']>>>;
   finalCost?: Maybe<Scalars['Float']['output']>;
   group?: Maybe<Scalars['Int']['output']>;
@@ -2097,6 +2098,12 @@ export type CourseDetailsContentfulNameArgs = {
 
 /** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
 export type CourseDetailsCourseCountArgs = {
+  locale?: InputMaybe<Scalars['String']['input']>;
+};
+
+
+/** [See type definition](https://app.contentful.com/spaces/fmxc36tvwra3/content_types/courseDetails) */
+export type CourseDetailsDemoUrlArgs = {
   locale?: InputMaybe<Scalars['String']['input']>;
 };
 
@@ -2261,6 +2268,13 @@ export type CourseDetailsFilter = {
   courseCount_not?: InputMaybe<Scalars['String']['input']>;
   courseCount_not_contains?: InputMaybe<Scalars['String']['input']>;
   courseCount_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  demoUrl?: InputMaybe<Scalars['String']['input']>;
+  demoUrl_contains?: InputMaybe<Scalars['String']['input']>;
+  demoUrl_exists?: InputMaybe<Scalars['Boolean']['input']>;
+  demoUrl_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
+  demoUrl_not?: InputMaybe<Scalars['String']['input']>;
+  demoUrl_not_contains?: InputMaybe<Scalars['String']['input']>;
+  demoUrl_not_in?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   duration_contains_all?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   duration_contains_none?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
   duration_contains_some?: InputMaybe<Array<InputMaybe<Scalars['String']['input']>>>;
@@ -2449,6 +2463,8 @@ export enum CourseDetailsOrder {
   ContentfulNameDesc = 'contentfulName_DESC',
   CourseCountAsc = 'courseCount_ASC',
   CourseCountDesc = 'courseCount_DESC',
+  DemoUrlAsc = 'demoUrl_ASC',
+  DemoUrlDesc = 'demoUrl_DESC',
   FinalCostAsc = 'finalCost_ASC',
   FinalCostDesc = 'finalCost_DESC',
   GroupAsc = 'group_ASC',
