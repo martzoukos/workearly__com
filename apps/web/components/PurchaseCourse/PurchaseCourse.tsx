@@ -125,23 +125,15 @@ export default function PurchaseCourse({
 
         {!hideFooter && (
           <footer className={styles.footer}>
-            {/* {courseDetails?.demoUrl && ( */}
-            {courseDetails.applicationFormUrl && (
+            {courseDetails && courseDetails.demoUrl && (
               <Button
                 variant="Outlined"
                 isFullWidth
                 size="medium"
-                onClick={() =>
-                  window.open(
-                    "https://sql-demo.workearly.ai/chapter/3/slide/2",
-                    "_blank",
-                  )
-                }
-                // onClick={() => window.open(courseDetails.demoUrl, "_blank")}
+                onClick={() => window.open(courseDetails.demoUrl!, "_blank")}
               >
                 <Play size="24" />
-                Δοκίμασέ το πριν το αγοράσεις
-                {/* {translate("CourseCardDemo")} */}
+                {translate("CourseCardDemo")}
               </Button>
             )}
 
