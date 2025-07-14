@@ -3,6 +3,7 @@ import Text from "@/components/Text";
 import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
+import { ShoppingCart } from "@carbon/icons-react";
 import { sendGTMEvent } from "@next/third-parties/google";
 import { QueryItem, TranslationTextType } from "@workearly/api";
 import { cva, VariantProps } from "class-variance-authority";
@@ -44,7 +45,7 @@ export default function CoursePrices({
         variants({
           orientation,
         }),
-        className
+        className,
       )}
     >
       <div className={styles.priceContainer}>
@@ -109,15 +110,21 @@ export function PurchaseButton({ page, ...props }: PurchaseButtonProps) {
 
   return (
     <>
-      {courseDetails.applicationFormUrl ? (
-        <Button asChild {...props}>
-          <Link href={courseDetails.applicationFormUrl}>
-            {translate(`group${groupNumber}_form_cta` as TranslationTextType, {
-              fallbackCode: "Apply",
-            })}
-            {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
+      {courseDetails.hasApplicationFormCta ? (
+        <>
+          <Button asChild {...props}>
+            <Link href={`/interest/${page.slug}`}>
+              {translate("InterestFormCTA1")}
+              {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
+            </Link>
+          </Button>
+          <Link
+            href={`/payment/${page.slug}`}
+            className={styles.fallbackPurchaseCTA}
+          >
+            <ShoppingCart /> {translate("InterestFormFallbackCTA")}
           </Link>
-        </Button>
+        </>
       ) : (
         <Button
           id={`purchase-button-${courseDetails.id}`}
@@ -137,7 +144,7 @@ export function PurchaseButton({ page, ...props }: PurchaseButtonProps) {
             `group${groupNumber}_purchase_cta` as TranslationTextType,
             {
               fallbackCode: "Purchase",
-            }
+            },
           )}
           {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
         </Button>

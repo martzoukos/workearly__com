@@ -1,4 +1,4 @@
-import PaymentPage from "@/components/_pages/PaymentPage";
+import InterestPage from "@/components/_pages/InterestPage";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import { ContentfulProvider } from "@/stores/ContentfulStore";
@@ -26,7 +26,7 @@ export default function Page(
       />
       <ThemeProvider theme="light">
         {props.header && <Header uniqueComponent={props.header} />}
-        <PaymentPage />
+        <InterestPage />
         {props.footer && <Footer uniqueComponent={props.footer} />}
       </ThemeProvider>
     </ContentfulProvider>

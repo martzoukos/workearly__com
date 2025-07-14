@@ -12,7 +12,7 @@ import { useState } from "react";
 import styles from "./PaymentPage.module.scss";
 
 const stripePromise = loadStripe(
-  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string
+  process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string,
 );
 
 const GREEN_500 = "hsl(86 100% 72%)";
@@ -102,16 +102,7 @@ export default function PaymentPage({ className }: PropsType) {
       />
       <div className={styles.content}>
         <PurchaseCourse isInverted={false} hideFooter hideQuickPurchase />
-        {clientSecret ? (
-          <Elements
-            stripe={stripePromise}
-            options={{ clientSecret, appearance }}
-          >
-            <CheckoutForm />
-          </Elements>
-        ) : (
-          <IntentForm onSuccess={setClientSecret} />
-        )}
+        <IntentForm onSuccess={setClientSecret} />
       </div>
     </main>
   );

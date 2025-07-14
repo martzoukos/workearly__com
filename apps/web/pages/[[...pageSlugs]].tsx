@@ -11,7 +11,7 @@ import { GetStaticPropsContext, InferGetStaticPropsType } from "next";
 import { NextSeo } from "next-seo";
 
 export default function Page(
-  props: InferGetStaticPropsType<typeof getStaticProps>
+  props: InferGetStaticPropsType<typeof getStaticProps>,
 ) {
   const canonicalUrl = `https://www.workearly.gr/${props.page.slug === "home" ? "" : props.page.slug}`;
   const noIndex = props.page.features?.includes("No Index");
@@ -46,7 +46,7 @@ export default function Page(
 }
 
 export async function getStaticProps(
-  context: GetStaticPropsContext<{ pageSlugs: string[] }>
+  context: GetStaticPropsContext<{ pageSlugs: string[] }>,
 ) {
   const pageSlug = getPageSlug(context.params?.pageSlugs);
 
@@ -68,7 +68,7 @@ export async function getStaticProps(
 export async function getStaticPaths() {
   const pages = fetchLocalCollection<QueryItem["Page"]>(
     PAGE_COLLECTION_QUERY,
-    (page) => page.slug !== "404" && page.variant !== "Playground"
+    (page) => page.slug !== "404" && page.variant !== "Playground",
   );
 
   const paths = pages

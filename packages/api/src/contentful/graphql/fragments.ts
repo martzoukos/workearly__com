@@ -98,6 +98,7 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     title
     summary
     shortDescription
+    hasApplicationFormCta
     applicationFormUrl
     demoUrl
     id

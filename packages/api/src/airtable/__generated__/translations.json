@@ -5,6 +5,11 @@
     "en": "Only"
   },
   {
+    "code": "InterestFormCTA1",
+    "el": "Επικοινώνησε για απορίες",
+    "en": "Request call back for questions"
+  },
+  {
     "code": "Pace",
     "el": "Ρυθμος μαθησης",
     "en": "Pace"
@@ -33,6 +38,11 @@
     "code": "group4_label5",
     "el": "ΕΝΑΡΞΗ Β' Κύκλου",
     "en": "ΕΝΑΡΞΗ Β' Κύκλου"
+  },
+  {
+    "code": "InterestFormFallbackCTA",
+    "el": "Ή αγόρασε απευθείας το μάθημα",
+    "en": "Or buy directly"
   },
   {
     "code": "priceRange3",
@@ -113,6 +123,11 @@
     "code": "1plus1InfoBox",
     "el": "Προκράτηση με 67 ευρώ",
     "en": "We will contact you in order for you to select your gift"
+  },
+  {
+    "code": "FormPhoneLabel",
+    "el": "Τηλέφωνο",
+    "en": "Phone"
   },
   {
     "code": "CourseCardTeam",
@@ -250,6 +265,11 @@
     "en": "Personal"
   },
   {
+    "code": "InterestFormCTA2",
+    "el": "Εκδήλωση ενδιαφέροντος",
+    "en": "Submit interest"
+  },
+  {
     "code": "Duration",
     "el": "Διάρκεια",
     "en": "Duration"
@@ -288,6 +308,11 @@
     "code": "priceRange1",
     "el": "έως €50",
     "en": "Up to €50"
+  },
+  {
+    "code": "InterestFormDescription",
+    "el": "Συμπλήρωσε την φόρμα και θα επικοινωνήσουμε μαζί σου.",
+    "en": "Fill the form in and we'll get back to you."
   },
   {
     "code": "pace1",
