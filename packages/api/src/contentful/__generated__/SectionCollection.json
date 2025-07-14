@@ -1,8 +1,421 @@
 {
-  "__timestamp": 1748879250055,
-  "__hash": "0e685c2d6b279a9dee6f568301838f240a2e6286017d1ec3e7a8766b1e64a820",
-  "total": 373,
+  "__timestamp": 1752333118888,
+  "__hash": "549ad65fa9cbab16187f9387ddbcec9d3334ad4726309808054a68b6dc2c4f1c",
+  "total": 374,
   "items": [
+    {
+      "sys": {
+        "id": "5kAkAVkgeQPdZbE14E5ebN",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "11 Courses σε 1 Bootcamp",
+      "supertitle": null,
+      "text": "Το πρόγραμμα αποτελείται από 11 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3OOTpczBsA1naMQYTnUhB3",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1QU1ku1YbhaKTFVkbkoqYE",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "77CQNWgoE4ORWPtGFcBhY2",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1QJF3dlQO78O7vZS77olPN",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "JQqQM6nK18boGhZAo12tp",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3PlG5QoKa71LiNrV1Eh87O",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1mDyx4KFZkJj0DYoxekwio",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6CsIItlT4TcKCmUDS5BClg",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Q2qBIrT2KtkbJnVpUktBo",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7H32e9fF9gKIRrVA1zLqWi",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "44aCWOnCnygU4ccfjnlaAA",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Tools Used",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "Icon and Text",
+      "cardsCount": 2,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4j5M4G3QWMv6kO0tjqUQ90",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6yL5YsKpSn9kXcQBIcpvw3",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2pPznM29SXj9o8lJ6kN499",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "134xufO8wxzuuscvDvWbdq",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4UvP1WipAs3AaUvZ00xrzT",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "KaY5PSDAhX2SXz0e8uauq",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Αναγνωρισμένη Πιστοποίηση",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "OVw07jJHevWLS77HujdbB",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryDataScience",
+                  "name": "Certificate Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelDiploma",
+                  "name": "Certificate Level: Diploma",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5S56BizGRVn5cy5iNBJPie",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryDataScience",
+                  "name": "Certificate Category: Data Science",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelDiploma",
+                  "name": "Certificate Level: Diploma",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4pq7OvK2FygPRN3lWqVGY1",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Το απόλυτο Summer Learning Experience για επαγγελματίες που θέλουν να ξεχωρίσουν.",
+      "supertitle": "Workearly Summer Schools 2025",
+      "text": null,
+      "titleSize": "h3",
+      "titleTagOverride": "h1",
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Hero With Details",
+      "metadata": {
+        "items": [
+          {
+            "label": "1η Ιουλίου",
+            "value": "Έναρξη Β' Κύκλου"
+          },
+          {
+            "label": "6-8 εβδομάδες",
+            "value": "Διάρκεια"
+          }
+        ],
+        "height": "640px"
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4onkud8k0QmrvblIyhBdsl",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://videos.ctfassets.net/fmxc36tvwra3/4onkud8k0QmrvblIyhBdsl/9a336ff4f3a690a5c91f29103e95dddd/shutterstock_1032924962.mov",
+            "width": null,
+            "height": null,
+            "contentType": "video/quicktime",
+            "title": "shutterstock 1032924962 - Summer Video Original (cropped / reduced)",
+            "description": null
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6prYPVRtU8ucgEM3TFcYpn",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "3wbxMAUaCqIBqhC0qu6uOB",
@@ -2302,22 +2715,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5DSvWbLMMLHpo5clmCzuOQ",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -2346,6 +2743,22 @@
             "contentType": "image/webp",
             "title": "Hero Business Background Image Mobile",
             "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5DSvWbLMMLHpo5clmCzuOQ",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
           }
         ]
       }
@@ -4737,82 +5150,6 @@
               "__typename": "Sys"
             },
             "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4pq7OvK2FygPRN3lWqVGY1",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Το απόλυτο Summer Learning Experience για επαγγελματίες που θέλουν να ξεχωρίσουν.",
-      "supertitle": "Workearly Summer Schools 2025",
-      "text": null,
-      "titleSize": "h3",
-      "titleTagOverride": "h1",
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Hero With Details",
-      "metadata": {
-        "items": [
-          {
-            "label": "16 Ιουνίου",
-            "value": "Έναρξη"
-          },
-          {
-            "label": "6-8 εβδομάδες",
-            "value": "Διάρκεια"
-          }
-        ],
-        "height": "640px"
-      },
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4onkud8k0QmrvblIyhBdsl",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://videos.ctfassets.net/fmxc36tvwra3/4onkud8k0QmrvblIyhBdsl/9a336ff4f3a690a5c91f29103e95dddd/shutterstock_1032924962.mov",
-            "width": null,
-            "height": null,
-            "contentType": "video/quicktime",
-            "title": "shutterstock 1032924962 - Summer Video Original (cropped / reduced)",
-            "description": null
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6prYPVRtU8ucgEM3TFcYpn",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -8251,6 +8588,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -8279,33 +8643,6 @@
             "contentType": "application/json",
             "title": "Workearly Main Animation Mobile",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -10693,6 +11030,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3wTeghKyBD15nDAeCucKUH",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -10721,22 +11074,6 @@
             "contentType": "image/webp",
             "title": "Hero Business Background Image Mobile",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3wTeghKyBD15nDAeCucKUH",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -11325,24 +11662,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1ozZ1Djwhu1aOi0nx2gzei",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
-            "width": 695,
-            "height": 530,
-            "contentType": "image/svg+xml",
-            "title": "Failure",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -11367,6 +11686,24 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1ozZ1Djwhu1aOi0nx2gzei",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/1ozZ1Djwhu1aOi0nx2gzei/2c712369d52a39b3e210a581c58c7d3c/Failure.svg",
+            "width": 695,
+            "height": 530,
+            "contentType": "image/svg+xml",
+            "title": "Failure",
+            "description": ""
           }
         ]
       }
@@ -11849,24 +12186,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5PGyZeSFWDxLAe4EGzZlVN",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Anim Picking",
-            "description": ""
-          }
-        ]
-      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -11891,6 +12210,24 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5PGyZeSFWDxLAe4EGzZlVN",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/fmxc36tvwra3/5PGyZeSFWDxLAe4EGzZlVN/306ecf10e85c11af13f56f6d28b7cd4b/Anim_Picking.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Anim Picking",
+            "description": ""
           }
         ]
       }
@@ -16152,24 +16489,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3mB2Lzny8ZdRN5eir8367E",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
-            "width": 680,
-            "height": 407,
-            "contentType": "image/svg+xml",
-            "title": "Map",
-            "description": null
-          }
-        ]
-      },
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
@@ -16227,6 +16546,24 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
+          }
+        ]
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3mB2Lzny8ZdRN5eir8367E",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/fmxc36tvwra3/3mB2Lzny8ZdRN5eir8367E/1bd88f919eca04645b6f04087844b5a4/Map_Container.svg",
+            "width": 680,
+            "height": 407,
+            "contentType": "image/svg+xml",
+            "title": "Map",
+            "description": null
           }
         ]
       }
@@ -17079,67 +17416,6 @@
     },
     {
       "sys": {
-        "id": "KaY5PSDAhX2SXz0e8uauq",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Αναγνωρισμένη Πιστοποίηση",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "OVw07jJHevWLS77HujdbB",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryDataScience",
-                  "name": "Certificate Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelDiploma",
-                  "name": "Certificate Level: Diploma",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "52V5xpAG8QmYMj6Yl24hIy",
         "__typename": "Sys"
       },
@@ -17170,6 +17446,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -17198,33 +17501,6 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -17261,6 +17537,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -17289,33 +17592,6 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -17352,6 +17628,33 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -17380,33 +17683,6 @@
             "contentType": "application/json",
             "title": "Animation - 1742542136961",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -30852,6 +31128,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7kaO4eajRh6WT1bR3eMCSb",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -30867,22 +31159,6 @@
             "contentType": "image/svg+xml",
             "title": "Failure",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7kaO4eajRh6WT1bR3eMCSb",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -30916,6 +31192,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5UkMkLzyqPrOCjdHPDt8Ij",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -30931,22 +31223,6 @@
             "contentType": "image/svg+xml",
             "title": "Sucess",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5UkMkLzyqPrOCjdHPDt8Ij",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }
@@ -31258,133 +31534,6 @@
               "__typename": "Sys"
             },
             "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "5kAkAVkgeQPdZbE14E5ebN",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "8 Courses σε 1 Bootcamp",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 8 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3OOTpczBsA1naMQYTnUhB3",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5I8vnXPlN3mIIx8y4B8Hg5",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "77CQNWgoE4ORWPtGFcBhY2",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "JQqQM6nK18boGhZAo12tp",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1mDyx4KFZkJj0DYoxekwio",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3biTtWA7NXJFq8rDbuzjMe",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7At24WKkg0Qpl6QLxxKZFC",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -33735,6 +33884,22 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
       "assetsCollection": {
         "__typename": "AssetCollection",
         "items": [
@@ -33750,22 +33915,6 @@
             "contentType": "image/png",
             "title": "Pig",
             "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3KTtHtGy7cm21uuXVgr2IU",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }

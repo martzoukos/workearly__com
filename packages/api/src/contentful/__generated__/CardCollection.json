@@ -1,8 +1,44 @@
 {
-  "__timestamp": 1748879216913,
-  "__hash": "565bd48cd7cc5ca8c3cfbc8bf2ea8cd30366c460e8840cc48fbbd615559a6bfd",
-  "total": 212,
+  "__timestamp": 1752333108017,
+  "__hash": "506e39e041dc17fc6c64e42452987223f39f247c67acb3d080d855cdb4bca234",
+  "total": 213,
   "items": [
+    {
+      "sys": {
+        "id": "4UvP1WipAs3AaUvZ00xrzT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "AI",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3jJ6Xetaxs3Skc5ReDMri8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/3jJ6Xetaxs3Skc5ReDMri8/83ff54245ab8f4be784dbaf3ccae015d/ChatGPT-logo-with-color-Background.png",
+        "width": 1500,
+        "height": 1500,
+        "contentType": "image/png",
+        "title": "ChatGPT-logo-with-color-Background",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "4D8tqOfM4TszhsCePC4RVk",
@@ -2769,19 +2805,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "1BcMGS4Ih2iNKxmFJme654",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Finance Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2797,6 +2820,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1BcMGS4Ih2iNKxmFJme654",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1BcMGS4Ih2iNKxmFJme654/cb203a373c1c55e7a2d8945e68aa7f21/card_Finance_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Finance Clear",
+        "description": null
       }
     },
     {
@@ -2817,19 +2853,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Digital Marketing Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2845,6 +2868,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4xAQlfl4Tqv4b0HzOqcy9n/a8809937ecb702989224510b4655d0a1/card_Digital_Marketing_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing Clear",
+        "description": null
       }
     },
     {
@@ -2985,19 +3021,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "41SIiSVTDJrGUNJ0bQRDVj",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
-        "width": 449,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card HR Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -3013,6 +3036,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "41SIiSVTDJrGUNJ0bQRDVj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41SIiSVTDJrGUNJ0bQRDVj/0b2b9fb4af1bf604c2d6a73742cc082e/card_HR_Clear.svg",
+        "width": 449,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card HR Clear",
+        "description": null
       }
     },
     {
@@ -3033,19 +3069,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "416vehayqrV4g3o1z74ohQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Data Science Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -3061,6 +3084,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "416vehayqrV4g3o1z74ohQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/416vehayqrV4g3o1z74ohQ/60b2b0cdcaff4bf4b8b08180e8f8c769/card_Data_Science_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Data Science Clear",
+        "description": null
       }
     },
     {
@@ -3081,19 +3117,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -3109,6 +3132,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
       }
     },
     {
@@ -3129,19 +3165,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "5dGzozXxxQaEyrP3P60Wf0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
-        "width": 620,
-        "height": 486,
-        "contentType": "image/svg+xml",
-        "title": "Data Science Card",
-        "description": ""
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -3157,6 +3180,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5dGzozXxxQaEyrP3P60Wf0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5dGzozXxxQaEyrP3P60Wf0/bcf75c7477d399bb148660396a5aa04a/Card.svg",
+        "width": 620,
+        "height": 486,
+        "contentType": "image/svg+xml",
+        "title": "Data Science Card",
+        "description": ""
       }
     },
     {
@@ -4101,19 +4137,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "asset": {
-        "sys": {
-          "id": "6IMm6C3PYJ8O8486MTGMg0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Business Clear",
-        "description": null
-      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -4129,6 +4152,19 @@
             }
           }
         ]
+      },
+      "asset": {
+        "sys": {
+          "id": "6IMm6C3PYJ8O8486MTGMg0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6IMm6C3PYJ8O8486MTGMg0/0bc959a54d894d27526d4e35a6cdb7a9/card_Project_Management_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Business Clear",
+        "description": null
       }
     },
     {

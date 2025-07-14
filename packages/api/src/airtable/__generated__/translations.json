@@ -6,7 +6,7 @@
   },
   {
     "code": "Pace",
-    "el": "Pace",
+    "el": "Ρυθμος μαθησης",
     "en": "Pace"
   },
   {
@@ -31,8 +31,8 @@
   },
   {
     "code": "group4_label5",
-    "el": "ΕΝΑΡΞΗ",
-    "en": "ΕΝΑΡΞΗ"
+    "el": "ΕΝΑΡΞΗ Β' Κύκλου",
+    "en": "ΕΝΑΡΞΗ Β' Κύκλου"
   },
   {
     "code": "priceRange3",
@@ -46,13 +46,13 @@
   },
   {
     "code": "duration3",
-    "el": "4-6 months",
+    "el": "4-6 μήνες",
     "en": "4-6 months"
   },
   {
     "code": "group4_value6",
-    "el": "13 Ιουνίου",
-    "en": "13 Ιουνίου"
+    "el": "Sold Out",
+    "en": "Sold Out"
   },
   {
     "code": "group4_purchase_cta",
@@ -76,12 +76,12 @@
   },
   {
     "code": "duration2",
-    "el": "4-8 weeks",
+    "el": "4-8 εβδομάδες",
     "en": "4-8 weeks"
   },
   {
     "code": "Language",
-    "el": "Language",
+    "el": "Γλωσσα",
     "en": "Language"
   },
   {
@@ -96,8 +96,8 @@
   },
   {
     "code": "group4_value5",
-    "el": "16 Ιουνίου",
-    "en": "16 Ιουνίου"
+    "el": "Sold Out",
+    "en": "Sold Out"
   },
   {
     "code": "afterContactDescription",
@@ -106,12 +106,12 @@
   },
   {
     "code": "group4_value1",
-    "el": "Greek",
+    "el": "Ελληνικά",
     "en": "Greek"
   },
   {
     "code": "1plus1InfoBox",
-    "el": "Sold out",
+    "el": "Προκράτηση με 67 ευρώ",
     "en": "We will contact you in order for you to select your gift"
   },
   {
@@ -132,7 +132,7 @@
   {
     "code": "group4_gift_infobox",
     "el": "Sold out",
-    "en": "We will contact you in order for you to select your gift"
+    "en": "Sold Out"
   },
   {
     "code": "Filters",
@@ -166,17 +166,17 @@
   },
   {
     "code": "group4_label6",
-    "el": "ΑΙΤΗΣΕΙΣ ΓΙΑ ΥΠΟΤΡΟΦΙΑ ΕΩΣ:",
-    "en": "ΑΙΤΗΣΕΙΣ ΓΙΑ ΥΠΟΤΡΟΦΙΑ ΕΩΣ:"
+    "el": "ΑΙΤΗΣΕΙΣ ΕΩΣ:",
+    "en": "ΑΙΤΗΣΕΙΣ ΕΩΣ:"
   },
   {
     "code": "group2_gift",
-    "el": "Sold out",
+    "el": "Προκράτηση με 67 ευρώ",
     "en": "We will contact you in order for you to select your gift"
   },
   {
     "code": "group1_gift_infobox",
-    "el": "Sold out",
+    "el": "Προκράτηση με 67 ευρώ",
     "en": "We will contact you in order for you to select your gift"
   },
   {
@@ -196,7 +196,7 @@
   },
   {
     "code": "group2_gift_infobox",
-    "el": "Sold out",
+    "el": "Προκράτηση με 67 ευρώ",
     "en": "We will contact you in order for you to select your gift"
   },
   {
@@ -211,7 +211,7 @@
   },
   {
     "code": "Program Starts",
-    "el": "Program Starts",
+    "el": "Εναρξη",
     "en": "Program Starts"
   },
   {
@@ -226,7 +226,7 @@
   },
   {
     "code": "pace2",
-    "el": "Instructor Assisted",
+    "el": "Με καθοδηγηση",
     "en": "Instructor Assisted"
   },
   {
@@ -256,7 +256,7 @@
   },
   {
     "code": "group1_gift",
-    "el": "Sold out",
+    "el": "Προκράτηση με 67 ευρώ",
     "en": "1 + 1 Gift"
   },
   {
@@ -306,8 +306,8 @@
   },
   {
     "code": "group4_form_cta",
-    "el": "Διεκδίκησε μία υποτροφία",
-    "en": "Διεκδίκησε μία υποτροφία"
+    "el": "Sold Out",
+    "en": "Sold Out"
   },
   {
     "code": "group4_value3",
@@ -321,7 +321,7 @@
   },
   {
     "code": "1plus1",
-    "el": "Sold out",
+    "el": "Προκράτηση με 67 ευρώ",
     "en": "1 + 1 Gift"
   },
   {
@@ -336,13 +336,18 @@
   },
   {
     "code": "Application Deadline",
-    "el": "Application Deadline",
+    "el": "Αιτησεις με εκπτωση εως",
     "en": "Application Deadline"
   },
   {
     "code": "Apply",
     "el": "Αίτηση Συμμετοχής",
     "en": "Apply"
+  },
+  {
+    "code": "CourseCardDemo",
+    "el": "Δοκίμασέ το πριν το αγοράσεις",
+    "en": "Try before you buy"
   },
   {
     "code": "group2_form_cta",

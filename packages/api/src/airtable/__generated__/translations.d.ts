@@ -66,6 +66,7 @@ export type TranslationTextType =
   | "3Times"
   | "Application Deadline"
   | "Apply"
+  | "CourseCardDemo"
   | "group2_form_cta"
   | "PriceRange"
   | "CourseLearners"

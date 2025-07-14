@@ -1,8 +1,217 @@
 {
-  "__timestamp": 1748879210325,
-  "__hash": "f4f5305fa3cf2b316dd2af06775ca184179e37a94165824275b15cc08dd6d9dc",
-  "total": 607,
+  "__timestamp": 1752333106340,
+  "__hash": "a0b834ee0fe854757931c3bafc8c0a430be180da00462f6ab21d0214a99debd0",
+  "total": 612,
   "items": [
+    {
+      "sys": {
+        "id": "7H32e9fF9gKIRrVA1zLqWi",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI & Data Ethics",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Βασικές αρχές δεοντολογίας γύρω από τη χρήση της Τεχνητής Νοημοσύνης και των δεδομένων. Θα εξετάσετε θέματα όπως η ιδιωτικότητα, η προκατάληψη (bias), η διαφάνεια, η υπευθυνότητα και η συμμόρφωση με κανονισμούς, καθώς και πραγματικά παραδείγματα ηθικών προκλήσεων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η υπεύθυνη χρήση της AI και των δεδομένων είναι κρίσιμη για τη διατήρηση της εμπιστοσύνης, της νομιμότητας και της κοινωνικής αποδοχής. Η κατανόηση των ηθικών κινδύνων και η σωστή διαχείριση τους σας καθιστά όχι μόνο πιο ικανούς επαγγελματίες, αλλά και πιο συνειδητοποιημένους χρήστες στην εποχή της ψηφιακής τεχνητής νοημοσύνης.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4Q2qBIrT2KtkbJnVpUktBo",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI & Prompt Engineering",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Πώς να διαμορφώνετε αποτελεσματικά prompts για μοντέλα Τεχνητής Νοημοσύνης όπως το ChatGPT. Θα γνωρίσετε στρατηγικές για να πετυχαίνετε ακριβείς, χρήσιμες και δημιουργικές απαντήσεις σε ποικιλία επαγγελματικών και τεχνικών σεναρίων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η σωστή διατύπωση ενός prompt είναι το κλειδί για την επιτυχία με κάθε εργαλείο AI. Με την κατάλληλη τεχνική, μπορείτε να αυτοματοποιήσετε εργασίες, να βελτιώσετε την παραγωγικότητά σας και να αξιοποιήσετε πλήρως τις δυνατότητες των σύγχρονων μοντέλων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6CsIItlT4TcKCmUDS5BClg",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Data Scaling with AI",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Πώς να χρησιμοποιείτε την Τεχνητή Νοημοσύνη για να διαχειρίζεστε και να επεκτείνετε μεγάλα σύνολα δεδομένων. Θα μάθετε τεχνικές καθαρισμού, κανονικοποίησης, παραγωγής συνθετικών δεδομένων και βελτιστοποίησης επιδόσεων για big data εφαρμογές με τη βοήθεια της AI.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η επεξεργασία και ανάλυση μεγάλων δεδομένων απαιτεί ταχύτητα, ακρίβεια και ευελιξία. Με την υποστήριξη της AI, μπορείτε να αυτοματοποιήσετε κρίσιμες διαδικασίες, να μειώσετε σφάλματα και να επιτύχετε αποτελεσματική κλιμάκωση σε projects κάθε μεγέθους.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3PlG5QoKa71LiNrV1Eh87O",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Pivot with AI",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Πώς να χρησιμοποιείτε εργαλεία Τεχνητής Νοημοσύνης για τη δημιουργία, ανάλυση και αυτοματοποίηση πινάκων Pivot σε εφαρμογές Excel ή BI πλατφόρμες. Θα μάθετε πώς η AI μπορεί να εντοπίζει μοτίβα, να προτείνει ομαδοποιήσεις και να βελτιστοποιεί την ανάλυση δεδομένων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Οι πίνακες Pivot είναι βασικό εργαλείο για την εξερεύνηση και σύνοψη δεδομένων. Η ενσωμάτωση της AI κάνει την εργασία σας πιο γρήγορη, έξυπνη και ακριβή, βοηθώντας σας να παίρνετε καλύτερες αποφάσεις με λιγότερη προσπάθεια.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1QJF3dlQO78O7vZS77olPN",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI Visualizations",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Πώς να χρησιμοποιείτε εργαλεία Τεχνητής Νοημοσύνης για τη δημιουργία δυναμικών και διαδραστικών οπτικοποιήσεων δεδομένων. Θα μάθετε να μετατρέπετε σύνθετα δεδομένα σε κατανοητά γραφήματα και dashboards με τη βοήθεια AI.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η κατανόηση και επικοινωνία δεδομένων είναι ζωτικής σημασίας. Η χρήση AI για οπτικοποίηση σας επιτρέπει να εξοικονομείτε χρόνο, να εντοπίζετε μοτίβα ευκολότερα και να παρουσιάζετε τα ευρήματά σας με πιο εντυπωσιακό και ουσιαστικό τρόπο.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1QU1ku1YbhaKTFVkbkoqYE",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Applying AI in SQL",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Πώς να ενσωματώνετε τεχνολογίες Τεχνητής Νοημοσύνης (AI) σε ερωτήματα SQL για την ανάλυση, πρόβλεψη και αυτοματοποίηση διαδικασιών σε βάσεις δεδομένων. Θα μάθετε επίσης πώς να χρησιμοποιείτε σύγχρονα εργαλεία που υποστηρίζουν AI μέσα στο περιβάλλον της SQL.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Για να μπορείτε να αξιοποιήσετε τις δυνατότητες της AI απευθείας μέσα από τη γλώσσα SQL, ενισχύοντας την ανάλυση δεδομένων, την πρόβλεψη τάσεων και την αυτοματοποίηση εργασιών χωρίς να εγκαταλείψετε το γνώριμο περιβάλλον της βάσης δεδομένων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1mDyx4KFZkJj0DYoxekwio",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Python (NumPy & Pandas)",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Χρήση των βιβλιοθηκών NumPy και Pandas για την ανάλυση και επεξεργασία δεδομένων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η Python με τις βιβλιοθήκες NumPy και Pandas αποτελεί τον πυρήνα της ανάλυσης δεδομένων, προσφέροντας ευελιξία και δύναμη στην επεξεργασία μεγάλων δεδομένων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "JQqQM6nK18boGhZAo12tp",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Excel",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Αναλυτικά εργαλεία και λειτουργίες του Excel για στατιστική ανάλυση και ανάλυση δεδομένων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Το Excel είναι εύχρηστο και ιδιαίτερα διαδεδομένο, καθιστώντας το ένα βασικό εργαλείο για την ανάλυση δεδομένων σε πολλούς οργανισμούς.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "77CQNWgoE4ORWPtGFcBhY2",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Microsoft Power BI",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Ανάλυση και οπτικοποίηση δεδομένων με το Power BI.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Το Power BI επιτρέπει τη δημιουργία διαδραστικών reports και dashboards που διευκολύνουν την επικοινωνία σύνθετων πληροφοριών σε πραγματικό χρόνο.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "SQL & Databases for Data Analysts",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "SQL για εξαγωγή, φιλτράρισμα και ανάλυση δεδομένων από βάσεις δεδομένων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Η SQL είναι απαραίτητη για την ανάλυση δεδομένων απευθείας από μεγάλες βάσεις δεδομένων, εξοικονομώντας χρόνο και πόρους στην προετοιμασία δεδομένων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3OOTpczBsA1naMQYTnUhB3",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Data Science Fundamentals",
+      "column1Title": "Τι θα μάθετε:",
+      "column1Text": "Βασικές έννοιες της Επιστήμης Δεδομένων και αλγορίθμους ανάλυσης δεδομένων.",
+      "column2Title": "Γιατί το χρειάζεστε:",
+      "column2Text": "Θα κατανοήσετε πώς η Επιστήμη Δεδομένων χρησιμοποιεί αλγορίθμους για την εξαγωγή πληροφοριών από μεγάλα σύνολα δεδομένων και τη λήψη αποφάσεων.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "63VDyAANmvFH5r1Qrek5V3",
@@ -9311,120 +9520,6 @@
       "column1Text": "Εργαλεία και τεχνικές για δημιουργία γραφημάτων και διαγραμμάτων στο Tableau.",
       "column2Title": "Γιατί το χρειάζεστε:",
       "column2Text": "Η οπτικοποίηση δεδομένων διευκολύνει την κατανόηση των τάσεων και των σχέσεων μέσα στα δεδομένα, επιτρέποντας την αποτελεσματική επικοινωνία πληροφοριών.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1mDyx4KFZkJj0DYoxekwio",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Python for Data Science: NumPy & Pandas",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Χρήση των βιβλιοθηκών NumPy και Pandas για την ανάλυση και επεξεργασία δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η Python με τις βιβλιοθήκες NumPy και Pandas αποτελεί τον πυρήνα της ανάλυσης δεδομένων, προσφέροντας ευελιξία και δύναμη στην επεξεργασία μεγάλων δεδομένων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "JQqQM6nK18boGhZAo12tp",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Data Analytics in Excel",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Αναλυτικά εργαλεία και λειτουργίες του Excel για στατιστική ανάλυση και ανάλυση δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Το Excel είναι εύχρηστο και ιδιαίτερα διαδεδομένο, καθιστώντας το ένα βασικό εργαλείο για την ανάλυση δεδομένων σε πολλούς οργανισμούς.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "77CQNWgoE4ORWPtGFcBhY2",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Data Analysis and Visualization with Microsoft Power BI",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Ανάλυση και οπτικοποίηση δεδομένων με το Power BI.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Το Power BI επιτρέπει τη δημιουργία διαδραστικών reports και dashboards που διευκολύνουν την επικοινωνία σύνθετων πληροφοριών σε πραγματικό χρόνο.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "SQL for Data Analysts",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "SQL για εξαγωγή, φιλτράρισμα και ανάλυση δεδομένων από βάσεις δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η SQL είναι απαραίτητη για την ανάλυση δεδομένων απευθείας από μεγάλες βάσεις δεδομένων, εξοικονομώντας χρόνο και πόρους στην προετοιμασία δεδομένων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "5I8vnXPlN3mIIx8y4B8Hg5",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Databases & Data Warehousing",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές έννοιες για βάσεις δεδομένων και την αποθήκευση πληροφοριών.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να οργανώνετε και να αποθηκεύετε δεδομένα με ασφαλή και αποτελεσματικό τρόπο, διευκολύνοντας την ανάλυση και την πρόσβαση στα δεδομένα.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "3OOTpczBsA1naMQYTnUhB3",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Introduction to Data Science & Data Science Algorithms",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές έννοιες της Επιστήμης Δεδομένων και αλγορίθμους ανάλυσης δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα κατανοήσετε πώς η Επιστήμη Δεδομένων χρησιμοποιεί αλγορίθμους για την εξαγωγή πληροφοριών από μεγάλα σύνολα δεδομένων και τη λήψη αποφάσεων.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {

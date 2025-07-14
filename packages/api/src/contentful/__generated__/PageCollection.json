@@ -1,8 +1,539 @@
 {
-  "__timestamp": 1748879238321,
-  "__hash": "fe033b2ff08bf2080900ec3d5659ae243d24db7e5d9f944b034ad5e267e5e49e",
-  "total": 271,
+  "__timestamp": 1752511935144,
+  "__hash": "7aba6ac5d5959f55b3839c46e802a8a6fa22f956787d515672dc1bac076f6fb2",
+  "total": 274,
   "items": [
+    {
+      "sys": {
+        "id": "b52aCJfDG0Iv3sFm0LtYD",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course",
+      "name": "AI Data Analyst Bootcamp",
+      "features": null,
+      "slug": "course/data-analyst-bootcamp",
+      "seoTitle": "Απόκτησε Πιστοποίηση Data Science - Ολοκληρωμένο Πρόγραμμα στην Επιστήμη Δεδομένων - Μαθήματα Data Science",
+      "seoDescription": "Ξεκινήστε το ταξίδι σας στην επιστήμη δεδομένων. Μάθετε ανάλυση δεδομένων, οπτικοποίηση και βασικές έννοιες μηχανικής μάθησης.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryDataScience",
+            "name": "Course Category: Data Science",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "5wtlCwUhjiVgCTQDy2t6OH",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "65g1v58cFQkCMeBGpiC9ay",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1FxAGERaPIKPEb1S0ygZRb",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3v7Q94cuPM05B0hBf0DzId",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5kAkAVkgeQPdZbE14E5ebN",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "44aCWOnCnygU4ccfjnlaAA",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6BrNRKWRMu7CgQ65bGaI7T",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "KaY5PSDAhX2SXz0e8uauq",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7CFN9tfUOsbJAu9gDRITyk",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "jrembJBR9zZ1R4gbpVOHr",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7hz3m9fcmiF4L4uL48wwVa",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1BG4iijKVZgO11kpG4BSCv",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Ygt2jeFevZYcS1Wq59unx",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4X92qYWaL5SeWiDCjVLJDu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "p5RXMXKSr8xn5tZ5nkXgF",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "courseCategoryHr",
+                  "name": "Course Category: HR",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "5BRYQ4jLlMIbl372fT6Uaq",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "p5RXMXKSr8xn5tZ5nkXgF",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/data-science",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/healthcare-analytics-school",
+                      "variant": "Course"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5S56BizGRVn5cy5iNBJPie",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Certificate",
+      "name": "ΑΙ Data Analyst",
+      "features": null,
+      "slug": "certificates/ai-data-analyst",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "certificateCategoryDataScience",
+            "name": "Certificate Category: Data Science",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "certificateLevelDiploma",
+            "name": "Certificate Level: Diploma",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "58c7dvIrqUejqZqKDu2wHd",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "KaY5PSDAhX2SXz0e8uauq",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling/data-analyst",
+                      "variant": "Job"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-analyst-bootcamp",
+                      "variant": "Course"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1IYpIFzeraRnyepxxpDSDX",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Person",
+      "name": "Fotis Rigas",
+      "features": null,
+      "slug": "mentors/fotis-rigas",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "mentorsBusinessEntrepreneurship",
+            "name": "Mentors: Business & Entrepreneurship",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsHrTalentAcquisition",
+            "name": "Mentors: HR & Talent Acquisition",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsLeadershipManagement",
+            "name": "Mentors: Leadership & Management",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPersonalBrandingCareerDevelopment",
+            "name": "Mentors: Personal Branding & Career Development",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsSalesBusinessDevelopment",
+            "name": "Mentors: Sales & Business Development",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1LcGRfXjtz7JYF4tairBBN",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "U4M0ygXqWsOsm870BmT3w",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "ZoUMuaRwnz5gRWXM39RGm",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Person",
+      "name": "Valentina Kordi",
+      "features": null,
+      "slug": "mentors/valentina-kordi",
+      "seoTitle": null,
+      "seoDescription": null,
+      "theme": "Light",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "mentorsHrTalentAcquisition",
+            "name": "Mentors: HR & Talent Acquisition",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsLeadershipManagement",
+            "name": "Mentors: Leadership & Management",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "mentorsPersonalBrandingCareerDevelopment",
+            "name": "Mentors: Personal Branding & Career Development",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1ADO54wamAJQQ0MAGlVZUQ",
+              "__typename": "Sys"
+            },
+            "__typename": "PeopleDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2lPUdFLT8BUhFdrEG8vTNI",
+              "__typename": "Sys"
+            },
+            "__typename": "UniqueComponent",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "U4M0ygXqWsOsm870BmT3w",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      }
+    },
     {
       "sys": {
         "id": "i5d3bwWRYqBUb5hX4sgge",
@@ -2640,21 +3171,15 @@
           "items": [
             {
               "sys": {
-                "id": "qLcH2iUYFxPLPiwbbOY5S",
+                "id": "4oo4H3X1d8HIzmXuZOSQ4M",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
-                      "variant": "Course | Summer"
-                    }
-                  ]
+                  "items": [],
+                  "__typename": "PageCollection"
                 }
               }
             }
@@ -2798,21 +3323,15 @@
           "items": [
             {
               "sys": {
-                "id": "2xIvCCkhMRvoNInXCorlpu",
+                "id": "4oo4H3X1d8HIzmXuZOSQ4M",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "courses/ai-business-summer-school-by-shrm",
-                      "variant": "Course | Summer"
-                    }
-                  ]
+                  "items": [],
+                  "__typename": "PageCollection"
                 }
               }
             }
@@ -3374,21 +3893,15 @@
           "items": [
             {
               "sys": {
-                "id": "5dQJmIRxkeKgxBlFrJyfOa",
+                "id": "4oo4H3X1d8HIzmXuZOSQ4M",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "courses/ai-marketing-summer-school",
-                      "variant": "Course | Summer"
-                    }
-                  ]
+                  "items": [],
+                  "__typename": "PageCollection"
                 }
               }
             }
@@ -3448,21 +3961,15 @@
           "items": [
             {
               "sys": {
-                "id": "1DSO3kMmaSMtutY1SgTIg1",
+                "id": "4oo4H3X1d8HIzmXuZOSQ4M",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "courses/startup-summer-school",
-                      "variant": "Course | Summer"
-                    }
-                  ]
+                  "items": [],
+                  "__typename": "PageCollection"
                 }
               }
             }
@@ -3522,21 +4029,15 @@
           "items": [
             {
               "sys": {
-                "id": "6hUdQnqDPjut0A1W2FqpB6",
+                "id": "4oo4H3X1d8HIzmXuZOSQ4M",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "courses/hr-summer-school",
-                      "variant": "Course | Summer"
-                    }
-                  ]
+                  "items": [],
+                  "__typename": "PageCollection"
                 }
               }
             }
@@ -3596,21 +4097,15 @@
           "items": [
             {
               "sys": {
-                "id": "2darHWu13M7GluDyctjoht",
+                "id": "4oo4H3X1d8HIzmXuZOSQ4M",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "courses/ai-data-science-summer-school",
-                      "variant": "Course | Summer"
-                    }
-                  ]
+                  "items": [],
+                  "__typename": "PageCollection"
                 }
               }
             }
@@ -3988,7 +4483,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "7IpufwJceWzSbYjzulgxc8",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -3999,18 +4494,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/project-management-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -4124,7 +4609,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "7IpufwJceWzSbYjzulgxc8",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -4135,18 +4620,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/project-management-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -4529,7 +5004,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "46mYXSpntvpY0GAZMFUTPk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -4540,18 +5015,13 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+                      "variant": "Course | Summer"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/ai-data-science-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -4645,7 +5115,7 @@
           "items": [
             {
               "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
+                "id": "1ibGHqzhyhjA3mcIywBSEW",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -4656,17 +5126,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-schools",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-course-template",
+                      "slug": "courses/hr-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -4746,7 +5206,7 @@
           "items": [
             {
               "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
+                "id": "1ibGHqzhyhjA3mcIywBSEW",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -4757,17 +5217,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-schools",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-course-template",
+                      "slug": "courses/hr-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -5171,15 +5621,41 @@
           "items": [
             {
               "sys": {
-                "id": "7hMY6gvOQOCMo39V7ibV4u",
+                "id": "7ny4Y1tSjlj9ABPnG58ibB",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "course/hr-metrics-and-excel-for-hr",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/talent-acquisition",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-and-chatgpt-for-recruitment",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/human-resources",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/hr-analytics",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -5824,7 +6300,7 @@
           "items": [
             {
               "sys": {
-                "id": "TRcv152bICxkjX59Yd8QM",
+                "id": "6c8lwjVXJy0gTZYTsEAtJW",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -5835,17 +6311,27 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/human-skills",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/negotiation-mastery-texnikes-diapragmateushs",
+                      "slug": "course/corporate-email-mastery",
                       "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/cv-and-linkedin-preparation",
+                      "slug": "course/planning-and-resource-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/business",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/project-management-bootcamp",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-business-school",
                       "variant": "Course"
                     }
                   ]
@@ -7107,7 +7593,7 @@
           "items": [
             {
               "sys": {
-                "id": "TRcv152bICxkjX59Yd8QM",
+                "id": "6c8lwjVXJy0gTZYTsEAtJW",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -7118,17 +7604,27 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/human-skills",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/negotiation-mastery-texnikes-diapragmateushs",
+                      "slug": "course/corporate-email-mastery",
                       "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/cv-and-linkedin-preparation",
+                      "slug": "course/planning-and-resource-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/business",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/project-management-bootcamp",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-business-school",
                       "variant": "Course"
                     }
                   ]
@@ -8903,7 +9399,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "3Zk9xgAsK2W06tlbwGsbJk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -8914,7 +9410,12 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
+                      "slug": "home",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling",
                       "variant": "Default"
                     }
                   ]
@@ -9004,7 +9505,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "5iFf1HIDakBj0SARSBBTwQ",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -9015,18 +9516,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/startup-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -9653,15 +10144,41 @@
           "items": [
             {
               "sys": {
-                "id": "5ltDZzefEC3uecE697aCYh",
+                "id": "5lJCITDPwU6FNcbAq7yMYc",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "category/it",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/introduction-to-sql",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/programming-school-for-beginners",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-software-testing-qa",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/python-web-development-bootcamp",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -9795,7 +10312,7 @@
           "items": [
             {
               "sys": {
-                "id": "1ihrpBoYwQYbn8VGiDVZIG",
+                "id": "3ZIuFWAlL1kiIzKJRSefK1",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -9806,7 +10323,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "course/hr-leadership-school",
+                      "slug": "course/leadership",
                       "variant": "Course"
                     }
                   ]
@@ -13248,15 +13765,26 @@
           "items": [
             {
               "sys": {
-                "id": "1s4V9nOh5hOUsqo8UGN1GO",
+                "id": "KaY5PSDAhX2SXz0e8uauq",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling/data-analyst",
+                      "variant": "Job"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-analyst-bootcamp",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -14377,7 +14905,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "7IpufwJceWzSbYjzulgxc8",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -14388,18 +14916,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/project-management-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -14961,15 +15479,41 @@
           "items": [
             {
               "sys": {
-                "id": "5Euuyz02hFBlHwRzP7m8kn",
+                "id": "7ny4Y1tSjlj9ABPnG58ibB",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "course/hr-metrics-and-excel-for-hr",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/talent-acquisition",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-and-chatgpt-for-recruitment",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/human-resources",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/hr-analytics",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -15217,15 +15761,41 @@
           "items": [
             {
               "sys": {
-                "id": "5ltDZzefEC3uecE697aCYh",
+                "id": "5lJCITDPwU6FNcbAq7yMYc",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "category/it",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/introduction-to-sql",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/programming-school-for-beginners",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-software-testing-qa",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/python-web-development-bootcamp",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -16784,7 +17354,7 @@
           "items": [
             {
               "sys": {
-                "id": "5lJCITDPwU6FNcbAq7yMYc",
+                "id": "4XZ7ZIQbUd3sqleTjzJ0e5",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -16795,27 +17365,12 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/it",
+                      "slug": "category/ai",
                       "variant": "Category"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/introduction-to-sql",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/programming-school-for-beginners",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-software-testing-qa",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/python-web-development-bootcamp",
+                      "slug": "course/openai-with-python",
                       "variant": "Course"
                     }
                   ]
@@ -17480,7 +18035,7 @@
           "items": [
             {
               "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
+                "id": "46mYXSpntvpY0GAZMFUTPk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -17491,17 +18046,12 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+                      "variant": "Course | Summer"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "summer-schools",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-course-template",
+                      "slug": "courses/ai-data-science-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -17681,7 +18231,7 @@
           "items": [
             {
               "sys": {
-                "id": "1JXwtY1vGXeHBWy43cxY4a",
+                "id": "46mYXSpntvpY0GAZMFUTPk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -17692,7 +18242,12 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "courses/ai-marketing-summer-school",
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+                      "variant": "Course | Summer"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "courses/ai-data-science-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -17983,7 +18538,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "5iFf1HIDakBj0SARSBBTwQ",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -17994,18 +18549,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/startup-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -18194,7 +18739,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "7IpufwJceWzSbYjzulgxc8",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -18205,18 +18750,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/project-management-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -18305,7 +18840,7 @@
           "items": [
             {
               "sys": {
-                "id": "1JXwtY1vGXeHBWy43cxY4a",
+                "id": "7IpufwJceWzSbYjzulgxc8",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -18316,7 +18851,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "courses/ai-marketing-summer-school",
+                      "slug": "courses/project-management-summer-school",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -18699,7 +19234,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "46mYXSpntvpY0GAZMFUTPk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -18710,18 +19245,13 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+                      "variant": "Course | Summer"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/ai-data-science-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -19070,7 +19600,7 @@
           "items": [
             {
               "sys": {
-                "id": "4INbBwAJEGwuKzzVlGnlwl",
+                "id": "3i2VOJ75Pe2ZKrcFOB78cb",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -19081,17 +19611,7 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "playground-dev",
-                      "variant": "Playground"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-schools",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "summer-course-template",
+                      "slug": "courses/ai-business-summer-school-by-shrm",
                       "variant": "Course | Summer"
                     }
                   ]
@@ -19357,7 +19877,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "46mYXSpntvpY0GAZMFUTPk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -19368,18 +19888,13 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
+                      "slug": "courses/hack-the-football-data-and-programming-summer-school",
+                      "variant": "Course | Summer"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/ai-data-science-summer-school",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -19468,7 +19983,7 @@
           "items": [
             {
               "sys": {
-                "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+                "id": "tuoLI8ULJKfBDZAcK731x",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -19479,18 +19994,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "home",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "about",
-                      "variant": "Default"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/dorean-aksiologisi-deksiotiton-and-ekpaideytiko-demo",
-                      "variant": "Course"
+                      "slug": "courses/finance-summer-school-2025",
+                      "variant": "Course | Summer"
                     }
                   ]
                 }
@@ -20123,7 +20628,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "3Zk9xgAsK2W06tlbwGsbJk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -20134,7 +20639,12 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
+                      "slug": "home",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling",
                       "variant": "Default"
                     }
                   ]
@@ -22489,7 +22999,7 @@
           "items": [
             {
               "sys": {
-                "id": "200Z0PtkYfZt4l9Y4xidxD",
+                "id": "p5RXMXKSr8xn5tZ5nkXgF",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -22500,8 +23010,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "reskilling/auditor",
-                      "variant": "Job"
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/data-science",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/healthcare-analytics-school",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -22751,7 +23281,7 @@
           "items": [
             {
               "sys": {
-                "id": "4miqicRYU2DwfLm9tegkJ6",
+                "id": "p5RXMXKSr8xn5tZ5nkXgF",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -22762,22 +23292,27 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/digital-marketing",
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/data-science",
                       "variant": "Category"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/content-marketing-and-analytics",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/developing-a-digital-marketing-strategy",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/digital-marketing-bootcamp",
+                      "slug": "course/healthcare-analytics-school",
                       "variant": "Course"
                     }
                   ]
@@ -23028,7 +23563,7 @@
           "items": [
             {
               "sys": {
-                "id": "2kqrHtlceZr2aw6BHLoQw6",
+                "id": "p5RXMXKSr8xn5tZ5nkXgF",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -23039,13 +23574,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "reskilling/auditor",
-                      "variant": "Job"
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "reskilling/financial-data-analyst",
-                      "variant": "Job"
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/data-science",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/healthcare-analytics-school",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -23295,7 +23845,7 @@
           "items": [
             {
               "sys": {
-                "id": "2VjPxteqhc5u7WT1lAf6Wd",
+                "id": "p5RXMXKSr8xn5tZ5nkXgF",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -23306,8 +23856,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "reskilling/data-analyst",
-                      "variant": "Job"
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/data-science",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/healthcare-analytics-school",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -25200,15 +25770,41 @@
           "items": [
             {
               "sys": {
-                "id": "5Xf5QEWRtJMHAGp2zd7HXI",
+                "id": "6c8lwjVXJy0gTZYTsEAtJW",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "course/corporate-email-mastery",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/planning-and-resource-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/business",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/project-management-bootcamp",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-business-school",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -25456,15 +26052,21 @@
           "items": [
             {
               "sys": {
-                "id": "3ZcpagiJwklvxAzOaslQhN",
+                "id": "6darLjzbLhXkcVCrzIkNPx",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling/hr-manager",
+                      "variant": "Job"
+                    }
+                  ]
                 }
               }
             }
@@ -25723,15 +26325,26 @@
           "items": [
             {
               "sys": {
-                "id": "5ltDZzefEC3uecE697aCYh",
+                "id": "4XZ7ZIQbUd3sqleTjzJ0e5",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "category/ai",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/openai-with-python",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -27256,7 +27869,7 @@
           "items": [
             {
               "sys": {
-                "id": "4miqicRYU2DwfLm9tegkJ6",
+                "id": "6c8lwjVXJy0gTZYTsEAtJW",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -27267,22 +27880,27 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/digital-marketing",
+                      "slug": "course/corporate-email-mastery",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/planning-and-resource-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/business",
                       "variant": "Category"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/content-marketing-and-analytics",
+                      "slug": "course/project-management-bootcamp",
                       "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/developing-a-digital-marketing-strategy",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/digital-marketing-bootcamp",
+                      "slug": "course/ai-business-school",
                       "variant": "Course"
                     }
                   ]
@@ -29405,7 +30023,7 @@
           "items": [
             {
               "sys": {
-                "id": "7ny4Y1tSjlj9ABPnG58ibB",
+                "id": "6darLjzbLhXkcVCrzIkNPx",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -29416,28 +30034,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "course/hr-metrics-and-excel-for-hr",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/talent-acquisition",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-and-chatgpt-for-recruitment",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "category/human-resources",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/hr-analytics",
-                      "variant": "Course"
+                      "slug": "reskilling/hr-manager",
+                      "variant": "Job"
                     }
                   ]
                 }
@@ -30522,7 +31120,7 @@
           "items": [
             {
               "sys": {
-                "id": "2Rh5fBgNg0w7bjUTPCKUwi",
+                "id": "p5RXMXKSr8xn5tZ5nkXgF",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -30533,8 +31131,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "reskilling/healthcare-data-analyst",
-                      "variant": "Job"
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/data-science",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/healthcare-analytics-school",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -31308,7 +31926,7 @@
           "items": [
             {
               "sys": {
-                "id": "3ZcpagiJwklvxAzOaslQhN",
+                "id": "2YGjJUQXtP7HwWblobkCQR",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -32128,15 +32746,41 @@
           "items": [
             {
               "sys": {
-                "id": "4mKFaUIOOhRA3migXTIbyU",
+                "id": "7ny4Y1tSjlj9ABPnG58ibB",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "course/hr-metrics-and-excel-for-hr",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/talent-acquisition",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-and-chatgpt-for-recruitment",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "category/human-resources",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/hr-analytics",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -32666,15 +33310,21 @@
           "items": [
             {
               "sys": {
-                "id": "4mKFaUIOOhRA3migXTIbyU",
+                "id": "3303bX2h4ZwY4YWgFvilZh",
                 "__typename": "Sys"
               },
               "__typename": "Section",
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling/sports-data-analyst",
+                      "variant": "Job"
+                    }
+                  ]
                 }
               }
             }
@@ -33468,262 +34118,6 @@
     },
     {
       "sys": {
-        "id": "b52aCJfDG0Iv3sFm0LtYD",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course",
-      "name": "Data Analyst Bootcamp",
-      "features": null,
-      "slug": "course/data-analyst-bootcamp",
-      "seoTitle": "Απόκτησε Πιστοποίηση Data Science - Ολοκληρωμένο Πρόγραμμα στην Επιστήμη Δεδομένων - Μαθήματα Data Science",
-      "seoDescription": "Ξεκινήστε το ταξίδι σας στην επιστήμη δεδομένων. Μάθετε ανάλυση δεδομένων, οπτικοποίηση και βασικές έννοιες μηχανικής μάθησης.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryDataScience",
-            "name": "Course Category: Data Science",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "65g1v58cFQkCMeBGpiC9ay",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3v7Q94cuPM05B0hBf0DzId",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5kAkAVkgeQPdZbE14E5ebN",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6CVwUY9tenvAgGcaijMAY5",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6BrNRKWRMu7CgQ65bGaI7T",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "KaY5PSDAhX2SXz0e8uauq",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7CFN9tfUOsbJAu9gDRITyk",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "jrembJBR9zZ1R4gbpVOHr",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7hz3m9fcmiF4L4uL48wwVa",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1BG4iijKVZgO11kpG4BSCv",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4Ygt2jeFevZYcS1Wq59unx",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "p5RXMXKSr8xn5tZ5nkXgF",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5BRYQ4jLlMIbl372fT6Uaq",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "7hMY6gvOQOCMo39V7ibV4u",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "sys": {
         "id": "3rHWY8Trh6dmi1lTq1ZHhv",
         "__typename": "Sys"
       },
@@ -33812,7 +34206,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "3Zk9xgAsK2W06tlbwGsbJk",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -33823,7 +34217,12 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
+                      "slug": "home",
+                      "variant": "Default"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "reskilling",
                       "variant": "Default"
                     }
                   ]
@@ -34288,7 +34687,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "4hCBq2PcuFiNcyd31JRb42",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -34299,8 +34698,18 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "category/human-skills",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/negotiation-mastery-texnikes-diapragmateushs",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/cv-and-linkedin-preparation",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -35028,7 +35437,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "1KQw7XlhB0bS0vV0MdWvi0",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -35039,8 +35448,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "course/business-career-coaching",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/planning-and-resource-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/project-management-bootcamp",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-business-school",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/leadership-and-management-school",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -35141,7 +35570,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "1KQw7XlhB0bS0vV0MdWvi0",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -35152,8 +35581,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "course/business-career-coaching",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/planning-and-resource-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/project-management-bootcamp",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-business-school",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/leadership-and-management-school",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -35480,7 +35929,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "GGEeWLTpCvJ3YUwKD7TcA",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -35491,8 +35940,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "category/finance",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/python-for-finance",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/corporate-finance",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/personal-finance-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/finance-bootcamp",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -35706,7 +36175,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "GGEeWLTpCvJ3YUwKD7TcA",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -35717,8 +36186,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "category/finance",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/python-for-finance",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/corporate-finance",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/personal-finance-management",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/finance-bootcamp",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -35937,7 +36426,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "b3Z427kmCyYa1zTrRF5Og",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -35948,8 +36437,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "category/it",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/introduction-to-sql",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/programming-school-for-beginners",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-software-testing-qa",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/python-web-development-bootcamp",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -36050,7 +36559,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "5BRYQ4jLlMIbl372fT6Uaq",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -36061,8 +36570,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "course/data-storytelling-with-tableau",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-with-python",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/healthcare-analytics-school",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/data-science-for-beginners",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/learn-excel",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -36100,6 +36629,13 @@
             "__typename": "ContentfulTag"
           }
         ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       },
       "contentCollection": {
         "__typename": "PageContentCollection",
@@ -36149,13 +36685,6 @@
             }
           }
         ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       }
     },
     {
@@ -36249,7 +36778,7 @@
           "items": [
             {
               "sys": {
-                "id": "2vbSfk2kT7GHk3EykI7voE",
+                "id": "b3Z427kmCyYa1zTrRF5Og",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -36260,8 +36789,28 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "blog",
-                      "variant": "Default"
+                      "slug": "category/it",
+                      "variant": "Category"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/introduction-to-sql",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/programming-school-for-beginners",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/ai-software-testing-qa",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/python-web-development-bootcamp",
+                      "variant": "Course"
                     }
                   ]
                 }
@@ -36288,6 +36837,13 @@
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       },
       "contentCollection": {
         "__typename": "PageContentCollection",
@@ -36376,13 +36932,6 @@
             }
           }
         ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       }
     },
     {
@@ -36836,6 +37385,13 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      },
       "contentCollection": {
         "__typename": "PageContentCollection",
         "items": [
@@ -36862,13 +37418,6 @@
             }
           }
         ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       }
     },
     {
@@ -36934,6 +37483,13 @@
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       },
       "contentCollection": {
         "__typename": "PageContentCollection",
@@ -37011,13 +37567,6 @@
             }
           }
         ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       }
     },
     {
@@ -37037,6 +37586,13 @@
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       },
       "contentCollection": {
         "__typename": "PageContentCollection",
@@ -37159,13 +37715,6 @@
             }
           }
         ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       }
     },
     {
@@ -37549,6 +38098,13 @@
           }
         ]
       },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
+      },
       "contentCollection": {
         "__typename": "PageContentCollection",
         "items": [
@@ -37674,13 +38230,6 @@
             }
           }
         ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       }
     }
   ]

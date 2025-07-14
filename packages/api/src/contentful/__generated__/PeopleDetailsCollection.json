@@ -1,8 +1,752 @@
 {
-  "__timestamp": 1748879242276,
-  "__hash": "45c64c932b92b8ce777e97a917bf53ca77ef34002ea7056550d359983ac92378",
-  "total": 120,
+  "__timestamp": 1752333115646,
+  "__hash": "1a3d029d47fa7e062fa979238943148a7e34a74b7bc446f98f7d5600d5f69237",
+  "total": 123,
   "items": [
+    {
+      "sys": {
+        "id": "58c7dvIrqUejqZqKDu2wHd",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Οι κάτοχοι του AI Data Analyst Certification διαθέτουν πρακτική γνώση και εφαρμοσμένη εμπειρία στη σύγχρονη ανάλυση δεδομένων, συνδυάζοντας τις βασικές αρχές της Επιστήμης Δεδομένων με τις εξελίξεις στην Τεχνητή Νοημοσύνη. Είναι σε θέση να διαχειρίζονται βάσεις δεδομένων και να συντάσσουν προηγμένα SQL queries για ανάλυση, αυτοματοποίηση και εξαγωγή επιχειρησιακών insights, να δημιουργούν διαδραστικά dashboards στο Power BI αξιοποιώντας AI λειτουργίες για πρόβλεψη και οπτικοποίηση και να επεξεργάζονται σύνθετα δεδομένα μέσω Python και Excel. Επιπλέον, εφαρμόζουν τεχνικές data scaling και παραγωγής συνθετικών δεδομένων, διαμορφώνουν αποδοτικά prompts για LLMs όπως το ChatGPT και ενσωματώνουν αρχές δεοντολογίας στη χρήση της Τεχνητής Νοημοσύνης. Η πιστοποίηση επιβεβαιώνει την ετοιμότητά τους να συμβάλλουν ουσιαστικά σε data-driven έργα, τόσο σε εταιρικά περιβάλλοντα όσο και σε freelance συνεργασίες. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI Data Analyst Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Μέχρι το τέλος του προγράμματος, οι συμμετέχοντες θα είναι σε θέση να: Κατανοούν τα θεμέλια της Επιστήμης Δεδομένων και των στατιστικών εννοιών που υποστηρίζουν την ανάλυση,.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "41amXBisT8zntqNxiSRpYy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41amXBisT8zntqNxiSRpYy/a4db6311697980ed2e1f4b5283c099ad/Î_Î_Ï_Î_Î_Ï_Î_Ï_Î__Ï_Î_Ï__Certificate_4.png",
+        "width": 960,
+        "height": 540,
+        "contentType": "image/png",
+        "title": "Certificate 1 2",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "1LcGRfXjtz7JYF4tairBBN",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Professional Experience:\n",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Managing Director, Recruitment Services – Kariera Group",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Leading a team of 40 recruiters across Greece, Germany, the United Kingdom, Dubai, Singapore, and Vietnam.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Focus sectors: Oil & Gas, Hospitality, IT, FMCG, Manufacturing, Multilingual Support, and Retail.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Chief Executive Officer – Executive Level (2021)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Strategic talent acquisition and C-Level recruitment consulting.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Growth Advisor & Board Member – Plushost (2019)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Business development and e-commerce scaling.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Education Growth Consultant & Board Member – Paixnidagogeio (2018)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Strategy and expansion in the education sector.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Founder – Human Factor LTD (2005)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR Information Systems and consulting services.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR Consultant – Nobacco (2013–2018)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Talent and HR strategy in the retail and FMCG space.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Founder – HRmind (2005–2012)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR and business consulting projects across Greece and Dubai.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Founder – ISS (International Software Solutions), Dubai (2008–2011)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Software solutions with a focus on HR and enterprise systems.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Commercial Manager – Kariera SA (2000–2005)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Commercial development and strategic partnerships.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Various Commercial Roles (1996–2000)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Experience in the medical, chemical, and FMCG industries.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Education & Certifications:\n",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Professional MBA, ALBA Business School (2004)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "B.A. in Business Administration (Marketing), ICBS Business School",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR Audit Certification, Ireland (2013)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Project Management, Washington University (2009)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Participation in several international HR conferences",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Fluent in English",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Proficient in Microsoft Office and CRM platforms",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "actionsCollection": {
+        "items": [],
+        "__typename": "PeopleDetailsActionsCollection"
+      },
+      "name": "Fotis Rigas",
+      "variant": "Mentor",
+      "role": "Managing Director Recruitment Services",
+      "company": "Kariera Group",
+      "shortDescription": null,
+      "expertise": null,
+      "linkedIn": "https://www.linkedin.com/in/fotisrigas2/",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5hPkW6yHBR4A5yCAUlsR6N",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5hPkW6yHBR4A5yCAUlsR6N/a023d8afb42923f654251273ddbbe0b4/1625572604496.jpg",
+        "width": 800,
+        "height": 800,
+        "contentType": "image/jpeg",
+        "title": "fotis rigas",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "1ADO54wamAJQQ0MAGlVZUQ",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "With a seasoned international experience in consulting senior executives, entrepreneurs, and corporate teams from a vast variety of sectors, Valentina specializes in transforming mindsets and behaviors to drive sustainable high performance and build strong organizational cultures. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Her practical approach blends cutting-edge scientific practices and tools with organizational psychology, helping professionals at all levels unlock their potential, lead with clarity, and create measurable impact. She holds an academic background in HRM, Integrative Psychotherapy and Organizational Psychology and she's currently pursuing PhD research on how shifts in mental maps lead to long-term organizational change. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "As the author of 2 books \"Success Is A Mind Game\" and \"The Mirror Effect: What You See Is How You Lead\", she brings evidence-based insights and real-world strategies to every mentoring relationship, empowering individuals and organizations to thrive from the inside out. ",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "actionsCollection": {
+        "items": [],
+        "__typename": "PeopleDetailsActionsCollection"
+      },
+      "name": "Valentina Kordi",
+      "variant": "Mentor",
+      "role": "Mindset & High-Performance Expert",
+      "company": "VK - People Development Services",
+      "shortDescription": null,
+      "expertise": null,
+      "linkedIn": "http://www.linkedin.com/in/valentinakordi",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "7yOLOvvdE34oKRA66J5N1w",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7yOLOvvdE34oKRA66J5N1w/570633407006e605c8fd06e3751faa48/valentina_mentor__1_.png",
+        "width": 940,
+        "height": 788,
+        "contentType": "image/png",
+        "title": "valentina mentor (1)",
+        "description": ""
+      }
+    },
     {
       "sys": {
         "id": "gO3eoacGhkdZ8LqOasMAS",
