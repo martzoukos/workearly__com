@@ -15,6 +15,9 @@ import clsx from "clsx";
 import Image from "next/image";
 import { useState } from "react";
 import styles from "./PurchaseCourse.module.scss";
+import Link from "next/link";
+import { TranslationTextType } from "@workearly/api";
+import EmailGatherForm from "../EmailGatherForm/EmailGatherForm";
 
 interface PropsType {
   className?: string;
@@ -31,9 +34,10 @@ export default function PurchaseCourse({
   hideFooter,
   hideQuickPurchase,
 }: PropsType) {
-  const [purchaseType, setPurchaseType] = useState<"Personal" | "Team">(
-    "Personal",
+  const [ctaGroup, setCtaGroup] = useState<"Information" | "Participate">(
+    "Information",
   );
+  const [showEmailForm, setShowEmailForm] = useState(false);
   const { page } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const { timeLeft, gift } = useCourseDetailsResolver(courseDetails);
@@ -45,6 +49,8 @@ export default function PurchaseCourse({
   if (!courseDetails) {
     return null;
   }
+
+  const isBootcampCourse = courseDetails.group === 1;
 
   return (
     <Themed className={clsx(styles.root, className)} isInverted={isInverted}>
@@ -62,38 +68,44 @@ export default function PurchaseCourse({
 
       <div className={styles.contentWrapper}>
         <div className={styles.content}>
-          <div className={styles.buttons}>
-            <Button
-              colorSchemes={{
-                light: purchaseType === "Personal" ? "Green" : "Black",
-                dark: purchaseType === "Personal" ? "Green" : "White",
-              }}
-              variant={purchaseType === "Personal" ? "Solid" : "Outlined"}
-              onClick={() => setPurchaseType("Personal")}
-              data-state={purchaseType === "Personal" ? "active" : "inactive"}
-            >
-              {translate("Personal")}
-            </Button>
-            <Button
-              colorSchemes={{
-                light: purchaseType === "Team" ? "Green" : "Black",
-                dark: purchaseType === "Team" ? "Green" : "White",
-              }}
-              variant={purchaseType === "Team" ? "Solid" : "Outlined"}
-              onClick={() => setPurchaseType("Team")}
-              data-state={purchaseType === "Team" ? "active" : "inactive"}
-            >
-              {translate("Team")}
-            </Button>
-          </div>
+          {isBootcampCourse && (
+            <>
+              <div className={styles.buttons}>
+                <Button
+                  colorSchemes={{
+                    light: ctaGroup === "Information" ? "Green" : "Black",
+                    dark: ctaGroup === "Information" ? "Green" : "White",
+                  }}
+                  variant={ctaGroup === "Information" ? "Solid" : "Outlined"}
+                  onClick={() => setCtaGroup("Information")}
+                  data-state={
+                    ctaGroup === "Information" ? "active" : "inactive"
+                  }
+                >
+                  Πληροφορίες
+                </Button>
+                <Button
+                  colorSchemes={{
+                    light: ctaGroup === "Participate" ? "Green" : "Black",
+                    dark: ctaGroup === "Participate" ? "Green" : "White",
+                  }}
+                  variant={ctaGroup === "Participate" ? "Solid" : "Outlined"}
+                  onClick={() => setCtaGroup("Participate")}
+                  data-state={
+                    ctaGroup === "Participate" ? "active" : "inactive"
+                  }
+                >
+                  Συμμετοχή
+                </Button>
+              </div>
 
-          <Text size="small" className={styles.description}>
-            {translate(
-              purchaseType === "Personal"
-                ? "CourseCardPersonal"
-                : "CourseCardTeam",
-            )}
-          </Text>
+              <Text size="small" className={styles.description}>
+                {ctaGroup === "Information"
+                  ? "Δοκίμασε δωρεάν το μάθημα πριν το αγοράσεις ή ζήτησε περισσότερες πληροφορίες για το μάθημα."
+                  : "Ζήτησε περισσότερες πληροφορίες για το μάθημα ή αγόρασέ το απευθείας."}
+              </Text>
+            </>
+          )}
 
           <div className={styles.giftAndTimeleft}>
             {gift && (
@@ -123,37 +135,94 @@ export default function PurchaseCourse({
           )}
         </div>
 
-        {!hideFooter && (
+        {showEmailForm && (
+          <>
+            <EmailGatherForm hideFormFn={() => setShowEmailForm(false)} />
+          </>
+        )}
+
+        {!hideFooter && !showEmailForm && (
           <footer className={styles.footer}>
-            {courseDetails && courseDetails.demoUrl && (
-              <Button
-                variant="Outlined"
-                isFullWidth
-                size="medium"
-                onClick={() => window.open(courseDetails.demoUrl!, "_blank")}
-              >
-                <Play size="24" />
-                {translate("CourseCardDemo")}
-              </Button>
+            {isBootcampCourse ? (
+              <>
+                {ctaGroup === "Information" ? (
+                  <>
+                    <Button
+                      variant="Outlined"
+                      isFullWidth
+                      size="medium"
+                      onClick={() => setShowEmailForm(true)}
+                    >
+                      <Play size="24" />
+                      Δοκίμασε Δωρεάν
+                    </Button>
+                    {courseDetails.applicationFormUrl && page.slug && (
+                      <InterestButton groupNumber={1} pageSlug={page.slug} />
+                    )}
+                  </>
+                ) : (
+                  <>
+                    {courseDetails.applicationFormUrl && page.slug && (
+                      <InterestButton groupNumber={1} pageSlug={page.slug} />
+                    )}
+                    <PurchaseButton page={page} isFullWidth size="medium" />
+                  </>
+                )}
+              </>
+            ) : (
+              <>
+                {courseDetails && courseDetails.demoUrl && (
+                  <Button
+                    variant="Outlined"
+                    isFullWidth
+                    size="medium"
+                    onClick={() =>
+                      window.open(courseDetails.demoUrl!, "_blank")
+                    }
+                  >
+                    <Play size="24" />
+                    {translate("CourseCardDemo")}
+                  </Button>
+                )}
+
+                <PurchaseButton page={page} isFullWidth size="medium" />
+
+                <div className={styles.shareWrapper}>
+                  <Button
+                    variant="Outlined"
+                    isFullWidth
+                    size="medium"
+                    onClick={() => setShowMenu((prev) => !prev)}
+                  >
+                    <Share size="24" /> {translate("CourseCardShare")}
+                  </Button>
+                  {showMenu && <ShareMenu />}
+                </div>
+              </>
             )}
-
-            <PurchaseButton page={page} isFullWidth size="medium" />
-
-            <div className={styles.shareWrapper}>
-              <Button
-                variant="Outlined"
-                isFullWidth
-                size="medium"
-                onClick={() => setShowMenu((prev) => !prev)}
-              >
-                <Share size="24" /> {translate("CourseCardShare")}
-              </Button>
-              {showMenu && <ShareMenu />}
-            </div>
           </footer>
         )}
       </div>
       {!hideQuickPurchase && <StickyPurchase />}
     </Themed>
   );
+
+  function InterestButton({
+    groupNumber = 1,
+    pageSlug,
+  }: {
+    groupNumber: number;
+    pageSlug: string;
+  }) {
+    return (
+      <Button variant="Solid" colorScheme="Green" isFullWidth size="medium">
+        <Link href={`/interest/${pageSlug}`}>
+          {translate(`group${groupNumber}_form_cta` as TranslationTextType, {
+            fallbackCode: "Apply",
+          })}
+          {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
+        </Link>
+      </Button>
+    );
+  }
 }

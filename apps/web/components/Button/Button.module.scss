@@ -94,6 +94,10 @@
   --color-border: var(--color-primary);
 }
 
+.variantSolid.colorSchemeGreen {
+  --color-border: hsl(var(--color-black-500));
+}
+
 .variantOutlined {
   --color-bg: transparent;
   --color-text: var(--color-primary);

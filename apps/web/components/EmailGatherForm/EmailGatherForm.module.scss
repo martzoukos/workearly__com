@@ -1,0 +1,27 @@
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  color: var(--color-primary);
+}
+.closeButton svg {
+  width: 24px;
+  height: 24px;
+}
+
+.emailInput input {
+  height: 3rem;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  color: var(--color-primary);
+}
