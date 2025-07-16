@@ -107,6 +107,8 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     applicationDeadline
     startingCost
     finalCost
+    hubspotDealType
+    onDemand
     videoThumbnail {
       ...AssetFields
     }

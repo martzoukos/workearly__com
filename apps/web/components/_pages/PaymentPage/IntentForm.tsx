@@ -22,7 +22,7 @@ type PropsType = {
 
 export default function IntentForm({ onSuccess }: PropsType) {
   const router = useRouter();
-  const { page } = useContentful();
+  const { page, endDates } = useContentful();
   const { courseDetails } = usePageResolver(page);
   const {
     control,
@@ -38,12 +38,19 @@ export default function IntentForm({ onSuccess }: PropsType) {
         throw new Error("Course details not found");
       }
 
+      const applicationStartDate = endDates.find(
+        (d) => d.name === `group${courseDetails.group}`,
+      )?.date;
+
       const response = await fetch("/api/create-payment-intent", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           ...data,
+          applicationStartDate,
           courseDetailsId: courseDetails.sys.id,
+          siteTransaction: true,
+          onDemand: courseDetails.onDemand,
         }),
       });
       const json = await response.json();

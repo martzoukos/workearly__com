@@ -45,6 +45,9 @@ export default function InterestForm() {
             name: data.name,
             email: data.email,
             phone: data.phone,
+            courseTitle: courseDetails.title,
+            courseId: courseDetails.id,
+            hubspotDealType: courseDetails.hubspotDealType,
           }),
         },
       );
