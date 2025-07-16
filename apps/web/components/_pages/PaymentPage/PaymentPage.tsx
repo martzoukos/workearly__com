@@ -1,7 +1,6 @@
 import CheckoutForm from "@/components/_pages/PaymentPage/CheckoutForm";
 import IntentForm from "@/components/_pages/PaymentPage/IntentForm";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import PurchaseCourse from "@/components/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import { Elements } from "@stripe/react-stripe-js";
@@ -10,6 +9,7 @@ import clsx from "clsx";
 import { NextSeo } from "next-seo";
 import { useState } from "react";
 import styles from "./PaymentPage.module.scss";
+import WorkearlyVideo from "@/components/WorkearlyVideo/WorkearlyVideo";
 
 const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string,
@@ -101,8 +101,17 @@ export default function PaymentPage({ className }: PropsType) {
         ]}
       />
       <div className={styles.content}>
-        <PurchaseCourse isInverted={false} hideFooter hideQuickPurchase />
-        <IntentForm onSuccess={setClientSecret} />
+        <WorkearlyVideo />
+        {clientSecret ? (
+          <Elements
+            stripe={stripePromise}
+            options={{ clientSecret, appearance }}
+          >
+            <CheckoutForm />
+          </Elements>
+        ) : (
+          <IntentForm onSuccess={setClientSecret} />
+        )}
       </div>
     </main>
   );

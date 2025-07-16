@@ -1,0 +1,12 @@
+.container {
+  border-radius: 0.5rem;
+  background-color: hsl(var(--color-green-500));
+  padding: 1rem;
+  display: flex;
+}
+
+.video {
+  border-radius: 0.25rem;
+  width: 100%;
+  aspect-ratio: 560/315;
+}

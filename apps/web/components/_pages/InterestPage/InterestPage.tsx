@@ -1,11 +1,11 @@
 import InterestForm from "@/components/_pages/InterestPage/InterestForm";
 import Breadcrumbs from "@/components/Breadcrumbs";
-import PurchaseCourse from "@/components/PurchaseCourse";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
 import clsx from "clsx";
 import { NextSeo } from "next-seo";
 import styles from "./InterestPage.module.scss";
+import WorkearlyVideo from "@/components/WorkearlyVideo/WorkearlyVideo";
 
 type PropsType = {
   className?: string;
@@ -44,7 +44,7 @@ export default function InterestPage({ className }: PropsType) {
         ]}
       />
       <div className={styles.content}>
-        <PurchaseCourse isInverted={false} hideFooter hideQuickPurchase />
+        <WorkearlyVideo />
         <InterestForm />
       </div>
     </main>
