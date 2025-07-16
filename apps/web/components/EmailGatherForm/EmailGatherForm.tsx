@@ -7,6 +7,8 @@ import Button from "../Button";
 import { Close } from "@carbon/icons-react";
 import Text from "../Text";
 import { useState } from "react";
+import usePageResolver from "@/hooks/usePageResolver";
+import { useContentful } from "@/stores/ContentfulStore";
 
 const schema = yup.object().shape({
   email: yup.string().email("Invalid email").required("Email is required"),
@@ -20,7 +22,8 @@ export default function EmailGatherForm({
   hideFormFn?: () => void;
 }) {
   const [isSuccess, setIsSuccess] = useState(false);
-
+  const { page } = useContentful();
+  const { courseDetails } = usePageResolver(page);
   const {
     control,
     handleSubmit,
@@ -28,6 +31,10 @@ export default function EmailGatherForm({
   } = useForm({
     resolver: yupResolver(schema),
   });
+
+  if (!courseDetails) {
+    return null;
+  }
 
   const onSubmit = async (data: SchemaType) => {
     try {
@@ -39,6 +46,8 @@ export default function EmailGatherForm({
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             email: data.email,
+            courseTitle: courseDetails.title,
+            courseId: courseDetails.id,
           }),
         },
       );
@@ -84,7 +93,7 @@ export default function EmailGatherForm({
       >
         <Close />
       </button>
-      <Text size="small" className={styles.description}>
+      <Text size="small">
         Συμπλήρωσε το email σου και θα επικοινωνήσουμε μαζί σου.
       </Text>
       <Input
