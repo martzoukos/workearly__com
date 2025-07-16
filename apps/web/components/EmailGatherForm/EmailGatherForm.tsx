@@ -31,13 +31,21 @@ export default function EmailGatherForm({
 
   const onSubmit = async (data: SchemaType) => {
     try {
-      // Simulate API call
-      await new Promise((resolve) => {
-        setTimeout(() => {
-          console.log("collect email", data.email);
-          resolve(void 0);
-        }, 2000);
-      });
+      // Submit the webhook to make.com to send the email
+      const response = await fetch(
+        "https://hook.eu2.make.com/zg4qa72teesmym3841ny4hx5rrrd53ab",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            email: data.email,
+          }),
+        },
+      );
+
+      if (!response.ok) {
+        throw new Error("Failed to gather email");
+      }
 
       // Show success message
       setIsSuccess(true);

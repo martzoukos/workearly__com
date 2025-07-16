@@ -35,8 +35,22 @@ export default function InterestForm() {
       if (!courseDetails) {
         throw new Error("Course details not found");
       }
-      // TODO: implement integration with webhook
-      console.log("Submit interest form with data: ", data);
+      // Submit the webhook to make.com to send the email
+      const response = await fetch(
+        "https://hook.eu2.make.com/3uoeut024t7dl9p3kdblq695fw1vmubm",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            name: data.name,
+            email: data.email,
+            phone: data.phone,
+          }),
+        },
+      );
+      if (!response.ok) {
+        throw new Error("Failed to send email");
+      }
       router.push(`/interest/success/${page.slug}`);
     } catch (error) {
       console.error(error);
