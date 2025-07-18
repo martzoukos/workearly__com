@@ -3,9 +3,13 @@ import Script from "next/script";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="el">
       <Head>
-        <link rel="preconnect" href="https://use.typekit.net" crossOrigin="anonymous" />
+        <link
+          rel="preconnect"
+          href="https://use.typekit.net"
+          crossOrigin="anonymous"
+        />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="57x57"
