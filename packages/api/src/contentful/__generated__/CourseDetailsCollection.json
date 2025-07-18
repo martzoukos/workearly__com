@@ -1,8 +1,128 @@
 {
-  "__timestamp": 1752691851415,
-  "__hash": "c0f7cee2b1e0f399d08f8228bb08e71deb922eebbbdc960115061656b56895c1",
+  "__timestamp": 1752856220954,
+  "__hash": "df08e4545a5bbc8af7453602e6d3f4832faed744b4c6b1b41201875e14135580",
   "total": 165,
   "items": [
+    {
+      "sys": {
+        "id": "7FcYd3n5MSU5HplTz8Trri",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση στο Web Development",
+      "group": 1,
+      "title": "Python Web Development Bootcamp",
+      "summary": "Το Python Web Development  Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον τομέα του Web Development με Python. Μέσα από hands-on projects, case studies και τις πιο σύγχρονες τεχνολογίες, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να δημιουργείς δυναμικές web εφαρμογές, να αναπτύσσεις backend συστήματα και να ξεχωρίσεις σε έναν από τους πιο περιζήτητους κλάδους της τεχνολογίας.\n",
+      "shortDescription": "Το Python Web Development  Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον τομέα του Web Development με Python.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765665/python-web-development-bootcamp-2025",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "7bFr4xybcq8JBksdpDPHv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4ZZSSv8ZdZrj4rxfIR9tFH",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση στα Sports Analytics",
+      "group": 1,
+      "title": "Data Science with Sports",
+      "summary": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών αθλητικών δεδομένων, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να αξιοποιείς δεδομένα, να βελτιστοποιείς επιδόσεις και να παίρνεις στρατηγικές αποφάσεις στον αθλητισμό.\n",
+      "shortDescription": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763872/sports-analytics-bootcamp",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1aGIbHuRwphMR8PJbdow1a",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Software QA",
+      "group": 1,
+      "title": "AI Software Testing (QA)",
+      "summary": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού. Στο AI Software Testing (QA) Course, θα μάθετε τις θεμελιώδεις αρχές του manual και automated testing, καθώς και πώς να χρησιμοποιείτε τεχνολογίες AI για τη βελτίωση της διαδικασίας δοκιμών.",
+      "shortDescription": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6497374/qa-software-testing",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "7bFr4xybcq8JBksdpDPHv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - IT",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "4nDv7IfdVOcO4AYeinxluJ",
@@ -20,9 +140,9 @@
       "id": null,
       "language": ["Greek"],
       "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
+      "applicationDeadline": "31 Ιουλίου",
       "startingCost": 600,
-      "finalCost": 135,
+      "finalCost": 147,
       "hubspotDealType": "Bootcamps - 2025",
       "onDemand": true,
       "contentfulMetadata": {
@@ -40,6 +160,286 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "jrembJBR9zZ1R4gbpVOHr",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
+      "group": 1,
+      "title": "AI Data Analyst Bootcamp",
+      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
+      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4odtO6IF8iCnmKoPtRNYT",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση σε Finance",
+      "group": 1,
+      "title": "Finance Bootcamp",
+      "summary": "Το Finance Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον Χρηματοοικονομικό Τομέα (Finance). Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να διαχειρίζεσαι οικονομικά δεδομένα, να λαμβάνεις στρατηγικές αποφάσεις και να ξεχωρίσεις σε έναν από τους πιο δυναμικούς και απαιτητικούς κλάδους.",
+      "shortDescription": "Το Finance Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον Χρηματοοικονομικό Τομέα (Finance).",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763501/finance-bootcamp",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "wDbpyo2rmPkrfivyfAAIL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7nFfTdaStT9aylcfz9FNxr",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση σε Digital Marketing",
+      "group": 1,
+      "title": "Digital Marketing Bootcamp",
+      "summary": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing. Μέσα από hands-on projects, case studies και τις πιο σύγχρονες στρατηγικές, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να δημιουργείς αποδοτικές καμπάνιες, να διαχειρίζεσαι ψηφιακά κανάλια και να ξεχωρίσεις σε έναν από τους πιο ταχέως αναπτυσσόμενους κλάδους.",
+      "shortDescription": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763777/digital-marketing-bootcamp",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "6tMzF4jfPWiFtVPONIbhth",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6tMzF4jfPWiFtVPONIbhth/9176e033f0ba5fa037f0c1a9bdd32b86/Solo_-_Digital_Marketing.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5wapQ55FQZxcPaB8UzEpDB",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science & AI με Πιστοποίηση",
+      "group": 1,
+      "title": "Mastering Data & AI",
+      "summary": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για όσους θέλουν να κατακτήσουν την ανάλυση δεδομένων, τη μηχανική μάθηση και τις τεχνολογίες AI. Στο Data Science & AI Course, θα μάθετε πώς να διαχειρίζεστε, να αναλύετε και να οπτικοποιείτε δεδομένα, να δημιουργείτε Machine Learning μοντέλα και να χρησιμοποιείτε AI-driven εργαλεία για λήψη στρατηγικών αποφάσεων.",
+      "shortDescription": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6618021/data-science-ai-courses",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "5IFXcmhunVAO8nA7yl3pFR",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5IFXcmhunVAO8nA7yl3pFR/5af7c91f9a4f17ccc798641e21f3dcde/Solo_-_AI.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4m12a7V2Rw43qCcpN30unz",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Financial Data Science",
+      "group": 1,
+      "title": "Fintech - Data Science for Finance Bootcamp",
+      "summary": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης. Στο Data Science for Finance Bootcamp, θα μάθετε πώς να χρησιμοποιείτε προηγμένους αλγόριθμους ανάλυσης δεδομένων, μοντέλα πρόβλεψης και τεχνικές αξιολόγησης κινδύνου για να λαμβάνετε στρατηγικές επενδυτικές και χρηματοοικονομικές αποφάσεις.",
+      "shortDescription": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6696867/fintech-data-science-for-finance-bootcamp",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "wDbpyo2rmPkrfivyfAAIL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2A5ovd6yw19mZdWoQbB04d",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση σε Project Management",
+      "group": 1,
+      "title": "Project Management Bootcamp",
+      "summary": "Το Project Management Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στη Διαχείριση Έργων (Project Management). Μέσα από hands-on projects, case studies και κορυφαίες μεθοδολογίες, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να ηγηθείς έργων με αυτοπεποίθηση και να ξεχωρίσεις σε έναν από τους πιο απαιτητικούς και δυναμικούς κλάδους.\n",
+      "shortDescription": "Το Project Management Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στη Διαχείριση Έργων (Project Management).",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763768/project-management-bootcamp",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "H3GomFAlX0hebF5e1KkPi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "43QnpM2aWS5EDtyXcKi72s",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Sports Analytics με Formula 1",
+      "group": 2,
+      "title": "Sports Analytics with F1",
+      "summary": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων, μαθαίνοντας πώς να αναλύετε αθλητικά δεδομένα, να εφαρμόζετε Machine Learning και να βελτιστοποιείτε στρατηγικές αγώνων με πραγματικά datasets από τη Formula 1 και ακόμα παραπάνω.",
+      "shortDescription": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6577422/formula-1/",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "18 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 84,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
         "description": null
       }
     },
@@ -63,86 +463,6 @@
       "applicationDeadline": "18 Ιουλίου",
       "startingCost": 150,
       "finalCost": 45.5,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "jrembJBR9zZ1R4gbpVOHr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
-      "group": 1,
-      "title": "AI Data Analyst Bootcamp",
-      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
-      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "43QnpM2aWS5EDtyXcKi72s",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Sports Analytics με Formula 1",
-      "group": 2,
-      "title": "Sports Analytics with F1",
-      "summary": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων, μαθαίνοντας πώς να αναλύετε αθλητικά δεδομένα, να εφαρμόζετε Machine Learning και να βελτιστοποιείτε στρατηγικές αγώνων με πραγματικά datasets από τη Formula 1.",
-      "shortDescription": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6577422/formula-1/",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 84,
       "hubspotDealType": null,
       "onDemand": null,
       "contentfulMetadata": {
@@ -1120,46 +1440,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "1aGIbHuRwphMR8PJbdow1a",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Software QA",
-      "group": 1,
-      "title": "AI Software Testing (QA)",
-      "summary": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού. Στο AI Software Testing (QA) Course, θα μάθετε τις θεμελιώδεις αρχές του manual και automated testing, καθώς και πώς να χρησιμοποιείτε τεχνολογίες AI για τη βελτίωση της διαδικασίας δοκιμών.",
-      "shortDescription": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6497374/qa-software-testing",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "7bFr4xybcq8JBksdpDPHv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - IT",
         "description": null
       }
     },
@@ -2258,286 +2538,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7FcYd3n5MSU5HplTz8Trri",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση στο Web Development",
-      "group": 1,
-      "title": "Python Web Development Bootcamp",
-      "summary": "Το Python Web Development  Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον τομέα του Web Development με Python. Μέσα από hands-on projects, case studies και τις πιο σύγχρονες τεχνολογίες, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να δημιουργείς δυναμικές web εφαρμογές, να αναπτύσσεις backend συστήματα και να ξεχωρίσεις σε έναν από τους πιο περιζήτητους κλάδους της τεχνολογίας.\n",
-      "shortDescription": "Το Python Web Development  Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον τομέα του Web Development με Python.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765665/python-web-development-bootcamp-2025",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "7bFr4xybcq8JBksdpDPHv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - IT",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4ZZSSv8ZdZrj4rxfIR9tFH",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση στα Sports Analytics",
-      "group": 1,
-      "title": "Data Science with Sports",
-      "summary": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών αθλητικών δεδομένων, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να αξιοποιείς δεδομένα, να βελτιστοποιείς επιδόσεις και να παίρνεις στρατηγικές αποφάσεις στον αθλητισμό.\n",
-      "shortDescription": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763872/sports-analytics-bootcamp",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4odtO6IF8iCnmKoPtRNYT",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση σε Finance",
-      "group": 1,
-      "title": "Finance Bootcamp",
-      "summary": "Το Finance Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον Χρηματοοικονομικό Τομέα (Finance). Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να διαχειρίζεσαι οικονομικά δεδομένα, να λαμβάνεις στρατηγικές αποφάσεις και να ξεχωρίσεις σε έναν από τους πιο δυναμικούς και απαιτητικούς κλάδους.",
-      "shortDescription": "Το Finance Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον Χρηματοοικονομικό Τομέα (Finance).",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763501/finance-bootcamp",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "wDbpyo2rmPkrfivyfAAIL",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Finance",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7nFfTdaStT9aylcfz9FNxr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση σε Digital Marketing",
-      "group": 1,
-      "title": "Digital Marketing Bootcamp",
-      "summary": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing. Μέσα από hands-on projects, case studies και τις πιο σύγχρονες στρατηγικές, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να δημιουργείς αποδοτικές καμπάνιες, να διαχειρίζεσαι ψηφιακά κανάλια και να ξεχωρίσεις σε έναν από τους πιο ταχέως αναπτυσσόμενους κλάδους.",
-      "shortDescription": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763777/digital-marketing-bootcamp",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "6tMzF4jfPWiFtVPONIbhth",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/6tMzF4jfPWiFtVPONIbhth/9176e033f0ba5fa037f0c1a9bdd32b86/Solo_-_Digital_Marketing.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Digital Marketing",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5wapQ55FQZxcPaB8UzEpDB",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science & AI με Πιστοποίηση",
-      "group": 1,
-      "title": "Mastering Data & AI",
-      "summary": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για όσους θέλουν να κατακτήσουν την ανάλυση δεδομένων, τη μηχανική μάθηση και τις τεχνολογίες AI. Στο Data Science & AI Course, θα μάθετε πώς να διαχειρίζεστε, να αναλύετε και να οπτικοποιείτε δεδομένα, να δημιουργείτε Machine Learning μοντέλα και να χρησιμοποιείτε AI-driven εργαλεία για λήψη στρατηγικών αποφάσεων.",
-      "shortDescription": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6618021/data-science-ai-courses",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "5IFXcmhunVAO8nA7yl3pFR",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5IFXcmhunVAO8nA7yl3pFR/5af7c91f9a4f17ccc798641e21f3dcde/Solo_-_AI.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - AI",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4m12a7V2Rw43qCcpN30unz",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Financial Data Science",
-      "group": 1,
-      "title": "Fintech - Data Science for Finance Bootcamp",
-      "summary": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης. Στο Data Science for Finance Bootcamp, θα μάθετε πώς να χρησιμοποιείτε προηγμένους αλγόριθμους ανάλυσης δεδομένων, μοντέλα πρόβλεψης και τεχνικές αξιολόγησης κινδύνου για να λαμβάνετε στρατηγικές επενδυτικές και χρηματοοικονομικές αποφάσεις.",
-      "shortDescription": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6696867/fintech-data-science-for-finance-bootcamp",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "wDbpyo2rmPkrfivyfAAIL",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Finance",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "2A5ovd6yw19mZdWoQbB04d",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση σε Project Management",
-      "group": 1,
-      "title": "Project Management Bootcamp",
-      "summary": "Το Project Management Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στη Διαχείριση Έργων (Project Management). Μέσα από hands-on projects, case studies και κορυφαίες μεθοδολογίες, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να ηγηθείς έργων με αυτοπεποίθηση και να ξεχωρίσεις σε έναν από τους πιο απαιτητικούς και δυναμικούς κλάδους.\n",
-      "shortDescription": "Το Project Management Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στη Διαχείριση Έργων (Project Management).",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763768/project-management-bootcamp",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 135,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "H3GomFAlX0hebF5e1KkPi",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Business",
         "description": null
       }
     },

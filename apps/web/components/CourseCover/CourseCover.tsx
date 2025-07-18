@@ -9,6 +9,8 @@ import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
 import Image from "next/image";
 import styles from "./CourseCover.module.scss";
+import Link from "next/link";
+import GoogleReviewsStars from "../_pages/GoogleReviewsStars/GoogleReviewsStars";
 
 export default function CourseCover() {
   const { page } = useContentful();
@@ -20,7 +22,6 @@ export default function CourseCover() {
   if (!courseDetails) {
     return null;
   }
-
   return (
     <section className={styles.root}>
       <Viewport showUntil="md">
@@ -39,6 +40,7 @@ export default function CourseCover() {
           {courseDetails?.h1Title}
         </Text>
         <Text as="h2">{page.name}</Text>
+        <GoogleReviewsStars />
         <Text>{courseDetails?.summary}</Text>
       </header>
       <div className={styles.statLabels}>

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  line-height: 1;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 1rem;
+}
+
+.stars {
+  display: flex;
+  gap: 0.05rem;
+}
+
+.star {
+  color: var(--color-sys-accent);
+}
+
+.link {
+  transition: color 200ms;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-sys-accent);
+}
