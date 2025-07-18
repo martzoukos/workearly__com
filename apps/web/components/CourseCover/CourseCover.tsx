@@ -9,7 +9,6 @@ import { useContentful } from "@/stores/ContentfulStore";
 import { StarFilled, UserFilled } from "@carbon/icons-react";
 import Image from "next/image";
 import styles from "./CourseCover.module.scss";
-import Link from "next/link";
 import GoogleReviewsStars from "../_pages/GoogleReviewsStars/GoogleReviewsStars";
 
 export default function CourseCover() {
@@ -71,10 +70,12 @@ export default function CourseCover() {
             value={courseDetails.programStarts.toString()}
           />
         )}
-        {courseDetails?.applicationDeadline && (
+        {courseDetails?.applicationDeadline && courseDetails?.finalCost && (
+          // @TODO: Translate
           <StatCard
-            label={translate("Application Deadline")}
-            value={courseDetails.applicationDeadline.toString()}
+            isInverse={true}
+            label="Προσφορά"
+            value={`€${courseDetails.finalCost} έως ${courseDetails.applicationDeadline}`}
           />
         )}
         {courseDetails?.language && (

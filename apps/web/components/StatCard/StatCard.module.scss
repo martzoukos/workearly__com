@@ -10,3 +10,8 @@
     text-transform: uppercase;
   }
 }
+
+.inverse {
+  background: var(--color-sys-accent);
+  color: var(--color-sys-default);
+}
