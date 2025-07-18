@@ -82,6 +82,7 @@ export default function PurchaseCourse({
                     ctaGroup === "Information" ? "active" : "inactive"
                   }
                 >
+                  {/* @TODO: Translate */}
                   Πληροφορίες
                 </Button>
                 <Button
@@ -95,8 +96,20 @@ export default function PurchaseCourse({
                     ctaGroup === "Participate" ? "active" : "inactive"
                   }
                 >
+                  {/* @TODO: Translate */}
                   Συμμετοχή
                 </Button>
+                <div className={styles.shareWrapper}>
+                  <Button
+                    variant="Outlined"
+                    isFullWidth
+                    data-state={showMenu ? "active" : "inactive"}
+                    onClick={() => setShowMenu((prev) => !prev)}
+                  >
+                    <Share size="24" />
+                  </Button>
+                  {showMenu && <ShareMenu />}
+                </div>
               </div>
 
               <Text size="small" className={styles.description}>
