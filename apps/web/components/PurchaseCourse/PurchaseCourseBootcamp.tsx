@@ -4,33 +4,28 @@ import { PurchaseButton } from "@/components/CoursePrices/CoursePrices";
 import ShareMenu from "@/components/ShareMenu";
 import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text";
-import Tooltip from "@/components/Tooltip";
-import { Gift, Link, Play, Share, Time } from "@carbon/icons-react";
+import { Phone, Play, Share, Time } from "@carbon/icons-react";
 import styles from "./PurchaseCourse.module.scss";
 import EmailGatherForm from "../EmailGatherForm/EmailGatherForm";
 import { useState } from "react";
 import { useContentful } from "@/stores/ContentfulStore";
 import usePageResolver from "@/hooks/usePageResolver";
-import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
 import useTranslate from "@/hooks/useTranslate";
-import { TranslationTextType } from "@workearly/api";
+import { useRouter } from "next/navigation";
 
 interface PropsType {
-  hideFooter?: boolean;
   hideQuickPurchase?: boolean;
 }
 
 export default function PurchaseCourseBootcamp({
-  hideFooter,
   hideQuickPurchase,
 }: PropsType) {
   const [ctaGroup, setCtaGroup] = useState<"Information" | "Participate">(
     "Information",
   );
-  const [showEmailForm, setShowEmailForm] = useState(false);
   const { page } = useContentful();
+  const router = useRouter();
   const { courseDetails } = usePageResolver(page);
-  const { timeLeft, gift } = useCourseDetailsResolver(courseDetails);
 
   const { translate } = useTranslate();
 
@@ -76,99 +71,114 @@ export default function PurchaseCourseBootcamp({
                 data-state={showMenu ? "active" : "inactive"}
                 onClick={() => setShowMenu((prev) => !prev)}
               >
-                <Share size="24" />
+                <Share size="20" />
               </Button>
               {showMenu && <ShareMenu />}
             </div>
           </div>
 
-          <Text size="small" className={styles.description}>
-            {ctaGroup === "Information"
-              ? "Δοκίμασε δωρεάν το μάθημα πριν το αγοράσεις ή ζήτησε περισσότερες πληροφορίες για το μάθημα."
-              : "Ζήτησε περισσότερες πληροφορίες για το μάθημα ή αγόρασέ το απευθείας."}
-          </Text>
-
-          <div className={styles.giftAndTimeleft}>
-            {gift && (
-              <div className={styles.gift}>
-                <Gift />
-                <Text>{translate("1plus1")}</Text>
-                <Tooltip className={styles.infoBox}>
-                  <Text size="caption"> {translate("1plus1InfoBox")}</Text>
-                </Tooltip>
+          {ctaGroup === "Information" ? (
+            <>
+              <div className={styles.infoContainer}>
+                <Text size="p">
+                  {/* @TODO: Translate */}
+                  Δες το μάθημα στην πράξη με ένα δωρεάν demo ή μίλησε με έναν
+                  σύμβουλο για 15 λεπτά.
+                </Text>
+                <DateCallout label="Δωρεάν Δοκιμή" value="έως 18 Ιουλίου" />
               </div>
-            )}
-
-            {timeLeft && (
-              <div className={styles.timeLeft}>
-                <Time />
-                <Text size="caption">{timeLeft}</Text>
-              </div>
-            )}
-          </div>
-
-          {courseDetails && (
-            <CoursePrices
-              courseDetails={courseDetails}
-              className={styles.prices}
-              showKlarna
-            />
-          )}
-        </div>
-
-        {showEmailForm && (
-          <>
-            <EmailGatherForm hideFormFn={() => setShowEmailForm(false)} />
-          </>
-        )}
-
-        {!hideFooter && !showEmailForm && (
-          <footer className={styles.footer}>
-            {ctaGroup === "Information" ? (
-              <>
+              <footer className={styles.footer}>
                 <Button
-                  variant="Outlined"
+                  variant="Solid"
+                  colorScheme="Green"
                   isFullWidth
                   size="medium"
-                  onClick={() => setShowEmailForm(true)}
+                  onClick={() => {
+                    router.push(`/interest/${page.slug}`);
+                  }}
                 >
-                  <Play size="24" />
-                  Δοκίμασε Δωρεάν
+                  {/* @TODO: Translate */}
+                  <Phone size="20" />
+                  Καλέστε με
                 </Button>
-                {courseDetails.applicationFormUrl && page.slug && (
-                  <InterestButton groupNumber={1} pageSlug={page.slug} />
+                <DemoButton />
+              </footer>
+            </>
+          ) : (
+            <>
+              <div className={styles.infoContainer}>
+                <Text size="p">
+                  {/* @TODO: Translate */}
+                  Κάνε αίτηση συμμετοχής για να λάβεις τον οδηγό σπουδών και την
+                  αναλυτική προσφορά. Με την αίτηση κατοχυρώνεις την προσφορά
+                  χωρίς καμία άμεση πληρωμή.
+                </Text>
+                <Text>Προκράτηση με 67 ευρώ.</Text>
+                {courseDetails && (
+                  <CoursePrices
+                    courseDetails={courseDetails}
+                    className={styles.prices}
+                    showKlarna
+                  />
                 )}
-              </>
-            ) : (
-              <>
-                {courseDetails.applicationFormUrl && page.slug && (
-                  <InterestButton groupNumber={1} pageSlug={page.slug} />
-                )}
+                <DateCallout label="Για αιτήσεις" value="έως 18 Ιουλίου" />
+              </div>
+              <footer className={styles.footer}>
+                <Button
+                  variant="Solid"
+                  colorScheme="Green"
+                  isFullWidth
+                  size="medium"
+                  onClick={() => {
+                    router.push(`/interest/${page.slug}`);
+                  }}
+                >
+                  {/* @TODO: Translate */}
+                  <Phone />
+                  Καλέστε με
+                </Button>
                 <PurchaseButton page={page} isFullWidth size="medium" />
-              </>
-            )}
-          </footer>
-        )}
+              </footer>
+            </>
+          )}
+        </div>
       </div>
       {!hideQuickPurchase && <StickyPurchase />}
     </>
   );
-  function InterestButton({
-    groupNumber = 1,
-    pageSlug,
-  }: {
-    groupNumber: number;
-    pageSlug: string;
-  }) {
+
+  function DemoButton() {
+    const [showEmailForm, setShowEmailForm] = useState(false);
+
+    if (showEmailForm) {
+      return <EmailGatherForm hideFormFn={() => setShowEmailForm(false)} />;
+    }
+
     return (
-      <Button variant="Solid" colorScheme="Green" isFullWidth size="medium">
-        <Link href={`/interest/${pageSlug}`}>
-          {translate(`group${groupNumber}_form_cta` as TranslationTextType, {
-            fallbackCode: "Apply",
-          })}
-          {/* {groupNumber === 4 && <KlarnaPrice courseDetails={courseDetails} />} */}
-        </Link>
+      <Button
+        variant="Solid"
+        isFullWidth
+        size="medium"
+        onClick={() => setShowEmailForm(true)}
+      >
+        <Play size="20" />
+        {/* @TODO: Translate */}
+        Δωρεάν Δοκιμή
       </Button>
+    );
+  }
+
+  function DateCallout({ label, value }: { label: string; value: string }) {
+    return (
+      <div className={styles.dateCallout}>
+        <Time size="20" />
+        <Text size="small" className={styles.dataCalloutLabel}>
+          {label}
+        </Text>
+        <Text size="h6" className={styles.dataCalloutValue}>
+          {value}
+        </Text>
+      </div>
     );
   }
 }
