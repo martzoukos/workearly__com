@@ -44,10 +44,7 @@ export default function PurchaseCourse({
       )}
 
       {courseDetails.group === 1 ? (
-        <PurchaseCourseBootcamp
-          hideFooter={hideFooter}
-          hideQuickPurchase={hideQuickPurchase}
-        />
+        <PurchaseCourseBootcamp />
       ) : (
         <PurchaseCourseNonBootcamp
           hideFooter={hideFooter}

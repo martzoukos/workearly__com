@@ -21,10 +21,7 @@
 }
 
 .orientationVertical {
-  .priceContainer {
-    flex-direction: column;
-    gap: 0.25rem;
-  }
+  flex-direction: column;
 }
 
 .orientationHorizontal {

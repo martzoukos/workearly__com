@@ -1,10 +1,15 @@
 import Button from "@/components/Button";
 import CoursePrices from "@/components/CoursePrices";
-import { PurchaseButton } from "@/components/CoursePrices/CoursePrices";
 import ShareMenu from "@/components/ShareMenu";
-import StickyPurchase from "@/components/StickyPurchase";
 import Text from "@/components/Text";
-import { Phone, Play, Share, Time } from "@carbon/icons-react";
+import {
+  Document,
+  Phone,
+  Play,
+  Share,
+  ShoppingCart,
+  Time,
+} from "@carbon/icons-react";
 import styles from "./PurchaseCourse.module.scss";
 import EmailGatherForm from "../EmailGatherForm/EmailGatherForm";
 import { useState } from "react";
@@ -12,20 +17,18 @@ import { useContentful } from "@/stores/ContentfulStore";
 import usePageResolver from "@/hooks/usePageResolver";
 import useTranslate from "@/hooks/useTranslate";
 import { useRouter } from "next/navigation";
+import { sendGTMEvent } from "@next/third-parties/google";
+import useCourseDetailsResolver from "@/hooks/useCourseDetailsResolver";
+import Viewport from "../Viewport";
 
-interface PropsType {
-  hideQuickPurchase?: boolean;
-}
-
-export default function PurchaseCourseBootcamp({
-  hideQuickPurchase,
-}: PropsType) {
+export default function PurchaseCourseBootcamp() {
   const [ctaGroup, setCtaGroup] = useState<"Information" | "Participate">(
     "Information",
   );
   const { page } = useContentful();
   const router = useRouter();
   const { courseDetails } = usePageResolver(page);
+  const { groupNumber } = useCourseDetailsResolver(courseDetails);
 
   const { translate } = useTranslate();
 
@@ -85,7 +88,10 @@ export default function PurchaseCourseBootcamp({
                   Δες το μάθημα στην πράξη με ένα δωρεάν demo ή μίλησε με έναν
                   σύμβουλο για 15 λεπτά.
                 </Text>
-                <DateCallout label="Δωρεάν Δοκιμή" value="έως 18 Ιουλίου" />
+                <DateCallout
+                  label="Δωρεάν Δοκιμή"
+                  value={"έως " + courseDetails?.applicationDeadline}
+                />
               </div>
               <footer className={styles.footer}>
                 <Button
@@ -113,15 +119,19 @@ export default function PurchaseCourseBootcamp({
                   αναλυτική προσφορά. Με την αίτηση κατοχυρώνεις την προσφορά
                   χωρίς καμία άμεση πληρωμή.
                 </Text>
-                <Text>Προκράτηση με 67 ευρώ.</Text>
+                <Text size="small">Προκράτηση με 67 ευρώ.</Text>
                 {courseDetails && (
                   <CoursePrices
                     courseDetails={courseDetails}
-                    className={styles.prices}
+                    orientation="vertical"
+                    finalCostSize="h4"
                     showKlarna
                   />
                 )}
-                <DateCallout label="Για αιτήσεις" value="έως 18 Ιουλίου" />
+                <DateCallout
+                  label="Για αιτήσεις"
+                  value={"έως " + courseDetails?.applicationDeadline}
+                />
               </div>
               <footer className={styles.footer}>
                 <Button
@@ -134,16 +144,32 @@ export default function PurchaseCourseBootcamp({
                   }}
                 >
                   {/* @TODO: Translate */}
-                  <Phone />
-                  Καλέστε με
+                  <Document />
+                  Αίτηση
                 </Button>
-                <PurchaseButton page={page} isFullWidth size="medium" />
+                <Button
+                  isFullWidth
+                  variant="Ghost"
+                  id={`purchase-button-${courseDetails.id}`}
+                  onClick={() => {
+                    sendGTMEvent({
+                      event: "purchaseButtonClick",
+                      courseId: courseDetails.id,
+                      pageSlug: page.slug,
+                      groupNumber,
+                    });
+                    router.push(`/payment/${page.slug}`);
+                  }}
+                >
+                  <ShoppingCart size={20} />
+                  Αγόρασε απευθείας το μάθημα
+                </Button>
               </footer>
             </>
           )}
         </div>
       </div>
-      {!hideQuickPurchase && <StickyPurchase />}
+      <StickyBootcampCTA />
     </>
   );
 
@@ -179,6 +205,28 @@ export default function PurchaseCourseBootcamp({
           {value}
         </Text>
       </div>
+    );
+  }
+
+  function StickyBootcampCTA() {
+    return (
+      <Viewport showUntil="md">
+        <div className={styles.stickyBootcampCTA}>
+          <Button
+            variant="Solid"
+            colorScheme="Green"
+            isFullWidth
+            size="medium"
+            onClick={() => {
+              router.push(`/interest/${page.slug}`);
+            }}
+          >
+            {/* @TODO: Translate */}
+            <Phone size="20" />
+            Καλέστε με
+          </Button>
+        </div>
+      </Viewport>
     );
   }
 }

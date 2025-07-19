@@ -29,6 +29,8 @@ interface PropsType extends VariantProps<typeof variants> {
   courseDetails?: QueryItem["CourseDetails"];
   showKlarna?: boolean;
   className?: string;
+  startingCostSize?: "h4" | "h5" | "h6";
+  finalCostSize?: "h4" | "h5" | "h6";
 }
 
 export default function CoursePrices({
@@ -36,6 +38,8 @@ export default function CoursePrices({
   className,
   orientation,
   showKlarna,
+  startingCostSize = "h6",
+  finalCostSize = "h6",
 }: PropsType) {
   const { translate } = useTranslate();
 
@@ -49,10 +53,16 @@ export default function CoursePrices({
       )}
     >
       <div className={styles.priceContainer}>
-        <Text size="h6" className={clsx(styles.price, styles.finalPrice)}>
+        <Text
+          size={finalCostSize}
+          className={clsx(styles.price, styles.finalPrice)}
+        >
           {courseDetails?.finalCost}
         </Text>
-        <Text size="h6" className={clsx(styles.price, styles.startingPrice)}>
+        <Text
+          size={startingCostSize}
+          className={clsx(styles.price, styles.startingPrice)}
+        >
           {courseDetails?.startingCost}
         </Text>
       </div>
