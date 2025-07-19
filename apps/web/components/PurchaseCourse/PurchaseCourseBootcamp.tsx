@@ -135,7 +135,6 @@ export default function PurchaseCourseBootcamp() {
                     router.push(`/interest/${page.slug}`);
                   }}
                 >
-                  =
                   <Document />
                   {translate("Application")}
                 </Button>
