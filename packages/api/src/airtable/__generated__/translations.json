@@ -5,6 +5,11 @@
     "en": "Only"
   },
   {
+    "code": "BuyDirectly",
+    "el": "Αγόρασε απευθείας το μάθημα",
+    "en": "Buy the course directly"
+  },
+  {
     "code": "InterestFormCTA1",
     "el": "Επικοινώνησε για απορίες",
     "en": "Request call back for questions"
@@ -91,7 +96,7 @@
   },
   {
     "code": "Language",
-    "el": "Γλωσσα",
+    "el": "Γλωσσα Υλικού",
     "en": "Language"
   },
   {
@@ -133,6 +138,11 @@
     "code": "CourseCardTeam",
     "el": "Εταιρική εκπαίδευση με role-playing training προσαρμοσμένη στις ανάγκες της ομάδας σας για μέγιστη ανάπτυξη και επαγγελματική εξέλιξη.",
     "en": "Workearly provides customized training programs for companies looking to enhance their teams’ skills. The material is tailored to the needs and level of each team member, ensuring personalized development for all. With internationally recognized certifications and high-quality learning content, Workearly helps teams gain competitive advantages and perform at their best."
+  },
+  {
+    "code": "InformationText",
+    "el": "Δες το μάθημα στην πράξη με ένα δωρεάν demo ή μίλησε με έναν σύμβουλο για 15 λεπτά.",
+    "en": "See the course in action with a free demo or speak with an advisor for 15 minutes."
   },
   {
     "code": "group3_form_cta",
@@ -240,6 +250,11 @@
     "en": "Mentorship"
   },
   {
+    "code": "Offer",
+    "el": "Προσφορά",
+    "en": "Offer"
+  },
+  {
     "code": "pace2",
     "el": "Με καθοδηγηση",
     "en": "Instructor Assisted"
@@ -265,6 +280,11 @@
     "en": "Personal"
   },
   {
+    "code": "Information",
+    "el": "Πληροφορίες",
+    "en": "Information"
+  },
+  {
     "code": "InterestFormCTA2",
     "el": "Εκδήλωση ενδιαφέροντος",
     "en": "Submit interest"
@@ -273,6 +293,16 @@
     "code": "Duration",
     "el": "Διάρκεια",
     "en": "Duration"
+  },
+  {
+    "code": "PreorderCTA",
+    "el": "Προκράτηση με 67 ευρώ.",
+    "en": "Preorder with 67 euros."
+  },
+  {
+    "code": "Participation",
+    "el": "Συμμετοχή",
+    "en": "Participation"
   },
   {
     "code": "group1_gift",
@@ -298,6 +328,11 @@
     "code": "CourseAverageRating",
     "el": "4,97 Average Rating",
     "en": "4,97 Average Rating"
+  },
+  {
+    "code": "Application",
+    "el": "Αίτηση",
+    "en": "Apply"
   },
   {
     "code": "group4_value5",
@@ -330,6 +365,16 @@
     "en": "Today is the last day for this offer"
   },
   {
+    "code": "Until",
+    "el": "έως",
+    "en": "until"
+  },
+  {
+    "code": "FreeDemo",
+    "el": "Δωρεάν Δοκιμή",
+    "en": "Free Demo"
+  },
+  {
     "code": "group4_form_cta",
     "el": "Sold Out",
     "en": "Sold Out"
@@ -338,6 +383,11 @@
     "code": "group4_value3",
     "el": "25.000+ Alumni",
     "en": "25.000+ Alumni"
+  },
+  {
+    "code": "ParticipationText",
+    "el": "Κάνε αίτηση συμμετοχής για να λάβεις τον οδηγό σπουδών και την αναλυτική προσφορά. Με την αίτηση κατοχυρώνεις την προσφορά χωρίς καμία άμεση πληρωμή.",
+    "en": "Apply now to receive the study guide and detailed offer. Your application secures the offer with no immediate payment required."
   },
   {
     "code": "group4_label3",
@@ -398,5 +448,10 @@
     "code": "afterContactText",
     "el": "Μέχρι τότε, ρίξτε μια ματιά στα νέα μας [προγράμματα εκπαίδευσης](https://www.workearly.gr/courses).",
     "en": "While you wait for our reply, check out our [latest courses](https://www.workearly.gr/courses)."
+  },
+  {
+    "code": "CallMe",
+    "el": "Καλέστε με",
+    "en": "Call me"
   }
 ]

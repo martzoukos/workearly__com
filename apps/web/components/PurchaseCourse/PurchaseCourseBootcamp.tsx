@@ -52,8 +52,7 @@ export default function PurchaseCourseBootcamp() {
               onClick={() => setCtaGroup("Information")}
               data-state={ctaGroup === "Information" ? "active" : "inactive"}
             >
-              {/* @TODO: Translate */}
-              Πληροφορίες
+              {translate("Information")}
             </Button>
             <Button
               colorSchemes={{
@@ -64,8 +63,7 @@ export default function PurchaseCourseBootcamp() {
               onClick={() => setCtaGroup("Participate")}
               data-state={ctaGroup === "Participate" ? "active" : "inactive"}
             >
-              {/* @TODO: Translate */}
-              Συμμετοχή
+              {translate("Participation")}
             </Button>
             <div className={styles.shareWrapper}>
               <Button
@@ -83,14 +81,14 @@ export default function PurchaseCourseBootcamp() {
           {ctaGroup === "Information" ? (
             <>
               <div className={styles.infoContainer}>
-                <Text size="p">
-                  {/* @TODO: Translate */}
-                  Δες το μάθημα στην πράξη με ένα δωρεάν demo ή μίλησε με έναν
-                  σύμβουλο για 15 λεπτά.
-                </Text>
+                <Text size="p">{translate("InformationText")}</Text>
                 <DateCallout
-                  label="Δωρεάν Δοκιμή"
-                  value={"έως " + courseDetails?.applicationDeadline}
+                  label={translate("FreeDemo")}
+                  value={
+                    translate("Until") +
+                    " " +
+                    courseDetails?.applicationDeadline
+                  }
                 />
               </div>
               <footer className={styles.footer}>
@@ -103,9 +101,8 @@ export default function PurchaseCourseBootcamp() {
                     router.push(`/interest/${page.slug}`);
                   }}
                 >
-                  {/* @TODO: Translate */}
                   <Phone size="20" />
-                  Καλέστε με
+                  {translate("CallMe")}
                 </Button>
                 <DemoButton />
               </footer>
@@ -113,13 +110,8 @@ export default function PurchaseCourseBootcamp() {
           ) : (
             <>
               <div className={styles.infoContainer}>
-                <Text size="p">
-                  {/* @TODO: Translate */}
-                  Κάνε αίτηση συμμετοχής για να λάβεις τον οδηγό σπουδών και την
-                  αναλυτική προσφορά. Με την αίτηση κατοχυρώνεις την προσφορά
-                  χωρίς καμία άμεση πληρωμή.
-                </Text>
-                <Text size="small">Προκράτηση με 67 ευρώ.</Text>
+                <Text size="p">{translate("ParticipationText")}</Text>
+                <Text size="small">{translate("PreorderCTA")}</Text>
                 {courseDetails && (
                   <CoursePrices
                     courseDetails={courseDetails}
@@ -143,9 +135,9 @@ export default function PurchaseCourseBootcamp() {
                     router.push(`/interest/${page.slug}`);
                   }}
                 >
-                  {/* @TODO: Translate */}
+                  =
                   <Document />
-                  Αίτηση
+                  {translate("Application")}
                 </Button>
                 <Button
                   isFullWidth
@@ -162,7 +154,7 @@ export default function PurchaseCourseBootcamp() {
                   }}
                 >
                   <ShoppingCart size={20} />
-                  Αγόρασε απευθείας το μάθημα
+                  {translate("BuyDirectly")}
                 </Button>
               </footer>
             </>
@@ -188,8 +180,7 @@ export default function PurchaseCourseBootcamp() {
         onClick={() => setShowEmailForm(true)}
       >
         <Play size="20" />
-        {/* @TODO: Translate */}
-        Δωρεάν Δοκιμή
+        {translate("FreeDemo")}
       </Button>
     );
   }
@@ -221,9 +212,8 @@ export default function PurchaseCourseBootcamp() {
               router.push(`/interest/${page.slug}`);
             }}
           >
-            {/* @TODO: Translate */}
             <Phone size="20" />
-            Καλέστε με
+            {translate("CallMe")}
           </Button>
         </div>
       </Viewport>

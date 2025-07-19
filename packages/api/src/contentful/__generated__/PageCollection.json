@@ -1,6 +1,6 @@
 {
-  "__timestamp": 1752856222327,
-  "__hash": "91d4a55d1c262dd42907112187502aad3d8da048cdc1ebd17fd709e350939624",
+  "__timestamp": 1752923118624,
+  "__hash": "3afdc7858e364e6081e440bb515efef44f6cc24852fed8c9e169cb3b0a0b37a4",
   "total": 274,
   "items": [
     {
@@ -7733,13 +7733,6 @@
           }
         ]
       },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
-      },
       "contentCollection": {
         "__typename": "PageContentCollection",
         "items": [
@@ -7948,6 +7941,13 @@
             }
           }
         ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       }
     },
     {
@@ -8041,13 +8041,6 @@
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
       },
       "contentCollection": {
         "__typename": "PageContentCollection",
@@ -8174,6 +8167,13 @@
             }
           }
         ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       }
     },
     {
@@ -9769,13 +9769,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
-      },
       "contentCollection": {
         "__typename": "PageContentCollection",
         "items": [
@@ -9902,6 +9895,13 @@
             }
           }
         ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       }
     },
     {
@@ -12100,13 +12100,6 @@
           }
         ]
       },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
-      },
       "contentCollection": {
         "__typename": "PageContentCollection",
         "items": [
@@ -12122,6 +12115,13 @@
             }
           }
         ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
+        }
       }
     },
     {
@@ -35929,7 +35929,7 @@
           "items": [
             {
               "sys": {
-                "id": "GGEeWLTpCvJ3YUwKD7TcA",
+                "id": "1KQw7XlhB0bS0vV0MdWvi0",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -35940,27 +35940,27 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/finance",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/python-for-finance",
+                      "slug": "course/business-career-coaching",
                       "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/corporate-finance",
+                      "slug": "course/planning-and-resource-management",
                       "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/personal-finance-management",
+                      "slug": "course/project-management-bootcamp",
                       "variant": "Course"
                     },
                     {
                       "__typename": "Page",
-                      "slug": "course/finance-bootcamp",
+                      "slug": "course/ai-business-school",
+                      "variant": "Course"
+                    },
+                    {
+                      "__typename": "Page",
+                      "slug": "course/leadership-and-management-school",
                       "variant": "Course"
                     }
                   ]
@@ -36175,7 +36175,7 @@
           "items": [
             {
               "sys": {
-                "id": "GGEeWLTpCvJ3YUwKD7TcA",
+                "id": "2vbSfk2kT7GHk3EykI7voE",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -36186,28 +36186,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/finance",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/python-for-finance",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/corporate-finance",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/personal-finance-management",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/finance-bootcamp",
-                      "variant": "Course"
+                      "slug": "blog",
+                      "variant": "Default"
                     }
                   ]
                 }
@@ -36426,7 +36406,7 @@
           "items": [
             {
               "sys": {
-                "id": "b3Z427kmCyYa1zTrRF5Og",
+                "id": "2vbSfk2kT7GHk3EykI7voE",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -36437,28 +36417,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/it",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/introduction-to-sql",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/programming-school-for-beginners",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-software-testing-qa",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/python-web-development-bootcamp",
-                      "variant": "Course"
+                      "slug": "blog",
+                      "variant": "Default"
                     }
                   ]
                 }
@@ -36559,7 +36519,7 @@
           "items": [
             {
               "sys": {
-                "id": "5BRYQ4jLlMIbl372fT6Uaq",
+                "id": "2vbSfk2kT7GHk3EykI7voE",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -36570,28 +36530,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "course/data-storytelling-with-tableau",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/data-science-with-python",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/healthcare-analytics-school",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/data-science-for-beginners",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/learn-excel",
-                      "variant": "Course"
+                      "slug": "blog",
+                      "variant": "Default"
                     }
                   ]
                 }
@@ -36778,7 +36718,7 @@
           "items": [
             {
               "sys": {
-                "id": "b3Z427kmCyYa1zTrRF5Og",
+                "id": "2vbSfk2kT7GHk3EykI7voE",
                 "__typename": "Sys"
               },
               "__typename": "Section",
@@ -36789,28 +36729,8 @@
                   "items": [
                     {
                       "__typename": "Page",
-                      "slug": "category/it",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/introduction-to-sql",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/programming-school-for-beginners",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-software-testing-qa",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/python-web-development-bootcamp",
-                      "variant": "Course"
+                      "slug": "blog",
+                      "variant": "Default"
                     }
                   ]
                 }

@@ -57,31 +57,29 @@ export default function CourseCover() {
           <StatCard label={translate("Duration")} value={translate(duration)} />
         )}
         {pace && <StatCard label={translate("Pace")} value={translate(pace)} />}
-        {mentorship && (
+        {courseDetails?.applicationDeadline && courseDetails?.finalCost && (
           <StatCard
-            label={translate("Mentorship")}
-            value={translate(mentorship)}
+            isInverse={true}
+            label={translate("Offer")}
+            value={`€${courseDetails.finalCost} έως ${courseDetails.applicationDeadline}`}
           />
         )}
-
         {courseDetails?.programStarts && (
           <StatCard
             label={translate("Program Starts")}
             value={courseDetails.programStarts.toString()}
           />
         )}
-        {courseDetails?.applicationDeadline && courseDetails?.finalCost && (
-          // @TODO: Translate
-          <StatCard
-            isInverse={true}
-            label="Προσφορά"
-            value={`€${courseDetails.finalCost} έως ${courseDetails.applicationDeadline}`}
-          />
-        )}
         {courseDetails?.language && (
           <StatCard
             label={translate("Language")}
             value={courseDetails.language.toString()}
+          />
+        )}
+        {mentorship && (
+          <StatCard
+            label={translate("Mentorship")}
+            value={translate(mentorship)}
           />
         )}
       </div>
