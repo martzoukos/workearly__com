@@ -111,15 +111,16 @@ export default function PurchaseCourseBootcamp() {
             <>
               <div className={styles.infoContainer}>
                 <Text size="p">{translate("ParticipationText")}</Text>
-                <Text size="small">{translate("PreorderCTA")}</Text>
+                <Text size="p">{translate("RunningOffer")}</Text>
                 {courseDetails && (
                   <CoursePrices
                     courseDetails={courseDetails}
                     orientation="vertical"
-                    finalCostSize="h4"
+                    finalCostSize="h3"
                     showKlarna
                   />
                 )}
+                <Text size="small">{translate("PreorderCTA")}</Text>
                 <DateCallout
                   label="Για αιτήσεις"
                   value={"έως " + courseDetails?.applicationDeadline}
@@ -160,7 +161,9 @@ export default function PurchaseCourseBootcamp() {
           )}
         </div>
       </div>
-      <StickyBootcampCTA />
+      <StickyBootcampCTA
+        applicationDeadline={courseDetails.applicationDeadline!}
+      />
     </>
   );
 
@@ -176,6 +179,7 @@ export default function PurchaseCourseBootcamp() {
         variant="Solid"
         isFullWidth
         size="medium"
+        className={styles.demoButtonGreenBorder}
         onClick={() => setShowEmailForm(true)}
       >
         <Play size="20" />
@@ -198,10 +202,23 @@ export default function PurchaseCourseBootcamp() {
     );
   }
 
-  function StickyBootcampCTA() {
+  function StickyBootcampCTA({
+    applicationDeadline,
+  }: {
+    applicationDeadline: string;
+  }) {
     return (
       <Viewport showUntil="md">
         <div className={styles.stickyBootcampCTA}>
+          {applicationDeadline && (
+            <div className={styles.stickyApplicationDeadline}>
+              <Time />
+              <Text size="caption">
+                {translate("TryOutFreeUntil")}{" "}
+                <strong>{applicationDeadline}</strong>
+              </Text>
+            </div>
+          )}
           <Button
             variant="Solid"
             colorScheme="Green"

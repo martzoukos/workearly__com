@@ -35,6 +35,11 @@
     "en": "Καθοδήγηση από mentors"
   },
   {
+    "code": "RunningOffer",
+    "el": "Τρέχουσα προσφορά:",
+    "en": "Running offer:"
+  },
+  {
     "code": "Team",
     "el": "Ομάδα",
     "en": "Team"
@@ -148,6 +153,11 @@
     "code": "group3_form_cta",
     "el": "Αίτηση Συμμετοχής",
     "en": "Apply"
+  },
+  {
+    "code": "TryOutFreeUntil",
+    "el": "Δοκίμασε δωρεάν έως",
+    "en": "Try out free until"
   },
   {
     "code": "Level",

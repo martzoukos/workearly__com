@@ -29,8 +29,8 @@ interface PropsType extends VariantProps<typeof variants> {
   courseDetails?: QueryItem["CourseDetails"];
   showKlarna?: boolean;
   className?: string;
-  startingCostSize?: "h4" | "h5" | "h6";
-  finalCostSize?: "h4" | "h5" | "h6";
+  startingCostSize?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+  finalCostSize?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
 }
 
 export default function CoursePrices({
@@ -57,7 +57,9 @@ export default function CoursePrices({
           size={finalCostSize}
           className={clsx(styles.price, styles.finalPrice)}
         >
-          {courseDetails?.finalCost}
+          <span className={styles.finalPriceMobileModifier}>
+            {courseDetails?.finalCost}
+          </span>
         </Text>
         <Text
           size={startingCostSize}

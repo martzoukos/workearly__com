@@ -6,6 +6,7 @@ import clsx from "clsx";
 import { NextSeo } from "next-seo";
 import styles from "./InterestPage.module.scss";
 import WorkearlyVideo from "@/components/WorkearlyVideo/WorkearlyVideo";
+import Text from "@/components/Text";
 
 type PropsType = {
   className?: string;
@@ -45,7 +46,12 @@ export default function InterestPage({ className }: PropsType) {
       />
       <div className={styles.content}>
         <WorkearlyVideo />
-        <InterestForm />
+        <div>
+          <Text size="h5" className={styles.courseTitle}>
+            {courseDetails?.title || ""}
+          </Text>
+          <InterestForm />
+        </div>
       </div>
     </main>
   );

@@ -137,6 +137,7 @@
   left: 0;
   bottom: 0;
   z-index: var(--z-purchase-course-banner);
+  background: var(--color-sys-default);
   width: 100%;
   border-start-start-radius: 0.75rem;
   border-start-end-radius: 0.75rem;
@@ -144,4 +145,20 @@
   flex-direction: column;
   align-items: center;
   gap: 0.75rem;
+}
+
+.stickyApplicationDeadline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--color-sys-border-muted);
+  width: 100%;
+  text-align: center;
+}
+
+.demoButtonGreenBorder {
+  border: 2px solid var(--color-sys-accent);
 }

@@ -20,6 +20,12 @@
   }
 }
 
+@media (width < 1024px) {
+  .finalPriceMobileModifier {
+    font-size: 1.7em;
+  }
+}
+
 .orientationVertical {
   flex-direction: column;
 }

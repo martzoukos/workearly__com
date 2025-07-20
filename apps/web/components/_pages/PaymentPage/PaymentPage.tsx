@@ -10,6 +10,7 @@ import { NextSeo } from "next-seo";
 import { useState } from "react";
 import styles from "./PaymentPage.module.scss";
 import WorkearlyVideo from "@/components/WorkearlyVideo/WorkearlyVideo";
+import Text from "@/components/Text";
 
 const stripePromise = loadStripe(
   process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY as string,
@@ -102,16 +103,21 @@ export default function PaymentPage({ className }: PropsType) {
       />
       <div className={styles.content}>
         <WorkearlyVideo />
-        {clientSecret ? (
-          <Elements
-            stripe={stripePromise}
-            options={{ clientSecret, appearance }}
-          >
-            <CheckoutForm />
-          </Elements>
-        ) : (
-          <IntentForm onSuccess={setClientSecret} />
-        )}
+        <div>
+          <Text size="h5" className={styles.courseTitle}>
+            {courseDetails?.title || ""}
+          </Text>
+          {clientSecret ? (
+            <Elements
+              stripe={stripePromise}
+              options={{ clientSecret, appearance }}
+            >
+              <CheckoutForm />
+            </Elements>
+          ) : (
+            <IntentForm onSuccess={setClientSecret} />
+          )}
+        </div>
       </div>
     </main>
   );
