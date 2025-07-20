@@ -83,6 +83,7 @@
 .dataCalloutValue,
 .dataCalloutLabel {
   font-weight: bold;
+  flex-shrink: 0;
 }
 
 .description {
