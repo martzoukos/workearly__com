@@ -5,13 +5,15 @@ import { useContentful } from "@/stores/ContentfulStore";
 import { ChevronRight } from "@carbon/icons-react";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/router";
-import { useForm } from "react-hook-form";
+import { useForm, Control } from "react-hook-form";
 import * as yup from "yup";
 import styles from "./IntentForm.module.scss";
+import FormTOC from "../FormTOC/FormTOC";
 
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
   email: yup.string().email("Invalid email").required("Email is required"),
+  terms: yup.boolean().oneOf([true], "You must accept the terms").required(),
 });
 
 type SchemaType = yup.InferType<typeof schema>;
@@ -30,6 +32,11 @@ export default function IntentForm({ onSuccess }: PropsType) {
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
+    defaultValues: {
+      name: "",
+      email: "",
+      terms: false,
+    },
   });
 
   const onSubmit = async (data: SchemaType) => {
@@ -65,11 +72,12 @@ export default function IntentForm({ onSuccess }: PropsType) {
     <form onSubmit={handleSubmit(onSubmit)} className={styles.root}>
       <Input label="Name" placeholder="Name" name="name" control={control} />
       <Input label="Email" placeholder="Email" name="email" control={control} />
+      <FormTOC control={control as unknown as Control<Record<string, any>>} />
       <Button
         type="submit"
         isFullWidth
         size="medium"
-        disabled={!isValid}
+        disabled={!isValid || isSubmitting}
         isLoading={isSubmitting}
       >
         Next <ChevronRight />

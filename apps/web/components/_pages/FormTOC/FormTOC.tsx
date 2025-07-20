@@ -4,7 +4,7 @@ import styles from "./FormTOC.module.scss";
 import { Controller, Control } from "react-hook-form";
 
 interface FormTOCProps {
-  control: Control<{ email: string; terms: boolean }>;
+  control: Control<Record<string, any>>;
 }
 
 export default function FormTOC({ control }: FormTOCProps) {

@@ -1,7 +1,7 @@
 import { Input } from "@/components/_sections/Form/FormPrimitives";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { useForm } from "react-hook-form";
+import { useForm, Control } from "react-hook-form";
 import styles from "./EmailGatherForm.module.scss";
 import Button from "../Button";
 import { Close } from "@carbon/icons-react";
@@ -109,7 +109,7 @@ export default function EmailGatherForm({
         control={control}
         className={styles.emailInput}
       />
-      <FormTOC control={control} />
+      <FormTOC control={control as unknown as Control<Record<string, any>>} />
       <Button
         type="submit"
         isFullWidth

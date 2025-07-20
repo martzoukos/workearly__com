@@ -5,14 +5,16 @@ import { useContentful } from "@/stores/ContentfulStore";
 import useTranslate from "@/hooks/useTranslate";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useRouter } from "next/router";
-import { useForm } from "react-hook-form";
+import { useForm, Control } from "react-hook-form";
 import * as yup from "yup";
 import styles from "./InterestForm.module.scss";
+import FormTOC from "../FormTOC/FormTOC";
 
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
   email: yup.string().email("Invalid email").required("Email is required"),
   phone: yup.string().required("Phone is required"),
+  terms: yup.boolean().oneOf([true], "You must accept the terms").required(),
 });
 
 type SchemaType = yup.InferType<typeof schema>;
@@ -28,6 +30,12 @@ export default function InterestForm() {
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
+    defaultValues: {
+      name: "",
+      email: "",
+      phone: "",
+      terms: false,
+    },
   });
 
   const onSubmit = async (data: SchemaType) => {
@@ -72,11 +80,12 @@ export default function InterestForm() {
         name="phone"
         control={control}
       />
+      <FormTOC control={control as unknown as Control<Record<string, any>>} />
       <Button
         type="submit"
         isFullWidth
         size="medium"
-        disabled={!isValid}
+        disabled={!isValid || isSubmitting}
         isLoading={isSubmitting}
       >
         {translate("InterestFormCTA2")}
