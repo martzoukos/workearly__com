@@ -17,7 +17,9 @@
   border: 1px solid var(--color-border);
   width: fit-content;
 
-  &:not(:disabled):hover {
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    cursor: pointer;
     opacity: 0.8;
   }
 
@@ -92,10 +94,23 @@
   --color-bg: var(--color-primary);
   --color-text: var(--color-secondary);
   --color-border: var(--color-primary);
+
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    opacity: 1;
+    --color-text: var(--color-primary);
+    --color-bg: var(--color-sys-accent);
+  }
 }
 
 .variantSolid.colorSchemeGreen {
   --color-border: hsl(var(--color-black-500));
+
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
+    --color-text: var(--color-sys-accent);
+    --color-bg: #141414;
+  }
 }
 
 .variantOutlined {
@@ -133,8 +148,10 @@
     bottom: -2px;
   }
 
-  &:not(:disabled):hover {
+  &:not(:disabled):hover,
+  &:not(:disabled):focus {
     border-color: transparent;
+    cursor: pointer;
   }
 
   &:not(:disabled):active {
