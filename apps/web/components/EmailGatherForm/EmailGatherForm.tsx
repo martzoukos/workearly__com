@@ -9,9 +9,11 @@ import Text from "../Text";
 import { useState } from "react";
 import usePageResolver from "@/hooks/usePageResolver";
 import { useContentful } from "@/stores/ContentfulStore";
+import FormTOC from "../_pages/FormTOC/FormTOC";
 
 const schema = yup.object().shape({
   email: yup.string().email("Invalid email").required("Email is required"),
+  terms: yup.boolean().oneOf([true], "You must accept the terms").required(),
 });
 
 type SchemaType = yup.InferType<typeof schema>;
@@ -30,6 +32,10 @@ export default function EmailGatherForm({
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
+    defaultValues: {
+      email: "",
+      terms: false,
+    },
   });
 
   if (!courseDetails) {
@@ -103,6 +109,7 @@ export default function EmailGatherForm({
         control={control}
         className={styles.emailInput}
       />
+      <FormTOC control={control} />
       <Button
         type="submit"
         isFullWidth

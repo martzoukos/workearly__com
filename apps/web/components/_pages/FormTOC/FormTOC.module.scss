@@ -1,0 +1,22 @@
+.root {
+  display: block;
+  padding: 1rem 0;
+}
+
+.checkbox {
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.25rem;
+  margin: 3px 4px 0 0;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.link:hover,
+.link:focus {
+  opacity: 0.8;
+  text-decoration: none;
+}
