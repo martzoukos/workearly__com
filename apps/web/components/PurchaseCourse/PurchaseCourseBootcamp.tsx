@@ -167,7 +167,7 @@ export default function PurchaseCourseBootcamp() {
     </>
   );
 
-  function DemoButton(show: boolean) {
+  function DemoButton({ show }: { show: boolean }) {
     if (!show) {
       return null;
     }
