@@ -43,7 +43,7 @@ export default function PurchaseCourse({
         </div>
       )}
 
-      {courseDetails.group === 1 ? (
+      {courseDetails.group === 1 || courseDetails.group === 2 ? (
         <PurchaseCourseBootcamp />
       ) : (
         <PurchaseCourseNonBootcamp
