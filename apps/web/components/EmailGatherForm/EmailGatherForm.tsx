@@ -59,6 +59,7 @@ export default function EmailGatherForm({
             startingCost: courseDetails.startingCost,
             finalCost: courseDetails.finalCost,
             paymentLink: courseDetails.paymentLink,
+            interestFormURL: "/interest/" + page.slug,
           }),
         },
       );
