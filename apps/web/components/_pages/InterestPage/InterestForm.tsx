@@ -14,6 +14,7 @@ const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
   email: yup.string().email("Invalid email").required("Email is required"),
   phone: yup.string().required("Phone is required"),
+  other: yup.string(),
   terms: yup.boolean().oneOf([true], "You must accept the terms").required(),
 });
 
@@ -34,6 +35,7 @@ export default function InterestForm() {
       name: "",
       email: "",
       phone: "",
+      other: "",
       terms: false,
     },
   });
@@ -53,6 +55,7 @@ export default function InterestForm() {
             name: data.name,
             email: data.email,
             phone: data.phone,
+            other: data.other,
             courseTitle: courseDetails.title,
             courseId: courseDetails.id,
             hubspotDealType: courseDetails.hubspotDealType,
@@ -78,6 +81,12 @@ export default function InterestForm() {
         label={translate("FormPhoneLabel")}
         placeholder={translate("FormPhoneLabel")}
         name="phone"
+        control={control}
+      />
+      <Input
+        label={"Άλλες πληροφορίες / Εκπτωτικός Κωδικός"}
+        placeholder={"Άλλες πληροφορίες / Εκπτωτικός Κωδικός"}
+        name="other"
         control={control}
       />
       <FormTOC control={control as unknown as Control<Record<string, any>>} />
