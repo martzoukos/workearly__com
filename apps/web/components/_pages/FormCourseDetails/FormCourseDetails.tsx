@@ -14,7 +14,7 @@ export default function FormCourseDetails() {
       </Text>
       {courseDetails?.programStarts && (
         <Text size="small">
-          <Time size="20" /> Ξεκινάει στις: {courseDetails.programStarts}
+          <Time size="20" /> Ξεκινάει: {courseDetails.programStarts}
         </Text>
       )}
       {courseDetails?.applicationDeadline && (
