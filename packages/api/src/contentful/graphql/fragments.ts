@@ -101,6 +101,7 @@ export const COURSE_DETAILS_FIELDS = graphql(`
     hasApplicationFormCta
     applicationFormUrl
     demoUrl
+    paymentLink
     id
     language
     programStarts

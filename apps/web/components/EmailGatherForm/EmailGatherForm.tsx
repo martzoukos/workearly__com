@@ -58,6 +58,7 @@ export default function EmailGatherForm({
             applicationDeadline: courseDetails.applicationDeadline,
             startingCost: courseDetails.startingCost,
             finalCost: courseDetails.finalCost,
+            paymentLink: courseDetails.paymentLink,
           }),
         },
       );
