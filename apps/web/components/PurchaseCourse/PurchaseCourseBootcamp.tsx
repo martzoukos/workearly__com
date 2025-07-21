@@ -28,7 +28,7 @@ export default function PurchaseCourseBootcamp() {
   const { page } = useContentful();
   const router = useRouter();
   const { courseDetails } = usePageResolver(page);
-  const { groupNumber } = useCourseDetailsResolver(courseDetails);
+  const { groupNumber, gift } = useCourseDetailsResolver(courseDetails);
 
   const { translate } = useTranslate();
 
@@ -120,7 +120,9 @@ export default function PurchaseCourseBootcamp() {
                     showKlarna
                   />
                 )}
-                <Text size="small">{translate("PreorderCTA")}</Text>
+
+                {gift && <Text size="small">{translate(`group1_gift`)}</Text>}
+
                 <DateCallout
                   label="Για αιτήσεις"
                   value={"έως " + courseDetails?.applicationDeadline}
