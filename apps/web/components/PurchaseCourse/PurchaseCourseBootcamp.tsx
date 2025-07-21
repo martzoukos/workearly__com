@@ -139,7 +139,7 @@ export default function PurchaseCourseBootcamp() {
                   <Document />
                   {translate("Application")}
                 </Button>
-                <Button
+                {/* <Button
                   isFullWidth
                   variant="Ghost"
                   id={`purchase-button-${courseDetails.id}`}
@@ -155,7 +155,7 @@ export default function PurchaseCourseBootcamp() {
                 >
                   <ShoppingCart size={20} />
                   {translate("BuyDirectly")}
-                </Button>
+                </Button> */}
               </footer>
             </>
           )}

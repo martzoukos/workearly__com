@@ -1,8 +1,48 @@
 {
-  "__timestamp": 1752923117431,
-  "__hash": "8834cb558c3bcd752543fbedea713689177eac52cd6ea6a8726ea7bda7f3f558",
+  "__timestamp": 1753127383063,
+  "__hash": "67801fafdd66441346967008e6336af88ef2a5c2a3891d25610204b5d6ffd60b",
   "total": 165,
   "items": [
+    {
+      "sys": {
+        "id": "jrembJBR9zZ1R4gbpVOHr",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
+      "group": 1,
+      "title": "AI Data Analyst Bootcamp",
+      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
+      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
+      "demoUrl": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "AI Data Analyst Bootcamp September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "6wgzL8RchzjfLVURyKBBnq",
@@ -2298,46 +2338,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "jrembJBR9zZ1R4gbpVOHr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
-      "group": 1,
-      "title": "AI Data Analyst Bootcamp",
-      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
-      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
-      "demoUrl": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
         "description": null
       }
     },
