@@ -54,6 +54,10 @@ export default function EmailGatherForm({
             email: data.email,
             courseTitle: courseDetails.title,
             courseId: courseDetails.id,
+            demoUrl: courseDetails.demoUrl,
+            applicationDeadline: courseDetails.applicationDeadline,
+            startingCost: courseDetails.startingCost,
+            finalCost: courseDetails.finalCost,
           }),
         },
       );

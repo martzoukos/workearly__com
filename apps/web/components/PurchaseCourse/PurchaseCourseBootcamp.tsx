@@ -104,7 +104,7 @@ export default function PurchaseCourseBootcamp() {
                   <Phone size="20" />
                   {translate("CallMe")}
                 </Button>
-                <DemoButton />
+                <DemoButton show={courseDetails.group === 1} />
               </footer>
             </>
           ) : (
@@ -167,7 +167,11 @@ export default function PurchaseCourseBootcamp() {
     </>
   );
 
-  function DemoButton() {
+  function DemoButton(show: boolean) {
+    if (!show) {
+      return null;
+    }
+
     const [showEmailForm, setShowEmailForm] = useState(false);
 
     if (showEmailForm) {
