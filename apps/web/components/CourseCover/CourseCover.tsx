@@ -57,11 +57,12 @@ export default function CourseCover() {
           <StatCard label={translate("Duration")} value={translate(duration)} />
         )}
         {pace && <StatCard label={translate("Pace")} value={translate(pace)} />}
+
         {courseDetails?.applicationDeadline && courseDetails?.finalCost && (
           <StatCard
             isInverse={true}
             label={translate("Offer")}
-            value={`€${courseDetails.finalCost} έως ${courseDetails.applicationDeadline}`}
+            value={`€${courseDetails.finalCost} έως ${courseDetails.group === 3 ? "30 Απριλίου" : courseDetails.applicationDeadline}`}
           />
         )}
         {courseDetails?.programStarts && (

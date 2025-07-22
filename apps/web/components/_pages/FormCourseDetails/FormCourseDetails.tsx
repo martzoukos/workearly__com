@@ -17,7 +17,7 @@ export default function FormCourseDetails() {
           <Time size="20" /> Ξεκινάει: {courseDetails.programStarts}
         </Text>
       )}
-      {courseDetails?.applicationDeadline && (
+      {courseDetails?.applicationDeadline && courseDetails?.group !== 3 && (
         <Text size="small">
           <Play size="20" /> Δωρεάν δοκιμή έως{" "}
           {courseDetails.applicationDeadline}
