@@ -75,10 +75,15 @@ export default function InterestForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.root}>
       <p>{translate("InterestFormDescription")}</p>
-      <Input label="Name" placeholder="Name" name="name" control={control} />
-      <Input label="Email" placeholder="Email" name="email" control={control} />
+      <Input label="Name *" placeholder="Name" name="name" control={control} />
       <Input
-        label={translate("FormPhoneLabel")}
+        label="Email *"
+        placeholder="Email"
+        name="email"
+        control={control}
+      />
+      <Input
+        label={translate("FormPhoneLabel") + " *"}
         placeholder={translate("FormPhoneLabel")}
         name="phone"
         control={control}
