@@ -29,6 +29,7 @@ export default function IntentForm({ onSuccess }: PropsType) {
   const {
     control,
     handleSubmit,
+    reset,
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
@@ -61,6 +62,10 @@ export default function IntentForm({ onSuccess }: PropsType) {
         }),
       });
       const json = await response.json();
+
+      // Clear form fields
+      reset();
+
       onSuccess(json.clientSecret);
     } catch (error) {
       console.error(error);

@@ -38,7 +38,7 @@ function calculateReadingTime(documents: Document[]) {
 
 export function getPageResolver(
   page: QueryItem["Page"],
-  relationshipMap: RelationshipMap
+  relationshipMap: RelationshipMap,
 ) {
   // TODO: Use getReferences here?
   const items =
@@ -46,35 +46,35 @@ export function getPageResolver(
       .map((item) => {
         if (item?.__typename === "ContentTypeRichText") {
           return relationshipMap.contentTypeRichTextCollection.find(
-            (section) => section.sys.id === item.sys.id
+            (section) => section.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "Section") {
           return relationshipMap.sectionCollection.find(
-            (section) => section.sys.id === item.sys.id
+            (section) => section.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "UniqueComponent") {
           return relationshipMap.uniqueComponentCollection.find(
-            (section) => section.sys.id === item.sys.id
+            (section) => section.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "CourseDetails") {
           return relationshipMap.courseDetailsCollection.find(
-            (section) => section.sys.id === item.sys.id
+            (section) => section.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "PeopleDetails") {
           return relationshipMap.peopleDetailsCollection.find(
-            (section) => section.sys.id === item.sys.id
+            (section) => section.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "ResourceDetails") {
           return relationshipMap.resourceDetailsCollection.find(
-            (section) => section.sys.id === item.sys.id
+            (section) => section.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "CategoryOrJobDetails") {
           return relationshipMap.categoryOrJobDetailsCollection.find(
-            (section) => section?.sys.id === item.sys.id
+            (section) => section?.sys.id === item.sys.id,
           );
         } else if (item?.__typename === "Composite") {
           return relationshipMap.compositeCollection.find(
-            (section) => section?.sys.id === item.sys.id
+            (section) => section?.sys.id === item.sys.id,
           );
         }
       })
@@ -83,7 +83,7 @@ export function getPageResolver(
   const dividerIndex = items.findIndex(
     (item) =>
       item?.__typename === "UniqueComponent" &&
-      item.variant === "Full Width Divider"
+      item.variant === "Full Width Divider",
   );
 
   const preDividerItems =
@@ -92,24 +92,24 @@ export function getPageResolver(
     dividerIndex === -1 ? [] : items.slice(dividerIndex + 1);
 
   const courseDetails = items.find(
-    (item) => item?.__typename === "CourseDetails"
+    (item) => item?.__typename === "CourseDetails",
   ) as QueryItem["CourseDetails"] | undefined;
   const peopleDetails = items.find(
-    (item) => item?.__typename === "PeopleDetails"
+    (item) => item?.__typename === "PeopleDetails",
   ) as QueryItem["PeopleDetails"] | undefined;
   const resourceDetails = items.find(
-    (item) => item?.__typename === "ResourceDetails"
+    (item) => item?.__typename === "ResourceDetails",
   ) as QueryItem["ResourceDetails"] | undefined;
   const categoryOrJobDetails = items.find(
-    (item) => item?.__typename === "CategoryOrJobDetails"
+    (item) => item?.__typename === "CategoryOrJobDetails",
   ) as QueryItem["CategoryOrJobDetails"] | undefined;
 
   const richTexts = items.filter(
-    (item) => item?.__typename === "ContentTypeRichText"
+    (item) => item?.__typename === "ContentTypeRichText",
   ) as QueryItem["ContentTypeRichText"][];
 
   const readingTime = calculateReadingTime(
-    richTexts.map((richText) => richText?.body?.json)
+    richTexts.map((richText) => richText?.body?.json),
   );
 
   function getHeadingsDoc() {
@@ -121,7 +121,7 @@ export function getPageResolver(
       ? {
           ...(richText.body.json as Document),
           content: (richText.body.json as Document).content.filter((node) =>
-            [BLOCKS.HEADING_2].includes(node.nodeType)
+            [BLOCKS.HEADING_2].includes(node.nodeType),
           ),
         }
       : undefined;

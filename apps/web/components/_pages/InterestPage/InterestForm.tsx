@@ -9,6 +9,7 @@ import { useForm, Control } from "react-hook-form";
 import * as yup from "yup";
 import styles from "./InterestForm.module.scss";
 import FormTOC from "../FormTOC/FormTOC";
+import { useState } from "react";
 
 const schema = yup.object().shape({
   name: yup.string().required("Name is required"),
@@ -25,9 +26,11 @@ export default function InterestForm() {
   const { page } = useContentful();
   const { translate } = useTranslate();
   const { courseDetails } = usePageResolver(page);
+  const [formResult, setFormResult] = useState<"success" | "error" | null>();
   const {
     control,
     handleSubmit,
+    reset,
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
@@ -62,13 +65,18 @@ export default function InterestForm() {
           }),
         },
       );
+      setFormResult("success");
+
+      // Clear form fields
+      reset();
+
       if (!response.ok) {
+        setFormResult("error");
         throw new Error("Failed to send email");
       }
-      router.push(`/interest/success/${page.slug}`);
     } catch (error) {
+      setFormResult("error");
       console.error(error);
-      router.push("/interest/failure");
     }
   };
 
@@ -104,6 +112,21 @@ export default function InterestForm() {
       >
         {translate("InterestFormCTA2")}
       </Button>
+      {formResult ? (
+        <div>
+          {formResult === "error" && (
+            <p className={styles.error}>
+              Αποτυχία αποστολής. Παρακαλώ δοκιμάστε ξανά.
+            </p>
+          )}
+          {formResult === "success" && (
+            <p className={styles.success}>
+              Η εκδήλωση ενδιαφέροντος στάλθηκε επιτυχώς! Θα επικοινωνήσουμε
+              σύντομα μαζί σου!
+            </p>
+          )}
+        </div>
+      ) : null}
     </form>
   );
 }

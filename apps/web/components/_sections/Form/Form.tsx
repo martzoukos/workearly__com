@@ -27,7 +27,7 @@ const schema = Yup.object().shape({
   message: Yup.string().trim().required("Message is required"),
   agreePrivacy: Yup.boolean().oneOf(
     [true],
-    "You must agree to the privacy policy"
+    "You must agree to the privacy policy",
   ),
   agreeMarketing: Yup.boolean().default(false),
 });
@@ -41,6 +41,7 @@ export default function Form({ section }: PropsType) {
   const {
     handleSubmit,
     control,
+    reset,
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
@@ -64,6 +65,8 @@ export default function Form({ section }: PropsType) {
       });
 
       if (response.ok) {
+        // Clear form fields
+        reset();
         router.push("/contact/success");
       }
     } catch (error) {

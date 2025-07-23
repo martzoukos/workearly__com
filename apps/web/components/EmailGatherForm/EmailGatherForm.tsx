@@ -29,6 +29,7 @@ export default function EmailGatherForm({
   const {
     control,
     handleSubmit,
+    reset,
     formState: { isValid, isSubmitting },
   } = useForm({
     resolver: yupResolver(schema),
@@ -67,6 +68,9 @@ export default function EmailGatherForm({
       if (!response.ok) {
         throw new Error("Failed to gather email");
       }
+
+      // Clear form fields
+      reset();
 
       // Show success message
       setIsSuccess(true);

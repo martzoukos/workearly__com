@@ -1,6 +1,6 @@
 {
-  "__timestamp": 1753182097404,
-  "__hash": "4da1658de4f2ca70035382ed3e5b164c7dc05750bef2907ef3cfbfcbd852c63b",
+  "__timestamp": 1753257683196,
+  "__hash": "7a5da31b42e98967214277ae017b68b7c9759c4f25e289eaaa6983636b1ebcb5",
   "total": 165,
   "items": [
     {
@@ -16,8 +16,8 @@
       "shortDescription": "Το Project Management Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στη Διαχείριση Έργων (Project Management).",
       "hasApplicationFormCta": null,
       "applicationFormUrl": "https://form.123formbuilder.com/6763768/project-management-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
+      "demoUrl": "https://intro-to-pm-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/8x29AS4fk26X5aS5rx2ZR0G",
       "id": null,
       "language": ["Greek"],
       "programStarts": "Σεπτέμβριος 2025",
@@ -46,88 +46,6 @@
     },
     {
       "sys": {
-        "id": "5wapQ55FQZxcPaB8UzEpDB",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science & AI με Πιστοποίηση",
-      "group": 1,
-      "title": "Mastering Data & AI",
-      "summary": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για όσους θέλουν να κατακτήσουν την ανάλυση δεδομένων, τη μηχανική μάθηση και τις τεχνολογίες AI. Στο Data Science & AI Course, θα μάθετε πώς να διαχειρίζεστε, να αναλύετε και να οπτικοποιείτε δεδομένα, να δημιουργείτε Machine Learning μοντέλα και να χρησιμοποιείτε AI-driven εργαλεία για λήψη στρατηγικών αποφάσεων.",
-      "shortDescription": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6618021/data-science-ai-courses",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": "Mastering Data & AI September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "5IFXcmhunVAO8nA7yl3pFR",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5IFXcmhunVAO8nA7yl3pFR/5af7c91f9a4f17ccc798641e21f3dcde/Solo_-_AI.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - AI",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7nFfTdaStT9aylcfz9FNxr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση σε Digital Marketing",
-      "group": 1,
-      "title": "Digital Marketing Bootcamp",
-      "summary": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing. Μέσα από hands-on projects, case studies και τις πιο σύγχρονες στρατηγικές, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να δημιουργείς αποδοτικές καμπάνιες, να διαχειρίζεσαι ψηφιακά κανάλια και να ξεχωρίσεις σε έναν από τους πιο ταχέως αναπτυσσόμενους κλάδους.",
-      "shortDescription": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763777/digital-marketing-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": "Digital Marketing Bootcamp September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "6tMzF4jfPWiFtVPONIbhth",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/6tMzF4jfPWiFtVPONIbhth/9176e033f0ba5fa037f0c1a9bdd32b86/Solo_-_Digital_Marketing.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Digital Marketing",
-        "description": null
-      }
-    },
-    {
-      "sys": {
         "id": "4odtO6IF8iCnmKoPtRNYT",
         "__typename": "Sys"
       },
@@ -139,8 +57,8 @@
       "shortDescription": "Το Finance Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον Χρηματοοικονομικό Τομέα (Finance).",
       "hasApplicationFormCta": null,
       "applicationFormUrl": "https://form.123formbuilder.com/6763501/finance-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
+      "demoUrl": "https://finance-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/fZu4gy9zEh1RgTA9HN2ZR0J",
       "id": null,
       "language": ["Greek"],
       "programStarts": "Σεπτέμβριος 2025",
@@ -169,26 +87,26 @@
     },
     {
       "sys": {
-        "id": "1aGIbHuRwphMR8PJbdow1a",
+        "id": "7nFfTdaStT9aylcfz9FNxr",
         "__typename": "Sys"
       },
       "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Software QA",
+      "h1Title": "Bootcamp με Πιστοποίηση σε Digital Marketing",
       "group": 1,
-      "title": "AI Software Testing (QA)",
-      "summary": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού. Στο AI Software Testing (QA) Course, θα μάθετε τις θεμελιώδεις αρχές του manual και automated testing, καθώς και πώς να χρησιμοποιείτε τεχνολογίες AI για τη βελτίωση της διαδικασίας δοκιμών.",
-      "shortDescription": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού.",
+      "title": "Digital Marketing Bootcamp",
+      "summary": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing. Μέσα από hands-on projects, case studies και τις πιο σύγχρονες στρατηγικές, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να δημιουργείς αποδοτικές καμπάνιες, να διαχειρίζεσαι ψηφιακά κανάλια και να ξεχωρίσεις σε έναν από τους πιο ταχέως αναπτυσσόμενους κλάδους.",
+      "shortDescription": "Το Digital Marketing Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στο Digital Marketing.",
       "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6497374/qa-software-testing",
-      "demoUrl": null,
-      "paymentLink": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763777/digital-marketing-bootcamp",
+      "demoUrl": "https://digital-marketing-bootcamp-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/fZu3cuh26fXNfPw6vB2ZR0F",
       "id": null,
       "language": ["Greek"],
       "programStarts": "Σεπτέμβριος 2025",
       "applicationDeadline": "31 Ιουλίου",
       "startingCost": 600,
       "finalCost": 147,
-      "hubspotDealType": "AI Software Testing (QA) September 2025",
+      "hubspotDealType": "Digital Marketing Bootcamp September 2025",
       "onDemand": null,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -196,15 +114,15 @@
       },
       "videoThumbnail": {
         "sys": {
-          "id": "7bFr4xybcq8JBksdpDPHv",
+          "id": "6tMzF4jfPWiFtVPONIbhth",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/6tMzF4jfPWiFtVPONIbhth/9176e033f0ba5fa037f0c1a9bdd32b86/Solo_-_Digital_Marketing.svg",
         "width": 750,
         "height": 750,
         "contentType": "image/svg+xml",
-        "title": "Solo - IT",
+        "title": "Solo - Digital Marketing",
         "description": null
       }
     },
@@ -221,8 +139,8 @@
       "shortDescription": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics.",
       "hasApplicationFormCta": null,
       "applicationFormUrl": "https://form.123formbuilder.com/6763872/sports-analytics-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
+      "demoUrl": "https://data-science-sports-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/5kQeVc9zE5j95aS7zF2ZR0E",
       "id": null,
       "language": ["Greek"],
       "programStarts": "Σεπτέμβριος 2025",
@@ -251,6 +169,1242 @@
     },
     {
       "sys": {
+        "id": "1aGIbHuRwphMR8PJbdow1a",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Software QA",
+      "group": 1,
+      "title": "AI Software Testing (QA)",
+      "summary": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού. Στο AI Software Testing (QA) Course, θα μάθετε τις θεμελιώδεις αρχές του manual και automated testing, καθώς και πώς να χρησιμοποιείτε τεχνολογίες AI για τη βελτίωση της διαδικασίας δοκιμών.",
+      "shortDescription": "Αποκτήστε προηγμένες δεξιότητες στο Software Testing & Quality Assurance (QA) και μάθετε πώς να εξασφαλίζετε την ποιότητα των εφαρμογών μέσα από δομημένες μεθοδολογίες, αυτοματοποιημένες δοκιμές και εργαλεία ελέγχου λογισμικού.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6497374/qa-software-testing",
+      "demoUrl": "https://ai-software-testing-qa-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/dRmbJ03bgeTJeLs6vB2ZR0H",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "AI Software Testing (QA) September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "7bFr4xybcq8JBksdpDPHv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6iuCYDBcgvEUwXwrqwO1et",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα SQL με Sports Analytics",
+      "group": 2,
+      "title": "SQL with Sports",
+      "summary": "Μάθετε πώς να χρησιμοποιείτε την Python για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων! Στο Python for Sports Analytics Course, θα μάθετε πώς να επεξεργάζεστε δεδομένα αγώνων, να αναλύετε την απόδοση παικτών και να εφαρμόζετε Machine Learning για προβλέψεις και αγωνιστικές στρατηγικές.",
+      "shortDescription": "Μάθετε πώς να χρησιμοποιείτε τη SQL για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στη διαχείριση και ανάλυση αθλητικών δεδομένων!",
+      "hasApplicationFormCta": true,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823020/sql-with-sports",
+      "demoUrl": "https://sql-demo.workearly.ai/chapter/3/slide/2",
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "SQL with Sports September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "43QnpM2aWS5EDtyXcKi72s",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Sports Analytics με Formula 1",
+      "group": 2,
+      "title": "Sports Analytics with F1",
+      "summary": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων, μαθαίνοντας πώς να αναλύετε αθλητικά δεδομένα, να εφαρμόζετε Machine Learning και να βελτιστοποιείτε στρατηγικές αγώνων με πραγματικά datasets από τη Formula 1 και ακόμα παραπάνω.",
+      "shortDescription": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6577422/formula-1/",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Sports Analytics with F1 September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7mT1hgDVaw57xKUCzLE0kz",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Power BI",
+      "group": 2,
+      "title": "Reporting with Microsoft Power BI",
+      "summary": "Ανακαλύψτε τις δυνατότητες του Power BI για επιχειρησιακή ανάλυση. Μάθετε να δημιουργείτε δυναμικά dashboards, να εφαρμόζετε τεχνικές data modeling και να παρέχετε αξιόπιστα business insights.\n",
+      "shortDescription": "Ανακαλύψτε τις δυνατότητες του Power BI για επιχειρησιακή ανάλυση. Μάθετε να δημιουργείτε δυναμικά dashboards, να εφαρμόζετε τεχνικές data modeling και να παρέχετε αξιόπιστα business insights.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823000/reporting-with-microsoft-power-bi",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "Reporting with Microsoft Power BI September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "77v0vPouQ0CGS8QaXoEhnR",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Python με Sports Analytics",
+      "group": 2,
+      "title": "Python with Sports",
+      "summary": "Μάθετε πώς να χρησιμοποιείτε την Python για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων! Στο Python for Sports Analytics Course, θα μάθετε πώς να επεξεργάζεστε δεδομένα αγώνων, να αναλύετε την απόδοση παικτών και να εφαρμόζετε Machine Learning για προβλέψεις και αγωνιστικές στρατηγικές.",
+      "shortDescription": "Μάθετε πώς να χρησιμοποιείτε την Python για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων!",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823026/python-with-sports",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "Python with Sports September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7q1rqc1CCfGlWgqvoQF5v2",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Python για Finance",
+      "group": 2,
+      "title": "Python for Finance",
+      "summary": "Αποκτήστε εξειδίκευση στην Python για χρηματοοικονομικές εφαρμογές και μάθετε πώς να χρησιμοποιείτε την ανάλυση δεδομένων, αλγοριθμικό trading, διαχείριση ρίσκου και βελτιστοποίηση χαρτοφυλακίου. Στο Python for Finance Course, θα αναπτύξετε πρακτικές δεξιότητες στον προγραμματισμό για χρηματοοικονομική ανάλυση.",
+      "shortDescription": "Αποκτήστε εξειδίκευση στην Python για χρηματοοικονομικές εφαρμογές και μάθετε πώς να χρησιμοποιείτε την ανάλυση δεδομένων, αλγοριθμικό trading, διαχείριση ρίσκου και βελτιστοποίηση χαρτοφυλακίου.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823004/python-for-finance",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "Python for Finance September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "wDbpyo2rmPkrfivyfAAIL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "26PL2X6Al8CpgFuQJg0Rxk",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Coding για Αρχάριους",
+      "group": 2,
+      "title": "Programming School for Beginners",
+      "summary": "Το Programming School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο του Προγραμματισμού. Ξεκινήστε το ταξίδι σας στον προγραμματισμό χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, πρακτικές ασκήσεις και ανάλυση πραγματικών σεναρίων. Θα αποκτήσεις τις βασικές γνώσεις και δεξιότητες που χρειάζεσαι για να γράφεις κώδικα, να κατανοείς αλγορίθμους και να ξεκινήσεις την καριέρα σου στον χώρο του IT.",
+      "shortDescription": "Το Programming School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο του Προγραμματισμού.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6516232/programming-school-for-beginners",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Programming School for Beginners September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "7bFr4xybcq8JBksdpDPHv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "67iOyJQ7Lu1kph4yJKVJPo",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Leadership & Management",
+      "group": 2,
+      "title": "Leadership & Management School",
+      "summary": "Αναπτύξτε ολοκληρωμένες δεξιότητες Ηγεσίας & Διοίκησης (Leadership & Management) με ένα πρακτικό και πιστοποιημένο πρόγραμμα που σας προετοιμάζει για ηγετικούς ρόλους σε δυναμικά εργασιακά περιβάλλοντα. Στο Leadership & Management School, θα μάθετε πώς να καθοδηγείτε ομάδες, να διαχειρίζεστε έργα, να διαπραγματεύεστε επιτυχημένα και να βελτιώνετε την παραγωγικότητα και τη συνεργασία στην εργασία σας.",
+      "shortDescription": "Αναπτύξτε ολοκληρωμένες δεξιότητες Ηγεσίας & Διοίκησης (Leadership & Management) με ένα πρακτικό και πιστοποιημένο πρόγραμμα που σας προετοιμάζει για ηγετικούς ρόλους σε δυναμικά εργασιακά περιβάλλοντα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823002/leadership-management",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Leadership & Management School September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "H3GomFAlX0hebF5e1KkPi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "12wjg9DQYKVbLssWWfFmf8",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα HR για Αρχάριους",
+      "group": 2,
+      "title": "HR School for Beginners",
+      "summary": "Το HR School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς θεμελιώδεις δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR), το Talent Acquisition, την Εκπαίδευση & Ανάπτυξη (L&D) και τις βασικές HR διαδικασίες. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών HR σεναρίων, θα μάθεις πώς να εφαρμόζεις στρατηγικές διαχείρισης ανθρώπινου δυναμικού και να εξελίσσεις την καριέρα σου στον χώρο του HR.",
+      "shortDescription": "Το HR School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς θεμελιώδεις δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR), το Talent Acquisition, την Εκπαίδευση & Ανάπτυξη (L&D) και τις βασικές HR διαδικασίες.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6521412/hr-school-for-beginners",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "HR School for Beginners September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1ArPAa7Aes2taaSO65VBPd",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Excel για HR",
+      "group": 2,
+      "title": "HR Metrics & Excel for HR",
+      "summary": "Το HR Metrics & Excel for HR  είναι ένα εξειδικευμένο πρόγραμμα που σας διδάσκει πώς να χρησιμοποιείτε το Excel για τη συλλογή, ανάλυση και οπτικοποίηση δεδομένων στο Human Resources (HR). Μάθετε να παρακολουθείτε κρίσιμα HR metrics, να δημιουργείτε dashboards και reports και να αξιοποιείτε τα δεδομένα για αποτελεσματική λήψη αποφάσεων στη διαχείριση ανθρώπινου δυναμικού.\n",
+      "shortDescription": "Το HR Metrics & Excel for HR  είναι ένα εξειδικευμένο πρόγραμμα που σας διδάσκει πώς να χρησιμοποιείτε το Excel για τη συλλογή, ανάλυση και οπτικοποίηση δεδομένων στο Human Resources (HR). ",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6522080/hr-metrics-excel-for-analytics",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 300,
+      "finalCost": 70,
+      "hubspotDealType": "HR Metrics & Excel for HR September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5TqWWM1O9hhhsTf5zrmHRJ",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα HR Management",
+      "group": 2,
+      "title": "HR Management for Beginners (HRM for Beginner)",
+      "summary": "Ξεκινήστε την καριέρα σας στη Διαχείριση Ανθρώπινου Δυναμικού (HRM) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο HR Management for Beginners, θα μάθετε τις βασικές αρχές του HRM, από τη διαχείριση ταλέντων και τις προσλήψεις μέχρι την αξιολόγηση απόδοσης και τη στρατηγική ανάπτυξη του ανθρώπινου δυναμικού. Μέσα από case studies και πρακτικές εφαρμογές, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ξεκινήσετε δυναμικά στον κόσμο του HR.",
+      "shortDescription": "Ξεκινήστε την καριέρα σας στη Διαχείριση Ανθρώπινου Δυναμικού (HRM) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6629509/hr-management-for-beginners",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "HR Management for Beginners (HRM for Beginner) September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3OpLGW2fso6cN5EmO5gJIe",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα HR Management",
+      "group": 2,
+      "title": "HR Management & Analytics",
+      "summary": "Αποκτήστε προηγμένες δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR Management) και την Ανάλυση Δεδομένων (HR Analytics) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες HR. Στο HR Management & Analytics Bootcamp, θα μάθετε πώς να διαχειρίζεστε αποτελεσματικά το ανθρώπινο δυναμικό, να εφαρμόζετε στρατηγικές HR και να χρησιμοποιείτε HR data analytics για τη βελτίωση της απόδοσης και της λήψης αποφάσεων.",
+      "shortDescription": "Αποκτήστε προηγμένες δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR Management) και την Ανάλυση Δεδομένων (HR Analytics) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες HR.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6746373/hr-management-hr-analytics",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "HR Management & Analytics September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6yoobrbqGn1KVKdRUcbmia",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα HR Leadership",
+      "group": 2,
+      "title": "HR Leadership School",
+      "summary": "Το HR Leadership School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για ηγετικούς ρόλους στον τομέα του Human Resources (HR). Μέσα από hands-on projects, case studies και ανάλυση πραγματικών HR στρατηγικών, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να ηγηθείς ομάδων, να διαμορφώνεις HR στρατηγικές και να συμβάλλεις στην ανάπτυξη και εξέλιξη του ανθρώπινου δυναμικού.",
+      "shortDescription": "Το HR Leadership School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για ηγετικούς ρόλους στον τομέα του Human Resources (HR).",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6796053/hr-leadership-academy",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "HR Leadership School September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "xsS6KZo0Y9vLdfdqiSIXe",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα HR Analytics",
+      "group": 2,
+      "title": "HR Analytics",
+      "summary": "Αξιοποιήστε τη δύναμη των HR Analytics για να λαμβάνετε στρατηγικές και τεκμηριωμένες αποφάσεις στη Διαχείριση Ανθρώπινου Δυναμικού. Στο HR Analytics School, θα μάθετε πώς να αναλύετε workforce metrics, να αξιολογείτε την απόδοση και να εφαρμόζετε predictive modeling για τη βελτιστοποίηση της HR στρατηγικής σας. Με πρακτικές εφαρμογές και ανάλυση δεδομένων, θα αποκτήσετε τις δεξιότητες που χρειάζεστε για ένα σύγχρονο και αποδοτικό HR.",
+      "shortDescription": "Αξιοποιήστε τη δύναμη των HR Analytics για να λαμβάνετε στρατηγικές και τεκμηριωμένες αποφάσεις στη Διαχείριση Ανθρώπινου Δυναμικού. ",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6266988/hr-analytics",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "HR Analytics September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5HcRJdthkEotn90ZozjJ1e",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Healthcare Analytics Bootcamp με Πιστοποίηση",
+      "group": 2,
+      "title": "Healthcare Analytics School ",
+      "summary": "Ξεκινήστε την καριέρα σας στον ραγδαία αναπτυσσόμενο τομέα των Healthcare Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο Healthcare Analytics School, θα μάθετε πώς να αναλύετε κλινικά και λειτουργικά δεδομένα, να αξιολογείτε τάσεις στην υγειονομική περίθαλψη και να εφαρμόζετε predictive modeling για βελτιστοποίηση διαδικασιών και λήψη τεκμηριωμένων αποφάσεων. Μέσα από case studies, πρακτικές εφαρμογές και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ξεχωρίσετε στον χώρο των Data-Driven Healthcare Strategies.",
+      "shortDescription": "Ξεκινήστε την καριέρα σας στον ραγδαία αναπτυσσόμενο τομέα των Healthcare Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο Healthcare Analytics School, θα μάθετε πώς να αναλύετε κλινικά και λειτουργικά δεδομένα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6696848/healthcare-data-analyst-bootcamp",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Healthcare Analytics School September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1pNShk0xBgl7LJFn182HOA",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Football Analytics School",
+      "group": 2,
+      "title": "Football Analytics School",
+      "summary": "Ξεκινήστε την καριέρα σας στον συναρπαστικό κόσμο των Football Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο Football Analytics School, θα μάθετε πώς να αναλύετε αγωνιστικά δεδομένα, να αξιολογείτε την απόδοση παικτών και ομάδων και να εφαρμόζετε predictive modeling για στρατηγικές αποφάσεις στο ποδόσφαιρο. Μέσα από case studies, πρακτικές εφαρμογές και πραγματικά datasets, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ξεχωρίσετε στον ταχέως αναπτυσσόμενο κλάδο των Sports Analytics. ",
+      "shortDescription": "Ξεκινήστε την καριέρα σας στον συναρπαστικό κόσμο των Football Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6558510/workearly-sportsanalytics-school-bootcamp",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Football Analytics School September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1bSRaueGUtUtZGg4Cf10LP",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Excel με Sports Analytics",
+      "group": 2,
+      "title": "Excel with Sports",
+      "summary": "Μάθετε πώς να χρησιμοποιείτε το Excel για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων! Στο Excel for Sports Analytics Course, θα αναπτύξετε γνώσεις στη διαχείριση στατιστικών αγώνων, την ανάλυση απόδοσης παικτών και τη δημιουργία αναφορών που υποστηρίζουν στρατηγικές αποφάσεις στον αθλητισμό.",
+      "shortDescription": "Μάθετε πώς να χρησιμοποιείτε το Excel για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων!",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823007/excel-with-sports",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "Excel with Sports September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1PGwkktXxWRyH70SIngZtC",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Visualization με Tableau & Microsoft Power BI",
+      "group": 2,
+      "title": "Data Visualization with Tableau & Microsoft Power BI",
+      "summary": "Μάθετε Data Visualization με Tableau & Microsoft Power BI και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και οπτικοποίηση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Data Visualization with Tableau & Microsoft Power BI Course, θα μάθετε πώς να δημιουργείτε διαδραστικά dashboards, να αναλύετε δεδομένα και να παρουσιάζετε insights με τρόπο που υποστηρίζει data-driven αποφάσεις. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόσετε business intelligence τεχνικές σε επιχειρηματικά και τεχνολογικά περιβάλλοντα.",
+      "shortDescription": "Μάθετε Data Visualization με Tableau & Microsoft Power BI και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και οπτικοποίηση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6577351/data-visualization-with-tableau-microsoft-powerbi",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 200,
+      "finalCost": 52.5,
+      "hubspotDealType": "Data Visualization with Tableau & Microsoft Power BI September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "7bFr4xybcq8JBksdpDPHv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "37gBWgymKHmipW24s6BPHk",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Storytelling με Tableau",
+      "group": 2,
+      "title": "Data Storytelling with Tableau",
+      "summary": "Το Data Storytelling with Tableau είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στην οπτικοποίηση δεδομένων και την αφήγηση μέσω δεδομένων. Ξεκινήστε το ταξίδι σας στο Data Storytelling με Tableau, χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, πρακτικές ασκήσεις και ανάλυση πραγματικών δεδομένων.",
+      "shortDescription": "Το Data Storytelling with Tableau είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στην οπτικοποίηση δεδομένων και την αφήγηση μέσω δεδομένων.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6822981/data-storytelling-with-tableau",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "Data Storytelling with Tableau September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "jmYedT6gmA9wus1kzgrFJ",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science με Python",
+      "group": 2,
+      "title": "Data Science with Python",
+      "summary": "Το Data Science with Python είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο της Επιστήμης Δεδομένων. Ξεκινήστε το ταξίδι σας στο Data Science με Python, χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, πρακτικές ασκήσεις και ανάλυση πραγματικών δεδομένων.",
+      "shortDescription": "Το Data Science with Python είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο της Επιστήμης Δεδομένων. ",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6822974/data-science-with-python",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 150,
+      "finalCost": 49,
+      "hubspotDealType": "Data Science with Python September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6Hnw96WCXdH098MDUBXmgh",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Sports Analytics",
+      "group": 2,
+      "title": "Data Science with Basketball",
+      "summary": "Στο Basketball Data Science Course, θα μάθετε πώς να χρησιμοποιείτε στατιστικά μοντέλα, να αναλύετε απόδοση παικτών και ομάδων και να εφαρμόζετε machine learning για προβλέψεις και στρατηγικές αποφάσεις. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών αθλητικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εξελιχθείτε στον συναρπαστικό κλάδο των Sports Analytics.",
+      "shortDescription": "Στο Basketball Data Science Course, θα μάθετε πώς να χρησιμοποιείτε στατιστικά μοντέλα, να αναλύετε απόδοση παικτών και ομάδων και να εφαρμόζετε machine learning για προβλέψεις και στρατηγικές αποφάσεις.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6592118/basketball-data-science",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Data Science with Basketball September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "65qqhzS5tFy2oWfffqs9fM",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science για Αρχάριους",
+      "group": 2,
+      "title": "Data Science for Beginners",
+      "summary": "Το Data Science for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον συναρπαστικό κόσμο της Επιστήμης Δεδομένων (Data Science). Ξεκίνα χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων. Θα αποκτήσεις τις βασικές γνώσεις και δεξιότητες που χρειάζεσαι για να κατανοήσεις τα δεδομένα, να εφαρμόζεις τεχνικές ανάλυσης και να ξεκινήσεις την καριέρα σου στον κλάδο της Data Science.",
+      "shortDescription": "Το Data Science for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον συναρπαστικό κόσμο της Επιστήμης Δεδομένων (Data Science)",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6528596/data-science-school-for-beginners",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Data Science for Beginners September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5tnXb0lT272j3SlfYxl7dR",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Analytics με SQL & Python",
+      "group": 2,
+      "title": "Data Analytics with SQL & Python",
+      "summary": "Μάθετε Data Analytics με SQL & Python και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και διαχείριση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Data Analytics with SQL & Python Course, θα μάθετε πώς να γράφετε αποδοτικά ερωτήματα SQL, να διαχειρίζεστε βάσεις δεδομένων και να χρησιμοποιείτε Python για επεξεργασία και οπτικοποίηση δεδομένων. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόσετε data-driven αποφάσεις σε επιχειρηματικά και τεχνολογικά περιβάλλοντα.",
+      "shortDescription": "Μάθετε Data Analytics με SQL & Python και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και διαχείριση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6577356/data-analytics-with-sql-python",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 200,
+      "finalCost": 56,
+      "hubspotDealType": "Data Analytics with SQL & Python September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "7bFr4xybcq8JBksdpDPHv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6i1npYempNXwta9QCQFkAd",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Analytics for Auditors",
+      "group": 2,
+      "title": "Data Analytics for Auditors",
+      "summary": "Μάθετε Data Analytics για Auditors και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και εντοπισμό επιχειρηματικών κινδύνων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Data Analytics for Auditors Course, θα μάθετε πώς να χρησιμοποιείτε τεχνικές ανάλυσης δεδομένων για τον εντοπισμό ανωμαλιών, τη δημιουργία αναφορών και τη βελτίωση της διαδικασίας ελέγχου. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών audit δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόζετε data-driven ελέγχους και να ενισχύετε την αξιοπιστία των οικονομικών και επιχειρηματικών διαδικασιών.",
+      "shortDescription": "Μάθετε Data Analytics για Auditors και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και εντοπισμό επιχειρηματικών κινδύνων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6746351/data-analytics-for-auditors",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Data Analytics for Auditors September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "wDbpyo2rmPkrfivyfAAIL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "58RX7iQGa6ypRzBPoxSV1c",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Business Intelligence (BI)",
+      "group": 2,
+      "title": "Business Intelligence (BI) Analyst",
+      "summary": "Μάθετε Business Intelligence (BI) Analysis και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και στρατηγική λήψη αποφάσεων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Business Intelligence (BI) Analyst Course, θα μάθετε πώς να χρησιμοποιείτε BI εργαλεία, να δημιουργείτε διαδραστικά dashboards, να αναλύετε επιχειρηματικά δεδομένα και να εξάγετε πολύτιμα insights. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόσετε data-driven στρατηγικές και να ενισχύσετε τη διαδικασία λήψης αποφάσεων σε επιχειρηματικά και τεχνολογικά περιβάλλοντα. ",
+      "shortDescription": "Μάθετε Business Intelligence (BI) Analysis και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και στρατηγική λήψη αποφάσεων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6591702/business-intelligence-bi-analyst",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "Business Intelligence (BI) Analyst September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "H3GomFAlX0hebF5e1KkPi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7jmLrCn2IFav4ZWOQfazhE",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα AI for HR",
+      "group": 2,
+      "title": "AI for HR",
+      "summary": "Αξιοποιήστε την Τεχνητή Νοημοσύνη (AI) για να μετασχηματίσετε τις HR διαδικασίες σας με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες ανθρώπινου δυναμικού. Στο AI for HR Course, θα μάθετε πώς να χρησιμοποιείτε AI-driven εργαλεία για αυτοματοποίηση εργασιών, ανάλυση δεδομένων και βελτίωση της εμπειρίας των εργαζομένων. Μέσα από case studies, πρακτικές εφαρμογές και ανάλυση πραγματικών HR δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ενσωματώσετε την τεχνητή νοημοσύνη στη διαχείριση ανθρώπινου δυναμικού και να ενισχύσετε τη στρατηγική σας με data-driven αποφάσεις.",
+      "shortDescription": "Αξιοποιήστε την Τεχνητή Νοημοσύνη (AI) για να μετασχηματίσετε τις HR διαδικασίες σας με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες ανθρώπινου δυναμικού.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6823816/ai-for-hr",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "AI for HR September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6XSp7OtaxVLyv3QGweQm3a",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Business Analytics - AI με Πιστοποίηση",
+      "group": 2,
+      "title": "AI Business School",
+      "summary": "Το AI & Business Analytics School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς δεξιότητες στα Business Analytics, την Τεχνητή Νοημοσύνη (AI), το Project Management και το Reporting. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών επιχειρηματικών δεδομένων, θα μάθεις πώς να χρησιμοποιείς την AI και την ανάλυση δεδομένων για στρατηγική λήψη αποφάσεων και βελτιστοποίηση επιχειρηματικών διαδικασιών.",
+      "shortDescription": "Το AI & Business Analytics School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς δεξιότητες στα Business Analytics, την Τεχνητή Νοημοσύνη (AI), το Project Management και το Reporting.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6696851/ai-business-analytics-bootcamp",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "18 Ιουλίου",
+      "startingCost": 500,
+      "finalCost": 91,
+      "hubspotDealType": "AI Business School September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "H3GomFAlX0hebF5e1KkPi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5FqOee7q2KqdcRA0Dpncgx",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Coding με AI",
+      "group": 2,
+      "title": "OpenAI with Python",
+      "summary": "Ανακαλύψτε τη δύναμη της Τεχνητής Νοημοσύνης (AI) με Python και μάθετε πώς να δημιουργείτε AI εφαρμογές με τη χρήση των OpenAI API. Στο OpenAI with Python Course, θα μάθετε πώς να αξιοποιείτε GPT & Large Language Models (LLMs) για φυσική γλώσσα, ανάλυση δεδομένων, chatbot development και αυτοματοποίηση επιχειρησιακών διαδικασιών.",
+      "shortDescription": "Ανακαλύψτε τη δύναμη της Τεχνητής Νοημοσύνης (AI) με Python και μάθετε πώς να δημιουργείτε AI εφαρμογές με τη χρήση των OpenAI API.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6588461/openai-with-python",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 300,
+      "finalCost": 91,
+      "hubspotDealType": "OpenAI with Python September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryAi",
+            "name": "Course Category: AI",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "5IFXcmhunVAO8nA7yl3pFR",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5IFXcmhunVAO8nA7yl3pFR/5af7c91f9a4f17ccc798641e21f3dcde/Solo_-_AI.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5wapQ55FQZxcPaB8UzEpDB",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science & AI με Πιστοποίηση",
+      "group": 1,
+      "title": "Mastering Data & AI",
+      "summary": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για όσους θέλουν να κατακτήσουν την ανάλυση δεδομένων, τη μηχανική μάθηση και τις τεχνολογίες AI. Στο Data Science & AI Course, θα μάθετε πώς να διαχειρίζεστε, να αναλύετε και να οπτικοποιείτε δεδομένα, να δημιουργείτε Machine Learning μοντέλα και να χρησιμοποιείτε AI-driven εργαλεία για λήψη στρατηγικών αποφάσεων.",
+      "shortDescription": "Αναπτύξτε προηγμένες δεξιότητες στην Επιστήμη Δεδομένων (Data Science) και την Τεχνητή Νοημοσύνη (AI) με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6618021/data-science-ai-courses",
+      "demoUrl": "https://mastering-data-and-ai-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/9B6bJ0fY226X7j05rx2ZR0I",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "Mastering Data & AI September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "5IFXcmhunVAO8nA7yl3pFR",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/5IFXcmhunVAO8nA7yl3pFR/5af7c91f9a4f17ccc798641e21f3dcde/Solo_-_AI.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - AI",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4nDv7IfdVOcO4AYeinxluJ",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση στο HR",
+      "group": 1,
+      "title": "HR Bootcamp",
+      "summary": "Το HR Bootcamp είναι ένα ολοκληρωμένο και πιστοποιημένο πρόγραμμα εκπαίδευσης στον τομέα του Human Resources, σχεδιασμένο από το Workearly – τον μοναδικό εγκεκριμένο πάροχο του HRCI σε Ελλάδα και Κύπρο. Μέσα από πρακτικές εφαρμογές, case studies και εξειδικευμένες ενότητες, θα αποκτήσεις τις γνώσεις και δεξιότητες που χρειάζεσαι για να εξελιχθείς στον χώρο του HR. Ιδανικό για όσους ξεκινούν ή επιθυμούν να αναβαθμίσουν την καριέρα τους στον τομέα της Διοίκησης Ανθρώπινου Δυναμικού.",
+      "shortDescription": "Το HR Bootcamp είναι ένα πλήρες εκπαιδευτικό πρόγραμμα με αναγνωρισμένη πιστοποίηση, που παρέχει ολοκληρωμένη εκπαίδευση στον τομέα του Human Resources (HR). Μέσα από πρακτικές εφαρμογές, case studies και εξειδικευμένες θεματικές ενότητες.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765663/hr-bootcamp-2025",
+      "demoUrl": "https://hrb-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/8x214mbHM12TcDkaLR2ZR0B",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "HR Bootcamp September 2025",
+      "onDemand": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
         "id": "7FcYd3n5MSU5HplTz8Trri",
         "__typename": "Sys"
       },
@@ -262,8 +1416,8 @@
       "shortDescription": "Το Python Web Development  Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον τομέα του Web Development με Python.",
       "hasApplicationFormCta": null,
       "applicationFormUrl": "https://form.123formbuilder.com/6765665/python-web-development-bootcamp-2025",
-      "demoUrl": null,
-      "paymentLink": null,
+      "demoUrl": "https://web-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/5kQeVcbHM9zpcDkaLR2ZR0D",
       "id": null,
       "language": ["Greek"],
       "programStarts": "Σεπτέμβριος 2025",
@@ -287,6 +1441,47 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "jrembJBR9zZ1R4gbpVOHr",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
+      "group": 1,
+      "title": "AI Data Analyst Bootcamp",
+      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
+      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
+      "demoUrl": "https://da-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/8x2dR89zEbHx7j0f272ZR0A",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "AI Data Analyst Bootcamp September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
         "description": null
       }
     },
@@ -328,88 +1523,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Finance",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4nDv7IfdVOcO4AYeinxluJ",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση στο HR",
-      "group": 1,
-      "title": "HR Bootcamp",
-      "summary": "Το HR Bootcamp είναι ένα ολοκληρωμένο και πιστοποιημένο πρόγραμμα εκπαίδευσης στον τομέα του Human Resources, σχεδιασμένο από το Workearly – τον μοναδικό εγκεκριμένο πάροχο του HRCI σε Ελλάδα και Κύπρο. Μέσα από πρακτικές εφαρμογές, case studies και εξειδικευμένες ενότητες, θα αποκτήσεις τις γνώσεις και δεξιότητες που χρειάζεσαι για να εξελιχθείς στον χώρο του HR. Ιδανικό για όσους ξεκινούν ή επιθυμούν να αναβαθμίσουν την καριέρα τους στον τομέα της Διοίκησης Ανθρώπινου Δυναμικού.",
-      "shortDescription": "Το HR Bootcamp είναι ένα πλήρες εκπαιδευτικό πρόγραμμα με αναγνωρισμένη πιστοποίηση, που παρέχει ολοκληρωμένη εκπαίδευση στον τομέα του Human Resources (HR). Μέσα από πρακτικές εφαρμογές, case studies και εξειδικευμένες θεματικές ενότητες.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765663/hr-bootcamp-2025",
-      "demoUrl": null,
-      "paymentLink": "https://test.spiros.com",
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": "HR Bootcamp September 2025",
-      "onDemand": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "jrembJBR9zZ1R4gbpVOHr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
-      "group": 1,
-      "title": "AI Data Analyst Bootcamp",
-      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
-      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": "AI Data Analyst Bootcamp September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
         "description": null
       }
     },
@@ -533,53 +1646,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5FqOee7q2KqdcRA0Dpncgx",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Coding με AI",
-      "group": 2,
-      "title": "OpenAI with Python",
-      "summary": "Ανακαλύψτε τη δύναμη της Τεχνητής Νοημοσύνης (AI) με Python και μάθετε πώς να δημιουργείτε AI εφαρμογές με τη χρήση των OpenAI API. Στο OpenAI with Python Course, θα μάθετε πώς να αξιοποιείτε GPT & Large Language Models (LLMs) για φυσική γλώσσα, ανάλυση δεδομένων, chatbot development και αυτοματοποίηση επιχειρησιακών διαδικασιών.",
-      "shortDescription": "Ανακαλύψτε τη δύναμη της Τεχνητής Νοημοσύνης (AI) με Python και μάθετε πώς να δημιουργείτε AI εφαρμογές με τη χρήση των OpenAI API.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6588461/openai-with-python",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 300,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryAi",
-            "name": "Course Category: AI",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "5IFXcmhunVAO8nA7yl3pFR",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5IFXcmhunVAO8nA7yl3pFR/5af7c91f9a4f17ccc798641e21f3dcde/Solo_-_AI.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - AI",
         "description": null
       }
     },
@@ -1130,47 +2196,6 @@
     },
     {
       "sys": {
-        "id": "1PGwkktXxWRyH70SIngZtC",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Visualization με Tableau & Microsoft Power BI",
-      "group": 2,
-      "title": "Data Visualization with Tableau & Microsoft Power BI",
-      "summary": "Μάθετε Data Visualization με Tableau & Microsoft Power BI και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και οπτικοποίηση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Data Visualization with Tableau & Microsoft Power BI Course, θα μάθετε πώς να δημιουργείτε διαδραστικά dashboards, να αναλύετε δεδομένα και να παρουσιάζετε insights με τρόπο που υποστηρίζει data-driven αποφάσεις. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόσετε business intelligence τεχνικές σε επιχειρηματικά και τεχνολογικά περιβάλλοντα.",
-      "shortDescription": "Μάθετε Data Visualization με Tableau & Microsoft Power BI και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και οπτικοποίηση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6577351/data-visualization-with-tableau-microsoft-powerbi",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 200,
-      "finalCost": 52.5,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "7bFr4xybcq8JBksdpDPHv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - IT",
-        "description": null
-      }
-    },
-    {
-      "sys": {
         "id": "34H1zMAfMVR2BAeMctXCMQ",
         "__typename": "Sys"
       },
@@ -1576,1031 +2601,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "77v0vPouQ0CGS8QaXoEhnR",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Python με Sports Analytics",
-      "group": 2,
-      "title": "Python with Sports",
-      "summary": "Μάθετε πώς να χρησιμοποιείτε την Python για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων! Στο Python for Sports Analytics Course, θα μάθετε πώς να επεξεργάζεστε δεδομένα αγώνων, να αναλύετε την απόδοση παικτών και να εφαρμόζετε Machine Learning για προβλέψεις και αγωνιστικές στρατηγικές.",
-      "shortDescription": "Μάθετε πώς να χρησιμοποιείτε την Python για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων!",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823026/python-with-sports",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7q1rqc1CCfGlWgqvoQF5v2",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Python για Finance",
-      "group": 2,
-      "title": "Python for Finance",
-      "summary": "Αποκτήστε εξειδίκευση στην Python για χρηματοοικονομικές εφαρμογές και μάθετε πώς να χρησιμοποιείτε την ανάλυση δεδομένων, αλγοριθμικό trading, διαχείριση ρίσκου και βελτιστοποίηση χαρτοφυλακίου. Στο Python for Finance Course, θα αναπτύξετε πρακτικές δεξιότητες στον προγραμματισμό για χρηματοοικονομική ανάλυση.",
-      "shortDescription": "Αποκτήστε εξειδίκευση στην Python για χρηματοοικονομικές εφαρμογές και μάθετε πώς να χρησιμοποιείτε την ανάλυση δεδομένων, αλγοριθμικό trading, διαχείριση ρίσκου και βελτιστοποίηση χαρτοφυλακίου.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823004/python-for-finance",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "wDbpyo2rmPkrfivyfAAIL",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Finance",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "26PL2X6Al8CpgFuQJg0Rxk",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Coding για Αρχάριους",
-      "group": 2,
-      "title": "Programming School for Beginners",
-      "summary": "Το Programming School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο του Προγραμματισμού. Ξεκινήστε το ταξίδι σας στον προγραμματισμό χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, πρακτικές ασκήσεις και ανάλυση πραγματικών σεναρίων. Θα αποκτήσεις τις βασικές γνώσεις και δεξιότητες που χρειάζεσαι για να γράφεις κώδικα, να κατανοείς αλγορίθμους και να ξεκινήσεις την καριέρα σου στον χώρο του IT.",
-      "shortDescription": "Το Programming School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο του Προγραμματισμού.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6516232/programming-school-for-beginners",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "7bFr4xybcq8JBksdpDPHv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - IT",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "67iOyJQ7Lu1kph4yJKVJPo",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Leadership & Management",
-      "group": 2,
-      "title": "Leadership & Management School",
-      "summary": "Αναπτύξτε ολοκληρωμένες δεξιότητες Ηγεσίας & Διοίκησης (Leadership & Management) με ένα πρακτικό και πιστοποιημένο πρόγραμμα που σας προετοιμάζει για ηγετικούς ρόλους σε δυναμικά εργασιακά περιβάλλοντα. Στο Leadership & Management School, θα μάθετε πώς να καθοδηγείτε ομάδες, να διαχειρίζεστε έργα, να διαπραγματεύεστε επιτυχημένα και να βελτιώνετε την παραγωγικότητα και τη συνεργασία στην εργασία σας.",
-      "shortDescription": "Αναπτύξτε ολοκληρωμένες δεξιότητες Ηγεσίας & Διοίκησης (Leadership & Management) με ένα πρακτικό και πιστοποιημένο πρόγραμμα που σας προετοιμάζει για ηγετικούς ρόλους σε δυναμικά εργασιακά περιβάλλοντα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823002/leadership-management",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "H3GomFAlX0hebF5e1KkPi",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "12wjg9DQYKVbLssWWfFmf8",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα HR για Αρχάριους",
-      "group": 2,
-      "title": "HR School for Beginners",
-      "summary": "Το HR School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς θεμελιώδεις δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR), το Talent Acquisition, την Εκπαίδευση & Ανάπτυξη (L&D) και τις βασικές HR διαδικασίες. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών HR σεναρίων, θα μάθεις πώς να εφαρμόζεις στρατηγικές διαχείρισης ανθρώπινου δυναμικού και να εξελίσσεις την καριέρα σου στον χώρο του HR.",
-      "shortDescription": "Το HR School for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς θεμελιώδεις δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR), το Talent Acquisition, την Εκπαίδευση & Ανάπτυξη (L&D) και τις βασικές HR διαδικασίες.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6521412/hr-school-for-beginners",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "1ArPAa7Aes2taaSO65VBPd",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Excel για HR",
-      "group": 2,
-      "title": "HR Metrics & Excel for HR",
-      "summary": "Το HR Metrics & Excel for HR  είναι ένα εξειδικευμένο πρόγραμμα που σας διδάσκει πώς να χρησιμοποιείτε το Excel για τη συλλογή, ανάλυση και οπτικοποίηση δεδομένων στο Human Resources (HR). Μάθετε να παρακολουθείτε κρίσιμα HR metrics, να δημιουργείτε dashboards και reports και να αξιοποιείτε τα δεδομένα για αποτελεσματική λήψη αποφάσεων στη διαχείριση ανθρώπινου δυναμικού.\n",
-      "shortDescription": "Το HR Metrics & Excel for HR  είναι ένα εξειδικευμένο πρόγραμμα που σας διδάσκει πώς να χρησιμοποιείτε το Excel για τη συλλογή, ανάλυση και οπτικοποίηση δεδομένων στο Human Resources (HR). ",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6522080/hr-metrics-excel-for-analytics",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 300,
-      "finalCost": 70,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5TqWWM1O9hhhsTf5zrmHRJ",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα HR Management",
-      "group": 2,
-      "title": "HR Management for Beginners (HRM for Beginner)",
-      "summary": "Ξεκινήστε την καριέρα σας στη Διαχείριση Ανθρώπινου Δυναμικού (HRM) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο HR Management for Beginners, θα μάθετε τις βασικές αρχές του HRM, από τη διαχείριση ταλέντων και τις προσλήψεις μέχρι την αξιολόγηση απόδοσης και τη στρατηγική ανάπτυξη του ανθρώπινου δυναμικού. Μέσα από case studies και πρακτικές εφαρμογές, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ξεκινήσετε δυναμικά στον κόσμο του HR.",
-      "shortDescription": "Ξεκινήστε την καριέρα σας στη Διαχείριση Ανθρώπινου Δυναμικού (HRM) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6629509/hr-management-for-beginners",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "3OpLGW2fso6cN5EmO5gJIe",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα HR Management",
-      "group": 2,
-      "title": "HR Management & Analytics",
-      "summary": "Αποκτήστε προηγμένες δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR Management) και την Ανάλυση Δεδομένων (HR Analytics) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες HR. Στο HR Management & Analytics Bootcamp, θα μάθετε πώς να διαχειρίζεστε αποτελεσματικά το ανθρώπινο δυναμικό, να εφαρμόζετε στρατηγικές HR και να χρησιμοποιείτε HR data analytics για τη βελτίωση της απόδοσης και της λήψης αποφάσεων.",
-      "shortDescription": "Αποκτήστε προηγμένες δεξιότητες στη Διαχείριση Ανθρώπινου Δυναμικού (HR Management) και την Ανάλυση Δεδομένων (HR Analytics) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες HR.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6746373/hr-management-hr-analytics",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "6yoobrbqGn1KVKdRUcbmia",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα HR Leadership",
-      "group": 2,
-      "title": "HR Leadership School",
-      "summary": "Το HR Leadership School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για ηγετικούς ρόλους στον τομέα του Human Resources (HR). Μέσα από hands-on projects, case studies και ανάλυση πραγματικών HR στρατηγικών, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να ηγηθείς ομάδων, να διαμορφώνεις HR στρατηγικές και να συμβάλλεις στην ανάπτυξη και εξέλιξη του ανθρώπινου δυναμικού.",
-      "shortDescription": "Το HR Leadership School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για ηγετικούς ρόλους στον τομέα του Human Resources (HR).",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6796053/hr-leadership-academy",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "xsS6KZo0Y9vLdfdqiSIXe",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα HR Analytics",
-      "group": 2,
-      "title": "HR Analytics",
-      "summary": "Αξιοποιήστε τη δύναμη των HR Analytics για να λαμβάνετε στρατηγικές και τεκμηριωμένες αποφάσεις στη Διαχείριση Ανθρώπινου Δυναμικού. Στο HR Analytics School, θα μάθετε πώς να αναλύετε workforce metrics, να αξιολογείτε την απόδοση και να εφαρμόζετε predictive modeling για τη βελτιστοποίηση της HR στρατηγικής σας. Με πρακτικές εφαρμογές και ανάλυση δεδομένων, θα αποκτήσετε τις δεξιότητες που χρειάζεστε για ένα σύγχρονο και αποδοτικό HR.",
-      "shortDescription": "Αξιοποιήστε τη δύναμη των HR Analytics για να λαμβάνετε στρατηγικές και τεκμηριωμένες αποφάσεις στη Διαχείριση Ανθρώπινου Δυναμικού. ",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6266988/hr-analytics",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5HcRJdthkEotn90ZozjJ1e",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Healthcare Analytics Bootcamp με Πιστοποίηση",
-      "group": 2,
-      "title": "Healthcare Analytics School ",
-      "summary": "Ξεκινήστε την καριέρα σας στον ραγδαία αναπτυσσόμενο τομέα των Healthcare Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο Healthcare Analytics School, θα μάθετε πώς να αναλύετε κλινικά και λειτουργικά δεδομένα, να αξιολογείτε τάσεις στην υγειονομική περίθαλψη και να εφαρμόζετε predictive modeling για βελτιστοποίηση διαδικασιών και λήψη τεκμηριωμένων αποφάσεων. Μέσα από case studies, πρακτικές εφαρμογές και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ξεχωρίσετε στον χώρο των Data-Driven Healthcare Strategies.",
-      "shortDescription": "Ξεκινήστε την καριέρα σας στον ραγδαία αναπτυσσόμενο τομέα των Healthcare Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο Healthcare Analytics School, θα μάθετε πώς να αναλύετε κλινικά και λειτουργικά δεδομένα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6696848/healthcare-data-analyst-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "1pNShk0xBgl7LJFn182HOA",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Football Analytics School",
-      "group": 2,
-      "title": "Football Analytics School",
-      "summary": "Ξεκινήστε την καριέρα σας στον συναρπαστικό κόσμο των Football Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους. Στο Football Analytics School, θα μάθετε πώς να αναλύετε αγωνιστικά δεδομένα, να αξιολογείτε την απόδοση παικτών και ομάδων και να εφαρμόζετε predictive modeling για στρατηγικές αποφάσεις στο ποδόσφαιρο. Μέσα από case studies, πρακτικές εφαρμογές και πραγματικά datasets, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ξεχωρίσετε στον ταχέως αναπτυσσόμενο κλάδο των Sports Analytics. ",
-      "shortDescription": "Ξεκινήστε την καριέρα σας στον συναρπαστικό κόσμο των Football Analytics με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για αρχάριους.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6558510/workearly-sportsanalytics-school-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "1bSRaueGUtUtZGg4Cf10LP",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Excel με Sports Analytics",
-      "group": 2,
-      "title": "Excel with Sports",
-      "summary": "Μάθετε πώς να χρησιμοποιείτε το Excel για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων! Στο Excel for Sports Analytics Course, θα αναπτύξετε γνώσεις στη διαχείριση στατιστικών αγώνων, την ανάλυση απόδοσης παικτών και τη δημιουργία αναφορών που υποστηρίζουν στρατηγικές αποφάσεις στον αθλητισμό.",
-      "shortDescription": "Μάθετε πώς να χρησιμοποιείτε το Excel για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων!",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823007/excel-with-sports",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "37gBWgymKHmipW24s6BPHk",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Storytelling με Tableau",
-      "group": 2,
-      "title": "Data Storytelling with Tableau",
-      "summary": "Το Data Storytelling with Tableau είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στην οπτικοποίηση δεδομένων και την αφήγηση μέσω δεδομένων. Ξεκινήστε το ταξίδι σας στο Data Storytelling με Tableau, χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, πρακτικές ασκήσεις και ανάλυση πραγματικών δεδομένων.",
-      "shortDescription": "Το Data Storytelling with Tableau είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στην οπτικοποίηση δεδομένων και την αφήγηση μέσω δεδομένων.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6822981/data-storytelling-with-tableau",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "jmYedT6gmA9wus1kzgrFJ",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science με Python",
-      "group": 2,
-      "title": "Data Science with Python",
-      "summary": "Το Data Science with Python είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο της Επιστήμης Δεδομένων. Ξεκινήστε το ταξίδι σας στο Data Science με Python, χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, πρακτικές ασκήσεις και ανάλυση πραγματικών δεδομένων.",
-      "shortDescription": "Το Data Science with Python είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον κόσμο της Επιστήμης Δεδομένων. ",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6822974/data-science-with-python",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "6Hnw96WCXdH098MDUBXmgh",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Sports Analytics",
-      "group": 2,
-      "title": "Data Science with Basketball",
-      "summary": "Στο Basketball Data Science Course, θα μάθετε πώς να χρησιμοποιείτε στατιστικά μοντέλα, να αναλύετε απόδοση παικτών και ομάδων και να εφαρμόζετε machine learning για προβλέψεις και στρατηγικές αποφάσεις. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών αθλητικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εξελιχθείτε στον συναρπαστικό κλάδο των Sports Analytics.",
-      "shortDescription": "Στο Basketball Data Science Course, θα μάθετε πώς να χρησιμοποιείτε στατιστικά μοντέλα, να αναλύετε απόδοση παικτών και ομάδων και να εφαρμόζετε machine learning για προβλέψεις και στρατηγικές αποφάσεις.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6592118/basketball-data-science",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "65qqhzS5tFy2oWfffqs9fM",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science για Αρχάριους",
-      "group": 2,
-      "title": "Data Science for Beginners",
-      "summary": "Το Data Science for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον συναρπαστικό κόσμο της Επιστήμης Δεδομένων (Data Science). Ξεκίνα χωρίς προηγούμενη εμπειρία, μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων. Θα αποκτήσεις τις βασικές γνώσεις και δεξιότητες που χρειάζεσαι για να κατανοήσεις τα δεδομένα, να εφαρμόζεις τεχνικές ανάλυσης και να ξεκινήσεις την καριέρα σου στον κλάδο της Data Science.",
-      "shortDescription": "Το Data Science for Beginners είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τα πρώτα σου βήματα στον συναρπαστικό κόσμο της Επιστήμης Δεδομένων (Data Science)",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6528596/data-science-school-for-beginners",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5tnXb0lT272j3SlfYxl7dR",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Analytics με SQL & Python",
-      "group": 2,
-      "title": "Data Analytics with SQL & Python",
-      "summary": "Μάθετε Data Analytics με SQL & Python και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και διαχείριση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Data Analytics with SQL & Python Course, θα μάθετε πώς να γράφετε αποδοτικά ερωτήματα SQL, να διαχειρίζεστε βάσεις δεδομένων και να χρησιμοποιείτε Python για επεξεργασία και οπτικοποίηση δεδομένων. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόσετε data-driven αποφάσεις σε επιχειρηματικά και τεχνολογικά περιβάλλοντα.",
-      "shortDescription": "Μάθετε Data Analytics με SQL & Python και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση και διαχείριση δεδομένων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6577356/data-analytics-with-sql-python",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 200,
-      "finalCost": 56,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "7bFr4xybcq8JBksdpDPHv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/7bFr4xybcq8JBksdpDPHv/fcfcb1e6a95e0ce1e4f0defcf3a46024/Solo_-_IT.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - IT",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "6i1npYempNXwta9QCQFkAd",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Analytics for Auditors",
-      "group": 2,
-      "title": "Data Analytics for Auditors",
-      "summary": "Μάθετε Data Analytics για Auditors και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και εντοπισμό επιχειρηματικών κινδύνων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Data Analytics for Auditors Course, θα μάθετε πώς να χρησιμοποιείτε τεχνικές ανάλυσης δεδομένων για τον εντοπισμό ανωμαλιών, τη δημιουργία αναφορών και τη βελτίωση της διαδικασίας ελέγχου. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών audit δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόζετε data-driven ελέγχους και να ενισχύετε την αξιοπιστία των οικονομικών και επιχειρηματικών διαδικασιών.",
-      "shortDescription": "Μάθετε Data Analytics για Auditors και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και εντοπισμό επιχειρηματικών κινδύνων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6746351/data-analytics-for-auditors",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "wDbpyo2rmPkrfivyfAAIL",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Finance",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "58RX7iQGa6ypRzBPoxSV1c",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Business Intelligence (BI)",
-      "group": 2,
-      "title": "Business Intelligence (BI) Analyst",
-      "summary": "Μάθετε Business Intelligence (BI) Analysis και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και στρατηγική λήψη αποφάσεων με ένα πρακτικό και πιστοποιημένο πρόγραμμα. Στο Business Intelligence (BI) Analyst Course, θα μάθετε πώς να χρησιμοποιείτε BI εργαλεία, να δημιουργείτε διαδραστικά dashboards, να αναλύετε επιχειρηματικά δεδομένα και να εξάγετε πολύτιμα insights. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να εφαρμόσετε data-driven στρατηγικές και να ενισχύσετε τη διαδικασία λήψης αποφάσεων σε επιχειρηματικά και τεχνολογικά περιβάλλοντα. ",
-      "shortDescription": "Μάθετε Business Intelligence (BI) Analysis και αποκτήστε τις απαραίτητες δεξιότητες για ανάλυση δεδομένων και στρατηγική λήψη αποφάσεων με ένα πρακτικό και πιστοποιημένο πρόγραμμα.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6591702/business-intelligence-bi-analyst",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "H3GomFAlX0hebF5e1KkPi",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7jmLrCn2IFav4ZWOQfazhE",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα AI for HR",
-      "group": 2,
-      "title": "AI for HR",
-      "summary": "Αξιοποιήστε την Τεχνητή Νοημοσύνη (AI) για να μετασχηματίσετε τις HR διαδικασίες σας με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες ανθρώπινου δυναμικού. Στο AI for HR Course, θα μάθετε πώς να χρησιμοποιείτε AI-driven εργαλεία για αυτοματοποίηση εργασιών, ανάλυση δεδομένων και βελτίωση της εμπειρίας των εργαζομένων. Μέσα από case studies, πρακτικές εφαρμογές και ανάλυση πραγματικών HR δεδομένων, θα αποκτήσετε τις γνώσεις και τις δεξιότητες που χρειάζεστε για να ενσωματώσετε την τεχνητή νοημοσύνη στη διαχείριση ανθρώπινου δυναμικού και να ενισχύσετε τη στρατηγική σας με data-driven αποφάσεις.",
-      "shortDescription": "Αξιοποιήστε την Τεχνητή Νοημοσύνη (AI) για να μετασχηματίσετε τις HR διαδικασίες σας με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες ανθρώπινου δυναμικού.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823816/ai-for-hr",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/41D5SCyq7M0SO5OF5F3YtF/3ddcd6fdb6e0272b01f5c60f7424902a/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "6XSp7OtaxVLyv3QGweQm3a",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Business Analytics - AI με Πιστοποίηση",
-      "group": 2,
-      "title": "AI Business School",
-      "summary": "Το AI & Business Analytics School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς δεξιότητες στα Business Analytics, την Τεχνητή Νοημοσύνη (AI), το Project Management και το Reporting. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών επιχειρηματικών δεδομένων, θα μάθεις πώς να χρησιμοποιείς την AI και την ανάλυση δεδομένων για στρατηγική λήψη αποφάσεων και βελτιστοποίηση επιχειρηματικών διαδικασιών.",
-      "shortDescription": "Το AI & Business Analytics School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς δεξιότητες στα Business Analytics, την Τεχνητή Νοημοσύνη (AI), το Project Management και το Reporting.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6696851/ai-business-analytics-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "H3GomFAlX0hebF5e1KkPi",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/H3GomFAlX0hebF5e1KkPi/a65ecb4d4631f48164c5fbb7fcc564bd/Solo_-_Business.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "7mT1hgDVaw57xKUCzLE0kz",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Power BI",
-      "group": 2,
-      "title": "Reporting with Microsoft Power BI",
-      "summary": "Ανακαλύψτε τις δυνατότητες του Power BI για επιχειρησιακή ανάλυση. Μάθετε να δημιουργείτε δυναμικά dashboards, να εφαρμόζετε τεχνικές data modeling και να παρέχετε αξιόπιστα business insights.\n",
-      "shortDescription": "Ανακαλύψτε τις δυνατότητες του Power BI για επιχειρησιακή ανάλυση. Μάθετε να δημιουργείτε δυναμικά dashboards, να εφαρμόζετε τεχνικές data modeling και να παρέχετε αξιόπιστα business insights.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823000/reporting-with-microsoft-power-bi",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1cwBEn1CkNM8mMIk8sHa7P/6e7bc0c18ccbd7a526a7008397b75beb/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "6iuCYDBcgvEUwXwrqwO1et",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα SQL με Sports Analytics",
-      "group": 2,
-      "title": "SQL with Sports",
-      "summary": "Μάθετε πώς να χρησιμοποιείτε την Python για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στην ανάλυση αθλητικών δεδομένων! Στο Python for Sports Analytics Course, θα μάθετε πώς να επεξεργάζεστε δεδομένα αγώνων, να αναλύετε την απόδοση παικτών και να εφαρμόζετε Machine Learning για προβλέψεις και αγωνιστικές στρατηγικές.",
-      "shortDescription": "Μάθετε πώς να χρησιμοποιείτε τη SQL για Sports Analytics και αποκτήστε πρακτικές δεξιότητες στη διαχείριση και ανάλυση αθλητικών δεδομένων!",
-      "hasApplicationFormCta": true,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6823020/sql-with-sports",
-      "demoUrl": "https://sql-demo.workearly.ai/chapter/3/slide/2",
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 150,
-      "finalCost": 49,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "43QnpM2aWS5EDtyXcKi72s",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Sports Analytics με Formula 1",
-      "group": 2,
-      "title": "Sports Analytics with F1",
-      "summary": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων, μαθαίνοντας πώς να αναλύετε αθλητικά δεδομένα, να εφαρμόζετε Machine Learning και να βελτιστοποιείτε στρατηγικές αγώνων με πραγματικά datasets από τη Formula 1 και ακόμα παραπάνω.",
-      "shortDescription": "Μάθετε Data Science & Sports Analytics μέσα από τον συναρπαστικό κόσμο της Formula 1! Στο Data Science & Sports Analytics with Formula 1 Course, θα αποκτήσετε θεμελιώδεις και προχωρημένες γνώσεις στην Επιστήμη Δεδομένων.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6577422/formula-1/",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 500,
-      "finalCost": 91,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
         "description": null
       }
     },
