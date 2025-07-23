@@ -1,8 +1,90 @@
 {
-  "__timestamp": 1753257683196,
-  "__hash": "7a5da31b42e98967214277ae017b68b7c9759c4f25e289eaaa6983636b1ebcb5",
+  "__timestamp": 1753266770572,
+  "__hash": "b6394bddc4dda1dfc38a8d4d8aec330206a82e77fa7d23cf270b658ff5fdf95d",
   "total": 165,
   "items": [
+    {
+      "sys": {
+        "id": "4m12a7V2Rw43qCcpN30unz",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Μάθημα Financial Data Science",
+      "group": 1,
+      "title": "Fintech - Data Science for Finance Bootcamp",
+      "summary": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης. Στο Data Science for Finance Bootcamp, θα μάθετε πώς να χρησιμοποιείτε προηγμένους αλγόριθμους ανάλυσης δεδομένων, μοντέλα πρόβλεψης και τεχνικές αξιολόγησης κινδύνου για να λαμβάνετε στρατηγικές επενδυτικές και χρηματοοικονομικές αποφάσεις.",
+      "shortDescription": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6696867/fintech-data-science-for-finance-bootcamp",
+      "demoUrl": "https://fintech-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/28E28qaDIfXNavcg6b2ZR0C",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "Fintech September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "wDbpyo2rmPkrfivyfAAIL",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Finance",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4ZZSSv8ZdZrj4rxfIR9tFH",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Bootcamp με Πιστοποίηση στα Sports Analytics",
+      "group": 1,
+      "title": "Data Science with Sports",
+      "summary": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών αθλητικών δεδομένων, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να αξιοποιείς δεδομένα, να βελτιστοποιείς επιδόσεις και να παίρνεις στρατηγικές αποφάσεις στον αθλητισμό.\n",
+      "shortDescription": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics.",
+      "hasApplicationFormCta": null,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763872/sports-analytics-bootcamp",
+      "demoUrl": "https://f1-bootcamp.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/5kQeVc9zE5j95aS7zF2ZR0E",
+      "id": null,
+      "language": ["Greek"],
+      "programStarts": "Σεπτέμβριος 2025",
+      "applicationDeadline": "31 Ιουλίου",
+      "startingCost": 600,
+      "finalCost": 147,
+      "hubspotDealType": "Data Science with Sports September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "4gpPqjLaYroCrdsfl11xvk",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Sports Analytics",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "2A5ovd6yw19mZdWoQbB04d",
@@ -123,47 +205,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Digital Marketing",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4ZZSSv8ZdZrj4rxfIR9tFH",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση στα Sports Analytics",
-      "group": 1,
-      "title": "Data Science with Sports",
-      "summary": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών αθλητικών δεδομένων, θα αποκτήσεις τις γνώσεις και τις δεξιότητες που χρειάζεσαι για να αξιοποιείς δεδομένα, να βελτιστοποιείς επιδόσεις και να παίρνεις στρατηγικές αποφάσεις στον αθλητισμό.\n",
-      "shortDescription": "Το Data Science with Sports Bootcamp (Sports Analytics) είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο εκπαιδευτικό πρόγραμμα που σε προετοιμάζει για μια επιτυχημένη καριέρα στον συναρπαστικό κόσμο των Sports Analytics.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763872/sports-analytics-bootcamp",
-      "demoUrl": "https://data-science-sports-demo.workearly.ai/",
-      "paymentLink": "https://buy.stripe.com/5kQeVc9zE5j95aS7zF2ZR0E",
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": "Data Science with Sports September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "4gpPqjLaYroCrdsfl11xvk",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/4gpPqjLaYroCrdsfl11xvk/23be2fa4c72a948827989ef7b3e7cdac/Solo_-_Sports_Analytics.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Sports Analytics",
         "description": null
       }
     },
@@ -1482,47 +1523,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4m12a7V2Rw43qCcpN30unz",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Financial Data Science",
-      "group": 1,
-      "title": "Fintech - Data Science for Finance Bootcamp",
-      "summary": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης. Στο Data Science for Finance Bootcamp, θα μάθετε πώς να χρησιμοποιείτε προηγμένους αλγόριθμους ανάλυσης δεδομένων, μοντέλα πρόβλεψης και τεχνικές αξιολόγησης κινδύνου για να λαμβάνετε στρατηγικές επενδυτικές και χρηματοοικονομικές αποφάσεις.",
-      "shortDescription": "Αποκτήστε εξειδικευμένες γνώσεις στην Επιστήμη Δεδομένων για τον Χρηματοοικονομικό Τομέα (Financial Data Science) με ένα πρακτικό και πιστοποιημένο πρόγραμμα σχεδιασμένο για επαγγελματίες στον χώρο του Finance, FinTech και της Τραπεζικής Ανάλυσης.",
-      "hasApplicationFormCta": null,
-      "applicationFormUrl": "https://form.123formbuilder.com/6696867/fintech-data-science-for-finance-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "31 Ιουλίου",
-      "startingCost": 600,
-      "finalCost": 147,
-      "hubspotDealType": "Fintech September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "wDbpyo2rmPkrfivyfAAIL",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/wDbpyo2rmPkrfivyfAAIL/089dac2b5ba2ada5400ebce6cfda3c11/Solo_-_Finance.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Finance",
         "description": null
       }
     },
