@@ -62,7 +62,7 @@ export default function CourseCover() {
           <StatCard
             isInverse={true}
             label={translate("Offer")}
-            value={`€${courseDetails.finalCost} έως ${courseDetails.group === 3 ? "30 Απριλίου" : courseDetails.applicationDeadline}`}
+            value={`€${courseDetails.finalCost} έως ${courseDetails.group === 3 ? "31 Ιουλίου" : courseDetails.applicationDeadline}`}
           />
         )}
         {courseDetails?.programStarts && (
