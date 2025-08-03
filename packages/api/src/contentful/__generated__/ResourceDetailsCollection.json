@@ -1,6 +1,6 @@
 {
-  "__timestamp": 1748879245638,
-  "__hash": "d3460fea7f5e0fdcc5377fc22c5946ea1379a61e5df53883270c4c8f920580c1",
+  "__timestamp": 1754237174946,
+  "__hash": "b4bab44ddda873abdf8c51c8eda8b9197dcba52016622322e3ba7ae07ded6ffe",
   "total": 32,
   "items": [
     {
@@ -28,7 +28,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5SBQCPchcSNNYLTWg6BeMl/ba8698742782c613dedd2de6a6518667/workearly_summer_schools_2025__40_.png",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5SBQCPchcSNNYLTWg6BeMl/22eda983be97c1b0ad24ebb954eb3785/workearly_summer_schools_2025__40_.png",
         "width": 1080,
         "height": 1080,
         "contentType": "image/png",
@@ -61,7 +61,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5q1UyDw9W3AihZnYc3lL0N/539465e6d622d92c1322cd1d4e3227ab/sapmple88__32_.png",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5q1UyDw9W3AihZnYc3lL0N/5d92613b748d42ddec2497717192aa06/sapmple88__32_.png",
         "width": 1080,
         "height": 1080,
         "contentType": "image/png",
@@ -77,7 +77,7 @@
       "__typename": "ResourceDetails",
       "name": "Workearly Summer Schools 2025: Ένας θεσμός που επιστρέφει – πιο δυναμικά από ποτέ",
       "description": "Τα Summer Schools του Workearly επιστρέφουν για 4η συνεχόμενη χρονιά και έχουν πλέον καθιερωθεί ως θεσμός στην Ελλάδα για όσους θέλουν να επενδύσουν ουσιαστικά στον εαυτό τους κατά τη διάρκεια του καλοκαιριού.",
-      "publicationDate": "2025-04-23T00:00:00.000Z",
+      "publicationDate": "2025-04-24T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": [
@@ -94,7 +94,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/3jmMcgEAPNFcCLmfBu2px7/702abedb8e52a3a03ae1bdc46bf7bdf2/workearly_summer_schools_2025.png",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3jmMcgEAPNFcCLmfBu2px7/6bf04d8ef0205840dd944ac8bd9499b6/workearly_summer_schools_2025.png",
         "width": 1080,
         "height": 1080,
         "contentType": "image/png",
@@ -121,34 +121,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5iKIci0bysWO4Y88Q7oPnP/9194b2397e072dcabbc519fbd002ce49/Blog_Testimonial_Human_Resources.svg",
-        "width": 450,
-        "height": 270,
-        "contentType": "image/svg+xml",
-        "title": "Blog Testimonial Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4QO8hW07ktZG7smNO3YEp7",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": " Πώς το Workearly βοήθησε μια πρωτοετή φοιτήτρια να αναπτύξει νέες δεξιότητες",
-      "description": "Το Workearly βοήθησε μια πρωτοετή φοιτήτρια Πολιτικών Επιστημών να αποκτήσει πολύτιμες δεξιότητες στο AI & Business Analytics, ενισχύοντας την κατανόησή της στη λήψη αποφάσεων με δεδομένα και βελτιώνοντας τις ακαδημαϊκές και επαγγελματικές της προοπτικές.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "5iKIci0bysWO4Y88Q7oPnP",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5iKIci0bysWO4Y88Q7oPnP/9194b2397e072dcabbc519fbd002ce49/Blog_Testimonial_Human_Resources.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5iKIci0bysWO4Y88Q7oPnP/0d89f0cb747ff2d766a05fe81a1c6e14/Blog_Testimonial_Human_Resources.svg",
         "width": 450,
         "height": 270,
         "contentType": "image/svg+xml",
@@ -181,71 +154,11 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5aFisYu49LkzUQMoZjk0ap/7cefe803ecb055a641c79f25ddce6cda/Hero_Happy_Fingers.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5aFisYu49LkzUQMoZjk0ap/909c1174ce506c38eba7b6353a95c9c2/Hero_Happy_Fingers.svg",
         "width": 523,
         "height": 523,
         "contentType": "image/svg+xml",
         "title": "Hero Happy Fingers",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5813Twlux1lulA58C1xtMk",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Top 5 Courses to Upskill and  Stay Ahead in 2025",
-      "description": "Discover how to transition from teaching to tech with our tailored data science programs. Learn essential skills and strategies to land your first role.",
-      "publicationDate": "2025-02-04T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "43YxwFV6jYCXrT62hGISbt",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/43YxwFV6jYCXrT62hGISbt/3291566f6efcb4e55f6884a21d5c2665/Pig.png",
-        "width": 1270,
-        "height": 810,
-        "contentType": "image/png",
-        "title": "Pig",
-        "description": ""
-      }
-    },
-    {
-      "sys": {
-        "id": "2r6nTKkJV2G0XXfltcGbYB",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Data Analyst χωρίς προϋπηρεσία - Όσα πρέπει να γνωρίζεις",
-      "description": "Σήμερα, η ανάλυση δεδομένων αποτελεί μία από τις πιο περιζήτητες δεξιότητες στην παγκόσμια αγορά εργασίας. Οι Data Analysts είναι πλέον κρίσιμοι για την ανάπτυξη επιχειρήσεων σε όλους τους τομείς.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "71HbfwY4Rs8K2taMhX5PW7",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/71HbfwY4Rs8K2taMhX5PW7/15d92788c842392fa1fc88df36c559e6/Blog_General_Data_Science.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Data Science",
         "description": null
       }
     },
@@ -268,7 +181,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5fpOG0ZHcXwkc5Metqij4l/c4001583147d8df35bf0d0998f7a5fcd/Blog_Interview_Data_Science.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5fpOG0ZHcXwkc5Metqij4l/eefaa8cad4bd44951c7dfc713c7ebc5d/Blog_Interview_Data_Science.svg",
         "width": 451,
         "height": 272,
         "contentType": "image/svg+xml",
@@ -295,7 +208,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1R14ngAmtzFnxpppQCVX7a/808472e03556a072e158bc8d1e7306c8/Blog_Interview_AI.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1R14ngAmtzFnxpppQCVX7a/c1a4b74605762792236e6c2dac7b4702/Blog_Interview_AI.svg",
         "width": 451,
         "height": 270,
         "contentType": "image/svg+xml",
@@ -305,34 +218,55 @@
     },
     {
       "sys": {
-        "id": "5JS6FP8IgeNsHA9s1mOmaE",
+        "id": "4QO8hW07ktZG7smNO3YEp7",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "4 λόγοι για να φτιάξεις προφίλ στο LinkedIn",
-      "description": "Το LinkedIn είναι σήμερα η πιο ισχυρή πλατφόρμα επαγγελματικής δικτύωσης και καριέρας παγκοσμίως. Χρησιμοποιείται τόσο από επαγγελματίες για να αναδείξουν την εμπειρία και τις δεξιότητές τους όσο και από recruiters και εταιρείες που αναζητούν υποψηφίους.",
+      "name": " Πώς το Workearly βοήθησε μια πρωτοετή φοιτήτρια να αναπτύξει νέες δεξιότητες",
+      "description": "Το Workearly βοήθησε μια πρωτοετή φοιτήτρια Πολιτικών Επιστημών να αποκτήσει πολύτιμες δεξιότητες στο AI & Business Analytics, ενισχύοντας την κατανόησή της στη λήψη αποφάσεων με δεδομένα και βελτιώνοντας τις ακαδημαϊκές και επαγγελματικές της προοπτικές.",
       "publicationDate": "2025-03-11T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
+        "tags": []
       },
       "asset": {
         "sys": {
-          "id": "1IUmBFAOB3IYYKPKd599kf",
+          "id": "5iKIci0bysWO4Y88Q7oPnP",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1IUmBFAOB3IYYKPKd599kf/f25a96c810f9160553b5040f25df240c/Blog_General_Human_Resources.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5iKIci0bysWO4Y88Q7oPnP/0d89f0cb747ff2d766a05fe81a1c6e14/Blog_Testimonial_Human_Resources.svg",
+        "width": 450,
+        "height": 270,
+        "contentType": "image/svg+xml",
+        "title": "Blog Testimonial Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "729b9YwtmcZeXP7t7PfKyK",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Θέλεις να γίνεις Business Intelligence (BI) Analyst ?  Όσα πρέπει να γνωρίζεις",
+      "description": "Ο κλάδος του Business Intelligence (BI) αποτελεί πλέον αναπόσπαστο εργαλείο για τις επιχειρήσεις που επιδιώκουν data-driven αποφάσεις και στρατηγική ανάπτυξη.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "5rwc1YzEvA0DP9WFrWFcFz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5rwc1YzEvA0DP9WFrWFcFz/450d9a826a4bb1c53b7c0865dec18b20/Blog_General_Business.svg",
         "width": 450,
         "height": 272,
         "contentType": "image/svg+xml",
-        "title": "Blog General Human Resources",
+        "title": "Blog General Business",
         "description": null
       }
     },
@@ -355,38 +289,11 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1IUmBFAOB3IYYKPKd599kf/f25a96c810f9160553b5040f25df240c/Blog_General_Human_Resources.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1IUmBFAOB3IYYKPKd599kf/98f70c93e1265b6b24604b70b358592b/Blog_General_Human_Resources.svg",
         "width": 450,
         "height": 272,
         "contentType": "image/svg+xml",
         "title": "Blog General Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "mfP3U580JsKAld4siVSDa",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Τι είναι το Data Science",
-      "description": "Ο κλάδος του Data Science έχει εδραιωθεί στην αγορά της υψηλής τεχνολογίας και συνεχίζει να εξελίσσεται ραγδαία. Οι επιχειρήσεις βασίζονται ολοένα και περισσότερο στη δύναμη των δεδομένων, προκειμένου να λαμβάνουν τεκμηριωμένες αποφάσεις.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "71HbfwY4Rs8K2taMhX5PW7",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/71HbfwY4Rs8K2taMhX5PW7/15d92788c842392fa1fc88df36c559e6/Blog_General_Data_Science.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Data Science",
         "description": null
       }
     },
@@ -409,7 +316,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
         "height": 273,
         "contentType": "image/svg+xml",
@@ -419,51 +326,13 @@
     },
     {
       "sys": {
-        "id": "3jpj2x8dLlrbJdQbXjhRC4",
+        "id": "mfP3U580JsKAld4siVSDa",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "Πόσο κοστίζει το μεταπτυχιακό σου;",
-      "description": "Όταν ολοκληρώσεις τις πρώτες σπουδές σου και αποκτήσεις το πτυχίο σου, καλείσαι να σκεφτείς το επόμενο βήμα. Πολλοί νέοι πτυχιούχοι αμφιταλαντεύονται σε αυτό το σημείο και όχι άδικα.",
+      "name": "Τι είναι το Data Science",
+      "description": "Ο κλάδος του Data Science έχει εδραιωθεί στην αγορά της υψηλής τεχνολογίας και συνεχίζει να εξελίσσεται ραγδαία. Οι επιχειρήσεις βασίζονται ολοένα και περισσότερο στη δύναμη των δεδομένων, προκειμένου να λαμβάνουν τεκμηριωμένες αποφάσεις.",
       "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryGeneral",
-            "name": "Article Category: General",
-            "__typename": "ContentfulTag"
-          },
-          {
-            "id": "articleTopicHr",
-            "name": "Article Topic: HR",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1IUmBFAOB3IYYKPKd599kf",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1IUmBFAOB3IYYKPKd599kf/f25a96c810f9160553b5040f25df240c/Blog_General_Human_Resources.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "41LbkFKIZUOIMpBte7NDH5",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Data Analyst: Τι απαιτεί η συγκεκριμένη θέση εργασίας;",
-      "description": "Ο κλάδος του Data Analysis γνωρίζει εκρηκτική ανάπτυξη και οι απαιτήσεις για τους επαγγελματίες του τομέα αυξάνονται. Οι Data Analysts δεν είναι πλέον απλοί \"αναγνώστες\" δεδομένων, αλλά στρατηγικοί συνεργάτες των επιχειρήσεων.",
-      "publicationDate": "2025-02-04T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
@@ -474,7 +343,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/71HbfwY4Rs8K2taMhX5PW7/15d92788c842392fa1fc88df36c559e6/Blog_General_Data_Science.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/71HbfwY4Rs8K2taMhX5PW7/e8d8f5d157f9f7573fa896b97e85e882/Blog_General_Data_Science.svg",
         "width": 450,
         "height": 272,
         "contentType": "image/svg+xml",
@@ -484,12 +353,12 @@
     },
     {
       "sys": {
-        "id": "43UTTBR7fDbK4OTlYEMKUr",
+        "id": "5PukLq3SYa3TSIXHuf50eo",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "6 λόγοι για να γίνεις software tester (qa)",
-      "description": "Το Software Testing (QA) έχει εξελιχθεί σε έναν από τους πιο περιζήτητους ρόλους στην τεχνολογική βιομηχανία. Καθώς οι επιχειρήσεις συνεχίζουν να ψηφιοποιούνται, η ανάγκη για ποιοτικά και αξιόπιστα λογισμικά γίνεται ολοένα και πιο επιτακτική. ",
+      "name": "Θες να γίνεις Front-End ή Back-End Developer?",
+      "description": "Ο κόσμος της ανάπτυξης λογισμικού εξελίσσεται ραγδαία και το 2025, οι διαχωριστικές γραμμές μεταξύ Front-End και Back-End Development γίνονται όλο και πιο ευέλικτες. Παρότι οι δύο ρόλοι συνεργάζονται στενά σε κάθε project.",
       "publicationDate": "2025-03-11T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -507,7 +376,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
         "height": 273,
         "contentType": "image/svg+xml",
@@ -540,7 +409,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
         "height": 273,
         "contentType": "image/svg+xml",
@@ -550,66 +419,12 @@
     },
     {
       "sys": {
-        "id": "4p98B0I8HRQC4RveHNMSMW",
+        "id": "43UTTBR7fDbK4OTlYEMKUr",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "Ποια είναι τα καθήκοντα ενός HR Recruiter; Μάθε τι χρειάζεται για να ξεχωρίσεις στην αγορά του HR",
-      "description": "Το Recruitment έχει εξελιχθεί ραγδαία τα τελευταία χρόνια, με τις εταιρείες να αναζητούν data-driven, tech-savvy και AI-powered Recruiters. Ο ρόλος του HR Recruiter δεν περιορίζεται πλέον στην απλή εύρεση και επιλογή προσωπικού.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "1IUmBFAOB3IYYKPKd599kf",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1IUmBFAOB3IYYKPKd599kf/f25a96c810f9160553b5040f25df240c/Blog_General_Human_Resources.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5N18D1zBmfzq36ZQctdhis",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Ποιες είναι οι θέσεις εργασίας που μπορεί να διεκδικήσει κάποιος με ένα πτυχίο μαθηματικών;",
-      "description": "Ένα πτυχίο Μαθηματικών ανοίγει πολλές και ενδιαφέρουσες επαγγελματικές προοπτικές, καθώς οι μαθηματικές δεξιότητες βρίσκονται πλέον στο επίκεντρο κάθε σύγχρονης επιχείρησης.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "1IUmBFAOB3IYYKPKd599kf",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1IUmBFAOB3IYYKPKd599kf/f25a96c810f9160553b5040f25df240c/Blog_General_Human_Resources.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "3EBy2o1UgU1BE7F0NH1erK",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "ΚΑΡΙΕΡΑ ΣΤΟ HR - Μάθε πώς να ξεκινήσεις",
-      "description": "Η ύπαρξη ενός οργανωμένου τμήματος HR (Human Resources) είναι κρίσιμης σημασίας για κάθε επιχείρηση που επιθυμεί να παραμείνει ανταγωνιστική στο σύγχρονο εργασιακό περιβάλλον.",
+      "name": "6 λόγοι για να γίνεις software tester (qa)",
+      "description": "Το Software Testing (QA) έχει εξελιχθεί σε έναν από τους πιο περιζήτητους ρόλους στην τεχνολογική βιομηχανία. Καθώς οι επιχειρήσεις συνεχίζουν να ψηφιοποιούνται, η ανάγκη για ποιοτικά και αξιόπιστα λογισμικά γίνεται ολοένα και πιο επιτακτική. ",
       "publicationDate": "2025-03-11T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -623,81 +438,15 @@
       },
       "asset": {
         "sys": {
-          "id": "1IUmBFAOB3IYYKPKd599kf",
+          "id": "61OIkUGBq92nOfGcCBuwlG",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/1IUmBFAOB3IYYKPKd599kf/f25a96c810f9160553b5040f25df240c/Blog_General_Human_Resources.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
-        "height": 272,
+        "height": 273,
         "contentType": "image/svg+xml",
-        "title": "Blog General Human Resources",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "3F8Nf4Czqre1dON0e6bAKh",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Ασχολείσαι με το management? Μάθε για το Scrum και για το ρόλο του Scrum Master",
-      "description": "Το Scrum είναι ένα από τα πιο δημοφιλή πλαίσια εργασίας που χρησιμοποιούνται στην Agile μεθοδολογία, προσφέροντας έναν οργανωμένο και αποδοτικό τρόπο διαχείρισης σύνθετων project.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5rwc1YzEvA0DP9WFrWFcFz",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5rwc1YzEvA0DP9WFrWFcFz/778580913b55dfae16ed0c58bccb607d/Blog_General_Business.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4LIP89qwfOc0jTtb4gXShR",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Πώς να γίνεις Football Data Analyst",
-      "description": "O Vassilis Sambrakos και ο Dimitris Kyriakatis, Co-Founder & Managing Director του Workearly Greece , συζητούν για τα #Football#Analytics καθώς και για το πόσο εύκολο είναι κάποιος να γίνει Football Data Analyst.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3Eqw14cpL8ZUifGK5EtH4j",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/3Eqw14cpL8ZUifGK5EtH4j/51c1cab11bb80f9079e900f5ba2754bf/Blog_General_Sports_Analytics.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Sports Analytics",
+        "title": "Blog General IT",
         "description": null
       }
     },
@@ -726,7 +475,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
         "height": 273,
         "contentType": "image/svg+xml",
@@ -736,12 +485,12 @@
     },
     {
       "sys": {
-        "id": "2BejyQCVmf0bnb0EGoQpvP",
+        "id": "5JS6FP8IgeNsHA9s1mOmaE",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "Αλλαγή καριέρας στα 30. Γίνεται;",
-      "description": "Η αλλαγή καριέρας στα 30 δεν είναι μόνο εφικτή αλλά και συχνά απαραίτητη για την επαγγελματική ανάπτυξη. Σε αυτή την ηλικία, οι περισσότεροι έχουν ήδη αποκτήσει σημαντική εμπειρία, αλλά και την επίγνωση του τι πραγματικά τους ταιριάζει.",
+      "name": "4 λόγοι για να φτιάξεις προφίλ στο LinkedIn",
+      "description": "Το LinkedIn είναι σήμερα η πιο ισχυρή πλατφόρμα επαγγελματικής δικτύωσης και καριέρας παγκοσμίως. Χρησιμοποιείται τόσο από επαγγελματίες για να αναδείξουν την εμπειρία και τις δεξιότητές τους όσο και από recruiters και εταιρείες που αναζητούν υποψηφίους.",
       "publicationDate": "2025-03-11T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -755,15 +504,15 @@
       },
       "asset": {
         "sys": {
-          "id": "5rwc1YzEvA0DP9WFrWFcFz",
+          "id": "1IUmBFAOB3IYYKPKd599kf",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5rwc1YzEvA0DP9WFrWFcFz/778580913b55dfae16ed0c58bccb607d/Blog_General_Business.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1IUmBFAOB3IYYKPKd599kf/98f70c93e1265b6b24604b70b358592b/Blog_General_Human_Resources.svg",
         "width": 450,
         "height": 272,
         "contentType": "image/svg+xml",
-        "title": "Blog General Business",
+        "title": "Blog General Human Resources",
         "description": null
       }
     },
@@ -792,11 +541,214 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/71HbfwY4Rs8K2taMhX5PW7/15d92788c842392fa1fc88df36c559e6/Blog_General_Data_Science.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/71HbfwY4Rs8K2taMhX5PW7/e8d8f5d157f9f7573fa896b97e85e882/Blog_General_Data_Science.svg",
         "width": 450,
         "height": 272,
         "contentType": "image/svg+xml",
         "title": "Blog General Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2BejyQCVmf0bnb0EGoQpvP",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Αλλαγή καριέρας στα 30. Γίνεται;",
+      "description": "Η αλλαγή καριέρας στα 30 δεν είναι μόνο εφικτή αλλά και συχνά απαραίτητη για την επαγγελματική ανάπτυξη. Σε αυτή την ηλικία, οι περισσότεροι έχουν ήδη αποκτήσει σημαντική εμπειρία, αλλά και την επίγνωση του τι πραγματικά τους ταιριάζει.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5rwc1YzEvA0DP9WFrWFcFz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5rwc1YzEvA0DP9WFrWFcFz/450d9a826a4bb1c53b7c0865dec18b20/Blog_General_Business.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3EBy2o1UgU1BE7F0NH1erK",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "ΚΑΡΙΕΡΑ ΣΤΟ HR - Μάθε πώς να ξεκινήσεις",
+      "description": "Η ύπαρξη ενός οργανωμένου τμήματος HR (Human Resources) είναι κρίσιμης σημασίας για κάθε επιχείρηση που επιθυμεί να παραμείνει ανταγωνιστική στο σύγχρονο εργασιακό περιβάλλον.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1IUmBFAOB3IYYKPKd599kf",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1IUmBFAOB3IYYKPKd599kf/98f70c93e1265b6b24604b70b358592b/Blog_General_Human_Resources.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "4LIP89qwfOc0jTtb4gXShR",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Πώς να γίνεις Football Data Analyst",
+      "description": "O Vassilis Sambrakos και ο Dimitris Kyriakatis, Co-Founder & Managing Director του Workearly Greece , συζητούν για τα #Football#Analytics καθώς και για το πόσο εύκολο είναι κάποιος να γίνει Football Data Analyst.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "3Eqw14cpL8ZUifGK5EtH4j",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3Eqw14cpL8ZUifGK5EtH4j/9625f9975e3e201f692984cd3d60188d/Blog_General_Sports_Analytics.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Sports Analytics",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "2r6nTKkJV2G0XXfltcGbYB",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Data Analyst χωρίς προϋπηρεσία - Όσα πρέπει να γνωρίζεις",
+      "description": "Σήμερα, η ανάλυση δεδομένων αποτελεί μία από τις πιο περιζήτητες δεξιότητες στην παγκόσμια αγορά εργασίας. Οι Data Analysts είναι πλέον κρίσιμοι για την ανάπτυξη επιχειρήσεων σε όλους τους τομείς.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "71HbfwY4Rs8K2taMhX5PW7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/71HbfwY4Rs8K2taMhX5PW7/e8d8f5d157f9f7573fa896b97e85e882/Blog_General_Data_Science.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "1kmRKZ1fgZln283MjW2lE3",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Θες να γίνεις Front-End ή Back-End Developer?",
+      "description": null,
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "43YxwFV6jYCXrT62hGISbt",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/43YxwFV6jYCXrT62hGISbt/4e369c5c0bbd07cff280d029b0bf62a4/Pig.png",
+        "width": 1270,
+        "height": 810,
+        "contentType": "image/png",
+        "title": "Pig",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "3jpj2x8dLlrbJdQbXjhRC4",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Πόσο κοστίζει το μεταπτυχιακό σου;",
+      "description": "Όταν ολοκληρώσεις τις πρώτες σπουδές σου και αποκτήσεις το πτυχίο σου, καλείσαι να σκεφτείς το επόμενο βήμα. Πολλοί νέοι πτυχιούχοι αμφιταλαντεύονται σε αυτό το σημείο και όχι άδικα.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryGeneral",
+            "name": "Article Category: General",
+            "__typename": "ContentfulTag"
+          },
+          {
+            "id": "articleTopicHr",
+            "name": "Article Topic: HR",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "1IUmBFAOB3IYYKPKd599kf",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1IUmBFAOB3IYYKPKd599kf/98f70c93e1265b6b24604b70b358592b/Blog_General_Human_Resources.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Human Resources",
         "description": null
       }
     },
@@ -825,11 +777,131 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
         "height": 273,
         "contentType": "image/svg+xml",
         "title": "Blog General IT",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "5N18D1zBmfzq36ZQctdhis",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Ποιες είναι οι θέσεις εργασίας που μπορεί να διεκδικήσει κάποιος με ένα πτυχίο μαθηματικών;",
+      "description": "Ένα πτυχίο Μαθηματικών ανοίγει πολλές και ενδιαφέρουσες επαγγελματικές προοπτικές, καθώς οι μαθηματικές δεξιότητες βρίσκονται πλέον στο επίκεντρο κάθε σύγχρονης επιχείρησης.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "1IUmBFAOB3IYYKPKd599kf",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1IUmBFAOB3IYYKPKd599kf/98f70c93e1265b6b24604b70b358592b/Blog_General_Human_Resources.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "41LbkFKIZUOIMpBte7NDH5",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Data Analyst: Τι απαιτεί η συγκεκριμένη θέση εργασίας;",
+      "description": "Ο κλάδος του Data Analysis γνωρίζει εκρηκτική ανάπτυξη και οι απαιτήσεις για τους επαγγελματίες του τομέα αυξάνονται. Οι Data Analysts δεν είναι πλέον απλοί \"αναγνώστες\" δεδομένων, αλλά στρατηγικοί συνεργάτες των επιχειρήσεων.",
+      "publicationDate": "2025-02-04T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "71HbfwY4Rs8K2taMhX5PW7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/71HbfwY4Rs8K2taMhX5PW7/e8d8f5d157f9f7573fa896b97e85e882/Blog_General_Data_Science.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Data Science",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3F8Nf4Czqre1dON0e6bAKh",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Ασχολείσαι με το management? Μάθε για το Scrum και για το ρόλο του Scrum Master",
+      "description": "Το Scrum είναι ένα από τα πιο δημοφιλή πλαίσια εργασίας που χρησιμοποιούνται στην Agile μεθοδολογία, προσφέροντας έναν οργανωμένο και αποδοτικό τρόπο διαχείρισης σύνθετων project.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "5rwc1YzEvA0DP9WFrWFcFz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5rwc1YzEvA0DP9WFrWFcFz/450d9a826a4bb1c53b7c0865dec18b20/Blog_General_Business.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "3bemi4exC7uQVGZfhNt8A5",
+        "__typename": "Sys"
+      },
+      "__typename": "ResourceDetails",
+      "name": "Πώς θα γίνω Data Analyst;",
+      "description": "Σήμερα, οι επιχειρήσεις δέχονται και διαχειρίζονται τεράστιες ποσότητες δεδομένων, τα οποία μπορούν να αξιοποιηθούν για τη βελτίωση της στρατηγικής τους και την ενίσχυση της απόδοσής τους.",
+      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "articleCategoryLearningTips",
+            "name": "Article Category: Learning Tips",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "asset": {
+        "sys": {
+          "id": "71HbfwY4Rs8K2taMhX5PW7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/71HbfwY4Rs8K2taMhX5PW7/e8d8f5d157f9f7573fa896b97e85e882/Blog_General_Data_Science.svg",
+        "width": 450,
+        "height": 272,
+        "contentType": "image/svg+xml",
+        "title": "Blog General Data Science",
         "description": null
       }
     },
@@ -863,7 +935,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/61OIkUGBq92nOfGcCBuwlG/1e74b8f0426a952a5be79ecc92b0c8c6/Blog_General_IT.svg",
         "width": 450,
         "height": 273,
         "contentType": "image/svg+xml",
@@ -873,45 +945,12 @@
     },
     {
       "sys": {
-        "id": "3bemi4exC7uQVGZfhNt8A5",
+        "id": "4p98B0I8HRQC4RveHNMSMW",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "Πώς θα γίνω Data Analyst;",
-      "description": "Σήμερα, οι επιχειρήσεις δέχονται και διαχειρίζονται τεράστιες ποσότητες δεδομένων, τα οποία μπορούν να αξιοποιηθούν για τη βελτίωση της στρατηγικής τους και την ενίσχυση της απόδοσής τους.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "71HbfwY4Rs8K2taMhX5PW7",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/71HbfwY4Rs8K2taMhX5PW7/15d92788c842392fa1fc88df36c559e6/Blog_General_Data_Science.svg",
-        "width": 450,
-        "height": 272,
-        "contentType": "image/svg+xml",
-        "title": "Blog General Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "729b9YwtmcZeXP7t7PfKyK",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Θέλεις να γίνεις Business Intelligence (BI) Analyst ?  Όσα πρέπει να γνωρίζεις",
-      "description": "Ο κλάδος του Business Intelligence (BI) αποτελεί πλέον αναπόσπαστο εργαλείο για τις επιχειρήσεις που επιδιώκουν data-driven αποφάσεις και στρατηγική ανάπτυξη.",
+      "name": "Ποια είναι τα καθήκοντα ενός HR Recruiter; Μάθε τι χρειάζεται για να ξεχωρίσεις στην αγορά του HR",
+      "description": "Το Recruitment έχει εξελιχθεί ραγδαία τα τελευταία χρόνια, με τις εταιρείες να αναζητούν data-driven, tech-savvy και AI-powered Recruiters. Ο ρόλος του HR Recruiter δεν περιορίζεται πλέον στην απλή εύρεση και επιλογή προσωπικού.",
       "publicationDate": "2025-03-11T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -919,69 +958,30 @@
       },
       "asset": {
         "sys": {
-          "id": "5rwc1YzEvA0DP9WFrWFcFz",
+          "id": "1IUmBFAOB3IYYKPKd599kf",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/5rwc1YzEvA0DP9WFrWFcFz/778580913b55dfae16ed0c58bccb607d/Blog_General_Business.svg",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1IUmBFAOB3IYYKPKd599kf/98f70c93e1265b6b24604b70b358592b/Blog_General_Human_Resources.svg",
         "width": 450,
         "height": 272,
         "contentType": "image/svg+xml",
-        "title": "Blog General Business",
+        "title": "Blog General Human Resources",
         "description": null
       }
     },
     {
       "sys": {
-        "id": "5PukLq3SYa3TSIXHuf50eo",
+        "id": "5813Twlux1lulA58C1xtMk",
         "__typename": "Sys"
       },
       "__typename": "ResourceDetails",
-      "name": "Θες να γίνεις Front-End ή Back-End Developer?",
-      "description": "Ο κόσμος της ανάπτυξης λογισμικού εξελίσσεται ραγδαία και το 2025, οι διαχωριστικές γραμμές μεταξύ Front-End και Back-End Development γίνονται όλο και πιο ευέλικτες. Παρότι οι δύο ρόλοι συνεργάζονται στενά σε κάθε project.",
-      "publicationDate": "2025-03-11T00:00:00.000Z",
+      "name": "Top 5 Courses to Upskill and  Stay Ahead in 2025",
+      "description": "Discover how to transition from teaching to tech with our tailored data science programs. Learn essential skills and strategies to land your first role.",
+      "publicationDate": "2025-02-04T00:00:00.000Z",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "61OIkUGBq92nOfGcCBuwlG",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/61OIkUGBq92nOfGcCBuwlG/57af9c5626f722099a9e5b3f4b67da60/Blog_General_IT.svg",
-        "width": 450,
-        "height": 273,
-        "contentType": "image/svg+xml",
-        "title": "Blog General IT",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "1kmRKZ1fgZln283MjW2lE3",
-        "__typename": "Sys"
-      },
-      "__typename": "ResourceDetails",
-      "name": "Θες να γίνεις Front-End ή Back-End Developer?",
-      "description": null,
-      "publicationDate": "2025-03-11T00:00:00.000Z",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "articleCategoryLearningTips",
-            "name": "Article Category: Learning Tips",
-            "__typename": "ContentfulTag"
-          }
-        ]
+        "tags": []
       },
       "asset": {
         "sys": {
@@ -989,7 +989,7 @@
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/fmxc36tvwra3/43YxwFV6jYCXrT62hGISbt/3291566f6efcb4e55f6884a21d5c2665/Pig.png",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/43YxwFV6jYCXrT62hGISbt/4e369c5c0bbd07cff280d029b0bf62a4/Pig.png",
         "width": 1270,
         "height": 810,
         "contentType": "image/png",

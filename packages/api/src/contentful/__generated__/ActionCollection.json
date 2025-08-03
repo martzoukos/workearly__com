@@ -1,27 +1,219 @@
 {
-  "__timestamp": 1748879213743,
-  "__hash": "fe5ace8da05ebc0f0c493c21c766a87431da9774e2ffcf0a46ce714bab04cd5c",
-  "total": 43,
+  "__timestamp": 1754240202779,
+  "__hash": "b54e3f1dec68cb48eaa85ce4c863abdd2ba123a081b905d4f63abc8d20798313",
+  "total": 42,
   "items": [
     {
       "sys": {
-        "id": "6prYPVRtU8ucgEM3TFcYpn",
+        "id": "3wTeghKyBD15nDAeCucKUH",
         "__typename": "Sys"
       },
       "__typename": "Action",
       "internal": null,
       "icon": null,
-      "name": "Υποτροφίες",
+      "name": "Request a demo",
       "features": null,
       "dynamicActionType": null,
-      "external": "https://kariera.workearly.gr/",
+      "external": "https://www.workearly.gr/contact",
       "iconPlacement": "Right",
-      "colorScheme": "White",
+      "colorScheme": "Green",
       "variant": "Solid",
       "behaviour": "Wrap",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4TeLHGsReMLbyyEyCxaQP9",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Digital Marketing",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Chip",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/digital-marketing"
+      }
+    },
+    {
+      "sys": {
+        "id": "1w37DMwASiAICeSZo1MQfG",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Learn More",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "3KTtHtGy7cm21uuXVgr2IU",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Explore Courses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
+        "id": "1zYiNqo19kYoJZYbBg7dS5",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "For Businesses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Outlined",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "business"
+      }
+    },
+    {
+      "sys": {
+        "id": "3Glf1mTCPYTXQbJJId2d5z",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Περισσότερες ιστορίες επιτυχίας",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "White",
+      "variant": "Underlined",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "testimonials"
+      }
+    },
+    {
+      "sys": {
+        "id": "6cBG7cSq8yy4Ue2NoXknRC",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Περισσότερα Άρθρα",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Underlined",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "blog"
+      }
+    },
+    {
+      "sys": {
+        "id": "3lzfqWpy8QqxDuzSpAEd8z",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Επικοινωνήστε Μαζί Μας",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "contact"
+      }
+    },
+    {
+      "sys": {
+        "id": "7Ljw0kstHEPmqTWCjhgb6O",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Finance Courses",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "category/business"
       }
     },
     {
@@ -74,48 +266,6 @@
     },
     {
       "sys": {
-        "id": "6Aoef1ikDRwCtsqesAbMiJ",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Learn More",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://scholarships.workearly.gr/",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "5DSvWbLMMLHpo5clmCzuOQ",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Υποτροφία: Κάνε Αίτηση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/6836334/workearly-summer-schools-2025",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "5LomLM5ZEbU9XKH0ObP1kA",
         "__typename": "Sys"
       },
@@ -158,121 +308,16 @@
     },
     {
       "sys": {
-        "id": "2cQgXCpnpDt4g0pvEGsgI2",
+        "id": "5DSvWbLMMLHpo5clmCzuOQ",
         "__typename": "Sys"
       },
       "__typename": "Action",
       "internal": null,
       "icon": null,
-      "name": "Αίτηση",
+      "name": "Υποτροφία: Κάνε Αίτηση",
       "features": null,
       "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6836330/ai-marketing-summer-school-2025",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "4IkmV1RK1sgXQJ2hBDwaOJ",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Αίτηση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6836328/ai-data-science-summer-school-2025",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "FWJIC2Pb8WFmHPJ4ShkAP",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Αίτηση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6836323/hr-summer-school-2025",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "5VBSCXc35p3tiu50mFPUi5",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Αίτηση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6836331/startup-summer-school-2025",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2RAjZsmZxJkdFWPQ4MZ7LJ",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Αίτηση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6838342/hack-the-football-data-programming-summer-school",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "12t3TeIZTGkDu8vU0SlVDX",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Αίτηση",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6838899/ai-business-summer-school",
+      "external": "https://form.123formbuilder.com/6836334/workearly-summer-schools-2025",
       "iconPlacement": "Right",
       "colorScheme": "Green",
       "variant": "Solid",
@@ -308,6 +353,27 @@
     },
     {
       "sys": {
+        "id": "12t3TeIZTGkDu8vU0SlVDX",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6838899/ai-business-summer-school",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
         "id": "7k3yS8S3abzFYFHIoJybX1",
         "__typename": "Sys"
       },
@@ -332,18 +398,60 @@
     },
     {
       "sys": {
-        "id": "1QGee3mXmo8ATaG2ywPj2e",
+        "id": "2RAjZsmZxJkdFWPQ4MZ7LJ",
         "__typename": "Sys"
       },
       "__typename": "Action",
       "internal": null,
       "icon": null,
-      "name": "Δωρεάν ενημέρωση",
+      "name": "Αίτηση",
       "features": null,
       "dynamicActionType": null,
-      "external": "https://form.123formbuilder.com/form-6836334/workearly-summer-schools-2025",
+      "external": "https://form.123formbuilder.com/form-6838342/hack-the-football-data-programming-summer-school",
       "iconPlacement": "Right",
       "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6Aoef1ikDRwCtsqesAbMiJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Learn More",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://scholarships.workearly.gr/",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6prYPVRtU8ucgEM3TFcYpn",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Υποτροφίες",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://kariera.workearly.gr/",
+      "iconPlacement": "Right",
+      "colorScheme": "White",
       "variant": "Solid",
       "behaviour": "Wrap",
       "contentfulMetadata": {
@@ -449,6 +557,111 @@
     },
     {
       "sys": {
+        "id": "2cQgXCpnpDt4g0pvEGsgI2",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836330/ai-marketing-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "FWJIC2Pb8WFmHPJ4ShkAP",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836323/hr-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4IkmV1RK1sgXQJ2hBDwaOJ",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836328/ai-data-science-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5VBSCXc35p3tiu50mFPUi5",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Αίτηση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836331/startup-summer-school-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1QGee3mXmo8ATaG2ywPj2e",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "internal": null,
+      "icon": null,
+      "name": "Δωρεάν ενημέρωση",
+      "features": null,
+      "dynamicActionType": null,
+      "external": "https://form.123formbuilder.com/form-6836334/workearly-summer-schools-2025",
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
         "id": "4yL7m5nlHbSq3w0xHBpfst",
         "__typename": "Sys"
       },
@@ -473,30 +686,6 @@
     },
     {
       "sys": {
-        "id": "3wTeghKyBD15nDAeCucKUH",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Ζητήστε ένα demo",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://www.workearly.gr/contact",
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "blog/poso-kostizei-to-metaptyxiako-sou"
-      }
-    },
-    {
-      "sys": {
         "id": "13iOZgwNMNgz0V3f05rm68",
         "__typename": "Sys"
       },
@@ -514,99 +703,6 @@
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1zYiNqo19kYoJZYbBg7dS5",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "For Businesses",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Black",
-      "variant": "Outlined",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "business"
-      }
-    },
-    {
-      "sys": {
-        "id": "5UkMkLzyqPrOCjdHPDt8Ij",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Get the Invoice",
-      "features": null,
-      "dynamicActionType": "Get Invoice",
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Black",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1w37DMwASiAICeSZo1MQfG",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Learn More",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": null,
-      "colorScheme": null,
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses"
-      }
-    },
-    {
-      "sys": {
-        "id": "4TeLHGsReMLbyyEyCxaQP9",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Digital Marketing",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": null,
-      "colorScheme": "Black",
-      "variant": "Chip",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "category/digital-marketing"
       }
     },
     {
@@ -635,126 +731,6 @@
     },
     {
       "sys": {
-        "id": "3KTtHtGy7cm21uuXVgr2IU",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Explore Courses",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Black",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses"
-      }
-    },
-    {
-      "sys": {
-        "id": "3lzfqWpy8QqxDuzSpAEd8z",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Επικοινωνήστε Μαζί Μας",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Black",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "contact"
-      }
-    },
-    {
-      "sys": {
-        "id": "6cBG7cSq8yy4Ue2NoXknRC",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Περισσότερα Άρθρα",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Underlined",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "blog"
-      }
-    },
-    {
-      "sys": {
-        "id": "3Glf1mTCPYTXQbJJId2d5z",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Περισσότερες ιστορίες επιτυχίας",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "White",
-      "variant": "Underlined",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "testimonials"
-      }
-    },
-    {
-      "sys": {
-        "id": "2Szo5RC5RDqo36YRKAG4cG",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Courses",
-      "features": ["Full Width in Mobile"],
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Green",
-      "variant": "Solid",
-      "behaviour": "Flex",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses"
-      }
-    },
-    {
-      "sys": {
         "id": "7kaO4eajRh6WT1bR3eMCSb",
         "__typename": "Sys"
       },
@@ -779,26 +755,23 @@
     },
     {
       "sys": {
-        "id": "7Ljw0kstHEPmqTWCjhgb6O",
+        "id": "5UkMkLzyqPrOCjdHPDt8Ij",
         "__typename": "Sys"
       },
       "__typename": "Action",
+      "internal": null,
       "icon": null,
-      "name": "Finance Courses",
+      "name": "Get the Invoice",
       "features": null,
-      "dynamicActionType": null,
+      "dynamicActionType": "Get Invoice",
       "external": null,
       "iconPlacement": "Right",
-      "colorScheme": "Green",
+      "colorScheme": "Black",
       "variant": "Solid",
       "behaviour": "Wrap",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "category/business"
       }
     },
     {
@@ -851,6 +824,30 @@
     },
     {
       "sys": {
+        "id": "2Szo5RC5RDqo36YRKAG4cG",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Courses",
+      "features": ["Full Width in Mobile"],
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Green",
+      "variant": "Solid",
+      "behaviour": "Flex",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "courses"
+      }
+    },
+    {
+      "sys": {
         "id": "XcaFTDoGIWHoLCC82CExr",
         "__typename": "Sys"
       },
@@ -899,27 +896,6 @@
     },
     {
       "sys": {
-        "id": "7q37u0HmL1JqejXHRWOEkQ",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "internal": null,
-      "icon": null,
-      "name": "Business Analytics",
-      "features": null,
-      "dynamicActionType": null,
-      "external": "https://www.holy.gd/",
-      "iconPlacement": null,
-      "colorScheme": "Black",
-      "variant": "Chip",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "754qNsEf2cxXHPS0KELEoL",
         "__typename": "Sys"
       },
@@ -930,7 +906,7 @@
       "features": null,
       "dynamicActionType": null,
       "external": "https://www.holy.gd/",
-      "iconPlacement": null,
+      "iconPlacement": "Right",
       "colorScheme": "Black",
       "variant": "Chip",
       "behaviour": "Wrap",
@@ -951,7 +927,7 @@
       "features": null,
       "dynamicActionType": null,
       "external": "https://www.holy.gd/",
-      "iconPlacement": null,
+      "iconPlacement": "Right",
       "colorScheme": "Black",
       "variant": "Chip",
       "behaviour": "Wrap",
@@ -962,24 +938,24 @@
     },
     {
       "sys": {
-        "id": "5VW6lkynnrRHtxhmYG6sD8",
+        "id": "7q37u0HmL1JqejXHRWOEkQ",
         "__typename": "Sys"
       },
       "__typename": "Action",
+      "internal": null,
       "icon": null,
-      "name": "View Course",
+      "name": "Business Analytics",
       "features": null,
       "dynamicActionType": null,
-      "external": null,
+      "external": "https://www.holy.gd/",
       "iconPlacement": "Right",
       "colorScheme": "Black",
-      "variant": "Filled",
+      "variant": "Chip",
       "behaviour": "Wrap",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
-      },
-      "internal": null
+      }
     }
   ]
 }

@@ -56,13 +56,13 @@ export default function Menu({ menu, defaultOpen = false }: PropsType) {
       >
         <Themed theme="light" className={styles.content}>
           <div className={styles.contentInner}>
-            {menu.itemGroups.map((group, index) => {
+            {menu.itemGroups?.map((group, index) => {
               return (
                 <div
                   key={index}
                   className={clsx(
                     styles.group,
-                    group.name && styles.groupHasLabel
+                    group.name && styles.groupHasLabel,
                   )}
                 >
                   <div className={styles.labelContainer}>
@@ -103,7 +103,7 @@ export default function Menu({ menu, defaultOpen = false }: PropsType) {
               );
             })}
           </div>
-          {menu.itemGroups.map((group) => {
+          {menu.itemGroups?.map((group) => {
             return group.items
               .filter((item) => item.type === "normal-sub")
               .map((item) => {
@@ -116,7 +116,7 @@ export default function Menu({ menu, defaultOpen = false }: PropsType) {
                 );
               });
           })}
-          {menu.itemGroups.map((group) => {
+          {menu.itemGroups?.map((group) => {
             return group.items
               .filter((item) => item.type === "category-sub")
               .map((item) => {

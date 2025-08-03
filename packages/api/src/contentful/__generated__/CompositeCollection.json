@@ -1,199 +1,8 @@
 {
-  "__timestamp": 1748879222732,
-  "__hash": "7699abfbcc61491b32e62e76273fdb401fb8d76baccfd7208937036db3d1152d",
+  "__timestamp": 1754240204942,
+  "__hash": "b251c4e64ed99156b8b8181e7ea95a079a6f1b55a17999ee0bbfee6f1cacc193",
   "total": 10,
   "items": [
-    {
-      "sys": {
-        "id": "7A5PHvshGPbnWoxZayyaC8",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Default",
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": "Light",
-      "title": null,
-      "supertitle": null,
-      "text": null,
-      "spacing": "Small",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4iwXt3DnrKX3opKB1Q4CaU",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "kPQ7SMFWEeuLxyBjNz80i",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Default",
-      "alignment": null,
-      "layout": null,
-      "size": null,
-      "theme": null,
-      "title": null,
-      "supertitle": null,
-      "text": null,
-      "spacing": "Small",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4iwXt3DnrKX3opKB1Q4CaU",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4wQ10fqQz7nLV4dffwWFwu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "7JBVL0px1TManXwQaYbTmA",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Summer Course",
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": null,
-      "supertitle": null,
-      "text": null,
-      "spacing": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4GkVBMVCAzcXvz0mtTCtm7",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4NGRcdxLIt7pQ5OoOqFUwf",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Tabs Alt",
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Το κορυφαίο Summer Learning Event της χρονιάς",
-      "supertitle": null,
-      "text": "Τα Workearly Summer Schools είναι το κορυφαίο summer learning event της χρονιάς — η απόλυτη εμπειρία εκπαίδευσης και εξέλιξης για όσους θέλουν να ξεχωρίσουν. Με έμφαση στο πρακτικό upskilling, τη δικτύωση με real people και την πρόσβαση σε real επαγγελματικές ευκαιρίες, προσφέρουν τον πιο δυνατό συνδυασμό: καλοκαιρινό ρυθμό, real skills και impact που μένει. Είναι το πρόγραμμα που μετατρέπει το καλοκαίρι σου σε ευκαιρία ζωής — για την καριέρα, το βιογραφικό και το μέλλον σου.",
-      "spacing": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2sp9bRLKzwgcC65oRCQkGh",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "1xG3D7VOmcgGhhGL304hGc",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Tabs Alt",
-      "alignment": null,
-      "layout": null,
-      "size": null,
-      "theme": null,
-      "title": "Learn Smarter. Grow Faster!",
-      "supertitle": null,
-      "text": null,
-      "spacing": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "Y99voP4fl3OELh9SameT9",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
     {
       "sys": {
         "id": "3xt07mEK12PoofS53DtRyL",
@@ -205,8 +14,8 @@
       "layout": "Default",
       "size": "Full",
       "theme": null,
-      "title": "Εξελίξτε την ομάδα σας με role-playing και Τεχνητή Νοημοσύνη.",
-      "supertitle": "Αλλάζουμε την εταιρική εκπαίδευση",
+      "title": "Level up your team with role-playing and Artificial Intelligence.",
+      "supertitle": "We're redefining corporate training.",
       "text": null,
       "spacing": "Small",
       "contentfulMetadata": {
@@ -243,61 +52,14 @@
     },
     {
       "sys": {
-        "id": "38Ne20BvHxYlPrZb0GCga9",
-        "__typename": "Sys"
-      },
-      "__typename": "Composite",
-      "variant": "Default",
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": null,
-      "supertitle": null,
-      "text": null,
-      "spacing": "Small",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "CompositeContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7fFSzkB4a7J2n9uHUHYHEp",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4wQ10fqQz7nLV4dffwWFwu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "U4M0ygXqWsOsm870BmT3w",
         "__typename": "Sys"
       },
       "__typename": "Composite",
       "variant": "Tabs",
-      "alignment": null,
-      "layout": null,
-      "size": null,
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
       "theme": null,
       "title": null,
       "supertitle": null,
@@ -403,6 +165,197 @@
     },
     {
       "sys": {
+        "id": "7JBVL0px1TManXwQaYbTmA",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Summer Course",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4GkVBMVCAzcXvz0mtTCtm7",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4NGRcdxLIt7pQ5OoOqFUwf",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs Alt",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Το κορυφαίο Summer Learning Event της χρονιάς",
+      "supertitle": null,
+      "text": "Τα Workearly Summer Schools είναι το κορυφαίο summer learning event της χρονιάς — η απόλυτη εμπειρία εκπαίδευσης και εξέλιξης για όσους θέλουν να ξεχωρίσουν. Με έμφαση στο πρακτικό upskilling, τη δικτύωση με real people και την πρόσβαση σε real επαγγελματικές ευκαιρίες, προσφέρουν τον πιο δυνατό συνδυασμό: καλοκαιρινό ρυθμό, real skills και impact που μένει. Είναι το πρόγραμμα που μετατρέπει το καλοκαίρι σου σε ευκαιρία ζωής — για την καριέρα, το βιογραφικό και το μέλλον σου.",
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2sp9bRLKzwgcC65oRCQkGh",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7A5PHvshGPbnWoxZayyaC8",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Default",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": "Light",
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": "Small",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4iwXt3DnrKX3opKB1Q4CaU",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "38Ne20BvHxYlPrZb0GCga9",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Default",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": "Small",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "7fFSzkB4a7J2n9uHUHYHEp",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4wQ10fqQz7nLV4dffwWFwu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1xG3D7VOmcgGhhGL304hGc",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Tabs Alt",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Learn Smarter. Grow Faster!",
+      "supertitle": null,
+      "text": null,
+      "spacing": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "Y99voP4fl3OELh9SameT9",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
         "id": "LzEyB0cdmVOJinOt8eXvf",
         "__typename": "Sys"
       },
@@ -410,7 +363,7 @@
       "variant": "Tabs Alt",
       "alignment": "Left",
       "layout": "Default",
-      "size": null,
+      "size": "Full",
       "theme": null,
       "title": "Interactive and AI-Enhanced Learning",
       "supertitle": null,
@@ -466,9 +419,9 @@
       },
       "__typename": "Composite",
       "variant": "Tabs",
-      "alignment": null,
-      "layout": null,
-      "size": null,
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
       "theme": null,
       "title": null,
       "supertitle": null,
@@ -506,6 +459,53 @@
           {
             "sys": {
               "id": "4mKFaUIOOhRA3migXTIbyU",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "kPQ7SMFWEeuLxyBjNz80i",
+        "__typename": "Sys"
+      },
+      "__typename": "Composite",
+      "variant": "Default",
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": null,
+      "supertitle": null,
+      "text": null,
+      "spacing": "Small",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "CompositeContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4iwXt3DnrKX3opKB1Q4CaU",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4wQ10fqQz7nLV4dffwWFwu",
               "__typename": "Sys"
             },
             "__typename": "Section",

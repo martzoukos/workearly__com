@@ -133,13 +133,6 @@ export default function Footer({ uniqueComponent, className }: PropsType) {
         <div className={styles.footer}>
           <div className={styles.copyright}>
             <Text>© Workearly Copyright {new Date().getFullYear()}</Text>
-            <Text>
-              Branded & Designed by{" "}
-              <a href="https://www.holy.gd/" target="_blank" rel="noreferrer">
-                HØLY
-              </a>
-              <sup className={styles.trademark}>&trade;</sup>
-            </Text>
           </div>
 
           <div className={styles.copyright}>
