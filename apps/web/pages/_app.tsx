@@ -18,7 +18,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         openGraph={{
           type: "website",
           locale: router.locale,
-          url: `https://www.workearly.gr/`,
+          url: `https://www.workearly.com/`,
           siteName: "Workearly",
           title: "Home | Workearly",
           images: [
@@ -41,13 +41,13 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         showOnShallow={false}
         options={{ showSpinner: false }}
       />
-      <Script
+      {/*<Script
         id="Cookiebot"
         src="https://consent.cookiebot.com/uc.js"
         data-cbid="1397552c-f526-4982-9897-b2dfe41acea7"
         data-blockingmode="auto"
       />
-      <GoogleTagManager gtmId="GTM-K7BR46GN" />
+      <GoogleTagManager gtmId="GTM-K7BR46GN" />*/}
       <Component {...pageProps} />
     </QueryParamProvider>
   );
