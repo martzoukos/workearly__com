@@ -1,6 +1,6 @@
 {
-  "__timestamp": 1754237942199,
-  "__hash": "56885c39b562ed571562ba924e4fb2bb6d0ef34a6c43a39b34bd2258166a17ee",
+  "__timestamp": 1754586976053,
+  "__hash": "dc982f379ba97aca865b23fd79a2e98bc48b9bbdcaa7b61cfecc54ceee28bd7d",
   "total": 3,
   "items": [
     {
@@ -46,10 +46,6 @@
             {
               "link": "/business",
               "title": "For Businesses"
-            },
-            {
-              "link": "https://scholarships.workearly.gr/",
-              "title": "Scholarships"
             }
           ]
         },
@@ -76,6 +72,47 @@
       },
       "variant": "Header",
       "json": [
+        {
+          "name": "Courses",
+          "type": "menu",
+          "itemGroups": [
+            {
+              "name": "Our Specialized Programs",
+              "items": [
+                {
+                  "to": "/course/data-analyst-bootcamp",
+                  "name": "AI Data Analyst Bootcamp",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/project-management-bootcamp",
+                  "name": "Project Management Bootcamp",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/ai-business-school",
+                  "name": "AI & Business Analytics School",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/digital-marketing-bootcamp",
+                  "name": "AI Marketing Bootcamp",
+                  "type": "link"
+                },
+                {
+                  "to": "/courses/startup-summer-school",
+                  "name": "Startup School",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/hr-bootcamp",
+                  "name": "HR Bootcamp by SHRM",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        },
         {
           "to": "/mentors",
           "name": "Mentors",

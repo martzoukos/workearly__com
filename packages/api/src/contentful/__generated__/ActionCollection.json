@@ -1,8 +1,32 @@
 {
-  "__timestamp": 1754240202779,
-  "__hash": "b54e3f1dec68cb48eaa85ce4c863abdd2ba123a081b905d4f63abc8d20798313",
+  "__timestamp": 1754587281111,
+  "__hash": "fea6594c86876f1c5c2929c0ef789889aa885c0ba5876ca0e610cf4c2658b386",
   "total": 42,
   "items": [
+    {
+      "sys": {
+        "id": "3lzfqWpy8QqxDuzSpAEd8z",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Make an Inquire",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "contact"
+      }
+    },
     {
       "sys": {
         "id": "3wTeghKyBD15nDAeCucKUH",
@@ -170,30 +194,6 @@
     },
     {
       "sys": {
-        "id": "3lzfqWpy8QqxDuzSpAEd8z",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Επικοινωνήστε Μαζί Μας",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Black",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "contact"
-      }
-    },
-    {
-      "sys": {
         "id": "7Ljw0kstHEPmqTWCjhgb6O",
         "__typename": "Sys"
       },
@@ -235,10 +235,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/finance-summer-school-2025"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -259,10 +256,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/project-management-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -346,10 +340,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/ai-business-summer-school-by-shrm"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -391,10 +382,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/hack-the-football-data-and-programming-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -478,10 +466,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/startup-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -502,10 +487,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/hr-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -526,10 +508,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/ai-marketing-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -550,10 +529,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/ai-data-science-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {

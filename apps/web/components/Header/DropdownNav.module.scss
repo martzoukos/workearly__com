@@ -19,3 +19,9 @@
   gap: 2.25rem;
   align-items: center;
 }
+
+/* TEMPORARY: REMOVE WHEN WE BRING BACK THE COURSES  */
+.restMenusContainer > button,
+.restMenusContainer > div {
+  display: none;
+}
