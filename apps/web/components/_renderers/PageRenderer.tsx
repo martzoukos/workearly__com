@@ -23,12 +23,12 @@ export default function PageRenderer() {
       <PreviewPanel />
       {header && <Header uniqueComponent={header} />}
       {variant === "Default" && <DefaultPage />}
-      {/*{variant === "Course" && <CoursePage />}
+      {variant === "Course" && <CoursePage />}
       {variant === "Course | Summer" && <CourseSummerPage />}
       {variant === "Job" && <JobPage />}
       {variant === "Category" && <CategoryPage />}
       {variant === "Post" && <PostPage />}
-      {variant === "Certificate" && <PersonPage />}*/}
+      {variant === "Certificate" && <PersonPage />}
       {variant === "Person" && <PersonPage />}
       {variant === "Framed" && <FramedPage />}
       {variant === "Playground" && <PlaygroundPage />}

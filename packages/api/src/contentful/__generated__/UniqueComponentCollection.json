@@ -1,8 +1,82 @@
 {
-  "__timestamp": 1754237942199,
-  "__hash": "56885c39b562ed571562ba924e4fb2bb6d0ef34a6c43a39b34bd2258166a17ee",
+  "__timestamp": 1754582987153,
+  "__hash": "91ff532053ca5cb1b64c27059100d8974ef375ec54a3b080898e30da3937c763",
   "total": 3,
   "items": [
+    {
+      "sys": {
+        "id": "2OD3ypyGyQvtILUH2vsmob",
+        "__typename": "Sys"
+      },
+      "__typename": "UniqueComponent",
+      "contentCollection": {
+        "items": [],
+        "__typename": "UniqueComponentContentCollection"
+      },
+      "variant": "Header",
+      "json": [
+        {
+          "name": "Courses",
+          "type": "menu",
+          "itemGroups": [
+            {
+              "name": "Our Specialized Programs",
+              "items": [
+                {
+                  "to": "/course/data-analyst-bootcamp",
+                  "name": "AI Data Analyst Bootcamp",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/project-management-bootcamp",
+                  "name": "Project Management Bootcamp",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/ai-business-school",
+                  "name": "AI & Business Analytics School",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/digital-marketing-bootcamp",
+                  "name": "AI Marketing Bootcamp",
+                  "type": "link"
+                },
+                {
+                  "to": "/courses/startup-summer-school",
+                  "name": "Startup School",
+                  "type": "link"
+                },
+                {
+                  "to": "/course/hr-bootcamp",
+                  "name": "HR Bootcamp by SHRM",
+                  "type": "link"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "to": "/mentors",
+          "name": "Mentors",
+          "type": "menu"
+        },
+        {
+          "to": "/about",
+          "name": "About",
+          "type": "menu"
+        },
+        {
+          "to": "/contact",
+          "name": "Contact",
+          "type": "menu"
+        }
+      ],
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "2mD5rZq6zbQUnPFp3g7Ucf",
@@ -59,39 +133,6 @@
           "instagram": "https://www.instagram.com/workearly.gr"
         }
       },
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2OD3ypyGyQvtILUH2vsmob",
-        "__typename": "Sys"
-      },
-      "__typename": "UniqueComponent",
-      "contentCollection": {
-        "items": [],
-        "__typename": "UniqueComponentContentCollection"
-      },
-      "variant": "Header",
-      "json": [
-        {
-          "to": "/mentors",
-          "name": "Mentors",
-          "type": "menu"
-        },
-        {
-          "to": "/about",
-          "name": "About",
-          "type": "menu"
-        },
-        {
-          "to": "/contact",
-          "name": "Contact",
-          "type": "menu"
-        }
-      ],
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []

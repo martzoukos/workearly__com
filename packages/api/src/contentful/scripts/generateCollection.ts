@@ -94,7 +94,7 @@ export default async function generateCollection<TData>({
 
   const newHash = generateHash(items);
 
-  if (newHash === cached.__hash) {
+  if (newHash === cached?.__hash) {
     console.log(`⏭️  Skipping ${name} (hash match, data unchanged)`);
     return;
   }

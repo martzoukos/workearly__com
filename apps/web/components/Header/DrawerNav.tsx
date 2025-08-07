@@ -14,12 +14,31 @@ type PropsType = {
 };
 
 export default function DrawerNav({ menus, className }: PropsType) {
+  const firstMenu = menus.at(0);
+
   return (
     <nav className={clsx(styles.root, className)}>
       <Link href="/">
         <Logo />
       </Link>
       <div className={styles.menusContainer}>
+        {firstMenu && (
+          <DrawerMenu
+            trigger={
+              <Button
+                aria-label={firstMenu.name}
+                variant={
+                  (firstMenu.variant ?? "Outlined") as ButtonProps["variant"]
+                }
+              >
+                {firstMenu.name}
+                <ChevronDown />
+              </Button>
+            }
+            itemGroups={firstMenu.itemGroups}
+            title={firstMenu.name}
+          />
+        )}
         <DrawerMenu
           trigger={
             <Button variant="Outlined">
@@ -28,7 +47,7 @@ export default function DrawerNav({ menus, className }: PropsType) {
           }
           title="Menu"
         >
-          {menus?.map((menu) => {
+          {menus?.slice(1).map((menu) => {
             if (menu.itemGroups) {
               return (
                 <DrawerMenu

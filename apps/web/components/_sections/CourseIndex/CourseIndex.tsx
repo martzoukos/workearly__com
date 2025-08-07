@@ -33,6 +33,7 @@ import {
   withDefault,
 } from "use-query-params";
 import styles from "./CourseIndex.module.scss";
+import { filter } from "lodash-es";
 
 type PropsType = {
   section: QueryItem["Section"];
@@ -49,25 +50,25 @@ export default function CourseIndex({ section, className }: PropsType) {
 
   const [categories, setCategories] = useQueryParam(
     "category",
-    withDefault(DelimitedArrayParam, [])
+    withDefault(DelimitedArrayParam, []),
   );
   const [durations, setDurations] = useQueryParam(
     "duration",
-    withDefault(DelimitedArrayParam, [])
+    withDefault(DelimitedArrayParam, []),
   );
   const [priceRanges, setPriceRanges] = useQueryParam(
     "price",
-    withDefault(DelimitedArrayParam, [])
+    withDefault(DelimitedArrayParam, []),
   );
   const [mentoring, setMentoring] = useQueryParam(
     "mentoring",
-    withDefault(StringParam, "")
+    withDefault(StringParam, ""),
   );
 
   let filteredPages = getReferences("Page").filter((page) =>
     page.contentCollection?.items.some(
-      (item) => item?.__typename === "CourseDetails"
-    )
+      (item) => item?.__typename === "CourseDetails",
+    ),
   );
 
   if (categories.length) {
@@ -75,7 +76,7 @@ export default function CourseIndex({ section, className }: PropsType) {
       const tags = getPageTags(page);
 
       return tags.some((tag) =>
-        categories.filter(isDefined).includes(tag.id as string)
+        categories.filter(isDefined).includes(tag.id as string),
       );
     });
   }
@@ -137,7 +138,7 @@ export default function CourseIndex({ section, className }: PropsType) {
         <>
           <FilterList
             type="checkbox"
-            title={translate("Category")}
+            title="Category"
             items={COURSE_CATEGORIES.map((category) => ({
               title: category.name as string,
               value: category.id as string,
@@ -150,7 +151,7 @@ export default function CourseIndex({ section, className }: PropsType) {
       )}
       <FilterList
         type="checkbox"
-        title={translate("Duration")}
+        title="Duration"
         items={DATA_MAP.durations.map((duration) => ({
           title: translate(duration),
           value: duration,
@@ -277,7 +278,9 @@ export default function CourseIndex({ section, className }: PropsType) {
             </Text>
           )}
         </div>
-        <Pagination pages={filteredPages} {...pagination} />
+        {filteredPages?.length > pagination.pageLimit && (
+          <Pagination pages={filteredPages} {...pagination} />
+        )}
       </div>
     </section>
   );

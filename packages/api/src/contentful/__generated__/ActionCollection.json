@@ -1,6 +1,6 @@
 {
-  "__timestamp": 1754240202779,
-  "__hash": "b54e3f1dec68cb48eaa85ce4c863abdd2ba123a081b905d4f63abc8d20798313",
+  "__timestamp": 1754586064371,
+  "__hash": "6818c454865d949f7b421baeb45d66b62a01f1c3167436d40e039ff639062fc0",
   "total": 42,
   "items": [
     {
@@ -235,10 +235,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/finance-summer-school-2025"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -259,10 +256,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/project-management-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -346,10 +340,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/ai-business-summer-school-by-shrm"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -391,10 +382,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/hack-the-football-data-and-programming-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -478,10 +466,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/startup-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -502,10 +487,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/hr-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -526,10 +508,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/ai-marketing-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {
@@ -550,10 +529,7 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "internal": {
-        "__typename": "Page",
-        "slug": "courses/ai-data-science-summer-school"
-      }
+      "internal": null
     },
     {
       "sys": {

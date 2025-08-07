@@ -12,15 +12,18 @@ type PropsType = {
 };
 
 export default function DropdownNav({ menus, className }: PropsType) {
+  const firstMenu = menus.at(0);
+
   return (
     <nav className={clsx(styles.root, className)}>
       <div className={styles.logoContainer}>
         <Link href="/">
           <Logo />
         </Link>
+        {firstMenu && <Menu menu={firstMenu} />}
       </div>
       <div className={styles.restMenusContainer}>
-        {menus?.map((menu) => {
+        {menus?.slice(1).map((menu) => {
           if (menu.to) {
             return (
               <Button

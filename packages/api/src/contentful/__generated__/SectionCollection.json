@@ -1,8 +1,99 @@
 {
-  "__timestamp": 1754240217009,
-  "__hash": "bdf6eb1f132d13c62fa7b4886ff49c4b7639c579f7aae3fddd5a30848c09d650",
+  "__timestamp": 1754586119324,
+  "__hash": "bb9e094269ee071c472b3118b6f68e82b7981bcbaf9204cf898d3d12bb30640b",
   "total": 353,
   "items": [
+    {
+      "sys": {
+        "id": "2aG4lmrhAIhK7nFdMC9oYY",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": "Light",
+      "title": "Unlock Your Full Potential with Interactive, Role-Playing Learning",
+      "supertitle": null,
+      "text": "Education tailored to you. Experience knowledge, apply it in practice.",
+      "titleSize": null,
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Hero",
+      "metadata": {
+        "height": "680px",
+        "assetWidth": "55%"
+      },
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1vBTUjVRP1Qd0ZH39IB6n4",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/wnfwmvn24siy/1vBTUjVRP1Qd0ZH39IB6n4/f0eeb0a6ae24935a683165cab3d775c2/Anim_Picking__1_.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Workearly Main Animation Desktop",
+            "description": ""
+          },
+          {
+            "sys": {
+              "id": "iVL2SOj98i7Kuk39yBYPm",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://assets.ctfassets.net/wnfwmvn24siy/iVL2SOj98i7Kuk39yBYPm/d963d5562d52e9310b70db803b7de034/Anim_Picking_Mobile.json",
+            "width": null,
+            "height": null,
+            "contentType": "application/json",
+            "title": "Workearly Main Animation Mobile",
+            "description": ""
+          }
+        ]
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3KTtHtGy7cm21uuXVgr2IU",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "7ztSt3dMJ1YegCUNfvsv4i",
@@ -1081,86 +1172,6 @@
     },
     {
       "sys": {
-        "id": "2aG4lmrhAIhK7nFdMC9oYY",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": "Light",
-      "title": "Unlock Your Full Potential with Interactive, Role-Playing Learning",
-      "supertitle": null,
-      "text": "Education tailored to you. Experience knowledge, apply it in practice.",
-      "titleSize": null,
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Hero",
-      "metadata": {
-        "height": "680px",
-        "assetWidth": "55%"
-      },
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1vBTUjVRP1Qd0ZH39IB6n4",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/wnfwmvn24siy/1vBTUjVRP1Qd0ZH39IB6n4/f0eeb0a6ae24935a683165cab3d775c2/Anim_Picking__1_.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Workearly Main Animation Desktop",
-            "description": ""
-          },
-          {
-            "sys": {
-              "id": "iVL2SOj98i7Kuk39yBYPm",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://assets.ctfassets.net/wnfwmvn24siy/iVL2SOj98i7Kuk39yBYPm/d963d5562d52e9310b70db803b7de034/Anim_Picking_Mobile.json",
-            "width": null,
-            "height": null,
-            "contentType": "application/json",
-            "title": "Workearly Main Animation Mobile",
-            "description": ""
-          }
-        ]
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1zYiNqo19kYoJZYbBg7dS5",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "4X92qYWaL5SeWiDCjVLJDu",
         "__typename": "Sys"
       },
@@ -1725,40 +1736,8 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "7CvQkwnJc8Iw9RSkJfu6rv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "780bkgNCiByBmuIEIElLOf",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null
         ]
       }
     },
@@ -1805,6 +1784,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -1817,72 +1800,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6MGVrSQgOjVhsiLUx6d4nQ",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6tv7R9TDF5UnfSD8GfrxxT",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "19QATCHWwVoh73vwjuVARr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -1967,40 +1884,8 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "4sEBPJ0KItkGV3ICn91VHr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2VAv4E0piDqYEiNnwXRf1i",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null
         ]
       }
     },
@@ -2047,6 +1932,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -2059,67 +1948,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7h2vStHAqnpN2x58Voo3ED",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7htn4efe7NCMY7e62K3FRR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1zIE1TpHcxVSDCxyXQ0Wiy",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -2168,6 +1996,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -2180,67 +2012,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7CvQkwnJc8Iw9RSkJfu6rv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2QmApfGmEPhhPrGqwBjjR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1wQnUOM7qyq9eovgfiUhmU",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -2342,23 +2113,7 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "58JIDAlHOtAnaJh3hz4tlE",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null
         ]
       }
     },
@@ -5489,28 +5244,7 @@
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
-          {
-            "sys": {
-              "id": "2T5ABOw9vtvaqjrMYJnluc",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
+          null,
           {
             "sys": {
               "id": "M0sgJIb4U3q80jPlJSAsl",
@@ -5528,23 +5262,7 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "6tv7R9TDF5UnfSD8GfrxxT",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null
         ]
       }
     },
@@ -5577,6 +5295,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -5589,62 +5311,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5pjqsszO0XACyOTk2Ce8s2",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7CvQkwnJc8Iw9RSkJfu6rv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7htn4efe7NCMY7e62K3FRR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -7580,220 +7246,18 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "5pjqsszO0XACyOTk2Ce8s2",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7effNX1Xnf1TXjmIRAq0CS",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5WibBBPUW2O3pnHhNo9Vzp",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "4av7aZNjYFEmHKJtIHl55r",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2eEP4NOo9VXfcohWonT8kT",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2T5ABOw9vtvaqjrMYJnluc",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1B2Mo6FCKz1hqShXZVPU6z",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2UfwzxJ6Hj2qRiH1gersEy",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2uKbaCEd4A67yYMNRAbptG",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6jIKSjthdk89A9lkpEuehH",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "PbSeEc9om3VBCg2DMxGyx",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5ld9UwAkOAkq4glDxAcrfU",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
         ]
       }
     },
@@ -7882,74 +7346,10 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "1LyjFKmtJAgWd2f9059YSD",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDigitalMarketing",
-                  "name": "Course Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2iWHWuvAfk7hw3TPomo4jF",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDigitalMarketing",
-                  "name": "Course Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5wCKBU3VtjzwTSu2yYsij9",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1Mzmw4dzv1pZQ5KqbQrhoC",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null,
+          null,
+          null
         ]
       }
     },
@@ -8002,6 +7402,10 @@
           }
         ]
       },
+      "contentCollection": {
+        "items": [null, null, null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -8014,106 +7418,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "jgQVwV0Ze15Ud3PMFGEIP",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "4OnHtbxqOTfyiKomyXeBT4",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "43yUaqZlMgzd1mSCl7SwUM",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7ywxgzLDyM5N7oeFBAfn4x",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "133lHIJGNnTlBr3ST8QicH",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -8168,6 +7472,10 @@
           }
         ]
       },
+      "contentCollection": {
+        "items": [null, null, null, null, null, null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -8180,162 +7488,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7htn4efe7NCMY7e62K3FRR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7h2vStHAqnpN2x58Voo3ED",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1zIE1TpHcxVSDCxyXQ0Wiy",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7CoMcTS148Uu2F69GnllZt",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "26EcyZUarSASwY7zPngABH",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "22GsaFV9oyVL74zZwNYOii",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6h4jmYRiKkahDajS8NXKtN",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "3fAqTEW7QLfIJyKB3kW0cl",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -8390,6 +7542,10 @@
           }
         ]
       },
+      "contentCollection": {
+        "items": [null, null, null, null, null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -8402,135 +7558,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7CvQkwnJc8Iw9RSkJfu6rv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2QmApfGmEPhhPrGqwBjjR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2cRUiMKHl2XNojQN720N2c",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6h4jmYRiKkahDajS8NXKtN",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5Xa48W0vqup0cMomiycNcl",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "3fAqTEW7QLfIJyKB3kW0cl",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1wQnUOM7qyq9eovgfiUhmU",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -8604,50 +7631,8 @@
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
-          {
-            "sys": {
-              "id": "7effNX1Xnf1TXjmIRAq0CS",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2T5ABOw9vtvaqjrMYJnluc",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
+          null,
+          null,
           {
             "sys": {
               "id": "5wSiZMtYoRHypfDY9D2pjW",
@@ -8665,50 +7650,8 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "7h2vStHAqnpN2x58Voo3ED",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "22GsaFV9oyVL74zZwNYOii",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null
         ]
       }
     },
@@ -20065,6 +19008,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null, null, null, null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -20077,212 +19024,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7Kg9qPPglj0KOXQUYNGQno",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5vzH1cABhDiKh80s3HyhGh",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2talblHsoC05rAya7MHQ5D",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "i5d3bwWRYqBUb5hX4sgge",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryDigitalMarketing",
-                  "name": "Course Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "35PXS2BxwDnvlHiFHF9ryF",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryEntrepreneurship",
-                  "name": "Course Category: Entrepreneurship",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1Gs2UWd8vqiXAiYQHw9XOA",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "255ELHWqFMgp19b9HJVGas",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "0lFjLOqQVcRw8W7h5mIRl",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -20995,6 +19736,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null, null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -21007,168 +19752,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7Kg9qPPglj0KOXQUYNGQno",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5vzH1cABhDiKh80s3HyhGh",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2talblHsoC05rAya7MHQ5D",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "i5d3bwWRYqBUb5hX4sgge",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryDigitalMarketing",
-                  "name": "Course Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "35PXS2BxwDnvlHiFHF9ryF",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryEntrepreneurship",
-                  "name": "Course Category: Entrepreneurship",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1Gs2UWd8vqiXAiYQHw9XOA",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryAi",
-                  "name": "Course Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySummerSchools",
-                  "name": "Course Category: Summer Schools",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -29713,6 +28296,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -29725,67 +28312,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7htn4efe7NCMY7e62K3FRR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1zIE1TpHcxVSDCxyXQ0Wiy",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "26EcyZUarSASwY7zPngABH",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryIt",
-                  "name": "Course Category: IT",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -29942,40 +28468,8 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "58JIDAlHOtAnaJh3hz4tlE",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "780bkgNCiByBmuIEIElLOf",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null
         ]
       }
     },
@@ -30022,6 +28516,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -30034,62 +28532,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "780bkgNCiByBmuIEIElLOf",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6UM47U8qzZwMO4MsSNVebD",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1Mzmw4dzv1pZQ5KqbQrhoC",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -30210,6 +28652,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -30222,67 +28668,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "19QATCHWwVoh73vwjuVARr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6UM47U8qzZwMO4MsSNVebD",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5wCKBU3VtjzwTSu2yYsij9",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -30331,6 +28716,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -30343,67 +28732,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1wQnUOM7qyq9eovgfiUhmU",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7CvQkwnJc8Iw9RSkJfu6rv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2QmApfGmEPhhPrGqwBjjR",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -30524,6 +28852,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -30536,62 +28868,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4sEBPJ0KItkGV3ICn91VHr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "2uKbaCEd4A67yYMNRAbptG",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1VyagzQ9crfrwVV2YmOULh",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -30659,40 +28935,8 @@
       "contentCollection": {
         "__typename": "SectionContentCollection",
         "items": [
-          {
-            "sys": {
-              "id": "76G5K0nxoDtUlPDCX1MBhm",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1h4b839lswffiAFx0g2mHy",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
+          null,
+          null,
           {
             "sys": {
               "id": "b52aCJfDG0Iv3sFm0LtYD",
@@ -30756,6 +29000,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -30768,67 +29016,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6MGVrSQgOjVhsiLUx6d4nQ",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6tv7R9TDF5UnfSD8GfrxxT",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1e0yuDd2ULrzqbV7mLJE6X",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryFinance",
-                  "name": "Course Category: Finance",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -30877,6 +29064,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -30889,67 +29080,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4OnHtbxqOTfyiKomyXeBT4",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "jgQVwV0Ze15Ud3PMFGEIP",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHumanSkills",
-                  "name": "Course Category: Human skills",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "5Bys9Wf5IBxvjlEvsSt2fI",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryBusinessAnalytics",
-                  "name": "Course Category: Business",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -31070,6 +29200,10 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "contentCollection": {
+        "items": [null, null, null],
+        "__typename": "SectionContentCollection"
+      },
       "actionsCollection": {
         "__typename": "SectionActionsCollection",
         "items": [
@@ -31082,62 +29216,6 @@
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2VAv4E0piDqYEiNnwXRf1i",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "W8PfOEuDhzMMXi8rMv34b",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "1VyagzQ9crfrwVV2YmOULh",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
             }
           }
         ]
@@ -31438,40 +29516,8 @@
               ]
             }
           },
-          {
-            "sys": {
-              "id": "1h4b839lswffiAFx0g2mHy",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryDataScience",
-                  "name": "Course Category: Data Science",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "7CvQkwnJc8Iw9RSkJfu6rv",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategorySports",
-                  "name": "Course Category: Sports",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
+          null,
+          null
         ]
       }
     },
