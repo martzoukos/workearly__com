@@ -1,8 +1,1357 @@
 {
-  "__timestamp": 1754732383519,
-  "__hash": "8b7b0a19df02794bca95d90a388eca59630e0bd9ebfd40d287f3b9d04a6eaf58",
+  "__timestamp": 1754757153730,
+  "__hash": "c5a373b9a86861be425584908f2fa75663a0b94df1ebe05cdc3c3d3862a2f63d",
   "total": 353,
   "items": [
+    {
+      "sys": {
+        "id": "1DSO3kMmaSMtutY1SgTIg1",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Recognized Certification",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4vjyxabfHtUGMsK62huqyr",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHumanSkills",
+                  "name": "Certificate Category: Human skills",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "xn6aBqJNZ5heatJwdd49C",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "6 Courses in 1 Bootcamp",
+      "supertitle": null,
+      "text": "The program consists of 6 mandatory modules, designed to provide a comprehensive learning experience:",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6AwtN2FoFq4FUooy12VLwS",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "xwrJwJM6evlxiXHVdcKqZ",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5vPNGJKPwZAyFIvvy2gkgd",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4DSLeJba2MUn43A1f3Shx4",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6Fvvlba0zMNsLzl8IV9RrJ",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2Zm8v1aV5fgBI9H5SHQ62S",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3xVypcg5Lvp0k9k8DJUVce",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Recognized Certification",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "6vVUkAgSjGcg8I3Coyr6ba",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryBusiness",
+                  "name": "Certificate Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelDiploma",
+                  "name": "Certificate Level: Diploma",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "54l1W30N48pk8qXGdXYsqI",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Recognized Certification",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2CdkDFPmi8oqEGP58G3Wnb",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHr",
+                  "name": "Certificate Category: HR",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelMicroCredentials",
+                  "name": "Certificate Level: Micro-credentials",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "6G7kBIjHW2yWUkBrFjJFFX",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryHr",
+                  "name": "Certificate Category: HR",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelDiploma",
+                  "name": "Certificate Level: Diploma",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "1TgPxUK7FdzzfKzrdqHuwG",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "8 Courses in 1 Bootcamp",
+      "supertitle": null,
+      "text": "The program consists of 8 mandatory modules and a final project, designed to provide a comprehensive learning experience:",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "JJTk6ACSVbEWWmDHmWijo",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "153cpBZdYEODKbrHHBmMOK",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "31WbsQE6o0U0isufpuVQ2r",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6cagzWeN5a1KISlty0Rtm5",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7pcBn9SVt54DLZs3VZTFQ5",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "56SnkFxszM8dZrE50kJlss",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "kiXwRiybYwJbFoI0HKPLT",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "tl7LLmiNO1e5PBS490IbV",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4kSnx03AQ7ZV7WbotEk4Az",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Recognized Certification",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "HioOOam83cZrt8mRo44du",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryDigitalMarketing",
+                  "name": "Certificate Category: Digital Marketing",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelDiploma",
+                  "name": "Certificate Level: Diploma",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          },
+          {
+            "sys": {
+              "id": "4U4GWU7NvLxLVSF51YMurD",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryDigitalMarketing",
+                  "name": "Certificate Category: Digital Marketing",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelDiploma",
+                  "name": "Certificate Level: Diploma",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3JVo2sbD1xgbdZVAfN1dh",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "8 Courses Focused on Artificial Intelligence",
+      "supertitle": null,
+      "text": "The program consists of 8 mandatory modules and a final project, designed to provide a comprehensive learning experience:",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3ELXhNvIKroqeFFrtmGlZr",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "41TX1isLYu1qQupy7UF7zg",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4g2vcbxt1nyxLLF0D7MQyl",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "Uarq83un8YicEYEArvGT0",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "78VhmxnXXHVxuLFZ5fod5P",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1gC22N1h3Q8LBGGNEsIgXJ",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5FIKTX9jLIi3LxCIO6G0mn",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7JPCxyK3YdtCBZxOQPI69K",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5kAkAVkgeQPdZbE14E5ebN",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "11 Courses in 1 Bootcamp",
+      "supertitle": null,
+      "text": "The program consists of 11 mandatory modules and a final project, designed to provide a comprehensive learning experience.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3OOTpczBsA1naMQYTnUhB3",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1QU1ku1YbhaKTFVkbkoqYE",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "77CQNWgoE4ORWPtGFcBhY2",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1QJF3dlQO78O7vZS77olPN",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "JQqQM6nK18boGhZAo12tp",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3PlG5QoKa71LiNrV1Eh87O",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1mDyx4KFZkJj0DYoxekwio",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6CsIItlT4TcKCmUDS5BClg",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4Q2qBIrT2KtkbJnVpUktBo",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7H32e9fF9gKIRrVA1zLqWi",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4X92qYWaL5SeWiDCjVLJDu",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Narrow",
+      "theme": null,
+      "title": "FAQ",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2Szo5RC5RDqo36YRKAG4cG",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "1304hLhrtkDPwNLYxAOxL9",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1a0THIOSHIwSxrFwjzctVW",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1PXvaehygWdiDKiJiK0i3s",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "SSEo2GbQQo4MapwqFmp2U",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2QGPMkL6aUo8J8C35OgmcD",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "73cqwWfdFOA9cMU4c5UgDH",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1yxdcgrlqCEl5UJvVQkD45",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "iPtUb1lm1B67Tm1JovOaE",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4PnbkwZeukh0JwZFsAtnzH",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6HId8era7rOxwM67TctGDf",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1eTJOYtXnQpecZvsrnTI70",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "SfoYkU3wkLn7Y10Lwpbq2",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "21uLNzkuZspVh6otpFO0aY",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2i83Npnm3x2xtYc2l63ybr",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Recognized certification",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2PvJHIvk2iLCUBIub0Nh1r",
+              "__typename": "Sys"
+            },
+            "__typename": "Page",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": [
+                {
+                  "id": "certificateCategoryAi",
+                  "name": "Certificate Category: AI",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateCategoryBusiness",
+                  "name": "Certificate Category: Business",
+                  "__typename": "ContentfulTag"
+                },
+                {
+                  "id": "certificateLevelCertificate",
+                  "name": "Certificate Level: Certificate",
+                  "__typename": "ContentfulTag"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6BrNRKWRMu7CgQ65bGaI7T",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Who the program is for",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "Title and Text",
+      "cardsCount": 2,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "27Lied89h4WwubMnLDo3Qf",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7jmzLbWskDelXcegXoeleY",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "23ibCfiE6UJSkkPRfzeFRZ",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3saWXkIVXG94mcZffHnJzv",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "6w9Bnne3ganbXGQcp2cPFy",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "5 Courses in 1 School",
+      "supertitle": null,
+      "text": "The program consists of 5 mandatory modules and a final project, designed to provide a comprehensive learning experience.",
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Accordion",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "700qkNkd3a5iJVAftcUarv",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "32rZ7epBuEsSMHELHytzd",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7fzWxI5hwQuxWUTO5gmDc7",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7l2psbnuzoZA57mvuSJpOZ",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3i9udciWMhQdEAjvarpsrw",
+              "__typename": "Sys"
+            },
+            "__typename": "AccordionCard",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "3v7Q94cuPM05B0hBf0DzId",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "alignment": "Left",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "What's included",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h4",
+      "titleTagOverride": null,
+      "cardVariant": "Icon and Text",
+      "cardsCount": 3,
+      "cardTheme": null,
+      "variant": "Card Hybrid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "SectionContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "uVJi90nj4SOo3KNKvdVK5",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "47SQm0kzGweL6RuYnlMc63",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7KS6X6duJm7yCq7HtxTLtF",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1UXv1ajaUIBzz59UUGnZb7",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7uMZDhCZde0W8ENs4hLdeP",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7K7Nq6NAfyMpCQsmntMhnT",
+              "__typename": "Sys"
+            },
+            "__typename": "Card",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "4EFR5KmUL3Df3ue1Hcnlwy",
@@ -1459,211 +2808,6 @@
               "__typename": "Sys"
             },
             "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4X92qYWaL5SeWiDCjVLJDu",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Narrow",
-      "theme": null,
-      "title": "Συχνές Ερωτήσεις ",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2Szo5RC5RDqo36YRKAG4cG",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "1304hLhrtkDPwNLYxAOxL9",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1a0THIOSHIwSxrFwjzctVW",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1PXvaehygWdiDKiJiK0i3s",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "SSEo2GbQQo4MapwqFmp2U",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2QGPMkL6aUo8J8C35OgmcD",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "73cqwWfdFOA9cMU4c5UgDH",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1yxdcgrlqCEl5UJvVQkD45",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "iPtUb1lm1B67Tm1JovOaE",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4PnbkwZeukh0JwZFsAtnzH",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6HId8era7rOxwM67TctGDf",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1eTJOYtXnQpecZvsrnTI70",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "SfoYkU3wkLn7Y10Lwpbq2",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2dNIc2Mn6TutMy0L1Tl3ut",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "21uLNzkuZspVh6otpFO0aY",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -8009,558 +9153,6 @@
     },
     {
       "sys": {
-        "id": "1TgPxUK7FdzzfKzrdqHuwG",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "8 Courses σε 1 Bootcamp",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 8 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "JJTk6ACSVbEWWmDHmWijo",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "153cpBZdYEODKbrHHBmMOK",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "31WbsQE6o0U0isufpuVQ2r",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6cagzWeN5a1KISlty0Rtm5",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7pcBn9SVt54DLZs3VZTFQ5",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "56SnkFxszM8dZrE50kJlss",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "kiXwRiybYwJbFoI0HKPLT",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "tl7LLmiNO1e5PBS490IbV",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "5kAkAVkgeQPdZbE14E5ebN",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "11 Courses σε 1 Bootcamp",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 11 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3OOTpczBsA1naMQYTnUhB3",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1QU1ku1YbhaKTFVkbkoqYE",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "77CQNWgoE4ORWPtGFcBhY2",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1QJF3dlQO78O7vZS77olPN",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "JQqQM6nK18boGhZAo12tp",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3PlG5QoKa71LiNrV1Eh87O",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1mDyx4KFZkJj0DYoxekwio",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6CsIItlT4TcKCmUDS5BClg",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4Q2qBIrT2KtkbJnVpUktBo",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7H32e9fF9gKIRrVA1zLqWi",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "xn6aBqJNZ5heatJwdd49C",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "9 Courses σε 1 Bootcamp",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 9 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "7kqLcTwyGh2UmKR8g8YIK8",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1QzkX9LdcmB96CWStApgmg",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "159p1gIYmAIlcEWgrmyEQP",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1joEz9YYahNA3beZ7DUJU9",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2163141EDP93Fme9urpyyt",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4kVxS796l1cBYjUKvAhRy",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6lQgvI54fRcZ3pmGDiheHI",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1aduf1skZyAI3zyIFDDkoT",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5yWC2QCOxobhtxS7y8gx3i",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "3JVo2sbD1xgbdZVAfN1dh",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "8 Μαθήματα με επίκεντρο την Τεχνητή Νοημοσύνη",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 8 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3ELXhNvIKroqeFFrtmGlZr",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "41TX1isLYu1qQupy7UF7zg",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4g2vcbxt1nyxLLF0D7MQyl",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "Uarq83un8YicEYEArvGT0",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "78VhmxnXXHVxuLFZ5fod5P",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1gC22N1h3Q8LBGGNEsIgXJ",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5FIKTX9jLIi3LxCIO6G0mn",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7JPCxyK3YdtCBZxOQPI69K",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "4hj1pA2JgjqVFUW1TXUTod",
         "__typename": "Sys"
       },
@@ -9046,100 +9638,6 @@
           {
             "sys": {
               "id": "UmUk6VTJA2fUS8TzUZzuL",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "6w9Bnne3ganbXGQcp2cPFy",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "5 Courses σε 1 School",
-      "supertitle": null,
-      "text": "Το πρόγραμμα αποτελείται από 5 υποχρεωτικές ενότητες και ένα final project, σχεδιασμένο να παρέχει μια ολοκληρωμένη εμπειρία εκπαίδευσης:",
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Accordion",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "700qkNkd3a5iJVAftcUarv",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "32rZ7epBuEsSMHELHytzd",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7fzWxI5hwQuxWUTO5gmDc7",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7l2psbnuzoZA57mvuSJpOZ",
-              "__typename": "Sys"
-            },
-            "__typename": "AccordionCard",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3i9udciWMhQdEAjvarpsrw",
               "__typename": "Sys"
             },
             "__typename": "AccordionCard",
@@ -16123,172 +16621,6 @@
     },
     {
       "sys": {
-        "id": "54l1W30N48pk8qXGdXYsqI",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Αναγνωρισμένη Πιστοποίηση",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2CdkDFPmi8oqEGP58G3Wnb",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryHr",
-                  "name": "Certificate Category: HR",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelMicroCredentials",
-                  "name": "Certificate Level: Micro-credentials",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "6G7kBIjHW2yWUkBrFjJFFX",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryHr",
-                  "name": "Certificate Category: HR",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelDiploma",
-                  "name": "Certificate Level: Diploma",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4kSnx03AQ7ZV7WbotEk4Az",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Αναγνωρισμένη Πιστοποίηση",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "HioOOam83cZrt8mRo44du",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryDigitalMarketing",
-                  "name": "Certificate Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelDiploma",
-                  "name": "Certificate Level: Diploma",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "4U4GWU7NvLxLVSF51YMurD",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryDigitalMarketing",
-                  "name": "Certificate Category: Digital Marketing",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelDiploma",
-                  "name": "Certificate Level: Diploma",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "6HGNd9PYKgejJNMP3p2rAB",
         "__typename": "Sys"
       },
@@ -22166,67 +22498,6 @@
     },
     {
       "sys": {
-        "id": "1DSO3kMmaSMtutY1SgTIg1",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Αναγνωρισμένη Πιστοποίηση",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "4vjyxabfHtUGMsK62huqyr",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryHumanSkills",
-                  "name": "Certificate Category: Human skills",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelCertificate",
-                  "name": "Certificate Level: Certificate",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "2darHWu13M7GluDyctjoht",
         "__typename": "Sys"
       },
@@ -27422,72 +27693,6 @@
     },
     {
       "sys": {
-        "id": "2i83Npnm3x2xtYc2l63ybr",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Αναγνωρισμένη Πιστοποίηση",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2PvJHIvk2iLCUBIub0Nh1r",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryAi",
-                  "name": "Certificate Category: AI",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateCategoryBusiness",
-                  "name": "Certificate Category: Business",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelCertificate",
-                  "name": "Certificate Level: Certificate",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "K8JS1ecXG4gCrmTpH99P4",
         "__typename": "Sys"
       },
@@ -27656,67 +27861,6 @@
                 {
                   "id": "certificateCategoryFinance",
                   "name": "Certificate Category: Finance",
-                  "__typename": "ContentfulTag"
-                },
-                {
-                  "id": "certificateLevelDiploma",
-                  "name": "Certificate Level: Diploma",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "3xVypcg5Lvp0k9k8DJUVce",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Αναγνωρισμένη Πιστοποίηση",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "6vVUkAgSjGcg8I3Coyr6ba",
-              "__typename": "Sys"
-            },
-            "__typename": "Page",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "certificateCategoryBusiness",
-                  "name": "Certificate Category: Business",
                   "__typename": "ContentfulTag"
                 },
                 {
@@ -32454,194 +32598,6 @@
             "contentType": "image/svg+xml",
             "title": "Alphabank Logo",
             "description": null
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "6BrNRKWRMu7CgQ65bGaI7T",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Σε ποιους απευθύνεται το πρόγραμμα",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "Title and Text",
-      "cardsCount": 2,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "27Lied89h4WwubMnLDo3Qf",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7jmzLbWskDelXcegXoeleY",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "23ibCfiE6UJSkkPRfzeFRZ",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3saWXkIVXG94mcZffHnJzv",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "3v7Q94cuPM05B0hBf0DzId",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "alignment": "Left",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Τι περιλαμβάνει",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h4",
-      "titleTagOverride": null,
-      "cardVariant": "Icon and Text",
-      "cardsCount": 3,
-      "cardTheme": null,
-      "variant": "Card Hybrid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "SectionContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "uVJi90nj4SOo3KNKvdVK5",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "47SQm0kzGweL6RuYnlMc63",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7KS6X6duJm7yCq7HtxTLtF",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1UXv1ajaUIBzz59UUGnZb7",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7uMZDhCZde0W8ENs4hLdeP",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7K7Nq6NAfyMpCQsmntMhnT",
-              "__typename": "Sys"
-            },
-            "__typename": "Card",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
           }
         ]
       }

@@ -1,8 +1,426 @@
 {
-  "__timestamp": 1754732378784,
-  "__hash": "2f2047c2259b876b244a518402b817cc3f3a2080cf62fd15d9a2502209924406",
+  "__timestamp": 1754757149028,
+  "__hash": "b7129333e19fe2212a484e7568d2b6867e57afdd37b2c706f5bfc598f2d098b5",
   "total": 124,
   "items": [
+    {
+      "sys": {
+        "id": "5SbeXuEZIbCVrHmgiEjbVG",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Holders of this certification have practical experience and a solid understanding of entrepreneurship, having worked on shaping and evaluating startup ideas, developing sustainable business models, exploring product–market fit, and creating complete pitch decks and Go-To-Market (GTM) strategies. During the program, they participated in team projects, collaborated with mentors, founders, and investors, and presented their ideas to real business panels. They developed skills in managing risk, uncertainty, and rapid change—core elements of startup culture—while also cultivating expertise in fundraising, startup storytelling, early-stage marketing, and pitching. They are equipped to contribute meaningfully as founders or key members of startups or innovation-driven teams. This certification serves as proof of their entrepreneurial mindset, strategic thinking, and ability to turn ideas into reality.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "Startup Summer School Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Holders of this certification have practical experience and a solid understanding of entrepreneurship, having worked on shaping and evaluating startup ideas.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3XNnrmC1rh30FbK2GgKNCb",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3XNnrmC1rh30FbK2GgKNCb/de77ba5534ad095d64e9c68c5fc6f2fb/Badge_-_Summer_-_Startup_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - Startup Summer School",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2CJCvSSyBWlukIsw6NZOtG",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Holders of this certification have a comprehensive understanding of the role and skills of a Project Manager. They are capable of managing Project Planning, Risk Management, Stakeholder Communication, and Agile & Scrum Methodologies, ensuring the successful execution and completion of projects. They have demonstrated advanced knowledge and practical experience in using project management tools, analyzing KPIs, and implementing time and resource management strategies. As Diploma holders, they can lead teams, optimize processes, and apply data-driven decision-making for optimal project management in dynamic business environments.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "Project Manager",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Holders of this certification have a comprehensive understanding of the role and skills of a Project Manager.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "6z8ld8FVq31Qo1N7OOEkRB",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/6z8ld8FVq31Qo1N7OOEkRB/71ad8438f8de00958663017c448443d5/Badge_-_3_Stars_-_Project_Manager.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Project Manager",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4zYbcvOkLt3lRzVEV3L2D5",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Holders of this certification have a comprehensive understanding of the role and skills of an HR Professional. They are capable of successfully managing HR operations, Talent Acquisition, HR Metrics & Analytics, Learning & Development, as well as leveraging Artificial Intelligence (AI) in HR to improve recruitment and employee management processes. They have demonstrated advanced knowledge and practical experience in strategic human resource management, using HR Analytics, AI-driven recruiting tools, and modern assessment techniques to make data-driven decisions. As Diploma holders, they can integrate AI into HR, automate HR processes, and enhance organizational development and corporate culture through innovative strategies.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "HR Professional",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Holders of this certification have a comprehensive understanding of the role and skills of an HR Professional.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "69yvr4btf7vMSq62mHY3vI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/69yvr4btf7vMSq62mHY3vI/3f5f1d703977a62738aa70be963c7179/Badge_-_3_Stars_-_HR_Professional.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - HR Professional",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "5h5RTj9jKKwxgjm9INJ0ZK",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [
+                    {
+                      "type": "bold"
+                    }
+                  ],
+                  "value": "Holders of the AI Marketing Specialist Certification",
+                  "nodeType": "text"
+                },
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": " possess specialized knowledge and applied skills in using artificial intelligence to optimize digital marketing strategies. They combine core marketing principles with modern AI technologies, developing effective prompts for content, campaigns, and audience targeting through various tools. They are capable of designing and executing SEO, performance, and social media marketing campaigns with the support of AI-driven tools, analyzing consumer behavior data, and extracting commercial insights using analytics. They create and optimize content for multiple channels, apply automation techniques in email marketing, and manage paid campaigns (PPC, retargeting) with a performance-driven approach. At the same time, they cultivate soft skills such as public speaking, collaboration in hybrid work environments, and professional presence on LinkedIn. This certification confirms their ability to leverage artificial intelligence across the full spectrum of digital marketing, delivering innovative solutions to both businesses and individual clients.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "ΑΙ Marketing Specialist",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "By the end of the program, participants will be able to: Understand the fundamentals of Data Science and the statistical concepts that support analysis.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "73vjBZWAOs5Jkix4oCsGIf",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/73vjBZWAOs5Jkix4oCsGIf/b7a3a547b5c0e65e6cd77fa8b4f91408/AI_Marketing_Professional.png",
+        "width": 960,
+        "height": 540,
+        "contentType": "image/png",
+        "title": "AI Marketing Professional",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "Pf56UmnXszqcdfrKQLbMP",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Holders of this certification have a comprehensive understanding of the role and skills of a Digital Marketing Specialist. They are capable of designing, implementing, and optimizing digital marketing strategies by leveraging data and modern tools. They have demonstrated advanced knowledge and practical experience in SEO & SEM, social media marketing, content marketing, paid advertising, email marketing, data analytics, and marketing automation. As Diploma holders, they can create and manage effective campaigns, analyze performance, and make data-driven decisions to optimize digital presence and increase business performance.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "Digital Marketing Specialist",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Holders of this certification have a comprehensive understanding of the role and skills of a Digital Marketing Specialist.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "65yT1Tk5zEZ5gLD9auCa6T",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/65yT1Tk5zEZ5gLD9auCa6T/348cb18a417148d7f77541a4e938fb20/Badge_-_3_Stars_-_Digital_Marketing_Specialist.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Digital Marketing Specialist",
+        "description": null
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "58c7dvIrqUejqZqKDu2wHd",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Holders of the AI Data Analyst Certification possess practical knowledge and applied experience in modern data analysis, combining the core principles of Data Science with advancements in Artificial Intelligence. They are capable of managing databases and writing advanced SQL queries for analysis, automation, and extraction of business insights; creating interactive dashboards in Power BI by leveraging AI features for forecasting and visualization; and processing complex datasets using Python and Excel. In addition, they apply data scaling and synthetic data generation techniques, craft effective prompts for LLMs such as ChatGPT, and incorporate ethical principles into AI usage. This certification confirms their readiness to contribute meaningfully to data-driven projects, both in corporate environments and freelance collaborations.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI Data Analyst Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "By the end of the program, participants will be able to: Understand the fundamentals of Data Science and the statistical concepts that underpin analysis.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "41amXBisT8zntqNxiSRpYy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/41amXBisT8zntqNxiSRpYy/3ab99da8bdf88cd887c362e194eeaed8/Αντίγραφο_του_Certificate_4.png",
+        "width": 960,
+        "height": 540,
+        "contentType": "image/png",
+        "title": "Certificate 1 2",
+        "description": ""
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "4UVg2qn2P81zcbdwvRa2J4",
@@ -19,7 +437,7 @@
                 {
                   "data": {},
                   "marks": [],
-                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός Data Scientist. Είναι ικανοί να διεξάγουν Data Analysis, Reporting και Data Visualization, εφαρμόζοντας προηγμένες τεχνικές με εξειδικευμένα εργαλεία. Έχουν αποδείξει υψηλού επιπέδου γνώση και εξειδίκευση σε Python for Data Analysis, Databases - SQL και reporting tools. Ως κάτοχοι του Diploma, μπορούν να χρησιμοποιούν με επιτυχία τα εργαλεία και τις βέλτιστες πρακτικές της επιστήμης δεδομένων, συμβάλλοντας στρατηγικά στη λήψη αποφάσεων μέσω data-driven insights. ",
+                  "value": "Holders of this certification have a comprehensive understanding of the role and skills of a Data Scientist. They are capable of conducting Data Analysis, Reporting, and Data Visualization, applying advanced techniques with specialized tools. They have demonstrated high-level knowledge and expertise in Python for Data Analysis, Databases – SQL, and reporting tools. As Diploma holders, they can successfully apply the tools and best practices of data science, contributing strategically to decision-making through data-driven insights.",
                   "nodeType": "text"
                 }
               ],
@@ -34,28 +452,12 @@
       "variant": "Certificate",
       "role": null,
       "company": null,
-      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός Data Scientist. Είναι ικανοί να διεξάγουν Data Analysis, Reporting και Data Visualization, εφαρμόζοντας προηγμένες τεχνικές με εξειδικευμένα εργαλεία.",
+      "shortDescription": "Holders of this certification have a comprehensive understanding of the role and skills of a Data Scientist. They are capable of conducting Data Analysis, Reporting, and Data Visualization, applying advanced techniques with specialized tools.",
       "expertise": ["Certification", "Paid"],
       "linkedIn": null,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
       },
       "asset": {
         "sys": {
@@ -69,45 +471,6 @@
         "contentType": "image/png",
         "title": "Badge - 3 Stars - Data Science Professional",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4zYbcvOkLt3lRzVEV3L2D5",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός HR Professional. Είναι ικανοί να διαχειρίζονται επιτυχώς HR operations, Talent Acquisition, HR Metrics & Analytics, Learning & Development, καθώς και να αξιοποιούν την Τεχνητή Νοημοσύνη (AI) στο HR για τη βελτίωση των διαδικασιών πρόσληψης και διαχείρισης εργαζομένων. Έχουν αποδείξει προχωρημένη γνώση και πρακτική εμπειρία στη στρατηγική διαχείριση ανθρώπινου δυναμικού, χρησιμοποιώντας HR Analytics, AI-driven recruiting tools και σύγχρονες τεχνικές αξιολόγησης για τη λήψη δεδομένων-καθοδηγούμενων αποφάσεων. Ως κάτοχοι του Diploma, μπορούν να ενσωματώνουν AI στο HR, να αυτοματοποιούν HR διαδικασίες και να ενισχύουν την οργανωτική ανάπτυξη και την εταιρική κουλτούρα μέσω καινοτόμων στρατηγικών. ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "HR Professional",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός HR Professional.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
@@ -124,19 +487,74 @@
             }
           }
         ]
+      }
+    },
+    {
+      "sys": {
+        "id": "2HcYhKUCrLjQjsAeuLdeQb",
+        "__typename": "Sys"
+      },
+      "__typename": "PeopleDetails",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Holders of this certification possess a strong understanding of the fundamental principles of Business Analytics and data analysis for business decision-making. They are capable of processing and analyzing data, creating reports, and using analytical tools to extract valuable insights. They have demonstrated knowledge and practical experience in data analysis, business intelligence, predictive analytics, and data-driven strategy. As certification holders, they can leverage modern analytics tools to contribute to improved performance and strategic business growth.",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "PeopleDetailsText"
+      },
+      "name": "AI & Business Analytics Certification",
+      "variant": "Certificate",
+      "role": null,
+      "company": null,
+      "shortDescription": "Holders of this certification possess a strong understanding of the fundamental principles of Business Analytics and data analysis for business decision-making.",
+      "expertise": ["Certification", "Paid"],
+      "linkedIn": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
       },
       "asset": {
         "sys": {
-          "id": "69yvr4btf7vMSq62mHY3vI",
+          "id": "5NfU9awCCglzahODrEqKhY",
           "__typename": "Sys"
         },
         "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/69yvr4btf7vMSq62mHY3vI/3f5f1d703977a62738aa70be963c7179/Badge_-_3_Stars_-_HR_Professional.png",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5NfU9awCCglzahODrEqKhY/734943243ab499e4e5e8c95c0b74151c/Badge_-_2_Stars_-_AI___Business_Analytics_Certification.png",
         "width": 645,
         "height": 803,
         "contentType": "image/png",
-        "title": "Badge - 3 Stars - HR Professional",
+        "title": "Badge - 2 Stars - AI & Business Analytics Certification",
         "description": null
+      },
+      "actionsCollection": {
+        "__typename": "PeopleDetailsActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "13iOZgwNMNgz0V3f05rm68",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
       }
     },
     {
@@ -177,22 +595,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "asset": {
         "sys": {
           "id": "3772XTfsXZGWRoxK0JQI6R",
@@ -205,45 +607,6 @@
         "contentType": "image/png",
         "title": "Badge - 3 Stars - Sports Data Analyst",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "2CJCvSSyBWlukIsw6NZOtG",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός Project Manager. Είναι ικανοί να διαχειρίζονται Project Planning, Risk Management, Stakeholder Communication και Agile & Scrum Methodologies, διασφαλίζοντας την επιτυχή εκτέλεση και ολοκλήρωση έργων. Έχουν αποδείξει προχωρημένη γνώση και πρακτική εμπειρία στη χρήση εργαλείων διαχείρισης έργων, ανάλυση KPIs, και υλοποίηση στρατηγικών διαχείρισης χρόνου και πόρων. Ως κάτοχοι του Diploma, μπορούν να καθοδηγούν ομάδες, να βελτιστοποιούν διαδικασίες και να εφαρμόζουν data-driven decision-making για τη βέλτιστη διαχείριση έργων σε δυναμικά επιχειρηματικά περιβάλλοντα.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "Project Manager",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός Project Manager.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
@@ -260,19 +623,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "6z8ld8FVq31Qo1N7OOEkRB",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/6z8ld8FVq31Qo1N7OOEkRB/71ad8438f8de00958663017c448443d5/Badge_-_3_Stars_-_Project_Manager.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - Project Manager",
-        "description": null
       }
     },
     {
@@ -313,22 +663,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "asset": {
         "sys": {
           "id": "6cB0xQGwD73jxWjmmkofb3",
@@ -341,45 +675,6 @@
         "contentType": "image/png",
         "title": "Badge - 3 Stars - Financial Analyst",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "2HcYhKUCrLjQjsAeuLdeQb",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ισχυρή κατανόηση των βασικών αρχών του Business Analytics και της ανάλυσης δεδομένων για επιχειρηματική λήψη αποφάσεων. Είναι ικανοί να επεξεργάζονται και να αναλύουν δεδομένα, να δημιουργούν reports και να χρησιμοποιούν αναλυτικά εργαλεία για την εξαγωγή χρήσιμων insights. Έχουν αποδείξει γνώση και πρακτική εμπειρία σε data analysis, business intelligence, predictive analytics και data-driven strategy. Ως κάτοχοι της πιστοποίησης, μπορούν να αξιοποιούν σύγχρονα εργαλεία analytics, συμβάλλοντας στη βελτίωση της απόδοσης και της στρατηγικής ανάπτυξης επιχειρήσεων. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "AI & Business Analytics Certification",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ισχυρή κατανόηση των βασικών αρχών του Business Analytics και της ανάλυσης δεδομένων για επιχειρηματική λήψη αποφάσεων.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
@@ -396,87 +691,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5NfU9awCCglzahODrEqKhY",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5NfU9awCCglzahODrEqKhY/734943243ab499e4e5e8c95c0b74151c/Badge_-_2_Stars_-_AI___Business_Analytics_Certification.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - AI & Business Analytics Certification",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "Pf56UmnXszqcdfrKQLbMP",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός Digital Marketing Specialist. Είναι ικανοί να σχεδιάζουν, να υλοποιούν και να βελτιστοποιούν στρατηγικές digital marketing, αξιοποιώντας δεδομένα και σύγχρονα εργαλεία. Έχουν αποδείξει προχωρημένη γνώση και πρακτική εμπειρία σε SEO & SEM, social media marketing, content marketing, paid advertising, email marketing, data analytics και marketing automation. Ως κάτοχοι του Diploma, μπορούν να δημιουργούν και να διαχειρίζονται αποτελεσματικές καμπάνιες, να αναλύουν την απόδοση και να λαμβάνουν data-driven αποφάσεις για τη βελτιστοποίηση της ψηφιακής παρουσίας και την αύξηση της απόδοσης των επιχειρήσεων.\n",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "Digital Marketing Specialist",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν ολοκληρωμένη κατανόηση του ρόλου και των δεξιοτήτων ενός Digital Marketing Specialist.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "65yT1Tk5zEZ5gLD9auCa6T",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/65yT1Tk5zEZ5gLD9auCa6T/348cb18a417148d7f77541a4e938fb20/Badge_-_3_Stars_-_Digital_Marketing_Specialist.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - Digital Marketing Specialist",
-        "description": null
       }
     },
     {
@@ -517,6 +731,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "376ewyxA4ycfaKcQdNjKN7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/376ewyxA4ycfaKcQdNjKN7/2bf45b46abba9b6afb313a69320dbb53/Badge_-_3_Stars_-_Python_Developer.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Python Developer",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -532,19 +759,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "376ewyxA4ycfaKcQdNjKN7",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/376ewyxA4ycfaKcQdNjKN7/2bf45b46abba9b6afb313a69320dbb53/Badge_-_3_Stars_-_Python_Developer.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - Python Developer",
-        "description": null
       }
     },
     {
@@ -585,6 +799,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "7iCCpifWiYk8xnbmZBa8EO",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/7iCCpifWiYk8xnbmZBa8EO/a127cab57d76a0cfb42e596f7c6b9a7b/Badge_-_2_Stars_-_HR_Professional.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - HR Professional",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -600,19 +827,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "7iCCpifWiYk8xnbmZBa8EO",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/7iCCpifWiYk8xnbmZBa8EO/a127cab57d76a0cfb42e596f7c6b9a7b/Badge_-_2_Stars_-_HR_Professional.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - HR Professional",
-        "description": null
       }
     },
     {
@@ -653,6 +867,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "6edsNUwMaAkmV0HAlmkMFG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/6edsNUwMaAkmV0HAlmkMFG/56a4689f19ee63b4a3e45fa65320bd98/Badge_-_2_Stars_-_HR_Leadership.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - HR Leadership",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -668,19 +895,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "6edsNUwMaAkmV0HAlmkMFG",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/6edsNUwMaAkmV0HAlmkMFG/56a4689f19ee63b4a3e45fa65320bd98/Badge_-_2_Stars_-_HR_Leadership.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - HR Leadership",
-        "description": null
       }
     },
     {
@@ -721,6 +935,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1Gla9DaCG69rCIn8uHXRyD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1Gla9DaCG69rCIn8uHXRyD/6616debdcbe52b7efaeb686a242c2d11/Badge_-_2_Stars_-_Data_Analyst.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Data Analyst",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -736,19 +963,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1Gla9DaCG69rCIn8uHXRyD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1Gla9DaCG69rCIn8uHXRyD/6616debdcbe52b7efaeb686a242c2d11/Badge_-_2_Stars_-_Data_Analyst.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Data Analyst",
-        "description": null
       }
     },
     {
@@ -789,6 +1003,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3F8vNRGnjGFLq6s8PIkDpj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3F8vNRGnjGFLq6s8PIkDpj/ad714ec1ffafa66e168276576e3f87dd/Badge_-_2_Stars_-_Foundations_of_Programming.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Foundations of Programming",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -804,19 +1031,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3F8vNRGnjGFLq6s8PIkDpj",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3F8vNRGnjGFLq6s8PIkDpj/ad714ec1ffafa66e168276576e3f87dd/Badge_-_2_Stars_-_Foundations_of_Programming.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Foundations of Programming",
-        "description": null
       }
     },
     {
@@ -869,6 +1083,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "RkDoBgaZcOQal88hT9ne5",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/RkDoBgaZcOQal88hT9ne5/d60ef2bb0409fe86063c021a17f0b31b/Badge_-_2_Stars_-_HR_Metrics.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - HR Metrics",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -884,19 +1111,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "RkDoBgaZcOQal88hT9ne5",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/RkDoBgaZcOQal88hT9ne5/d60ef2bb0409fe86063c021a17f0b31b/Badge_-_2_Stars_-_HR_Metrics.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - HR Metrics",
-        "description": null
       }
     },
     {
@@ -937,6 +1151,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4tguMl3UssMZYFSyYb7TXZ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4tguMl3UssMZYFSyYb7TXZ/f0842e08106792ed5f71252aab459780/Badge_-_2_Stars_-_People_Analytics.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - People Analytics",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -952,19 +1179,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4tguMl3UssMZYFSyYb7TXZ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4tguMl3UssMZYFSyYb7TXZ/f0842e08106792ed5f71252aab459780/Badge_-_2_Stars_-_People_Analytics.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - People Analytics",
-        "description": null
       }
     },
     {
@@ -1005,6 +1219,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3vkYPypH0skcfBjcbEZeaE",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3vkYPypH0skcfBjcbEZeaE/5b42ca75a2567f4445bc27ae52cc780b/Badge_-_2_Stars_-_Foundations_of_HR_Management.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Foundations of HR Management",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1020,19 +1247,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3vkYPypH0skcfBjcbEZeaE",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3vkYPypH0skcfBjcbEZeaE/5b42ca75a2567f4445bc27ae52cc780b/Badge_-_2_Stars_-_Foundations_of_HR_Management.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Foundations of HR Management",
-        "description": null
       }
     },
     {
@@ -1073,6 +1287,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4LW0oLRJgFjKoiQF2PpBV2",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4LW0oLRJgFjKoiQF2PpBV2/707fc2e84c6b9a4010671595359acda0/Badge_-_2_Stars_-_Football_Data_Analyst.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Football Data Analyst",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1088,19 +1315,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4LW0oLRJgFjKoiQF2PpBV2",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4LW0oLRJgFjKoiQF2PpBV2/707fc2e84c6b9a4010671595359acda0/Badge_-_2_Stars_-_Football_Data_Analyst.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Football Data Analyst",
-        "description": null
       }
     },
     {
@@ -1141,6 +1355,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "om47TXvi45C1cqKyvUYTS",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/om47TXvi45C1cqKyvUYTS/616276a06ff1e6d32e0cbc35764efec1/Badge_-_2_Stars_-_Healthcare_Data_Analyst.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Healthcare Data Analyst",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1156,19 +1383,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "om47TXvi45C1cqKyvUYTS",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/om47TXvi45C1cqKyvUYTS/616276a06ff1e6d32e0cbc35764efec1/Badge_-_2_Stars_-_Healthcare_Data_Analyst.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Healthcare Data Analyst",
-        "description": null
       }
     },
     {
@@ -1209,6 +1423,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "6Vjudvgo706nj7dcRoo9n0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/6Vjudvgo706nj7dcRoo9n0/cde8aed84a0e8ec8fafe633e549dd330/Badge_-_2_Stars_-_AI_for_HR___Workforce_Optimization.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - AI for HR & Workforce Optimization",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1224,19 +1451,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "6Vjudvgo706nj7dcRoo9n0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/6Vjudvgo706nj7dcRoo9n0/cde8aed84a0e8ec8fafe633e549dd330/Badge_-_2_Stars_-_AI_for_HR___Workforce_Optimization.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - AI for HR & Workforce Optimization",
-        "description": null
       }
     },
     {
@@ -1287,6 +1501,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2G1k6dAqpFvdMCj8DDwHSp",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/2G1k6dAqpFvdMCj8DDwHSp/cf5a2a35a02889ab8b1a153615dff304/Badge_-_2_Stars_-_Tech_Recruitment.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Tech Recruitment",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1302,19 +1529,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2G1k6dAqpFvdMCj8DDwHSp",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/2G1k6dAqpFvdMCj8DDwHSp/cf5a2a35a02889ab8b1a153615dff304/Badge_-_2_Stars_-_Tech_Recruitment.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Tech Recruitment",
-        "description": null
       }
     },
     {
@@ -1365,6 +1579,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2HSwFLDAZ1flCobrSfHyjJ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/2HSwFLDAZ1flCobrSfHyjJ/59eb0b7f317dac3c2a1d5413891fc456/Badge_-_2_Stars_-_Data_Analytics_with_SQL___Python.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Data Analytics with SQL & Python",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1380,19 +1607,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2HSwFLDAZ1flCobrSfHyjJ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/2HSwFLDAZ1flCobrSfHyjJ/59eb0b7f317dac3c2a1d5413891fc456/Badge_-_2_Stars_-_Data_Analytics_with_SQL___Python.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Data Analytics with SQL & Python",
-        "description": null
       }
     },
     {
@@ -1443,6 +1657,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5B4QMBpgpGEQmprpfGWxk8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5B4QMBpgpGEQmprpfGWxk8/03ce564fafc33616b0fc642318ef01e3/Badge_-_2_Stars_-_Data_Visualization.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Data Visualization",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1458,19 +1685,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5B4QMBpgpGEQmprpfGWxk8",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5B4QMBpgpGEQmprpfGWxk8/03ce564fafc33616b0fc642318ef01e3/Badge_-_2_Stars_-_Data_Visualization.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Data Visualization",
-        "description": null
       }
     },
     {
@@ -1521,6 +1735,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "7tk2VuQy7leWRSKu2qlb2m",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/7tk2VuQy7leWRSKu2qlb2m/c21e2d7eb26efa96defc8490f130ce76/Badge_-_2_Stars_-_Data_Analytics_for_Auditors.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Data Analytics for Auditors",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1536,19 +1763,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "7tk2VuQy7leWRSKu2qlb2m",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/7tk2VuQy7leWRSKu2qlb2m/c21e2d7eb26efa96defc8490f130ce76/Badge_-_2_Stars_-_Data_Analytics_for_Auditors.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Data Analytics for Auditors",
-        "description": null
       }
     },
     {
@@ -1599,6 +1813,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1ZXQUz4K9nnkUIKgQoGd0P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1ZXQUz4K9nnkUIKgQoGd0P/fa2e3efbceb497b467d9483fa5a9e7ef/Badge_-_2_Stars_-_Basketball_Data_Analyst.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Basketball Data Analyst",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1614,19 +1841,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1ZXQUz4K9nnkUIKgQoGd0P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1ZXQUz4K9nnkUIKgQoGd0P/fa2e3efbceb497b467d9483fa5a9e7ef/Badge_-_2_Stars_-_Basketball_Data_Analyst.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Basketball Data Analyst",
-        "description": null
       }
     },
     {
@@ -1677,6 +1891,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "iJ7rM8C3HhDh9bGRGg3Wz",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/iJ7rM8C3HhDh9bGRGg3Wz/6be0574aff4d2fdf24306e8eb894f22f/Badge_-_2_Stars_-_Business_Intelligence__BI__Analyst.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Business Intelligence (BI) Analyst",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1692,19 +1919,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "iJ7rM8C3HhDh9bGRGg3Wz",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/iJ7rM8C3HhDh9bGRGg3Wz/6be0574aff4d2fdf24306e8eb894f22f/Badge_-_2_Stars_-_Business_Intelligence__BI__Analyst.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Business Intelligence (BI) Analyst",
-        "description": null
       }
     },
     {
@@ -1755,6 +1969,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4sHQFPpv5bJyaR35towXMt",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4sHQFPpv5bJyaR35towXMt/1fe59569b8f43ac0d3d83e6c4da3b213/Badge_-_2_Stars_-_Data_Science___AI.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Data Science & AI",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1770,19 +1997,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4sHQFPpv5bJyaR35towXMt",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4sHQFPpv5bJyaR35towXMt/1fe59569b8f43ac0d3d83e6c4da3b213/Badge_-_2_Stars_-_Data_Science___AI.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Data Science & AI",
-        "description": null
       }
     },
     {
@@ -1833,6 +2047,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3QP8LDrw9wzr14SO38sJcA",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3QP8LDrw9wzr14SO38sJcA/6ce05c2af453e68b60b2cecd94c0c28f/Badge_-_2_Stars_-_Financial_Data_Analytics.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Financial Data Analytics",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1848,19 +2075,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3QP8LDrw9wzr14SO38sJcA",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3QP8LDrw9wzr14SO38sJcA/6ce05c2af453e68b60b2cecd94c0c28f/Badge_-_2_Stars_-_Financial_Data_Analytics.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Financial Data Analytics",
-        "description": null
       }
     },
     {
@@ -1911,6 +2125,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "6O2ji0ZRC01al3HLbLTDR2",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/6O2ji0ZRC01al3HLbLTDR2/1665770073977800e47909937d5d2ad2/Badge_-_2_Stars_-_AI_Developer.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - AI Developer",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1926,19 +2153,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "6O2ji0ZRC01al3HLbLTDR2",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/6O2ji0ZRC01al3HLbLTDR2/1665770073977800e47909937d5d2ad2/Badge_-_2_Stars_-_AI_Developer.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - AI Developer",
-        "description": null
       }
     },
     {
@@ -1979,6 +2193,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5hxCQ3zIuLHr2x8TihN30q",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5hxCQ3zIuLHr2x8TihN30q/e505ada82bb7e87284f5725dffbbb4cc/Badge_-_2_Stars_-_AI_Software_Testing.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - AI Software Testing",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -1994,19 +2221,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5hxCQ3zIuLHr2x8TihN30q",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5hxCQ3zIuLHr2x8TihN30q/e505ada82bb7e87284f5725dffbbb4cc/Badge_-_2_Stars_-_AI_Software_Testing.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - AI Software Testing",
-        "description": null
       }
     },
     {
@@ -2047,6 +2261,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "6O23FjRL7KbrjezoWg52y5",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/6O23FjRL7KbrjezoWg52y5/25cef8f12cef03a70727d8a0bf8a6364/Badge_-_2_Stars_-_Software_Tester__QA_.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Software Tester (QA)",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2062,19 +2289,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "6O23FjRL7KbrjezoWg52y5",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/6O23FjRL7KbrjezoWg52y5/25cef8f12cef03a70727d8a0bf8a6364/Badge_-_2_Stars_-_Software_Tester__QA_.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Software Tester (QA)",
-        "description": null
       }
     },
     {
@@ -2115,6 +2329,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5ENx7PXT0PqQcbmOKIp58E",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5ENx7PXT0PqQcbmOKIp58E/41ae317f3dc6c5559bc4a046a918707a/Badge_-_2_Stars_-_HR_Management___Analytics.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - HR Management & Analytics",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2130,19 +2357,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5ENx7PXT0PqQcbmOKIp58E",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5ENx7PXT0PqQcbmOKIp58E/41ae317f3dc6c5559bc4a046a918707a/Badge_-_2_Stars_-_HR_Management___Analytics.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - HR Management & Analytics",
-        "description": null
       }
     },
     {
@@ -2183,6 +2397,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4EkxhrtcdHNxavgTjs3hdi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4EkxhrtcdHNxavgTjs3hdi/4b2af0e6e0921ddd2a110b00722670dd/Badge_-_2_Stars_-_Leadership___Management_Excellence.png",
+        "width": 645,
+        "height": 853,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Leadership & Management Excellence",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2198,19 +2425,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4EkxhrtcdHNxavgTjs3hdi",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4EkxhrtcdHNxavgTjs3hdi/4b2af0e6e0921ddd2a110b00722670dd/Badge_-_2_Stars_-_Leadership___Management_Excellence.png",
-        "width": 645,
-        "height": 853,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Leadership & Management Excellence",
-        "description": null
       }
     },
     {
@@ -2263,6 +2477,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5h0FD3EvBVQhUlGaGjNCAy",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5h0FD3EvBVQhUlGaGjNCAy/7e8d26e2dab21b6dd51866aaf2a54673/Badge_-_2_Stars_-_Sports_Analytics___Data_Insights.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Sports Analytics & Data Insights",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2278,19 +2505,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5h0FD3EvBVQhUlGaGjNCAy",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5h0FD3EvBVQhUlGaGjNCAy/7e8d26e2dab21b6dd51866aaf2a54673/Badge_-_2_Stars_-_Sports_Analytics___Data_Insights.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Sports Analytics & Data Insights",
-        "description": null
       }
     },
     {
@@ -2331,6 +2545,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "68f7sclHx73kHRG9ctDscb",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/68f7sclHx73kHRG9ctDscb/de97b5b1d3bd39974986189fca06b7d1/Badge_-_1_Star_-_HR_Compliance.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - HR Compliance",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2346,19 +2573,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "68f7sclHx73kHRG9ctDscb",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/68f7sclHx73kHRG9ctDscb/de97b5b1d3bd39974986189fca06b7d1/Badge_-_1_Star_-_HR_Compliance.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - HR Compliance",
-        "description": null
       }
     },
     {
@@ -2409,6 +2623,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "18fGeufXrSfH47GiHYOm7R",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/18fGeufXrSfH47GiHYOm7R/436c6864fe0c42f4529311cf08c56e6f/Badge_-_1_Star_-_Talent_Acquisition___Recruiting.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Talent Acquisition & Recruiting",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2424,19 +2651,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "18fGeufXrSfH47GiHYOm7R",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/18fGeufXrSfH47GiHYOm7R/436c6864fe0c42f4529311cf08c56e6f/Badge_-_1_Star_-_Talent_Acquisition___Recruiting.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Talent Acquisition & Recruiting",
-        "description": null
       }
     },
     {
@@ -2487,6 +2701,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5Gy5T2UlJFG4RTLJmtautj",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5Gy5T2UlJFG4RTLJmtautj/ca6467c0fe9b7512876f9382b65cbbbe/Badge_-_1_Star_-_HR_Technology.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - HR Technology",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2502,19 +2729,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5Gy5T2UlJFG4RTLJmtautj",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5Gy5T2UlJFG4RTLJmtautj/ca6467c0fe9b7512876f9382b65cbbbe/Badge_-_1_Star_-_HR_Technology.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - HR Technology",
-        "description": null
       }
     },
     {
@@ -2565,6 +2779,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3Iks58J7T0bs414HZnJxM0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3Iks58J7T0bs414HZnJxM0/ff93fe061f40734332550032f9ef1eaa/Badge_-_1_Star_-_Global_HR__Management.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Global HR Management",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2580,19 +2807,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3Iks58J7T0bs414HZnJxM0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3Iks58J7T0bs414HZnJxM0/ff93fe061f40734332550032f9ef1eaa/Badge_-_1_Star_-_Global_HR__Management.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Global HR Management",
-        "description": null
       }
     },
     {
@@ -2643,6 +2857,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2VbbwTrtdBuNVL6PEyONHH",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/2VbbwTrtdBuNVL6PEyONHH/2fcc7841e43b63ce4b8e3ef1e557a307/Badge_-_1_Star_-_Business_English.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Business English",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2658,19 +2885,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2VbbwTrtdBuNVL6PEyONHH",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/2VbbwTrtdBuNVL6PEyONHH/2fcc7841e43b63ce4b8e3ef1e557a307/Badge_-_1_Star_-_Business_English.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Business English",
-        "description": null
       }
     },
     {
@@ -2721,6 +2935,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "793PVGbqUMeZXsA1xF2cv5",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/793PVGbqUMeZXsA1xF2cv5/3f77cbe1c70affffcb37c608d3ae42cc/Badge_-_1_Star_-_Time_Management.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Time Management",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2736,19 +2963,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "793PVGbqUMeZXsA1xF2cv5",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/793PVGbqUMeZXsA1xF2cv5/3f77cbe1c70affffcb37c608d3ae42cc/Badge_-_1_Star_-_Time_Management.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Time Management",
-        "description": null
       }
     },
     {
@@ -2799,6 +3013,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3uYkA5ZnsmXj3sHSTgmNUB",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3uYkA5ZnsmXj3sHSTgmNUB/832a0d25097df2945abffe212034561b/Badge_-_1_Star_-_Employer_Branding_Strategy.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Employer Branding Strategy",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2814,19 +3041,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3uYkA5ZnsmXj3sHSTgmNUB",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3uYkA5ZnsmXj3sHSTgmNUB/832a0d25097df2945abffe212034561b/Badge_-_1_Star_-_Employer_Branding_Strategy.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Employer Branding Strategy",
-        "description": null
       }
     },
     {
@@ -2877,6 +3091,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5ntYByQDE8t5rgb56FLHQ7",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5ntYByQDE8t5rgb56FLHQ7/490fdd4714d9cec46dd71a34b74cead8/Badge_-_1_Star_-_Job_Description__Writing.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Job Description Writing",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2892,19 +3119,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5ntYByQDE8t5rgb56FLHQ7",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5ntYByQDE8t5rgb56FLHQ7/490fdd4714d9cec46dd71a34b74cead8/Badge_-_1_Star_-_Job_Description__Writing.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Job Description Writing",
-        "description": null
       }
     },
     {
@@ -2955,6 +3169,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3OcLjz55tWaOh1jqz7Bd1Q",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3OcLjz55tWaOh1jqz7Bd1Q/51e55402994e472a69a57d20d1f3c6a1/Badge_-_1_Star_-_Employee_Engagement.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Employee Engagement",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -2970,19 +3197,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3OcLjz55tWaOh1jqz7Bd1Q",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3OcLjz55tWaOh1jqz7Bd1Q/51e55402994e472a69a57d20d1f3c6a1/Badge_-_1_Star_-_Employee_Engagement.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Employee Engagement",
-        "description": null
       }
     },
     {
@@ -3033,6 +3247,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "aSd3l6VgM8KckXPrlgwKc",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/aSd3l6VgM8KckXPrlgwKc/cdd4fd8c1c5c0e7a3d5802d6efc9e2fb/Badge_-_1_Star_-_L_D_Strategy.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - L&D Strategy",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3048,19 +3275,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "aSd3l6VgM8KckXPrlgwKc",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/aSd3l6VgM8KckXPrlgwKc/cdd4fd8c1c5c0e7a3d5802d6efc9e2fb/Badge_-_1_Star_-_L_D_Strategy.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - L&D Strategy",
-        "description": null
       }
     },
     {
@@ -3111,6 +3325,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4ovIaUCY0d0DbGUipAzniv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4ovIaUCY0d0DbGUipAzniv/94bd7231b73bbfdb8b87bd463b0fa0eb/Badge_-_1_Star_-_AI_for_Recruitment.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - AI for Recruitment",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3126,19 +3353,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4ovIaUCY0d0DbGUipAzniv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4ovIaUCY0d0DbGUipAzniv/94bd7231b73bbfdb8b87bd463b0fa0eb/Badge_-_1_Star_-_AI_for_Recruitment.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - AI for Recruitment",
-        "description": null
       }
     },
     {
@@ -3189,6 +3403,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "49fIb095WCCg8R5dDi2pCa",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/49fIb095WCCg8R5dDi2pCa/5917edfb6edb5f00dc06684bb07fc91c/Badge_-_1_Star_-_SQL_Fundamentals.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - SQL Fundamentals",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3204,19 +3431,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "49fIb095WCCg8R5dDi2pCa",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/49fIb095WCCg8R5dDi2pCa/5917edfb6edb5f00dc06684bb07fc91c/Badge_-_1_Star_-_SQL_Fundamentals.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - SQL Fundamentals",
-        "description": null
       }
     },
     {
@@ -3267,6 +3481,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5aSwdJHA543SUnTd2AatiR",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5aSwdJHA543SUnTd2AatiR/354cd71a32f00d73e901ec3eeb908473/Badge_-_1_Star_-_Python_Fundamentals.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Python Fundamentals",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3282,19 +3509,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5aSwdJHA543SUnTd2AatiR",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5aSwdJHA543SUnTd2AatiR/354cd71a32f00d73e901ec3eeb908473/Badge_-_1_Star_-_Python_Fundamentals.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Python Fundamentals",
-        "description": null
       }
     },
     {
@@ -3345,6 +3559,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5fIh9iOXFSw5xr2IhIv0wC",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5fIh9iOXFSw5xr2IhIv0wC/88c6bd7246be86636c8b97c95a508d9c/Badge_-_1_Star_-_Microsoft_Excel.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Microsoft Excel",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3360,19 +3587,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5fIh9iOXFSw5xr2IhIv0wC",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5fIh9iOXFSw5xr2IhIv0wC/88c6bd7246be86636c8b97c95a508d9c/Badge_-_1_Star_-_Microsoft_Excel.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Microsoft Excel",
-        "description": null
       }
     },
     {
@@ -3423,6 +3637,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "Sqbs18kg1kfnFzaCA3H5N",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/Sqbs18kg1kfnFzaCA3H5N/a86657b0aa7eecd0606fd491c292e0ba/Badge_-_1_Star_-_Python_for__Data_Science.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Python for Data Science",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3438,19 +3665,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "Sqbs18kg1kfnFzaCA3H5N",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/Sqbs18kg1kfnFzaCA3H5N/a86657b0aa7eecd0606fd491c292e0ba/Badge_-_1_Star_-_Python_for__Data_Science.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Python for Data Science",
-        "description": null
       }
     },
     {
@@ -3501,6 +3715,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3E9zejEMULS4mZhHcvzhez",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3E9zejEMULS4mZhHcvzhez/1825bd7e9ca903b6000e39b31a60fc1e/Badge_-_1_Star_-_Business_Career_Coaching.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Business Career Coaching",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3516,19 +3743,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3E9zejEMULS4mZhHcvzhez",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3E9zejEMULS4mZhHcvzhez/1825bd7e9ca903b6000e39b31a60fc1e/Badge_-_1_Star_-_Business_Career_Coaching.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Business Career Coaching",
-        "description": null
       }
     },
     {
@@ -3579,6 +3793,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "7IbupacJQm96RC8tZFfUP2",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/7IbupacJQm96RC8tZFfUP2/9c228826931e125fb0957a34d86c92ea/Badge_-_1_Star_-_Business__Communication.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Business Communication",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3594,19 +3821,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "7IbupacJQm96RC8tZFfUP2",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/7IbupacJQm96RC8tZFfUP2/9c228826931e125fb0957a34d86c92ea/Badge_-_1_Star_-_Business__Communication.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Business Communication",
-        "description": null
       }
     },
     {
@@ -3657,6 +3871,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "2YA2s4J284fiqOzAhDfPmI",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/2YA2s4J284fiqOzAhDfPmI/3fd2c3a147fc406219a8b9670c52be6a/Badge_-_1_Star_-_Planning___Resource_Management.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Planning & Resource Management",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3672,19 +3899,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "2YA2s4J284fiqOzAhDfPmI",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/2YA2s4J284fiqOzAhDfPmI/3fd2c3a147fc406219a8b9670c52be6a/Badge_-_1_Star_-_Planning___Resource_Management.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Planning & Resource Management",
-        "description": null
       }
     },
     {
@@ -3735,6 +3949,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "29sktX67j7Xl5d5A3j9t8W",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/29sktX67j7Xl5d5A3j9t8W/2e7dc676bdbeb0ecfa07e31a1f6e099c/Badge_-_1_Star_-_Agile___Scrum_Methodologies.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Agile & Scrum Methodologies",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3750,19 +3977,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "29sktX67j7Xl5d5A3j9t8W",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/29sktX67j7Xl5d5A3j9t8W/2e7dc676bdbeb0ecfa07e31a1f6e099c/Badge_-_1_Star_-_Agile___Scrum_Methodologies.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Agile & Scrum Methodologies",
-        "description": null
       }
     },
     {
@@ -3813,6 +4027,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "a0vTcFrRwSlXXigPmxeiQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/a0vTcFrRwSlXXigPmxeiQ/077e2d0d9cfb406c7dc7e396dae48c96/Badge_-_1_Star_-_Digital_Marketing__Strategy_Development.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Digital Marketing Strategy Development",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3828,19 +4055,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "a0vTcFrRwSlXXigPmxeiQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/a0vTcFrRwSlXXigPmxeiQ/077e2d0d9cfb406c7dc7e396dae48c96/Badge_-_1_Star_-_Digital_Marketing__Strategy_Development.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Digital Marketing Strategy Development",
-        "description": null
       }
     },
     {
@@ -3891,6 +4105,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5ClBXR1OVJvgdY2PiSNrl",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5ClBXR1OVJvgdY2PiSNrl/ba6e11a1c0fa0a7b9696bfe132021f4f/Badge_-_1_Star_-_Content_Marketing___Analytics.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Content Marketing & Analytics",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3906,19 +4133,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5ClBXR1OVJvgdY2PiSNrl",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5ClBXR1OVJvgdY2PiSNrl/ba6e11a1c0fa0a7b9696bfe132021f4f/Badge_-_1_Star_-_Content_Marketing___Analytics.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Content Marketing & Analytics",
-        "description": null
       }
     },
     {
@@ -3969,6 +4183,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5WoTt0YeS4Mu1H7ST7WoVA",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5WoTt0YeS4Mu1H7ST7WoVA/45bcd505e74911ea77b887f410bbed14/Badge_-_1_Star_-_Corporate_Finance.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Corporate Finance",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -3984,19 +4211,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5WoTt0YeS4Mu1H7ST7WoVA",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5WoTt0YeS4Mu1H7ST7WoVA/45bcd505e74911ea77b887f410bbed14/Badge_-_1_Star_-_Corporate_Finance.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Corporate Finance",
-        "description": null
       }
     },
     {
@@ -4047,6 +4261,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "57ykTAsWIjcnPU8Tu4XIuD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/57ykTAsWIjcnPU8Tu4XIuD/9acbcfcb6475971c7127a503fec6526f/Badge_-_1_Star_-_Personal_Financial_Management.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Personal Financial Management",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -4062,19 +4289,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "57ykTAsWIjcnPU8Tu4XIuD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/57ykTAsWIjcnPU8Tu4XIuD/9acbcfcb6475971c7127a503fec6526f/Badge_-_1_Star_-_Personal_Financial_Management.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Personal Financial Management",
-        "description": null
       }
     },
     {
@@ -4125,6 +4339,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "7fZ6d75izAJp5QAr52EoYQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/7fZ6d75izAJp5QAr52EoYQ/6680eecbb25f7dbf0cdc550780a68834/Badge_-_1_Star_-_Python_for_Finance.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Python for Finance",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -4140,19 +4367,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "7fZ6d75izAJp5QAr52EoYQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/7fZ6d75izAJp5QAr52EoYQ/6680eecbb25f7dbf0cdc550780a68834/Badge_-_1_Star_-_Python_for_Finance.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Python for Finance",
-        "description": null
       }
     },
     {
@@ -4203,6 +4417,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "74lyp3QetW246J0EmSHJt8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/74lyp3QetW246J0EmSHJt8/94bee9cc6506e2be2786fb8599bf123d/Badge_-_1_Star_-_Data_Storytelling_with_Tableau.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Data Storytelling with Tableau",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -4218,19 +4445,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "74lyp3QetW246J0EmSHJt8",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/74lyp3QetW246J0EmSHJt8/94bee9cc6506e2be2786fb8599bf123d/Badge_-_1_Star_-_Data_Storytelling_with_Tableau.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Data Storytelling with Tableau",
-        "description": null
       }
     },
     {
@@ -4281,6 +4495,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "27DALjeXqX5d5s4EsmFFOv",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/27DALjeXqX5d5s4EsmFFOv/ec171a733d4908c0e2ecba841a91de76/Badge_-_1_Star_-_Reporting_with_Microsoft_Power_BI.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Reporting with Microsoft Power BI",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -4296,19 +4523,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "27DALjeXqX5d5s4EsmFFOv",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/27DALjeXqX5d5s4EsmFFOv/ec171a733d4908c0e2ecba841a91de76/Badge_-_1_Star_-_Reporting_with_Microsoft_Power_BI.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Reporting with Microsoft Power BI",
-        "description": null
       }
     },
     {
@@ -4359,6 +4573,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5JGu4CHHKy2mLWu9zTeK0x",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5JGu4CHHKy2mLWu9zTeK0x/d9c019b88638ec0bc4f63037d9c6b778/Badge_-_1_Star_-_Excel_with_Sports.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Excel with Sports",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -4374,19 +4601,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5JGu4CHHKy2mLWu9zTeK0x",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5JGu4CHHKy2mLWu9zTeK0x/d9c019b88638ec0bc4f63037d9c6b778/Badge_-_1_Star_-_Excel_with_Sports.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Excel with Sports",
-        "description": null
       }
     },
     {
@@ -4437,6 +4651,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3HrChAtAB4YlYoLy5i4GIe",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3HrChAtAB4YlYoLy5i4GIe/d4950ae386c0460e5fc56ebe098bce5b/Badge_-_1_Star_-_SQL_with_Sports.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - SQL with Sports",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -4452,19 +4679,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3HrChAtAB4YlYoLy5i4GIe",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3HrChAtAB4YlYoLy5i4GIe/d4950ae386c0460e5fc56ebe098bce5b/Badge_-_1_Star_-_SQL_with_Sports.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - SQL with Sports",
-        "description": null
       }
     },
     {
@@ -4505,22 +4719,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "asset": {
         "sys": {
           "id": "1jOy0fS0XB8MWG8hKlOruF",
@@ -4533,55 +4731,6 @@
         "contentType": "image/png",
         "title": "Badge - 1 Star - Python with Sports",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5h5RTj9jKKwxgjm9INJ0ZK",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [
-                    {
-                      "type": "bold"
-                    }
-                  ],
-                  "value": "Οι κάτοχοι του AI Marketing Specialist Certification",
-                  "nodeType": "text"
-                },
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " διαθέτουν εξειδικευμένη γνώση και εφαρμοσμένες δεξιότητες στη χρήση τεχνητής νοημοσύνης για τη βελτιστοποίηση στρατηγικών ψηφιακού marketing. Συνδυάζουν βασικές αρχές marketing με σύγχρονες AI τεχνολογίες, αναπτύσσοντας αποτελεσματικά prompts για περιεχόμενο, καμπάνιες και στόχευση κοινού μέσω εργαλείων. Είναι σε θέση να σχεδιάζουν και να εκτελούν καμπάνιες SEO, performance και social media marketing με την υποστήριξη AI-driven εργαλείων, να αναλύουν δεδομένα καταναλωτικής συμπεριφοράς και να εξάγουν εμπορικά insights με χρήση analytics. Δημιουργούν και βελτιστοποιούν περιεχόμενο για πολλαπλά κανάλια, εφαρμόζουν τεχνικές αυτοματισμού σε email marketing και διαχειρίζονται paid campaigns (PPC, retargeting) με γνώμονα την απόδοση. Παράλληλα, καλλιεργούν soft skills όπως η δημόσια ομιλία, η συνεργασία σε υβριδικά περιβάλλοντα και η επαγγελματική παρουσία στο LinkedIn. Η πιστοποίηση επιβεβαιώνει την ικανότητά τους να αξιοποιούν την τεχνητή νοημοσύνη σε όλο το φάσμα του digital marketing, προσφέροντας καινοτόμες λύσεις τόσο σε επιχειρήσεις όσο και σε ατομικές συνεργασίες. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "ΑΙ Marketing Specialist",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Μέχρι το τέλος του προγράμματος, οι συμμετέχοντες θα είναι σε θέση να: Κατανοούν τα θεμέλια της Επιστήμης Δεδομένων και των στατιστικών εννοιών που υποστηρίζουν την ανάλυση,.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
@@ -4598,87 +4747,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "73vjBZWAOs5Jkix4oCsGIf",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/73vjBZWAOs5Jkix4oCsGIf/b7a3a547b5c0e65e6cd77fa8b4f91408/AI_Marketing_Professional.png",
-        "width": 960,
-        "height": 540,
-        "contentType": "image/png",
-        "title": "AI Marketing Professional",
-        "description": ""
-      }
-    },
-    {
-      "sys": {
-        "id": "58c7dvIrqUejqZqKDu2wHd",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Οι κάτοχοι του AI Data Analyst Certification διαθέτουν πρακτική γνώση και εφαρμοσμένη εμπειρία στη σύγχρονη ανάλυση δεδομένων, συνδυάζοντας τις βασικές αρχές της Επιστήμης Δεδομένων με τις εξελίξεις στην Τεχνητή Νοημοσύνη. Είναι σε θέση να διαχειρίζονται βάσεις δεδομένων και να συντάσσουν προηγμένα SQL queries για ανάλυση, αυτοματοποίηση και εξαγωγή επιχειρησιακών insights, να δημιουργούν διαδραστικά dashboards στο Power BI αξιοποιώντας AI λειτουργίες για πρόβλεψη και οπτικοποίηση και να επεξεργάζονται σύνθετα δεδομένα μέσω Python και Excel. Επιπλέον, εφαρμόζουν τεχνικές data scaling και παραγωγής συνθετικών δεδομένων, διαμορφώνουν αποδοτικά prompts για LLMs όπως το ChatGPT και ενσωματώνουν αρχές δεοντολογίας στη χρήση της Τεχνητής Νοημοσύνης. Η πιστοποίηση επιβεβαιώνει την ετοιμότητά τους να συμβάλλουν ουσιαστικά σε data-driven έργα, τόσο σε εταιρικά περιβάλλοντα όσο και σε freelance συνεργασίες. ",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "AI Data Analyst Certification",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Μέχρι το τέλος του προγράμματος, οι συμμετέχοντες θα είναι σε θέση να: Κατανοούν τα θεμέλια της Επιστήμης Δεδομένων και των στατιστικών εννοιών που υποστηρίζουν την ανάλυση,.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "asset": {
-        "sys": {
-          "id": "41amXBisT8zntqNxiSRpYy",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/41amXBisT8zntqNxiSRpYy/3ab99da8bdf88cd887c362e194eeaed8/Αντίγραφο_του_Certificate_4.png",
-        "width": 960,
-        "height": 540,
-        "contentType": "image/png",
-        "title": "Certificate 1 2",
-        "description": ""
       }
     },
     {
@@ -5419,6 +5487,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3ERgXhrDNfXxLy3u489lBm",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3ERgXhrDNfXxLy3u489lBm/eb9dd23e5ba23b2eb5612831a94826c1/Badge_-_3_Stars_-_Project_Manager__Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Project Manager Summer School",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -5434,19 +5515,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3ERgXhrDNfXxLy3u489lBm",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3ERgXhrDNfXxLy3u489lBm/eb9dd23e5ba23b2eb5612831a94826c1/Badge_-_3_Stars_-_Project_Manager__Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - Project Manager Summer School",
-        "description": null
       }
     },
     {
@@ -5487,6 +5555,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4uWQPYZGOHfk8PLKsZ98SQ",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4uWQPYZGOHfk8PLKsZ98SQ/b14499cbaef3fcafb8ad1caa26c4e478/Badge_-_3_Stars_-_Finance_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Finance Summer School",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -5502,19 +5583,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4uWQPYZGOHfk8PLKsZ98SQ",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4uWQPYZGOHfk8PLKsZ98SQ/b14499cbaef3fcafb8ad1caa26c4e478/Badge_-_3_Stars_-_Finance_Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - Finance Summer School",
-        "description": null
       }
     },
     {
@@ -5617,6 +5685,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4oxPIeDKuCGl1feZx4PYeh",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4oxPIeDKuCGl1feZx4PYeh/b464c3d27468494c67dbf3bbccda4a6d/Badge_-_3_Stars_-_Data___Programming__Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - Data & Programming Summer School",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -5632,19 +5713,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4oxPIeDKuCGl1feZx4PYeh",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4oxPIeDKuCGl1feZx4PYeh/b464c3d27468494c67dbf3bbccda4a6d/Badge_-_3_Stars_-_Data___Programming__Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - Data & Programming Summer School",
-        "description": null
       }
     },
     {
@@ -5697,6 +5765,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1pCJYUUiVTyeVAHp2KbF2M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
+        "width": 1002,
+        "height": 1002,
+        "contentType": "image/png",
+        "title": "SHRM Badge",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -5712,19 +5793,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1pCJYUUiVTyeVAHp2KbF2M",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
-        "width": 1002,
-        "height": 1002,
-        "contentType": "image/png",
-        "title": "SHRM Badge",
-        "description": ""
       }
     },
     {
@@ -5765,6 +5833,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5dkaCmHJmceSTZWYyS8I6J",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5dkaCmHJmceSTZWYyS8I6J/5913c3489b8e3d9ef0efa89d86526c8b/Badge_-_3_Stars_-_AI___Business_Analytics_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 3 Stars - AI & Business Analytics Summer School",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -5780,19 +5861,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5dkaCmHJmceSTZWYyS8I6J",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5dkaCmHJmceSTZWYyS8I6J/5913c3489b8e3d9ef0efa89d86526c8b/Badge_-_3_Stars_-_AI___Business_Analytics_Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 3 Stars - AI & Business Analytics Summer School",
-        "description": null
       }
     },
     {
@@ -5993,6 +6061,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1pCJYUUiVTyeVAHp2KbF2M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
+        "width": 1002,
+        "height": 1002,
+        "contentType": "image/png",
+        "title": "SHRM Badge",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6008,19 +6089,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1pCJYUUiVTyeVAHp2KbF2M",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
-        "width": 1002,
-        "height": 1002,
-        "contentType": "image/png",
-        "title": "SHRM Badge",
-        "description": ""
       }
     },
     {
@@ -6061,22 +6129,6 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
-      "actionsCollection": {
-        "__typename": "PeopleDetailsActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "13iOZgwNMNgz0V3f05rm68",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
       "asset": {
         "sys": {
           "id": "6wGkh4mtHHfeMhnMabK3fY",
@@ -6089,45 +6141,6 @@
         "contentType": "image/png",
         "title": "Badge - Summer - AI Marketing Summer School 2025",
         "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "5SbeXuEZIbCVrHmgiEjbVG",
-        "__typename": "Sys"
-      },
-      "__typename": "PeopleDetails",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν πρακτική εμπειρία και ουσιαστική κατανόηση της επιχειρηματικότητας, έχοντας εργαστεί πάνω στη διαμόρφωση και αξιολόγηση startup ιδεών, την ανάπτυξη βιώσιμων business models, τη διερεύνηση product–market fit και τη δημιουργία ολοκληρωμένων pitch decks και Go-To-Market (GTM) στρατηγικών. Κατά τη διάρκεια του προγράμματος, συμμετείχαν σε ομαδικά projects, συνεργάστηκαν με mentors, founders και επενδυτές, και παρουσίασαν τις ιδέες τους σε πραγματικά επιχειρηματικά panels. Ανέπτυξαν δεξιότητες διαχείρισης κινδύνου, αβεβαιότητας και ταχεών αλλαγών, στοιχεία που χαρακτηρίζουν την startup κουλτούρα. Παράλληλα, καλλιέργησαν ικανότητες σε fundraising, startup storytelling, early-stage marketing και pitching, και είναι σε θέση να συνεισφέρουν ουσιαστικά είτε ως ιδρυτές, είτε ως βασικά στελέχη σε startup ή innovation-driven ομάδες. Η πιστοποίηση αυτή αποτελεί απόδειξη της επιχειρηματικής τους αντίληψης, της στρατηγικής τους σκέψης και της ικανότητάς τους να μετατρέπουν ιδέες σε πράξη.",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "PeopleDetailsText"
-      },
-      "name": "Startup Summer School Certification",
-      "variant": "Certificate",
-      "role": null,
-      "company": null,
-      "shortDescription": "Οι κάτοχοι αυτής της πιστοποίησης διαθέτουν πρακτική εμπειρία και ουσιαστική κατανόηση της επιχειρηματικότητας, έχοντας εργαστεί πάνω στη διαμόρφωση και αξιολόγηση startup ιδεών.",
-      "expertise": ["Certification", "Paid"],
-      "linkedIn": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
       },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
@@ -6144,19 +6157,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3XNnrmC1rh30FbK2GgKNCb",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3XNnrmC1rh30FbK2GgKNCb/de77ba5534ad095d64e9c68c5fc6f2fb/Badge_-_Summer_-_Startup_Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - Summer - Startup Summer School",
-        "description": null
       }
     },
     {
@@ -6197,6 +6197,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "5SDhwtPIVwIP8PYQv6U2ft",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/5SDhwtPIVwIP8PYQv6U2ft/606a226645d2936c177018b5be3d7ca0/Badge_-_Summer_-_HR_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - HR Summer School",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6212,19 +6225,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "5SDhwtPIVwIP8PYQv6U2ft",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/5SDhwtPIVwIP8PYQv6U2ft/606a226645d2936c177018b5be3d7ca0/Badge_-_Summer_-_HR_Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - Summer - HR Summer School",
-        "description": null
       }
     },
     {
@@ -6265,6 +6265,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "RVX3xQQuM5T6Zb2u8MWV0",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/RVX3xQQuM5T6Zb2u8MWV0/6920794c06cbecae2a932795bd4d632d/Badge_-_Summer_-_AI_Data_Science_Summer_School.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - Summer - AI Data Science Summer School",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6280,19 +6293,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "RVX3xQQuM5T6Zb2u8MWV0",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/RVX3xQQuM5T6Zb2u8MWV0/6920794c06cbecae2a932795bd4d632d/Badge_-_Summer_-_AI_Data_Science_Summer_School.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - Summer - AI Data Science Summer School",
-        "description": null
       }
     },
     {
@@ -6733,6 +6733,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1pCJYUUiVTyeVAHp2KbF2M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
+        "width": 1002,
+        "height": 1002,
+        "contentType": "image/png",
+        "title": "SHRM Badge",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6748,19 +6761,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1pCJYUUiVTyeVAHp2KbF2M",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
-        "width": 1002,
-        "height": 1002,
-        "contentType": "image/png",
-        "title": "SHRM Badge",
-        "description": ""
       }
     },
     {
@@ -6813,6 +6813,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1pCJYUUiVTyeVAHp2KbF2M",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
+        "width": 1002,
+        "height": 1002,
+        "contentType": "image/png",
+        "title": "SHRM Badge",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6828,19 +6841,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1pCJYUUiVTyeVAHp2KbF2M",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1pCJYUUiVTyeVAHp2KbF2M/4a83a5dc50c9aa0cf583e84c19da3571/shrm-recertification-provider__1_.png",
-        "width": 1002,
-        "height": 1002,
-        "contentType": "image/png",
-        "title": "SHRM Badge",
-        "description": ""
       }
     },
     {
@@ -6881,6 +6881,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "1PICsv1gKWAD8aGdotdplX",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1PICsv1gKWAD8aGdotdplX/29511bef2b9808faf408dcb5cd2838ed/Badge_-_1_Star_-_Negotiation.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - Negotiation",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6896,19 +6909,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "1PICsv1gKWAD8aGdotdplX",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1PICsv1gKWAD8aGdotdplX/29511bef2b9808faf408dcb5cd2838ed/Badge_-_1_Star_-_Negotiation.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - Negotiation",
-        "description": null
       }
     },
     {
@@ -6949,6 +6949,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "25fqmeS1z0mCaERivangH8",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/25fqmeS1z0mCaERivangH8/f133c0cb63dee953e337a5ef0bb44041/Badge_-_1_Star_-_CV___Linkedln_Preparation.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 1 Star - CV & Linkedln Preparation",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -6964,19 +6977,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "25fqmeS1z0mCaERivangH8",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/25fqmeS1z0mCaERivangH8/f133c0cb63dee953e337a5ef0bb44041/Badge_-_1_Star_-_CV___Linkedln_Preparation.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 1 Star - CV & Linkedln Preparation",
-        "description": null
       }
     },
     {
@@ -7017,6 +7017,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "3QP8LDrw9wzr14SO38sJcA",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3QP8LDrw9wzr14SO38sJcA/6ce05c2af453e68b60b2cecd94c0c28f/Badge_-_2_Stars_-_Financial_Data_Analytics.png",
+        "width": 645,
+        "height": 803,
+        "contentType": "image/png",
+        "title": "Badge - 2 Stars - Financial Data Analytics",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "PeopleDetailsActionsCollection",
         "items": [
@@ -7032,19 +7045,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "3QP8LDrw9wzr14SO38sJcA",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3QP8LDrw9wzr14SO38sJcA/6ce05c2af453e68b60b2cecd94c0c28f/Badge_-_2_Stars_-_Financial_Data_Analytics.png",
-        "width": 645,
-        "height": 803,
-        "contentType": "image/png",
-        "title": "Badge - 2 Stars - Financial Data Analytics",
-        "description": null
       }
     },
     {

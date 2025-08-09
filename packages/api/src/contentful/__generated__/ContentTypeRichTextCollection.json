@@ -1,8 +1,596 @@
 {
-  "__timestamp": 1754240208390,
-  "__hash": "b497e911c301a517f724ec78e85d7852dca4540e65129bc42e25ecf9d9daabfd",
+  "__timestamp": 1754757144906,
+  "__hash": "c68b08a9102a6145bbc14d6512c318e380c07626eed18738ebc71174e13e62f7",
   "total": 141,
   "items": [
+    {
+      "sys": {
+        "id": "4tuydrKXZoFoiaYHGdB5dI",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Double Column Checkmark",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Skills Acquired",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Strategic Thinking",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR Management",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR Analytics",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HR Metrics",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Digital Transformation & AI",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Talent Acquisition",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Organizational Development",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Communication & Management",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7hz3m9fcmiF4L4uL48wwVa",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Single Column Checkmark",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Who it’s for",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Graduates & young professionals who want to develop skills or acquire new ones (Upskilling).",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Professionals changing careers who are seeking new skills for a smooth transition (Reskilling).",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Entrepreneurs & business owners who wish to train themselves or their teams.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1nbT06jkyAbuXHhdRPuy9O",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Default",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-3",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Description",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Workearly is the only training platform that offers role-playing courses with realistic scenarios, allowing each participant to choose the difficulty level that suits them. The training material is tailored to their knowledge and experience, ensuring a personalized learning experience. Hiring Partners monitor your progress, while a team of over 10 professionals is always available to answer your questions, conduct personal 1-on-1 sessions, and connect you with a community of people sharing the same interests. Through AI algorithms, the program dynamically adapts to your needs and learning pace, providing a personalized educational experience that evolves with you.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-3",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Interactive Learning",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Learning at Workearly is experiential and hands-on through role-playing scenarios, where you are called to make decisions and face realistic professional challenges in real time. The training content adapts to your level, and through practical projects, interactive exercises, and guidance from top professionals, you acquire skills that you can immediately apply to your career.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7CFN9tfUOsbJAu9gDRITyk",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Double Column Plain Card",
+      "alignment": "Left",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-4",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Requirements",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "No prior experience required",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Suitable for all industries and professional backgrounds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "1eu8Wz0B4Uokx3myjGcRbM",
+        "__typename": "Sys"
+      },
+      "__typename": "ContentTypeRichText",
+      "variant": "Text Callout",
+      "alignment": "Centered",
+      "size": "Full",
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "body": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "heading-2",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Change your career in just",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "heading-1",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "6 Months",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "ContentTypeRichTextBody",
+        "links": {
+          "__typename": "ContentTypeRichTextBodyLinks",
+          "assets": {
+            "__typename": "ContentTypeRichTextBodyAssets",
+            "block": []
+          },
+          "entries": {
+            "__typename": "ContentTypeRichTextBodyEntries",
+            "block": [],
+            "inline": []
+          }
+        }
+      }
+    },
     {
       "sys": {
         "id": "7zcOPdH6j3gvpKXbkLB4Uq",
@@ -27643,216 +28231,6 @@
     },
     {
       "sys": {
-        "id": "4tuydrKXZoFoiaYHGdB5dI",
-        "__typename": "Sys"
-      },
-      "__typename": "ContentTypeRichText",
-      "variant": "Double Column Checkmark",
-      "alignment": "Left",
-      "size": "Full",
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "body": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Skills Acquired",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-4"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Στρατηγική Σκέψη",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "HR Management",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "HR Analytics",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "HR Metrics",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Ψηφιακός Μετασχηματισμός & AI",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Talent Acquisition",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Οργανωτική Ανάπτυξη",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Επικοινωνία & Διαχείριση",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                }
-              ],
-              "nodeType": "unordered-list"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "ContentTypeRichTextBody",
-        "links": {
-          "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
-          "entries": {
-            "__typename": "ContentTypeRichTextBodyEntries",
-            "block": [],
-            "inline": []
-          }
-        }
-      }
-    },
-    {
-      "sys": {
         "id": "4ZRue53aPwEGAPvTicCost",
         "__typename": "Sys"
       },
@@ -40390,204 +40768,6 @@
     },
     {
       "sys": {
-        "id": "7hz3m9fcmiF4L4uL48wwVa",
-        "__typename": "Sys"
-      },
-      "__typename": "ContentTypeRichText",
-      "variant": "Single Column Checkmark",
-      "alignment": "Left",
-      "size": "Full",
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "body": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "heading-4",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Σε ποιους απευθύνεται ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Απόφοιτοι & Νέοι Επαγγελματίες που θέλουν να αναπτύξουν δεξιότητες ή να αποκτήσουν νέες (Upskilling). ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Επαγγελματίες που αλλάζουν καριέρα και αναζητούν νέες δεξιότητες για μια ομαλή μετάβαση (Reskilling). ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Επιχειρηματίες & Ιδιοκτήτες Επιχειρήσεων που επιθυμούν να εκπαιδεύσουν τον εαυτό τους ή τις ομάδες τους. ",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "ContentTypeRichTextBody",
-        "links": {
-          "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
-          "entries": {
-            "__typename": "ContentTypeRichTextBodyEntries",
-            "block": [],
-            "inline": []
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "1eu8Wz0B4Uokx3myjGcRbM",
-        "__typename": "Sys"
-      },
-      "__typename": "ContentTypeRichText",
-      "variant": "Text Callout",
-      "alignment": "Centered",
-      "size": "Full",
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "body": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "heading-2",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Ά",
-                  "marks": [],
-                  "data": {}
-                },
-                {
-                  "nodeType": "text",
-                  "value": "λλαξε την καριέρα σου σε μόλις",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "heading-1",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "6 Μήνες",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "ContentTypeRichTextBody",
-        "links": {
-          "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
-          "entries": {
-            "__typename": "ContentTypeRichTextBodyEntries",
-            "block": [],
-            "inline": []
-          }
-        }
-      }
-    },
-    {
-      "sys": {
         "id": "3OmhtCgrXJPzYPbwOdgzaL",
         "__typename": "Sys"
       },
@@ -43686,108 +43866,6 @@
     },
     {
       "sys": {
-        "id": "7CFN9tfUOsbJAu9gDRITyk",
-        "__typename": "Sys"
-      },
-      "__typename": "ContentTypeRichText",
-      "variant": "Double Column Plain Card",
-      "alignment": "Left",
-      "size": "Full",
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "body": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Requirements",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "heading-4"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": "Καμία προηγούμενη εμπειρία δεν απαιτείται",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": " Κατάλληλο για κάθε κλάδο & επαγγελματικό υπόβαθρο",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                }
-              ],
-              "nodeType": "unordered-list"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "ContentTypeRichTextBody",
-        "links": {
-          "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
-          "entries": {
-            "__typename": "ContentTypeRichTextBodyEntries",
-            "block": [],
-            "inline": []
-          }
-        }
-      }
-    },
-    {
-      "sys": {
         "id": "2dkmNOZYX8gkRgl7IKgRnm",
         "__typename": "Sys"
       },
@@ -43884,90 +43962,6 @@
                 {
                   "nodeType": "text",
                   "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "ContentTypeRichTextBody",
-        "links": {
-          "__typename": "ContentTypeRichTextBodyLinks",
-          "assets": {
-            "__typename": "ContentTypeRichTextBodyAssets",
-            "block": []
-          },
-          "entries": {
-            "__typename": "ContentTypeRichTextBodyEntries",
-            "block": [],
-            "inline": []
-          }
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "1nbT06jkyAbuXHhdRPuy9O",
-        "__typename": "Sys"
-      },
-      "__typename": "ContentTypeRichText",
-      "variant": "Default",
-      "alignment": "Left",
-      "size": "Full",
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "body": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Περιγραφή",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Το Workearly είναι η μοναδική εκπαιδευτική πλατφόρμα που προσφέρει role-playing courses με ρεαλιστικά σενάρια, επιτρέποντας σε κάθε συμμετέχοντα να επιλέξει το επίπεδο δυσκολίας που του ταιριάζει. Το εκπαιδευτικό υλικό προσαρμόζεται στις γνώσεις και την εμπειρία του, διασφαλίζοντας μια εξατομικευμένη μαθησιακή εμπειρία. Οι Hiring Partners παρακολουθούν την πρόοδό σου, ενώ μια ομάδα άνω των 10 επαγγελματιών είναι πάντα διαθέσιμη για να απαντήσει στις απορίες σου, να πραγματοποιήσει personal 1-on-1 sessions και να σε συνδέσει με μια κοινότητα ανθρώπων με τα ίδια ενδιαφέροντα.  Μέσω AI αλγορίθμων, το πρόγραμμα προσαρμόζεται δυναμικά στις ανάγκες και το ρυθμό μάθησής σου, παρέχοντας εξατομικευμένη εμπειρία εκπαίδευσης που εξελίσσεται μαζί σου.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "heading-3",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Διαδραστική Μάθηση",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Η μάθηση στο Workearly είναι βιωματική και πρακτική μέσα από role-playing σενάρια, όπου καλείσαι να λάβεις αποφάσεις και να αντιμετωπίσεις ρεαλιστικές επαγγελματικές προκλήσεις σε πραγματικό χρόνο. Το εκπαιδευτικό περιεχόμενο προσαρμόζεται στο επίπεδό σου, ενώ μέσω πρακτικών projects, διαδραστικών ασκήσεων και καθοδήγησης από κορυφαίους επαγγελματίες, αποκτάς δεξιότητες που μπορείς να εφαρμόσεις άμεσα στην καριέρα σου. ",
                   "marks": [],
                   "data": {}
                 }

@@ -1,8 +1,560 @@
 {
-  "__timestamp": 1754732374878,
-  "__hash": "7b6723faa9c252c8c5d954d198181e7c84f88ee9a488723d0fc9e16095bc6060",
+  "__timestamp": 1754757140995,
+  "__hash": "e866eb99f0eadd1d390d7106514ef1b38a5d27c873ca2090768652fe8a04e373",
   "total": 217,
   "items": [
+    {
+      "sys": {
+        "id": "J5vD2WKavhzuEGmaSBhdT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "85% of Companies Use AI in HR",
+      "text": "AI-driven HR tools are adopted by 85% of companies.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2LMSznClHE8qC9IhwTXro3",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "60% Higher Employee Retention",
+      "text": "AI-powered hiring tools improve employee retention by 60%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6LJajkXEVh58etjyXEH2KH",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "35% Reduction in Turnover",
+      "text": "Companies using predictive HR analytics reduce turnover by 35%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1qukZONXUTp4dzimJwxlKS",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$3.6 Billion Market",
+      "text": "The HR Analytics market is expected to reach $3.6 billion by 2028.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3GzMx0C4av77x8OaNvSUVy",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "400% ROI from SEO",
+      "text": "Companies that invest in SEO see an average return on investment of 400%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3ZHNMxn13jD9NXmvOs47Il",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$92 Billion Spent on Ads",
+      "text": "Digital advertising spending is expected to reach $92 billion this year.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "PzvMALDOPilvlvaBrixtS",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "70% of Budgets Go Digital",
+      "text": "Businesses allocate 70% of their marketing budget to digital channels.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2ul5XEhnMUWu88d8AFSJ1F",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$1 Trillion Industry",
+      "text": "The digital marketing industry is expected to surpass $1 trillion by 2030.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "69DQ6EtGtbygyIaRXzhCUO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "90% of Companies Invest in Data",
+      "text": "Over 90% of organizations prioritize data-driven decision-making.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5RZt868QbM8Vzg9x9U5JB7",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "30% Faster Growth",
+      "text": "Data Science roles are growing 30% faster than the average in the job market.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "72WOUXcPoUHUh3xMyABYyb",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$3.1 Trillion Impact",
+      "text": "AI and Data Science will add $3.1 trillion annually to the global economy.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4kwxoBNP8dU96zO9X4eQj8",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "11.5 Million Jobs",
+      "text": "By 2026, the demand for Data Scientists is expected to reach 11.5 million worldwide.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2eLRtJSMovnCBETBDdw3Yt",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "88% of Businesses Adopt AI",
+      "text": "AI-driven business strategies are implemented by 88% of companies worldwide.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1bB9u1wK1oMI2nxHnXPHoh",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "50% Increase in Business Efficiency",
+      "text": "Data-driven decision-making increases business efficiency by 50%.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5HdjM6hGRAMo59oC2K3UTc",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "$10 Trillion in Digital Transformation",
+      "text": "Businesses will invest $10 trillion in digital transformation by 2030.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7iQuq6DISQ05B52TU7qmfO",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "95% of CEOs Prioritize Strategy",
+      "text": "95% of executives state that business strategy is their main goal.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3saWXkIVXG94mcZffHnJzv",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Companies that want to train their staff",
+      "text": "An ideal program for companies seeking to enhance their teams’ skills, improving efficiency and project organization at every level.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "23ibCfiE6UJSkkPRfzeFRZ",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Entrepreneurs and startup founders",
+      "text": "For those who need a structured project management system to better organize their projects and achieve their goals.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7jmzLbWskDelXcegXoeleY",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Professionals who want to advance their skills",
+      "text": "Ideal for those who wish to learn modern methodologies such as Agile, Scrum, and Waterfall, applying project management practices in their work.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "27Lied89h4WwubMnLDo3Qf",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "asset": null,
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Young professionals and beginners in project management",
+      "text": "For those who want to acquire basic knowledge and skills in project management from scratch.",
+      "variant": null,
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7K7Nq6NAfyMpCQsmntMhnT",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Certification",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "3xNaPPznMseASKXMC6F4ed",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/3xNaPPznMseASKXMC6F4ed/9a91374ed42e57bb85c2d0f239eff711/icon_startreview.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Placeholder Icon",
+        "description": ""
+      }
+    },
+    {
+      "sys": {
+        "id": "7uMZDhCZde0W8ENs4hLdeP",
+        "__typename": "Sys"
+      },
+      "__typename": "Card",
+      "thumbnail": null,
+      "actionsCollection": {
+        "items": [],
+        "__typename": "CardActionsCollection"
+      },
+      "title": "Exams & assessments",
+      "text": null,
+      "variant": "Icon and Text",
+      "studentsCount": null,
+      "rating": null,
+      "tags": null,
+      "theme": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "asset": {
+        "sys": {
+          "id": "2IZ8BEsjdnbPLxYwLdbIQG",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/2IZ8BEsjdnbPLxYwLdbIQG/86128d59217eddd0783c10c346b1febd/Exams.svg",
+        "width": 24,
+        "height": 24,
+        "contentType": "image/svg+xml",
+        "title": "Exams",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "5GcYGzZtaWyGC6OxTYa4OU",
@@ -2637,6 +3189,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "O4PwytiWuQiG2124AlTzD",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/O4PwytiWuQiG2124AlTzD/147d8bfd99bcf9f99156fc4c483197ec/test_photo_and_text.png",
+        "width": 641,
+        "height": 331,
+        "contentType": "image/png",
+        "title": "test photo and text",
+        "description": ""
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -2652,19 +3217,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "O4PwytiWuQiG2124AlTzD",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/O4PwytiWuQiG2124AlTzD/147d8bfd99bcf9f99156fc4c483197ec/test_photo_and_text.png",
-        "width": 641,
-        "height": 331,
-        "contentType": "image/png",
-        "title": "test photo and text",
-        "description": ""
       }
     },
     {
@@ -3941,102 +4493,6 @@
     },
     {
       "sys": {
-        "id": "3GzMx0C4av77x8OaNvSUVy",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "400% ROI from SEO",
-      "text": "Οι εταιρείες που επενδύουν στο SEO βλέπουν 400% απόδοση επένδυσης κατά μέσο όρο.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "3ZHNMxn13jD9NXmvOs47Il",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "$92 Billion Spent on Ads",
-      "text": "Η ψηφιακή διαφημιστική δαπάνη αναμένεται να φτάσει τα $92 δισεκατομμύρια φέτος.\n",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "PzvMALDOPilvlvaBrixtS",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "70% of Budgets Go Digital",
-      "text": "Οι επιχειρήσεις διαθέτουν 70% του marketing budget τους σε ψηφιακά κανάλια.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2ul5XEhnMUWu88d8AFSJ1F",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "$1 Trillion Industry",
-      "text": "Ο κλάδος του Digital Marketing αναμένεται να ξεπεράσει το $1 τρισεκατομμύριο έως το 2030.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "1TzqtwNrTOEekiUNXYzdad",
         "__typename": "Sys"
       },
@@ -4421,102 +4877,6 @@
     },
     {
       "sys": {
-        "id": "2eLRtJSMovnCBETBDdw3Yt",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "88% of Businesses Adopt AI",
-      "text": "Οι AI-driven επιχειρηματικές στρατηγικές εφαρμόζονται από το 88% των εταιρειών παγκοσμίως.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1bB9u1wK1oMI2nxHnXPHoh",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "50% Increase in Business Efficiency",
-      "text": "Η λήψη αποφάσεων βάσει δεδομένων αυξάνει την αποτελεσματικότητα των επιχειρήσεων κατά 50%.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "5HdjM6hGRAMo59oC2K3UTc",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "$10 Trillion in Digital Transformation",
-      "text": "Οι επιχειρήσεις θα επενδύσουν $10 τρισεκατομμύρια στον ψηφιακό μετασχηματισμό έως το 2030.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7iQuq6DISQ05B52TU7qmfO",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "95% of CEOs Prioritize Strategy",
-      "text": "Το 95% των στελεχών δηλώνει ότι η επιχειρηματική στρατηγική είναι ο βασικός τους στόχος.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "2cIvRw4I7YuGUpVoEx8nwl",
         "__typename": "Sys"
       },
@@ -4613,102 +4973,6 @@
     },
     {
       "sys": {
-        "id": "J5vD2WKavhzuEGmaSBhdT",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "85% of Companies Use AI in HR",
-      "text": "Τα AI-driven HR tools υιοθετούνται από το 85% των εταιρειών.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2LMSznClHE8qC9IhwTXro3",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "60% Higher Employee Retention",
-      "text": "Τα AI-powered hiring tools βελτιώνουν τη διατήρηση προσωπικού κατά 60%.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "6LJajkXEVh58etjyXEH2KH",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "35% Reduction in Turnover",
-      "text": "Οι εταιρείες που χρησιμοποιούν predictive HR analytics μειώνουν τις αποχωρήσεις κατά 35%.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1qukZONXUTp4dzimJwxlKS",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "$3.6 Billion Market",
-      "text": "Η αγορά των HR Analytics αναμένεται να φτάσει τα $3.6 δισεκατομμύρια έως το 2028.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "3NcykM50lfNeEHkY9KhrEk",
         "__typename": "Sys"
       },
@@ -4793,102 +5057,6 @@
       },
       "title": "$4.6 Billion Market",
       "text": "Η αγορά των Sports Analytics αναμένεται να ξεπεράσει τα $4.6 δισεκατομμύρια έως το 2025.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "69DQ6EtGtbygyIaRXzhCUO",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "90% of Companies Invest in Data",
-      "text": "Πάνω από 90% των οργανισμών δίνουν προτεραιότητα στη λήψη αποφάσεων βάσει δεδομένων.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "5RZt868QbM8Vzg9x9U5JB7",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "30% Faster Growth",
-      "text": "Οι ρόλοι στο Data Science αναπτύσσονται 30% ταχύτερα από τον μέσο όρο της αγοράς εργασίας.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "72WOUXcPoUHUh3xMyABYyb",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "$3.1 Trillion Impact",
-      "text": "Το AI και το Data Science θα προσθέσουν $3.1 τρισεκατομμύρια ετησίως στην παγκόσμια οικονομία.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "4kwxoBNP8dU96zO9X4eQj8",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "11.5 Million Jobs",
-      "text": "Μέχρι το 2026, η ζήτηση για Data Scientists αναμένεται να φτάσει τα 11.5 εκατομμύρια παγκοσμίως.",
       "variant": null,
       "studentsCount": null,
       "rating": null,
@@ -5877,6 +6045,19 @@
         "__typename": "ContentfulMetadata",
         "tags": []
       },
+      "asset": {
+        "sys": {
+          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/4xAQlfl4Tqv4b0HzOqcy9n/58b6b9834edc15c67f86b15203adeae3/card_Digital_Marketing_Clear.svg",
+        "width": 450,
+        "height": 655,
+        "contentType": "image/svg+xml",
+        "title": "Category Card Digital Marketing Clear",
+        "description": null
+      },
       "actionsCollection": {
         "__typename": "CardActionsCollection",
         "items": [
@@ -5892,19 +6073,6 @@
             }
           }
         ]
-      },
-      "asset": {
-        "sys": {
-          "id": "4xAQlfl4Tqv4b0HzOqcy9n",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/4xAQlfl4Tqv4b0HzOqcy9n/58b6b9834edc15c67f86b15203adeae3/card_Digital_Marketing_Clear.svg",
-        "width": 450,
-        "height": 655,
-        "contentType": "image/svg+xml",
-        "title": "Category Card Digital Marketing Clear",
-        "description": null
       }
     },
     {
@@ -6437,78 +6605,6 @@
     },
     {
       "sys": {
-        "id": "7K7Nq6NAfyMpCQsmntMhnT",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Πιστοποίηση",
-      "text": null,
-      "variant": "Icon and Text",
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "3xNaPPznMseASKXMC6F4ed",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/3xNaPPznMseASKXMC6F4ed/9a91374ed42e57bb85c2d0f239eff711/icon_startreview.svg",
-        "width": 24,
-        "height": 24,
-        "contentType": "image/svg+xml",
-        "title": "Placeholder Icon",
-        "description": ""
-      }
-    },
-    {
-      "sys": {
-        "id": "7uMZDhCZde0W8ENs4hLdeP",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Εξετάσεις & αξιολογήσεις",
-      "text": null,
-      "variant": "Icon and Text",
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "asset": {
-        "sys": {
-          "id": "2IZ8BEsjdnbPLxYwLdbIQG",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/2IZ8BEsjdnbPLxYwLdbIQG/86128d59217eddd0783c10c346b1febd/Exams.svg",
-        "width": 24,
-        "height": 24,
-        "contentType": "image/svg+xml",
-        "title": "Exams",
-        "description": null
-      }
-    },
-    {
-      "sys": {
         "id": "1UXv1ajaUIBzz59UUGnZb7",
         "__typename": "Sys"
       },
@@ -6761,102 +6857,6 @@
       },
       "title": "Εισαγωγή στο Project Management",
       "text": "Τι θα μάθετε: Ρόλος και ευθύνες του Project Manager, κύκλος ζωής διαχείρισης έργων, βασικές έννοιες.\nΓιατί το χρειάζεστε: Στερεές βάσεις στη διαχείριση έργων και κατανόηση κάθε φάσης ενός project.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "3saWXkIVXG94mcZffHnJzv",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Εταιρείες που Θέλουν να Εκπαιδεύσουν το Προσωπικό τους",
-      "text": "Ένα ιδανικό πρόγραμμα για εταιρείες που επιθυμούν να ενισχύσουν τις δεξιότητες των ομάδων τους, βελτιώνοντας την αποδοτικότητα και την οργάνωση των projects σε κάθε επίπεδο.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "23ibCfiE6UJSkkPRfzeFRZ",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Επιχειρηματίες και Startuppers",
-      "text": "Για όσους χρειάζονται ένα δομημένο σύστημα διαχείρισης έργων που θα τους βοηθήσει να οργανώσουν καλύτερα τα projects τους και να επιτύχουν τους στόχους τους.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7jmzLbWskDelXcegXoeleY",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Επαγγελματίες που Θέλουν να Εξελίξουν τις Δεξιότητές τους",
-      "text": "Ιδανικό για όσους επιθυμούν να μάθουν σύγχρονες μεθόδους όπως Agile, Scrum, και Waterfall, εφαρμόζοντας πρακτικές διαχείρισης έργων στην εργασία τους.",
-      "variant": null,
-      "studentsCount": null,
-      "rating": null,
-      "tags": null,
-      "theme": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "27Lied89h4WwubMnLDo3Qf",
-        "__typename": "Sys"
-      },
-      "__typename": "Card",
-      "asset": null,
-      "thumbnail": null,
-      "actionsCollection": {
-        "items": [],
-        "__typename": "CardActionsCollection"
-      },
-      "title": "Νέους Επαγγελματίες και Αρχάριους στη Διαχείριση Έργων",
-      "text": "Για όσους θέλουν να αποκτήσουν βασικές γνώσεις και δεξιότητες στη διαχείριση έργων από το μηδέν. 1239824092384082304932",
       "variant": null,
       "studentsCount": null,
       "rating": null,

@@ -1,8 +1,201 @@
 {
-  "__timestamp": 1754237173155,
-  "__hash": "3f6007915f220503a1c6853560e78e21037011eff0e60205411a96fb59386594",
+  "__timestamp": 1754757145791,
+  "__hash": "e81d45a7144b3cfd0cf6cebe795bc70e77fc7bc29d3c2cc43367714aa1e767f0",
   "total": 154,
   "items": [
+    {
+      "sys": {
+        "id": "4oLP1CANy9BEl7r9sVMocS",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "videoThumbnail": null,
+      "h1Title": "Startup School – Entrepreneurship in Action",
+      "group": 4,
+      "title": "Startup School",
+      "summary": "The Startup School by Workearly is the ultimate experience for future founders, aspiring entrepreneurs, and anyone who wants to build something of their own. In just 6–8 weeks, you’ll learn how to turn an idea into a sustainable business model, work on your own startup concept, and receive mentoring from founders, investors, and industry insiders. The program combines practical knowledge, collaboration with other creative professionals, pitching workshops, and culminates in a live demo day where you present your idea to mentors and market experts. If it’s time to move from theory to practice, this is your time.",
+      "shortDescription": "The Startup School by Workearly is the ultimate summer experience for future founders, aspiring entrepreneurs, and anyone who wants to create something of their own.",
+      "hasApplicationFormCta": false,
+      "applicationFormUrl": "https://form.123formbuilder.com/form-6836331/startup-summer-school-2025",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["English"],
+      "programStarts": "September 2025",
+      "applicationDeadline": "18 August",
+      "startingCost": 265,
+      "finalCost": 265,
+      "hubspotDealType": null,
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4nDv7IfdVOcO4AYeinxluJ",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Certified HR Bootcamp",
+      "group": 1,
+      "title": "HR Bootcamp",
+      "summary": "The HR Bootcamp is a comprehensive and certified training program in the field of Human Resources, designed by Workearly – the only HRCI-approved provider in Greece and Cyprus. Through practical applications, case studies, and specialized modules, you will gain the knowledge and skills needed to advance in the HR field. Ideal for those starting out or seeking to upgrade their career in Human Resource Management.",
+      "shortDescription": "The HR Bootcamp is a complete training program with recognized certification, offering comprehensive education in the field of Human Resources (HR). It includes practical applications, case studies, and specialized thematic modules.",
+      "hasApplicationFormCta": false,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765663/hr-bootcamp-2025",
+      "demoUrl": "https://hrb-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/8x214mbHM12TcDkaLR2ZR0B",
+      "id": null,
+      "language": ["English"],
+      "programStarts": "September 2025",
+      "applicationDeadline": "18 August",
+      "startingCost": 600,
+      "finalCost": 159,
+      "hubspotDealType": "HR Bootcamp September 2025",
+      "onDemand": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "41D5SCyq7M0SO5OF5F3YtF",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/41D5SCyq7M0SO5OF5F3YtF/51dfc7ab8dc065a0c43263e332b7fa15/Solo_-_Human_Resources.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Human Resources",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "7nFfTdaStT9aylcfz9FNxr",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Certified Digital Marketing Bootcamp",
+      "group": 1,
+      "title": "AI Marketing Bootcamp",
+      "summary": "The AI Marketing Bootcamp (Diploma) is an intensive, fully certified professional training program that prepares you for a dynamic career in digital marketing. Through practical projects, case studies, and the most advanced AI techniques, you will acquire comprehensive skills to create successful campaigns, analyze data, and stand out in the market.",
+      "shortDescription": "The AI Marketing Bootcamp (Diploma) is an intensive, fully certified professional training program that prepares you for a dynamic career in digital marketing.",
+      "hasApplicationFormCta": false,
+      "applicationFormUrl": "https://form.123formbuilder.com/6763777/digital-marketing-bootcamp",
+      "demoUrl": "https://digital-marketing-bootcamp-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/fZu3cuh26fXNfPw6vB2ZR0F",
+      "id": null,
+      "language": ["English"],
+      "programStarts": "September 2025",
+      "applicationDeadline": "18 August",
+      "startingCost": 600,
+      "finalCost": 159,
+      "hubspotDealType": "Digital Marketing Bootcamp September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "6tMzF4jfPWiFtVPONIbhth",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/6tMzF4jfPWiFtVPONIbhth/4ce6f39288c5d88282a9569285652f56/Solo_-_Digital_Marketing.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Digital Marketing",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "6XSp7OtaxVLyv3QGweQm3a",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Business Analytics - AI Course with Certification",
+      "group": 2,
+      "title": "AI Business School",
+      "summary": "The AI & Business Analytics School is an intensive, practical, and certified program through which you gain skills in Business Analytics, Artificial Intelligence (AI), Project Management, and Reporting. Through hands-on projects, case studies, and analysis of real business data, you will learn how to use AI and data analysis for strategic decision-making and optimization of business processes.",
+      "shortDescription": "The AI & Business Analytics School is an intensive, practical, and certified program through which you gain skills in Business Analytics, Artificial Intelligence (AI), Project Management, and Reporting.",
+      "hasApplicationFormCta": false,
+      "applicationFormUrl": "https://form.123formbuilder.com/6696851/ai-business-analytics-bootcamp",
+      "demoUrl": null,
+      "paymentLink": null,
+      "id": null,
+      "language": ["English"],
+      "programStarts": "September 2025",
+      "applicationDeadline": "18 August",
+      "startingCost": 500,
+      "finalCost": 99,
+      "hubspotDealType": "AI Business School September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "H3GomFAlX0hebF5e1KkPi",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/H3GomFAlX0hebF5e1KkPi/d955631b203b09cdc25a8d116e948b26/Solo_-_Business.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Business",
+        "description": null
+      }
+    },
+    {
+      "sys": {
+        "id": "jrembJBR9zZ1R4gbpVOHr",
+        "__typename": "Sys"
+      },
+      "__typename": "CourseDetails",
+      "h1Title": "Data Science Course with Certification",
+      "group": 1,
+      "title": "AI Data Analyst Bootcamp",
+      "summary": "The AI Data Analyst Bootcamp is an intensive, certified program that prepares you for the field of Data Analysis. Through practical projects, case studies, and tools such as Python, SQL, Excel, Power BI, and, of course, AI applications in Data Analysis, you will acquire the most in-demand skills in the market according to the latest trends. Ideal for those starting out or looking to advance in the field of Data Science.",
+      "shortDescription": "The Data Analyst Bootcamp is an intensive, hands-on, fully certified training program that prepares you for a dynamic career in Data Analysis.",
+      "hasApplicationFormCta": false,
+      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
+      "demoUrl": "https://da-demo.workearly.ai/",
+      "paymentLink": "https://buy.stripe.com/8x2dR89zEbHx7j0f272ZR0A",
+      "id": null,
+      "language": ["English"],
+      "programStarts": "September 2025",
+      "applicationDeadline": "18 August",
+      "startingCost": 600,
+      "finalCost": 159,
+      "hubspotDealType": "AI Data Analyst Bootcamp September 2025",
+      "onDemand": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "videoThumbnail": {
+        "sys": {
+          "id": "1cwBEn1CkNM8mMIk8sHa7P",
+          "__typename": "Sys"
+        },
+        "__typename": "Asset",
+        "url": "https://images.ctfassets.net/wnfwmvn24siy/1cwBEn1CkNM8mMIk8sHa7P/c24f70e3f865c798c59bfad8cd101214/Solo_-_Data_Science.svg",
+        "width": 750,
+        "height": 750,
+        "contentType": "image/svg+xml",
+        "title": "Solo - Data Science",
+        "description": null
+      }
+    },
     {
       "sys": {
         "id": "HlfvPuiCbAE1hFmTB1qgj",
@@ -246,47 +439,6 @@
         "height": 3648,
         "contentType": "image/jpeg",
         "title": "Hack the Football Data & Programming Summer School - Main photo",
-        "description": ""
-      }
-    },
-    {
-      "sys": {
-        "id": "4oLP1CANy9BEl7r9sVMocS",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Startup Summer School – Επιχειρηματικότητα στην πράξη",
-      "group": 4,
-      "title": "Startup Summer School 2025",
-      "summary": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους. Μέσα σε 6-8 εβδομάδες, μαθαίνεις πώς να μετατρέπεις μια ιδέα σε βιώσιμο επιχειρηματικό μοντέλο, δουλεύεις πάνω στο δικό σου startup concept και λαμβάνεις mentoring από founders, επενδυτές και ανθρώπους του οικοσυστήματος. Το πρόγραμμα συνδυάζει πρακτική γνώση, συνεργασία με άλλους δημιουργικούς επαγγελματίες, pitching workshops, και ολοκληρώνεται με ένα live demo day, όπου παρουσιάζεις την ιδέα σου μπροστά σε mentors και market experts. Αν ήρθε η στιγμή να περάσεις από τη θεωρία στην πράξη, αυτό είναι το καλοκαίρι σου.",
-      "shortDescription": "Το Startup Summer School από το Workearly είναι η απόλυτη καλοκαιρινή εμπειρία για μελλοντικούς founders, επίδοξους επιχειρηματίες και όσους θέλουν να φτιάξουν κάτι δικό τους.",
-      "hasApplicationFormCta": false,
-      "applicationFormUrl": "https://form.123formbuilder.com/form-6836331/startup-summer-school-2025",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "-",
-      "applicationDeadline": "-",
-      "startingCost": 265,
-      "finalCost": 265,
-      "hubspotDealType": null,
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "3tp3TEqglNkKX8B2wUF89K",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://downloads.ctfassets.net/wnfwmvn24siy/3tp3TEqglNkKX8B2wUF89K/55452eb1df35325e7062d4077e9e2cfb/shutterstock_2377241983.jpg",
-        "width": 8256,
-        "height": 5504,
-        "contentType": "image/jpeg",
-        "title": "startup summer main photo",
         "description": ""
       }
     },
@@ -1733,47 +1885,6 @@
     },
     {
       "sys": {
-        "id": "6XSp7OtaxVLyv3QGweQm3a",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Business Analytics - AI με Πιστοποίηση",
-      "group": 2,
-      "title": "AI Business School",
-      "summary": "Το AI & Business Analytics School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς δεξιότητες στα Business Analytics, την Τεχνητή Νοημοσύνη (AI), το Project Management και το Reporting. Μέσα από hands-on projects, case studies και ανάλυση πραγματικών επιχειρηματικών δεδομένων, θα μάθεις πώς να χρησιμοποιείς την AI και την ανάλυση δεδομένων για στρατηγική λήψη αποφάσεων και βελτιστοποίηση επιχειρηματικών διαδικασιών.",
-      "shortDescription": "Το AI & Business Analytics School είναι ένα εντατικό, πρακτικό και πιστοποιημένο πρόγραμμα, με το οποίο αποκτάς δεξιότητες στα Business Analytics, την Τεχνητή Νοημοσύνη (AI), το Project Management και το Reporting.",
-      "hasApplicationFormCta": false,
-      "applicationFormUrl": "https://form.123formbuilder.com/6696851/ai-business-analytics-bootcamp",
-      "demoUrl": null,
-      "paymentLink": null,
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Αυγούστου",
-      "startingCost": 500,
-      "finalCost": 99,
-      "hubspotDealType": "AI Business School September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "H3GomFAlX0hebF5e1KkPi",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/H3GomFAlX0hebF5e1KkPi/d955631b203b09cdc25a8d116e948b26/Solo_-_Business.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
         "id": "7FcYd3n5MSU5HplTz8Trri",
         "__typename": "Sys"
       },
@@ -1897,47 +2008,6 @@
     },
     {
       "sys": {
-        "id": "7nFfTdaStT9aylcfz9FNxr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση σε Digital Marketing",
-      "group": 1,
-      "title": "AI Marketing Bootcamp",
-      "summary": "Το AI Marketing Bootcamp (Diploma) είναι ένα εντατικό, πλήρως πιστοποιημένο πρόγραμμα επαγγελματικής κατάρτισης που σε προετοιμάζει για μια δυναμική καριέρα στο ψηφιακό marketing. Μέσα από πρακτικά projects, case studies και τις πιο σύγχρονες AI τεχνικές, αποκτάς ολοκληρωμένες δεξιότητες για να δημιουργείς επιτυχημένες καμπάνιες, να αναλύεις δεδομένα και να ξεχωρίζεις στην αγορά.",
-      "shortDescription": "Το AI Marketing Bootcamp (Diploma) είναι ένα εντατικό, πλήρως πιστοποιημένο πρόγραμμα επαγγελματικής κατάρτισης που σε προετοιμάζει για μια δυναμική καριέρα στο ψηφιακό marketing.",
-      "hasApplicationFormCta": false,
-      "applicationFormUrl": "https://form.123formbuilder.com/6763777/digital-marketing-bootcamp",
-      "demoUrl": "https://digital-marketing-bootcamp-demo.workearly.ai/",
-      "paymentLink": "https://buy.stripe.com/fZu3cuh26fXNfPw6vB2ZR0F",
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Αυγούστου",
-      "startingCost": 600,
-      "finalCost": 159,
-      "hubspotDealType": "Digital Marketing Bootcamp September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "6tMzF4jfPWiFtVPONIbhth",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/6tMzF4jfPWiFtVPONIbhth/4ce6f39288c5d88282a9569285652f56/Solo_-_Digital_Marketing.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Digital Marketing",
-        "description": null
-      }
-    },
-    {
-      "sys": {
         "id": "2A5ovd6yw19mZdWoQbB04d",
         "__typename": "Sys"
       },
@@ -1974,88 +2044,6 @@
         "height": 750,
         "contentType": "image/svg+xml",
         "title": "Solo - Business",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "jrembJBR9zZ1R4gbpVOHr",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Μάθημα Data Science με Πιστοποίηση",
-      "group": 1,
-      "title": "AI Data Analyst Bootcamp",
-      "summary": "Το AI Data Analyst Bootcamp είναι ένα εντατικό και πιστοποιημένο πρόγραμμα που σε προετοιμάζει για τον κλάδο της Ανάλυσης Δεδομένων. Μέσα από πρακτικά projects, case studies και εργαλεία όπως Python, SQL, Excel, Power BI και φυσικά AI Applications στην Ανάλυση Δεδομένων,  θα αποκτήσεις τις πιο περιζήτητες δεξιότητες της αγοράς σύμφωνα με τις τελευταίες τάσεις. Ιδανικό για όσους ξεκινούν ή θέλουν να εξελιχθούν στον χώρο του Data Science.",
-      "shortDescription": "Το Data Analyst Bootcamp είναι ένα εντατικό, πρακτικό και πλήρως πιστοποιημένο πρόγραμμα εκπαίδευσης που σε προετοιμάζει για μια δυναμική καριέρα στην Ανάλυση Δεδομένων (Data Analysis). ",
-      "hasApplicationFormCta": false,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765662/data-analytics-bootcamp-2025",
-      "demoUrl": "https://da-demo.workearly.ai/",
-      "paymentLink": "https://buy.stripe.com/8x2dR89zEbHx7j0f272ZR0A",
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Αυγούστου",
-      "startingCost": 600,
-      "finalCost": 159,
-      "hubspotDealType": "AI Data Analyst Bootcamp September 2025",
-      "onDemand": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "1cwBEn1CkNM8mMIk8sHa7P",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/1cwBEn1CkNM8mMIk8sHa7P/c24f70e3f865c798c59bfad8cd101214/Solo_-_Data_Science.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Data Science",
-        "description": null
-      }
-    },
-    {
-      "sys": {
-        "id": "4nDv7IfdVOcO4AYeinxluJ",
-        "__typename": "Sys"
-      },
-      "__typename": "CourseDetails",
-      "h1Title": "Bootcamp με Πιστοποίηση στο HR",
-      "group": 1,
-      "title": "HR Bootcamp",
-      "summary": "Το HR Bootcamp είναι ένα ολοκληρωμένο και πιστοποιημένο πρόγραμμα εκπαίδευσης στον τομέα του Human Resources, σχεδιασμένο από το Workearly – τον μοναδικό εγκεκριμένο πάροχο του HRCI σε Ελλάδα και Κύπρο. Μέσα από πρακτικές εφαρμογές, case studies και εξειδικευμένες ενότητες, θα αποκτήσεις τις γνώσεις και δεξιότητες που χρειάζεσαι για να εξελιχθείς στον χώρο του HR. Ιδανικό για όσους ξεκινούν ή επιθυμούν να αναβαθμίσουν την καριέρα τους στον τομέα της Διοίκησης Ανθρώπινου Δυναμικού.",
-      "shortDescription": "Το HR Bootcamp είναι ένα πλήρες εκπαιδευτικό πρόγραμμα με αναγνωρισμένη πιστοποίηση, που παρέχει ολοκληρωμένη εκπαίδευση στον τομέα του Human Resources (HR). Μέσα από πρακτικές εφαρμογές, case studies και εξειδικευμένες θεματικές ενότητες.",
-      "hasApplicationFormCta": false,
-      "applicationFormUrl": "https://form.123formbuilder.com/6765663/hr-bootcamp-2025",
-      "demoUrl": "https://hrb-demo.workearly.ai/",
-      "paymentLink": "https://buy.stripe.com/8x214mbHM12TcDkaLR2ZR0B",
-      "id": null,
-      "language": ["Greek"],
-      "programStarts": "Σεπτέμβριος 2025",
-      "applicationDeadline": "18 Αυγούστου",
-      "startingCost": 600,
-      "finalCost": 159,
-      "hubspotDealType": "HR Bootcamp September 2025",
-      "onDemand": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "videoThumbnail": {
-        "sys": {
-          "id": "41D5SCyq7M0SO5OF5F3YtF",
-          "__typename": "Sys"
-        },
-        "__typename": "Asset",
-        "url": "https://images.ctfassets.net/wnfwmvn24siy/41D5SCyq7M0SO5OF5F3YtF/51dfc7ab8dc065a0c43263e332b7fa15/Solo_-_Human_Resources.svg",
-        "width": 750,
-        "height": 750,
-        "contentType": "image/svg+xml",
-        "title": "Solo - Human Resources",
         "description": null
       }
     },

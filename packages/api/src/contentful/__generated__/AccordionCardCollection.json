@@ -1,8 +1,477 @@
 {
-  "__timestamp": 1754235120322,
-  "__hash": "4c87ea87b52ab2c878e7cc1d94a1c685808dbef39850a2570e4c8c1bcb5a1556",
-  "total": 620,
+  "__timestamp": 1754757139234,
+  "__hash": "fd5bb163f097fe44e4786f7fdd34512c95363c808de387591fe539e93fb92b06",
+  "total": 626,
   "items": [
+    {
+      "sys": {
+        "id": "2Zm8v1aV5fgBI9H5SHQ62S",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Team, Founder Skills & Pitching",
+      "column1Title": "What will you learn:",
+      "column1Text": "You will see how a startup team is built, how to define roles, and how to develop founder resilience. You will prepare to present your startup with clarity, confidence and professionalism.",
+      "column2Title": "Why do you need it:",
+      "column2Text": "The way you present your idea can launch it — or bury it. Pitching and leadership are skills that are cultivated, and this is where that journey begins.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6Fvvlba0zMNsLzl8IV9RrJ",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Fundraising & Financials",
+      "column1Title": "What will you learn:",
+      "column1Text": "You will gain basic knowledge around fundraising (VCs, angels, grants) and learn to speak the investor's 'language': cap tables, dilution, valuations and pitching metrics. You will work on your first pitch deck & financial sketch.",
+      "column2Title": "Why do you need it:",
+      "column2Text": "If you're thinking of seeking investment or simply want to confidently present your startup's value, this module shows you how to do it right.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4DSLeJba2MUn43A1f3Shx4",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Go-To-Market & Marketing Strategy",
+      "column1Title": "What will you learn:",
+      "column1Text": "You will learn how to build your first GTM strategy, how to leverage the right channels (SEO, email, social) and how to recognize the first signs of Product-Market Fit. You will work on a user approach plan.",
+      "column2Title": "Why do you need it:",
+      "column2Text": "An idea without users has no value. This module teaches you how to find, approach and convince your first users.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5vPNGJKPwZAyFIvvy2gkgd",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Branding, Storytelling & Early Growth",
+      "column1Title": "What will you learn:",
+      "column1Text": "You will work on creating a meaningful brand: naming, positioning, tone of voice, value proposition. You will create your first landing page or waitlist and design the first strategies to attract interest without an advertising budget.",
+      "column2Title": "Why do you need it:",
+      "column2Text": "Storytelling is the founder's most powerful tool. You need to be able to explain what you do — simply, clearly and with passion.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "xwrJwJM6evlxiXHVdcKqZ",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Building a Business Model",
+      "column1Title": "What will you learn:",
+      "column1Text": "You will work with the Business Model Canvas and understand the difference between lean and traditional models. You will learn to calculate basic financial elements, design revenue streams and create the initial cost structure of your startup.",
+      "column2Title": "Why do you need it:",
+      "column2Text": "Without a strong business model, even the best idea won't go far. This module helps you 'connect' your idea with a viable plan.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6AwtN2FoFq4FUooy12VLwS",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "From Idea to Validation",
+      "column1Title": "What you will learn:",
+      "column1Text": "You will understand what a startup is, how it differs from a traditional business and what it means to have a founder mindset. You will learn how to identify problems worth solving and how to validate them through tools like personas, surveys, no-code MVPs and user interviews.",
+      "column2Title": "Why do you need it:",
+      "column2Text": "A good start is half the battle. You will acquire the foundations to judge whether your idea 'holds up', whether there is a market need and whether it's worth investing time and resources.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "5yWC2QCOxobhtxS7y8gx3i",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Excel for Project Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "Using basic and advanced Excel functions for project scheduling, resource allocation, and budget tracking.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will leverage Excel as a management tool, organizing data, tracking KPIs, and optimizing project management with accuracy and efficiency.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1aduf1skZyAI3zyIFDDkoT",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Project Closure and Evaluation",
+      "column1Title": "What you will learn:",
+      "column1Text": "Procedures for project closure and conducting post-mortem evaluations.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will ensure that each project is closed in an organized manner, capturing valuable lessons for future projects.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6lQgvI54fRcZ3pmGDiheHI",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Leadership and Team Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "Techniques for motivating the team, resolving conflicts, and improving communication.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will enhance your team’s effectiveness by creating a collaborative, goal-oriented environment.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4kVxS796l1cBYjUKvAhRy",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Project Execution and Monitoring",
+      "column1Title": "What you will learn:",
+      "column1Text": "Monitoring performance indicators (KPIs), managing schedules, and controlling budgets.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to track your project’s progress and ensure it stays within budget and on schedule.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2163141EDP93Fme9urpyyt",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Agile and Scrum Methodologies",
+      "column1Title": "What you will learn:",
+      "column1Text": "Agile principles, Scrum roles, and practical implementation in Scrum sprints.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will apply agile methodologies that accelerate project delivery and enhance adaptability to change.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1joEz9YYahNA3beZ7DUJU9",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Risk & Stakeholder Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "Risk identification and mitigation, stakeholder expectation management.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to identify and mitigate risks that threaten the success of the project while maintaining strong communication with stakeholders.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "159p1gIYmAIlcEWgrmyEQP",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Time and Resource Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "Scheduling (Gantt charts, critical path) and resource estimation.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will effectively manage time and resources, improving your team’s efficiency.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1QzkX9LdcmB96CWStApgmg",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Fundamentals of Project Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "Project objectives, scope, and characteristics, creation of a project charter, and Work Breakdown Structure (WBS).",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to define clear objectives and develop a well-structured project execution plan.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7kqLcTwyGh2UmKR8g8YIK8",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Introduction to Project Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "The role and responsibilities of the Project Manager, the project management lifecycle, and key concepts.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will gain a solid foundation in project management, understanding how to manage each phase of a project.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "tl7LLmiNO1e5PBS490IbV",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Digital Transformation / AI & ChatGPT for HR",
+      "column1Title": "What you will learn:",
+      "column1Text": "Applications of digital technology and AI in HR.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To leverage technology and improve the efficiency of HR functions.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "kiXwRiybYwJbFoI0HKPLT",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Talent Acquisition & Recruitment",
+      "column1Title": "What you will learn:",
+      "column1Text": "Talent acquisition and recruitment strategies.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To select the right candidates and build a strong team.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "56SnkFxszM8dZrE50kJlss",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Human Resource Administration & Development",
+      "column1Title": "What you will learn:",
+      "column1Text": "Core processes of human resource management and development.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To better organize HR and support employee development.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7pcBn9SVt54DLZs3VZTFQ5",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "HR Analytics & Data-Driven Decision Making",
+      "column1Title": "What you will learn:",
+      "column1Text": "HR data analysis and data-driven decision-making.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To improve HR processes and forecast trends through data analysis.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6cagzWeN5a1KISlty0Rtm5",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "HR Metrics",
+      "column1Title": "What you will learn:",
+      "column1Text": "Key HR metrics and performance evaluation methods.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To quantify the value of HR and support decisions with data.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "31WbsQE6o0U0isufpuVQ2r",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Human Resource Management (HRM)",
+      "column1Title": "What you will learn:",
+      "column1Text": "Fundamental principles and practices in human resource management.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To gain a comprehensive understanding of HRM and the responsibilities of the modern HR function.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "153cpBZdYEODKbrHHBmMOK",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Learning & Development (L&D)",
+      "column1Title": "What you will learn:",
+      "column1Text": "Design and implementation of training and development programs.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To support the continuous development of employees and enhance productivity.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "JJTk6ACSVbEWWmDHmWijo",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            },
+            {
+              "data": {},
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "paragraph"
+            }
+          ],
+          "nodeType": "document"
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Human Resource Strategy",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to develop and align HR strategy with business objectives.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To ensure that HR initiatives contribute to the organization’s success.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "7JPCxyK3YdtCBZxOQPI69K",
@@ -11,10 +480,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Personal Branding & LinkedIn Strategy",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να χτίσετε και να προβάλετε την προσωπική σας ταυτότητα στο LinkedIn και άλλα επαγγελματικά δίκτυα.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να ενισχύσετε την επαγγελματική σας προβολή, να προσελκύσετε ευκαιρίες και να χτίσετε ένα ισχυρό επαγγελματικό προφίλ.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to build and showcase your personal brand on LinkedIn and other professional networks.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To enhance your professional visibility, attract opportunities, and build a strong professional profile.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -30,10 +499,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Public Speaking & Presentation Skills",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Δεξιότητες για αποτελεσματική παρουσίαση ιδεών και πειστική δημόσια ομιλία.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η καλή παρουσίαση ενισχύει την επαγγελματική εικόνα και την ικανότητά σας να επηρεάζετε και να επικοινωνείτε με επιτυχία.",
+      "column1Title": "What you will learn:",
+      "column1Text": "Skills for effective idea presentation and persuasive public speaking.",
+      "column2Title": "Why you need it:",
+      "column2Text": "A strong presentation enhances your professional image and your ability to influence and communicate successfully.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -49,10 +518,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Hybrid Teamwork & Digital Productivity",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Τεχνικές και εργαλεία για αποτελεσματική συνεργασία σε υβριδικά περιβάλλοντα εργασίας και αύξηση της ψηφιακής παραγωγικότητας.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να διαχειρίζεστε ομάδες απομακρυσμένα και να παραμένετε αποδοτικοί σε ένα σύγχρονο, ευέλικτο εργασιακό περιβάλλον.",
+      "column1Title": "What you will learn:",
+      "column1Text": "Techniques and tools for effective collaboration in hybrid work environments and for increasing digital productivity.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To manage teams remotely and remain productive in a modern, flexible work environment.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -68,10 +537,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Generative AI σε Δημιουργικές Καμπάνιες",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να χρησιμοποιείτε Generative AI για την παραγωγή δημιουργικού περιεχομένου (κειμένων, εικόνων, ιδεών) σε marketing καμπάνιες.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να καινοτομείτε στο storytelling και τη δημιουργία υλικού, μειώνοντας τον χρόνο παραγωγής και ενισχύοντας τη φαντασία σας με την υποστήριξη της AI.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to use Generative AI to produce creative content (texts, images, ideas) in marketing campaigns.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to innovate in storytelling and content creation, reducing production time and enhancing your creativity with the support of AI.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -87,10 +556,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Content Strategy, SEO & Performance Marketing",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές αρχές στρατηγικής περιεχομένου, βελτιστοποίησης για μηχανές αναζήτησης και διαχείρισης καμπανιών απόδοσης.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να αυξήσετε την προβολή της επιχείρησης, να προσελκύσετε το σωστό κοινό και να πετύχετε μετρήσιμα αποτελέσματα στο digital marketing.",
+      "column1Title": "What you will learn:",
+      "column1Text": "Basic principles of content strategy, search engine optimization, and performance campaign management.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To increase your business visibility, attract the right audience, and achieve measurable results in digital marketing.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -106,10 +575,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Marketing Analytics & Consumer Insights",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να αναλύετε δεδομένα και να εξάγετε χρήσιμες πληροφορίες για τη συμπεριφορά των καταναλωτών.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να λαμβάνετε αποφάσεις βάσει δεδομένων, βελτιώνοντας την κατανόηση των αναγκών της αγοράς και την αποτελεσματικότητα των καμπανιών σας.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to analyze data and extract valuable insights on consumer behavior.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to make data-driven decisions, improving your understanding of market needs and the effectiveness of your campaigns.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -125,10 +594,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Prompting για Marketing Εφαρμογές",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Τεχνικές δημιουργίας αποτελεσματικών prompts για χρήση με εργαλεία AI σε context marketing.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να παράγετε πιο ποιοτικό περιεχόμενο, ιδέες και insights γρήγορα και στοχευμένα, με τη βοήθεια της τεχνητής νοημοσύνης.",
+      "column1Title": "What you will learn:",
+      "column1Text": "Techniques for creating effective prompts for use with AI tools in a marketing context.",
+      "column2Title": "Why you need it:",
+      "column2Text": "To generate higher-quality content, ideas, and insights quickly and with precision, with the help of artificial intelligence.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -144,29 +613,10 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "AI-Powered Marketing Fundamentals",
-      "column1Title": " Τι θα μάθετε:",
-      "column1Text": "Πώς η τεχνητή νοημοσύνη μετασχηματίζει βασικές αρχές του marketing και πώς να τη χρησιμοποιείτε για στρατηγικές αποφάσεις.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": " Θα μπορέσετε να σχεδιάζετε πιο στοχευμένες και αποδοτικές καμπάνιες με τη βοήθεια εργαλείων AI, ενισχύοντας την αποτελεσματικότητα του marketing σας.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7H32e9fF9gKIRrVA1zLqWi",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "AI & Data Ethics",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές αρχές δεοντολογίας γύρω από τη χρήση της Τεχνητής Νοημοσύνης και των δεδομένων. Θα εξετάσετε θέματα όπως η ιδιωτικότητα, η προκατάληψη (bias), η διαφάνεια, η υπευθυνότητα και η συμμόρφωση με κανονισμούς, καθώς και πραγματικά παραδείγματα ηθικών προκλήσεων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η υπεύθυνη χρήση της AI και των δεδομένων είναι κρίσιμη για τη διατήρηση της εμπιστοσύνης, της νομιμότητας και της κοινωνικής αποδοχής. Η κατανόηση των ηθικών κινδύνων και η σωστή διαχείριση τους σας καθιστά όχι μόνο πιο ικανούς επαγγελματίες, αλλά και πιο συνειδητοποιημένους χρήστες στην εποχή της ψηφιακής τεχνητής νοημοσύνης.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How Artificial Intelligence is transforming core marketing principles and how to use it for strategic decision-making.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to design more targeted and efficient campaigns with the help of AI tools, enhancing the effectiveness of your marketing.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -182,10 +632,29 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "AI & Prompt Engineering",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να διαμορφώνετε αποτελεσματικά prompts για μοντέλα Τεχνητής Νοημοσύνης όπως το ChatGPT. Θα γνωρίσετε στρατηγικές για να πετυχαίνετε ακριβείς, χρήσιμες και δημιουργικές απαντήσεις σε ποικιλία επαγγελματικών και τεχνικών σεναρίων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η σωστή διατύπωση ενός prompt είναι το κλειδί για την επιτυχία με κάθε εργαλείο AI. Με την κατάλληλη τεχνική, μπορείτε να αυτοματοποιήσετε εργασίες, να βελτιώσετε την παραγωγικότητά σας και να αξιοποιήσετε πλήρως τις δυνατότητες των σύγχρονων μοντέλων.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to effectively craft prompts for Artificial Intelligence models such as ChatGPT. You will learn strategies to achieve accurate, useful, and creative responses across a variety of professional and technical scenarios.",
+      "column2Title": "Why you need it:",
+      "column2Text": "The correct formulation of a prompt is the key to success with any AI tool. With the right technique, you can automate tasks, improve your productivity, and fully leverage the capabilities of modern models.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7H32e9fF9gKIRrVA1zLqWi",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI & Data Ethics",
+      "column1Title": "What you will learn:",
+      "column1Text": "Basic principles of ethics in the use of Artificial Intelligence and data. You will explore topics such as privacy, bias, transparency, accountability, and regulatory compliance, as well as real-world examples of ethical challenges.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Responsible use of AI and data is critical for maintaining trust, legality, and social acceptance. Understanding ethical risks and managing them effectively makes you not only a more capable professional but also a more conscientious user in the era of digital artificial intelligence.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -201,10 +670,29 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Data Scaling with AI",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να χρησιμοποιείτε την Τεχνητή Νοημοσύνη για να διαχειρίζεστε και να επεκτείνετε μεγάλα σύνολα δεδομένων. Θα μάθετε τεχνικές καθαρισμού, κανονικοποίησης, παραγωγής συνθετικών δεδομένων και βελτιστοποίησης επιδόσεων για big data εφαρμογές με τη βοήθεια της AI.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η επεξεργασία και ανάλυση μεγάλων δεδομένων απαιτεί ταχύτητα, ακρίβεια και ευελιξία. Με την υποστήριξη της AI, μπορείτε να αυτοματοποιήσετε κρίσιμες διαδικασίες, να μειώσετε σφάλματα και να επιτύχετε αποτελεσματική κλιμάκωση σε projects κάθε μεγέθους.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to use Artificial Intelligence to manage and expand large datasets. You will learn techniques for cleaning, normalizing, generating synthetic data, and optimizing performance for big data applications with the help of AI.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Processing and analyzing big data requires speed, accuracy, and flexibility. With AI support, you can automate critical processes, reduce errors, and achieve efficient scalability for projects of any size.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1mDyx4KFZkJj0DYoxekwio",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Python (NumPy & Pandas)",
+      "column1Title": "What you will learn:",
+      "column1Text": "Using the NumPy and Pandas libraries for data analysis and processing.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Python, with its NumPy and Pandas libraries, forms the core of data analysis, offering flexibility and power in processing large datasets.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -220,10 +708,29 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Pivot with AI",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να χρησιμοποιείτε εργαλεία Τεχνητής Νοημοσύνης για τη δημιουργία, ανάλυση και αυτοματοποίηση πινάκων Pivot σε εφαρμογές Excel ή BI πλατφόρμες. Θα μάθετε πώς η AI μπορεί να εντοπίζει μοτίβα, να προτείνει ομαδοποιήσεις και να βελτιστοποιεί την ανάλυση δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Οι πίνακες Pivot είναι βασικό εργαλείο για την εξερεύνηση και σύνοψη δεδομένων. Η ενσωμάτωση της AI κάνει την εργασία σας πιο γρήγορη, έξυπνη και ακριβή, βοηθώντας σας να παίρνετε καλύτερες αποφάσεις με λιγότερη προσπάθεια.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to use Artificial Intelligence tools to create, analyze, and automate Pivot Tables in Excel applications or BI platforms. You will learn how AI can detect patterns, suggest groupings, and optimize data analysis.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Pivot Tables are a key tool for exploring and summarizing data. Integrating AI makes your work faster, smarter, and more accurate, helping you make better decisions with less effort.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "JQqQM6nK18boGhZAo12tp",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Excel",
+      "column1Title": "What you will learn:",
+      "column1Text": "Detailed Excel tools and functions for statistical analysis and data analysis.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Excel is user-friendly and widely adopted, making it a key tool for data analysis in many organizations.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -239,10 +746,29 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "AI Visualizations",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να χρησιμοποιείτε εργαλεία Τεχνητής Νοημοσύνης για τη δημιουργία δυναμικών και διαδραστικών οπτικοποιήσεων δεδομένων. Θα μάθετε να μετατρέπετε σύνθετα δεδομένα σε κατανοητά γραφήματα και dashboards με τη βοήθεια AI.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η κατανόηση και επικοινωνία δεδομένων είναι ζωτικής σημασίας. Η χρήση AI για οπτικοποίηση σας επιτρέπει να εξοικονομείτε χρόνο, να εντοπίζετε μοτίβα ευκολότερα και να παρουσιάζετε τα ευρήματά σας με πιο εντυπωσιακό και ουσιαστικό τρόπο.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to use Artificial Intelligence tools to create dynamic and interactive data visualizations. You will learn to transform complex data into comprehensible charts and dashboards with the help of AI.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Understanding and communicating data is vital. Using AI for visualization allows you to save time, identify patterns more easily, and present your findings in a more impressive and meaningful way.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "77CQNWgoE4ORWPtGFcBhY2",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Microsoft Power BI",
+      "column1Title": "What you will learn:",
+      "column1Text": "Data analysis and visualization with Power BI.",
+      "column2Title": "Why you need it:",
+      "column2Text": "Power BI enables the creation of interactive reports and dashboards that facilitate the communication of complex information in real time.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -258,10 +784,1412 @@
       "__typename": "AccordionCard",
       "text": null,
       "title": "Applying AI in SQL",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να ενσωματώνετε τεχνολογίες Τεχνητής Νοημοσύνης (AI) σε ερωτήματα SQL για την ανάλυση, πρόβλεψη και αυτοματοποίηση διαδικασιών σε βάσεις δεδομένων. Θα μάθετε επίσης πώς να χρησιμοποιείτε σύγχρονα εργαλεία που υποστηρίζουν AI μέσα στο περιβάλλον της SQL.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να μπορείτε να αξιοποιήσετε τις δυνατότητες της AI απευθείας μέσα από τη γλώσσα SQL, ενισχύοντας την ανάλυση δεδομένων, την πρόβλεψη τάσεων και την αυτοματοποίηση εργασιών χωρίς να εγκαταλείψετε το γνώριμο περιβάλλον της βάσης δεδομένων.",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to integrate Artificial Intelligence (AI) technologies into SQL queries for the analysis, prediction, and automation of processes in databases. You will also learn how to use modern tools that support AI within the SQL environment.",
+      "column2Title": "Why you need it:",
+      "column2Text": "So that you can leverage AI capabilities directly within the SQL language, enhancing data analysis, trend forecasting, and task automation without leaving the familiar database environment.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "SQL & Databases for Data Analysts",
+      "column1Title": "What you will learn:",
+      "column1Text": "SQL for extracting, filtering, and analyzing data from databases.",
+      "column2Title": "Why you need it:",
+      "column2Text": "SQL is essential for analyzing data directly from large databases, saving time and resources in data preparation.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3OOTpczBsA1naMQYTnUhB3",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Data Science Fundamentals",
+      "column1Title": "What you will learn:",
+      "column1Text": "Basic concepts of Data Science and data analysis algorithms.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will understand how Data Science uses algorithms to extract information from large datasets and support decision-making.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "700qkNkd3a5iJVAftcUarv",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Business Analytics & Business Intelligence",
+      "column1Title": "What you will learn:",
+      "column1Text": "How to analyze and interpret business data, integrating Business Intelligence tools for strategic decision-making.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to turn data into valuable business insights, enhancing your organization’s growth and efficiency.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "21uLNzkuZspVh6otpFO0aY",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Experiential learning is proven to be more effective than theory. Role-Playing Training offers:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Active participation",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": ", which enhances knowledge retention.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Tailored scenarios",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": ", helping develop critical professional skills.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Immediate feedback",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": ", enabling users to improve in real time.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "That’s why Workearly uses Role-Playing Training, delivering the most modern and effective learning method.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Why do I learn better with Role-Playing Training?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "SfoYkU3wkLn7Y10Lwpbq2",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Yes. Workearly adapts the material to your level.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "If you’re a beginner, you’ll receive additional explanations and basic concepts.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "If you already have knowledge, you’ll get more advanced material and specialized challenges.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "This way, regardless of your level, you’ll have the ideal learning experience.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Can I take the course whether I’m a beginner or have some experience?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1eTJOYtXnQpecZvsrnTI70",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Of course. The Workearly team is always available for support through:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Live chat",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Q&A sessions with instructors",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "1-on-1 career coaching",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "You are never alone in the learning process.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Is there support in the course, and in what form?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "6HId8era7rOxwM67TctGDf",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Yes, but the experience is flexible. Depending on your performance, the material you see is adapted to your needs. This means you focus more on the areas you need and less on those you already know.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Do I have to complete the entire course to get the certification?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "4PnbkwZeukh0JwZFsAtnzH",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Yes, all courses are fully online, so you can attend them from anywhere and at any time.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Is the training only online?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "iPtUb1lm1B67Tm1JovOaE",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Yes. Workearly uses Microlearning, a method where you can complete small tasks daily, even if you only have ten minutes available. In addition, you can structure your schedule as:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Full-time",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Part-time",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Pause & Resume when needed\nThis way, the course adapts to your pace.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Will I have time to attend the Workearly course?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1yxdcgrlqCEl5UJvVQkD45",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Many.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Connection with Hiring Partners – Companies receive graduates’ resumes.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Collaborations and projects – Courses include group work that fosters teamwork.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Networking events and community – Workearly has the most dynamic professional community in Greece, giving you access to a network of people with shared interests.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Are there networking opportunities?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "73cqwWfdFOA9cMU4c5UgDH",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Workearly partners with over a thousand companies seeking specialized professionals. The Hiring Partners receive our graduates’ resumes directly, along with feedback on their performance in the courses. This connection to the job market gives our graduates a significant advantage in recruitment.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "What are Workearly’s Hiring Partners?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "2QGPMkL6aUo8J8C35OgmcD",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Yes. Workearly’s certifications are internationally recognized, and we collaborate with top institutions such as:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "HRCI (Human Resource Certification Institute)",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "DATAIA at Paris-Saclay University",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Microsoft Global Skills Initiative",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Your certification is not just a piece of paper, but proof of the hard skills you will acquire – skills that employers truly value.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "ChatGPT said: Is the certification offered by Workearly recognized?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "SSEo2GbQQo4MapwqFmp2U",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Workearly doesn’t just promise a certification – it promises essential skills that make a difference.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Through our Hiring Partners, our graduates’ resumes reach dozens of top companies.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Learners acquire all the skills needed to pass technical interviews and actively pursue job opportunities.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Many graduates secure employment even before completing the program.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Will you definitely find me a job?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1PXvaehygWdiDKiJiK0i3s",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Workearly is for everyone.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Students who want to gain practical skills and enhance their CV.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Professionals seeking specialization, reskilling, or a career change.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Business executives who want to expand their knowledge in fields such as Data Science, HR, Tech, and Business.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Anyone who wishes to acquire high-demand skills and stand out in the job market.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Who is Workearly for?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1a0THIOSHIwSxrFwjzctVW",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Workearly stands out in three key areas:",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "unordered-list",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": " ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "Personalization:",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " No course is the same for everyone. Our algorithms tailor the material according to each user’s profile and needs.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": " ",
+                          "marks": [],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": "Real-World Learning:",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " All our programs focus on practical skills, not just theory.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "list-item",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "paragraph",
+                      "data": {},
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Connection to the job market:",
+                          "marks": [
+                            {
+                              "type": "bold"
+                            }
+                          ],
+                          "data": {}
+                        },
+                        {
+                          "nodeType": "text",
+                          "value": " Our graduates receive support for career placement and network with companies seeking specialized professionals.",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We are the only Greek training platform offering such a personalized and dynamic learning experience.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            },
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "What makes Workearly different from other training platforms?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "1304hLhrtkDPwNLYxAOxL9",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": {
+        "json": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Workearly has a 5-star rating on Google Reviews, and that’s no coincidence. Our success is built on a unique learning experience tailored to each learner’s needs. We’re not just a course platform – we are an educational organization providing personalized training, hands-on experiences, and meaningful support every step of the way. Our team is always available for guidance, while our training content constantly evolves based on user feedback. That’s why our graduates not only acquire practical skills but also return for new courses.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        },
+        "__typename": "AccordionCardText"
+      },
+      "title": "Why does Workearly have so many positive reviews?",
+      "column1Title": null,
+      "column1Text": null,
+      "column2Title": null,
+      "column2Text": null,
+      "topNotes": null,
+      "skipNumber": true,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "3i9udciWMhQdEAjvarpsrw",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "AI for Business Analysts",
+      "column1Title": "What you will learn:",
+      "column1Text": "How Artificial Intelligence (AI) can be applied to business analysis, leveraging Machine Learning and automated tools to extract insights.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to optimize processes, predict trends, and support data-driven business decisions with the help of AI.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7l2psbnuzoZA57mvuSJpOZ",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Microsoft Power BI",
+      "column1Title": "What you will learn:",
+      "column1Text": "Using Power BI to create interactive dashboards, analyze data, and visualize key business insights.",
+      "column2Title": "Why you need it:",
+      "column2Text": "ChatGPT said:\nYou will be able to make strategic, data-driven decisions by transforming large volumes of information into actionable reports.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "7fzWxI5hwQuxWUTO5gmDc7",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "Project Management",
+      "column1Title": "What you will learn:",
+      "column1Text": "Fundamental principles of project management, from planning and execution to control and completion, using Agile and Waterfall methodologies.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will learn how to manage projects effectively, ensuring their timely completion and optimal resource utilization.",
+      "topNotes": null,
+      "skipNumber": false,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
+    {
+      "sys": {
+        "id": "32rZ7epBuEsSMHELHytzd",
+        "__typename": "Sys"
+      },
+      "__typename": "AccordionCard",
+      "text": null,
+      "title": "KPIs & Reporting Using Advanced Excel",
+      "column1Title": "What you will learn:",
+      "column1Text": "Design, analyze, and present KPIs using advanced Excel techniques, leveraging dashboards and reporting tools.",
+      "column2Title": "Why you need it:",
+      "column2Text": "You will be able to monitor the performance of business operations and make informed, data-driven decisions.",
       "topNotes": null,
       "skipNumber": false,
       "contentfulMetadata": {
@@ -8693,101 +10621,6 @@
     },
     {
       "sys": {
-        "id": "3i9udciWMhQdEAjvarpsrw",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "AI for Business Analysts",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς η Τεχνητή Νοημοσύνη (AI) μπορεί να εφαρμοστεί στην επιχειρηματική ανάλυση, αξιοποιώντας Machine Learning και αυτοματοποιημένα εργαλεία για την εξαγωγή insights.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να βελτιστοποιείτε διαδικασίες, να προβλέπετε τάσεις και να υποστηρίζετε data-driven επιχειρηματικές αποφάσεις με τη βοήθεια της AI.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7l2psbnuzoZA57mvuSJpOZ",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Microsoft Power BI",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Χρήση του Power BI για τη δημιουργία διαδραστικών dashboards, ανάλυση δεδομένων και οπτικοποίηση σημαντικών επιχειρηματικών insights.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να λαμβάνετε στρατηγικές αποφάσεις βασισμένες σε δεδομένα, μετατρέποντας μεγάλους όγκους πληροφοριών σε χρήσιμα reports.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7fzWxI5hwQuxWUTO5gmDc7",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Project Management",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές αρχές διαχείρισης έργων, από τον σχεδιασμό και την εκτέλεση μέχρι τον έλεγχο και την ολοκλήρωση, με χρήση Agile & Waterfall μεθοδολογιών.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μάθετε πώς να διαχειρίζεστε έργα αποτελεσματικά, εξασφαλίζοντας την έγκαιρη ολοκλήρωσή τους και τη βέλτιστη αξιοποίηση των πόρων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "32rZ7epBuEsSMHELHytzd",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "KPIs & Reporting Using Advanced Excel",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Σχεδιασμός, ανάλυση και παρουσίαση KPIs μέσω προηγμένων τεχνικών Excel, αξιοποιώντας dashboards και reporting εργαλεία.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να παρακολουθείτε την απόδοση των επιχειρησιακών λειτουργιών και να λαμβάνετε τεκμηριωμένες αποφάσεις βασισμένες σε δεδομένα.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "700qkNkd3a5iJVAftcUarv",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Business Analytics & Business Intelligence",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Πώς να αναλύετε και να ερμηνεύετε επιχειρηματικά δεδομένα, ενσωματώνοντας εργαλεία Business Intelligence για στρατηγική λήψη αποφάσεων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να μετατρέπετε τα δεδομένα σε πολύτιμες επιχειρηματικές πληροφορίες, ενισχύοντας την ανάπτυξη και αποδοτικότητα του οργανισμού σας.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "UmUk6VTJA2fUS8TzUZzuL",
         "__typename": "Sys"
       },
@@ -9377,177 +11210,6 @@
     },
     {
       "sys": {
-        "id": "5yWC2QCOxobhtxS7y8gx3i",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Excel for Project Management",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Χρήση βασικών και προχωρημένων λειτουργιών Excel για προγραμματισμό έργων, κατανομή πόρων και παρακολούθηση προϋπολογισμού.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα αξιοποιείτε το Excel ως εργαλείο διαχείρισης, οργανώνοντας δεδομένα, παρακολουθώντας KPI και βελτιστοποιώντας τη διαχείριση των projects με ακρίβεια και αποτελεσματικότητα.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1aduf1skZyAI3zyIFDDkoT",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Κλείσιμο και Αξιολόγηση Έργου",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Διαδικασίες για το κλείσιμο του έργου και διενέργεια post-mortem αξιολογήσεων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα διασφαλίζετε ότι κάθε έργο κλείνει οργανωμένα, αποκομίζοντας χρήσιμα διδάγματα για μελλοντικά projects.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "6lQgvI54fRcZ3pmGDiheHI",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Ηγεσία και Διαχείριση Ομάδας",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Τεχνικές για την παρακίνηση της ομάδας, επίλυση συγκρούσεων και βελτίωση επικοινωνίας.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα ενισχύσετε την αποτελεσματικότητα της ομάδας σας, δημιουργώντας ένα περιβάλλον συνεργασίας και επίτευξης στόχων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "4kVxS796l1cBYjUKvAhRy",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Εκτέλεση και Παρακολούθηση Έργου",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Παρακολούθηση δεικτών απόδοσης (KPIs), διαχείριση χρονοδιαγράμματος και προϋπολογισμού.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να παρακολουθείτε την πορεία του έργου σας και να διασφαλίζετε ότι παραμένει εντός προϋπολογισμού και χρονοδιαγράμματος.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2163141EDP93Fme9urpyyt",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Μεθοδολογίες Agile και Scrum",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Αρχές του Agile, ρόλοι στο Scrum και πρακτική εφαρμογή σε Scrum sprints.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα εφαρμόζετε ευέλικτες μεθοδολογίες που επιταχύνουν την παράδοση του έργου και ενισχύουν την προσαρμοστικότητα στις αλλαγές.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1joEz9YYahNA3beZ7DUJU9",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Risk & Stakeholder Management",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Αναγνώριση και μείωση κινδύνων, διαχείριση προσδοκιών των stakeholders.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να εντοπίζετε και να μετριάζετε τους κινδύνους που απειλούν την επιτυχία του έργου, διατηρώντας ισχυρή επικοινωνία με τα ενδιαφερόμενα μέρη.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "159p1gIYmAIlcEWgrmyEQP",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Διαχείριση Χρόνου και Πόρων",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Χρονικός προγραμματισμός (Gantt charts, critical path) και εκτίμηση πόρων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα διαχειρίζεστε αποτελεσματικά τον χρόνο και τους πόρους, βελτιώνοντας την αποδοτικότητα της ομάδας σας.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1QzkX9LdcmB96CWStApgmg",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Βασικά Στοιχεία Project Management",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Στόχοι, εύρος και χαρακτηριστικά έργων, δημιουργία project charter και Work Breakdown Structure (WBS).",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα μπορείτε να ορίζετε ξεκάθαρους στόχους και να διαμορφώνετε ένα σαφές σχέδιο υλοποίησης του έργου.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7kqLcTwyGh2UmKR8g8YIK8",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Εισαγωγή στο Project Management",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Ο ρόλος και οι ευθύνες του Project Manager, ο κύκλος ζωής διαχείρισης έργων και οι βασικές έννοιες.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα αποκτήσετε στέρεες βάσεις στη διαχείριση έργων, κατανοώντας πώς να διαχειρίζεστε κάθε φάση ενός project.\n",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
         "id": "7At24WKkg0Qpl6QLxxKZFC",
         "__typename": "Sys"
       },
@@ -9579,426 +11241,6 @@
       "column2Text": "Η οπτικοποίηση δεδομένων διευκολύνει την κατανόηση των τάσεων και των σχέσεων μέσα στα δεδομένα, επιτρέποντας την αποτελεσματική επικοινωνία πληροφοριών.",
       "topNotes": null,
       "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1mDyx4KFZkJj0DYoxekwio",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Python (NumPy & Pandas)",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Χρήση των βιβλιοθηκών NumPy και Pandas για την ανάλυση και επεξεργασία δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η Python με τις βιβλιοθήκες NumPy και Pandas αποτελεί τον πυρήνα της ανάλυσης δεδομένων, προσφέροντας ευελιξία και δύναμη στην επεξεργασία μεγάλων δεδομένων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "JQqQM6nK18boGhZAo12tp",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Excel",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Αναλυτικά εργαλεία και λειτουργίες του Excel για στατιστική ανάλυση και ανάλυση δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Το Excel είναι εύχρηστο και ιδιαίτερα διαδεδομένο, καθιστώντας το ένα βασικό εργαλείο για την ανάλυση δεδομένων σε πολλούς οργανισμούς.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "77CQNWgoE4ORWPtGFcBhY2",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Microsoft Power BI",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Ανάλυση και οπτικοποίηση δεδομένων με το Power BI.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Το Power BI επιτρέπει τη δημιουργία διαδραστικών reports και dashboards που διευκολύνουν την επικοινωνία σύνθετων πληροφοριών σε πραγματικό χρόνο.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "3cZD6Jf3Mj5qJdUfkGWrMY",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "SQL & Databases for Data Analysts",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "SQL για εξαγωγή, φιλτράρισμα και ανάλυση δεδομένων από βάσεις δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Η SQL είναι απαραίτητη για την ανάλυση δεδομένων απευθείας από μεγάλες βάσεις δεδομένων, εξοικονομώντας χρόνο και πόρους στην προετοιμασία δεδομένων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "3OOTpczBsA1naMQYTnUhB3",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Data Science Fundamentals",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές έννοιες της Επιστήμης Δεδομένων και αλγορίθμους ανάλυσης δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Θα κατανοήσετε πώς η Επιστήμη Δεδομένων χρησιμοποιεί αλγορίθμους για την εξαγωγή πληροφοριών από μεγάλα σύνολα δεδομένων και τη λήψη αποφάσεων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "tl7LLmiNO1e5PBS490IbV",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Digital Transformation / AI & ChatGPT for HR",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Εφαρμογές ψηφιακής τεχνολογίας και AI στο HR.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να αξιοποιείτε την τεχνολογία και να βελτιώνετε την αποδοτικότητα των HR λειτουργιών.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "kiXwRiybYwJbFoI0HKPLT",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Talent Acquisition & Recruitment",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Στρατηγικές πρόσληψης και προσέλκυσης ταλέντων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να επιλέγετε τους κατάλληλους υποψήφιους και να δημιουργείτε μια ισχυρή ομάδα.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "56SnkFxszM8dZrE50kJlss",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": " Διοίκηση & Ανάπτυξη Ανθρώπινου Δυναμικού (HR Administration & Development)",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικές διαδικασίες διαχείρισης και ανάπτυξης ανθρώπινου δυναμικού.\n",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να οργανώνετε καλύτερα το HR και να υποστηρίζετε την εξέλιξη των εργαζομένων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "7pcBn9SVt54DLZs3VZTFQ5",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "HR Analytics & Data-Driven Decision Making",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Ανάλυση HR δεδομένων και λήψη αποφάσεων βάσει δεδομένων.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να βελτιώνετε τις HR διαδικασίες και να προβλέπετε τάσεις μέσω ανάλυσης δεδομένων.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "6cagzWeN5a1KISlty0Rtm5",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "HR Metrics",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Βασικά HR metrics και μεθόδους αξιολόγησης απόδοσης.",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να ποσοτικοποιείτε την αξία του HR και να υποστηρίζετε τις αποφάσεις με δεδομένα.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "31WbsQE6o0U0isufpuVQ2r",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Human Resource Management (HRM)",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Θεμελιώδεις αρχές και πρακτικές στη διοίκηση ανθρώπινου δυναμικού.\n",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να αποκτήσετε μια ολοκληρωμένη κατανόηση του HRM και των αρμοδιοτήτων του σύγχρονου HR.\n",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "153cpBZdYEODKbrHHBmMOK",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": null,
-      "title": "Learning & Development (L&D)",
-      "column1Title": "Τι θα μάθετε:",
-      "column1Text": "Σχεδιασμό και υλοποίηση προγραμμάτων εκπαίδευσης και ανάπτυξης.\n",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να υποστηρίζετε τη συνεχή εξέλιξη των εργαζομένων και να ενισχύετε την παραγωγικότητα.",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "JJTk6ACSVbEWWmDHmWijo",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Στρατηγική Ανθρώπινου Δυναμικού (Human Resource Strategy)",
-      "column1Title": "Τι θα μάθετε: ",
-      "column1Text": "Πώς να διαμορφώνετε και να ευθυγραμμίζετε τη στρατηγική HR με τους επιχειρηματικούς στόχους.\n",
-      "column2Title": "Γιατί το χρειάζεστε:",
-      "column2Text": "Για να διασφαλίζετε ότι οι πρωτοβουλίες HR συμβάλλουν στην επιτυχία του οργανισμού.\n",
-      "topNotes": null,
-      "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "21uLNzkuZspVh6otpFO0aY",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "data": {},
-          "content": [
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": " Η βιωματική μάθηση είναι αποδεδειγμένα πιο αποτελεσματική από τη θεωρία. Το Role-Playing Training προσφέρει:",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ],
-                          "value": "Ενεργή συμμετοχή",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", που ενισχύει την αφομοίωση των γνώσεων.",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ],
-                          "value": "Προσαρμοσμένα σενάρια",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", που βοηθούν στην ανάπτυξη κρίσιμων επαγγελματικών δεξιοτήτων.",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                },
-                {
-                  "data": {},
-                  "content": [
-                    {
-                      "data": {},
-                      "content": [
-                        {
-                          "data": {},
-                          "marks": [
-                            {
-                              "type": "bold"
-                            }
-                          ],
-                          "value": "Άμεσο feedback",
-                          "nodeType": "text"
-                        },
-                        {
-                          "data": {},
-                          "marks": [],
-                          "value": ", ώστε οι χρήστες να βελτιώνονται σε πραγματικό χρόνο.\n Γι' αυτό το Workearly αξιοποιεί το Role-Playing Training, παρέχοντας την πιο σύγχρονη και αποτελεσματική μέθοδο μάθησης.",
-                          "nodeType": "text"
-                        }
-                      ],
-                      "nodeType": "paragraph"
-                    }
-                  ],
-                  "nodeType": "list-item"
-                }
-              ],
-              "nodeType": "unordered-list"
-            },
-            {
-              "data": {},
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "paragraph"
-            }
-          ],
-          "nodeType": "document"
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Γιατί με το Role-Playing Training μαθαίνω καλύτερα;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []
@@ -11673,1056 +12915,6 @@
       "column2Text": null,
       "topNotes": null,
       "skipNumber": false,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "SfoYkU3wkLn7Y10Lwpbq2",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Ναι. Το Workearly προσαρμόζει το υλικό στο επίπεδό σου.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Αν είσαι αρχάριος, θα λάβεις επιπλέον επεξηγήσεις και βασικά concepts.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Αν έχεις ήδη γνώσεις, θα έχεις πιο προχωρημένο υλικό και εξειδικευμένες προκλήσεις.\n Έτσι, ανεξάρτητα από το επίπεδό σου, θα έχεις την ιδανική εκπαιδευτική εμπειρία.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Μπορώ να κάνω το course είτε είμαι αρχάριος είτε έχω κάποιο επίπεδο;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1eTJOYtXnQpecZvsrnTI70",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Φυσικά. Η ομάδα του Workearly είναι διαρκώς διαθέσιμη για υποστήριξη μέσω:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Live chat",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Q&A sessions με εκπαιδευτές",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "1-on-1 career coaching\n Δεν είσαι ποτέ μόνος σου στη διαδικασία μάθησης.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Υπάρχει support στο course και με ποια μορφή;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "6HId8era7rOxwM67TctGDf",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Ναι, αλλά η εμπειρία είναι ευέλικτη. Ανάλογα με την απόδοσή σου, το υλικό που βλέπεις προσαρμόζεται στις ανάγκες σου. Αυτό σημαίνει ότι εστιάζεις περισσότερο στα σημεία που χρειάζεσαι και λιγότερο σε όσα ήδη γνωρίζεις.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Πρέπει να παρακολουθήσω όλο το course για να πάρω την πιστοποίηση;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "4PnbkwZeukh0JwZFsAtnzH",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Ναι, όλα τα courses είναι πλήρως διαδικτυακά, ώστε να μπορείς να τα παρακολουθήσεις από οπουδήποτε και όποτε θέλεις.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "\n",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Είναι μόνο online η εκπαίδευση;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "iPtUb1lm1B67Tm1JovOaE",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Ναι. Το Workearly χρησιμοποιεί Microlearning, μια μέθοδο όπου μπορείς να ολοκληρώνεις μικρά tasks καθημερινά, ακόμα κι αν έχεις μόνο δέκα λεπτά διαθέσιμα. Επιπλέον, μπορείς να διαμορφώσεις το πρόγραμμά σου:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Full-time",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Part-time",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Pause & Resume όταν χρειαστεί\n Έτσι, το μάθημα προσαρμόζεται στον ρυθμό σου. ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Θα προλαβαίνω να παρακολουθώ το course του Workearly;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1yxdcgrlqCEl5UJvVQkD45",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Πολλές.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Σύνδεση με Hiring Partners – Οι εταιρείες λαμβάνουν τα βιογραφικά των αποφοίτων.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Συνεργασίες και projects – Μέσα στα courses γίνονται ομαδικές εργασίες που ενισχύουν τη συνεργασία.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Networking events και κοινότητα – Το Workearly έχει την πιο δυναμική κοινότητα επαγγελματιών στην Ελλάδα, δίνοντάς σου πρόσβαση σε ένα δίκτυο ανθρώπων με κοινά ενδιαφέροντα.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Υπάρχουν ευκαιρίες δικτύωσης;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "73cqwWfdFOA9cMU4c5UgDH",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Το Workearly συνεργάζεται με περισσότερες από χίλιες εταιρείες που αναζητούν εξειδικευμένους επαγγελματίες. Οι Hiring Partners λαμβάνουν απευθείας τα βιογραφικά των αποφοίτων μας, ενώ λαμβάνουν και feedback για την απόδοσή τους στα courses. Αυτή η σύνδεση με την αγορά εργασίας δίνει στους αποφοίτους μας ένα σημαντικό πλεονέκτημα στις προσλήψεις.\n",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Τι είναι οι Hiring Partners του Workearly;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2QGPMkL6aUo8J8C35OgmcD",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Ναι. Οι πιστοποιήσεις του Workearly είναι διεθνώς αναγνωρισμένες και συνεργαζόμαστε με κορυφαίους φορείς όπως:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "HRCI (Παγκόσμιο Ινστιτούτο Πιστοποιήσεων HR)",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "DATAIA του Πανεπιστημίου Paris-Saclay",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Microsoft Global Skills Initiative",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "\n Η πιστοποίησή σας δεν είναι απλώς ένα χαρτί, αλλά μια απόδειξη των hard skills που θα αποκτήσετε και που οι εργοδότες πραγματικά εκτιμούν. ",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Είναι αναγνωρισμένη η πιστοποίηση που προσφέρει το Workearly;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "SSEo2GbQQo4MapwqFmp2U",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Το Workearly δεν υπόσχεται απλά μια πιστοποίηση – υπόσχεται ουσιαστικές δεξιότητες που κάνουν τη διαφορά.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Μέσω των Hiring Partners, τα βιογραφικά των αποφοίτων μας φτάνουν σε δεκάδες κορυφαίες εταιρείες.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Οι εκπαιδευόμενοι αποκτούν όλα τα skills που χρειάζονται για να περάσουν τεχνικές συνεντεύξεις και να διεκδικήσουν ενεργά θέσεις εργασίας.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Πολλοί απόφοιτοι βρίσκουν δουλειά πριν καν ολοκληρώσουν το πρόγραμμα.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Θα μου βρείτε σίγουρα δουλειά;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1PXvaehygWdiDKiJiK0i3s",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": " Το Workearly είναι για όλους.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Φοιτητές που θέλουν να αποκτήσουν πρακτικές δεξιότητες και να ενισχύσουν το βιογραφικό τους.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Επαγγελματίες που αναζητούν εξειδίκευση, reskilling ή αλλαγή καριέρας.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Στελέχη επιχειρήσεων που θέλουν να αναπτύξουν τις γνώσεις τους σε τομείς όπως Data Science, HR, Tech και Business.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Οποιονδήποτε επιθυμεί να αποκτήσει skills υψηλής ζήτησης και να ξεχωρίσει στην αγορά εργασίας.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Σε ποιους απευθύνεται το Workearly;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1a0THIOSHIwSxrFwjzctVW",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": " Το Workearly διαφέρει σε τρία βασικά σημεία:",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "unordered-list",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Εξατομίκευση: Κανένα course δεν είναι ίδιο για όλους. Οι αλγοριθμοι μας διαμορφώνουν το υλικό ανάλογα με το προφίλ και τις ανάγκες κάθε χρήστη.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Real-World Learning: Όλα τα προγράμματά μας εστιάζουν σε πρακτικά skills και όχι μόνο θεωρία.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "nodeType": "list-item",
-                  "data": {},
-                  "content": [
-                    {
-                      "nodeType": "paragraph",
-                      "data": {},
-                      "content": [
-                        {
-                          "nodeType": "text",
-                          "value": "Σύνδεση με την αγορά εργασίας: Οι απόφοιτοί μας λαμβάνουν υποστήριξη για την επαγγελματική τους αποκατάσταση και δικτυώνονται με εταιρείες που αναζητούν εξειδικευμένο προσωπικό.\nΕίμαστε η μοναδική ελληνική εκπαιδευτική πλατφόρμα που προσφέρει τόσο εξατομικευμένη και δυναμική εμπειρία μάθησης.",
-                          "marks": [],
-                          "data": {}
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Ποια είναι η διαφορά του Workearly από τις υπόλοιπες εκπαιδευτικές πλατφόρμες;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "1304hLhrtkDPwNLYxAOxL9",
-        "__typename": "Sys"
-      },
-      "__typename": "AccordionCard",
-      "text": {
-        "json": {
-          "nodeType": "document",
-          "data": {},
-          "content": [
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "Το Workearly έχει 5 αστέρια στα Google Reviews και αυτό δεν είναι τυχαίο. Η επιτυχία μας βασίζεται σε μια μοναδική μαθησιακή εμπειρία, η οποία προσαρμόζεται στις ανάγκες κάθε εκπαιδευόμενου. Δεν είμαστε απλά μια πλατφόρμα μαθημάτων – είμαστε ένας εκπαιδευτικός οργανισμός που παρέχει εξατομικευμένη εκπαίδευση, hands-on εμπειρίες και ουσιαστική υποστήριξη σε κάθε βήμα. Η ομάδα μας είναι πάντα διαθέσιμη για καθοδήγηση, ενώ το εκπαιδευτικό μας περιεχόμενο εξελίσσεται διαρκώς με βάση το feedback των χρηστών. Γι’ αυτό, οι απόφοιτοί μας όχι μόνο αποκτούν πρακτικές δεξιότητες αλλά και επιστρέφουν για νέα courses.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            }
-          ]
-        },
-        "__typename": "AccordionCardText"
-      },
-      "title": "Γιατί το Workearly έχει τόσες θετικές κριτικές;",
-      "column1Title": null,
-      "column1Text": null,
-      "column2Title": null,
-      "column2Text": null,
-      "topNotes": null,
-      "skipNumber": true,
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []

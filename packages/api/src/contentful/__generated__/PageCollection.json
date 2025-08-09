@@ -1,600 +1,21 @@
 {
-  "__timestamp": 1754732377943,
-  "__hash": "7ffaed8eac484bf238687e741bba6e18f770590f5d0abcbfa27592ff9ad66483",
+  "__timestamp": 1754757147913,
+  "__hash": "4331ebb75b188c7c49df521899d4d4314ba5e128734948c4df7d081621ee818d",
   "total": 204,
   "items": [
     {
       "sys": {
-        "id": "60MCCPUEzfk2wraUslqugb",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Default",
-      "name": "Online seminars with certification. Upgrade your skills with Workearly.          Ask ChatGPT",
-      "features": null,
-      "slug": "home",
-      "seoTitle": "Learn with Role-Playing & Get Certified | Workearly",
-      "seoDescription": "Interactive upskilling through gamified, story-based simulations. Discover your role, master your skills, and certify your future.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "2aG4lmrhAIhK7nFdMC9oYY",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "kPQ7SMFWEeuLxyBjNz80i",
-              "__typename": "Sys"
-            },
-            "__typename": "Composite",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2SFJoLN6gtJkYB6ZJfpIM1",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6NgTniv0ni8j2nxGASzR6s",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4DOAnNip74CpMw91hDBCTo",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
-          "__typename": "EntryCollection"
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "5wSiZMtYoRHypfDY9D2pjW",
+        "id": "4rgG4zVh7TB5APtHXPj366",
         "__typename": "Sys"
       },
       "__typename": "Page",
       "seoImage": null,
       "variant": "Course",
-      "name": "AI Business School",
+      "name": "Startup School",
       "features": null,
-      "slug": "course/ai-business-school",
-      "seoTitle": "AI for Business – Interactive Learning | Workearly",
-      "seoDescription": "Master AI for business via gamified case studies. Learn faster, certify smarter.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryBusinessAnalytics",
-            "name": "Course Category: Business",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "piuUxt12jCR9OFqhg77Dg",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3v7Q94cuPM05B0hBf0DzId",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6w9Bnne3ganbXGQcp2cPFy",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "30eNRHQgnfmBYQJHWuojhD",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6BrNRKWRMu7CgQ65bGaI7T",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2i83Npnm3x2xtYc2l63ybr",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7CFN9tfUOsbJAu9gDRITyk",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6XSp7OtaxVLyv3QGweQm3a",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7hz3m9fcmiF4L4uL48wwVa",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6mQNAEslnqWkLK4cSq2oQM",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
-              "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
-              "id": "1KQw7XlhB0bS0vV0MdWvi0",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "4XZ7ZIQbUd3sqleTjzJ0e5",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "category/ai",
-                      "variant": "Category"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "M0sgJIb4U3q80jPlJSAsl",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course",
-      "name": "AI Marketing Bootcamp",
-      "features": null,
-      "slug": "course/digital-marketing-bootcamp",
-      "seoTitle": "Digital Marketing with Role-Playing | Workearly",
-      "seoDescription": "Master digital marketing through real-case simulations. Learn by doing and earn an industry-recognized certification.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryDigitalMarketing",
-            "name": "Course Category: Digital Marketing",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "Rvl2HuUM702RQs4X7vqKD",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3v7Q94cuPM05B0hBf0DzId",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3JVo2sbD1xgbdZVAfN1dh",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6BrNRKWRMu7CgQ65bGaI7T",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4kSnx03AQ7ZV7WbotEk4Az",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7CFN9tfUOsbJAu9gDRITyk",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7nFfTdaStT9aylcfz9FNxr",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7hz3m9fcmiF4L4uL48wwVa",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "5w3YkChRLuClZY6caVfeLQ",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
-              "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4miqicRYU2DwfLm9tegkJ6",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "0AUuihBDF5WvvziTYF9KK",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "4miqicRYU2DwfLm9tegkJ6",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "category/digital-marketing",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/digital-marketing-bootcamp",
-                      "variant": "Course"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "6H1pVq9Bnxjo7P2sbS5g15",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course",
-      "name": "HR Bootcamp",
-      "features": null,
-      "slug": "course/hr-bootcamp",
-      "seoTitle": "HR Certification with Interactive Training | Workearly",
-      "seoDescription": "Get SHRM-ready with HR scenarios inspired by real-world cases, sports & cinema. Gamified & hands-on.",
+      "slug": "course/startup-school",
+      "seoTitle": "Startup School | Workearly",
+      "seoDescription": "unch your startup with confidence through expert-led validation, design, and build, using hands-on projects and a proven framework.",
       "theme": "Dark",
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
@@ -611,7 +32,7 @@
         "items": [
           {
             "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -622,21 +43,10 @@
           },
           {
             "sys": {
-              "id": "4tuydrKXZoFoiaYHGdB5dI",
+              "id": "2rQOYoky5c3Q5F6uePEeAm",
               "__typename": "Sys"
             },
             "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -655,29 +65,7 @@
           },
           {
             "sys": {
-              "id": "54l1W30N48pk8qXGdXYsqI",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1TgPxUK7FdzzfKzrdqHuwG",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2GrWnkwQEohE2quOPFrCQX",
+              "id": "xn6aBqJNZ5heatJwdd49C",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -689,6 +77,17 @@
           {
             "sys": {
               "id": "6BrNRKWRMu7CgQ65bGaI7T",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1DSO3kMmaSMtutY1SgTIg1",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -721,7 +120,7 @@
           },
           {
             "sys": {
-              "id": "4nDv7IfdVOcO4AYeinxluJ",
+              "id": "4oLP1CANy9BEl7r9sVMocS",
               "__typename": "Sys"
             },
             "__typename": "CourseDetails",
@@ -743,58 +142,7 @@
           },
           {
             "sys": {
-              "id": "yhIQWw5F26g3nZpwuW8lI",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
               "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7ny4Y1tSjlj9ABPnG58ibB",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "34hsYpzTLQ85XMmqWB15Nj",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -808,39 +156,8 @@
       "linkedFrom": {
         "__typename": "PageLinkingCollections",
         "entryCollection": {
-          "__typename": "EntryCollection",
-          "items": [
-            {
-              "sys": {
-                "id": "7ny4Y1tSjlj9ABPnG58ibB",
-                "__typename": "Sys"
-              },
-              "__typename": "Section",
-              "linkedFrom": {
-                "__typename": "SectionLinkingCollections",
-                "pageCollection": {
-                  "__typename": "PageCollection",
-                  "items": [
-                    {
-                      "__typename": "Page",
-                      "slug": "category/human-resources",
-                      "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/hr-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/startup-school",
-                      "variant": "Course"
-                    }
-                  ]
-                }
-              }
-            }
-          ]
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -873,7 +190,7 @@
         "items": [
           {
             "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -888,17 +205,6 @@
               "__typename": "Sys"
             },
             "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -1014,33 +320,9 @@
               "tags": []
             }
           },
-          null,
           {
             "sys": {
               "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
-              "id": "1KQw7XlhB0bS0vV0MdWvi0",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -1082,6 +364,386 @@
     },
     {
       "sys": {
+        "id": "6H1pVq9Bnxjo7P2sbS5g15",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course",
+      "name": "HR Bootcamp",
+      "features": null,
+      "slug": "course/hr-bootcamp",
+      "seoTitle": "HR Certification with Interactive Training | Workearly",
+      "seoDescription": "Get SHRM-ready with HR scenarios inspired by real-world cases, sports & cinema. Gamified & hands-on.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryHr",
+            "name": "Course Category: HR",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4tuydrKXZoFoiaYHGdB5dI",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3v7Q94cuPM05B0hBf0DzId",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1TgPxUK7FdzzfKzrdqHuwG",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2GrWnkwQEohE2quOPFrCQX",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6BrNRKWRMu7CgQ65bGaI7T",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "54l1W30N48pk8qXGdXYsqI",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7CFN9tfUOsbJAu9gDRITyk",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4nDv7IfdVOcO4AYeinxluJ",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7hz3m9fcmiF4L4uL48wwVa",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "yhIQWw5F26g3nZpwuW8lI",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4X92qYWaL5SeWiDCjVLJDu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "7ny4Y1tSjlj9ABPnG58ibB",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "category/human-resources",
+                      "variant": "Category"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "M0sgJIb4U3q80jPlJSAsl",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course",
+      "name": "AI Marketing Bootcamp",
+      "features": null,
+      "slug": "course/digital-marketing-bootcamp",
+      "seoTitle": "Digital Marketing with Role-Playing | Workearly",
+      "seoDescription": "Master digital marketing through real-case simulations. Learn by doing and earn an industry-recognized certification.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryDigitalMarketing",
+            "name": "Course Category: Digital Marketing",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "Rvl2HuUM702RQs4X7vqKD",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3v7Q94cuPM05B0hBf0DzId",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3JVo2sbD1xgbdZVAfN1dh",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6BrNRKWRMu7CgQ65bGaI7T",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4kSnx03AQ7ZV7WbotEk4Az",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7CFN9tfUOsbJAu9gDRITyk",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7nFfTdaStT9aylcfz9FNxr",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7hz3m9fcmiF4L4uL48wwVa",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "5w3YkChRLuClZY6caVfeLQ",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4X92qYWaL5SeWiDCjVLJDu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "4miqicRYU2DwfLm9tegkJ6",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "category/digital-marketing",
+                      "variant": "Category"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
         "id": "b52aCJfDG0Iv3sFm0LtYD",
         "__typename": "Sys"
       },
@@ -1109,7 +771,7 @@
         "items": [
           {
             "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -1124,17 +786,6 @@
               "__typename": "Sys"
             },
             "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
             "contentfulMetadata": {
               "__typename": "ContentfulMetadata",
               "tags": []
@@ -1250,33 +901,9 @@
               "tags": []
             }
           },
-          null,
           {
             "sys": {
               "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
-              "id": "5BRYQ4jLlMIbl372fT6Uaq",
               "__typename": "Sys"
             },
             "__typename": "Section",
@@ -1313,6 +940,304 @@
               }
             }
           ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "5wSiZMtYoRHypfDY9D2pjW",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Course",
+      "name": "AI Business School",
+      "features": null,
+      "slug": "course/ai-business-school",
+      "seoTitle": "AI for Business – Interactive Learning | Workearly",
+      "seoDescription": "Master AI for business via gamified case studies. Learn faster, certify smarter.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": [
+          {
+            "id": "courseCategoryBusinessAnalytics",
+            "name": "Course Category: Business",
+            "__typename": "ContentfulTag"
+          }
+        ]
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "piuUxt12jCR9OFqhg77Dg",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "3v7Q94cuPM05B0hBf0DzId",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6w9Bnne3ganbXGQcp2cPFy",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "30eNRHQgnfmBYQJHWuojhD",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6BrNRKWRMu7CgQ65bGaI7T",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2i83Npnm3x2xtYc2l63ybr",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7CFN9tfUOsbJAu9gDRITyk",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "1nbT06jkyAbuXHhdRPuy9O",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6XSp7OtaxVLyv3QGweQm3a",
+              "__typename": "Sys"
+            },
+            "__typename": "CourseDetails",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "7hz3m9fcmiF4L4uL48wwVa",
+              "__typename": "Sys"
+            },
+            "__typename": "ContentTypeRichText",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6mQNAEslnqWkLK4cSq2oQM",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4X92qYWaL5SeWiDCjVLJDu",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "__typename": "EntryCollection",
+          "items": [
+            {
+              "sys": {
+                "id": "4XZ7ZIQbUd3sqleTjzJ0e5",
+                "__typename": "Sys"
+              },
+              "__typename": "Section",
+              "linkedFrom": {
+                "__typename": "SectionLinkingCollections",
+                "pageCollection": {
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "category/ai",
+                      "variant": "Category"
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "60MCCPUEzfk2wraUslqugb",
+        "__typename": "Sys"
+      },
+      "__typename": "Page",
+      "seoImage": null,
+      "variant": "Default",
+      "name": "Online seminars with certification. Upgrade your skills with Workearly.          Ask ChatGPT",
+      "features": null,
+      "slug": "home",
+      "seoTitle": "Learn with Role-Playing & Get Certified | Workearly",
+      "seoDescription": "Interactive upskilling through gamified, story-based simulations. Discover your role, master your skills, and certify your future.",
+      "theme": "Dark",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "contentCollection": {
+        "__typename": "PageContentCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "2aG4lmrhAIhK7nFdMC9oYY",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4EFR5KmUL3Df3ue1Hcnlwy",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "kPQ7SMFWEeuLxyBjNz80i",
+              "__typename": "Sys"
+            },
+            "__typename": "Composite",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "2SFJoLN6gtJkYB6ZJfpIM1",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "6NgTniv0ni8j2nxGASzR6s",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          },
+          {
+            "sys": {
+              "id": "4DOAnNip74CpMw91hDBCTo",
+              "__typename": "Sys"
+            },
+            "__typename": "Section",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      },
+      "linkedFrom": {
+        "__typename": "PageLinkingCollections",
+        "entryCollection": {
+          "items": [],
+          "__typename": "EntryCollection"
         }
       }
     },
@@ -1789,237 +1714,6 @@
               "__typename": "Action"
             }
           ],
-          "__typename": "EntryCollection"
-        }
-      }
-    },
-    {
-      "sys": {
-        "id": "4rgG4zVh7TB5APtHXPj366",
-        "__typename": "Sys"
-      },
-      "__typename": "Page",
-      "seoImage": null,
-      "variant": "Course",
-      "name": "Startup School",
-      "features": null,
-      "slug": "course/startup-school",
-      "seoTitle": "Απόκτησε Πιστοποίηση HR - Ολοκληρωμένο Πρόγραμμα Human Resources",
-      "seoDescription": "Αποκτήστε ολοκληρωμένη επαγγελματική πιστοποίηση HR μέσω του εντατικού bootcamp μας. Προετοιμαστείτε για επαγγελματικές εξετάσεις πιστοποίησης HR.",
-      "theme": "Dark",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": [
-          {
-            "id": "courseCategoryHr",
-            "name": "Course Category: HR",
-            "__typename": "ContentfulTag"
-          }
-        ]
-      },
-      "contentCollection": {
-        "__typename": "PageContentCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5wtlCwUhjiVgCTQDy2t6OH",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4tuydrKXZoFoiaYHGdB5dI",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1FxAGERaPIKPEb1S0ygZRb",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "3v7Q94cuPM05B0hBf0DzId",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "54l1W30N48pk8qXGdXYsqI",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1TgPxUK7FdzzfKzrdqHuwG",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2GrWnkwQEohE2quOPFrCQX",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "6BrNRKWRMu7CgQ65bGaI7T",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7CFN9tfUOsbJAu9gDRITyk",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "1nbT06jkyAbuXHhdRPuy9O",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "4nDv7IfdVOcO4AYeinxluJ",
-              "__typename": "Sys"
-            },
-            "__typename": "CourseDetails",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7hz3m9fcmiF4L4uL48wwVa",
-              "__typename": "Sys"
-            },
-            "__typename": "ContentTypeRichText",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "yhIQWw5F26g3nZpwuW8lI",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          null,
-          {
-            "sys": {
-              "id": "4X92qYWaL5SeWiDCjVLJDu",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "2lPUdFLT8BUhFdrEG8vTNI",
-              "__typename": "Sys"
-            },
-            "__typename": "UniqueComponent",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          },
-          {
-            "sys": {
-              "id": "7ny4Y1tSjlj9ABPnG58ibB",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": [
-                {
-                  "id": "courseCategoryHr",
-                  "name": "Course Category: HR",
-                  "__typename": "ContentfulTag"
-                }
-              ]
-            }
-          },
-          {
-            "sys": {
-              "id": "34hsYpzTLQ85XMmqWB15Nj",
-              "__typename": "Sys"
-            },
-            "__typename": "Section",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      },
-      "linkedFrom": {
-        "__typename": "PageLinkingCollections",
-        "entryCollection": {
-          "items": [],
           "__typename": "EntryCollection"
         }
       }
@@ -7001,11 +6695,6 @@
                       "__typename": "Page",
                       "slug": "category/data-science",
                       "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/data-analyst-bootcamp",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -7123,16 +6812,6 @@
                       "__typename": "Page",
                       "slug": "category/human-resources",
                       "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/hr-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/startup-school",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -7379,11 +7058,6 @@
                       "__typename": "Page",
                       "slug": "category/data-science",
                       "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/data-analyst-bootcamp",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -7507,16 +7181,6 @@
                       "__typename": "Page",
                       "slug": "reskilling/project-manager",
                       "variant": "Job"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/project-management-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/ai-business-school",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -9812,11 +9476,6 @@
                       "__typename": "Page",
                       "slug": "category/digital-marketing",
                       "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/digital-marketing-bootcamp",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -10520,16 +10179,6 @@
                       "__typename": "Page",
                       "slug": "category/human-resources",
                       "variant": "Category"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/hr-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/startup-school",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -16336,11 +15985,6 @@
                       "__typename": "Page",
                       "slug": "course/hr-bootcamp",
                       "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/startup-school",
-                      "variant": "Course"
                     }
                   ]
                 }
@@ -17745,8 +17389,14 @@
               "linkedFrom": {
                 "__typename": "SectionLinkingCollections",
                 "pageCollection": {
-                  "items": [],
-                  "__typename": "PageCollection"
+                  "__typename": "PageCollection",
+                  "items": [
+                    {
+                      "__typename": "Page",
+                      "slug": "course/startup-school",
+                      "variant": "Course"
+                    }
+                  ]
                 }
               }
             }
@@ -18180,11 +17830,6 @@
                     {
                       "__typename": "Page",
                       "slug": "course/hr-bootcamp",
-                      "variant": "Course"
-                    },
-                    {
-                      "__typename": "Page",
-                      "slug": "course/startup-school",
                       "variant": "Course"
                     }
                   ]
