@@ -17,8 +17,8 @@ export function getOrgSchema(): WithContext<EducationalOrganization> {
     "@context": "https://schema.org",
     "@type": "EducationalOrganization",
     name: "Workearly",
-    url: "https://www.workearly.gr/",
-    logo: "https://www.workearly.gr/favicons/apple-touch-icon-180x180.png",
+    url: "https://www.workearly.com/",
+    logo: "https://www.workearly.com/favicons/apple-touch-icon-180x180.png",
     description:
       "Workearly offers cutting-edge upskilling programs in Data Science, Business, HR, Finance, Marketing, Artificial Intelligence, Soft Skills, IT, and Sports.",
     contactPoint: [
@@ -60,12 +60,12 @@ export function getOrgSchema(): WithContext<EducationalOrganization> {
       "https://www.instagram.com/workearly.gr",
       "https://www.linkedin.com/company/workearlygr/",
     ],
-    hasMap: "https://www.workearly.gr/contact",
+    hasMap: "https://www.workearly.com/contact",
   };
 }
 
 export function getCourseSchema(
-  courseDetails: QueryItem["CourseDetails"]
+  courseDetails: QueryItem["CourseDetails"],
 ): WithContext<Course> {
   return {
     "@context": "https://schema.org",
@@ -78,7 +78,7 @@ export function getCourseSchema(
 }
 
 export function getBreadcrumbsSchema(
-  items: Array<{ name: string; href?: string }>
+  items: Array<{ name: string; href?: string }>,
 ): WithContext<BreadcrumbList> {
   return {
     "@context": "https://schema.org",
@@ -98,7 +98,7 @@ export function getCourseListSchema(
   router: NextRouter,
   details: QueryItem["CategoryOrJobDetails"],
   pages: Array<QueryItem["Page"]>,
-  relationshipMap: RelationshipMap
+  relationshipMap: RelationshipMap,
 ): WithContext<ItemList> {
   return {
     "@context": "https://schema.org",
@@ -148,7 +148,7 @@ export function getCourseListSchema(
 }
 
 export function getFaqSchema(
-  cards: QueryItem["AccordionCard"][]
+  cards: QueryItem["AccordionCard"][],
 ): WithContext<FAQPage> {
   return {
     "@context": "https://schema.org",

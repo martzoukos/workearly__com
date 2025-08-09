@@ -5,6 +5,30 @@
   "items": [
     {
       "sys": {
+        "id": "3lzfqWpy8QqxDuzSpAEd8z",
+        "__typename": "Sys"
+      },
+      "__typename": "Action",
+      "icon": null,
+      "name": "Make an Inquire",
+      "features": null,
+      "dynamicActionType": null,
+      "external": null,
+      "iconPlacement": "Right",
+      "colorScheme": "Black",
+      "variant": "Solid",
+      "behaviour": "Wrap",
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "internal": {
+        "__typename": "Page",
+        "slug": "contact"
+      }
+    },
+    {
+      "sys": {
         "id": "3wTeghKyBD15nDAeCucKUH",
         "__typename": "Sys"
       },
@@ -166,30 +190,6 @@
       "internal": {
         "__typename": "Page",
         "slug": "blog"
-      }
-    },
-    {
-      "sys": {
-        "id": "3lzfqWpy8QqxDuzSpAEd8z",
-        "__typename": "Sys"
-      },
-      "__typename": "Action",
-      "icon": null,
-      "name": "Επικοινωνήστε Μαζί Μας",
-      "features": null,
-      "dynamicActionType": null,
-      "external": null,
-      "iconPlacement": "Right",
-      "colorScheme": "Black",
-      "variant": "Solid",
-      "behaviour": "Wrap",
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "internal": {
-        "__typename": "Page",
-        "slug": "contact"
       }
     },
     {

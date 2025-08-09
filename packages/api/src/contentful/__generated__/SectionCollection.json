@@ -5484,56 +5484,6 @@
     },
     {
       "sys": {
-        "id": "7ca5Mi38ZqydZmM3MKH2pd",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "assetsCollection": {
-        "items": [],
-        "__typename": "AssetCollection"
-      },
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Έτοιμοι για το επόμενο βήμα;",
-      "supertitle": null,
-      "text": "Ανακαλύψτε πώς το Workearly μπορεί να εξελίξει την πορεία της εταιρείας σας. Επικοινωνήστε μαζί μας και ένα μέλος της ομάδας μας θα προγραμματίσει άμεσα ένα εξατομικευμένο demo, προσαρμοσμένο στις δικές σας ανάγκες.",
-      "titleSize": "h2",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": null,
-      "cardTheme": null,
-      "variant": "Card Grid",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "actionsCollection": {
-        "__typename": "SectionActionsCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "3lzfqWpy8QqxDuzSpAEd8z",
-              "__typename": "Sys"
-            },
-            "__typename": "Action",
-            "contentfulMetadata": {
-              "__typename": "ContentfulMetadata",
-              "tags": []
-            }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
         "id": "446rCt9yl7MLjojCgbQo1M",
         "__typename": "Sys"
       },

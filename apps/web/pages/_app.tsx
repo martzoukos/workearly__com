@@ -23,7 +23,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
           title: "Home | Workearly",
           images: [
             {
-              url: "https://www.workearly.gr/images/og-image.png",
+              url: "https://www.workearly.com/images/og-image.png",
               width: 1200,
               height: 630,
             },
