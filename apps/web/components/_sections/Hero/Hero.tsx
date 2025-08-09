@@ -1,4 +1,5 @@
 import ActionButton from "@/components/ActionButton";
+import CertificationProviders from "@/components/CertificationProviders";
 import Media from "@/components/Media";
 import Shell from "@/components/Shell";
 import Text from "@/components/Text";
@@ -36,6 +37,7 @@ export default function Hero({ section, className }: PropsType) {
           {section.title}
         </Text>
         <Text size={"h6"}>{section.text}</Text>
+        <CertificationProviders />
         {actions.length > 0 && (
           <div className={styles.actions}>
             {actions.map((action) => (
