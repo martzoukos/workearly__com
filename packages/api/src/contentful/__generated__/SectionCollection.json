@@ -1,8 +1,255 @@
 {
-  "__timestamp": 1754586119324,
-  "__hash": "bb9e094269ee071c472b3118b6f68e82b7981bcbaf9204cf898d3d12bb30640b",
+  "__timestamp": 1754732383519,
+  "__hash": "8b7b0a19df02794bca95d90a388eca59630e0bd9ebfd40d287f3b9d04a6eaf58",
   "total": 353,
   "items": [
+    {
+      "sys": {
+        "id": "4EFR5KmUL3Df3ue1Hcnlwy",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "actionsCollection": {
+        "items": [],
+        "__typename": "SectionActionsCollection"
+      },
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Affiliated with Industry Leaders",
+      "supertitle": null,
+      "text": null,
+      "titleSize": "h6",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": 4,
+      "cardTheme": null,
+      "variant": "Logo Showcase",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "assetsCollection": {
+        "__typename": "AssetCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "4fXXp5f9Inpl62oPiyRccf",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/4fXXp5f9Inpl62oPiyRccf/ac6f121fbdecc92901ec48bb9ac5645c/jobscentral-learning.webp",
+            "width": 510,
+            "height": 138,
+            "contentType": "image/webp",
+            "title": "jobscentral-learning",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "7yGtHkFXIqat6SohkydXOB",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/7yGtHkFXIqat6SohkydXOB/ffa232587b1f4588046fc8f9fa7871ce/berlin-partner.webp",
+            "width": 800,
+            "height": 270,
+            "contentType": "image/webp",
+            "title": "berlin-partner",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "4Wgxwg1z0VyvOqKSLIg2gA",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/4Wgxwg1z0VyvOqKSLIg2gA/9032477ae8f72d9767b2a7c672dd5dbd/regionalna-izba-gospodarcza-pomorza.webp",
+            "width": 723,
+            "height": 284,
+            "contentType": "image/webp",
+            "title": "regionalna-izba-gospodarcza-pomorza",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "1ZXdkX0dcvo1K8JWpgJJZi",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/1ZXdkX0dcvo1K8JWpgJJZi/9201926dfec8d2de780091c9358fe142/karieragroup.webp",
+            "width": 1099,
+            "height": 163,
+            "contentType": "image/webp",
+            "title": "karieragroup",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "RaYmZhKN9UM4sNJVJgWgt",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/RaYmZhKN9UM4sNJVJgWgt/2de0c794f05aeef895d9b651d5ea07cd/ceeman.webp",
+            "width": 888,
+            "height": 571,
+            "contentType": "image/webp",
+            "title": "ceeman",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "5h4EwbZXye2v6hS6rt1djJ",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/5h4EwbZXye2v6hS6rt1djJ/263cd4af2051537f294d0d7dd8017e5a/public-group.webp",
+            "width": 689,
+            "height": 108,
+            "contentType": "image/webp",
+            "title": "public-group",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "24JPfXv8aKMZbr3KuKs2Y0",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/24JPfXv8aKMZbr3KuKs2Y0/c83fa5506cc744e9e3e1753f813698ae/dataia.webp",
+            "width": 600,
+            "height": 340,
+            "contentType": "image/webp",
+            "title": "dataia",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "6w6SGmSqrzhvJ4EMjeUAc9",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/6w6SGmSqrzhvJ4EMjeUAc9/98e7a698898a8dde784eb017406040d0/european-university-cyprus.webp",
+            "width": 795,
+            "height": 152,
+            "contentType": "image/webp",
+            "title": "european-university-cyprus",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "6EjDqhk6MPpr22p42RqAtW",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/6EjDqhk6MPpr22p42RqAtW/6b1959fa44f47627c6859e30c2f2e820/gsic.webp",
+            "width": 351,
+            "height": 190,
+            "contentType": "image/webp",
+            "title": "gsic",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "5keJwu9eXb0ER0Bi6xCHOa",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/5keJwu9eXb0ER0Bi6xCHOa/cb9ac7240f703022044349f9e6a8a350/ivsz.webp",
+            "width": 258,
+            "height": 72,
+            "contentType": "image/webp",
+            "title": "ivsz",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "3EkI9ONuJh1n3kVfftkpcZ",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/3EkI9ONuJh1n3kVfftkpcZ/d1e2a64ddbaf26b1b62b995c8954410a/cesie.webp",
+            "width": 291,
+            "height": 70,
+            "contentType": "image/webp",
+            "title": "cesie",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "lRiqpiRpT6x5bf228DdUZ",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/lRiqpiRpT6x5bf228DdUZ/4d387ee058602523eebcd53eebc666df/primanova.webp",
+            "width": 461,
+            "height": 64,
+            "contentType": "image/webp",
+            "title": "primanova",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "1VGMPFTKjUfiYvFB4aZ07i",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/1VGMPFTKjUfiYvFB4aZ07i/a5a2889463c222ac8563885eff6624d2/stackfuel.webp",
+            "width": 743,
+            "height": 126,
+            "contentType": "image/webp",
+            "title": "stackfuel",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "1U1pEO9JdoDGpoqORg1XwP",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/1U1pEO9JdoDGpoqORg1XwP/25ec6ac4d7292fa77ce51bc9a721388f/prizztech.webp",
+            "width": 1024,
+            "height": 209,
+            "contentType": "image/webp",
+            "title": "prizztech",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "1KJfDLEdVsEiqUAX8WLrjf",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/1KJfDLEdVsEiqUAX8WLrjf/65986ecb0889a09ced5e5361bc7641df/hdhc.webp",
+            "width": 600,
+            "height": 170,
+            "contentType": "image/webp",
+            "title": "hdhc",
+            "description": null
+          },
+          {
+            "sys": {
+              "id": "3Fph8Hqi3idtUqadKcYLUm",
+              "__typename": "Sys"
+            },
+            "__typename": "Asset",
+            "url": "https://images.ctfassets.net/wnfwmvn24siy/3Fph8Hqi3idtUqadKcYLUm/2d3dd7555011ec4ce3c7253a56320993/centro-sviluppo-creativo-danilo-dolci.webp",
+            "width": 485,
+            "height": 158,
+            "contentType": "image/webp",
+            "title": "centro-sviluppo-creativo-danilo-dolci",
+            "description": null
+          }
+        ]
+      }
+    },
     {
       "sys": {
         "id": "2aG4lmrhAIhK7nFdMC9oYY",
@@ -83,6 +330,56 @@
           {
             "sys": {
               "id": "1zYiNqo19kYoJZYbBg7dS5",
+              "__typename": "Sys"
+            },
+            "__typename": "Action",
+            "contentfulMetadata": {
+              "__typename": "ContentfulMetadata",
+              "tags": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "7ca5Mi38ZqydZmM3MKH2pd",
+        "__typename": "Sys"
+      },
+      "__typename": "Section",
+      "assetsCollection": {
+        "items": [],
+        "__typename": "AssetCollection"
+      },
+      "contentCollection": {
+        "items": [],
+        "__typename": "SectionContentCollection"
+      },
+      "alignment": "Centered",
+      "layout": "Default",
+      "size": "Full",
+      "theme": null,
+      "title": "Ready for the next step?",
+      "supertitle": null,
+      "text": "Discover how Workearly can help advance your company's trajectory. Contact us, and a member of our team will promptly schedule a personalized demo tailored to your specific needs.",
+      "titleSize": "h2",
+      "titleTagOverride": null,
+      "cardVariant": "None",
+      "cardsCount": null,
+      "cardTheme": null,
+      "variant": "Card Grid",
+      "metadata": null,
+      "features": null,
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      },
+      "actionsCollection": {
+        "__typename": "SectionActionsCollection",
+        "items": [
+          {
+            "sys": {
+              "id": "3lzfqWpy8QqxDuzSpAEd8z",
               "__typename": "Sys"
             },
             "__typename": "Action",
@@ -30827,149 +31124,6 @@
               "__typename": "ContentfulMetadata",
               "tags": []
             }
-          }
-        ]
-      }
-    },
-    {
-      "sys": {
-        "id": "4EFR5KmUL3Df3ue1Hcnlwy",
-        "__typename": "Sys"
-      },
-      "__typename": "Section",
-      "actionsCollection": {
-        "items": [],
-        "__typename": "SectionActionsCollection"
-      },
-      "contentCollection": {
-        "items": [],
-        "__typename": "SectionContentCollection"
-      },
-      "alignment": "Centered",
-      "layout": "Default",
-      "size": "Full",
-      "theme": null,
-      "title": "Κορυφαίοι εργοδότες προσλαμβάνουν τους αποφοίτους μας",
-      "supertitle": null,
-      "text": null,
-      "titleSize": "h6",
-      "titleTagOverride": null,
-      "cardVariant": "None",
-      "cardsCount": 4,
-      "cardTheme": null,
-      "variant": "Logo Carousel",
-      "metadata": null,
-      "features": null,
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      },
-      "assetsCollection": {
-        "__typename": "AssetCollection",
-        "items": [
-          {
-            "sys": {
-              "id": "5R5yRycXCj0dzXsieozvj8",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/5R5yRycXCj0dzXsieozvj8/8b8e1797ef7dca15be0129013c103621/Atcom_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Atcom Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "50jQe1661nAZRoYsrWSrDW",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/50jQe1661nAZRoYsrWSrDW/39da14658bf25216598fc22a9139bed2/Interamerican_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Interamerican Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "3CZcuB8AZjoQjy3GdcVYmb",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/3CZcuB8AZjoQjy3GdcVYmb/2a5911eafee801f0a4f8cc9efee79d47/Douleutaras_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Douleutaras Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "5rdFxorDF2QcmUDNHJcllK",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/5rdFxorDF2QcmUDNHJcllK/ffdf943e0f76540e2c1ba05ede2e9d90/More_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "More Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "ThY3bCs7dH80HfL6OO80g",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/ThY3bCs7dH80HfL6OO80g/d618be38e850c947e75ee9542be8fba5/Doctor_Anytime_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Doctor Anytime Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "6mGvzuAua0CDxoX17xxoId",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/6mGvzuAua0CDxoX17xxoId/72566d64a0b0d743c96a71aa72c41a26/Public_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Public Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "2UluIhp9Rxpu9R7ZELZPAp",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/2UluIhp9Rxpu9R7ZELZPAp/d980a29600ec0253fb4d884f8ffd5d45/Novibet_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Novibet Logo",
-            "description": null
-          },
-          {
-            "sys": {
-              "id": "7M1rqQWF5g4nSIADiDznJa",
-              "__typename": "Sys"
-            },
-            "__typename": "Asset",
-            "url": "https://images.ctfassets.net/wnfwmvn24siy/7M1rqQWF5g4nSIADiDznJa/53fc9d7d86893767457ca322a9df2643/Alpha_Bank_Logo.svg",
-            "width": 170,
-            "height": 96,
-            "contentType": "image/svg+xml",
-            "title": "Alphabank Logo",
-            "description": null
           }
         ]
       }

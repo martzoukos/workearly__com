@@ -1,8 +1,65 @@
 {
-  "__timestamp": 1754582987153,
-  "__hash": "91ff532053ca5cb1b64c27059100d8974ef375ec54a3b080898e30da3937c763",
+  "__timestamp": 1754732384181,
+  "__hash": "dc982f379ba97aca865b23fd79a2e98bc48b9bbdcaa7b61cfecc54ceee28bd7d",
   "total": 3,
   "items": [
+    {
+      "sys": {
+        "id": "2mD5rZq6zbQUnPFp3g7Ucf",
+        "__typename": "Sys"
+      },
+      "__typename": "UniqueComponent",
+      "contentCollection": {
+        "items": [],
+        "__typename": "UniqueComponentContentCollection"
+      },
+      "variant": "Footer",
+      "json": {
+        "footer": [
+          {
+            "link": "/cookies",
+            "title": "Cookies"
+          },
+          {
+            "link": "/terms",
+            "title": "Terms & Conditions"
+          },
+          {
+            "link": "/data-policy",
+            "title": "Data Policy"
+          }
+        ],
+        "columnOne": {
+          "button": {
+            "link": "https://g.co/kgs/scMBg4f",
+            "title": "Review us on Google"
+          },
+          "reviewNumber": "900+"
+        },
+        "columnTwo": {
+          "title": "PAGES",
+          "content": [
+            {
+              "link": "/about",
+              "title": "About Us"
+            },
+            {
+              "link": "/business",
+              "title": "For Businesses"
+            }
+          ]
+        },
+        "socialMedia": {
+          "facebook": "https://www.facebook.com/workearlygr/",
+          "linkedin": "https://www.linkedin.com/company/workearlygr/?",
+          "instagram": "https://www.instagram.com/workearly.gr"
+        }
+      },
+      "contentfulMetadata": {
+        "__typename": "ContentfulMetadata",
+        "tags": []
+      }
+    },
     {
       "sys": {
         "id": "2OD3ypyGyQvtILUH2vsmob",
@@ -72,63 +129,6 @@
           "type": "menu"
         }
       ],
-      "contentfulMetadata": {
-        "__typename": "ContentfulMetadata",
-        "tags": []
-      }
-    },
-    {
-      "sys": {
-        "id": "2mD5rZq6zbQUnPFp3g7Ucf",
-        "__typename": "Sys"
-      },
-      "__typename": "UniqueComponent",
-      "contentCollection": {
-        "items": [],
-        "__typename": "UniqueComponentContentCollection"
-      },
-      "variant": "Footer",
-      "json": {
-        "footer": [
-          {
-            "link": "/cookies",
-            "title": "Cookies"
-          },
-          {
-            "link": "/terms",
-            "title": "Terms & Conditions"
-          },
-          {
-            "link": "/data-policy",
-            "title": "Data Policy"
-          }
-        ],
-        "columnOne": {
-          "button": {
-            "link": "https://g.co/kgs/scMBg4f",
-            "title": "Review us on Google"
-          },
-          "reviewNumber": "900+"
-        },
-        "columnTwo": {
-          "title": "PAGES",
-          "content": [
-            {
-              "link": "/about",
-              "title": "About Us"
-            },
-            {
-              "link": "/business",
-              "title": "For Businesses"
-            }
-          ]
-        },
-        "socialMedia": {
-          "facebook": "https://www.facebook.com/workearlygr/",
-          "linkedin": "https://www.linkedin.com/company/workearlygr/?",
-          "instagram": "https://www.instagram.com/workearly.gr"
-        }
-      },
       "contentfulMetadata": {
         "__typename": "ContentfulMetadata",
         "tags": []

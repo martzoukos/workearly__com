@@ -9,13 +9,49 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.5rem;
+  padding: 3rem;
   border-radius: 0.5rem;
 }
 
 .image {
-  max-width: 100%;
+  max-width: 80%;
+  max-height: 5rem;
   height: auto;
   width: auto;
   object-fit: contain;
+}
+
+@media (width < 1024px) {
+  .root {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .wrapper {
+    padding: 2rem;
+  }
+}
+
+@media (width < 768px) {
+  .wrapper {
+    height: 5rem;
+    padding: 1.5rem;
+  }
+
+  .image {
+    max-width: 90%;
+    height: 100%;
+  }
+}
+
+.slider {
+  .swiper-slide {
+    height: auto;
+  }
+}
+
+.gridSlide {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 0.5rem;
 }
